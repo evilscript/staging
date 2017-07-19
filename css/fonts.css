@@ -1,0 +1,61 @@
+/*Fonts*/
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../media/fonts/Helvetica/HelveticaNeue-Bold.eot');
+    src: url('../media/fonts/Helvetica/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../media/fonts/Helvetica/HelveticaNeue-Bold.woff') format('woff'),
+    url('../media/fonts/Helvetica/HelveticaNeue-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../media/fonts/Helvetica/HelveticaNeue.eot');
+    src: url('../media/fonts/Helvetica/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+    url('../media/fonts/Helvetica/HelveticaNeue.woff') format('woff'),
+    url('../media/fonts/Helvetica/HelveticaNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../media/fonts/Helvetica/HelveticaNeue-Light.eot');
+    src: url('../media/fonts/Helvetica/HelveticaNeue-Light.eot?#iefix') format('embedded-opentype'),
+    url('../media/fonts/Helvetica/HelveticaNeue-Light.woff') format('woff'),
+    url('../media/fonts/Helvetica/HelveticaNeue-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('../media/fonts/Avenir/AvenirNextLTPro-Regular.eot');
+    src: url('../media/fonts/Avenir/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../media/fonts/Avenir/AvenirNextLTPro-Regular.woff') format('woff'),
+    url('../media/fonts/Avenir/AvenirNextLTPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pingfang';
+url('../media/fonts/pingfang/PingFang-Regular.woff') format('woff'),
+url('../media/fonts/pingfang/PingFang-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pingfang';
+url('../media/fonts/pingfang/PingFang-Bold.woff') format('woff'),
+url('../media/fonts/pingfang/PingFang-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pingfang light';
+url('../media/fonts/pingfang/PingFang-Light.woff') format('woff'),
+url('../media/fonts/pingfang/PingFang-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+.hel{font-family: 'Helvetica Neue', Arial, sans-serif;}
+.ave{font-family: 'Avenir Next LT Pro', Arial, sans-serif;}
+.pin{font-family: 'pingfang', 微软雅黑, sans-serif;}
