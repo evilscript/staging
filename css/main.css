@@ -529,7 +529,7 @@ img{
     padding-bottom: 0.5%;
     margin-bottom: 2%;
     margin-left: 35%;
-    width: 22%;
+    width: 23%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: 1px solid #cfcfcf;
@@ -863,6 +863,9 @@ img{
 }
 
 @media (max-width:1600px){
+    .teleText{
+        font-size:14px;
+    }
     .bannerTitle1{
         padding-top:3%;
     }
@@ -904,34 +907,34 @@ img{
         padding-top: 2%;
     }
     .sectionTitle {
-        font-size: 56px;
+        font-size: 52px;
     }
     .sectionText {
-        font-size: 26px;
+        font-size: 24px;
     }
     .iconText {
         font-size: 20px;
     }
     .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .contactTitle {
-        font-size: 56px;
+        font-size: 52px;
     }
     .contactSubTitle {
-        font-size: 26px;
+        font-size: 24px;
     }
     .s6IconText {
         font-size: 14px;
     }
     .subscribeTitle {
-        font-size: 56px;
+        font-size: 52px;
     }
     .subscribeSubTitle {
-        font-size: 26px;
+        font-size: 24px;
     }
     .footerTitle {
-        font-size:16px;
+        font-size:14px;
     }
     .footerText{
         font-size:12px;
@@ -962,7 +965,7 @@ img{
         font-size: 2vw;
     }
     .menuText, .teleText {
-        font-size: 1.1vw;
+        font-size: 1vw;
     }
     .sectionTitle {
         font-size: 4vw;
@@ -995,7 +998,7 @@ img{
         font-size: 1.3vw;
     }
     .footerText, .disclaimer {
-        font-size: 1vw;
+        font-size: 0.85vw;
     }
     .bandButton {
         font-size: 2vw;
@@ -1008,7 +1011,7 @@ img{
         margin-left: 20%;
     }*/
     .footerSitemap .footerTitle {
-        font-size: 1.1vw;
+        font-size: 1vw;
     }
     .bgTitle {
         font-size: 1.3vw;
@@ -1198,7 +1201,7 @@ img{
     .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4,
     .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4,
     .s5iconText1, .s5iconText2, .s5iconText3{
-         font-size: 4vw;
+         font-size: 3.8vw;
          font-weight: 300;
          padding-left: 0;
          margin-bottom: 4%;
@@ -1483,5 +1486,20 @@ img{
         top: 1vw;
         left: 3vw;
         font-size: 5vw;
+    }
+}
+/*Browser fix*/
+@media (min-width:1921px) {
+    .orangeBand {
+        margin-top: -1.7%;
+    }
+    .orangeBand3 {
+        margin-top: -1.6%;
+    }
+    .orangeBandFix4{
+        margin-top: -1.65%;
+    }
+    .orangeBandFix5{
+        margin-top:-1.6%;
     }
 }
