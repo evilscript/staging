@@ -18,10 +18,14 @@
     <script src="js/angular-1.6.4.min.js"></script>
 </head>
 <body ng-app="">
-    <div ng-include="'script.html'"></div>
+
 
     <div class="container1920">
         <div ng-include="'header.html'"></div>
+    </div>
+
+    <div class="container1920">
+        <div data-include="header"></div>
     </div>
 
     <div class="clear clearfix"></div>
@@ -361,6 +365,6 @@
     <div class="clear clearfix"></div>
 
     <div ng-include="'footer.html'"></div>
-
+    <div ng-include="'script.html'"></div>
 </body>
 </html>
