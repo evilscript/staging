@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62456812-e45d-4438-8dd8-cb5ca6d177bb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/band3price.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4Bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4price.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s5Right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s5bandPrice.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerLan.png" afterPath="$PROJECT_DIR$/us/chs/media/images/header/headerLan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerLogin.png" afterPath="$PROJECT_DIR$/us/chs/media/images/header/headerLogin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerSearch.png" afterPath="$PROJECT_DIR$/us/chs/media/images/header/headerSearch.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerTelephone.png" afterPath="$PROJECT_DIR$/us/chs/media/images/header/headerTelephone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/index/contactIcon1.jpg" afterPath="$PROJECT_DIR$/us/chs/media/images/index/contactIcon1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mainBanner.jpg" afterPath="$PROJECT_DIR$/us/chs/media/images/index/mainBanner.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/header.html" afterPath="$PROJECT_DIR$/us/chs/header.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/bannerPriceBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/price.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/priceBand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s2bandBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3BandBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3Right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4BandBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/section2Bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/shared/css/mainEnglish.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/index.html" afterPath="$PROJECT_DIR$/us/chs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/css/main.css" afterPath="$PROJECT_DIR$/us/shared/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/js/main.js" afterPath="$PROJECT_DIR$/us/shared/js/main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,45 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/us/shared/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="799" column="23" lean-forward="true" selection-start-line="799" selection-start-column="23" selection-end-line="799" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/us/chs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/us/shared/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,7 +33,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>orangeBand</find>
       <find>iTalkTV</find>
       <find>media/images/index/s2button.jpg</find>
       <find>bg2</find>
@@ -115,6 +62,7 @@
       <find>bandLeftS4</find>
       <find>contactIcon</find>
       <find>menu4Block</find>
+      <find>bannerPrice</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -255,6 +203,13 @@
               <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -310,17 +265,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17535000" />
+    <option name="totallyTimeSpent" value="17799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -586,11 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2icon1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3icon1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -601,18 +550,148 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/band2Price.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/band3Price.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/band4Price.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/bannerPriceBg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/bannerPriceImg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/bg1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/bgPrice.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/contactArrow.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/contactIcon1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/iconFacebook.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/mainBanner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/mobileClose.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/price.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/priceBand.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/us/shared/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="799" column="23" lean-forward="true" selection-start-line="799" selection-start-column="23" selection-end-line="799" selection-end-column="23" />
+        <state relative-caret-position="127">
+          <caret line="188" column="1" lean-forward="false" selection-start-line="188" selection-start-column="1" selection-end-line="188" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2bandBg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2button.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2icon1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2icon2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2icon3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2icon4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3BandBg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3icon1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3bandPrice.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3Right.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s4BandBg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/section2Bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/us/chs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        <state relative-caret-position="127">
+          <caret line="174" column="18" lean-forward="false" selection-start-line="174" selection-start-column="18" selection-end-line="174" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -622,6 +701,11 @@
             <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/slideMobile.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

@@ -187,13 +187,6 @@ img{
     box-shadow: none;
     text-shadow: none;
 }
-.bannerPrice{
-    background:url("../../chs/media/images/index/bannerPriceBg.png") top center no-repeat;
-    background-size: contain;
-    margin-top: 6%;
-    float:left;
-    width:13%;
-}
 .bannerButton:hover{
     color:white;
     background:#ff7f00;
