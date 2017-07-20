@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62456812-e45d-4438-8dd8-cb5ca6d177bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/script.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/band3price.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4Bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4price.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s5Right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s5bandPrice.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerLan.png" afterPath="$PROJECT_DIR$/us/chs/media/images/header/headerLan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerLogin.png" afterPath="$PROJECT_DIR$/us/chs/media/images/header/headerLogin.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerSearch.png" afterPath="$PROJECT_DIR$/us/chs/media/images/header/headerSearch.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerTelephone.png" afterPath="$PROJECT_DIR$/us/chs/media/images/header/headerTelephone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/index/contactIcon1.jpg" afterPath="$PROJECT_DIR$/us/chs/media/images/index/contactIcon1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mainBanner.jpg" afterPath="$PROJECT_DIR$/us/chs/media/images/index/mainBanner.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/README.md" afterPath="$PROJECT_DIR$/us/chs/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/header.html" afterPath="$PROJECT_DIR$/us/chs/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/index.html" afterPath="$PROJECT_DIR$/us/chs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/css/main.css" afterPath="$PROJECT_DIR$/us/shared/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/js/main.js" afterPath="$PROJECT_DIR$/us/shared/js/main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +37,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/us/shared/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="799" column="23" lean-forward="true" selection-start-line="799" selection-start-column="23" selection-end-line="799" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/us/chs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="252">
+              <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -36,73 +64,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/us/chs/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
-                <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/us/shared/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/us/chs/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-              <folding>
-                <marker date="1500562285672" expanded="true" signature="14821:18319" ph="..." />
-                <marker date="1500562285672" expanded="true" signature="14827:14865" ph="/*...*/" />
-                <marker date="1500562285672" expanded="true" signature="14870:14897" ph="/*...*/" />
-                <marker date="1500562285672" expanded="true" signature="14946:15230" ph="{...}" />
-                <marker date="1500562285672" expanded="true" signature="15237:15283" ph="/*...*/" />
-                <marker date="1500562285672" expanded="true" signature="15323:15632" ph="{...}" />
-                <marker date="1500562285672" expanded="true" signature="15674:15983" ph="{...}" />
-                <marker date="1500562285672" expanded="true" signature="16024:16333" ph="{...}" />
-                <marker date="1500562285672" expanded="true" signature="16371:16680" ph="{...}" />
-                <marker date="1500562285672" expanded="true" signature="16723:17032" ph="{...}" />
-                <marker date="1500562285672" expanded="true" signature="17039:17081" ph="/*...*/" />
-                <marker date="1500562285672" expanded="true" signature="17086:17123" ph="/*...*/" />
-                <marker date="1500562285672" expanded="true" signature="17128:17158" ph="/*...*/" />
-                <marker date="1500562285672" expanded="true" signature="17199:17425" ph="{...}" />
-                <marker date="1500562285672" expanded="true" signature="17432:17465" ph="/*...*/" />
-                <marker date="1500562285672" expanded="true" signature="17503:17724" ph="{...}" />
-                <marker date="1500562285672" expanded="true" signature="17731:17774" ph="/*...*/" />
-                <marker date="1500562285672" expanded="true" signature="17817:18049" ph="{...}" />
-                <marker date="1500562285672" expanded="true" signature="17851:18042" ph="{...}" />
-                <marker date="1500562285672" expanded="true" signature="18056:18102" ph="/*...*/" />
-                <marker date="1500562285672" expanded="true" signature="18144:18262" ph="{...}" />
-                <marker date="1500562285672" expanded="true" signature="18269:18310" ph="/*...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/us/shared/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="552">
+              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>orangeBand</find>
+      <find>iTalkTV</find>
+      <find>media/images/index/s2button.jpg</find>
+      <find>bg2</find>
+      <find>s3icon1</find>
+      <find>knowMoreText</find>
+      <find>orangeBand3</find>
+      <find>s3bandPrice</find>
+      <find>media/images/index/s4Bg.jpg</find>
+      <find>hover</find>
+      <find>bg3</find>
+      <find>iTalkPhone</find>
+      <find>knowMoreText2</find>
+      <find>orangeBandFix4</find>
+      <find>bgPrice3</find>
+      <find>.s5iconText1</find>
+      <find>s4price</find>
+      <find>bg4</find>
+      <find>media/images/index/s5Right.jpg</find>
+      <find>knowMore</find>
+      <find>knowMoreText</find>
+      <find>knowMoreText4s5iconText3</find>
+      <find>container1920 orangeBand4 orangeBand5 orangeBandFix5</find>
+      <find>orangeBand4</find>
+      <find>orangeBand5</find>
+      <find>media/images/index/s5bandPrice.png</find>
+      <find>bandLeftS3</find>
+      <find>bandLeftS4</find>
+      <find>contactIcon</find>
+      <find>menu4Block</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,6 +131,10 @@
         <option value="$PROJECT_DIR$/us/index.html" />
         <option value="$PROJECT_DIR$/us/shared/css/mainEnglish.css" />
         <option value="$PROJECT_DIR$/us/chs/script.html" />
+        <option value="$PROJECT_DIR$/us/chs/header.html" />
+        <option value="$PROJECT_DIR$/us/shared/js/jquery-ui.js" />
+        <option value="$PROJECT_DIR$/us/shared/js/main.js" />
+        <option value="$PROJECT_DIR$/us/shared/css/main.css" />
         <option value="$PROJECT_DIR$/us/chs/index.html" />
       </list>
     </option>
@@ -137,10 +154,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1558" />
-    <option name="y" value="202" />
-    <option name="width" value="1934" />
-    <option name="height" value="1047" />
+    <option name="x" value="1912" />
+    <option name="y" value="32" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -194,6 +211,52 @@
               <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="chs" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="header" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -206,16 +269,18 @@
     <property name="settings.editor.selected.configurable" value="vcs.TFS" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../button效果" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\chs\media\images\index" />
+      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\chs\media\images\images" />
+      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\chs\media\images\header" />
       <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\chs" />
       <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared" />
-      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -245,15 +310,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3854000" />
+    <option name="totallyTimeSpent" value="17535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -261,12 +328,21 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,28 +380,49 @@
         <state relative-caret-position="24">
           <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
           <folding>
-            <marker date="1500562285672" expanded="true" signature="14821:18319" ph="..." />
-            <marker date="1500562285672" expanded="true" signature="14827:14865" ph="/*...*/" />
-            <marker date="1500562285672" expanded="true" signature="14870:14897" ph="/*...*/" />
-            <marker date="1500562285672" expanded="true" signature="14946:15230" ph="{...}" />
-            <marker date="1500562285672" expanded="true" signature="15237:15283" ph="/*...*/" />
-            <marker date="1500562285672" expanded="true" signature="15323:15632" ph="{...}" />
-            <marker date="1500562285672" expanded="true" signature="15674:15983" ph="{...}" />
-            <marker date="1500562285672" expanded="true" signature="16024:16333" ph="{...}" />
-            <marker date="1500562285672" expanded="true" signature="16371:16680" ph="{...}" />
-            <marker date="1500562285672" expanded="true" signature="16723:17032" ph="{...}" />
-            <marker date="1500562285672" expanded="true" signature="17039:17081" ph="/*...*/" />
-            <marker date="1500562285672" expanded="true" signature="17086:17123" ph="/*...*/" />
-            <marker date="1500562285672" expanded="true" signature="17128:17158" ph="/*...*/" />
-            <marker date="1500562285672" expanded="true" signature="17199:17425" ph="{...}" />
-            <marker date="1500562285672" expanded="true" signature="17432:17465" ph="/*...*/" />
-            <marker date="1500562285672" expanded="true" signature="17503:17724" ph="{...}" />
-            <marker date="1500562285672" expanded="true" signature="17731:17774" ph="/*...*/" />
-            <marker date="1500562285672" expanded="true" signature="17817:18049" ph="{...}" />
-            <marker date="1500562285672" expanded="true" signature="17851:18042" ph="{...}" />
-            <marker date="1500562285672" expanded="true" signature="18056:18102" ph="/*...*/" />
-            <marker date="1500562285672" expanded="true" signature="18144:18262" ph="{...}" />
-            <marker date="1500562285672" expanded="true" signature="18269:18310" ph="/*...*/" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#4533#4539#0" expanded="true" />
+            <element signature="e#4877#4883#0" expanded="true" />
+            <element signature="e#5403#5409#0" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#8467#8473#0" expanded="true" />
+            <element signature="e#8473#8479#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#8693#8700#1" expanded="true" />
+            <element signature="e#8993#8999#0" expanded="true" />
+            <element signature="e#8999#9005#0" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#9219#9226#1" expanded="true" />
+            <element signature="e#9434#9440#0" expanded="true" />
+            <element signature="e#9440#9446#0" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#9660#9667#1" expanded="true" />
+            <element signature="e#9875#9881#0" expanded="true" />
+            <element signature="e#9881#9887#0" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#10101#10108#1" expanded="true" />
+            <element signature="e#10343#10349#0" expanded="true" />
+            <element signature="e#10349#10355#0" expanded="true" />
+            <element signature="e#10403#10409#0" expanded="true" />
+            <element signature="e#10409#10415#0" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#10629#10636#1" expanded="true" />
+            <element signature="e#10921#10927#0" expanded="true" />
+            <element signature="e#10927#10933#0" expanded="true" />
+            <element signature="e#10983#10989#0" expanded="true" />
+            <element signature="e#10989#10995#0" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#11209#11216#1" expanded="true" />
+            <element signature="e#11510#11516#0" expanded="true" />
+            <element signature="e#11516#11522#0" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -367,8 +464,155 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/us/chs/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="48">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/css/mainEnglish.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/script.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="419" column="45" lean-forward="false" selection-start-line="419" selection-start-column="45" selection-end-line="419" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#4533#4539#0" expanded="true" />
+            <element signature="e#4877#4883#0" expanded="true" />
+            <element signature="e#5403#5409#0" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#8467#8473#0" expanded="true" />
+            <element signature="e#8473#8479#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#8693#8700#1" expanded="true" />
+            <element signature="e#8993#8999#0" expanded="true" />
+            <element signature="e#8999#9005#0" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#9219#9226#1" expanded="true" />
+            <element signature="e#9434#9440#0" expanded="true" />
+            <element signature="e#9440#9446#0" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#9660#9667#1" expanded="true" />
+            <element signature="e#9875#9881#0" expanded="true" />
+            <element signature="e#9881#9887#0" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#10101#10108#1" expanded="true" />
+            <element signature="e#10343#10349#0" expanded="true" />
+            <element signature="e#10349#10355#0" expanded="true" />
+            <element signature="e#10403#10409#0" expanded="true" />
+            <element signature="e#10409#10415#0" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#10629#10636#1" expanded="true" />
+            <element signature="e#10921#10927#0" expanded="true" />
+            <element signature="e#10927#10933#0" expanded="true" />
+            <element signature="e#10983#10989#0" expanded="true" />
+            <element signature="e#10989#10995#0" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#11209#11216#1" expanded="true" />
+            <element signature="e#11510#11516#0" expanded="true" />
+            <element signature="e#11516#11522#0" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/js/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5136">
+          <caret line="15008" column="0" lean-forward="false" selection-start-line="15008" selection-start-column="0" selection-end-line="15008" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2icon1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3icon1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/bg2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="799" column="23" lean-forward="true" selection-start-line="799" selection-start-column="23" selection-end-line="799" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
