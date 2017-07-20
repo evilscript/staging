@@ -15,25 +15,27 @@
 
     <!--jQuery and AngularJS to include common parts of elements-->
     <script src="js/jquery-1.12.4.min.js"></script>
-    <!--<script src="js/angular-1.6.4.min.js"></script>-->
-    <script>
+    <script src="js/angular-1.6.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--<script>
         $(function(){
             $("[data-load]").each(function(){
                 $(this).load($(this).data("load"), function(){
                 });
             });
         })
-    </script>
+    </script>-->
 </head>
 
 
 <body ng-app="">
-    <!--<div class="container1920">
-        <div ng-include="'header.html'"></div>
-    </div>-->
     <div class="container1920">
-        <div data-load="header.html"></div>
+        <div ng-include="'header.html'"></div>
     </div>
+    <!--<div class="container1920">
+        <div data-load="header.html"></div>
+    </div>-->
 
     <div class="clear clearfix"></div>
 
@@ -371,13 +373,10 @@
     </section>
     <div class="clear clearfix"></div>
 
-    <!--<div ng-include="'footer.html'"></div>-->
-    <div class="container1920">
+    <div ng-include="'footer.html'"></div>
+    <!--<div class="container1920">
         <div data-load="footer.html"></div>
-    </div>
-    <div class="container1920">
-        <div data-load="script.html"></div>
-    </div>
-    <!--<div ng-include="'script.html'"></div>-->
+    </div>-->
+
 </body>
 </html>
