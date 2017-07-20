@@ -432,7 +432,7 @@ img{
     margin-bottom: 12%;
 }
 .knowMoreText5 p{
-    margin-bottom: 21%;
+    margin-bottom: 19%;
 }
 .s3iconText1 {
     font-size: 26px;
@@ -562,7 +562,7 @@ img{
     background-size: cover;
 }
 .s5iconText1 {
-    font-size: 22px;
+    font-size: 26px;
     color:#444444;
     font-weight: 300;
     padding-left: 8%;
@@ -574,7 +574,7 @@ img{
     background-position-y: 55%;
 }
 .s5iconText2 {
-    font-size: 22px;
+    font-size: 26px;
     color:#444444;
     font-weight: 300;
     padding-left: 8%;
@@ -586,7 +586,7 @@ img{
     background-position-y: 55%;
 }
 .s5iconText3 {
-    font-size: 22px;
+    font-size: 26px;
     color:#444444;
     font-weight: 300;
     padding-left: 8%;
@@ -1014,7 +1014,6 @@ img{
 }
 .arrow-left{
     position:absolute;
-
 }
 
 @media (max-width:1700px){
@@ -1049,7 +1048,11 @@ img{
     }
     .sectionTitle{
         padding-top:6%;
+        font-size: 55px;
     }
+    .sectionText {
+        font-size: 30px;
+
     .iconLeft, .iconRight{
         width:40%;
     }
@@ -1061,11 +1064,7 @@ img{
         padding-left: 20%;
         padding-top: 2%;
         padding-bottom: 10%;
-    }/*
-    .menu2Block img {
-        width: 80%;
-        margin-left: 10%;
-    }*/
+    }
     .bgTitle {
         font-size: 20px;
     }
@@ -1117,7 +1116,7 @@ img{
     .iconText {
         font-size: 20px;
     }
-    .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
+    .s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
         font-size: 18px;
     }
     .contactTitle {
@@ -1194,7 +1193,7 @@ img{
     .knowMoreText {
         font-size: 1vw;
     }
-    .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
+    .s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
         font-size: 1.2vw;
     }
     .contactTitle, .subscribeTitle {
