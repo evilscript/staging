@@ -15,17 +15,24 @@
 
     <!--jQuery and AngularJS to include common parts of elements-->
     <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/angular-1.6.4.min.js"></script>
+    <!--<script src="js/angular-1.6.4.min.js"></script>-->
+    <script>
+        $(function(){
+            $("[data-load]").each(function(){
+                $(this).load($(this).data("load"), function(){
+                });
+            });
+        })
+    </script>
 </head>
+
+
 <body ng-app="">
-
-
-    <div class="container1920">
+    <!--<div class="container1920">
         <div ng-include="'header.html'"></div>
-    </div>
-
+    </div>-->
     <div class="container1920">
-        <div data-include="header"></div>
+        <div data-load="header.html"></div>
     </div>
 
     <div class="clear clearfix"></div>
