@@ -59,21 +59,12 @@
 
 <script>
     /*Mobile footer content toggles*/
-    $(window).on("resize", function (e) {
-        checkScreenSize();
-    });
-
-    checkScreenSize();
-
-    function checkScreenSize(){
-        var newWindowWidth = $(window).width();
-        if (newWindowWidth < 768) {
-            $('.footerTitle').each( function(index) {
-                $(this).click( function() {
-                    $(this).next().slideToggle(300);
-                    $(this).toggleClass('minus');
-                });
+    if ($(window).width() < 768) {
+        $('.footerTitle').each( function(index) {
+            $(this).click( function() {
+                $(this).next().slideToggle(300);
+                $(this).toggleClass('minus');
             });
-        }
+        });
     }
 </script>

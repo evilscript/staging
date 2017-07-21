@@ -2,8 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62456812-e45d-4438-8dd8-cb5ca6d177bb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/media/images/index/bg2.jpg" afterPath="$PROJECT_DIR$/us/chs/media/images/index/bg2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Avenir/AvenirNextLTPro-Regular.eot" afterPath="$PROJECT_DIR$/us/chs/fonts/Avenir/AvenirNextLTPro-Regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Avenir/AvenirNextLTPro-Regular.ttf" afterPath="$PROJECT_DIR$/us/chs/fonts/Avenir/AvenirNextLTPro-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Avenir/AvenirNextLTPro-Regular.woff" afterPath="$PROJECT_DIR$/us/chs/fonts/Avenir/AvenirNextLTPro-Regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Helvetica/HelveticaNeue-Bold.eot" afterPath="$PROJECT_DIR$/us/chs/fonts/Helvetica/HelveticaNeue-Bold.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Helvetica/HelveticaNeue-Bold.ttf" afterPath="$PROJECT_DIR$/us/chs/fonts/Helvetica/HelveticaNeue-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Helvetica/HelveticaNeue-Bold.woff" afterPath="$PROJECT_DIR$/us/chs/fonts/Helvetica/HelveticaNeue-Bold.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Helvetica/HelveticaNeue-Light.eot" afterPath="$PROJECT_DIR$/us/chs/fonts/Helvetica/HelveticaNeue-Light.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Helvetica/HelveticaNeue-Light.ttf" afterPath="$PROJECT_DIR$/us/chs/fonts/Helvetica/HelveticaNeue-Light.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Helvetica/HelveticaNeue-Light.woff" afterPath="$PROJECT_DIR$/us/chs/fonts/Helvetica/HelveticaNeue-Light.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Helvetica/HelveticaNeue.eot" afterPath="$PROJECT_DIR$/us/chs/fonts/Helvetica/HelveticaNeue.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Helvetica/HelveticaNeue.ttf" afterPath="$PROJECT_DIR$/us/chs/fonts/Helvetica/HelveticaNeue.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/Helvetica/HelveticaNeue.woff" afterPath="$PROJECT_DIR$/us/chs/fonts/Helvetica/HelveticaNeue.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/pingfang/PingFang-Bold.ttf" afterPath="$PROJECT_DIR$/us/chs/fonts/pingfang/PingFang-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/pingfang/PingFang-Bold.woff" afterPath="$PROJECT_DIR$/us/chs/fonts/pingfang/PingFang-Bold.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/pingfang/PingFang-Light.ttf" afterPath="$PROJECT_DIR$/us/chs/fonts/pingfang/PingFang-Light.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/pingfang/PingFang-Light.woff" afterPath="$PROJECT_DIR$/us/chs/fonts/pingfang/PingFang-Light.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/pingfang/PingFang-Regular.ttf" afterPath="$PROJECT_DIR$/us/chs/fonts/pingfang/PingFang-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/fonts/pingfang/PingFang-Regular.woff" afterPath="$PROJECT_DIR$/us/chs/fonts/pingfang/PingFang-Regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/footer/footerPlus.png" afterPath="$PROJECT_DIR$/us/shared/images/footer/footerPlus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/footer/minus.png" afterPath="$PROJECT_DIR$/us/shared/images/footer/minus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/cross.png" afterPath="$PROJECT_DIR$/us/shared/images/header/cross.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerLan.png" afterPath="$PROJECT_DIR$/us/shared/images/header/headerLan.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerLogin.png" afterPath="$PROJECT_DIR$/us/shared/images/header/headerLogin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerSearch.png" afterPath="$PROJECT_DIR$/us/shared/images/header/headerSearch.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/headerTelephone.png" afterPath="$PROJECT_DIR$/us/shared/images/header/headerTelephone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/hugeLogo.png" afterPath="$PROJECT_DIR$/us/shared/images/header/hugeLogo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/level2Arrow.png" afterPath="$PROJECT_DIR$/us/shared/images/header/level2Arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/loginM.png" afterPath="$PROJECT_DIR$/us/shared/images/header/loginM.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/logo.jpg" afterPath="$PROJECT_DIR$/us/shared/images/header/logo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/logo.png" afterPath="$PROJECT_DIR$/us/shared/images/header/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/menu21.png" afterPath="$PROJECT_DIR$/us/shared/images/header/menu21.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/menu22.png" afterPath="$PROJECT_DIR$/us/shared/images/header/menu22.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/menu23.png" afterPath="$PROJECT_DIR$/us/shared/images/header/menu23.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/searchM.png" afterPath="$PROJECT_DIR$/us/shared/images/header/searchM.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/sitemapIcon1.png" afterPath="$PROJECT_DIR$/us/shared/images/header/sitemapIcon1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/sitemapIcon2.png" afterPath="$PROJECT_DIR$/us/shared/images/header/sitemapIcon2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/sitemapIcon3.png" afterPath="$PROJECT_DIR$/us/shared/images/header/sitemapIcon3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/sitemapIcon4.png" afterPath="$PROJECT_DIR$/us/shared/images/header/sitemapIcon4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/sitemapIcon5.png" afterPath="$PROJECT_DIR$/us/shared/images/header/sitemapIcon5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/sitemapIcon6.png" afterPath="$PROJECT_DIR$/us/shared/images/header/sitemapIcon6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/smallLogo.jpg" afterPath="$PROJECT_DIR$/us/shared/images/header/smallLogo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/smallLogo.png" afterPath="$PROJECT_DIR$/us/shared/images/header/smallLogo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/header/toggle.png" afterPath="$PROJECT_DIR$/us/shared/images/header/toggle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/band2Price.png" afterPath="$PROJECT_DIR$/us/shared/images/index/band2Price.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/band3Price.png" afterPath="$PROJECT_DIR$/us/shared/images/index/band3Price.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/band4Price.png" afterPath="$PROJECT_DIR$/us/shared/images/index/band4Price.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/band5Price.png" afterPath="$PROJECT_DIR$/us/shared/images/index/band5Price.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/bannerPriceImg.png" afterPath="$PROJECT_DIR$/us/shared/images/index/bannerPriceImg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/bg1.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/bg1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/bg2.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/bg2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/bg2.png" afterPath="$PROJECT_DIR$/us/shared/images/index/bg2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/bg3.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/bg3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/bg4.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/bg4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/bg5.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/bg5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/bgPrice.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/bgPrice.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/contactArrow.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/contactArrow.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/contactIcon1.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/contactIcon1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/contactIcon2.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/contactIcon2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/contactIcon3.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/contactIcon3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/iconFacebook.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/iconFacebook.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/iconIns.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/iconIns.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/iconWechat.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/iconWechat.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/iconWeibo.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/iconWeibo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/leftArrow.png" afterPath="$PROJECT_DIR$/us/shared/images/index/leftArrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mainBanner.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/mainBanner.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mobileClose.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobileClose.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mobilePriceBand1.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mobilePriceBand1Bg.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand1Bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mobilePriceBand2.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mobilePriceBand2Bg.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand2Bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mobilePriceBand4.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mobilePriceBand4Bg.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand4Bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mobilePriceBand5.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/mobilePriceBandBg5.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBandBg5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/rightArrow.png" afterPath="$PROJECT_DIR$/us/shared/images/index/rightArrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s2button.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/s2button.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s2icon1.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s2icon1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s2icon2.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s2icon2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s2icon3.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s2icon3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s2icon4.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s2icon4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3bandPrice.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s3bandPrice.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon1.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s3icon1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon2.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s3icon2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon3.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s3icon3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s3icon4.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s3icon4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon1.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s4icon1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon2.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s4icon2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon3.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s4icon3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s4icon4.png" afterPath="$PROJECT_DIR$/us/shared/images/index/s4icon4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s5icon1.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/s5icon1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s5icon2.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/s5icon2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/s5icon3.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/s5icon3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us/chs/media/images/index/slideMobile.jpg" afterPath="$PROJECT_DIR$/us/shared/images/index/slideMobile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/footer.html" afterPath="$PROJECT_DIR$/us/chs/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/header.html" afterPath="$PROJECT_DIR$/us/chs/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/index.html" afterPath="$PROJECT_DIR$/us/chs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/css/fonts.css" afterPath="$PROJECT_DIR$/us/shared/css/fonts.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/css/main.css" afterPath="$PROJECT_DIR$/us/shared/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/js/main.js" afterPath="$PROJECT_DIR$/us/shared/js/main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,22 +111,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/us/shared/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="1195" column="60" lean-forward="false" selection-start-line="1195" selection-start-column="60" selection-end-line="1195" selection-end-column="60" />
+            <state relative-caret-position="28728">
+              <caret line="1197" column="60" lean-forward="false" selection-start-line="1197" selection-start-column="60" selection-end-line="1197" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/us/chs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="173" column="22" lean-forward="true" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
+            <state relative-caret-position="31">
+              <caret line="170" column="22" lean-forward="true" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -70,7 +168,6 @@
       <find>bg4</find>
       <find>media/images/index/s5Right.jpg</find>
       <find>knowMore</find>
-      <find>knowMoreText</find>
       <find>knowMoreText4s5iconText3</find>
       <find>container1920 orangeBand4 orangeBand5 orangeBandFix5</find>
       <find>orangeBand4</find>
@@ -100,9 +197,10 @@
         <option value="$PROJECT_DIR$/us/chs/script.html" />
         <option value="$PROJECT_DIR$/us/chs/header.html" />
         <option value="$PROJECT_DIR$/us/shared/js/jquery-ui.js" />
+        <option value="$PROJECT_DIR$/us/shared/css/main.css" />
+        <option value="$PROJECT_DIR$/us/chs/footer.html" />
         <option value="$PROJECT_DIR$/us/shared/js/main.js" />
         <option value="$PROJECT_DIR$/us/chs/index.html" />
-        <option value="$PROJECT_DIR$/us/shared/css/main.css" />
       </list>
     </option>
   </component>
@@ -183,7 +281,7 @@
               <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="chs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
@@ -191,25 +289,6 @@
               <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="chs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="chs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="header" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="chs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
@@ -217,12 +296,26 @@
               <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,10 +329,10 @@
       <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\chs\media\images\index" />
-      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\chs\media\images\images" />
-      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\chs\media\images\header" />
-      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\chs" />
+      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\chs\fonts" />
+      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared\images\index" />
+      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared\images\header" />
+      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared\images\footer" />
       <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared" />
     </key>
   </component>
@@ -266,43 +359,34 @@
       <option name="presentableId" value="Default" />
       <updated>1500492580302</updated>
       <workItem from="1500492582029" duration="74000" />
+      <workItem from="1500646561748" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19530000" />
+    <option name="totallyTimeSpent" value="20838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2524013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,12 +400,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/us/chs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4128">
+          <caret line="172" column="21" lean-forward="false" selection-start-line="172" selection-start-column="21" selection-end-line="172" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/us/chs/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="48">
             <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -339,86 +437,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#4533#4539#0" expanded="true" />
-            <element signature="e#4877#4883#0" expanded="true" />
-            <element signature="e#5403#5409#0" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#8467#8473#0" expanded="true" />
-            <element signature="e#8473#8479#0" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#8693#8700#1" expanded="true" />
-            <element signature="e#8993#8999#0" expanded="true" />
-            <element signature="e#8999#9005#0" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#9219#9226#1" expanded="true" />
-            <element signature="e#9434#9440#0" expanded="true" />
-            <element signature="e#9440#9446#0" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#9660#9667#1" expanded="true" />
-            <element signature="e#9875#9881#0" expanded="true" />
-            <element signature="e#9881#9887#0" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#10101#10108#1" expanded="true" />
-            <element signature="e#10343#10349#0" expanded="true" />
-            <element signature="e#10349#10355#0" expanded="true" />
-            <element signature="e#10403#10409#0" expanded="true" />
-            <element signature="e#10409#10415#0" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#10629#10636#1" expanded="true" />
-            <element signature="e#10921#10927#0" expanded="true" />
-            <element signature="e#10927#10933#0" expanded="true" />
-            <element signature="e#10983#10989#0" expanded="true" />
-            <element signature="e#10989#10995#0" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#11209#11216#1" expanded="true" />
-            <element signature="e#11510#11516#0" expanded="true" />
-            <element signature="e#11516#11522#0" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/us/shared/css/mainEnglish.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/css/mainEnglish.css" />
     <entry file="file://$PROJECT_DIR$/us/chs/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="144">
             <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/script.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/script.html" />
     <entry file="file://$PROJECT_DIR$/us/shared/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -442,89 +479,28 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="48">
             <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/us/shared/css/mainEnglish.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/css/mainEnglish.css" />
     <entry file="file://$PROJECT_DIR$/us/chs/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="144">
             <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/us/chs/script.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/us/chs/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
           <caret line="419" column="45" lean-forward="false" selection-start-line="419" selection-start-column="45" selection-end-line="419" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#4533#4539#0" expanded="true" />
-            <element signature="e#4877#4883#0" expanded="true" />
-            <element signature="e#5403#5409#0" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#8467#8473#0" expanded="true" />
-            <element signature="e#8473#8479#0" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#8693#8700#1" expanded="true" />
-            <element signature="e#8993#8999#0" expanded="true" />
-            <element signature="e#8999#9005#0" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#9219#9226#1" expanded="true" />
-            <element signature="e#9434#9440#0" expanded="true" />
-            <element signature="e#9440#9446#0" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#9660#9667#1" expanded="true" />
-            <element signature="e#9875#9881#0" expanded="true" />
-            <element signature="e#9881#9887#0" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#10101#10108#1" expanded="true" />
-            <element signature="e#10343#10349#0" expanded="true" />
-            <element signature="e#10349#10355#0" expanded="true" />
-            <element signature="e#10403#10409#0" expanded="true" />
-            <element signature="e#10409#10415#0" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#10629#10636#1" expanded="true" />
-            <element signature="e#10921#10927#0" expanded="true" />
-            <element signature="e#10927#10933#0" expanded="true" />
-            <element signature="e#10983#10989#0" expanded="true" />
-            <element signature="e#10989#10995#0" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#11209#11216#1" expanded="true" />
-            <element signature="e#11510#11516#0" expanded="true" />
-            <element signature="e#11516#11522#0" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -532,169 +508,156 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5136">
           <caret line="15008" column="0" lean-forward="false" selection-start-line="15008" selection-start-column="0" selection-end-line="15008" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3icon1.jpg" />
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/bg2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/band2Price.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/band3Price.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/band4Price.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/bannerPriceBg.png" />
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/bannerPriceImg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/bg1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/bgPrice.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/contactArrow.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/contactIcon1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/iconFacebook.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/mainBanner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/mobileClose.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/price.png" />
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/priceBand.png" />
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2bandBg.png" />
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/s2button.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/s2icon1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/s2icon2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/s2icon3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/s2icon4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3BandBg.png" />
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/s3icon1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/s3bandPrice.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3Right.jpg" />
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s4BandBg.png" />
+    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/section2Bg.png" />
+    <entry file="file://$PROJECT_DIR$/us/shared/images/index/slideMobile.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/footer/footerPlus.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/ttt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/us/shared/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="456">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28728">
+          <caret line="1197" column="60" lean-forward="false" selection-start-line="1197" selection-start-column="60" selection-end-line="1197" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3icon1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/bg2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/band2Price.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/band3Price.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/band4Price.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/bannerPriceBg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/bannerPriceImg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/bg1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/bgPrice.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/contactArrow.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/contactIcon1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/iconFacebook.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/mainBanner.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/mobileClose.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/price.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/priceBand.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2bandBg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2button.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2icon1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2icon2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2icon3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s2icon4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3BandBg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3icon1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3bandPrice.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s3Right.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/s4BandBg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/section2Bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/media/images/index/slideMobile.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/us/chs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="173" column="22" lean-forward="true" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
+        <state relative-caret-position="31">
+          <caret line="170" column="22" lean-forward="true" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -703,14 +666,6 @@
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/shared/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="1195" column="60" lean-forward="false" selection-start-line="1195" selection-start-column="60" selection-end-line="1195" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
