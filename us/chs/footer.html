@@ -68,7 +68,6 @@
     function checkScreenSize(){
         var newWindowWidth = $(window).width();
         if (newWindowWidth < 768) {
-            alert('a');
             $('.footerTitle').each( function(index) {
                 $(this).click( function() {
                     $(this).next().slideToggle(300);

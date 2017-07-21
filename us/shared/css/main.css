@@ -7,6 +7,7 @@
     clear: both;
     height: 0;
 }
+@-ms-viewport { width: extend-to-zoom; zoom: 1.0; }
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
@@ -1018,8 +1019,8 @@ img{
 
 @media (max-width:1700px){
     .bannerTitle1 {
-        background-position-x: 40%;
-    }
+         background-position-x: 40%;
+     }
 }
 
 @media (max-width:1600px){
@@ -1152,6 +1153,7 @@ img{
 }
 
 @media (max-width:1300px){
+    @-ms-viewport { width: 768px; }
     .carousel-indicators li, .carousel-indicators .active {
         width: 6vw;
         height: 0.3vw;
@@ -1702,18 +1704,4 @@ img{
         font-size: 5vw;
     }
 }
-/*Browser fix*/
-@media (min-width:1921px) {
-    .orangeBand {
-        margin-top: -1.7%;
-    }
-    .orangeBand3 {
-        margin-top: -1.6%;
-    }
-    .orangeBandFix4{
-        margin-top: -1.65%;
-    }
-    .orangeBandFix5{
-        margin-top:-1.6%;
-    }
-}
+
