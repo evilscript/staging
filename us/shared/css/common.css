@@ -514,6 +514,11 @@ img{
 }
 
 @media (max-width:767px) {
+    .blueBand {
+        background: #327fe8;
+        height: 1vw;
+        margin-top: 1.5vw;
+    }
     .trans{
         opacity:0;
     }
@@ -526,7 +531,7 @@ img{
         display:none;
     }
     .header1, .mobileHeader1{
-        height:2vw;
+        height:2.5vw;
         background-color:#ff7f00;
     }
     .menuLeft{
