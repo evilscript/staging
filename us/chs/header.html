@@ -393,7 +393,8 @@
         $('.menu1, .menu2, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
         $('body').toggleClass('noscroll');
-        $('.searchFunction, .blueBand').slideUp(500);
+        $('.searchFunction').slideUp(500);
+        $('.blueBand').slideDown(500);
     });
     /*桌面二级菜单的出现和隐藏，愣写的，没什么技术含量*/
     $('.headerBundle').click(function(){
