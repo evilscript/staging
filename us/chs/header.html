@@ -1,10 +1,10 @@
 <div class="headerTotal">
-    <!--==========Part 1: whole page grayed out layer==========-->
+    <!--==========第一部分：整体点击灰色图层==========-->
     <div class="mask" style="display:none;"></div>
     <div class="maskMobile" style="display:none;"></div>
     <!--==========End grayed out==========-->
 
-    <!--==========Part 2: Header 1 (Orange layer) and header 2==========-->
+    <!--==========第二部分：正常桌面平板Header第一部分橙色条，和第二部分菜单栏==========-->
     <div class="header1">
         <div class="header1Icon">
             <img src="../shared/images/header/headerLan.png" class="img" alt="">
@@ -22,18 +22,18 @@
         <div class="blueBand"></div>
     </div>
     <div class="header2">
-        <!--Desktop toggle-->
+        <!--桌面平板面保线-->
         <div class="toggle hideM">
             <img src="../shared/images/header/toggle.png" class="img" alt="">
         </div>
-        <!--End desktop toggle-->
-        <!--Start mobile header toggle-->
+        <!--结束-->
+        <!--移动端面保线-->
         <div class="toggleM showM">
             <a href="#" style="cursor:pointer" class="openMobileNav">
                 <img src="../shared/images/header/toggle.png" class="img" alt="">
             </a>
         </div>
-        <!--End mobile header different part-->
+        <!--结束-->
         <div class="menuLeft">
             <div class="subMenuDiv">
                 <a href="" class="headerLink headerBundle">
@@ -62,12 +62,12 @@
                 <img src="../shared/images/header/logo.jpg" class="img bigLogo" alt="">
             </a>
         </div>
-        <!--Start mobile header different part-->
+        <!--移动端Header不同的部分-->
         <div class="headerSubM showM">
             <img src="../shared/images/header/searchM.png" class="img" alt="">
             <img src="../shared/images/header/loginM.png" class="img" alt="">
         </div>
-        <!--End mobile header different part-->
+        <!--结束-->
         <div class="menuRight">
             <div class="subMenuDiv">
                 <a href="" class="headerLink">
@@ -90,9 +90,9 @@
         </div>
         <div class="clear clearfix"></div>
     </div>
-    <!--==========End part 2==========-->
+    <!--==========第二部分结束==========-->
 
-    <!--==========Part 3: Desktop sitemap==========-->
+    <!--==========第三部分：桌面sitemap大型overlay==========-->
     <div class="sitemap" style="display:none;">
         <div class="hugeLogo">
             <img src="../shared/images/header/hugeLogo.png" class="img" alt="">
@@ -196,9 +196,9 @@
         </div>
         <div class="clear clearfix"></div>
     </div>
-    <!--==========End part 3==========-->
+    <!--==========第三部分结束==========-->
 
-    <!--==========Part 4: mobile push header==========-->
+    <!--==========第四部分：移动端左推Header==========-->
     <div id="mySidenav" class="sidenav" style="opacity:0;">
         <div class="mobileHeader1"></div>
         <div class="mobileHeaderBlank"></div>
@@ -267,10 +267,10 @@
             </p>
         </a>
     </div>
-    <!--==========End part 4==========-->
+    <!--==========第四部分结束==========-->
 
 
-    <!--==========Part 5: level 2 desktop menus==========-->
+    <!--==========第五部分：桌面端二级菜单（hardcoded）==========-->
     <div class="menu1" style="display:none;">
         <a href="">
             <p class="menu1Block hel"><img src="../shared/images/header/menu21.png" class="img" alt="">Mobile+BB+TV</p>
@@ -337,23 +337,22 @@
         </a>
         <div class="clear clearfix"></div>
     </div>
-    <!--==========End level 2 desktop menus==========-->
+    <!--==========第五部分结束==========-->
 </div>
 <div class="clear clearfix"></div>
 
 
-<!--==========Header script: please write any header script in this html file.==========>
-<!--==========Any js written in main.js WILL NOT work==========-->
+<!--==========Header js文件：所有的header js代码请写在这里，因为使用了angular引用header文件，所有header部分的js代码如果写入main.js将不会工作==========-->
 <script>
-    /*==========Desktop header==========*/
-    /*Desktop sitemap toggles*/
+    /*==========桌面Header部分==========*/
+    /*桌面sitemap的出现和隐藏*/
     $('.toggle, .closeSitemap').click(function(){
         $('.sitemap, .mask').fadeToggle(500);
         $('.menu1, .menu2, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
         $('body').toggleClass('noscroll');
     });
-    /*Header desktop menu level 2, hardcoded ToT*/
+    /*桌面二级菜单的出现和隐藏，愣写的，没什么技术含量*/
     $('.headerBundle').click(function(){
         $('.menu1').slideToggle(500);
         $('.menu2, .menu3, .menu4, .menu5').slideUp(500);
@@ -389,21 +388,21 @@
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p').removeClass('headerActive');
         $('.sitemap, .mask').fadeOut(500);
     });
-    /*==========End desktop header==========*/
-    /*==========Mobile header==========*/
-    /*Open mobile header level 1*/
+    /*==========桌面部分结束==========*/
+    /*==========移动端Header==========*/
+    /*移动端左推Header 1级打开*/
     $('.openMobileNav').click(function(){
         $('.sidenav, .mobileHeaderText').css({'opacity':'1','margin-left':'0'});
         $('body').css({'margin-left':'50%','margin-right':'-50%'}).addClass('noscroll');
         $('.maskMobile').css('display','block');
     });
-    /*Close the whole mobile header*/
+    /*点击灰色overlay区域关闭整个移动端header*/
     $('.maskMobile').click(function(){
         $('.sidenav, .sidenav2, .mobileHeaderText').css('margin-left','-50%');
         $('body').css({'margin-left':'0','margin-right':'0'}).removeClass('noscroll');
         $('.maskMobile').css('display','none');
     });
-    /*Open mobile header level 2 from level 1*/
+    /*从header 1级打开header 2级*/
     $('.mobileHeaderText').each(function(){
         $(this).click(function(){
             $(this).next().css({'opacity':'1','margin-left':'0'});
@@ -411,12 +410,12 @@
             $('.maskMobile').css('display','block');
         })
     });
-    /*Mobile header level 2 closes, show level 1*/
+    /*从header 2级回到header 1级*/
     $('.closeMobileNav').click(function(){
         $(this).parent().css('margin-left','-50%');
         $('.mobileHeaderText2').css('margin-left','-50%');
     });
-    /*==========End mobile header==========*/
+    /*==========移动端部分结束==========*/
 </script>
 
 
