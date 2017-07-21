@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62456812-e45d-4438-8dd8-cb5ca6d177bb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand1Bg.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/images/header/searchM.png" afterPath="$PROJECT_DIR$/us/shared/images/header/searchM.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand1.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand4.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand5.png" afterPath="$PROJECT_DIR$/us/shared/images/index/mobilePriceBand5.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/us/shared/images/111.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/header.html" afterPath="$PROJECT_DIR$/us/chs/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/chs/index.html" afterPath="$PROJECT_DIR$/us/chs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/css/common.css" afterPath="$PROJECT_DIR$/us/shared/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/us/shared/css/main.css" afterPath="$PROJECT_DIR$/us/shared/css/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/us/shared/css/main.css">
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/us/shared/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="946" column="5" lean-forward="false" selection-start-line="946" selection-start-column="5" selection-end-line="946" selection-end-column="5" />
+            <state relative-caret-position="276">
+              <caret line="601" column="21" lean-forward="false" selection-start-line="601" selection-start-column="21" selection-end-line="601" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/us/chs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="303" column="49" lean-forward="false" selection-start-line="303" selection-start-column="38" selection-end-line="303" selection-end-column="49" />
+            <state relative-caret-position="418">
+              <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,6 +40,37 @@
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/us/chs/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#div#7;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#div#7;n#div#2;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#7;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#10;n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/us/shared/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,15 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>orangeBandFix4</find>
-      <find>bgPrice3</find>
-      <find>.s5iconText1</find>
-      <find>s4price</find>
-      <find>bg4</find>
-      <find>media/images/index/s5Right.jpg</find>
-      <find>knowMore</find>
-      <find>knowMoreText4s5iconText3</find>
-      <find>container1920 orangeBand4 orangeBand5 orangeBandFix5</find>
       <find>orangeBand5</find>
       <find>media/images/index/s5bandPrice.png</find>
       <find>bandLeftS3</find>
@@ -82,15 +100,24 @@
       <find>header</find>
       <find>footer</find>
       <find>mainSlider</find>
-      <find>767</find>
       <find>mobilePriceBand1</find>
       <find>mobileImg2</find>
       <find>../shared/images/index/mobileImg2.jpg</find>
       <find>.s3iconText1</find>
       <find>../shared/images/index/mobileImg4.jpg</find>
       <find>orangeBand4</find>
-      <find>s2button</find>
       <find>../shared/images/index/mobilePriceBand5.png</find>
+      <find>s2button</find>
+      <find>background</find>
+      <find>headerMirrorSearchPart</find>
+      <find>headerMirrorSearch</find>
+      <find>../shared/images/header/headerSearch.png</find>
+      <find>1700</find>
+      <find>blueBand</find>
+      <find>searchFunction</find>
+      <find>767</find>
+      <find>orangeBand</find>
+      <find>../shared/images/header/searchM.png</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,15 +136,15 @@
         <option value="$PROJECT_DIR$/us/chs/script.html" />
         <option value="$PROJECT_DIR$/us/shared/js/jquery-ui.js" />
         <option value="$PROJECT_DIR$/us/chs/footer.html" />
-        <option value="$PROJECT_DIR$/us/shared/js/main.js" />
         <option value="$PROJECT_DIR$/us/shared/css/common.html" />
         <option value="$PROJECT_DIR$/us/chs/ttt.html" />
         <option value="$PROJECT_DIR$/us/shared/css/fonts.css" />
         <option value="$PROJECT_DIR$/us/chs/test.html" />
+        <option value="$PROJECT_DIR$/us/shared/css/main.css" />
+        <option value="$PROJECT_DIR$/us/shared/js/main.js" />
         <option value="$PROJECT_DIR$/us/chs/header.html" />
         <option value="$PROJECT_DIR$/us/shared/css/common.css" />
         <option value="$PROJECT_DIR$/us/chs/index.html" />
-        <option value="$PROJECT_DIR$/us/shared/css/main.css" />
       </list>
     </option>
   </component>
@@ -205,7 +232,22 @@
               <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="header" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
@@ -222,6 +264,13 @@
               <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="testCommonHeader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testCommonHeader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="us" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shared" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -240,8 +289,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared\images\index" />
       <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared\images\header" />
+      <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared\images\index" />
       <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\chs\fonts" />
       <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared\images\footer" />
       <recent name="C:\Users\CC2\Desktop\testCommonHeader\us\shared" />
@@ -274,12 +323,12 @@
       <updated>1500492580302</updated>
       <workItem from="1500492582029" duration="74000" />
       <workItem from="1500646561748" duration="468000" />
-      <workItem from="1500647253656" duration="6374000" />
+      <workItem from="1500647253656" duration="13597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27649000" />
+    <option name="totallyTimeSpent" value="34872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="32" width="1936" height="1056" extended-state="6" />
@@ -315,39 +364,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/us/chs/script.html" />
-    <entry file="file://$PROJECT_DIR$/us/shared/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="48">
-            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/us/shared/css/mainEnglish.css" />
     <entry file="file://$PROJECT_DIR$/us/chs/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -482,13 +498,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/us/shared/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/us/chs/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -520,22 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/us/chs/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/shared/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="535" column="5" lean-forward="false" selection-start-line="535" selection-start-column="5" selection-end-line="535" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/us/shared/images/index/mobilePriceBand1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -551,10 +544,73 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/111.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/header/headerSearchBg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="145" column="1" lean-forward="false" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/header/headerSearch.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/images/header/headerMirrorSearch.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/shared/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="601" column="21" lean-forward="false" selection-start-line="601" selection-start-column="21" selection-end-line="601" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us/chs/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#7;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#7;n#div#2;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#7;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/us/chs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="303" column="49" lean-forward="false" selection-start-line="303" selection-start-column="38" selection-end-line="303" selection-end-column="49" />
+        <state relative-caret-position="418">
+          <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -563,14 +619,6 @@
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us/shared/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="946" column="5" lean-forward="false" selection-start-line="946" selection-start-column="5" selection-end-line="946" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>

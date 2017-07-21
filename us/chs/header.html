@@ -13,13 +13,53 @@
             <img src="../shared/images/header/headerLogin.png" class="img" alt="">
         </div>
         <div class="header1Icon">
-            <img src="../shared/images/header/headerSearch.png" class="img" alt="">
+            <img src="../shared/images/header/headerSearch.png" class="img searchFunctionIcon" alt="">
         </div>
         <div class="header1Icon">
             <img src="../shared/images/header/headerTelephone.png" class="img" alt="">
         </div>
         <div class="clear clearfix"></div>
+        <div class="orangeBandHeader showM"></div>
         <div class="blueBand"></div>
+        <!--桌面端搜索功能在header上的扩展-->
+        <div class="searchFunction" style="display:none;">
+            <!--Google搜索代码-->
+            <script>
+                (function() {
+                    var cx = '002779763613872999730:zbqcpv-o-la';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                })();
+            </script>
+            <div style="height: 0; visibility: hidden;">
+                <gcse:search></gcse:search>
+            </div>
+
+            <!--Google搜索代码结束-->
+            <!--镜像输入框和按键以达到自由修改样式-->
+            <div class="headerMirrorSearchPart">
+                <input type="text" class="headerMirrorSearchText" placeholder="请输入要搜索的内容" />
+                <img src="../shared/images/header/headerMirrorSearch.png" class="img headerMirrorSearch" alt="">
+                <div class="clear clearfix"></div>
+            </div>
+            <p class="hotText">热门搜索内容：
+                &nbsp;&nbsp;<span class="hotKeyWord">包月</span>
+                &nbsp;&nbsp;<span class="hotKeyWord">包年</span>
+                &nbsp;&nbsp;<span class="hotKeyWord">免费</span>
+                &nbsp;&nbsp;<span class="hotKeyWord">送电视</span>
+                &nbsp;&nbsp;<span class="hotKeyWord">无限拨打</span>
+                &nbsp;&nbsp;<span class="hotKeyWord">三方通话</span>
+                &nbsp;&nbsp;<span class="hotKeyWord">国家</span>
+                &nbsp;&nbsp;<span class="hotKeyWord">国际长途</span>
+            </p>
+            <!--镜像结束-->
+        </div>
+        <!--搜索功能在header上的扩展结束-->
+        <div class="clear clearfix"></div>
     </div>
     <div class="header2">
         <!--桌面平板面保线-->
@@ -64,7 +104,7 @@
         </div>
         <!--移动端Header不同的部分-->
         <div class="headerSubM showM">
-            <img src="../shared/images/header/searchM.png" class="img" alt="">
+            <img src="../shared/images/header/searchM.png" class="img mobileHeaderSearchFunction" alt="">
             <img src="../shared/images/header/loginM.png" class="img" alt="">
         </div>
         <!--结束-->
@@ -416,6 +456,30 @@
         $('.mobileHeaderText2').css('margin-left','-50%');
     });
     /*==========移动端部分结束==========*/
+
+    /*==========搜索菜单功能==========*/
+    /*搜索功能镜像输入框和点击*/
+    $('.headerMirrorSearchText').keyup(function(){
+        $('#gsc-i-id1').val($(this).val());
+    });
+    $('.headerMirrorSearch').click(function(){
+        $(".gsc-search-button").trigger("click");
+    });
+    /*搜索部分js结束*/
+    /*热搜词汇点击自动加入文本框*/
+    $('.hotKeyWord').each(function(){
+        $(this).click(function(){
+            $('.headerMirrorSearchText').val($(this).text());
+            $('#gsc-i-id1').val($(this).text());
+        })
+    });
+    /*热搜词汇结束*/
+    /*搜索菜单展开收缩功能*/
+    $('.searchFunctionIcon, .mobileHeaderSearchFunction').click(function(){
+        $('.searchFunction, .blueBand').slideToggle(500);
+    })
+    /*展开收缩结束*/
+    /*==========搜索结束==========*/
 </script>
 
 
