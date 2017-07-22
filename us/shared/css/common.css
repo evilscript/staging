@@ -1,4 +1,16 @@
-/*全站通用css文件，主要为Header和Footer公共style，可以直接饮用此css和header footer*/
+/*全站通用css文件，主要为Header和Footer及整体网站的公共style*/
+/*初始化设置*/
+*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;/*盒模型定义高度和宽度*/}
+html{overflow-y:scroll;/*提供滚动机制*/-webkit-text-size-adjust: none;/*取消浏览器最小字体限制*/}
+body {font-family: 'pingfang', 微软雅黑, sans-serif;background: #f6f6f6;color: #000;font-size: 16px;height:100%;transition: margin-left .5s, margin-right .5s;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0; content: " "; clear: both; height: 0;}
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+a:hover, a:focus{ text-decoration:none!important;}
+img{border:none; display:block;}
+.opacity {filter: alpha(opacity=50); -moz-opacity: .5; -khtml-opacity: .5; opacity: .5;}
+/*初始化设置结束*/
+
 /*字体部分*/
 @font-face {
     font-family: 'Helvetica Neue';
@@ -61,42 +73,8 @@ url('../media/fonts/pingfang/PingFang-Light.ttf') format('truetype');
 .ave{font-family: 'Avenir Next LT Pro', Arial, sans-serif;}
 .pin{font-family: 'pingfang', 微软雅黑, sans-serif;}
 /*字体部分结束*/
-/*没什么卵用的部分*/
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-* html .clearfix {
-    height: 1%;
-}
-.clearfix {
-    display: block;
-}
-a:hover, a:focus{
-    text-decoration:none!important;
-}
-* {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-body {
-    font-family: 'pingfang', 微软雅黑, sans-serif;
-    background: #f6f6f6;
-    color: #000;
-    font-size: 16px;
-    height:100%;
-    transition: margin-left .5s, margin-right .5s;
-}
-/*没什么卵用的部分结束*/
-img{
-    border:none;
-    display:block;
-}
 
+/*Header和Footer*/
 .headerTotal{
     position:fixed;
     width:100%;
