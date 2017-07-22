@@ -509,6 +509,27 @@ img{
     font-size: 9vw;
     color: #ff7f00;
 }
+.bgTitle{
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 2px solid #ff7f00;
+    padding-bottom:4%;
+    width:55%;
+}
+.bgTitleRevision{
+    padding-top:10%;
+}
+.bgText{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+.bgText a{
+    color:#2a2a2a;
+}
+.bgText a:hover{
+    color:#ff7f00;
+}
 
 @media (max-width:1700px){
     .headerMirrorSearchPart{
@@ -596,6 +617,9 @@ img{
 }
 
 @media (max-width:767px) {
+    .bgTitle{
+        font-size:1.4vw;
+    }
     .orangeBandHeader{
         background:#ff7f00;
         height:1.5vw;
