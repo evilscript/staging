@@ -59,12 +59,33 @@
 
 <script>
     /*Mobile footer content toggles*/
-    if ($(window).width() < 768) {
+  
+
+    var b = true; 
+        window.onresize=checkScreenSize;
+        function checkScreenSize(){
+            var wi = $(window).width();
+ 
+            if(wi<768&&b){
+ 
+                b = false;
         $('.footerTitle').each( function(index) {
             $(this).click( function() {
                 $(this).next().slideToggle(300);
                 $(this).toggleClass('minus');
             });
         });
-    }
+ 
+            }
+ 
+            if(wi>=768){
+ 
+                b = true;
+ 
+                $(".footerTitle").unbind("click");
+ 
+            }
+ 
+        }
+  checkScreenSize();
 </script>
