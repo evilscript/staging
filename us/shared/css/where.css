@@ -12,10 +12,11 @@
 .changes2{margin-left:4%;margin-right:4%  }
 .shop{max-width: 1620px;margin:0 auto ;background-color:#f8f9f9 }
 .shop .title{font-size: 36px;text-align: center;font-family: pingfang light;padding-top: 3%}
+.shops{padding-bottom: 3%}
 .changeShop select{width: 100%;padding: 2%;font-size:18px }
 .changeShop{margin: 1.5% auto;width: 39%;}
-.shopx{width: 50%;float: left;margin-top: 9.5%;padding-left: 5.4%}
-.map{width: 50%;float: right;background: red;padding-top: 4%;height: 360px;padding-left: 4%;padding-right: 5%}
+.shopx{width: 50%;float: left;margin-top: 8.5%;padding-left: 5.4%}
+.map{width: 50%;float: right;padding-top: 4%;height: 360px;padding-left: 4%;padding-right: 5%}
 .shopname{font-size: 32px}
 .address,.num,.time{margin-top: 1.1%}
 .shopname{margin-bottom:1.7% } 
