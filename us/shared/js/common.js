@@ -1,22 +1,20 @@
 $(document).ready(function(){
-    /*Page scroll effect*/
+    /*整屏滚动功能*/
     $(function() {
         $.scrollify({
             section: ".scroll"
         });
     });
-
-
+    /*如果是移动设备，初始化时直接禁用整屏滚动*/
     function isMobile() {
         return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         alert('isMobileDevice');
     }
     if (isMobile()) {
         $.scrollify.disable();
-        alert('disabled');
     }
 
-    /*Header reshape*/
+    /*Header部分形状变化功能*/
     $(function(){
         $(window).scroll(function(){
             if($(this).scrollTop() > 500) {
@@ -38,7 +36,7 @@ $(document).ready(function(){
         });
     });
 
-    /*index page image hover replace*/
+    /*主页下方联系我们和social icon的mouseover效果*/
     $('img.contactIcon1').mouseover(function(){
         $(this).attr('src','../shared/images/index/chs_contactIcon1Blue.png');
     }).mouseleave(function(){

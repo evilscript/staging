@@ -484,7 +484,7 @@ url('../media/fonts/pingfang/PingFang-Light.ttf') format('truetype');
 }
 .sidenav .closebtn {
     position: absolute;
-    top: 7.5vw;
+    top: 5vw;
     left: 3vw;
     font-size: 9vw;
     color: #ff7f00;
@@ -793,9 +793,9 @@ url('../media/fonts/pingfang/PingFang-Light.ttf') format('truetype');
         font-size: 2.2vw;
     }
     .sidenav .closebtn {
-        top: 1vw;
+        top: 0;
         left: 3vw;
-        font-size: 5vw;
+        font-size: 4vw;
     }
 }
 
