@@ -7,7 +7,11 @@
     <!--==========第二部分：正常桌面平板Header第一部分橙色条，和第二部分菜单栏==========-->
     <div class="header1">
         <div class="header1Icon">
-            <img src="../shared/images/header/headerLan.png" class="img" alt="">
+            <img src="../shared/images/header/headerLan.png" usemap="#languageMap" class="img" alt="">
+            <map name="languageMap">
+                <area shape="rect" coords="0,0,41,41" href="https://baidu.com">
+                <area shape="circle" coords="42,0,83,41" href="https://google.com">
+            </map>
         </div>
         <div class="header1Icon">
             <img src="../shared/images/header/headerLogin.png" class="img" alt="">
@@ -386,6 +390,9 @@
 
 <!--==========Header js文件：所有的header js代码请写在这里，因为使用了angular引用header文件，所有header部分的js代码如果写入main.js将不会工作==========-->
 <script>
+    /*响应式image map插件初始化*/
+    $('map').imageMapResize();
+
     /*==========桌面Header部分==========*/
     /*桌面sitemap的出现和隐藏*/
     $('.toggle, .closeSitemap').click(function(){
