@@ -16,11 +16,11 @@ $(document).ready(function(){
     /*如果是移动设备，初始化时直接禁用整屏滚动*/
     function isMobile() {
         return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        alert('isMobileDevice');
     }
     if (isMobile()) {
         $.scrollify.disable();
     }
+    /*整屏滚动功能结束*/
 
     /*Header部分形状变化功能*/
     $(function(){
