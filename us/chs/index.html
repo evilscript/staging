@@ -22,6 +22,7 @@
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
     <script src="../shared/js/angular-1.6.4.min.js"></script>
     <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/scrollify.min.js"></script>
     <script src="../shared/js/common.js"></script>
 </head>
 
@@ -31,7 +32,7 @@
         <div ng-include="'header.html'"></div>
     </div>
 
-    <section class="container1920">
+    <section class="container1920 scroll">
         <!--桌面端banner开始-->
         <div id="myCarousel" class="carousel slide hideM" data-ride="carousel" data-interval="false">
             <!-- Indicators -->
@@ -158,7 +159,7 @@
         <div class="clear clearfix"></div>
     </section>
 
-    <section id="iTalkMobile" class="iTalkMobile">
+    <section id="iTalkMobile" class="scroll iTalkMobile">
         <div class="container1920 bg2">
             <div class="mobileLeft">
                 <p class="pin sectionTitle">蜻蜓移动</p>
@@ -202,7 +203,7 @@
         </div>
     </section>
 
-    <section id="iTalkTV" class="iTalkMobile">
+    <section id="iTalkTV" class="scroll iTalkMobile">
         <div class="container1920 bg3">
             <div class="mobileLeft">
                 <p class="pin sectionTitle">蜻蜓电视</p>
@@ -243,7 +244,7 @@
         </div>
     </section>
 
-    <section id="iTalkPhone" class="iTalkMobile">
+    <section id="iTalkPhone" class="scroll iTalkMobile">
         <div class="container1920 bg4">
             <div class="mobileLeft">
                 <p class="pin sectionTitle">蜻蜓电话</p>
@@ -283,7 +284,7 @@
         </div>
     </section>
 
-    <section id="Referral" class="iTalkMobile">
+    <section id="Referral" class="scroll iTalkMobile">
         <div class="container1920 bg5">
             <div class="mobileLeft">
                 <p class="pin sectionTitle s5Title">推荐优惠</p>
@@ -321,7 +322,7 @@
         </div>
     </section>
 
-    <section id="contact" class="iTalkMobile">
+    <section id="contact" class="scroll iTalkMobile">
         <div class="container1920">
             <div>
                 <p class="contactTitle pin">24小时专人客服</p>
@@ -346,9 +347,6 @@
             </div>
             <div class="clear clearfix"></div>
         </div>
-    </section>
-
-    <section id="subscribe" class="iTalkMobile">
         <div class="container1920">
             <div>
                 <p class="subscribeTitle pin">订阅我们的邮件</p>
@@ -372,6 +370,8 @@
         </div>
     </section>
 
-    <div ng-include="'footer.html'"></div>
+    <div class="container1920">
+        <div ng-include="'footer.html'"></div>
+    </div>
 </body>
 </html>

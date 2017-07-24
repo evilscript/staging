@@ -9,6 +9,8 @@ body {font-family: 'pingfang', 微软雅黑, sans-serif;background: #f6f6f6;colo
 a:hover, a:focus{ text-decoration:none!important;}
 img{border:none; display:block;width: 100%}
 .opacity {filter: alpha(opacity=50); -moz-opacity: .5; -khtml-opacity: .5; opacity: .5;}
+input:focus{ outline:none;}
+.scroll{height:auto!important;}
 /*初始化设置结束*/
 
 /*字体部分*/

@@ -1,4 +1,11 @@
 $(document).ready(function(){
+    /*Page scroll effect*/
+    $(function() {
+        $.scrollify({
+            section: ".scroll"
+        });
+    });
+
     /*Header reshape*/
     $(function(){
         $(window).scroll(function(){
