@@ -287,13 +287,13 @@
     background-size: 12%;
     background-position-y: 55%;
 }
-.s2IconText2:hover, .s2IconText1:hover, .s2IconText3:hover, .s2IconText4:hover,
+/*.s2IconText2:hover, .s2IconText1:hover, .s2IconText3:hover, .s2IconText4:hover,
 .s3iconText4:hover, .s3iconText3:hover, .s3iconText2:hover, .s3iconText1:hover,
 .s4iconText4:hover, .s4iconText3:hover, .s4iconText2:hover, .s4iconText1:hover,
 .s5iconText1:hover, .s5iconText3:hover, .s5iconText2:hover{
     color:#327fe8;
     cursor:pointer;
-}
+}*/
 .knowMoreText3 p{
     margin-bottom: 12%;
 }
@@ -488,11 +488,18 @@
     width:25%;
     margin-left:12.5%;
     padding-top:3%;
+    cursor:pointer;
 }
 .s5Middle, .s5Right{
     float:left;
     width:25%;
     padding-top:3%;
+    cursor:pointer;
+}
+.contactIcon{
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .s5Left img, .s5Middle img, .s5Right img{
     width:45%;
@@ -510,6 +517,12 @@
     background-size: 4%;
     background-position-y: 20%;
     background-position-x: 35%;
+}
+.s6IconText:hover{
+    color:#327fe8;
+}
+.social1,.social2,.social3,.social4{
+    cursor:pointer;
 }
 .subscribeTitle {
     font-size: 58px;
@@ -565,10 +578,14 @@
     padding-bottom: 0.5%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 0 0 #ff7f00;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
 }
 .submitButton:hover{
-    color:white;
-    background: #ff7f00;
+    color: white;
+    box-shadow: inset 200px 0 0 0 #ff7f00;
 }
 .socialIcon{
     text-align:center;
