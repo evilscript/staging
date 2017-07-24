@@ -8,15 +8,18 @@
 .where{max-width: 1700px;margin:0 auto;background: #ffffff;position: relative;margin-top: 3%;margin-bottom: 1.5% }
 .orange{width: 100%;height: 10px;background: #ff7f00; }
 .change{max-width: 805px;margin: 0 auto;margin-top:1.2% }
-.changes{width: 30%;font-family: pingfang light;font-size: 22px;color:#767676;display: inline-block;text-align: center;border: 1px solid #327fe8;line-height: 2.5}
-.changes2{margin-left:4%;margin-right:4%  }
+.changes{width: 32.5%;font-family: pingfang light;font-size: 22px;color:#767676;display: inline-block;text-align: center;border: 1px solid #327fe8;line-height: 2.5}
+.changes2{margin-left:0.2%;margin-right:0.2%  }
 .shop{max-width: 1620px;margin:0 auto ;background-color:#f8f9f9 }
-.shop .title{font-size: 36px;text-align: center;font-family: pingfang light;padding-top: 3%}
+.shop .title{font-size: 36px;text-align: center;font-family: pingfang light;padding-top: 3%;color: #333333}
 .shops{padding-bottom: 3%}
-.changeShop select{width: 100%;padding: 2%;font-size:18px }
+.changeShop select{width: 100%;padding: 2%;font-size:18px;border:1px solid #333333; }
 .changeShop{margin: 1.5% auto;width: 39%;}
 .shopx{width: 50%;float: left;margin-top: 8.5%;padding-left: 5.4%}
 .map{width: 50%;float: right;padding-top: 4%;height: 360px;padding-left: 4%;padding-right: 5%}
 .shopname{font-size: 32px}
 .address,.num,.time{margin-top: 1.1%}
 .shopname{margin-bottom:1.7% } 
+.white{background: #ffffff}
+
+    
