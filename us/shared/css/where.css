@@ -2,13 +2,14 @@
 .f18{font-size: 18px}
 .fixhead{padding-top: 9%;}
 .d1{position: relative;}
+.d1 img{width: 100%;}
 .textBanner{position: absolute;top: 33%;left: 5%}
 .textBanner .t1{font-size: 70px;color: white;}
 .textBanner .t2{font-size: 32px;color: white;}
 .where{width: 88.5%;margin:0 auto;background: #ffffff;position: relative;margin-top: 3%;margin-bottom: 1.5% }
 .orange{width: 100%;height: 10px;background: #ff7f00; }
 .change{width:48%;margin: 0 auto;margin-top:1.2% }
-.changes{width: 32.5%;font-family: pingfang light;font-size: 22px;color:#767676;display: inline-block;text-align: center;border: 1px solid #327fe8;line-height: 1.8;vertical-align:top;}
+.changes{width: 32.5%;font-family: pingfang light;font-size: 22px;color:#767676;display: inline-block;text-align: center;border: 1px solid #327fe8;line-height: 180%;vertical-align:top;}
 .changes2{margin-left:0.8%;margin-right:0.8%  }
 .shop{width: 88.5%;margin:0 auto ;background-color:#f8f9f9 }
 .shop .title{font-size: 36px;text-align: center;font-family: pingfang light;padding-top: 3%;color: #333333}
@@ -30,10 +31,10 @@
 .change{width: 91%;margin-top:2.6%;margin-bottom: 2.6% }
 .shop{width: 100%}
 .fixhead{padding-top: 9%;}
-.textBanner{top: 9%;width: 100%;left: 0%;text-align: center;}
+.textBanner{top: 11%;width: 100%;left: 0%;text-align: center;}
 .textBanner .t1{font-size: 6vw;}
 .textBanner .t2{margin-top:1%;font-size: 4vw; }
-.changes{line-height: 2.5;font-size:3vw }
+.changes{line-height: 250%;font-size:3vw }
 .shop .title{padding-top: 7%;font-size:4.5vw}
 .changeShop{margin-top: 3.9%;width: 61%;margin-bottom:0 }
 .changeShop select{font-size: 3vw;color:#767676;margin-bottom:9%; }
