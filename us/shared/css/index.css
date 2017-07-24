@@ -105,7 +105,7 @@
 }
 .sectionTitle{
     font-size: 60px;
-    padding-top: 8%;
+    padding-top: 10%;
     color: #333333;
     line-height: 1.5;
     font-weight: 300;
@@ -174,11 +174,12 @@
 }
 .knowMoreText:hover{
     color:#ff7f00;
+    text-decoration:underline;
 }
 .knowMoreText p{
     padding-left: 3%;
     margin-top: 2%;
-    margin-bottom: 24%;
+    margin-bottom: 21%;
 }
 .orangeBand {
     background: url(../images/index/bgPrice.jpg) no-repeat top center;
@@ -295,13 +296,13 @@
     cursor:pointer;
 }*/
 .knowMoreText3 p{
-    margin-bottom: 12%;
+    margin-bottom: 10%;
 }
 .knowMoreText4 p{
-    margin-bottom: 12%;
+    margin-bottom: 10%;
 }
 .knowMoreText5 p{
-    margin-bottom: 19%;
+    margin-bottom: 17%;
 }
 .s3iconText1 {
     font-size: 26px;
