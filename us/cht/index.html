@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+
+    <link rel="stylesheet" type="text/css"  href="../shared/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/common.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/index.css">
+
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/scrollify.min.js"></script>
+    <script src="../shared/js/common.js"></script>
+</head>
+
+
+<body ng-app="">
+    <div class="container1920">
+        <div ng-include="'header.html'"></div>
+    </div>
+
+    <section class="container1920 scroll">
+        <!--桌面端banner开始-->
+        <div id="myCarousel" class="carousel slide hideM" data-ride="carousel" data-interval="false">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
+                    <div class="carousel-caption">
+                        <p class="bannerTitle1 pin"><span class="ave">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                        <div class="clear clearfix"></div>
+                        <p class="bannerTitle2 pin">《新歌声<span class="ave">2</span>》<span class="hel">iTalkBB</span>蜻蜓電視搶先看
+                        </p>
+                        <p class="bannerButton pin">了解更多</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
+                    <div class="carousel-caption">
+                        <p class="bannerTitle1 pin"><span class="ave">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                        <div class="clear clearfix"></div>
+                        <p class="bannerTitle2 pin">《新歌声<span class="ave">2</span>》<span class="hel">iTalkBB</span>蜻蜓電視搶先看
+                        </p>
+                        <p class="bannerButton pin">了解更多</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
+                    <div class="carousel-caption">
+                        <p class="bannerTitle1 pin"><span class="ave">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                        <div class="clear clearfix"></div>
+                        <p class="bannerTitle2 pin">《新歌声<span class="ave">2</span>》<span class="hel">iTalkBB</span>蜻蜓電視搶先看
+                        </p>
+                        <p class="bannerButton pin">了解更多</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+                <img src="../shared/images/index/leftArrow.png" class="leftArrow" alt="">
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <!--<span class="glyphicon"></span>-->
+                <img src="../shared/images/index/rightArrow.png" class="rightArrow" alt="">
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--桌面端banner结束-->
+        <div class="clear clearfix"></div>
+        <!--移动端banner开始-->
+        <div id="myCarouseM" class="carousel slide showM" data-ride="carousel" data-interval="false">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarouseM" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarouseM" data-slide-to="1"></li>
+                <li data-target="#myCarouseM" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
+                    <div class="carousel-caption">
+                        <p class="bannerTitle1 pin"><span class="ave">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                        <div class="clear clearfix"></div>
+                        <p class="bannerTitle2 pin">《新歌声<span class="ave">2</span>》<span class="hel">iTalkBB</span>蜻蜓電視搶先看
+                        </p>
+                        <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
+                        <p class="bannerButton pin">了解更多</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
+                    <div class="carousel-caption">
+                        <p class="bannerTitle1 pin"><span class="ave">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                        <div class="clear clearfix"></div>
+                        <p class="bannerTitle2 pin">《新歌声<span class="ave">2</span>》<span class="hel">iTalkBB</span>蜻蜓電視搶先看
+                        </p>
+                        <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
+                        <p class="bannerButton pin">了解更多</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
+                    <div class="carousel-caption">
+                        <p class="bannerTitle1 pin"><span class="ave">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                        <div class="clear clearfix"></div>
+                        <p class="bannerTitle2 pin">《新歌声<span class="ave">2</span>》<span class="hel">iTalkBB</span>蜻蜓電視搶先看
+                        </p>
+                        <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
+                        <p class="bannerButton pin">了解更多</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="left carousel-control" href="#myCarouseM" data-slide="prev">
+                <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+                <img src="../shared/images/index/leftArrow.png" class="leftArrow" alt="">
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarouseM" data-slide="next">
+                <!--<span class="glyphicon"></span>-->
+                <img src="../shared/images/index/rightArrow.png" class="rightArrow" alt="">
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--移动端banner结束-->
+        <div class="clear clearfix"></div>
+    </section>
+
+    <section id="iTalkMobile" class="scroll iTalkMobile">
+        <div class="container1920 bg2">
+            <div class="mobileLeft">
+                <p class="pin sectionTitle">蜻蜓移動</p>
+                <p class="pin sectionText">為海外華人打造的專屬手機服務 <br>
+                    一個計劃覆蓋中美兩個國家</p>
+                <div class="iconLeft">
+                    <p class="s2IconText1 pin ">中美兩國雙號</p>
+                    <div class="clear clearfix"></div>
+                    <p class="s2IconText2 pin ">無限全球簡訊、通話</p>
+                </div>
+                <div class="iconRight">
+                    <p class="pin s2IconText3">無線網路流量</p>
+                    <div class="clear clearfix"></div>
+                    <p class="pin s2IconText4">無合約、隨時取消</p>
+                </div>
+                <div class="clear clearfix"></div>
+                <div class="knowMore">
+                    <a class="knowMoreText pin" href="">
+                        <p>了解更多</p>
+                    </a>
+                </div>
+            </div>
+            <div class="clear clearfix"></div>
+            <div class="mobileImg2 showM">
+                <img src="../shared/images/index/mobileImg2.jpg" class="img" alt=""/>
+            </div>
+        </div>
+        <div class="orangeContainer">
+            <div class="container1920 orangeBand">
+                <div class="bandLeft hideM">
+                    <img src="../shared/images/index/cht_band2Price.png" class="img" alt="">
+                </div>
+                <div class="bandLeft showM">
+                    <img src="../shared/images/index/chs_mobilePriceBand1.png" class="img" alt="">
+                </div>
+                <div class="bandRight">
+                    <p class="bandButton pin">立即試用</p>
+                </div>
+                <div class="clear clearfix"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="iTalkTV" class="scroll iTalkMobile">
+        <div class="container1920 bg3">
+            <div class="mobileLeft">
+                <p class="pin sectionTitle">蜻蜓電視</p>
+                <p class="pin sectionText">海外華人首選中文電視<br>
+                    網羅<span class="ave">2017</span>年度華語新片</p>
+                <div class="">
+                    <p class="s3iconText1 pin">熱門直播頻道</p>
+                    <p class="s3iconText2 pin">高清院線新片</p>
+                    <div class="showM clear clearfix"></div>
+                    <p class="s3iconText3 pin">數萬小時影視<br class="showM">綜藝免費觀看</p>
+                    <p class="s3iconText4 pin"><span class="hel">iTalkBB</span>蜻蜓電視<span class="hel">APP</span>：<br class="showM">隨時隨地觀看大量節目</p>
+                </div>
+                <div class="clear clearfix"></div>
+                <div class="knowMore ">
+                    <a class="knowMoreText knowMoreText3 pin" href="">
+                        <p>了解更多</p>
+                    </a>
+                </div>
+            </div>
+            <div class="clear clearfix"></div>
+            <div class="mobileImg2 showM">
+                <img src="../shared/images/index/mobileImg3.jpg" class="img" alt=""/>
+            </div>
+        </div>
+        <div class="orangeContainer">
+            <div class="container1920 orangeBand3">
+                <div class="bandLeftS3 hideM">
+                    <img src="../shared/images/index/cht_band3Price.png" class="img" alt="">
+                </div>
+                <div class="bandLeftS3 showM">
+                    <img src="../shared/images/index/chs_mobilePriceBand2.png" class="img" alt="">
+                </div>
+                <div class="bandRight">
+                    <p class="bandButton pin">立即试用</p>
+                </div>
+                <div class="clear clearfix"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="iTalkPhone" class="scroll iTalkMobile">
+        <div class="container1920 bg4">
+            <div class="mobileLeft">
+                <p class="pin sectionTitle">蜻蜓電話</p>
+                <p class="pin sectionText">海外華人市場<span class="hel">NO.</span><span class="ave">1</span>家庭電話品牌<br>
+                    <span class="ave">14</span>年歷史承諾 <span class="hel">A</span>+產品服務</p>
+                <div class="">
+                    <p class="s4iconText1 pin">無限撥打全球<br class="showM"><span class="hel">29</span>個國家和地區</p>
+                    <p class="s4iconText2 pin">中國親友直撥<br class="showM">美國只收當地話費</p>
+                    <p class="s4iconText3 pin">接聽免費</p>
+                    <p class="s4iconText4 pin"><span class="hel">iTalkBB</span>蜻蜓手機<span class="hel">APP</span>: <br class="showM">用手機就可直撥國際電話</p>
+                </div>
+                <div class="clear clearfix"></div>
+                <div class="knowMore">
+                    <a class="knowMoreText knowMoreText4 pin" href="">
+                        <p>了解更多</p>
+                    </a>
+                </div>
+            </div>
+            <div class="clear clearfix"></div>
+            <div class="mobileImg2 showM">
+                <img src="../shared/images/index/mobileImg4.jpg" class="img" alt=""/>
+            </div>
+        </div>
+        <div class="orangeContainer">
+            <div class="container1920 orangeBand4">
+                <div class="bandLeftS4 hideM">
+                    <img src="../shared/images/index/cht_band4Price.png" class="img" alt="">
+                </div>
+                <div class="bandLeftS4 showM">
+                    <img src="../shared/images/index/chs_mobilePriceBand4.png" class="img" alt="">
+                </div>
+                <div class="bandRight bandRightS4">
+                    <p class="bandButton pin">立即試用</p>
+                </div>
+                <div class="clear clearfix"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Referral" class="scroll iTalkMobile">
+        <div class="container1920 bg5">
+            <div class="mobileLeft">
+                <p class="pin sectionTitle s5Title">推薦優惠</p>
+                <p class="pin sectionText">邀請親友拿獎勵</p>
+                <div class="">
+                    <p class="s5iconText1 pin">成功推薦親友<br class="showM">可獲得精美獎品</p>
+                    <p class="s5iconText2 pin">被推薦的親友<br class="showM">可獲得<span class="ave">$5</span> <span class="hel">OFF</span>優惠</p>
+                    <p class="s5iconText3 pin">推薦親友只需簡單三步</p>
+                </div>
+                <div class="clear clearfix"></div>
+                <div class="knowMore">
+                    <a class="knowMoreText knowMoreText5 pin" href="">
+                        <p>了解更多</p>
+                    </a>
+                </div>
+            </div>
+            <div class="clear clearfix"></div>
+            <div class="mobileImg2 showM">
+                <img src="../shared/images/index/mobileImg5.jpg" class="img" alt=""/>
+            </div>
+        </div>
+        <div class="orangeContainer">
+            <div class="container1920 orangeBand5">
+                <div class="bandLeftS4 hideM">
+                    <img src="../shared/images/index/cht_band5Price.png" class="img" alt="">
+                </div>
+                <div class="bandLeftS4 showM">
+                    <img src="../shared/images/index/chs_mobilePriceBand5.png" class="img" alt="">
+                </div>
+                <div class="bandRight bandRightS5">
+                    <p class="bandButton pin">立即試用</p>
+                </div>
+                <div class="clear clearfix"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="scroll iTalkMobile">
+        <div class="container1920">
+            <div>
+                <p class="contactTitle pin"><span class="ave">24</span>小时专人客服</p>
+                <p class="contactSubTitle pin"><span class="ave">365</span>天全年无休为海外华人服务</p>
+            </div>
+            <div class="s5Left">
+                <img src="../shared/images/index/chs_contactIcon1.png" class="img contactIcon1" alt="">
+                <p class="s6IconText pin"><span class="ave">24</span>小时全天候</p>
+                <p class="s6IconText pin">一站式咨询服务</p>
+                <p class="s6IconText pin">全天守候</p>
+            </div>
+            <div class="s5Middle">
+                <img src="../shared/images/index/chs_contactIcon2.png" class="img contactIcon2" alt="">
+                <p class="s6IconText pin"><span class="ave">24</span>小时全天候</p>
+                <p class="s6IconText pin"><span class="ave">3</span>秒内应答</p>
+                <p class="s6IconText pin"><span class="ave">100%</span>应答率</p>
+            </div>
+            <div class="s5Right">
+                <img src="../shared/images/index/chs_contactIcon3.png" class="img contactIcon3" alt="">
+                <p class="s6IconText pin">全美<span class="ave">23</span>家店面</p>
+                <p class="s6IconText pin">店面地址查询</p>
+            </div>
+            <div class="clear clearfix"></div>
+        </div>
+        <div class="container1920">
+            <div>
+                <p class="subscribeTitle pin">订阅我们的邮件</p>
+                <p class="subscribeSubTitle pin">获得最新折扣信息</p>
+            </div>
+            <div>
+                <input type="email" placeholder="请输入您的邮箱地址" class="emailBar pin">
+                <p class="submitButton pin">
+                    <span class="hideM">订阅</span>
+                    <span class="showM">&gt;</span>
+                </p>
+            </div>
+            <div class="clear clearfix"></div>
+            <p class="socialIcon">
+                <img src="../shared/images/index/iconWechat.jpg" class="social1" alt="">
+                <img src="../shared/images/index/iconWeibo.jpg" class="social2" alt="">
+                <img src="../shared/images/index/iconFacebook.jpg" class="social3" alt="">
+                <img src="../shared/images/index/iconIns.jpg" class="social4" alt="">
+            </p>
+            <div class="clear clearfix"></div>
+        </div>
+    </section>
+
+    <div class="container1920">
+        <div ng-include="'footer.html'"></div>
+    </div>
+</body>
+</html>

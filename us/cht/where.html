@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+
+    <link rel="stylesheet" type="text/css"  href="../shared/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/common.css">
+
+    <link rel="stylesheet" type="text/css"  href="../shared/css/where.css">
+
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/common.js"></script>
+    <style>
+
+        select::-ms-expand { display: none; }          
+         select {
+            width: 100%;padding: 2%;font-size:18px;border:1px solid #333333; 
+
+            /*将默认的select选择框样式清除*/
+            appearance:none;
+            -moz-appearance:none;
+            -webkit-appearance:none;
+            -ms-appearance:none;
+           /*在选择框的最右侧中间显示小箭头图片*/
+           background: url(../shared/images/where/jiantou.jpg) no-repeat scroll 96% center transparent;     /***将sele.png替换为你的下拉箭头**/      
+         }
+
+    </style>
+</head>
+<body ng-app="" style="background-color:#ffffff">
+	<div class="container1920">
+        <div ng-include="'header.html'"></div>
+    </div>
+    <div class="clear clearfix"></div>
+	
+	<div class="bodyy">
+
+	<section class="container1920">
+		<div class="fixhead">
+		   <div class="d1">
+				<img  class="d1img" src="../shared/images/where/whereBanner.jpg" alt="" style="width:100%;" alt="">
+				<img  class="d2img" src="../shared/images/where/mwhereBanner.jpg" alt="" style="width:100%;" alt="">
+				<div class="textBanner">
+					<div class="t1 pin">不论您身在美国何处</div>
+					<div class="t2 pin">iTalkBB蜻蜓体验店为您提供全方位的服务</div>
+				</div>
+		    </div>
+		</div>
+	</section>
+	<section class='where'>
+		<div class="orange"></div>
+		<div class="change">
+			<div class="changes">人工客服</div><div class="changes changes2">店面查询</div><div class="changes">业务合作</div>
+			
+			
+		</div>
+	</section>
+
+
+	<section class='shop'>
+		<div class="title pin">请选择您要找的店面</div>
+		<div class="changeShop">
+			<select id="sel">
+  					<option value="达华府">达华府</option>
+  					<option value="小华府">小华府</option>
+ 					<option value="中华府">中华府</option>
+  					
+			</select>
+		</div>	
+		<div class="backgroundColor">
+		<div class="add">
+		<div class="shops">
+			<div class="shopx">
+				<div class="shopname pin">罗克韦尔店</div>
+				<div class="address pin f18">地址：罗克韦尔大中华超市内  700 Hungerford Dr, Rockville, MD 20850 </div>
+				<div class="time pin f18">营业时间：周一至周日,9:30am - 6:30pm</div>
+				<div class="num pin f18">电话号码：(301) 880-1268</div>
+			</div>
+
+			<div class="map">
+				<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://ditu.google.cn/maps?f=q&amp;source=s_q&amp;hl=zh-CN&amp;geocode=&amp;q=Frederick+Rd,+Germantown,+MD+20876&amp;aq=&amp;sll=39.90403,116.407526&amp;sspn=0.816433,1.783905&amp;brcurrent=3,0x0:0x0,0%3B5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=Frederick+Rd,+Germantown,+Maryland+20876%E7%BE%8E%E5%9B%BD&amp;t=m&amp;z=14&amp;ll=39.1897,-77.241383&amp;output=embed"></iframe>
+			</div>
+			 <div class="clear clearfix"></div>
+		</div>
+
+		</div>
+		
+		<div class="add white">
+		<div class="shops ">
+			<div class="shopx">
+				<div class="shopname pin">罗克韦尔店</div>
+				<div class="address pin f18">地址：罗克韦尔大中华超市内  700 Hungerford Dr, Rockville, MD 20850 </div>
+				<div class="time pin f18">营业时间：周一至周日,9:30am - 6:30pm</div>
+				<div class="num pin f18">电话号码：(301) 880-1268</div>
+			</div>
+
+			<div class="map">
+				<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://ditu.google.cn/maps?f=q&amp;source=s_q&amp;hl=zh-CN&amp;geocode=&amp;q=Frederick+Rd,+Germantown,+MD+20876&amp;aq=&amp;sll=39.90403,116.407526&amp;sspn=0.816433,1.783905&amp;brcurrent=3,0x0:0x0,0%3B5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=Frederick+Rd,+Germantown,+Maryland+20876%E7%BE%8E%E5%9B%BD&amp;t=m&amp;z=14&amp;ll=39.1897,-77.241383&amp;output=embed"></iframe>
+			</div>
+			 <div class="clear clearfix"></div>
+		</div>
+
+		</div>
+		</div>
+
+
+
+	</section>
+
+	</div>
+
+
+
+
+
+
+
+
+    <div class="clear clearfix"></div>
+    <div ng-include="'footer.html'"></div>
+</body>
+<script>
+
+
+
+// 储存店面信息  json
+
+	var data = 
+     {"达华府":[{"shopName":"罗1",
+				"shopaddress":"超市内1",
+				"shoptime":"91",
+				"shopnum":"123",
+				"mapd":"http://ditu.google.cn/maps?f=q&amp;source=s_q&amp;hl=zh-CN&amp;geocode=&amp;q=Frederick+Rd,+Germantown,+MD+20876&amp;aq=&amp;sll=39.90403,116.407526&amp;sspn=0.816433,1.783905&amp;brcurrent=3,0x0:0x0,0%3B5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=Frederick+Rd,+Germantown,+Maryland+20876%E7%BE%8E%E5%9B%BD&amp;t=m&amp;z=14&amp;ll=39.1897,-77.241383&amp;output=embed"},
+
+			   {"shopName":"罗2","shopaddress":"超市内2","shoptime":"92","shopnum":"223"},
+			   {"shopName":"罗3","shopaddress":"超市内3","shoptime":"93","shopnum":"323"}
+			   ],
+	"小华府":[{"shopName":"F1","shopaddress":"超市外1","shoptime":"81","shopnum":"113"},
+			   {"shopName":"F2","shopaddress":"超市外2","shoptime":"82","shopnum":"213"},
+			   {"shopName":"F3","shopaddress":"超市外3","shoptime":"83","shopnum":"313"}
+			   ],
+	"中华府":[{"shopName":"D1","shopaddress":"市外1","shoptime":"71","shopnum":"114"},
+			   {"shopName":"D2","shopaddress":"市外2","shoptime":"72","shopnum":"214"},
+			   {"shopName":"D3","shopaddress":"市外3","shoptime":"73","shopnum":"314"},
+			   {"shopName":"D4","shopaddress":"市外4","shoptime":"74","shopnum":"315"}
+			   ]}
+	
+
+
+ 
+
+// 获取value值
+
+ $("#sel").change(function(){
+ var k = $('#sel option:selected').val();
+ console.log(k);
+ var l = eval(data[k]).length;
+ console.log(l); 
+  $('.backgroundColor').children().remove();
+
+for ( i=0;i<l;i++)
+{
+
+if (i%2==1) {
+	$(".backgroundColor").append("<div class='add white'><div class='shops '><div class='shopx'><div class='shopname pin'>"+data[k][i].shopName+"</div><div class='address pin f18'>"+data[k][i].shopaddress+"</div><div class='time pin f18'>"+data[k][i].shoptime+"</div><div class='num pin f18'>"+data[k][i].shopnum+"</div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data[k][i].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>");
+}else{$(".backgroundColor").append("<div class='add'><div class='shops'><div class='shopx'><div class='shopname pin'>"+data[k][i].shopName+"</div><div class='address pin f18'>"+data[k][i].shopaddress+"</div><div class='time pin f18'>"+data[k][i].shoptime+"</div><div class='num pin f18'>"+data[k][i].shopnum+"</div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data[k][i].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>");};
+
+} 
+ }); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>
