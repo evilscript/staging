@@ -7,7 +7,7 @@ body {font-family: 'pingfang', 微软雅黑, sans-serif;background: #f6f6f6;colo
 * html .clearfix { height: 1%;}
 .clearfix {display: block;}
 a, a:hover, a:focus{ text-decoration:none;}
-img{border:none; display:block;width: 100%}
+img{border:none; display:block;}
 .opacity {filter: alpha(opacity=50); -moz-opacity: .5; -khtml-opacity: .5; opacity: .5;}
 input:focus{ outline:none;}
 .scroll{height:auto!important;}
