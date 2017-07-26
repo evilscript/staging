@@ -41,6 +41,44 @@ input:focus{ outline:none;}
 .pin{font-family: 'pingfang', 微软雅黑, sans-serif;}
 /*字体部分结束*/
 
+/* mainLayout css */
+.mainLayout{max-width:1920px; width:100%; margin:0 auto; padding-top: 9%; margin-bottom: 7%;}
+.mainPart{margin-top: 3%; padding: 0 5%;}
+.lineOrange{height:0; border-bottom: .4vw solid #ff7f00;}
+.lineBlue{height:0; border-bottom: .4vw solid #327fe8;}
+.wb{font-weight: 700;}
+.mgnCnt{margin: 0 auto;}
+.txtCnt{text-align: center;}
+.fLeft{float: left;}
+.fRight{float: right;}
+/* mainLayout css end*/
+
+/*Font size css*/
+.title60,.title20{color:#222;}
+.title32,.title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#333;}
+.title60{font-size: 60px;}
+.title32{font-size: 32px;}
+.title28{font-size: 28px;}
+.title22{font-size: 22px;}
+.title20{font-size: 20px;}
+.title18{font-size: 18px;}
+.titNom30,.titEng30{font-size: 30px;}
+.titColor80{font-size: 80px; color: #fff;}
+.titColor48{font-size: 48px; color: #fff;}
+.titColor32{font-size: 32px; color: #fff;}
+.titColor28{font-size: 28px; color: #fff;}
+.titColor20{font-size: 20px; color: #fff;}
+.titColor18{font-size: 18px; color: #d4d4d4;}
+.text32{font-size: 32px;}
+.text28{font-size: 28px;}
+.text18{font-size: 18px;}
+.txtNom34,.txtEng34{font-size: 34px;}
+.txtNom30,.txtEng30{font-size: 30px;}
+.txtNom20,.txtEng20{font-size: 20px;}
+.txtColor16{font-size: 16px; color: #fff;}
+.txtColorSpl16{font-size: 16px; color: #989898;}
+/*Font size css end*/
+
 /*Header和Footer*/
 .headerTotal{
     position:fixed;
@@ -491,6 +529,29 @@ input:focus{ outline:none;}
 }
 
 @media (max-width:1600px) {
+    .title60,.title32,.title20{color:#333;}
+    .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
+    .title60{font-size: 50px;}
+    .title32{font-size: 27px;}
+    .title28{font-size: 23px;}
+    .title22{font-size: 18px;}
+    .title20{font-size: 17px;}
+    .title18{font-size: 15px;}
+    .titNom30,.titEng30{font-size: 25px;}
+    .titColor80{font-size: 67px; color: #fff;}
+    .titColor48{font-size: 40px; color: #fff;}
+    .titColor32{font-size: 27px; color: #fff;}
+    .titColor28{font-size: 23px; color: #fff;}
+    .titColor20{font-size: 17px; color: #fff;}
+    .titColor18{font-size: 15px; color: #d4d4d4;}
+    .text32{font-size: 27px;}
+    .text28{font-size: 23px;}
+    .text18{font-size: 15px;}
+    .txtNom34,.txtEng34{font-size: 28px;}
+    .txtNom30,.txtEng30{font-size: 25px;}
+    .txtNom20,.txtEng20{font-size: 17px;}
+    .txtColor16{font-size: 14px; color: #fff;}
+    .txtColorSpl16{font-size: 14px; color: #989898;}
     .teleText{
         font-size:14px;
     }
@@ -506,6 +567,29 @@ input:focus{ outline:none;}
 }
 
 @media (max-width:1400px){
+    .title60,.title32,.title20{color:#333;}
+    .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
+    .title60{font-size: 44px;}
+    .title32{font-size: 23px;}
+    .title28{font-size: 20px;}
+    .title22{font-size: 16px;}
+    .title20{font-size: 15px;}
+    .title18{font-size: 13px;}
+    .titNom30,.titEng30{font-size: 22px;}
+    .titColor80{font-size: 58px; color: #fff;}
+    .titColor48{font-size: 35px; color: #fff;}
+    .titColor32{font-size: 23px; color: #fff;}
+    .titColor28{font-size: 20px; color: #fff;}
+    .titColor20{font-size: 15px; color: #fff;}
+    .titColor18{font-size: 13px; color: #d4d4d4;}
+    .text32{font-size: 23px;}
+    .text28{font-size: 20px;}
+    .text18{font-size: 13px;}
+    .txtNom34,.txtEng34{font-size: 25px;}
+    .txtNom30,.txtEng30{font-size: 22px;}
+    .txtNom20,.txtEng20{font-size: 15px;}
+    .txtColor16{font-size: 12px; color: #fff;}
+    .txtColorSpl16{font-size: 12px; color: #989898;}
     .headerMirrorSearchPart{
         padding-top: 1.5%;
     }
@@ -536,7 +620,29 @@ input:focus{ outline:none;}
 }
 
 @media (max-width:1300px){
-    @-ms-viewport { width: 768px; }
+    .title60,.title32,.title20{color:#333;}
+    .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
+    .title60{font-size: 3.2vw;}
+    .title32{font-size: 1.7vw;}
+    .title28{font-size: 1.46vw;}
+    .title22{font-size: 1.15vw;}
+    .title20{font-size: 1.1vw;}
+    .title18{font-size: 0.9vw;}
+    .titNom30,.titEng30{font-size: 1.5vw;}
+    .titColor80{font-size: 4.2vw; color: #fff;}
+    .titColor48{font-size: 2.5vw; color: #fff;}
+    .titColor32{font-size: 1.7vw; color: #fff;}
+    .titColor28{font-size: 1.46vw; color: #fff;}
+    .titColor20{font-size: 1.1vw; color: #fff;}
+    .titColor18{font-size: 0.9vw; color: #d4d4d4;}
+    .text32{font-size: 1.7vw;}
+    .text28{font-size: 1.46vw;}
+    .text18{font-size: 0.9vw;}
+    .txtNom34,.txtEng34{font-size: 1.8vw;}
+    .txtNom30,.txtEng30{font-size: 1.5vw;}
+    .txtNom20,.txtEng20{font-size: 1.1vw;}
+    .txtColor16{font-size: 0.8vw; color: #fff;}
+    .txtColorSpl16{font-size: 0.8vw; color: #989898;}
     .headerMirrorSearchText {
         font-size: 1.5vw;
     }
