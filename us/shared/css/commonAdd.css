@@ -21,6 +21,7 @@
 .titColor80{font-size: 80px; color: #fff;}
 .titColor48{font-size: 48px; color: #fff;}
 .titColor32{font-size: 32px; color: #fff;}
+.titColor28{font-size: 28px; color: #fff;}
 .titColor20{font-size: 20px; color: #fff;}
 .titColor18{font-size: 18px; color: #d4d4d4;}
 
@@ -29,8 +30,9 @@
 .text18{font-size: 18px;}
 .txtNom34,.txtEng34{font-size: 34px;}
 .txtNom30,.txtEng30{font-size: 30px;}
-.txtNom20,.txtEng20{font-size: 34px;}
-.txtColor16{font-size: 16px; color: #989898;}
+.txtNom20,.txtEng20{font-size: 20px;}
+.txtColor16{font-size: 16px; color: #fff;}
+.txtColorSpl16{font-size: 16px; color: #989898;}
 
 /* others media fontSize*/		
 @media (max-width:1600px){
@@ -46,6 +48,7 @@
     .titColor80{font-size: 67px; color: #fff;}
     .titColor48{font-size: 40px; color: #fff;}
     .titColor32{font-size: 27px; color: #fff;}
+	.titColor28{font-size: 23px; color: #fff;}
     .titColor20{font-size: 17px; color: #fff;}
     .titColor18{font-size: 15px; color: #d4d4d4;}
 
@@ -55,9 +58,10 @@
     .txtNom34,.txtEng34{font-size: 28px;}
     .txtNom30,.txtEng30{font-size: 25px;}
     .txtNom20,.txtEng20{font-size: 17px;}
-    .txtColor16{font-size: 14px; color: #989898;}
+    .txtColor16{font-size: 14px; color: #fff;}
+	.txtColorSpl16{font-size: 14px; color: #989898;}
 }
-@media (max-width:1400px){
+@media (max-width:1399px){
 	.title60,.title32,.title20{color:#333;}
     .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 44px;}
@@ -70,6 +74,7 @@
     .titColor80{font-size: 58px; color: #fff;}
     .titColor48{font-size: 35px; color: #fff;}
     .titColor32{font-size: 23px; color: #fff;}
+	.titColor28{font-size: 20px; color: #fff;}
     .titColor20{font-size: 15px; color: #fff;}
     .titColor18{font-size: 13px; color: #d4d4d4;}
 
@@ -79,7 +84,8 @@
     .txtNom34,.txtEng34{font-size: 25px;}
     .txtNom30,.txtEng30{font-size: 22px;}
     .txtNom20,.txtEng20{font-size: 15px;}
-    .txtColor16{font-size: 12px; color: #989898;}
+    .txtColor16{font-size: 12px; color: #fff;}
+	.txtColorSpl16{font-size: 12px; color: #989898;}
 }
 @media (max-width:1300px){	
 	.title60,.title32,.title20{color:#333;}
@@ -94,6 +100,7 @@
     .titColor80{font-size: 4.2vw; color: #fff;}
     .titColor48{font-size: 2.5vw; color: #fff;}
     .titColor32{font-size: 1.7vw; color: #fff;}
+	.titColor28{font-size: 1.46vw; color: #fff;}
     .titColor20{font-size: 1.1vw; color: #fff;}
     .titColor18{font-size: 0.9vw; color: #d4d4d4;}
 
@@ -103,23 +110,10 @@
     .txtNom34,.txtEng34{font-size: 1.8vw;}
     .txtNom30,.txtEng30{font-size: 1.5vw;}
     .txtNom20,.txtEng20{font-size: 1.1vw;}
-    .txtColor16{font-size: 0.8vw; color: #989898;}
+    .txtColor16{font-size: 0.8vw; color: #fff;}
+	.txtColorSpl16{font-size: 0.8vw; color: #989898;}
 }
-<<<<<<< Updated upstream
-@media (max-width:767px){	
-=======
-
-@media (max-width:767px){	
-    
->>>>>>> Stashed changes
+@media (max-width:767px){
+	
 }
 
-
-
-
-
-
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
