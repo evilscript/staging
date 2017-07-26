@@ -3,6 +3,7 @@
 *{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;/*盒模型定义高度和宽度*/}
 html{overflow-y:scroll;/*提供滚动机制*/-webkit-text-size-adjust: none;/*取消浏览器最小字体限制*/}
 body {font-family: 'pingfang', 微软雅黑, sans-serif;background: #f6f6f6;color: #000;font-size: 16px;height:100%;transition: margin-left .5s, margin-right .5s;}
+ul,ol,li{list-style-type:none;}
 .clearfix:after {visibility: hidden;display: block;font-size: 0; content: " "; clear: both; height: 0;}
 * html .clearfix { height: 1%;}
 .clearfix {display: block;}
@@ -102,11 +103,11 @@ input:focus{ outline:none;}
     width: 100%;
 }
 .menuText {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     padding-top: 5%;
-    font-weight: 500;
-    color: #333333;
+    font-weight: 700;
+    color: #333;
     text-align: center;
 }
 .subMenuDiv{
@@ -130,7 +131,9 @@ input:focus{ outline:none;}
     float:left;
 }
 .teleText {
-    font-size: 16px;
+    font-size: 18px;
+	color: #444;
+	font-weight: 700;
 }
 .headerLink{
     color:black;
@@ -221,13 +224,13 @@ input:focus{ outline:none;}
 }
 .footerTitle {
     color: #d4d4d4;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     padding-bottom: 1%;
 }
 .footerText{
     color: #d4d4d4;
-    font-size:14px;
+    font-size:16px;
     font-weight: 300;
     padding-bottom:1%;
 }

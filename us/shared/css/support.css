@@ -1,0 +1,65 @@
+/* support css */
+.mgnCnt{margin: 0 auto; padding: 0;}
+.sptLeft,.sptRight{margin: 0 auto; text-align: center; width: 50%}
+.sptLeft{float: left;padding-top: 5%;}
+.sptRight{float: right;padding-top: 3%;border-left: 1px solid #dedede;}
+.sptHot{background: #f0f0f0;border-top: 1px solid #dedede; padding: 1.3% 0 1.5% 8%; width: 100%;}
+.sptHot .hot1{padding-left: 2.5%;float: left;background: url(../images/support/supportHot.png) no-repeat; background-size: 9%; background-position-x: 10%;background-position-y: 2%;}
+.sptHot .hot2{margin-left: 14%;padding-left: 2.5%;float: left;background: url(../images/support/supportHot.png) no-repeat; background-size: 9%; background-position-x: 10%;background-position-y: 2%;}
+.searchTitle{margin-bottom: 4%; margin-left: 2.5%;}
+.searchImg{
+	padding-top: 1.8%;
+    padding-bottom: 1.8%;
+	margin-left: 14%;
+    width: 6.5%;
+	float: left;
+	font-weight: bold;
+	cursor: pointer;        
+    border: 1px solid #b1b1b1;
+	border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+	background: #fff url(../images/support/supportSearch.png) no-repeat scroll center center;
+	background-size: 55%;
+    background-position-x: 60%;
+}
+.searchBar{
+    padding-left: 1%;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+    margin-bottom: 0.5%;
+    width: 52%;
+    float:left;
+	color: #999;
+    border: 1px solid #b1b1b1;
+	border-left: none;
+	border-right: none;    
+}
+.searchButton {
+	padding-top: 1.8%;
+    padding-bottom: 1.8%;	   
+    width: 13%;
+    float: left;
+	text-align: center;
+    font-weight: bold;
+	color: #ff7f00;
+    cursor: pointer;
+	background: #fff; 
+    border: 1px solid #b1b1b1;
+	border-left-color: #ccc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 0 0 #ff7f00;
+    -webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    transition: all ease .8s;
+}
+.searchButton:hover{
+    color: white;
+    box-shadow: inset 200px 0 0 0 #ff7f00;
+}
+.hService{width: 100%; margin-left: 4.5%;padding: 0 5%; margin-bottom: 8%; margin-top: 3%;}
+.hService li{float: left; width: 30%; text-align: center; padding-top: 12%;border-right: 1px solid #b1b1b1;}
+.bgService1{background: url(../images/support/supportIcon1.png) no-repeat scroll center center;	background-size: 27.5%; background-position-y: 10%;}
+.bgService2{background: url(../images/support/supportIcon2.png) no-repeat scroll center center;	background-size: 27.5%; background-position-y: 10%;}
+.bgService3{background: url(../images/support/supportIcon3.png) no-repeat scroll center center;	background-size: 27.5%; background-position-y: 10%;}

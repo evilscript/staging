@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+
+    <link rel="stylesheet" type="text/css"  href="../shared/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/common.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/commonAdd.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/support.css">
+
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+</head>
+
+
+<body ng-app="">
+    <div class="container1920">
+        <div ng-include="'header.html'"></div>
+    </div>
+    
+    <div class="mainLayout">
+       <section class="">
+      	   <div ng-include="'supportBanner.html'"></div>       	   
+       </section>
+       <section class="mainPart">
+        	<div class="lineOrange"></div>
+        	<div class="sptLeft">
+        	    <div class="searchTitle title32">有问题？我们将为您竭解答。</div>
+        	    <p class="searchImg text18">&nbsp;</p>
+        	    <input type="search" placeholder="" value="输入需要帮助的关键字" class="searchBar text18" onfocus="if (value =='输入需要帮助的关键字'){value =''}" onblur="if (value ==''){value='输入需要帮助的关键字'}" >
+        	    
+        	    <p class="searchButton text18">
+                    <span>&gt;</span>
+                </p>
+        	    <div class="clear clearfix"></div>        		
+        	</div>
+        	<div class="sptRight">
+        		<div class="title32">24小时人工客服</div>
+        		<div class="title22">专人为您服务</div>
+        		<div class="">
+        		<ul class="hService clearfix">        		 
+        		   <li class="text18 bgService1">致电我们</li>
+        		   <li class="text18 bgService2">微信我们</li>
+        		   <li class="text18 bgService3" style="border: none;">到体验店</li>
+        		</ul>
+        		</div>
+        	</div>
+        	<div class="clear clearfix"></div> 
+        	<div class="sptHot">
+      	       <div class="hot1">
+      	       	  <p class="title22 wb">常见问题</p>
+      	       	  <p class="text18">费率查询</p>
+      	       	  <p class="text18">订单查询</p>
+      	       	  <p class="text18">蜻蜓电话安装</p>
+      	       	  <p class="text18">蜻蜓电视安装</p>
+      	       </div>
+      	       <div class="hot2">
+      	       	  <p class="title22 wb">热点问题</p>
+      	       	  <p class="text18">费率查询</p>
+      	       	  <p class="text18">订单查询</p>
+      	       	  <p class="text18">蜻蜓电话安装</p>
+      	       	  <p class="text18">蜻蜓电视安装</p>
+      	       </div>   
+       	       <div class="clear clearfix"></div>    		
+        	</div>     
+       </section>
+    </div>
+    
+    <div class="lineBlue"></div>
+    <div class="container1920">
+        <div ng-include="'footer.html'"></div>
+    </div>
+</body>
+</html>
