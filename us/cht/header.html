@@ -201,41 +201,41 @@
             <div class="footerSitemap">
                 <div class="footerColumn">
                     <p class="footerTitle pin">iTalkBB蜻蜓全球</p>
-                    <p class="footerText pin">美國</p>
-                    <p class="footerText pin">加拿大</p>
-                    <p class="footerText pin">澳大利亞</p>
-                    <p class="footerText pin">新加坡</p>
-                    <p class="footerText pin">韓國</p>
+                    <a href=""><p class="footerText pin">美國</p></a>
+                    <a href=""><p class="footerText pin">加拿大</p></a>
+                    <a href=""><p class="footerText pin">澳大利亞</p></a>
+                    <a href=""><p class="footerText pin">新加坡</p></a>
+                    <a href=""><p class="footerText pin">韓國</p></a>
                 </div>
                 <div class="footerColumn">
                     <p class="footerTitle pin">關於我們</p>
-                    <p class="footerText pin">企業簡介</p>
-                    <p class="footerText pin">品牌手冊</p>
-                    <p class="footerText pin">品牌多媒體廳</p>
-                    <p class="footerText pin">品牌新問廳</p>
+                    <a href=""><p class="footerText pin">企業簡介</p></a>
+                    <a href=""><p class="footerText pin">品牌手冊</p></a>
+                    <a href=""><p class="footerText pin">品牌多媒體廳</p></a>
+                    <a href=""><p class="footerText pin">品牌新問廳</p></a>
                 </div>
                 <div class="footerColumn">
                     <p class="footerTitle pin">聯繫我們</p>
-                    <p class="footerText pin">聯繫客服</p>
-                    <p class="footerText pin">門店查詢</p>
-                    <p class="footerText pin">代理商加盟</p>
-                    <p class="footerText pin">廣告業務合作</p>
-                    <p class="footerText pin">美國總部地址</p>
+                    <a href=""><p class="footerText pin">聯繫客服</p></a>
+                    <a href=""><p class="footerText pin">門店查詢</p></a>
+                    <a href=""><p class="footerText pin">代理商加盟</p></a>
+                    <a href=""><p class="footerText pin">廣告業務合作</p></a>
+                    <a href=""><p class="footerText pin">美國總部地址</p></a>
                 </div>
                 <div class="footerColumn">
                     <p class="footerTitle pin">工作機會</p>
-                    <p class="footerText pin">美国</p>
-                    <p class="footerText pin">加拿大</p>
-                    <p class="footerText pin">澳大利亞</p>
-                    <p class="footerText pin">新加坡</p>
+                    <a href=""><p class="footerText pin">美国</p></a>
+                    <a href=""><p class="footerText pin">加拿大</p></a>
+                    <a href=""><p class="footerText pin">澳大利亞</p></a>
+                    <a href=""><p class="footerText pin">新加坡</p></a>
                 </div>
                 <div class="footerColumn">
                     <p class="footerTitle pin">代理商加盟</p>
-                    <p class="footerText pin">申請加入</p>
-                    <p class="footerText pin">加盟條件</p>
-                    <p class="footerText pin">產品簡介</p>
-                    <p class="footerText pin">獲得支持</p>
-                    <p class="footerText pin">賬戶登錄</p>
+                    <a href=""><p class="footerText pin">申請加入</p></a>
+                    <a href=""><p class="footerText pin">加盟條件</p></a>
+                    <a href=""><p class="footerText pin">產品簡介</p></a>
+                    <a href=""><p class="footerText pin">獲得支持</p></a>
+                    <a href=""><p class="footerText pin">賬戶登錄</p></a>
                 </div>
                 <div class="clear clearfix"></div>
             </div>
@@ -393,6 +393,7 @@
     $('map').imageMapResize();
 
     /*==========桌面Header部分==========*/
+
     /*桌面sitemap的出现和隐藏*/
     $('.toggle, .closeSitemap').click(function(){
         $('.sitemap, .mask').fadeToggle(500);
@@ -402,6 +403,7 @@
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
+
     /*桌面二级菜单的出现和隐藏，愣写的，没什么技术含量*/
     $('.headerBundle').click(function(){
         $('.menu1').slideToggle(500);
@@ -409,6 +411,8 @@
         $('.headerBundle p').toggleClass('headerActive');
         $('.headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
         $('.sitemap, .mask').fadeOut(500);
+        $('.searchFunction').slideUp(500);
+        $('.blueBand').slideDown(500);
     });
     $('.headerMobile').click(function(){
         $('.menu2').slideToggle(500);
@@ -416,6 +420,8 @@
         $('.headerMobile p').toggleClass('headerActive');
         $('.headerBundle p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
         $('.sitemap, .mask').fadeOut(500);
+        $('.searchFunction').slideUp(500);
+        $('.blueBand').slideDown(500);
     });
     $('.headerPhone').click(function(){
         $('.menu3').slideToggle(500);
@@ -423,6 +429,8 @@
         $('.headerPhone p').toggleClass('headerActive');
         $('.headerBundle p, .headerMobile p, .headerTV p, .headerSupport p').removeClass('headerActive');
         $('.sitemap, .mask').fadeOut(500);
+        $('.searchFunction').slideUp(500);
+        $('.blueBand').slideDown(500);
     });
     $('.headerTV').click(function(){
         $('.menu4').slideToggle(500);
@@ -430,6 +438,8 @@
         $('.headerTV p').toggleClass('headerActive');
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerSupport p').removeClass('headerActive');
         $('.sitemap, .mask').fadeOut(500);
+        $('.searchFunction').slideUp(500);
+        $('.blueBand').slideDown(500);
     });
     $('.headerSupport').click(function(){
         $('.menu5').slideToggle(500);
@@ -437,6 +447,8 @@
         $('.headerSupport p').toggleClass('headerActive');
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p').removeClass('headerActive');
         $('.sitemap, .mask').fadeOut(500);
+        $('.searchFunction').slideUp(500);
+        $('.blueBand').slideDown(500);
     });
     /*==========桌面部分结束==========*/
     /*==========移动端Header==========*/
@@ -491,6 +503,8 @@
     /*搜索菜单展开收缩功能*/
     $('.searchFunctionIcon, .mobileHeaderSearchFunction, .searchClose').click(function(){
         $('.searchFunction, .blueBand').slideToggle(500);
+        $('.menu1, .menu2, .menu3, .menu4, .menu5').slideUp(500);
+        $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
     })
     /*展开收缩结束*/
     /*==========搜索结束==========*/

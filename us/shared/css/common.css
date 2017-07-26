@@ -234,6 +234,9 @@ input:focus{ outline:none;}
     font-weight: 300;
     padding-bottom:1%;
 }
+.footerText:hover{
+    color: #ff7f00;
+}
 .disclaimer {
     font-size: 12px;
     text-align: center;
@@ -411,6 +414,9 @@ input:focus{ outline:none;}
 .footerSitemap .footerTitle,
 .footerSitemap .footerText{
     color:black;
+}
+.footerSitemap .footerText:hover {
+    color: #ff7f00;
 }
 .closeSitemap {
     cursor:pointer;
