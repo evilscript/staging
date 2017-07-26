@@ -1,0 +1,86 @@
+<div class="footerBg">
+    <div class="container1920">
+        <div class="footer1">
+            <div class="footerColumn">
+                <p class="footerTitle footerTitle1 pin"><span class="hel">iTalkBB</span>蜻蜓全球</p>
+                <div class="mobileFooter1 hideM">
+                    <p class="footerText pin">美国</p>
+                    <p class="footerText pin">加拿大</p>
+                    <p class="footerText pin">澳大利亚</p>
+                    <p class="footerText pin">新加坡</p>
+                    <p class="footerText pin">韩语</p>
+                </div>
+            </div>
+            <div class="footerColumn">
+                <p class="footerTitle pin">关于我们</p>
+                <div class="mobileFooter hideM">
+                    <p class="footerText pin">企业简介</p>
+                    <p class="footerText pin">品牌手册</p>
+                    <p class="footerText pin">品牌多媒体厅</p>
+                    <p class="footerText pin">品牌新闻厅</p>
+                </div>
+            </div>
+            <div class="footerColumn">
+                <p class="footerTitle pin">联系我们</p>
+                <div class="mobileFooter hideM">
+                    <p class="footerText pin">联系客服</p>
+                    <p class="footerText pin">门店查询</p>
+                    <p class="footerText pin">代理商加盟</p>
+                    <p class="footerText pin">广告业务合作</p>
+                    <p class="footerText pin">美国总部地址</p>
+                </div>
+            </div>
+            <div class="footerColumn">
+                <p class="footerTitle pin">工作机会</p>
+                    <div class="mobileFooter hideM">
+                    <p class="footerText pin">美国</p>
+                    <p class="footerText pin">加拿大</p>
+                    <p class="footerText pin">澳大利亚</p>
+                    <p class="footerText pin">新加坡</p>
+                </div>
+            </div>
+            <div class="footerColumn">
+                <p class="footerTitle pin">代理商加盟</p>
+                <div class="mobileFooter hideM">
+                    <p class="footerText pin">申请加入</p>
+                    <p class="footerText pin">加盟条件</p>
+                    <p class="footerText pin">产品简介</p>
+                    <p class="footerText pin">获得支持</p>
+                    <p class="footerText pin">账户登录</p>
+                </div>
+            </div>
+            <div class="clear clearfix"></div>
+        </div>
+        <div class="footer2">
+            <p class="disclaimer hel">Copyright &copy; iTalkBB.com All rights reserved.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    /*Mobile footer content toggles*/
+    var b = true; 
+        window.onresize=checkScreenSize;
+        function checkScreenSize(){
+            var wi = $(window).width();
+            if(wi<768&&b){
+               $('.footerTitle').each( function(index) {
+                $(this).next().hide();});
+                b = false;
+                $('.footerTitle').each( function(index) {
+                    $(this).click( function() {
+                        $(this).next().slideToggle(300);
+                        $(this).toggleClass('minus');
+                    });
+                });
+            }
+            if(wi>=768){
+                b = true;
+                $('.footerTitle').each( function(index) {
+                    $(this).next().show();
+                });
+                $(".footerTitle").unbind("click");
+            }
+        }
+    checkScreenSize();
+</script>
