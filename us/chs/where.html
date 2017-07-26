@@ -19,6 +19,7 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/common.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/commonAdd.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/where.css">
 
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
@@ -26,6 +27,13 @@
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/common.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
+    <style>
+select {width: 100%;padding: 2%;font-size:18px;border:1px solid #333333; 
+/*将默认的select选择框样式清除*/
+appearance:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;
+/*在选择框的最右侧中间显示小箭头图片*/
+background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% center transparent;        }
+    </style>
     
 </head>
 <body ng-app="" style="background-color:#ffffff">
@@ -42,18 +50,18 @@
 				<img  class="d1img" src="../shared/images/support/whereBanner.jpg" alt="" style="width:100%;" alt="">
 				<img  class="d2img" src="../shared/images/support/mwhereBanner.jpg" alt="" style="width:100%;" alt="">
 				<div class="textBanner">
-					<div class="t1 pin">不论您身在美国何处</div>
-					<div class="t2 pin">iTalkBB蜻蜓体验店为您提供全方位的服务</div>
-					<div class="t2 pin">365天全年无休为海外华人服务</div>
+					<div class="t1 pin titColor80">不论您身在美国何处</div>
+					<div class="t2 pin titColor32">iTalkBB蜻蜓体验店为您提供全方位的服务</div>
+					<div class="t2 pin titColor32">365天全年无休为海外华人服务</div>
 				</div>
 		    </div>
 		   	<div class="d3 ">
 				<img  class="d1img" src="../shared/images/support/customerBanner.jpg" alt="" style="width:100%;" alt="">
 				<img  class="d2img" src="../shared/images/support/mcustomerBanner.jpg" alt="" style="width:100%;" alt="">
 				<div class="textBanner">
-					<div class="t1 pin">不论您身在美国何处</div>
-					<div class="t2 pin">iTalkBB蜻蜓体验店为您提供全方位的服务</div>
-					<div class="t2 pin">365天全年无休为海外华人服务</div>
+					<div class="t1 pin titColor80">不论您身在美国何处</div>
+					<div class="t2 pin titColor32">iTalkBB蜻蜓体验店为您提供全方位的服务</div>
+					<div class="t2 pin titColor32">365天全年无休为海外华人服务</div>
 				</div>
 		    </div>
 
@@ -61,9 +69,9 @@
 				<img  class="d1img" src="../shared/images/support/collaborateBanner.jpg" alt="" style="width:100%;" alt="">
 				<img  class="d2img" src="../shared/images/support/mcollaborateBanner.jpg" alt="" style="width:100%;" alt="">
 				<div class="textBanner">
-					<div class="t1 pin">不论您身在美国何处</div>
-					<div class="t2 pin">iTalkBB蜻蜓体验店为您提供全方位的服务</div>
-					<div class="t2 pin">365天全年无休为海外华人服务</div>
+					<div class="t1 pin titColor80">不论您身在美国何处</div>
+					<div class="t2 pin titColor32">iTalkBB蜻蜓体验店为您提供全方位的服务</div>
+					<div class="t2 pin titColor32">365天全年无休为海外华人服务</div>
 				</div>
 		    </div>
 		</div>
@@ -71,7 +79,7 @@
 	<section class='where'>
 		<div class="orange"></div>
 		<div class="change">
-			<div class="changes pin button1">人工客服</div><div class="changes changes2 button2 pin">店面查询</div><div class="changes button3 pin">业务合作</div>
+			<div class="changes  pin button1">人工客服</div><div class="changes changes2 button2 pin">店面查询</div><div class="changes  button3 pin">业务合作</div>
 		</div>
 	</section>
 
@@ -81,7 +89,7 @@
 	<section class='shop'>
 		<div class="title pin">请选择您要找的店面</div>
 		<div class="changeShop">
-			<select id="sel">
+			<select id="sel" >
   					<option value="达华府">达华府</option>
   					<option value="小华府">小华府</option>
  					<option value="中华府">中华府</option>
@@ -92,7 +100,7 @@
 		<div class="add">
 		<div class="shops">
 			<div class="shopx">
-				<div class="shopname pin">罗克韦尔店</div>
+				<div class="shopname text32 pin">罗克韦尔店</div>
 				<div class="address pin f18">地址：罗克韦尔大中华超市内  700 Hungerford Dr, Rockville, MD 20850 </div>
 				<div class="time pin f18">营业时间：周一至周日,9:30am - 6:30pm</div>
 				<div class="num pin f18">电话号码：(301) 880-1268</div>
@@ -107,7 +115,7 @@
 		<div class="add white">
 		<div class="shops ">
 			<div class="shopx">
-				<div class="shopname pin">罗克韦尔店</div>
+				<div class="shopname text32 pin">罗克韦尔店</div>
 				<div class="address pin f18">地址：罗克韦尔大中华超市内  700 Hungerford Dr, Rockville, MD 20850 </div>
 				<div class="time pin f18">营业时间：周一至周日,9:30am - 6:30pm</div>
 				<div class="num pin f18">电话号码：(301) 880-1268</div>
@@ -129,19 +137,19 @@
 		<div class='customes'>
 		<div class="tel24">
 			<img src="../shared/images/support/tel24.png" alt="">
-			<div class="custitle pin">电话客服</div>
-			<div class="telnums pin">售后客服：1-877-482-5503  </div>
-			<div class="telnums pin">销售客服：1-877-482-5522</div>
-			<div class="telnums pin  aline">中国大陆客户服务热线：950-4030-000</div>
+			<div class="custitle title28 pin">电话客服</div>
+			<div class="telnums text18 pin">售后客服：1-877-482-5503  </div>
+			<div class="telnums text18 pin">销售客服：1-877-482-5522</div>
+			<div class="telnums text18 pin  aline">中国大陆客户服务热线：950-4030-000</div>
 		</div><div class="weixin">
 			<img src="../shared/images/support/wlogo.png" alt="">
-			<div class="custitle pin">微信客服</div>
+			<div class="custitle title28 pin">微信客服</div>
 			<img class="wma" src="../shared/images/support/wma.png" alt="">
 			<img class="mwma" src="../shared/images/support/mwma.png" alt="">
 		</div><div class="email">
 			<img src="../shared/images/support/email.png" alt="">
-			<div class="custitle pin"><span class='sans'>Email</span>支持</div>
-			<div class="emails sans aline">support@italkbb.com </div>
+			<div class="custitle title28 pin"><span class='titEng30'>Email</span>支持</div>
+			<div class="emails sans aline txtEng20">support@italkbb.com </div>
 		</div>
 		</div>
 
@@ -155,10 +163,10 @@
 			<img class="mcollaboratePic" src="../shared/images/support/mcollaboratePic1.jpg" alt="">
 			<div class="opt">
 				<div class="optext">
-					<div class="optextName pin">广告业务合作</div>
-					<div class="optexts pin">iTalkBB蜻蜓中文电视平台投放广告业务，请访问www.iTalkBBMedia.com </div>
-					<div class="optexts pin">联系电话: 1-888-670-6</div>
-					<div class="optexts pin">Email: info@italkbbmedia.com</div>
+					<div class="optextName titColor28 pin">广告业务合作</div>
+					<div class="optexts txtColor16 pin">iTalkBB蜻蜓中文电视平台投放广告业务，请访问www.iTalkBBMedia.com </div>
+					<div class="optexts txtColor16 pin">联系电话: 1-888-670-6</div>
+					<div class="optexts txtColor16 pin">Email: info@italkbbmedia.com</div>
 				</div>
 			</div>
 		</div><div class="collaborate2">
@@ -166,32 +174,32 @@
 			<img class="mcollaboratePic" src="../shared/images/support/mcollaboratePic2.jpg" alt="">
 			<div class="opt">
 				<div class="optext">
-					<div class="optextName pin">代理商加盟</div>
-					<div class="optexts optexts2 pin">成为iTalkBB蜻蜓代理商,www.iTalkBBdealer.com</div>
-					<div class="optexts optexts2 pin">联系电话：1-877-482-5551</div>
-					<div class="optexts optexts2 pin">Email: info@italkbb.com</div>
+					<div class="optextName titColor28 pin">代理商加盟</div>
+					<div class="optexts optexts2 txtColor16 pin">成为iTalkBB蜻蜓代理商,www.iTalkBBdealer.com</div>
+					<div class="optexts optexts2 txtColor16 pin">联系电话：1-877-482-5551</div>
+					<div class="optexts optexts2 txtColor16 pin">Email: info@italkbb.com</div>
 				</div>
 			</div>
 		</div><div class="collaborate3" >
 			<img class="collaboratePic" src="../shared/images/support/collaboratePic3.jpg" alt="">
 			<img class="mcollaboratePic mcollaboratePic3" src="../shared/images/support/mcollaboratePic3.jpg" alt="">
-			<div class="opt opt3">
+			<div class="opt2 opt3">
 				<div class="boptext">
 					<div class="boptextL">
 						<img class="quartersimg" src="../shared/images/support/bossimg.png" alt="">
-						<div class="quarters pin">美国总部</div>
-					</div>
-					<div class="boptextR">
+						<div class="titColor32 quarters pin">美国总部</div>
+					</div><div class="boptextR">
+					
 						<div>
-							<div class="quartersName pin">DC Office</div>
-							<div class="quartersAddress pin">Address: 7926 Jones Branch Drive, Ste 1100, Mclean VA 22102 USA</div>
-							<div class="quartersNum pin">Fax: 703-848-1669 <br> Email: info@italkbb.com</div>
+							<div class="quartersName titColor20 pin">DC Office</div>
+							<div class="quartersAddress txtColor16 pin">Address: 7926 Jones Branch Drive, Ste 1100, Mclean VA 22102 USA</div>
+							<div class="quartersNum txtColor16 pin">Fax: 703-848-1669 <br> Email: info@italkbb.com</div>
 						</div>
 
 						<div>
-							<div class="quartersName pin">Austin Office</div>
-							<div class="quartersAddress pin">Address: 1122 S. Capital of Texas Highway, Suite 375, Austin TX 78746 USA</div>
-							<div class="quartersNum pin">Fax: 512-637-1451 <br> Email: info@italkbb.com</div>
+							<div class="quartersName titColor20 pin">Austin Office</div>
+							<div class="quartersAddress txtColor16 pin">Address: 1122 S. Capital of Texas Highway, Suite 375, Austin TX 78746 USA</div>
+							<div class="quartersNum txtColor16 pin">Fax: 512-637-1451 <br> Email: info@italkbb.com</div>
 						</div>
 
 					</div>

@@ -5,33 +5,29 @@
 .d1,.d3,.d5{position: relative;}
 .d1 img,.d3 img,.d5 img{width: 100%;}
 .textBanner{position: absolute;top: 33%;left: 5%}
-.textBanner .t1{font-size: 80px;color: white;font-weight: 800}
-.textBanner .t2{font-size: 32px;color: white;font-weight: 500}
+.textBanner .t1{font-weight: 800}
+.textBanner .t2{font-weight: 500}
 .where{width: 89.8%;margin:0 auto;background: #ffffff;position: relative;margin-top: 3%;margin-bottom: 1.5% }
 .orange{width: 100%;height: 6px;background: #ff7f00; }
 .change{width:48%;margin: 0 auto;margin-top:1.2% }
-.changes{width: 32.5%;font-size: 32px;color:#333333;display: inline-block;text-align: center;border: 1px solid #327fe8;line-height: 180%;vertical-align:top;font-weight: 500;    cursor: pointer;text-shadow: none;box-shadow: inset 0 0 0 0 #327fe8;-webkit-transition: all ease 0.8s;-moz-transition: all ease 0.8s;transition: all ease 0.8s;}
+.changes{width: 32.5%;display: inline-block;font-size: 22px;text-align: center;border: 1px solid #327fe8;line-height: 180%;vertical-align:top;font-weight: 500;    cursor: pointer;text-shadow: none;box-shadow: inset 0 0 0 0 #327fe8;-webkit-transition: all ease 0.8s;-moz-transition: all ease 0.8s;transition: all ease 0.8s;}
 .changes2{margin-left:0.8%;margin-right:0.8%  }
 .changes:hover{color:white;box-shadow: inset 300px 0 0 #327fe8;}
 .changesadd{color:white;box-shadow: inset 300px 0 0 #327fe8;}
 .shop,.customer{width: 88.5%;margin:0 auto ;background-color:#f8f9f9 }
-.shop .title{font-size: 36px;text-align: center;font-family: pingfang light;padding-top: 3%;color: #333333}
+.shop .title{font-size: 32px;text-align: center;padding-top: 3%;color: #333333}
 .shops{padding-bottom: 3%}
 .backgroundColor{background-color:#f8f9f9}
-.changeShop select{width: 100%;padding: 2%;font-size:18px;border:1px solid #333333; }
+.changeShop select{width: 100%;padding: 2%;border:1px solid #333333; }
 .changeShop{margin: 1.5% auto;width: 39%;}
 .shopx{width: 50%;float: left;margin-top: 8.5%;padding-left: 5.4%}
 .map{width: 50%;float: right;padding-top: 4%;height: 360px;padding-left: 4%;padding-right: 5%}
-.shopname{font-size: 32px;margin-bottom:1.7%}
+.shopname{margin-bottom:1.7%}
 .address,.num,.time{margin-top: 1.1%}
 .white{background: #ffffff}
 .d2img{display: none}
 select::-ms-expand { display: none; }          
-select {width: 100%;padding: 2%;font-size:18px;border:1px solid #333333; 
-/*将默认的select选择框样式清除*/
-appearance:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;
-/*在选择框的最右侧中间显示小箭头图片*/
-background: url(../shared/images/where/jiantou.jpg) no-repeat scroll 96% center transparent;     /***将sele.png替换为你的下拉箭头**/      }
+
 .shop{display: none}
 .d1{display: none}
 
@@ -41,10 +37,10 @@ background: url(../shared/images/where/jiantou.jpg) no-repeat scroll 96% center 
 .tel24,.weixin,.email{width: 32%;display: inline-block;text-align: center;vertical-align: top}
 .weixin{border-left: 1px solid #dedede;border-right:1px solid #dedede;padding-bottom: 4.5% }
 .tel24 img,.weixin img,.email img{margin: 0 auto ;padding-top: 8.7%;padding-bottom: 7.5%  }
-.custitle{font-size: 28px;color: #444444;font-weight: 500;margin-bottom: 7.5%}
-.telnums{font-size: 18px;color: #444444;font-weight: 300;margin-bottom:1.7%;}
-.emails{font-size: 20px;color: #444444}
-.custitle span{font-size: 30px}
+.custitle{color: #444444;font-weight: 500;margin-bottom: 7.5%}
+.telnums{color: #444444;font-weight: 300;margin-bottom:1.7%;}
+
+
 .wma{margin-bottom: 8%}
 .mwma{display: none;}
 
@@ -52,7 +48,7 @@ background: url(../shared/images/where/jiantou.jpg) no-repeat scroll 96% center 
 .collaborate{display: none}
 .d5{display: none;}
 .collaborates{width: 89.8%;margin:0 auto;position: relative;margin-top: 3%;margin-bottom: 1.5% }
-.collaborates div{display: inline-block;}
+.collaborate1,.collaborate2,.collaborate3{display: inline-block;}
 .collaborate1{width: 22%;overflow: hidden; position: relative; }
 .collaborate2{width: 21.5%;margin-left:0.5%; margin-right: 0.5%;overflow: hidden;position: relative;}
 .collaborate3{width: 55.5%;overflow: hidden;  position: relative;}
@@ -61,16 +57,17 @@ background: url(../shared/images/where/jiantou.jpg) no-repeat scroll 96% center 
 .collaborate2 img:hover{ transform: scale(1.4);}
 .collaborate3 img:hover{ transform: scale(1.4);}
 .opt{width: 100%;height: 42%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
-.optext{color: white;padding: 4% 10% 4% 10%}
-.optextName{font-size: 28px;padding-bottom:5.2% }
-.optexts{font-size: 16px;line-height: 1.6}
-.boptext{color: white;padding: 3% 4%}
+.opt2{width: 100%;height: 58%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
+.optext{color: white;padding: 4% 1% 4% 10%}
+.optextName{padding-bottom:5.2% }
+
+.boptext{color: white;padding: 3% 1% 3% 4%}
 .boptextL,.boptextR{display: inline-block;vertical-align: top}
 .boptextL{width: 24%;text-align: center;padding-top: 4% }
 .boptextR{width: 75%;border-left:1px solid #ffffff;padding-left: 3%;}
-.quarters{font-size: 32px}
-.quartersName{font-size: 18px;font-weight: 500};
-.quartersAddress,.quartersNum{font-size: 16px;font-weight: 10}
+
+.quartersName{font-weight: 500};
+.quartersAddress,.quartersNum{font-weight: 100}
 .quartersNum{padding-bottom: 1%;}
 .mcollaboratePic{display: none;}
 .quartersimg{margin: 0 auto}
@@ -87,7 +84,7 @@ background: url(../shared/images/where/jiantou.jpg) no-repeat scroll 96% center 
 .d2img{display: block;}
 .blueline{height: 2px}
 .where{width: 100%}
-.change{width: 91%;margin-top:2.6%;margin-bottom: 2.6% }
+.change{width: 91%;margin-top:2.6%;margin-bottom: 2.6%;font-size: 20px }
 .shop{width: 100%}
 .fixhead{padding-top: 9%;}
 .textBanner{top: 11%;width: 100%;left: 0%;text-align: center;}
@@ -108,8 +105,8 @@ background: url(../shared/images/where/jiantou.jpg) no-repeat scroll 96% center 
 
 .tel24,.weixin,.email{width: 100%;display:block;text-align: center;vertical-align: top}
 .tel24 img,.weixin img,.email img{padding-bottom: 3.5%  }
-.custitle{font-size: 4vw;margin-bottom:2.5%}
-.telnums{font-size:3.1vw;margin-bottom: 2.5% }
+.custitle,.titEng30{font-size: 4vw;margin-bottom:2.5%}
+.telnums,.txtEng20{font-size:3.1vw;margin-bottom: 2.5% }
 .weixin{background-color: #ffffff}
 .aline{padding-bottom:9% }
 .wma{display: none}
