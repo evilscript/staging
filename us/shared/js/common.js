@@ -60,7 +60,23 @@ $(document).ready(function(){
     }).mouseleave(function(){
         $(this).attr('src','../shared/images/index/chs_contactIcon3.png');
     });
-
+    /*English version mouseover*/
+    $('img.contactIcon1En').mouseover(function(){
+        $(this).attr('src','../shared/images/index/en_contactIcon1Blue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/index/en_contactIcon1.png');
+    });
+    $('img.contactIcon2En').mouseover(function(){
+        $(this).attr('src','../shared/images/index/en_contactIcon2Blue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/index/en_contactIcon2.png');
+    });
+    $('img.contactIcon3En').mouseover(function(){
+        $(this).attr('src','../shared/images/index/en_contactIcon3Blue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/index/en_contactIcon3.png');
+    });
+    /*Social icons mouseover*/
     $('.social1').mouseover(function(){
         $(this).attr('src','../shared/images/index/iconWechatBlue.jpg');
     }).mouseleave(function(){

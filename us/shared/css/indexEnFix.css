@@ -1,0 +1,149 @@
+.sectionTitle {
+    font-size: 48px;
+    padding-top: 13%;
+    color: #222222;
+    line-height: 1.5;
+    font-weight: 800;
+}
+.sectionText {
+    font-size: 24px;
+    line-height: 1.3;
+    color: #333333;
+    font-weight: 500;
+    border-bottom:1px solid #d2d2d2;
+}
+.s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4,
+.s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4,
+.s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4,
+.s5iconText1, .s5iconText2, .s5iconText3{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 500;
+    padding-left: 7%;
+    margin-bottom: 0;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.s2iconText1{
+    background: url(../images/index/s2icon1.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.s2iconText2{
+    background: url(../images/index/s2icon2.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.s2iconText3{
+    background: url(../images/index/s2icon3.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.s2iconText4{
+    background: url(../images/index/s2icon4.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.s3iconText1{
+    background: url(../images/index/s3icon1.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.s3iconText2{
+    background: url(../images/index/s3icon2.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.s3iconText3{
+    background: url(../images/index/s3icon3.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.s3iconText4{
+    background: url(../images/index/s3icon4.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.s4iconText1{
+    background: url(../images/index/chs_s4icon1.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.s4iconText2{
+    background: url(../images/index/s4icon2.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.s4iconText3{
+    background: url(../images/index/chs_s4icon3.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.s4iconText4{
+    background: url(../images/index/s4icon4.png) no-repeat top left;
+    background-size: 5.5%;
+    background-position-y: 53%;
+}
+.knowMoreText p {
+    margin-bottom: 13%;
+}
+.bandButton {
+    font-size: 28px;
+    margin-top:28%;
+}
+.bandLeftS3 {
+    width: 59%;
+}
+.knowMoreText5 p{
+    margin-bottom:21%;
+}
+.contactTitle {
+    font-size: 48px;
+    font-weight: 300;
+    color: #222222;
+    padding-top: 6%;
+}
+.contactSubTitle {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    color: #333333;
+}
+.s6IconText {
+    font-size: 17px;
+    color: #333333;
+    padding-left: 37%;
+    background-position-x: 32%;
+}
+.subscribeTitle {
+    font-size: 48px;
+    font-weight: 300;
+    color: #222222;
+}
+.subscribeSubTitle {
+    font-size: 24px;
+}
+.bannerButton{
+    margin-left:4%;
+}
+.bannerTitle1 {
+    font-size: 56px;
+    padding-left: 4%;
+    margin-top: 5%;
+    line-height: 1.1;
+    background: none;
+}
+.bannerTitleCombine{
+    background: url("../images/index/en_bannerPriceImg.png") no-repeat bottom left;
+    background-size: 9.5%;
+    background-position-x: 40%;
+}
+
+
+
+
+
+
+
+
+

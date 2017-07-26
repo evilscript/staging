@@ -1,0 +1,86 @@
+<div class="footerBg">
+    <div class="container1920">
+        <div class="footer1">
+            <div class="footerColumn">
+                <p class="footerTitle footerTitle1 pin"><span class="hel">iTalkBB Global</p>
+                <div class="mobileFooter1 hideM">
+                    <a href=""><p class="footerText pin">United States</p></a>
+                    <a href=""><p class="footerText pin">Canada</p></a>
+                    <a href=""><p class="footerText pin">Australia</p></a>
+                    <a href=""><p class="footerText pin">Singapore</p></a>
+                    <a href=""><p class="footerText pin">Korea</p></a>
+                </div>
+            </div>
+            <div class="footerColumn">
+                <p class="footerTitle pin">About Us</p>
+                <div class="mobileFooter hideM">
+                    <a href=""><p class="footerText pin">Company Profile</p></a>
+                    <a href=""><p class="footerText pin">iTalkBB News</p></a>
+                    <a href=""><p class="footerText pin">iTalkBB Videos</p></a>
+                    <a href=""><p class="footerText pin">iTalkBB Corporate Brochures</p></a>
+                </div>
+            </div>
+            <div class="footerColumn">
+                <p class="footerTitle pin">Contact Us</p>
+                <div class="mobileFooter hideM">
+                    <a href=""><p class="footerText pin">Chat with Us</p></a>
+                    <a href=""><p class="footerText pin">Find a Store</p></a>
+                    <a href=""><p class="footerText pin">Become a Dealer</p></a>
+                    <a href=""><p class="footerText pin">Business</p></a>
+                    <a href=""><p class="footerText pin">Headquarter Address</p></a>
+                </div>
+            </div>
+            <div class="footerColumn">
+                <p class="footerTitle pin">Careers</p>
+                <div class="mobileFooter hideM">
+                    <a href=""><p class="footerText pin">United States</p></a>
+                    <a href=""><p class="footerText pin">Canada</p></a>
+                    <a href=""><p class="footerText pin">Australia</p></a>
+                    <a href=""><p class="footerText pin">Singapore</p></a>
+                </div>
+            </div>
+            <div class="footerColumn">
+                <p class="footerTitle pin">Dealers</p>
+                <div class="mobileFooter hideM">
+                    <a href=""><p class="footerText pin">Apply</p></a>
+                    <a href=""><p class="footerText pin">Requirements</p></a>
+                    <a href=""><p class="footerText pin">Introductions</p></a>
+                    <a href=""><p class="footerText pin">Support</p></a>
+                    <a href=""><p class="footerText pin">Login</p></a>
+                </div>
+            </div>
+            <div class="clear clearfix"></div>
+        </div>
+        <div class="footer2">
+            <p class="disclaimer sans">Copyright &copy; iTalkBB.com All rights reserved.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    /*Mobile footer content toggles*/
+    var b = true; 
+        window.onresize=checkScreenSize;
+        function checkScreenSize(){
+            var wi = $(window).width();
+            if(wi<768&&b){
+               $('.footerTitle').each( function(index) {
+                $(this).next().hide();});
+                b = false;
+                $('.footerTitle').each( function(index) {
+                    $(this).click( function() {
+                        $(this).next().slideToggle(300);
+                        $(this).toggleClass('minus');
+                    });
+                });
+            }
+            if(wi>=768){
+                b = true;
+                $('.footerTitle').each( function(index) {
+                    $(this).next().show();
+                });
+                $(".footerTitle").unbind("click");
+            }
+        }
+    checkScreenSize();
+</script>
