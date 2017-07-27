@@ -63,15 +63,19 @@ input:focus{ outline:none;}
 .title20{font-size: 20px;}
 .title18{font-size: 18px;}
 .titNom30,.titEng30{font-size: 30px;}
+.titNomCol16,.titEngCol16{font-size: 16px; color: #fff;}
 .titColor80{font-size: 80px; color: #fff;}
 .titColor48{font-size: 48px; color: #fff;}
 .titColor32{font-size: 32px; color: #fff;}
 .titColor28{font-size: 28px; color: #fff;}
 .titColor20{font-size: 20px; color: #fff;}
-.titColor18{font-size: 18px; color: #d4d4d4;}
+.titColor18{font-size: 18px; color: #fff;}
+.titColorSpl18{font-size: 18px; color: #d4d4d4;}
 .text32{font-size: 32px;}
 .text28{font-size: 28px;}
 .text18{font-size: 18px;}
+.text18{font-size: 18px;}
+.text16{font-size: 16px;}
 .txtNom34,.txtEng34{font-size: 34px;}
 .txtNom30,.txtEng30{font-size: 30px;}
 .txtNom20,.txtEng20{font-size: 20px;}
@@ -539,15 +543,18 @@ input:focus{ outline:none;}
     .title20{font-size: 17px;}
     .title18{font-size: 15px;}
     .titNom30,.titEng30{font-size: 25px;}
+	.titNomCol16,.titEngCol16{font-size: 14px; color: #fff;}
     .titColor80{font-size: 67px; color: #fff;}
     .titColor48{font-size: 40px; color: #fff;}
     .titColor32{font-size: 27px; color: #fff;}
     .titColor28{font-size: 23px; color: #fff;}
     .titColor20{font-size: 17px; color: #fff;}
-    .titColor18{font-size: 15px; color: #d4d4d4;}
+    .titColor18{font-size: 15px; color: #fff;}	
+	.titColorSpl18{font-size: 15px; color: #d4d4d4;}
     .text32{font-size: 27px;}
     .text28{font-size: 23px;}
     .text18{font-size: 15px;}
+	.text16{font-size: 14px;}
     .txtNom34,.txtEng34{font-size: 28px;}
     .txtNom30,.txtEng30{font-size: 25px;}
     .txtNom20,.txtEng20{font-size: 17px;}
@@ -577,15 +584,18 @@ input:focus{ outline:none;}
     .title20{font-size: 15px;}
     .title18{font-size: 13px;}
     .titNom30,.titEng30{font-size: 22px;}
+	.titNomCol16,.titEngCol16{font-size: 12px; color: #fff;}
     .titColor80{font-size: 58px; color: #fff;}
     .titColor48{font-size: 35px; color: #fff;}
     .titColor32{font-size: 23px; color: #fff;}
     .titColor28{font-size: 20px; color: #fff;}
     .titColor20{font-size: 15px; color: #fff;}
-    .titColor18{font-size: 13px; color: #d4d4d4;}
+    .titColor18{font-size: 13px; color: #fff;}	
+	.titColorSpl18{font-size: 13px; color: #d4d4d4;}
     .text32{font-size: 23px;}
     .text28{font-size: 20px;}
     .text18{font-size: 13px;}
+	.text16{font-size: 12px;}
     .txtNom34,.txtEng34{font-size: 25px;}
     .txtNom30,.txtEng30{font-size: 22px;}
     .txtNom20,.txtEng20{font-size: 15px;}
@@ -630,15 +640,18 @@ input:focus{ outline:none;}
     .title20{font-size: 1.1vw;}
     .title18{font-size: 0.9vw;}
     .titNom30,.titEng30{font-size: 1.5vw;}
+	.titNomCol16,.titEngCol16{font-size: 0.8vw; color: #fff;}
     .titColor80{font-size: 4.2vw; color: #fff;}
     .titColor48{font-size: 2.5vw; color: #fff;}
     .titColor32{font-size: 1.7vw; color: #fff;}
     .titColor28{font-size: 1.46vw; color: #fff;}
     .titColor20{font-size: 1.1vw; color: #fff;}
-    .titColor18{font-size: 0.9vw; color: #d4d4d4;}
+    .titColor18{font-size: 0.9vw; color: #fff;}	
+	.titColorSpl18{font-size: 0.9vw; color: #d4d4d4;}
     .text32{font-size: 1.7vw;}
     .text28{font-size: 1.46vw;}
     .text18{font-size: 0.9vw;}
+	.text16{font-size: 0.8vw;}
     .txtNom34,.txtEng34{font-size: 1.8vw;}
     .txtNom30,.txtEng30{font-size: 1.5vw;}
     .txtNom20,.txtEng20{font-size: 1.1vw;}
