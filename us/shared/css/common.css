@@ -14,6 +14,7 @@ input:focus{ outline:none;}
 .scroll{height:auto!important;}
 /*初始化设置结束*/
 
+
 /*字体部分*/
 /*苹方字体，引用字体粗细为300，500和800*/
 @font-face {
@@ -65,7 +66,9 @@ input:focus{ outline:none;}
 .titNom30,.titEng30{font-size: 30px;}
 .titNomCol16,.titEngCol16{font-size: 16px; color: #fff;}
 .titColor80{font-size: 80px; color: #fff;}
+.titColor60{font-size: 60px; color: #fff;}
 .titColor48{font-size: 48px; color: #fff;}
+.titColor36{font-size: 36px; color: #fff;}
 .titColor32{font-size: 32px; color: #fff;}
 .titColor28{font-size: 28px; color: #fff;}
 .titColor20{font-size: 20px; color: #fff;}
@@ -81,6 +84,7 @@ input:focus{ outline:none;}
 .txtNom20,.txtEng20{font-size: 20px;}
 .txtColor16{font-size: 16px; color: #fff;}
 .txtColorSpl16{font-size: 16px; color: #989898;}
+
 /*Font size css end*/
 
 /*Header和Footer*/
@@ -266,7 +270,7 @@ input:focus{ outline:none;}
 }
 .footerTitle {
     color: #d4d4d4;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     padding-bottom: 1%;
 }
@@ -545,7 +549,9 @@ input:focus{ outline:none;}
     .titNom30,.titEng30{font-size: 25px;}
 	.titNomCol16,.titEngCol16{font-size: 14px; color: #fff;}
     .titColor80{font-size: 67px; color: #fff;}
-    .titColor48{font-size: 40px; color: #fff;}
+    .titColor60{font-size: 50px; color: #fff;}
+	.titColor48{font-size: 48px; color: #fff;}
+	.titColor36{font-size: 30px; color: #fff;}
     .titColor32{font-size: 27px; color: #fff;}
     .titColor28{font-size: 23px; color: #fff;}
     .titColor20{font-size: 17px; color: #fff;}
@@ -586,7 +592,9 @@ input:focus{ outline:none;}
     .titNom30,.titEng30{font-size: 22px;}
 	.titNomCol16,.titEngCol16{font-size: 12px; color: #fff;}
     .titColor80{font-size: 58px; color: #fff;}
-    .titColor48{font-size: 35px; color: #fff;}
+    .titColor60{font-size: 44px; color: #fff;}
+	.titColor48{font-size: 48px; color: #fff;}
+	.titColor36{font-size: 26px; color: #fff;}
     .titColor32{font-size: 23px; color: #fff;}
     .titColor28{font-size: 20px; color: #fff;}
     .titColor20{font-size: 15px; color: #fff;}
@@ -642,7 +650,9 @@ input:focus{ outline:none;}
     .titNom30,.titEng30{font-size: 1.5vw;}
 	.titNomCol16,.titEngCol16{font-size: 0.8vw; color: #fff;}
     .titColor80{font-size: 4.2vw; color: #fff;}
-    .titColor48{font-size: 2.5vw; color: #fff;}
+	.titColor60{font-size: 3.2vw; color: #fff;}
+	.titColor48{font-size: 2.5vw; color: #fff;}
+	.titColor36{font-size: 1.85vw; color: #fff;}
     .titColor32{font-size: 1.7vw; color: #fff;}
     .titColor28{font-size: 1.46vw; color: #fff;}
     .titColor20{font-size: 1.1vw; color: #fff;}
@@ -690,6 +700,27 @@ input:focus{ outline:none;}
 }
 
 @media (max-width:767px) {
+	/* mainLayout start */
+	.mainLayout{max-width:767px; padding-top: 15%;margin-bottom: 0;}
+	.mainPart{margin-top: 5%; padding: 0;}
+	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
+	.lineBlue{height:0; border-bottom: .9vw solid #327fe8;}
+	/* mainLayout end*/
+	
+	/* fontSize start */
+	.mTitle50{font-size: 6.52vw;}
+	.mTitle48{font-size: 6.26vw;}
+	.mTitle36{font-size: 4.69vw;}
+	.mTitle32{font-size: 4.17vw;}
+	.mTitle30{font-size: 3.91vw;}
+	.mTitle28{font-size: 3.65vw;}
+	
+	.mtext32{font-size: 4.17vw;}
+	.mtext30{font-size: 3.91vw;}
+	.mtext28{font-size: 3.65vw;}
+	.mText24{font-size: 3.13vw;}
+	/* fontSize end */
+	
     .bgTitle{
         font-size:1.4vw;
     }
@@ -890,6 +921,13 @@ input:focus{ outline:none;}
         left: 3vw;
         font-size: 4vw;
     }
+}
+
+@media (max-width:511px){
+	/* mainLayout start */
+    .mainLayout{padding-top: 20%;}
+	/* mainLayout end */
+	
 }
 
 
