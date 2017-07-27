@@ -17,7 +17,7 @@
             <img src="../shared/images/header/headerLogin.png" class="img" alt="">
         </div>
         <div class="header1Icon">
-            <img src="../shared/images/header/headerSearch.png" class="img searchFunctionIcon" alt="">
+            <img src="../shared/images/header/headerSearch.png" class="img searchFunctionIcon" id="searchFunctionIcon" alt="">
         </div>
         <div class="header1Icon">
             <img src="../shared/images/header/headerTelephone.png" class="img" alt="">
@@ -314,7 +314,6 @@
     </div>
     <!--==========第四部分结束==========-->
 
-
     <!--==========第五部分：桌面端二级菜单（hardcoded）==========-->
     <div class="menu1" style="display:none;">
         <a href="">
@@ -391,26 +390,24 @@
 <script>
     /*响应式image map插件初始化*/
     $('map').imageMapResize();
-
     /*==========桌面Header部分==========*/
-
     /*桌面sitemap的出现和隐藏*/
     $('.toggle, .closeSitemap').click(function(){
         $('.sitemap, .mask').fadeToggle(500);
+        $('.maskNeeded').fadeOut(500);
         $('.menu1, .menu2, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
         $('body').toggleClass('noscroll');
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
-
     /*桌面二级菜单的出现和隐藏，愣写的，没什么技术含量*/
     $('.headerBundle').click(function(){
         $('.menu1').slideToggle(500);
         $('.menu2, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerBundle p').toggleClass('headerActive');
         $('.headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask').fadeOut(500);
+        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -419,7 +416,7 @@
         $('.menu1, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerMobile p').toggleClass('headerActive');
         $('.headerBundle p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask').fadeOut(500);
+        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -428,7 +425,7 @@
         $('.menu1, .menu2, .menu4, .menu5').slideUp(500);
         $('.headerPhone p').toggleClass('headerActive');
         $('.headerBundle p, .headerMobile p, .headerTV p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask').fadeOut(500);
+        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -437,7 +434,7 @@
         $('.menu1, .menu2, .menu3, .menu5').slideUp(500);
         $('.headerTV p').toggleClass('headerActive');
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask').fadeOut(500);
+        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -446,7 +443,7 @@
         $('.menu1, .menu2, .menu3, .menu4').slideUp(500);
         $('.headerSupport p').toggleClass('headerActive');
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p').removeClass('headerActive');
-        $('.sitemap, .mask').fadeOut(500);
+        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -456,7 +453,8 @@
     $('.openMobileNav').click(function(){
         $('.sidenav, .mobileHeaderText').css({'opacity':'1','margin-left':'0'});
         $('body').css({'margin-left':'50%','margin-right':'-50%'}).addClass('noscroll');
-        $('.maskMobile').css('display','block');
+        $('.maskMobile').fadeIn(500);
+        $('.maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -507,6 +505,11 @@
         $('.searchFunction, .blueBand').slideToggle(500);
         $('.menu1, .menu2, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
+        $('.maskNeeded').fadeToggle(500);
+    });
+    $('.maskNeeded').click(function(){
+        $('.searchFunction, .blueBand').slideToggle(500);
+        $(this).fadeToggle(500);
     })
     /*展开收缩结束*/
     /*==========搜索结束==========*/

@@ -389,26 +389,24 @@
 <script>
     /*响应式image map插件初始化*/
     $('map').imageMapResize();
-
     /*==========桌面Header部分==========*/
-
     /*桌面sitemap的出现和隐藏*/
     $('.toggle, .closeSitemap').click(function(){
         $('.sitemap, .mask').fadeToggle(500);
+        $('.maskNeeded').fadeOut(500);
         $('.menu1, .menu2, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
         $('body').toggleClass('noscroll');
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
-
     /*桌面二级菜单的出现和隐藏，愣写的，没什么技术含量*/
     $('.headerBundle').click(function(){
         $('.menu1').slideToggle(500);
         $('.menu2, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerBundle p').toggleClass('headerActive');
         $('.headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask').fadeOut(500);
+        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -417,7 +415,7 @@
         $('.menu1, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerMobile p').toggleClass('headerActive');
         $('.headerBundle p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask').fadeOut(500);
+        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -426,7 +424,7 @@
         $('.menu1, .menu2, .menu4, .menu5').slideUp(500);
         $('.headerPhone p').toggleClass('headerActive');
         $('.headerBundle p, .headerMobile p, .headerTV p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask').fadeOut(500);
+        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -435,7 +433,7 @@
         $('.menu1, .menu2, .menu3, .menu5').slideUp(500);
         $('.headerTV p').toggleClass('headerActive');
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask').fadeOut(500);
+        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -444,7 +442,7 @@
         $('.menu1, .menu2, .menu3, .menu4').slideUp(500);
         $('.headerSupport p').toggleClass('headerActive');
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p').removeClass('headerActive');
-        $('.sitemap, .mask').fadeOut(500);
+        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -454,7 +452,8 @@
     $('.openMobileNav').click(function(){
         $('.sidenav, .mobileHeaderText').css({'opacity':'1','margin-left':'0'});
         $('body').css({'margin-left':'50%','margin-right':'-50%'}).addClass('noscroll');
-        $('.maskMobile').css('display','block');
+        $('.maskMobile').fadeIn(500);
+        $('.maskNeeded').fadeOut(500);
         $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
@@ -496,8 +495,8 @@
         })
     });
     $('.hotKeyWord:last-child').click(function(){
-            $('.headerMirrorSearchText').val('');
-            $('#gsc-i-id1').val('');
+        $('.headerMirrorSearchText').val('');
+        $('#gsc-i-id1').val('');
     });
     /*热搜词汇结束*/
     /*搜索菜单展开收缩功能*/
@@ -505,12 +504,15 @@
         $('.searchFunction, .blueBand').slideToggle(500);
         $('.menu1, .menu2, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
+        $('.maskNeeded').fadeToggle(500);
+    });
+    $('.maskNeeded').click(function(){
+        $('.searchFunction, .blueBand').slideToggle(500);
+        $(this).fadeToggle(500);
     })
     /*展开收缩结束*/
     /*==========搜索结束==========*/
 </script>
-
-
 
 
 
