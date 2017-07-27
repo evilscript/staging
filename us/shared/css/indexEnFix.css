@@ -139,8 +139,177 @@
     background-position-x: 40%;
 }
 
+@media (max-width:1700px) {
+    .bannerTitleCombine {
+        background-size: 8%;
+        background-position-x: 42%;
+    }
+}
+
+@media (max-width:1600px) {
+    .bannerTitle1 {
+        font-size: 50px;
+    }
+    .bannerTitle2 {
+        font-size: 26px;
+    }
+    .bannerButton {
+        font-size: 24px;
+    }
+    .bannerTitleCombine {
+        background-size: 9%;
+        background-position-x: 40%;
+    }
+    .sectionTitle {
+        font-size: 44px;
+    }
+    .sectionText {
+        font-size: 20px;
+    }
+    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
+        font-size: 18px;
+    }
+    .knowMoreText {
+        font-size: 18px;
+    }
+    .contactTitle, .subscribeTitle {
+        font-size: 44px;
+    }
+    .contactSubTitle, .subscribeSubTitle {
+        font-size: 20px;
+    }
+    .s6IconText {
+        font-size: 14px;
+    }
+    .emailBar, .submitButton {
+        font-size: 16px;
+    }
 
 
+
+}
+
+@media (max-width:1500px) {
+    .bannerTitle1 {
+        font-size: 48px;
+    }
+    .s6IconText {
+        font-size: 14px;
+    }
+    .contactTitle {
+        font-size: 44px;
+    }
+    .contactSubTitle {
+        font-size: 20px;
+    }
+    .subscribeTitle {
+        font-size: 44px;
+    }
+    .subscribeSubTitle {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1400px) {
+    .bannerTitle1 {
+        font-size: 42px;
+    }
+    .bannerTitle2 {
+        font-size: 22px;
+    }
+    .bannerButton {
+        font-size: 20px;
+    }
+    .bandButton {
+        font-size: 22px;
+    }
+    .sectionTitle {
+        font-size: 40px;
+    }
+    .sectionText {
+        font-size: 18px;
+    }
+    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
+        font-size: 16px;
+    }
+    .knowMoreText {
+        font-size: 16px;
+    }
+    .contactTitle {
+        font-size: 40px;
+    }
+    .contactSubTitle {
+        font-size: 20px;
+    }
+    .s6IconText {
+        font-size: 12px;
+    }
+    .subscribeTitle {
+        font-size: 40px;
+    }
+    .subscribeSubTitle {
+        font-size: 20px;
+    }
+    .emailBar {
+        font-size: 16px;
+    }
+    .submitButton {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1300px){
+    .bannerTitle1 {
+        font-size: 3vw;
+    }
+    .bannerTitle2 {
+        font-size: 1.6vw;
+    }
+    .bannerButton {
+        font-size: 1.3vw;
+    }
+    .sectionTitle {
+        font-size: 3.2vw;
+    }
+    .sectionText {
+        font-size: 1.3vw;
+    }
+    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
+        font-size: 1.2vw;
+    }
+    .knowMoreText {
+        font-size: 1.2vw;
+    }
+    .bandButton {
+        font-size: 1.7vw;
+    }
+    .contactTitle {
+        font-size: 3.2vw;
+    }
+    .contactSubTitle {
+        font-size: 1.6vw;
+    }
+    .s6IconText {
+        font-size: 0.9vw;
+    }
+    .subscribeTitle {
+        font-size: 3.2vw;
+    }
+    .subscribeSubTitle {
+        font-size: 1.6vw;
+    }
+    .emailBar {
+        font-size: 1.2vw;
+    }
+    .submitButton {
+        font-size: 1.2vw;
+    }
+
+
+
+
+
+}
 
 
 

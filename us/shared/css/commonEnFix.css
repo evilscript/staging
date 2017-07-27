@@ -20,6 +20,101 @@
     font-size: 18px;
 }
 
+@media (max-width:1700px) {
+    .bgTitle {
+        font-size: 16px;
+    }
+    .bgText {
+        font-size: 15px;
+    }
+    .footerSitemap .footerTitle{
+        font-size: 16px;
+    }
+    .footerSitemap .footerText{
+        font-size:14px;
+    }
+    .teleText {
+        font-size: 16px;
+    }
+    .menu2Block, .menu1Block, .menu3Block, .menu4Block, .menu5Block{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:1600px) {
+    .menuText {
+        color: #333333;
+        font-size: 16px;
+    }
+    .bgTitle {
+        font-size: 15px;
+    }
+    .bgText {
+        font-size: 14px;
+    }
+    .footerSitemap .footerTitle {
+        font-size: 15px;
+    }
+    .footerSitemap .footerText {
+        font-size: 12px;
+    }
+    .teleText {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1400px) {
+    .footerText {
+        color: #d4d4d4;
+        font-size: 12px;
+    }
+    .teleText {
+        font-size: 13px;
+    }
+    .bgTitle {
+        font-size: 13px;
+    }
+    .bgText {
+        font-size: 12px;
+    }
+    .footerSitemap .footerTitle {
+        font-size: 14px;
+    }
+    .menu2Block, .menu1Block, .menu3Block, .menu4Block, .menu5Block {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:1300px){
+    .footerText {
+        color: #d4d4d4;
+        font-size: 0.9vw;
+    }
+    .footerTitle {
+        font-size: 1.2vw;
+    }
+    .menuText {
+        font-size: 1.1vw;
+    }
+    .teleText {
+        font-size: 1.1vw;
+    }
+    .bgTitle {
+        font-size: 1vw;
+    }
+    .bgText {
+        font-size: 1vw;
+    }
+    .footerSitemap .footerTitle {
+        font-size: 1.1vw;
+    }
+    .footerSitemap .footerText {
+        font-size: 0.95vw;
+    }
+    .menu2Block, .menu1Block, .menu3Block, .menu4Block, .menu5Block {
+        font-size: 0.7vw;
+    }
+}
 
 
 
