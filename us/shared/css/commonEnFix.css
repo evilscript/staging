@@ -116,6 +116,25 @@
     }
 }
 
+@media (max-width:768px) {
+    .footerTitle {
+        font-size: 4vw;
+    }
+    .footerText {
+        font-size: 3.4vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 

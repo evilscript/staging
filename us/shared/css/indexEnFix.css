@@ -184,9 +184,6 @@
     .emailBar, .submitButton {
         font-size: 16px;
     }
-
-
-
 }
 
 @media (max-width:1500px) {
@@ -304,13 +301,164 @@
     .submitButton {
         font-size: 1.2vw;
     }
+}
+
+@media (max-width:768px) {
+    .bannerTitle1 {
+        font-size: 6.2vw;
+        line-height: 1.2;
+        margin-top: 1%;
+    }
+    .bannerTitle2 {
+        font-size: 3.4vw;
+        line-height: 1;
+    }
+    .bannerButton {
+        font-size: 3.2vw;
+        margin-left: 25%;
+    }
+    .sectionTitle {
+        font-size: 7vw;
+        padding-top: 7%;
+    }
+    .sectionText {
+        font-size: 4vw;
+    }
+    .s2iconText1, .s2iconText3, .s2iconText2, .s2iconText4,
+    .s3iconText1, .s3iconText3, .s3iconText2, .s3iconText4,
+    .s4iconText1, .s4iconText3, .s4iconText2, .s4iconText4,
+    .s5iconText1, .s5iconText3, .s5iconText2 {
+        float: left;
+        width: 50%;
+    }
+    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4,
+    .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4,
+    .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4,
+    .s5iconText1, .s5iconText2, .s5iconText3{
+        font-size: 3.2vw;
+        font-weight: 300;
+        padding-left: 0;
+        margin-bottom: 0;
+        padding-top: 17%;
+        margin-top: 3%;
+        padding-bottom: 3%;
+        text-align: center;
+    }
+    .s2iconText1 {
+        background: url(../images/index/s2icon1.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s2iconText2 {
+        background: url(../images/index/s2icon2.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s2iconText3 {
+        background: url(../images/index/s2icon3.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s2iconText4 {
+        background: url(../images/index/s2icon4.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s3iconText1 {
+        background: url(../images/index/s3icon1.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s3iconText2 {
+        background: url(../images/index/s3icon2.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s3iconText3 {
+        background: url(../images/index/s3icon3.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s3iconText4 {
+        background: url(../images/index/s3icon4.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s4iconText1 {
+        background: url(../images/index/chs_s4icon1.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s4iconText2 {
+        background: url(../images/index/s4icon2.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s4iconText3 {
+        background: url(../images/index/chs_s4icon3.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s4iconText4 {
+        background: url(../images/index/s4icon4.png) no-repeat top center;
+        background-size: 30%;
+    }
+    .s5iconText3 {
+        background: url(../images/index/s5icon3.jpg) no-repeat top center;
+        background-size: 30%;
+    }
+    .s5iconText1 {
+        background: url(../images/index/s5icon1.jpg) no-repeat top center;
+        background-size: 30%;
+    }
+    .s5iconText2 {
+        background: url(../images/index/s5icon2.jpg) no-repeat top center;
+        background-size: 30%;
+    }
+    .knowMore {
+        background: url(../images/index/s2button.png) top left no-repeat;
+        background-position: 39% 60%;
+    }
+    .knowMoreText p {
+        padding-left: 7%;
+        margin-bottom:5%;
+    }
+    .contactTitle {
+        font-size: 7vw;
+    }
+    .subscribeTitle {
+        font-size: 7vw;
+    }
+    .contactSubTitle {
+        font-size: 3.6vw;
+    }
+    .subscribeSubTitle {
+        font-size: 3.6vw;
+    }
+    .emailBar {
+        font-size: 3vw;
+    }
+    .submitButton {
+        font-size: 3vw;
+    }
+    .bandButton {
+        font-size: 3.6vw;
+        width: 70%;
+        font-weight: 500;
+        color: #ff7f00;
+        background: white;
+        padding: 2% 4%;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 15%;
+        cursor: pointer;
+        box-shadow: none;
+        text-shadow: none;
+    }
+    .bandLeftS3 {
+        width: 68%;
+    }
+    .bandRightS3MobileEn{
+        width:32%;
+    }
+
+
 
 
 
 
 
 }
-
 
 
 

@@ -27,6 +27,30 @@
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/scrollify.min.js"></script>
     <script src="../shared/js/common.js"></script>
+    <script>
+        /*整屏滚动功能*/
+        $(function() {
+            $(function() {
+                $.scrollify({
+                    section : ".scroll",
+                    sectionName : "section-name",
+                    easing: "easeOutExpo",
+                    scrollSpeed: 2000,
+                    offset : 0,
+                    scrollbars: true,
+                    updateHash: true
+                });
+            });
+        });
+        /*如果是移动设备，初始化时直接禁用整屏滚动*/
+        function isMobile() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+        if (isMobile()) {
+            $.scrollify.disable();
+        }
+        /*整屏滚动功能结束*/
+    </script>
 </head>
 
 
@@ -121,36 +145,39 @@
                 <div class="item active">
                     <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
                     <div class="carousel-caption">
-                        <p class="bannerTitle1 pin"><span class="sans">2017</span>华语综艺<br>尽在蜻蜓电视</p>
+                        <p class="bannerTitle1 pin"><span class="sans">2017 Latest TV Content<br>
+                            Available on<br>
+                            iTalkBB Chinese TV</p>
                         <div class="clear clearfix"></div>
-                        <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓电视抢先看
-                        </p>
-                        <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
-                        <p class="bannerButton pin">了解更多</p>
+                        <p class="bannerTitle2 pin">2017 Latest TV Content on Demand</p>
+                        <img src="../shared/images/index/en_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
+                        <p class="bannerButton pin">Learn More</p>
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
                     <div class="carousel-caption">
-                        <p class="bannerTitle1 pin"><span class="sans">2017</span>华语综艺<br>尽在蜻蜓电视</p>
+                        <p class="bannerTitle1 pin"><span class="sans">2017 Latest TV Content<br>
+                            Available on<br>
+                            iTalkBB Chinese TV</p>
                         <div class="clear clearfix"></div>
-                        <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓电视抢先看
-                        </p>
-                        <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
-                        <p class="bannerButton pin">了解更多</p>
+                        <p class="bannerTitle2 pin">2017 Latest TV Content on Demand</p>
+                        <img src="../shared/images/index/en_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
+                        <p class="bannerButton pin">Learn More</p>
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
                     <div class="carousel-caption">
-                        <p class="bannerTitle1 pin"><span class="sans">2017</span>华语综艺<br>尽在蜻蜓电视</p>
+                        <p class="bannerTitle1 pin"><span class="sans">2017 Latest TV Content<br>
+                            Available on<br>
+                            iTalkBB Chinese TV</p>
                         <div class="clear clearfix"></div>
-                        <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓电视抢先看
-                        </p>
-                        <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
-                        <p class="bannerButton pin">了解更多</p>
+                        <p class="bannerTitle2 pin">2017 Latest TV Content on Demand</p>
+                        <img src="../shared/images/index/en_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
+                        <p class="bannerButton pin">Learn More</p>
                     </div>
                 </div>
 
@@ -178,11 +205,11 @@
                 <p class="pin sectionText">The Best International Plan<br>
                     One Plan Covers Two Countries</p>
                 <div class="">
-                    <p class="s2iconText1 pin">Both Chinese and U.S. Phone Numbers</p>
+                    <p class="s2iconText1 pin">Both Chinese and <br class="showM">U.S. Phone Numbers</p>
                     <p class="s2iconText2 pin">Unlimited Data</p>
                     <div class="showM clear clearfix"></div>
-                    <p class="s2iconText3 pin">Unlimited Global Talk and Text</p>
-                    <p class="s2iconText4 pin">No Contract,  Cancel Anytime</p>
+                    <p class="s2iconText3 pin">Unlimited Global <br class="showM">Talk and Text</p>
+                    <p class="s2iconText4 pin">No Contract, <br class="showM">Cancel Anytime</p>
                 </div>
                 <div class="clear clearfix"></div>
                 <div class="knowMore">
@@ -202,7 +229,7 @@
                     <img src="../shared/images/index/en_band2Price.png" class="img" alt="">
                 </div>
                 <div class="bandLeft showM">
-                    <img src="../shared/images/index/chs_mobilePriceBand1.png" class="img" alt="">
+                    <img src="../shared/images/index/en_mobilePriceBand1.png" class="img" alt="">
                 </div>
                 <div class="bandRight">
                     <p class="bandButton pin">Try Now</p>
@@ -216,14 +243,14 @@
         <div class="container1920 bg3">
             <div class="mobileLeft">
                 <p class="pin sectionTitle">iTalkBB Chinese TV</p>
-                <p class="pin sectionText">1st Choice to Oversea Chinese for Chinese TV<br>
+                <p class="pin sectionText">1st Choice to Oversea Chinese <br class="showM">for Chinese TV<br>
                     2017 Latest TV Content on Demand</p>
                 <div class="">
                     <p class="s3iconText1 pin">Popular Live Channels</p>
                     <p class="s3iconText2 pin">Latest Films with HD Quality</p>
                     <div class="showM clear clearfix"></div>
                     <p class="s3iconText3 pin">Unlimited TV Series and Variety Shows for Free</p>
-                    <p class="s3iconText4 pin">iTalkBB TV App: Watch Anywhere Anytime</p>
+                    <p class="s3iconText4 pin">iTalkBB TV App:<br class="showM"> Watch Anywhere Anytime</p>
                 </div>
                 <div class="clear clearfix"></div>
                 <div class="knowMore ">
@@ -243,9 +270,9 @@
                     <img src="../shared/images/index/en_band3Price.png" class="img" alt="">
                 </div>
                 <div class="bandLeftS3 showM">
-                    <img src="../shared/images/index/chs_mobilePriceBand2.png" class="img" alt="">
+                    <img src="../shared/images/index/en_mobilePriceBand2.png" class="img" alt="">
                 </div>
-                <div class="bandRight">
+                <div class="bandRight bandRightS3MobileEn">
                     <p class="bandButton pin">Try Now</p>
                 </div>
                 <div class="clear clearfix"></div>
@@ -257,13 +284,13 @@
         <div class="container1920 bg4">
             <div class="mobileLeft">
                 <p class="pin sectionTitle">iTalkBB Home Phone</p>
-                <p class="pin sectionText">No. 1 Home Phone Service Brand in U.S. Market<br>
+                <p class="pin sectionText">No. 1 Home Phone Service Brand in U.S. <br class="showM">Market <br class="hideM">
                     14-year History of A+ Customer Service</p>
                 <div class="">
-                    <p class="s4iconText1 pin">Unlimited Talk to 29 Countries and Regions</p>
-                    <p class="s4iconText2 pin">Calls from China to U.S. without Tolls</p>
+                    <p class="s4iconText1 pin">Unlimited Talk to <br class="showM">29 Countries and Regions</p>
+                    <p class="s4iconText2 pin">Calls from China <br class="showM">to U.S. without Tolls</p>
                     <p class="s4iconText3 pin">Receive Calls for Free</p>
-                    <p class="s4iconText4 pin">Make Global Calls with iTalkBB Phone App</p>
+                    <p class="s4iconText4 pin">Make Global Calls <br class="showM">with iTalkBB Phone App</p>
                 </div>
                 <div class="clear clearfix"></div>
                 <div class="knowMore">
@@ -283,7 +310,7 @@
                     <img src="../shared/images/index/en_band4Price.png" class="img" alt="">
                 </div>
                 <div class="bandLeftS4 showM">
-                    <img src="../shared/images/index/chs_mobilePriceBand4.png" class="img" alt="">
+                    <img src="../shared/images/index/en_mobilePriceBand4.png" class="img" alt="">
                 </div>
                 <div class="bandRight bandRightS4">
                     <p class="bandButton pin">Try Now</p>
@@ -300,8 +327,8 @@
                 <p class="pin sectionText">Invite Friends to Join iTalkBB<br>
                     and Earn Benefits</p>
                 <div class="">
-                    <p class="s5iconText1 pin">Get Rewards for Successful Referral</p>
-                    <p class="s5iconText2 pin">Get $5 off by Using Referral Invitation</p>
+                    <p class="s5iconText1 pin">Get Rewards <br class="showM">for Successful Referral</p>
+                    <p class="s5iconText2 pin">Get $5 off by <br class="showM">Using Referral Invitation</p>
                     <p class="s5iconText3 pin">3 Simple Steps to Refer</p>
                 </div>
                 <div class="clear clearfix"></div>
@@ -322,7 +349,7 @@
                     <img src="../shared/images/index/en_band5Price.png" class="img" alt="">
                 </div>
                 <div class="bandLeftS4 showM">
-                    <img src="../shared/images/index/chs_mobilePriceBand5.png" class="img" alt="">
+                    <img src="../shared/images/index/en_mobilePriceBand5.png" class="img" alt="">
                 </div>
                 <div class="bandRight bandRightS5">
                     <p class="bandButton pin">Refer Now</p>
@@ -336,7 +363,7 @@
         <div class="container1920">
             <div>
                 <p class="contactTitle pin">24/7 Customer Service</p>
-                <p class="contactSubTitle pin">Contact us and one of our friendly Customer Service<br>
+                <p class="contactSubTitle pin">Contact us and one of our friendly Customer <br class="showM">Service<br class="hideM">
                     Specialists will be there to support you.</p>
             </div>
             <div class="s5Left">
@@ -360,8 +387,8 @@
         </div>
         <div class="container1920">
             <div>
-                <p class="subscribeTitle pin">Keep connected with iTalkBB</p>
-                <p class="subscribeSubTitle pin">Get the latest on hot deals and cool, new products of iTalkBB</p>
+                <p class="subscribeTitle pin">Let's stay in touch</p>
+                <p class="subscribeSubTitle pin">Get the latest on hot deals <br class="showM">and cool, new products of iTalkBB</p>
             </div>
             <div>
                 <input type="email" placeholder="Enter your email" class="emailBar pin">
