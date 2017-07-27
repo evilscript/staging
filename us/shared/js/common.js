@@ -1,27 +1,4 @@
 $(document).ready(function(){
-    /*整屏滚动功能*/
-    $(function() {
-        $(function() {
-            $.scrollify({
-                section : ".scroll",
-                sectionName : "section-name",
-                easing: "easeOutExpo",
-                scrollSpeed: 2000,
-                offset : 0,
-                scrollbars: true,
-                updateHash: true
-            });
-        });
-    });
-    /*如果是移动设备，初始化时直接禁用整屏滚动*/
-    function isMobile() {
-        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    }
-    if (isMobile()) {
-        $.scrollify.disable();
-    }
-    /*整屏滚动功能结束*/
-
     /*Header部分形状变化功能*/
     $(function(){
         $(window).scroll(function(){
