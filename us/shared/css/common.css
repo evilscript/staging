@@ -305,7 +305,8 @@ input:focus{ outline:none;}
 }
 .headerBackToTop{
     position: fixed;
-    width: 3%;
+    width: 60px;
+    height: 60px;
     bottom: 5%;
     right: 5%;
     z-index: 50;
@@ -322,7 +323,7 @@ input:focus{ outline:none;}
     border: 1px solid #327fe8;
 }
 .headerBackToTopImg{
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 0;
     text-align: center;
     font-weight: lighter;
@@ -572,9 +573,6 @@ input:focus{ outline:none;}
     .txtColor16{font-size: 14px; color: #fff;}
     .txtColorSpl16{font-size: 14px; color: #989898;}
 	/* fontSize end */
-    .headerBackToTopImg {
-        font-size: 20px;
-    }
     .teleText{
         font-size:14px;
     }
@@ -620,9 +618,6 @@ input:focus{ outline:none;}
     .txtColor16{font-size: 12px; color: #fff;}
     .txtColorSpl16{font-size: 12px; color: #989898;}
 	/* fontSize end */
-    .headerBackToTopImg {
-        font-size: 18px;
-    }
     .headerMirrorSearchPart{
         padding-top: 1.5%;
     }
@@ -683,8 +678,12 @@ input:focus{ outline:none;}
     .txtColor16{font-size: 0.8vw; color: #fff;}
     .txtColorSpl16{font-size: 0.8vw; color: #989898;}
 	/* fontSize end */
+    .headerBackToTop {
+        width: 5vw;
+        height: 5vw;
+    }
     .headerBackToTopImg {
-        font-size: 1.5vw;
+        font-size: 2.5vw;
     }
     .headerMirrorSearchText {
         font-size: 1.5vw;
@@ -740,10 +739,18 @@ input:focus{ outline:none;}
 	.mText24{font-size: 3.13vw;}
 	/* fontSize end */
     .headerBackToTop {
-        width: 9%;
+        width: 12vw;
+        height: 12vw;
     }
     .headerBackToTopImg {
-        font-size: 5vw;
+        font-size: 6.5vw;
+    }
+    .headerBackToTop:hover {
+        background: #327fe8;
+        border: 1px solid white;
+    }
+    .headerBackToTop:hover .headerBackToTopImg {
+        color:white;
     }
     .bgTitle{
         font-size:1.4vw;
