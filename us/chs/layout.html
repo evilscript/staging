@@ -2,7 +2,7 @@
 <html lang="zh-cmn-Hans">
 <head>
     <meta charset="UTF-8">
-    <title>iTalkBB蜻蜓 帮助支持</title>
+    <title>iTalkBB蜻蜓</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="copyright" content="">
@@ -17,13 +17,14 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/common.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_support.css">
+    <!--这里继续添加子页面的Css引用文件-->
 
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
     <script src="../shared/js/angular-1.6.4.min.js"></script>
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
+    <!--这里继续添加子页面的Js引用文件-->
 </head>
 
 
@@ -37,15 +38,19 @@
     <!--主体内容 start--> 
     <div class="mainLayout">
        <section>
-      	   <div ng-include="'sptBanner.html'"></div>       	   
+      	    <!--这里书写banner，或外部引用--> 	   
        </section>
        <section class="mainPart">
-        	<div class="lineOrange"></div> 
-        	<!--这里书写页面初banner外的主体内容-->       	
+       	    <!--橙色装饰线，样式已放入common.css，直接引用即可-->
+        	<div class="lineOrange"></div>
+        	        	 
+        	<!--这里书写页面除banner外的主体内容--> 
+        	      	
        </section>
     </div>
     <!--主体内容 end-->
     
+    <!--蓝色装饰线，样式已放入common.css，直接引用即可-->
     <div class="lineBlue"></div>
     
     <!--底部文件引入 start--> 
