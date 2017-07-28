@@ -718,7 +718,7 @@ input:focus{ outline:none;}
     }
 }
 
-@media (width:768px) {
+@media (min-width:768px) and (max-width:992px) {
     .toggle{
         padding-left:0;
     }
@@ -857,7 +857,7 @@ input:focus{ outline:none;}
         height: 50px;
     }
     .headerBackToTopImg {
-        font-size: 26px;
+        font-size: 32px;
     }
     .headerBackToTop:hover {
         background: #327fe8;
