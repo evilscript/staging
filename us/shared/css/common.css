@@ -12,8 +12,15 @@ img{border:none; display:block;}
 .opacity {filter: alpha(opacity=75); -moz-opacity: .75; -khtml-opacity: .75; opacity: .75;}
 input:focus{ outline:none;}
 .scroll{height:auto!important;}
+.wb{font-weight: 800;}
 /*初始化设置结束*/
 
+/* mainLayout start */
+.mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9.5%; margin-bottom: 7%;}
+.mainPart{margin-top: 3%; padding: 0 5%;}
+.lineOrange{height:0; border-bottom: .4vw solid #ff7f00;}
+.lineBlue{height:0; border-bottom: .4vw solid #327fe8;}
+/* mainLayout end */
 
 /*字体部分*/
 /*苹方字体，引用字体粗细为300，500和800*/
@@ -42,19 +49,7 @@ input:focus{ outline:none;}
 .pin{font-family: 'pingfang', 微软雅黑, sans-serif;}
 /*字体部分结束*/
 
-/* mainLayout css */
-.mainLayout{max-width:1920px; width:100%; margin:0 auto; padding-top: 9%; margin-bottom: 7%;}
-.mainPart{margin-top: 3%; padding: 0 5%;}
-.lineOrange{height:0; border-bottom: .4vw solid #ff7f00;}
-.lineBlue{height:0; border-bottom: .4vw solid #327fe8;}
-.wb{font-weight: 700;}
-.mgnCnt{margin: 0 auto;}
-.txtCnt{text-align: center;}
-.fLeft{float: left;}
-.fRight{float: right;}
-/* mainLayout css end*/
-
-/*Font size css*/
+/* fontSize start */
 .title60,.title20{color:#222;}
 .title32,.title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#333;}
 .title60{font-size: 60px;}
@@ -85,7 +80,7 @@ input:focus{ outline:none;}
 .txtColor16{font-size: 16px; color: #fff;}
 .txtColorSpl16{font-size: 16px; color: #989898;}
 
-/*Font size css end*/
+/* fontSize end */
 
 /*Header和Footer*/
 .headerTotal{
@@ -518,6 +513,7 @@ input:focus{ outline:none;}
 }
 
 @media (max-width:1600px) {
+	/* fontSize start */
     .title60,.title32,.title20{color:#333;}
     .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 50px;}
@@ -546,6 +542,7 @@ input:focus{ outline:none;}
     .txtNom20,.txtEng20{font-size: 17px;}
     .txtColor16{font-size: 14px; color: #fff;}
     .txtColorSpl16{font-size: 14px; color: #989898;}
+	/* fontSize end */
     .teleText{
         font-size:14px;
     }
@@ -561,6 +558,7 @@ input:focus{ outline:none;}
 }
 
 @media (max-width:1400px){
+	/* fontSize start */
     .title60,.title32,.title20{color:#333;}
     .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 44px;}
@@ -589,6 +587,8 @@ input:focus{ outline:none;}
     .txtNom20,.txtEng20{font-size: 15px;}
     .txtColor16{font-size: 12px; color: #fff;}
     .txtColorSpl16{font-size: 12px; color: #989898;}
+	/* fontSize end */
+	
     .headerMirrorSearchPart{
         padding-top: 1.5%;
     }
@@ -618,7 +618,8 @@ input:focus{ outline:none;}
     }
 }
 
-@media (max-width:1300px){
+@media (max-width:1300px){	
+	/* fontSize start */
     .title60,.title32,.title20{color:#333;}
     .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 3.2vw;}
@@ -647,6 +648,8 @@ input:focus{ outline:none;}
     .txtNom20,.txtEng20{font-size: 1.1vw;}
     .txtColor16{font-size: 0.8vw; color: #fff;}
     .txtColorSpl16{font-size: 0.8vw; color: #989898;}
+	/* fontSize end */
+	
     .headerMirrorSearchText {
         font-size: 1.5vw;
     }
@@ -909,7 +912,6 @@ input:focus{ outline:none;}
 	/* mainLayout end */
 	
 }
-
 
 
 
