@@ -13,6 +13,7 @@ img{border:none; display:block;}
 input:focus{ outline:none;}
 .scroll{height:auto!important;}
 .wb{font-weight: 800;}
+.trans{opacity:0;}
 /*初始化设置结束*/
 
 /* mainLayout start */
@@ -875,9 +876,6 @@ input:focus{ outline:none;}
     .blueBand {
         background: #327fe8;
         height: 1vw;
-    }
-    .trans{
-        opacity:0;
     }
     .mobileHeaderText:hover, .mobileHeaderText2:hover{
         color:white;
