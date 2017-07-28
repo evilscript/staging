@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <link rel="stylesheet" type="text/css"  href="../shared/css/commonAdd.css">
+	  <link rel="stylesheet" type="text/css"  href="../shared/css/common.css">
+	      <script src="../shared/js/jquery-1.12.4.min.js"></script>
+	<style>
+		.boss{margin: 0 auto;width: 90%;}
+		.change{width: 63%;margin: 0 auto;margin-top:1.2%;margin-bottom:2.4%  }
+		.changes{width: 24%;display: inline-block;font-size: 22px;text-align: center;border: 1px solid #327fe8;line-height: 230%;vertical-align:top;font-weight: 500;    cursor: pointer;text-shadow: none;box-shadow: inset 0 0 0 0 #327fe8;-webkit-transition: all ease 0.8s;-moz-transition: all ease 0.8s;transition: all ease 0.8s;}
+		.changesR{margin-right:0.5% }
+		.changes:hover{color:white;box-shadow: inset 300px 0 0 #327fe8;}
+		.changesadd{color:white;box-shadow: inset 300px 0 0 #327fe8;}
+		.td1{width: 19%}
+		.td2{width: 55%}
+		.td3{width: 26%}
+		.moneys{margin: 0 auto;width: 100%;}
+
+		.f14{font-size: 14px}
+		.f16{font-size: 16px}
+		.fontl{font-weight: 300}
+		.fontb{font-weight: 800}
+	
+		.table{width: 60%;margin:0 auto; }
+		.title1{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color: #f8f9f9 }
+		.title2{padding-top:2.5%;padding-bottom: 2.1%;background-color: #ffffff }
+
+		.calltable{margin-bottom:5%;padding-left:5.5%;}
+		.tabletitle{padding-bottom: 0.5%}
+		.tablebottom{padding-top: 0.5%;font-weight: 800}
+		table{line-height: 2}
+		table tr:nth-child(odd){background: #e8e8e8;}
+		.color{color: white;}
+		table tr:nth-of-type(1){background: #444444;}
+		td{padding: 2% 0% 2% 2%;}
+		.tdMiddle{padding: 2% 0% 2% 5%}
+		/*menu*/
+
+		
+		.helpMenu2 div span{font-weight: 800}
+		.menuTitle3{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color: #ffffff }
+		.menuTitle1{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color:#f8f9f9 }
+
+		/*pay*/
+		.payTitle3{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color: #ffffff }
+		.payTitle1{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color:#f8f9f9 }
+		.star{padding-top: 1%}
+		.star div{display: inline-block;vertical-align: top}
+		.starimg{width: 2%}
+		.startext{width: 97%}
+
+		/*users*/
+		.userTitle3{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color: #ffffff }
+		.userTitle1{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color:#f8f9f9 }
+		.users a,.orange{color:#ff7f00 }
+		.users3{background-color: #ffffff}
+
+		.picUseNum{display: inline-block;width: 49%;text-align: center;vertical-align: top;position: relative;padding-bottom: 8%}
+		.picUseNum1{border-right: 1px solid #c9c9c9}
+		.picBox1{width: 50%;margin: 0 auto;}
+		.picBox1 div img{width: 100%;}
+		.picBox2{width: 64%;margin: 0 auto;}
+		.picBox2 div img{width: 100%}
+		.nameNum{width: 33%;margin: 0 auto;border: 1px solid #ff7f00;font-size: 24px;line-height: 1 ;color:#ff7f00 ;padding:0.6%; box-shadow: 10px 10px  #d9d9d9;}
+		.nameNum span{font-size: 16px}
+		.whereNum{margin-bottom:7% }
+		.whereNum{margin-top: 3%;font-size: 16px}
+		.whereNum span{font-size: 14px}
+/*		.orangelineL{width: 20%;height: 1px;background-color: orange;transform:rotate(-25deg);-ms-transform:rotate(-25deg); -moz-transform:rotate(-25deg); -webkit-transform:rotate(-25deg); -o-transform:rotate(-25deg);position: absolute;        top: 33%;left: 53%}
+		.orangelineR{width: 15%;height: 1px;background-color: orange;transform:rotate(-35deg);-ms-transform:rotate(-35deg); -moz-transform:rotate(-35deg); -webkit-transform:rotate(-35deg); -o-transform:rotate(-35deg);position: absolute;        top: 33%;left: 58%}*/
+
+/*		.imgbox{position: relative;}
+		.wherePaper{position: absolute; top: 21%;left: 72%;}*/
+		.boxbottom{padding-top: 4%}
+		.picBox1Img2{display: none;}
+		.picBox2Img2{display: none;}
+		/*顺序*/
+		.menus,.moneys,.pays{display: none;}
+		
+
+
+
+
+
+
+
+
+		@media (max-width:767px){
+			.boss{width: 100%}
+			.change{width: 100%;margin-bottom:3.4% }
+			.changes{width: 24.5%}
+			.text18{font-size: 3.1vw}
+			.title1{padding: 9% 5% 3% 5%}
+			.title3{padding: 9% 5% 3% 5%}
+			.tabletitle{font-size: 2.6vw;text-align: center;margin-bottom: 2%}
+			.table{width: 100%;}
+		.td1{width: 33.3%}
+		.td2{width: 33.3%}
+		.td3{width: 33.3%}
+		.f16{font-size: 2.6vw}
+		
+		td{padding: 3% 0% 3% 2%;}
+		.color{font-size: 2.8vw;text-align: center;padding: 1% 0% 1% 2%;}
+		table td:nth-child(odd){text-align: center;}
+		.tdMiddle{padding: 2%}
+		.spanx{text-align: center;}
+		.spany{text-align: left;}
+		.tablebottom{font-size: 2.6vw;width:52%;margin: 0 auto;text-align: center;padding: 4% 0;line-height: 1.5 }
+/*MENU*/
+		.title32{font-size: 4.1vw;text-align: center;}
+		.text18{font-size: 3.1vw}
+		.menuTitle1,.menuTitle3{padding: 5%}
+		.menu32{margin-bottom:5% }
+/*pay*/
+		.payTitle1,.payTitle3{padding: 5%}
+		.pay32{margin-bottom:5%; }
+		.star div{display: block;}
+		.starimg{float: left;padding-top: 1%;width: 7%}
+
+/*users*/
+		.userTitle1,.userTitle3{padding: 5%}
+		.user32{margin-bottom:5%; }
+		.picUseNum{display: block;width: 100%}
+		.nameNum{width: 60%;font-size: 4.1vw}
+		.nameNum span{font-size: 3.3vw}
+		.whereNum{font-size: 3.1vw}
+		.whereNum span{font-size: 3.1vw}
+		.picBox1,.picBox2{width: 60%}
+		.picBox1Img1{display: none;}
+		.picBox2Img1{display: none;}
+		.picBox1Img2{display:block;}
+		.picBox2Img2{display: block;}
+		.boxbottom{font-size:3.1vw;padding-top:8%  }
+		}
+
+	</style>
+</head>
+<body>
+	<div class="boss">
+		<div class="change">
+			<div class="changes user changesR changesadd">账户管理</div><div class="changes menu changesR">账单管理</div><div class="changes pay changesR">支付方式</div><div class="changes money">收费明细</div>
+		</div>
+
+		<div class="shows">
+		<div class="moneys">
+			<div class="title1 pin text18">
+	除了下一个账期的产品计划月费以及上一个账期可能产生的其他服务费用之外，iTalkBB蜻蜓每月还会收取您以下款项：<br>
+    >BB-综合管理费（Applicable Regulatory/Compliance Fees and Charges）： iTalkBB蜻蜓收取这笔费用来支付政府规定的相关费用，包括联邦、州、地区行业监管费、州税、地方税、紧急拨出费、本地及国际公共电话网络使用费、知识產权费、号码费及其他法律规定的费用。综合管理费为每个电话号码每月$3.95。如果您是包年计划用户，您会在注册时一次缴清一年的综合管理费。<br>
+    >BB-电信消费税：目前Virginia州和Texas州的用户需支付一定数额的电信消费税。iTalkBB依照规定收取这笔费用并上缴给相关州政府。
+			</div>
+			<div class="title2">
+				<div class="text18 pin calltable">除了上述两项费用之外，iTalkBB蜻蜓移动账单还包括以下收款项目：</div>
+				<div class="table">
+					<div class="f14 pin tabletitle">以下是您可在iTalkBB蜻蜓移动账单中看到的收费：</div>
+					<table width="100%" style="table-layout:fixed" class="f16 pin" frame="below" rules="cols" cellspacing="0" cellpadding="0" bordercolor="#d0d0d0">
+						<tr class="color">
+							<td class="td1">Transaction</td>
+							<td class="td2 tdMiddle">Description</td>
+							<td class="td3">Amount</td>
+						</tr>
+
+						<tr>
+							<td>Activation激活费</td>
+							<td class="tdMiddle">只在账户开通时收取，增加额外的手机号码时不收取。</td>
+							<td>$25</td>
+						</tr>
+						<tr>
+							<td>Reinstate账号恢复</td>
+							<td class="tdMiddle">以下情况适用：<br> 1.如果有未支付的费用，且未支付天数在1+54天。超过55天， 账户会被取消并且无法恢复。<br> 2.如果客户自行选择停止账户，之后又选择恢复账户。</td>
+							<td>$10/line 每条线$10</td>
+						</tr>
+						<tr>
+							<td>Shipping邮费</td>
+							<td class="tdMiddle spanx">适用于设备运送</td>
+							<td class="spany">Single Standard Service: $3.99; Express Service: $14.99;  Shipping for Mobile&BB&TV ;$15 total 单产品标准邮费;$14.9 移动电话，BB和TV：总计$15</td>
+						</tr>
+						<tr>
+							<td>China Sim Card Fee 中国Sim卡费</td>
+							<td class="tdMiddle spanx">适用于购买中国SIM卡</td>
+							<td>$10</td>
+						</tr>
+						<tr>
+							<td>Plan Change Fee 计划变更费</td>
+							<td class="tdMiddle">适用于降手机计划（从Premium计划将为economic计划）: <br>在升计划时不适用（从economic 计划升级为premi</td>
+							<td>$18</td>
+						</tr>
+						<tr>
+							<td>International Calling Toll</td>
+							<td class="tdMiddle"></td>
+							<td>View Calling Rates</td>
+						</tr>
+						<tr>
+							<td>Charge 国际电话费</td>
+							<td class="tdMiddle"></td>
+							<td>参见相应通话费用</td>
+						</tr>
+					</table>
+					<div class="f14 pin tablebottom">除了上述提及的费用外，您需要支付税费。税费具体金额取决于您居住的地区。</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="menus">
+			<div class="helpMenu1 menuTitle1">
+				<div class="f32 title32 menu32">查看账单</div>
+				<div class="text18  ">iTalkBB蜻蜓让您通过登陆网上账户就可以轻松管理您的账单。登录之后，在最上方的菜单界面内点击“账单资讯”即可查看最新账单。如果查看历史账单，在最上方的菜单界面内点击“账单资讯”，然后在“历史账单”这一栏内，您可最多查看最近6个月的账单。</div>
+			</div>
+			<div class="helpMenu2 menuTitle3">
+				<div class="f32 title32 menu32">账单详解</div>
+				<div class="text18 fontl"><span>账期：</span>服务周期以自然月为准，从您的账户激活这一天作为账期起始日，从账期起始日后30天为一个账期。 <br> <span>缴费：</span>您无需记住日期并在收到帐单后手动付款，我们每月支付日期当天自动收取下一个账期的产品计划月费以及上一个账期可能产生的其他服务费用。iTalkBB蜻蜓移动给您带来非常便利的一点是，您无需记住日期并在收到帐单后手动付款，我们每月会在支付日期的那一天自动收取当月的服务费。</div>
+			</div>
+			<div class="helpMenu3 menuTitle1">
+				<div class="f32 title32 menu32">如果您同时使用蜻蜓移动和蜻蜓电话服务</div>
+				<div class="text18 fontl">在您激活蜻蜓移动手机服务的当天，我们会按比例向您收取从激活当天算起到您下一个蜻蜓电话账单生成日这一期间的手机服务费。之后我们会在每月收取电话服务费的同时，向您收取您整月的电话服务费以及您的手机服务费。您的蜻蜓电话账单日期和您蜻蜓移动的账单日期将被调整成同一天，方便您管理和支付。</div>
+			</div>
+		</div>
+
+		<div class="pays">
+			<div class="pay1 payTitle1">
+				<div class="f32 title32 pay32">支付方式</div>
+				<div class="text18 fontl">为了保护您的财产安全，我们暂时只接受借记卡和信用卡的支付方式，包括Visa, Master, American Express以及Discover。</div>
+			</div>
+			<div class="pay2 payTitle3">
+				<div class="f32 title32 pay32">支付日期</div>
+				<div class="text18 fontl">服务周期以自然月为准，从您的账户激活这一天作为账期起始日，从账期起始日后30天为一个账期。您无需记住日期并在收到帐单后手动付款，我们每月支付日期当天自动收取下一个账期的月费以及上一个账期可能产生的其他服务费用</div>
+				<div class="star">
+					<div class="starimg"><img src="../shared/images/support/supportPay.png" alt=""></div>
+					<div class="startext text18">请注意：如果您同时使用蜻蜓移动和蜻蜓电话服务，在您激活蜻蜓移动手机服务的当天，我们会按比例向您收取从激活当天算起到您下一个蜻蜓电话账单生成日这一期间的手机服务费。之后我们会在每月收取电话服务费的同时，向您收取您整月的电话服务费以及您的手机服务费。您的电话账单日期和您手机服务的账单日期将被调整成同一天，方便您管理和支付。</div>
+				</div>
+
+			</div>
+			<div class="pay3 payTitle1">
+				<div class="f32 title32 pay32">支付失败</div>
+				<div class="text18 fontl ">如果iTalkBB蜻蜓向您的借记卡或信用卡扣款失败，您的服务会被暂停。如果您需要支付的款项超过45天没有支付，您的账户会被取消，而您的号码也将无法被保留下来。账户内的任何余额都是不可退还也不可转去其他账户的。为了避免这一情况发生，请及时更新您的信用卡信息。如果您的账户内已经有一笔未支付的款项，请在您更新信用卡信息后进行支付。支付方式更新想要更新您的支付方式？没问题！只要登陆网上账户就能轻松搞定。请根据以下步骤进行操作：请登录您的网上账户。</div>
+				<div class="star">
+					<div class="starimg" ><img src="../shared/images/support/supportPay.png" alt=""></div>
+					<div class="startext text18">请注意：如果这是您第一次登陆账号，登录信息就在您的手机号码订单发货后的确认邮件内！如果您未收到该邮件，请联系我们，我们专业的客服人员，将竭诚为您服务。如果这并不是您第一次登陆，请使用您设置的用户名和密码登陆。在最上方的菜单界面内点击“账户设定”并选择“账户信息”，然后点击在您现在支付方式信息旁的“update”， 即可轻松更新支付方式。</div>
+				</div>				
+			</div>
+		</div>
+
+		<div class="users">
+			<div class="users1 userTitle1">
+				<div class="f32 title32 user32">支付方式</div>
+				<div class="text18">当您下订单后，我们就会发送给您一封含有临时登录名和临时密码的邮件，通过这些登录信息，您就可以登陆网上账户。在第一次登录网上账户之后，您可以在"账户设定"页面重新设置登录名或更改密码。如果您未收到该邮件，请<a href="">联系我们</a>，我们专业的客服人员，将竭诚为您服务。</div>
+			</div>
+			<div class="users2 userTitle3">
+				<div class="f32 title32 user32">登录名的种类</div>
+				<div class="text18">
+					在您下单后，使用iTalkBB蜻蜓发给您的临时登录名和密码登入网上账户之后，您可以选择有以下几种方式作为登录名：<br>>您註册时设置的登录名<br>>或您注册时设定手机号码作为登录名<br>>或通过您的iTalkBB蜻蜓家庭电话号码, 10位数字, 如: 6261234567<br>>或您iTalkBB蜻蜓家庭电话的899号码或中文电视的699号码。您的899号码可以在您的iTalkBB电话盒上找到，如下图所示：
+				</div>
+			</div>
+			<div class="users3">
+				<div class="picUseNum picUseNum1">
+					<div class="nameNum">蜻蜓电话899号码示意图 <br><span>Locate Your 899 Number</span> </div>
+					<div class="whereNum">您可于iTalkBB蜻蜓电话盒子正面的贴纸上找到899号码 <br><span>The 899 number is located on a sticker on your iTalkBB VOIP Box</span></div>
+					<div class="picBox1">
+						<div class="picBox1Img1"><img src="../shared/images/support/box3.png" alt=""></div>
+						<div class="picBox1Img2"><img src="../shared/images/support/box5.png" alt=""></div>
+						<div class="boxbottom">iTalkBB蜻蜓电话盒子 <br>iTalkBB VOIP Box</div>
+					</div>
+<!-- 					<div class="orangelineL"></div>
+					<div class="f16 wherePaper">899号码贴纸位置 <br>899 number sticker</div> -->
+				</div><div class="picUseNum">
+					<div class="nameNum">蜻蜓电话899号码示意图<br><span>Locate Your 699 Number</span></div>
+					<div class="whereNum">您可于iTalkBB蜻蜓电话盒子正面的贴纸上找到899号码 <br><span>The 699 number is located on a sticker on your iTalkBB TV Box</span></div>
+					<div class="picBox2">
+						<div class="picBox2Img1"><img src="../shared/images/support/box4.png" alt=""></div>
+						<div class="picBox2Img2" ><img src="../shared/images/support/box6.png" alt=""></div>
+						<div class="boxbottom">iTalkBB蜻蜓电话盒子 <br>iTalkBB TV Box</div>
+					</div>
+<!-- 					<div class="orangelineR"></div>
+					<div class="f16 wherePaper">699号码贴纸位置 <br>699 number sticker</div> -->
+				</div>
+			</div>
+			<div class="users4 userTitle1">
+				<div class="f32 title32 user32">更新账户信息</div>
+				<div class="text18">通过登陆网上账户，您就可以更新信息。只需按照以下指导步骤 ：<br>1. 请登录您的网上账户 <br>
+    请注意：如果这是您第一次登陆账户，登录信息就在您订单确认邮件内！如果您未收到该邮件，请联系我们。如果这并不是您第一次登陆，请使用您设置的用户名和密码登陆。<br>2. 在最上方的菜单界面内点击“Account & Bill，然后在“Account Profile”这一栏内点击”Update account info”，您就可以轻松得更新您的账户信息，包括您的地址、邮箱以及联系电话。</div>
+			</div>
+
+			<div class="users5 userTitle3">
+				<div class="f32 title32 user32">忘记密码</div>
+				<div class="text18">如果您忘记密码，<a href="">请联系我们</a>，我们专业的客服人员会帮您核实用户身份，身份核实成功之后，客服会为您找回密码或者重新设置密码。</div>
+			</div>
+			<div class="users6 userTitle1">
+				<div class="f32 title32 user32">账户暂停（限蜻蜓移动业务）</div>
+				<div class="text18">阶段性暂停：您可以自行暂停您的账户，<a href="">请联系我们</a>，我们专业的客服人员，将帮助您暂停您的账户。</div>
+				<div class="star">
+					<div class="starimg"><img src="../shared/images/support/supportPay.png" alt=""></div>
+					<div class="startext text18 orange">欠费导致账户暂停：在账单日如果您需要支付的款项超过45天没有支付，您的账户会被取消。账户内的任何余额都是不可退还也不可转去其他账户的。如果在账单日iTalkBB蜻蜓向您的信用卡扣款失败，您的手机账号会被暂停。</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+
+	</div>
+</body>
+<script>
+	$(".money").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".moneys").css('display','block');
+	$('.change').children().removeClass('changesadd');
+	$(this).addClass('changesadd');
+
+})
+
+	$(".user").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".users").css('display','block');
+	$('.change').children().removeClass('changesadd');
+	$(this).addClass('changesadd');
+})
+
+$(".menu").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".menus").css('display','block');
+	$('.change').children().removeClass('changesadd');
+	$(this).addClass('changesadd');
+})
+
+$(".pay").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".pays").css('display','block');
+	$('.change').children().removeClass('changesadd');
+	$(this).addClass('changesadd');
+})
+</script>
+</html>
