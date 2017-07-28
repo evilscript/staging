@@ -1,0 +1,128 @@
+		.boss{margin: 0 auto;width: 90%;}
+		.change{width: 63%;margin: 0 auto;margin-top:1.2%;margin-bottom:2.4%  }
+		.changes{width: 24%;display: inline-block;font-size: 22px;text-align: center;border: 1px solid #327fe8;line-height: 230%;vertical-align:top;font-weight: 500;    cursor: pointer;text-shadow: none;box-shadow: inset 0 0 0 0 #327fe8;-webkit-transition: all ease 0.8s;-moz-transition: all ease 0.8s;transition: all ease 0.8s;}
+		.changesR{margin-right:0.5% }
+		.changes:hover{color:white;box-shadow: inset 300px 0 0 #327fe8;}
+		.changesadd{color:white;box-shadow: inset 300px 0 0 #327fe8;}
+		.td1{width: 19%}
+		.td2{width: 55%}
+		.td3{width: 26%}
+		.moneys{margin: 0 auto;width: 100%;}
+
+		.f14{font-size: 14px}
+	
+		.fontl{font-weight: 300}
+		.fontb{font-weight: 800}
+	
+		.table{width: 60%;margin:0 auto; }
+		.title1{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color: #f8f9f9 }
+		.title2{padding-top:2.5%;padding-bottom: 2.1%;background-color: #ffffff }
+
+		.calltable{margin-bottom:5%;padding-left:5.5%;}
+		.tabletitle{padding-bottom: 0.5%}
+		.tablebottom{padding-top: 0.5%;font-weight: 800}
+		table{line-height: 2}
+		table tr:nth-child(odd){background: #e8e8e8;}
+		.color{color: white;}
+		table tr:nth-of-type(1){background: #444444;}
+		td{padding: 2% 0% 2% 2%;}
+		.tdMiddle{padding: 2% 0% 2% 5%}
+		/*menu*/
+
+		
+		.helpMenu2 div span{font-weight: 800}
+		.menuTitle3{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color: #ffffff }
+		.menuTitle1{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color:#f8f9f9 }
+
+		/*pay*/
+		.payTitle3{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color: #ffffff }
+		.payTitle1{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color:#f8f9f9 }
+		.star{padding-top: 1%}
+		.star div{display: inline-block;vertical-align: top}
+		.starimg{width: 2%}
+		.startext{width: 97%}
+
+		/*users*/
+		.userTitle3{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color: #ffffff }
+		.userTitle1{padding-top:2.5%;padding-bottom: 2.1%;padding-left: 5.5%;line-height: 1.8;background-color:#f8f9f9 }
+		.users a,.orange{color:#ff7f00 }
+		.users3{background-color: #ffffff}
+
+		.picUseNum{display: inline-block;width: 49%;text-align: center;vertical-align: top;position: relative;padding-bottom: 8%}
+		.picUseNum1{border-right: 1px solid #c9c9c9}
+		.picBox1{width: 50%;margin: 0 auto;}
+		.picBox1 div img{width: 100%;}
+		.picBox2{width: 64%;margin: 0 auto;}
+		.picBox2 div img{width: 100%}
+		.nameNum{width: 40%;margin: 0 auto;border: 1px solid #ff7f00;font-size: 24px;line-height: 1 ;color:#ff7f00 ;padding:0.6%; box-shadow: 10px 10px  #d9d9d9;}
+		.nameNum span{font-size: 16px}
+		.whereNum{margin-bottom:7% }
+		.whereNum{margin-top: 3%;font-size: 16px}
+		.whereNum span{font-size: 14px}
+/*		.orangelineL{width: 20%;height: 1px;background-color: orange;transform:rotate(-25deg);-ms-transform:rotate(-25deg); -moz-transform:rotate(-25deg); -webkit-transform:rotate(-25deg); -o-transform:rotate(-25deg);position: absolute;        top: 33%;left: 53%}
+		.orangelineR{width: 15%;height: 1px;background-color: orange;transform:rotate(-35deg);-ms-transform:rotate(-35deg); -moz-transform:rotate(-35deg); -webkit-transform:rotate(-35deg); -o-transform:rotate(-35deg);position: absolute;        top: 33%;left: 58%}*/
+
+/*		.imgbox{position: relative;}
+		.wherePaper{position: absolute; top: 21%;left: 72%;}*/
+		.boxbottom{padding-top: 4%}
+		.picBox1Img2{display: none;}
+		.picBox2Img2{display: none;}
+		/*顺序*/
+		.menus,.moneys,.pays{display: none;}
+		
+
+
+
+
+
+
+
+
+		@media (max-width:767px){
+			.boss{width: 100%}
+			.change{width: 100%;margin-bottom:3.4% }
+			.changes{width: 24.5%}
+			
+			.title1{padding: 9% 5% 3% 5%}
+			.title3{padding: 9% 5% 3% 5%}
+			.tabletitle{font-size: 2.6vw;text-align: center;margin-bottom: 2%}
+			.table{width: 100%;}
+		.td1{width: 33.3%}
+		.td2{width: 33.3%}
+		.td3{width: 33.3%}
+		.f16{font-size: 2.6vw}
+		
+		td{padding: 3% 0% 3% 2%;}
+		.color{font-size: 2.8vw;text-align: center;padding: 1% 0% 1% 2%;}
+		table td:nth-child(odd){text-align: center;}
+		.tdMiddle{padding: 2%}
+		.spanx{text-align: center;}
+		.spany{text-align: left;}
+		.tablebottom{font-size: 2.6vw;width:52%;margin: 0 auto;text-align: center;padding: 4% 0;line-height: 1.5 }
+/*MENU*/
+		.title32{text-align: center;}
+		
+		.menuTitle1,.menuTitle3{padding: 5%}
+		.menu32{margin-bottom:5% }
+/*pay*/
+		.payTitle1,.payTitle3{padding: 5%}
+		.pay32{margin-bottom:5%; }
+		.star div{display: block;}
+		.starimg{float: left;padding-top: 1%;width: 7%}
+
+/*users*/
+		.userTitle1,.userTitle3{padding: 5%}
+		.user32{margin-bottom:5%; }
+		.picUseNum{display: block;width: 100%}
+		.nameNum{width: 60%;}
+		.nameNum{font-size: 4.1vw}
+		.nameNum span{font-size: 3.3vw}
+
+		.whereNum span{font-size: 3.1vw}
+		.picBox1,.picBox2{width: 60%}
+		.picBox1Img1{display: none;}
+		.picBox2Img1{display: none;}
+		.picBox1Img2{display:block;}
+		.picBox2Img2{display: block;}
+		.boxbottom{padding-top:8%  }
+		}
