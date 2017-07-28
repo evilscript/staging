@@ -663,9 +663,13 @@
         font-size: 62px;
     }
     .sectionTitle{
-        padding-top:6%;
+        padding-top:11%;
         font-size: 55px;
     }
+    .knowMoreText p {
+        margin-bottom: 16%;
+    }
+}
     .sectionText {
         font-size: 30px;
 

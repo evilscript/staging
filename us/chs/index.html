@@ -28,17 +28,7 @@
     <script>
         /*整屏滚动功能*/
         $(function() {
-            $(function() {
-                $.scrollify({
-                    section : ".scroll",
-                    sectionName : "section-name",
-                    easing: "easeOutExpo",
-                    scrollSpeed: 2000,
-                    offset : 0,
-                    scrollbars: true,
-                    updateHash: true
-                });
-            });
+            $.scrollify({ section : ".scroll" });
         });
         /*如果是移动设备，初始化时直接禁用整屏滚动*/
         function isMobile() {
@@ -57,7 +47,7 @@
         <div ng-include="'header.html'"></div>
     </div>
 
-    <section id="iTalkFeatures" data-section-name="iTalkFeatures" class="container1920 scroll">
+    <div class="container1920 scroll">
         <!--桌面端banner开始-->
         <div id="myCarousel" class="carousel slide hideM" data-ride="carousel" data-interval="false">
             <!-- Indicators -->
@@ -182,9 +172,9 @@
         </div>
         <!--移动端banner结束-->
         <div class="clear clearfix"></div>
-    </section>
+    </div>
 
-    <section data-section-name="iTalkMobile" id="iTalkMobile" class="scroll iTalkMobile">
+    <section id="iTalkMobile" class="scroll iTalkMobile">
         <div class="container1920 bg2">
             <div class="mobileLeft">
                 <p class="pin sectionTitle">蜻蜓移动</p>
@@ -228,7 +218,7 @@
         </div>
     </section>
 
-    <section data-section-name="iTalkTV" id="iTalkTV" class="scroll iTalkMobile">
+    <section id="iTalkTV" class="scroll iTalkMobile">
         <div class="container1920 bg3">
             <div class="mobileLeft">
                 <p class="pin sectionTitle">蜻蜓电视</p>
@@ -269,7 +259,7 @@
         </div>
     </section>
 
-    <section data-section-name="iTalkPhone" id="iTalkPhone" class="scroll iTalkMobile">
+    <section id="iTalkPhone" class="scroll iTalkMobile">
         <div class="container1920 bg4">
             <div class="mobileLeft">
                 <p class="pin sectionTitle">蜻蜓电话</p>
@@ -309,7 +299,7 @@
         </div>
     </section>
 
-    <section data-section-name="Referral" id="Referral" class="scroll iTalkMobile">
+    <section id="Referral" class="scroll iTalkMobile">
         <div class="container1920 bg5">
             <div class="mobileLeft">
                 <p class="pin sectionTitle s5Title">推荐优惠</p>
@@ -347,7 +337,7 @@
         </div>
     </section>
 
-    <section data-section-name="contact" id="contact" class="scroll iTalkMobile">
+    <section id="contact" class="scroll iTalkMobile">
         <div class="container1920">
             <div>
                 <p class="contactTitle pin"><span class="sans">24</span>小时专人客服</p>

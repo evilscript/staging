@@ -2,7 +2,7 @@ $(document).ready(function(){
     /*Header部分形状变化功能*/
     $(function(){
         $(window).scroll(function(){
-            if($(this).scrollTop() > 500) {
+            if($(this).scrollTop() > 300) {
                 $('.header1').slideUp(300);
                 $('img.bigLogo').attr('src','../shared/images/header/smallLogo.jpg');
                 $('.menuLeft, .menuRight, .teleText').addClass('revisedHeader');
