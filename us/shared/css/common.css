@@ -679,11 +679,11 @@ input:focus{ outline:none;}
     .txtColorSpl16{font-size: 0.8vw; color: #989898;}
 	/* fontSize end */
     .headerBackToTop {
-        width: 5vw;
-        height: 5vw;
+        width: 60px;
+        height: 60px;
     }
     .headerBackToTopImg {
-        font-size: 2.5vw;
+        font-size: 28px;
     }
     .headerMirrorSearchText {
         font-size: 1.5vw;
@@ -717,6 +717,119 @@ input:focus{ outline:none;}
     }
 }
 
+@media (width:768px) {
+    .toggle{
+        padding-left:0;
+    }
+    .footerTitle {
+        font-size: 1.6vw;
+    }
+    .footerText, .disclaimer {
+        font-size: 1.4vw;
+    }
+    .headerBackToTop {
+        width: 50px;
+        height: 50px;
+    }
+    .headerBackToTopImg {
+        font-size: 26px;
+    }
+    .menuText{
+        font-size: 1.4vw;
+    }
+    .teleText {
+        font-size: 1vw;
+    }
+    .hugeLogo {
+        width: 30%;
+    }
+    .sitemapText {
+        width: 70%;
+    }
+    .bgTitle {
+        font-size: 1.5vw;
+    }
+    .bgText {
+        font-size: 1.5vw;
+    }
+    .footerSitemap .footerTitle {
+        font-size: 1.1vw;
+    }
+    .footerText, .disclaimer {
+        font-size: 1.1vw;
+    }
+    .footer1 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .toggleM{
+        display: block!important;
+        float: left;
+        width: 3%;
+        padding-left: 1%;
+        padding-top: 3.8%;
+    }
+    .toggle{
+        display:none!important;
+    }
+    .toggleM a img{
+        width:100%;
+    }
+    .menuLeft, .menuRight{
+        display:none;
+    }
+    .logo {
+        margin-left: 40%;
+        margin-right: 30%;
+    }
+    .header1Icon {
+        width: 5%;
+    }
+    .header1Icon:nth-child(2) {
+        width: 5.9%;
+    }
+    .header1Icon:nth-child(1) {
+        width: 7.1%;
+    }
+    .hotText {
+        font-size: 1.4vw;
+    }
+    .revisedHeader {
+        padding-top: 1.5%;
+    }
+    .mobileHeaderText, .mobileHeaderTextBack, .mobileHeaderText2 {
+        border-bottom: 1px solid #2a2a2a;
+        color: #444444;
+        text-align: left;
+        padding-top: 4%;
+        padding-left: 10%;
+        padding-bottom: 4%;
+        font-size: 2vw;
+        font-weight: 500;
+        transition: 0.5s;
+        margin-bottom: 0;
+    }
+    .mobileHeaderBlank {
+        height: 12vw;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 4vw;
+        left: 3vw;
+        font-size: 5vw;
+        color: #ff7f00;
+    }
+
+
+
+
+
+
+
+
+
+}
+
 @media (max-width:767px) {
 	/* mainLayout start */
 	.mainLayout{max-width:767px; padding-top: 15%;margin-bottom: 0;}
@@ -739,11 +852,11 @@ input:focus{ outline:none;}
 	.mText24{font-size: 3.13vw;}
 	/* fontSize end */
     .headerBackToTop {
-        width: 12vw;
-        height: 12vw;
+        width: 50px;
+        height: 50px;
     }
     .headerBackToTopImg {
-        font-size: 6.5vw;
+        font-size: 26px;
     }
     .headerBackToTop:hover {
         background: #327fe8;
