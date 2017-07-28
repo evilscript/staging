@@ -303,6 +303,35 @@ input:focus{ outline:none;}
     height:20.7vw;
     border-bottom:1px solid #5e5e5e;
 }
+.headerBackToTop{
+    position: fixed;
+    width: 3%;
+    bottom: 5%;
+    right: 5%;
+    z-index: 50;
+    background: #327fe8;
+    padding: 0.5%;
+    opacity: 0.8;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all, 0.5s;
+    border-radius: 15%;
+}
+.headerBackToTop:hover{
+    background: white;
+    border: 1px solid #327fe8;
+}
+.headerBackToTopImg{
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    opacity: 0.8;
+}
+.headerBackToTop:hover .headerBackToTopImg{
+    color: #327fe8;
+}
 .menu1,.menu2,.menu3,.menu4,.menu5 {
     background: white;
     opacity: 0.85;
@@ -543,6 +572,9 @@ input:focus{ outline:none;}
     .txtColor16{font-size: 14px; color: #fff;}
     .txtColorSpl16{font-size: 14px; color: #989898;}
 	/* fontSize end */
+    .headerBackToTopImg {
+        font-size: 20px;
+    }
     .teleText{
         font-size:14px;
     }
@@ -588,7 +620,9 @@ input:focus{ outline:none;}
     .txtColor16{font-size: 12px; color: #fff;}
     .txtColorSpl16{font-size: 12px; color: #989898;}
 	/* fontSize end */
-	
+    .headerBackToTopImg {
+        font-size: 18px;
+    }
     .headerMirrorSearchPart{
         padding-top: 1.5%;
     }
@@ -649,7 +683,9 @@ input:focus{ outline:none;}
     .txtColor16{font-size: 0.8vw; color: #fff;}
     .txtColorSpl16{font-size: 0.8vw; color: #989898;}
 	/* fontSize end */
-	
+    .headerBackToTopImg {
+        font-size: 1.5vw;
+    }
     .headerMirrorSearchText {
         font-size: 1.5vw;
     }
@@ -703,7 +739,12 @@ input:focus{ outline:none;}
 	.mtext28{font-size: 3.65vw;}
 	.mText24{font-size: 3.13vw;}
 	/* fontSize end */
-	
+    .headerBackToTop {
+        width: 9%;
+    }
+    .headerBackToTopImg {
+        font-size: 5vw;
+    }
     .bgTitle{
         font-size:1.4vw;
     }

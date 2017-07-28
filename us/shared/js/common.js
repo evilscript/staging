@@ -9,6 +9,7 @@ $(document).ready(function(){
                 $('.toggle').addClass('revisedHeader2');
                 $('.telephone').addClass('revisedHeader3');
                 $('.toggleM, .headerSubM').addClass('revisedHeader');
+                $('.headerBackToTop').css('display','block');
             }
             else {
                 $('.header1').slideDown(300);
@@ -17,6 +18,7 @@ $(document).ready(function(){
                 $('.toggle').removeClass('revisedHeader2');
                 $('.telephone').removeClass('revisedHeader3');
                 $('.toggleM, .headerSubM').removeClass('revisedHeader');
+                $('.headerBackToTop').css('display','none');
             }
         });
     });

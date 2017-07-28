@@ -385,7 +385,16 @@
 <div class="clear clearfix"></div>
 <div class="maskNeeded" style="display:none;"></div>
 
-<!--==========Header js文件：所有的header js代码请写在这里，因为使用了angular引用header文件，所有header部分的js代码如果写入main.js将不会工作==========-->
+<!--返回头部按钮-->
+<div class="headerBackToTop" style="display:none;">
+    <p class="headerBackToTopImg">&#x21EA;</p>
+</div>
+<!--结束-->
+
+<!--搜索bar展开之后的底部灰色overlay-->
+<div class="maskNeeded" style="display:none;"></div>
+<!--结束-->
+
 <script>
     /*响应式image map插件初始化*/
     $('map').imageMapResize();
@@ -512,6 +521,14 @@
     })
     /*展开收缩结束*/
     /*==========搜索结束==========*/
+
+    /*第二屏开始的返回最顶端功能*/
+    $('.headerBackToTop').click(function () {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 500);
+    });
+    /*结束*/
 </script>
 
 
