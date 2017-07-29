@@ -12,7 +12,6 @@ img{border:none; display:block;}
 .opacity {filter: alpha(opacity=75); -moz-opacity: .75; -khtml-opacity: .75; opacity: .75;}
 input:focus{ outline:none;}
 .scroll{height:auto!important;}
-.wb{font-weight: 800;}
 /*初始化设置结束*/
 
 /* mainLayout start */
@@ -23,7 +22,10 @@ input:focus{ outline:none;}
 /* mainLayout end */
 
 /*字体部分*/
-/*苹方字体，引用字体粗细为300，500和800*/
+/*苹方字体，引用字体粗细为300，500和700*/
+.fwl{font-weight: 300;}
+.fwn{font-weight: 500;}
+.fwb{font-weight: 700;}
 @font-face {
     font-family: 'pingfang';
     src: url('../fonts/pingfang/PingFang-Regular.woff') format('woff'),
@@ -35,7 +37,7 @@ input:focus{ outline:none;}
     font-family: 'pingfang';
     src: url('../fonts/pingfang/PingFang-Bold.woff') format('woff'),
          url('../fonts/pingfang/PingFang-Bold.ttf') format('truetype');
-    font-weight: 800;
+    font-weight: 700;
     font-style: normal;
 }
 @font-face {
