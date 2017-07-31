@@ -317,6 +317,8 @@ input:focus{ outline:none;}
 }
 .headerBackToTop{
     position: fixed;
+    text-align: center;
+    color: white;
     width: 60px;
     height: 60px;
     bottom: 5%;
@@ -324,6 +326,7 @@ input:focus{ outline:none;}
     z-index: 50;
     background: #327fe8;
     padding: 0.5%;
+    padding-top: 0.2%;
     opacity: 0.8;
     border: 1px solid white;
     cursor: pointer;
@@ -333,16 +336,6 @@ input:focus{ outline:none;}
 .headerBackToTop:hover{
     background: white;
     border: 1px solid #327fe8;
-}
-.headerBackToTopImg{
-    font-size: 26px;
-    margin-bottom: 0;
-    text-align: center;
-    font-weight: lighter;
-    color: white;
-    opacity: 0.8;
-}
-.headerBackToTop:hover .headerBackToTopImg{
     color: #327fe8;
 }
 .menu1,.menu2,.menu3,.menu4,.menu5 {
@@ -691,14 +684,14 @@ input:focus{ outline:none;}
     .txtColorSpl16{font-size: 0.8vw; color: #989898;}
 	/* fontSize end */
     .headerBackToTop {
-        width: 60px;
-        height: 60px;
-    }
-    .headerBackToTopImg {
-        font-size: 28px;
+        height:50px;
+        width:50px;
     }
     .headerMirrorSearchText {
         font-size: 1.5vw;
+    }
+    .fa-3x {
+        font-size: 2.5em!important;
     }
     .hotText {
         font-size: 1vw;
@@ -740,11 +733,7 @@ input:focus{ outline:none;}
         font-size: 1.4vw;
     }
     .headerBackToTop {
-        width: 50px;
-        height: 50px;
-    }
-    .headerBackToTopImg {
-        font-size: 26px;
+        display:none!important;
     }
     .menuText{
         font-size: 1.4vw;
@@ -864,18 +853,7 @@ input:focus{ outline:none;}
 	.mText24{font-size: 3.13vw;}
 	/* fontSize end */
     .headerBackToTop {
-        width: 50px;
-        height: 50px;
-    }
-    .headerBackToTopImg {
-        font-size: 32px;
-    }
-    .headerBackToTop:hover {
-        background: #327fe8;
-        border: 1px solid white;
-    }
-    .headerBackToTop:hover .headerBackToTopImg {
-        color:white;
+        display:none!important;
     }
     .bgTitle{
         font-size:1.4vw;
