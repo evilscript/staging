@@ -47,6 +47,14 @@ input:focus{ outline:none;}
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'pingfang';
+    src: url('../fonts/pingfang/PingFang-middle.woff') format('woff'),
+         url('../fonts/pingfang/PingFang-middle.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
 
 
 .sans{font-family: 'open sans', Arial, sans-serif;}
