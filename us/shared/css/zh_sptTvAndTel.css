@@ -8,7 +8,9 @@
     .changes:hover{color:white;box-shadow: inset 400px 0 0 #327fe8;}
     .changesadd{color:white;box-shadow: inset 300px 0 0 #327fe8;}
     li{line-height: 1.67}
-    .ulb>li{margin-top: 2.2%;}
+    .ulb>li{margin-top: 2.2%;font-weight: 600}
+    .ulc>li{font-weight: 500}
+    .uld>li{font-weight: 500}
 
     .part2,.part3{width: 82.8%}
     .part1{margin-top:6%;}

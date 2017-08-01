@@ -1,6 +1,5 @@
 /* mainLayout css */
-.mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9.5%; margin-bottom: 7%;}
-.mainPart{margin-top: 3%; padding: 0 5%;}
+
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8;}
 

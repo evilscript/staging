@@ -15,9 +15,9 @@ input:focus{ outline:none;}
 /*初始化设置结束*/
 
 /* mainLayout start */
-.mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%; margin-bottom: 7%;}
-.mainPart{margin-top: 3%; padding: 0 10%;}
-.lineOrange{height:0; border-bottom: .4vw solid #ff7f00;}
+.mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%; }
+.mainPart{margin-top: 3%; }
+.lineOrange{height:0; border-bottom: .4vw solid #ff7f00;width: 79.2%;margin: 0 auto}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8;}
 /* mainLayout end */
 
@@ -67,6 +67,7 @@ input:focus{ outline:none;}
 /* fontSize start */
 .title60,.title32,.title28,.title22,.title20,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#222;}
 .title60{font-size: 60px;}
+.title36{font-size: 36px;}
 .title32{font-size: 32px;}
 .title28{font-size: 28px;}
 .title22{font-size: 22px;}
@@ -87,6 +88,7 @@ input:focus{ outline:none;}
 .text28{font-size: 28px;}
 .text18{font-size: 18px;}
 .text18{font-size: 18px;}
+.text20{font-size: 20px;}
 .text16{font-size: 16px;}
 .txtNom34,.txtEng34{font-size: 34px;}
 .txtNom30,.txtEng30{font-size: 30px;}
@@ -554,6 +556,7 @@ input:focus{ outline:none;}
     .title60,.title32,.title20{color:#333;}
     .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 50px;}
+        .title36{font-size: 30px}
     .title32{font-size: 27px;}
     .title28{font-size: 23px;}
     .title22{font-size: 18px;}
@@ -572,6 +575,7 @@ input:focus{ outline:none;}
 	.titColorSpl18{font-size: 15px; color: #d4d4d4;}
     .text32{font-size: 27px;}
     .text28{font-size: 23px;}
+        .text20{font-size: 17px;}
     .text18{font-size: 15px;}
 	.text16{font-size: 14px;}
     .txtNom34,.txtEng34{font-size: 28px;}
@@ -599,6 +603,7 @@ input:focus{ outline:none;}
     .title60,.title32,.title20{color:#333;}
     .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 44px;}
+        .title36{font-size: 26px}
     .title32{font-size: 23px;}
     .title28{font-size: 20px;}
     .title22{font-size: 16px;}
@@ -616,6 +621,7 @@ input:focus{ outline:none;}
     .titColor18{font-size: 13px; color: #fff;}	
 	.titColorSpl18{font-size: 13px; color: #d4d4d4;}
     .text32{font-size: 23px;}
+        .text20{font-size: 15px;}
     .text28{font-size: 20px;}
     .text18{font-size: 13px;}
 	.text16{font-size: 12px;}
@@ -659,6 +665,7 @@ input:focus{ outline:none;}
     .title60,.title32,.title20{color:#333;}
     .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 3.2vw;}
+        .title36{font-size: 1.85vw;}
     .title32{font-size: 1.7vw;}
     .title28{font-size: 1.46vw;}
     .title22{font-size: 1.15vw;}
@@ -677,6 +684,7 @@ input:focus{ outline:none;}
 	.titColorSpl18{font-size: 0.9vw; color: #d4d4d4;}
     .text32{font-size: 1.7vw;}
     .text28{font-size: 1.46vw;}
+        .text20{font-size: 1.1vw;}
     .text18{font-size: 0.9vw;}
 	.text16{font-size: 0.8vw;}
     .txtNom34,.txtEng34{font-size: 1.8vw;}
