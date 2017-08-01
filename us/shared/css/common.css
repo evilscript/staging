@@ -25,7 +25,9 @@ input:focus{ outline:none;}
 /*苹方字体，引用字体粗细为300，500和700*/
 .fwl{font-weight: 300;}
 .fwn{font-weight: 500;}
+.fwd{font-weight: 600;}
 .fwb{font-weight: 700;}
+
 @font-face {
     font-family: 'pingfang';
     src: url('../fonts/pingfang/PingFang-Regular.woff') format('woff'),
