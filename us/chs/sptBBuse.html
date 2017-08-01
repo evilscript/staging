@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/common.css">
+    <!--这里继续添加子页面的Css引用文件-->   
+    
+    
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+    <!--这里继续添加子页面的Js引用文件-->
+    <style>
+	body{margin: 0;padding:0;background-color: #ffffff}
+	.lineOrange{margin-bottom: 1.2%;}
+	.mainBox{margin: 0 auto;width: 79.2%;}
+    .titMgn{margin-bottom: 1.3%;}		
+    .noGradient{ margin-bottom: -7%;}
+	
+	.sptTvMenu{margin: 0 auto; width: 54%; padding-left:1.2% }
+	.tvMenuBtn{width: 31%; margin: 0 .5%; display: inline-block;text-align: center;border: 1px solid #327fe8;line-height: 230%;vertical-align:top;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
+	.tvMenuBtn:hover,.selected{color:white;box-shadow: inset 400px 0 0 #327fe8;}
+    .part1{margin-top:6%;}
+	.partAll{width: 82.8%;}
+	ul{padding: 0;}
+	ul li{list-style-type:decimal; margin-left: 1.6%;line-height: 1.67}
+	ul li:last-child p:last-child{margin-bottom: 0;}
+	ul li p{line-height: 1.2; }
+	ul li p:first-child{margin-top: 1%}
+	ul li p:last-child{margin-bottom: 2%;}
+	ul li div.pMgn{margin-bottom: 1.2%;}
+	.gradient{
+    background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: -webkit-gradient(linear, top, bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#f5f5f5 100%);
+    padding:3.6% 0; 
+	}
+
+    .part2,.part3{width: 82.8%}
+    .part1{margin-top:6%;}
+    ul{padding: 0;}
+    .ulc{padding-left: 2%}
+    .ppic{text-align: center;margin-top: 4.6%}
+    .starimg{width: 72.3%;margin: 0 auto;margin-bottom: 4.6%;margin-top: 1.3%}
+    .starimg img{width: 100%}
+    .da,.db{display: inline-block;vertical-align: top}
+    .da{width: 2%}
+    .db{width: 98%}
+
+    
+    .line{width: 100%;height: 1px;background-color: #e6e6e6}
+
+    @media (max-width:767px){
+	.mainLayout{padding-bottom: 5%;}
+    .mainBox{width: 90%}
+	.gradient{padding: 6% 0;}
+	.sptTvMenu{width: 100%;padding-left:0;}
+	.tvMenuBtn{margin: 0; width: 32%}
+    .partAll{width: 100%}
+	ul li{margin-left: 3.2%;line-height: 1.61}
+	
+		
+    .starimg{width: 100%; margin-bottom: 10%;margin-top: 3%}    
+    .da{width: 3%}
+    .db{width: 96%;}
+    .margBtm{margin-bottom:2.8% }
+    .ppic{text-align: center;margin-top: 10%}
+    
+    }
+	</style>
+</head>
+
+
+<body ng-app="">
+    <!--头部文件引入 start--> 
+    <div class="container1920">
+        <div ng-include="'header.html'"></div>
+    </div>
+    <!--头部文件引入 end--> 
+    
+    <!--主体内容 start--> 
+    <div class="mainLayout">
+       <section>
+      	    <div class="hideM">
+      	    	<img src="../shared/images/support/chs_sptTvBanner.jpg" alt="" style="width:100%;">
+      	    </div>	   
+       </section>
+       <section class="mainPart">
+		<div class="mainBox">
+		<div class="lineOrange"></div>
+		<div class="sptTvMenu">
+			<p class="tvMenuBtn title22 mTitle22 fwl selected">产品使用</p>
+			<p class="tvMenuBtn title22 mTitle22 fwl">故障查询</p>
+			<p class="tvMenuBtn title22 mTitle22 fwl">费率查询</p>
+		</div>
+		</div>
+		<div class="noGradient">
+		<div class="mainBox">
+		<div class="part1">
+		    <p class="titMgn title36 mTitle36 fwn">电话盒子安装</p>
+		    <p class="title30 mTitle30 fwn">安装示意图</p>
+		    <p class="ppic title22 mTitle22 fwn">iTalkBB蜻蜓电视盒子 - 黑色幻彩</p>
+		    <p class="starimg"><img src="../shared/images/support/chs_sptBBsketch.png" alt=""></p>
+		</div>
+	    </div>
+
+		<div class="bg gradient">
+		<div class="mainBox">
+		<div class="partAll">
+	       <p class="title30 mTitle30 fwn">使用路由器 (Router) 时，iTalkBB家庭电话的安装步骤：</p>
+		   <ul>
+		   	<li class="text18 mText18 fwn">
+		   		请将网线的一头插在iTalkBB家庭电话盒的“Internet"插口，另一头接在您家的路由器的Ethernet（LAN）插口；		   		 
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		请将电话线的一头插在iTalkBB家庭电话盒的“Phone 1"插口，另一头接在您的电话机上；
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		请给iTalkBB家庭电话盒接上电源；
+		   	</li>
+		   </ul>			
+		</div>
+		</div>
+		</div>
+		
+		<div class="bg gradient">
+		<div class="mainBox">
+		<div class="partAll">
+	       <p class="title30 mTitle30 fwn">没有路由器 (Router) 只有Modem时，iTalkBB家庭电话的安装步骤：</p>
+		   <ul>
+		   	<li class="text18 mText18 fwn">
+		   		断开原有Modem与PC的连接，将网线的一头插在iTalkBB家庭电话盒子的“Internet"插口，另一头接在Modem的"LAN"插口；		   		 
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		请将网线的一头接到iTalkBB家庭电话盒的“LAN"插口，另一头接到电脑的“Ethernet"插口；
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		请将电话线的一头插在iTalkBB家庭电话盒的“Phone 1"插口，另一头接在您的电话机上；
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		请给iTalkBB家庭电话盒接上电源；
+		   	</li>
+		   </ul>			
+		</div>
+		</div>
+		</div>
+		
+		<div class="bg gradient">
+		<div class="mainBox">
+		<div class="partAll">
+           <p class="titMgn title36 mTitle36 fwn">拨打方式</p>
+	       <p class="title30 mTitle30 fwn">家庭电话拨打方式： </p>
+		   <ul>
+		   	<li class="text18 mText18 fwn">
+		   		拨打美国和加拿大地区的电话：请拨1 + 地区号码 + 电话号码，例如：1-202-888-8888；		   		 
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		拨打国际电话：请拨011 + 国家代码 + 电话号码，例如：011-86-10-88888888；
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		使用免费网内通话服务与其他iTalkBB家庭电话用户通话：请拨对方的899号码；
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		使用美国、加拿大传真：请拨# + 1 + 传真号码，例如：#+1+888-888-8888；
+		   		<div class="pMgn"></div>
+		   	</li>
+		   </ul>			
+		</div>
+		<div class="partAll">
+	       <p class="title30 mTitle30 fwn">iTalkBB APP国际长途拨打方式：</p>
+		   <ul>
+		   	<li class="text18 mText18 fwn">
+		   		扫描下方二维码下载APP，或者到Apple Store或Google Play搜寻“iTalkBB”, 下载APP并进行安装；	   		 
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		 安装后, 先浏览“欢迎页面”, 并点击确认服务条款；
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		第一次使用APP时，需要绑定手机号并进行验证码（PIN）验证，验证码为四个数字；
+		   		<p class="db fwn"><span class="da">&gt;</span>使用有线网络：请在打开盒子开关前，连接好网线。开机后即可直接观看；</p>
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		手机号验证成功后可以开始使用APP，选择“Wi-Fi拨打”或“手机分钟数拨打”两种拨打方式：
+		   		<p class="db fwn"><span>&gt;</span>“Wi-Fi拨打”：免费，不会额外费用；</p>
+		   		<p class="db fwn"><span>&gt;</span>“Wi-Fi拨打”：免费，不会额外费用；</p>
+		   	</li>
+		   	<li class="text18 mText18 fwn">
+		   		 遵循以下方式，可以直接输入被拨打号码；
+		   		 <div class="pMgn"></div>
+		   	</li>
+		   </ul>			
+		</div>
+		</div>
+		</div>		
+	</div>
+	</section>
+    </div>
+    <!--主体内容 end-->
+    
+    <div class="lineBlue"></div>
+    
+    <!--底部文件引入 start--> 
+    <div class="container1920">
+        <div ng-include="'footer.html'"></div>
+    </div>
+    <!--底部文件引入 end--> 
+</body>
+</html>

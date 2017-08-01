@@ -26,7 +26,6 @@ input:focus{ outline:none;}
 /*苹方字体，引用字体粗细为300，500和700*/
 .fwl{font-weight: 300;}
 .fwn{font-weight: 500;}
-.fwd{font-weight: 600;}
 .fwb{font-weight: 700;}
 
 @font-face {
@@ -50,17 +49,6 @@ input:focus{ outline:none;}
     font-weight: 300;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'pingfang';
-    src: url('../fonts/pingfang/PingFang-middle.woff') format('woff'),
-         url('../fonts/pingfang/PingFang-middle.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-
-
 .sans{font-family: 'open sans', Arial, sans-serif;}
 .pin{font-family: 'pingfang', 微软雅黑, sans-serif;}
 /*字体部分结束*/
@@ -862,11 +850,14 @@ input:focus{ outline:none;}
 	.mTitle32{font-size: 4.17vw;}
 	.mTitle30{font-size: 3.91vw;}
 	.mTitle28{font-size: 3.65vw;}
+	.mTitle24{font-size: 3.13vw;}
+	.mTitle22{font-size: 2.87vw;}
 	
-	.mtext32{font-size: 4.17vw;}
-	.mtext30{font-size: 3.91vw;}
-	.mtext28{font-size: 3.65vw;}
+	.mText32{font-size: 4.17vw;}
+	.mText30{font-size: 3.91vw;}
+	.mText28{font-size: 3.65vw;}
 	.mText24{font-size: 3.13vw;}
+	.mText18{font-size: 2.35vw;}
 	/* fontSize end */
     .headerBackToTop {
         display:none!important;
