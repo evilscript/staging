@@ -15,9 +15,10 @@ input:focus{ outline:none;}
 /*初始化设置结束*/
 
 /* mainLayout start */
-.mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%; }
-.mainPart{margin-top: 3%; }
-.lineOrange{height:0; border-bottom: .4vw solid #ff7f00;width: 79.2%;margin: 0 auto}
+.mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%; margin-bottom: 7%;}
+.mainPart{margin-top: 3%;}
+.mainCon{margin: 0 auto; width: 79.2%;}
+.lineOrange{height:0; border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8;}
 /* mainLayout end */
 
@@ -842,9 +843,10 @@ input:focus{ outline:none;}
 }
 
 @media (max-width:767px) {
-	/* mainLayout start */
+	/* mainLayout start */	
 	.mainLayout{max-width:767px; padding-top: 15%;margin-bottom: 0;}
-	.mainPart{margin-top: 5%; padding: 0;}
+	.mainPart{margin-top: 5%;}
+	.mainCon{margin: 0 auto; width:100%;}
 	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
 	.lineBlue{height:0; border-bottom: .9vw solid #327fe8;}
 	/* mainLayout end*/

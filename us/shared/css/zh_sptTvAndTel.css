@@ -2,6 +2,7 @@
     .title36{margin-bottom: 1.3%;}
 /*  .ppic{font-size: 24px;}*/
     .boss{margin: 0 auto;width: 79.2%;}
+    .write{ margin-bottom: -7%;}
     .change{width: 53.1%;margin: 0 auto;margin-top:1.2%;}
     .changes{width: 49%;display: inline-block;text-align: center;border: 1px solid #327fe8;line-height: 230%;vertical-align:top;    cursor: pointer;text-shadow: none;box-shadow: inset 0 0 0 0 #327fe8;-webkit-transition: all ease 0.9s;-moz-transition: all ease 0.9s;transition: all ease 0.9s;}
     .changesX{margin-right:0.5%;margin-left:0.5%;  }
