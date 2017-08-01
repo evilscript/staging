@@ -116,24 +116,35 @@
     }
 }
 
-@media (max-width:768px) {
+@media (min-width:768px) and (max-width:992px) {
+    .footerTitle {
+        font-size: 1.6vw;
+    }
+    .footerText {
+        font-size: 1.2vw;
+    }
+    .header1Icon:nth-child(1) {
+        width: 7.1%;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width:767px) {
     .footerTitle {
         font-size: 4vw;
     }
     .footerText {
         font-size: 3.4vw;
     }
-
-
-
-
-
-
-
-
-
-
-
 }
 
 

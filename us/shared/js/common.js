@@ -2,13 +2,14 @@ $(document).ready(function(){
     /*Header部分形状变化功能*/
     $(function(){
         $(window).scroll(function(){
-            if($(this).scrollTop() > 500) {
+            if($(this).scrollTop() > 300) {
                 $('.header1').slideUp(300);
                 $('img.bigLogo').attr('src','../shared/images/header/smallLogo.jpg');
                 $('.menuLeft, .menuRight, .teleText').addClass('revisedHeader');
                 $('.toggle').addClass('revisedHeader2');
                 $('.telephone').addClass('revisedHeader3');
                 $('.toggleM, .headerSubM').addClass('revisedHeader');
+                $('.headerBackToTop').css('display','block');
             }
             else {
                 $('.header1').slideDown(300);
@@ -17,6 +18,7 @@ $(document).ready(function(){
                 $('.toggle').removeClass('revisedHeader2');
                 $('.telephone').removeClass('revisedHeader3');
                 $('.toggleM, .headerSubM').removeClass('revisedHeader');
+                $('.headerBackToTop').css('display','none');
             }
         });
     });

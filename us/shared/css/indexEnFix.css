@@ -303,7 +303,7 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .bannerTitle1 {
         font-size: 6.2vw;
         line-height: 1.2;
