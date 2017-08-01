@@ -29,6 +29,7 @@
 .text28{font-size: 28px;}
 .text18{font-size: 18px;}
 .text18{font-size: 18px;}
+.text20{font-size: 20px;}
 .text16{font-size: 16px;}
 .txtNom34,.txtEng34{font-size: 34px;}
 .txtNom30,.txtEng30{font-size: 30px;}
@@ -61,6 +62,7 @@
     .text32{font-size: 27px;}
     .text28{font-size: 23px;}
     .text18{font-size: 15px;}
+    .text20{font-size: 17px;}
 	.text16{font-size: 14px;}
     .txtNom34,.txtEng34{font-size: 28px;}
     .txtNom30,.txtEng30{font-size: 25px;}
@@ -91,6 +93,7 @@
 	.titColorSpl18{font-size: 13px; color: #d4d4d4;}
     .text32{font-size: 23px;}
     .text28{font-size: 20px;}
+    .text20{font-size: 15px;}
     .text18{font-size: 13px;}
 	.text16{font-size: 12px;}
     .txtNom34,.txtEng34{font-size: 25px;}
@@ -120,6 +123,7 @@
     .titColor20{font-size: 1.1vw; color: #fff;}
     .titColor18{font-size: 0.9vw; color: #fff;}	
 	.titColorSpl18{font-size: 0.9vw; color: #d4d4d4;}
+    .text20{font-size: 1.1vw;}
     .text32{font-size: 1.7vw;}
     .text28{font-size: 1.46vw;}
     .text18{font-size: 0.9vw;}
@@ -145,6 +149,7 @@
 	.mTitle32{font-size: 4.17vw;}
 	.mTitle30{font-size: 3.91vw;}
 	.mTitle28{font-size: 3.65vw;}
+    .mTitle20{font-size: 2.61vw;}
 	
 	.mtext32{font-size: 4.17vw;}
 	.mtext30{font-size: 3.91vw;}
