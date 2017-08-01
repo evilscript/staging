@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../shared/css/font-awesome.min.css">
+
 <div class="headerTotal">
     <!--==========第一部分：整体点击灰色图层==========-->
     <div class="mask" style="display:none;"></div>
@@ -24,7 +26,7 @@
         </div>
         <div class="clear clearfix"></div>
         <div class="orangeBandHeader showM"></div>
-        <div class="blueBand"></div>
+        <!--<div class="blueBand"></div>-->
 
         <div class="clear clearfix"></div>
     </div>
@@ -386,28 +388,22 @@
 </div>
 <div class="clear clearfix"></div>
 
-<!--返回头部按钮-->
+<!--返回顶部-->
 <div class="headerBackToTop" style="display:none;">
-    <p class="headerBackToTopImg">&#x21EA;</p>
+    <i class="fa fa-angle-up fa-3x" aria-hidden="true"></i>
 </div>
-<!--结束-->
-
-<!--搜索bar展开之后的底部灰色overlay-->
-<div class="maskNeeded" style="display:none;"></div>
 <!--结束-->
 
 <script>
     /*响应式image map插件初始化*/
     $('map').imageMapResize();
-    /*==========桌面Header部分==========*/
+    /*结束*/
+
+    /*桌面Header*/
     /*桌面sitemap的出现和隐藏*/
     $('.toggle, .closeSitemap').click(function(){
         $('.sitemap, .mask').fadeToggle(500);
-        $('.maskNeeded').fadeOut(500);
-        $('.menu1, .menu2, .menu3, .menu4, .menu5').slideUp(500);
-        $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
         $('body').toggleClass('noscroll');
-        $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
     /*桌面二级菜单的出现和隐藏，愣写的，没什么技术含量*/
@@ -415,9 +411,8 @@
         $('.menu1').slideToggle(500);
         $('.menu2, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerBundle p').toggleClass('headerActive');
-        $('.headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
-        $('.searchFunction').slideUp(500);
+        $('.headerPhone p, .headerTV p, .headerSupport p, .headerMobile p').removeClass('headerActive');
+        $('.sitemap, .mask').fadeOut(500);
         $('.blueBand').slideDown(500);
     });
     $('.headerMobile').click(function(){
@@ -425,46 +420,41 @@
         $('.menu1, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerMobile p').toggleClass('headerActive');
         $('.headerBundle p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
-        $('.searchFunction').slideUp(500);
+        $('.sitemap, .mask').fadeOut(500);
         $('.blueBand').slideDown(500);
     });
     $('.headerPhone').click(function(){
         $('.menu3').slideToggle(500);
         $('.menu1, .menu2, .menu4, .menu5').slideUp(500);
         $('.headerPhone p').toggleClass('headerActive');
-        $('.headerBundle p, .headerMobile p, .headerTV p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
-        $('.searchFunction').slideUp(500);
+        $('.headerBundle p, .headerTV p, .headerSupport p, .headerMobile p').removeClass('headerActive');
+        $('.sitemap, .mask').fadeOut(500);
         $('.blueBand').slideDown(500);
     });
     $('.headerTV').click(function(){
         $('.menu4').slideToggle(500);
         $('.menu1, .menu2, .menu3, .menu5').slideUp(500);
         $('.headerTV p').toggleClass('headerActive');
-        $('.headerBundle p, .headerMobile p, .headerPhone p, .headerSupport p').removeClass('headerActive');
-        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
-        $('.searchFunction').slideUp(500);
+        $('.headerBundle p, .headerPhone p, .headerSupport p, .headerMobile p').removeClass('headerActive');
+        $('.sitemap, .mask').fadeOut(500);
         $('.blueBand').slideDown(500);
     });
     $('.headerSupport').click(function(){
         $('.menu5').slideToggle(500);
         $('.menu1, .menu2, .menu3, .menu4').slideUp(500);
         $('.headerSupport p').toggleClass('headerActive');
-        $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p').removeClass('headerActive');
-        $('.sitemap, .mask, .maskNeeded').fadeOut(500);
-        $('.searchFunction').slideUp(500);
+        $('.headerBundle p, .headerPhone p, .headerTV p, .headerMobile p').removeClass('headerActive');
+        $('.sitemap, .mask').fadeOut(500);
         $('.blueBand').slideDown(500);
     });
-    /*==========桌面部分结束==========*/
-    /*==========移动端Header==========*/
+    /*结束*/
+
+    /*移动端Header*/
     /*移动端左推Header 1级打开*/
     $('.openMobileNav').click(function(){
         $('.sidenav, .mobileHeaderText').css({'opacity':'1','margin-left':'0'});
         $('body').css({'margin-left':'50%','margin-right':'-50%'}).addClass('noscroll');
         $('.maskMobile').fadeIn(500);
-        $('.maskNeeded').fadeOut(500);
-        $('.searchFunction').slideUp(500);
         $('.blueBand').slideDown(500);
     });
     /*点击灰色overlay区域关闭整个移动端header*/
@@ -486,18 +476,18 @@
         $(this).parent().css('margin-left','-50%');
         $('.mobileHeaderText2').css('margin-left','-50%');
     });
-    /*==========移动端部分结束==========*/
+    /*结束*/
 
-    /*==========搜索菜单功能==========*/
-    /*搜索功能镜像输入框和点击*/
+    /*Google 镜像*/
     $('.headerMirrorSearchText').keyup(function(){
         $('#gsc-i-id1').val($(this).val());
     });
     $('.headerMirrorSearch').click(function(){
         $(".gsc-search-button").trigger("click");
     });
-    /*搜索部分js结束*/
-    /*热搜词汇点击自动加入文本框*/
+    /*结束*/
+
+    /*搜索 热词*/
     $('.hotKeyWord').each(function(){
         $(this).click(function(){
             $('.headerMirrorSearchText').val($(this).text());
@@ -508,31 +498,52 @@
         $('.headerMirrorSearchText').val('');
         $('#gsc-i-id1').val('');
     });
-    /*热搜词汇结束*/
-    /*搜索菜单展开收缩功能*/
+    /*结束*/
+
+    /*搜索 展开收缩*/
     $('.searchFunctionIcon, .mobileHeaderSearchFunction, .searchClose').click(function(){
         $('.searchFunction, .blueBand').slideToggle(500);
         $('.menu1, .menu2, .menu3, .menu4, .menu5').slideUp(500);
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
-        $('.maskNeeded').fadeToggle(500);
     });
-    $('.maskNeeded').click(function(){
-        $('.searchFunction, .blueBand').slideToggle(500);
-        $(this).fadeToggle(500);
-    })
-    /*展开收缩结束*/
-    /*==========搜索结束==========*/
+    /*结束*/
 
-    /*第二屏开始的返回最顶端功能*/
+    /*返回顶端*/
     $('.headerBackToTop').click(function () {
         $('html,body').animate({
             scrollTop: 0
         }, 500);
     });
     /*结束*/
+
+    $(document).mouseup(function(e)
+    {
+        /*搜索栏 点击其他区域 自动收起*/
+        var container1 = $(".searchFunctionIcon, .searchFunction");/*点击什么区域可以打开*/
+        var target1 = $(".searchFunction");/*点击什么区域可以完成下面的动作*/
+        if (!container1.is(e.target) && container1.has(e.target).length === 0)
+        {
+            target1.slideUp();
+        }
+        /*结束*/
+
+        /*菜单栏 点击其他区域 自动收起*/
+        var container2 = $(".menu1, .menu2, .menu3, .menu4, .menu5, .menuText");
+        var target2 = $(".menu1, .menu2, .menu3, .menu4, .menu5");
+        if (!container2.is(e.target) && container2.has(e.target).length === 0)
+        {
+            target2.slideUp();
+            $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
+        }
+        /*结束*/
+
+        /*Sitemap 点击其他区域 自动收起*/
+        var container3 = $(".sitemap");
+        var target3 = $(".sitemap, .mask");
+        if (!container3.is(e.target) && container3.has(e.target).length === 0)
+        {
+            target3.fadeOut();
+        }
+        /*结束*/
+    });
 </script>
-
-
-
-
-

@@ -12,19 +12,20 @@ img{border:none; display:block;}
 .opacity {filter: alpha(opacity=75); -moz-opacity: .75; -khtml-opacity: .75; opacity: .75;}
 input:focus{ outline:none;}
 .scroll{height:auto!important;}
-.wb{font-weight: 800;}
-.trans{opacity:0;}
 /*初始化设置结束*/
 
 /* mainLayout start */
-.mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9.5%; margin-bottom: 7%;}
-.mainPart{margin-top: 3%; padding: 0 5%;}
+.mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%; margin-bottom: 7%;}
+.mainPart{margin-top: 3%; padding: 0 10%;}
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8;}
 /* mainLayout end */
 
 /*字体部分*/
-/*苹方字体，引用字体粗细为300，500和800*/
+/*苹方字体，引用字体粗细为300，500和700*/
+.fwl{font-weight: 300;}
+.fwn{font-weight: 500;}
+.fwb{font-weight: 700;}
 @font-face {
     font-family: 'pingfang';
     src: url('../fonts/pingfang/PingFang-Regular.woff') format('woff'),
@@ -36,7 +37,7 @@ input:focus{ outline:none;}
     font-family: 'pingfang';
     src: url('../fonts/pingfang/PingFang-Bold.woff') format('woff'),
          url('../fonts/pingfang/PingFang-Bold.ttf') format('truetype');
-    font-weight: 800;
+    font-weight: 700;
     font-style: normal;
 }
 @font-face {
@@ -62,8 +63,7 @@ input:focus{ outline:none;}
 /*字体部分结束*/
 
 /* fontSize start */
-.title60,.title20{color:#222;}
-.title32,.title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#333;}
+.title60,.title32,.title28,.title22,.title20,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#222;}
 .title60{font-size: 60px;}
 .title32{font-size: 32px;}
 .title28{font-size: 28px;}
@@ -317,6 +317,8 @@ input:focus{ outline:none;}
 }
 .headerBackToTop{
     position: fixed;
+    text-align: center;
+    color: white;
     width: 60px;
     height: 60px;
     bottom: 5%;
@@ -324,6 +326,7 @@ input:focus{ outline:none;}
     z-index: 50;
     background: #327fe8;
     padding: 0.5%;
+    padding-top: 0.2%;
     opacity: 0.8;
     border: 1px solid white;
     cursor: pointer;
@@ -333,16 +336,6 @@ input:focus{ outline:none;}
 .headerBackToTop:hover{
     background: white;
     border: 1px solid #327fe8;
-}
-.headerBackToTopImg{
-    font-size: 26px;
-    margin-bottom: 0;
-    text-align: center;
-    font-weight: lighter;
-    color: white;
-    opacity: 0.8;
-}
-.headerBackToTop:hover .headerBackToTopImg{
     color: #327fe8;
 }
 .menu1,.menu2,.menu3,.menu4,.menu5 {
@@ -360,7 +353,7 @@ input:focus{ outline:none;}
     display: inline-block;
     padding-right: 2%;
     color: #2a2a2a;
-    font-size:14px;
+    font-size:15px;
     padding-left: 3%;
     width: 10%;
     margin-left: -1%;
@@ -691,14 +684,14 @@ input:focus{ outline:none;}
     .txtColorSpl16{font-size: 0.8vw; color: #989898;}
 	/* fontSize end */
     .headerBackToTop {
-        width: 60px;
-        height: 60px;
-    }
-    .headerBackToTopImg {
-        font-size: 28px;
+        height:50px;
+        width:50px;
     }
     .headerMirrorSearchText {
         font-size: 1.5vw;
+    }
+    .fa-3x {
+        font-size: 2.5em!important;
     }
     .hotText {
         font-size: 1vw;
@@ -740,11 +733,7 @@ input:focus{ outline:none;}
         font-size: 1.4vw;
     }
     .headerBackToTop {
-        width: 50px;
-        height: 50px;
-    }
-    .headerBackToTopImg {
-        font-size: 26px;
+        display:none!important;
     }
     .menuText{
         font-size: 1.4vw;
@@ -864,18 +853,7 @@ input:focus{ outline:none;}
 	.mText24{font-size: 3.13vw;}
 	/* fontSize end */
     .headerBackToTop {
-        width: 50px;
-        height: 50px;
-    }
-    .headerBackToTopImg {
-        font-size: 32px;
-    }
-    .headerBackToTop:hover {
-        background: #327fe8;
-        border: 1px solid white;
-    }
-    .headerBackToTop:hover .headerBackToTopImg {
-        color:white;
+        display:none!important;
     }
     .bgTitle{
         font-size:1.4vw;
