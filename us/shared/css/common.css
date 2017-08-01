@@ -15,11 +15,11 @@ input:focus{ outline:none;}
 /*初始化设置结束*/
 
 /* mainLayout start */
-.mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%; margin-bottom: 7%;}
+.mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%;}
 .mainPart{margin-top: 3%;}
 .mainCon{margin: 0 auto; width: 79.2%;}
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00;}
-.lineBlue{height:0; border-bottom: .4vw solid #327fe8;}
+.lineBlue{height:0; border-bottom: .4vw solid #327fe8;margin-top: 7%;}
 /* mainLayout end */
 
 /*字体部分*/
@@ -70,6 +70,7 @@ input:focus{ outline:none;}
 .title60{font-size: 60px;}
 .title36{font-size: 36px;}
 .title32{font-size: 32px;}
+.title30{font-size: 30px;}
 .title28{font-size: 28px;}
 .title22{font-size: 22px;}
 .title20{font-size: 20px;}
@@ -557,8 +558,9 @@ input:focus{ outline:none;}
     .title60,.title32,.title20{color:#333;}
     .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 50px;}
-        .title36{font-size: 30px}
+    .title36{font-size: 30px}
     .title32{font-size: 27px;}
+	.title30{font-size: 25px;}
     .title28{font-size: 23px;}
     .title22{font-size: 18px;}
     .title20{font-size: 17px;}
@@ -604,8 +606,9 @@ input:focus{ outline:none;}
     .title60,.title32,.title20{color:#333;}
     .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 44px;}
-        .title36{font-size: 26px}
+    .title36{font-size: 26px}
     .title32{font-size: 23px;}
+	.title30{font-size: 22px;}
     .title28{font-size: 20px;}
     .title22{font-size: 16px;}
     .title20{font-size: 15px;}
@@ -666,8 +669,9 @@ input:focus{ outline:none;}
     .title60,.title32,.title20{color:#333;}
     .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 3.2vw;}
-        .title36{font-size: 1.85vw;}
+    .title36{font-size: 1.85vw;}
     .title32{font-size: 1.7vw;}
+	.title30{font-size: 1.5vw;}
     .title28{font-size: 1.46vw;}
     .title22{font-size: 1.15vw;}
     .title20{font-size: 1.1vw;}
@@ -848,7 +852,7 @@ input:focus{ outline:none;}
 	.mainPart{margin-top: 5%;}
 	.mainCon{margin: 0 auto; width:100%;}
 	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
-	.lineBlue{height:0; border-bottom: .9vw solid #327fe8;}
+	.lineBlue{height:0; border-bottom: .9vw solid #327fe8; margin-top: 0;}
 	/* mainLayout end*/
 	
 	/* fontSize start */
