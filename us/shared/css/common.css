@@ -730,7 +730,7 @@ input:focus{ outline:none;}
         padding-left:0;
     }
     .footerTitle {
-        font-size: 1.6vw;
+        font-size: 2vw;
     }
     .footerText, .disclaimer {
         font-size: 1.4vw;
@@ -742,7 +742,7 @@ input:focus{ outline:none;}
         font-size: 1.4vw;
     }
     .teleText {
-        font-size: 1vw;
+        font-size: 1.4vw;
     }
     .hugeLogo {
         width: 30%;
@@ -760,18 +760,18 @@ input:focus{ outline:none;}
         font-size: 1.1vw;
     }
     .footerText, .disclaimer {
-        font-size: 1.1vw;
+        font-size: 1.6vw;
     }
     .footer1 {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 0;
+        padding-right: 0;
     }
-    .toggleM{
+    .toggleM {
         display: block!important;
         float: left;
-        width: 3%;
+        width: 4.5%;
         padding-left: 1%;
-        padding-top: 3.8%;
+        padding-top: 5.5%;
     }
     .toggle{
         display:none!important;
@@ -783,8 +783,15 @@ input:focus{ outline:none;}
         display:none;
     }
     .logo {
-        margin-left: 40%;
-        margin-right: 30%;
+        margin-left: 36%;
+        margin-right: 21%;
+        float: left;
+        width: 18%;
+    }
+    .telephone {
+        width: 20%;
+        float: left;
+        padding-top: 6%;
     }
     .header1Icon {
         width: 5%;
@@ -799,7 +806,7 @@ input:focus{ outline:none;}
         font-size: 1.4vw;
     }
     .revisedHeader {
-        padding-top: 1.5%;
+        padding-top: 2%;
     }
     .mobileHeaderText, .mobileHeaderTextBack, .mobileHeaderText2 {
         border-bottom: 1px solid #2a2a2a;
@@ -814,7 +821,7 @@ input:focus{ outline:none;}
         margin-bottom: 0;
     }
     .mobileHeaderBlank {
-        height: 12vw;
+        height: 14.2vw;
     }
     .sidenav .closebtn {
         position: absolute;
@@ -823,8 +830,9 @@ input:focus{ outline:none;}
         font-size: 5vw;
         color: #ff7f00;
     }
-
-
+    .revisedHeader3 {
+        padding-top: 2%;
+    }
 
 
 

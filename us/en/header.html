@@ -517,7 +517,7 @@
     $(document).mouseup(function(e)
     {
         /*搜索栏 点击其他区域 自动收起*/
-        var container1 = $(".searchFunctionIcon, .searchFunction");/*点击什么区域可以打开*/
+        var container1 = $(".searchFunctionIcon, .searchFunction, .mobileHeaderSearchFunction");/*点击什么区域可以打开*/
         var target1 = $(".searchFunction");/*点击什么区域可以完成下面的动作*/
         if (!container1.is(e.target) && container1.has(e.target).length === 0)
         {
@@ -544,4 +544,11 @@
         }
         /*结束*/
     });
+
+    /*平板方向改变*/
+    $(window).on("orientationchange",function(){
+        $('.menu1, .menu2, .menu3, .menu4, .menu5').slideUp(500);
+        $('.sitemap, .mask').fadeOut(500);
+    });
+    /*结束*/
 </script>

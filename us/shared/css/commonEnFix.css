@@ -120,13 +120,15 @@
     .footerTitle {
         font-size: 1.6vw;
     }
-    .footerText {
-        font-size: 1.2vw;
+    .footerText, .disclaimer {
+        font-size: 1.5vw;
     }
     .header1Icon:nth-child(1) {
         width: 7.1%;
     }
-
+    .teleText {
+        font-size: 1.4vw;
+    }
 
 
 
