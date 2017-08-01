@@ -16,7 +16,7 @@ input:focus{ outline:none;}
 
 /* mainLayout start */
 .mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9.5%; margin-bottom: 7%;}
-.mainPart{margin-top: 3%; padding: 0 5%;}
+.mainPart{margin-top: 3%; padding: 0 10%;}
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8;}
 /* mainLayout end */
@@ -52,8 +52,7 @@ input:focus{ outline:none;}
 /*字体部分结束*/
 
 /* fontSize start */
-.title60,.title20{color:#222;}
-.title32,.title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#333;}
+.title60,.title32,.title28,.title22,.title20,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#222;}
 .title60{font-size: 60px;}
 .title32{font-size: 32px;}
 .title28{font-size: 28px;}
