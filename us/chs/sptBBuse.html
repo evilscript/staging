@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/common.css">
     <!--这里继续添加子页面的Css引用文件-->   
-    
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
     
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
     <script src="../shared/js/angular-1.6.4.min.js"></script>
@@ -27,65 +27,76 @@
     <script src="../shared/js/common.js"></script>
     <!--这里继续添加子页面的Js引用文件-->
     <style>
-	body{margin: 0;padding:0;background-color: #ffffff}
+	body{margin: 0;padding:0;background-color: #fff;}
+	a, a:hover, a:focus{color: #ff7f00; text-decoration: underline;}
 	.lineOrange{margin-bottom: 1.2%;}
 	.mainBox{margin: 0 auto;width: 79.2%;}
-    .titMgn{margin-bottom: 1.3%;}		
-    .noGradient{ margin-bottom: -7%;}
-	
-	.sptTvMenu{margin: 0 auto; width: 54%; padding-left:1.2% }
-	.tvMenuBtn{width: 31%; margin: 0 .5%; display: inline-block;text-align: center;border: 1px solid #327fe8;line-height: 230%;vertical-align:top;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
-	.tvMenuBtn:hover,.selected{color:white;box-shadow: inset 400px 0 0 #327fe8;}
-    .part1{margin-top:6%;}
-	.partAll{width: 82.8%;}
-	ul{padding: 0;}
-	ul li{list-style-type:decimal; margin-left: 1.6%;line-height: 1.67}
-	ul li:last-child p:last-child{margin-bottom: 0;}
-	ul li p{line-height: 1.2; }
-	ul li p:first-child{margin-top: 1%}
-	ul li p:last-child{margin-bottom: 2%;}
-	ul li div.pMgn{margin-bottom: 1.2%;}
+	.titFirst{margin-bottom: 1.5%;}
+    .titMgnTop,.imgTitle{margin-top: 3%;}	
+	.imgCnt{margin: 0 auto; width: 66%;/*border-bottom: 1px solid #e6e6e6*/}
+	.imgCnt img{width: 100%; margin: 7% 0;}	
+	.imgLeft img{width: 100%; margin: 5% 0;}
+	.imgTitle{text-align: center; margin-bottom: -5%;}	
+	.bgMgn{padding:3.5% 0;}
 	.gradient{
     background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
     background: -webkit-gradient(linear, top, bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
     background: -webkit-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
     background: -o-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
     background: -ms-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
-    background: linear-gradient(to bottom, #ffffff 0%,#f5f5f5 100%);
-    padding:3.6% 0; 
-	}
-
-    .part2,.part3{width: 82.8%}
-    .part1{margin-top:6%;}
-    ul{padding: 0;}
-    .ulc{padding-left: 2%}
-    .ppic{text-align: center;margin-top: 4.6%}
-    .starimg{width: 72.3%;margin: 0 auto;margin-bottom: 4.6%;margin-top: 1.3%}
-    .starimg img{width: 100%}
-    .da,.db{display: inline-block;vertical-align: top}
-    .da{width: 2%}
-    .db{width: 98%}
-
-    
-    .line{width: 100%;height: 1px;background-color: #e6e6e6}
+    background: linear-gradient(to bottom, #ffffff 0%,#f5f5f5 100%);    
+	}	
+	.sptBBMenu{margin: 0 auto;width: 54%;}
+	.sptBBMenu p:first-child{margin-left: 0;}
+	.bbMenuBtn{float: left; width: 32.6%; margin-left: 1.1%; text-align: center;border: 1px solid #327fe8;line-height: 230%;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
+	.bbMenuBtn:hover,.selected{color:white;box-shadow: inset 300px 0 0 #327fe8;}
+	
+	.part1{margin-top:6%;}
+	.partAll{width: 82.8%;}
+	.hService>li{list-style-type: none;}
+	ul{padding: 0;}
+	ul li{list-style-type:decimal; margin-left: 1.6%;line-height: 2}
+	ul li p:first-child{margin-top: 1%}
+	ul li p:last-child{margin-bottom: 1%;}
+	ul li div.pMgn{margin-bottom: 1.2%;}	
+	.Sharp,.textCon{float: left;}
+	.Sharp{vertical-align: top;margin-right:.8%; }
+	.textCon{width: 96%;}
+	.onlyText{margin-left: 1.8%;}
+	
+	.appQRcode{margin: 1.5% 0;}
+	.QRcode p{float: left; width: 20%;margin-right: 4%; cursor: pointer;}
+	.QRcode p:first-child{margin-top: 0;}
+	.QRcode p img{width: 100%; display: block;}
+	.QRcode p img:first-child{margin-bottom: 6%;}
 
     @media (max-width:767px){
 	.mainLayout{padding-bottom: 5%;}
-    .mainBox{width: 90%}
+	.lineGray{border-bottom: 1px solid #e6e6e6}
+	.sptBBMenu{width: 100%; margin-top: 3%;}
+    .mainBox{padding: 0 5.5%; width: 100%}
 	.gradient{padding: 6% 0;}
-	.sptTvMenu{width: 100%;padding-left:0;}
-	.tvMenuBtn{margin: 0; width: 32%}
     .partAll{width: 100%}
-	ul li{margin-left: 3.2%;line-height: 1.61}
-	
-		
-    .starimg{width: 100%; margin-bottom: 10%;margin-top: 3%}    
-    .da{width: 3%}
-    .db{width: 96%;}
-    .margBtm{margin-bottom:2.8% }
-    .ppic{text-align: center;margin-top: 10%}
-    
-    }
+	ul li{margin-left: 4.5%;line-height: 1.61}
+	.titMgnTop{margin-top: 7%;}
+	.imgTitle{margin-top: 3%;}
+	.imgCnt{width: 100%;}
+	.imgLeft{width: 100%;}
+	.imgLeft img{width: 100%;}
+	.QRcode p{width: 100%; padding: 0 20%; margin: 6% 0;}
+	.QRcode p:first-child{margin-top: 8%;}
+	.QRcode p:last-child{margin-bottom: 8%;}
+	.QRcode p img:first-child{margin-bottom: 12%;}
+	.QRcode p span{text-align: center; margin-top: 2%;}
+	.sptLeft{background: none;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: -webkit-gradient(linear, top, bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#f5f5f5 100%);}
+	.imgBox img{margin: 8.5% 0;}
+    }	
 	</style>
 </head>
 
@@ -102,39 +113,48 @@
        <section>
       	    <div class="hideM">
       	    	<img src="../shared/images/support/chs_sptTvBanner.jpg" alt="" style="width:100%;">
-      	    </div>	   
+      	    </div>
+      	    <div class="showM">
+      	    	<img src="../shared/images/support/chs_mobileSupportBanner.jpg" alt="" style="width:100%;">
+      	    </div> 	   
        </section>
+       
        <section class="mainPart">
-		<div class="mainBox">
-		<div class="lineOrange"></div>
-		<div class="sptTvMenu">
-			<p class="tvMenuBtn title22 mTitle22 fwl selected">产品使用</p>
-			<p class="tvMenuBtn title22 mTitle22 fwl">故障查询</p>
-			<p class="tvMenuBtn title22 mTitle22 fwl">费率查询</p>
-		</div>
-		</div>
-		<div class="noGradient">
+      	  <div class="mainCon">
+       	    <!--橙色装饰线，样式已放入common.css，直接引用即可-->
+        	<div class="lineOrange"></div>       	        	 
+        	<div class="sptBBMenu clearfix">
+			<p class="bbMenuBtn title22 mTitle24 fwl selected">产品使用</p>
+			<p class="bbMenuBtn title22 mTitle24 fwl">故障查询</p>
+			<p class="bbMenuBtn title22 mTitle24 fwl">费率查询</p>		
+			</div>
+		  </div>           	      	
+       </section>
+       
+       <section>
 		<div class="mainBox">
 		<div class="part1">
-		    <p class="titMgn title36 mTitle36 fwn">电话盒子安装</p>
-		    <p class="title30 mTitle30 fwn">安装示意图</p>
-		    <p class="ppic title22 mTitle22 fwn">iTalkBB蜻蜓电视盒子 - 黑色幻彩</p>
-		    <p class="starimg"><img src="../shared/images/support/chs_sptBBsketch.png" alt=""></p>
+		    <p class="titFirst title36 mTitle36 fwn">电话盒子安装</p>
+		    <p class="title30 mTitle30 fwn">安装示意图</p>		    
+		    <div class="imgCnt lineGray">
+		    <p class="imgTitle title22 mTitle24 fwn">iTalkBB蜻蜓家庭电话盒</p>
+		    <img src="../shared/images/support/chs_sptBBsketch.png" alt="">
+		    </div>
 		</div>
-	    </div>
+	    </div> 
 
-		<div class="bg gradient">
+		<div class="bgMgn gradient">
 		<div class="mainBox">
 		<div class="partAll">
 	       <p class="title30 mTitle30 fwn">使用路由器 (Router) 时，iTalkBB家庭电话的安装步骤：</p>
-		   <ul>
-		   	<li class="text18 mText18 fwn">
-		   		请将网线的一头插在iTalkBB家庭电话盒的“Internet"插口，另一头接在您家的路由器的Ethernet（LAN）插口；		   		 
+		   <ul class="list">
+		   	<li class="text18 mText22 fwn">
+		   		请将网线的一头插在iTalkBB家庭电话盒的“Internet"插口，另一头接在您家的路由器的Ethernet（LAN）插口；
 		   	</li>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		请将电话线的一头插在iTalkBB家庭电话盒的“Phone 1"插口，另一头接在您的电话机上；
 		   	</li>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		请给iTalkBB家庭电话盒接上电源；
 		   	</li>
 		   </ul>			
@@ -142,21 +162,21 @@
 		</div>
 		</div>
 		
-		<div class="bg gradient">
+		<div class="bgMgn gradient">
 		<div class="mainBox">
 		<div class="partAll">
 	       <p class="title30 mTitle30 fwn">没有路由器 (Router) 只有Modem时，iTalkBB家庭电话的安装步骤：</p>
 		   <ul>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		断开原有Modem与PC的连接，将网线的一头插在iTalkBB家庭电话盒子的“Internet"插口，另一头接在Modem的"LAN"插口；		   		 
 		   	</li>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		请将网线的一头接到iTalkBB家庭电话盒的“LAN"插口，另一头接到电脑的“Ethernet"插口；
 		   	</li>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		请将电话线的一头插在iTalkBB家庭电话盒的“Phone 1"插口，另一头接在您的电话机上；
 		   	</li>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		请给iTalkBB家庭电话盒接上电源；
 		   	</li>
 		   </ul>			
@@ -164,55 +184,156 @@
 		</div>
 		</div>
 		
-		<div class="bg gradient">
+		<div class="bgMgn gradient">
 		<div class="mainBox">
 		<div class="partAll">
-           <p class="titMgn title36 mTitle36 fwn">拨打方式</p>
+           <p class="titFirst title36 mTitle36 fwn">拨打方式</p>
 	       <p class="title30 mTitle30 fwn">家庭电话拨打方式： </p>
 		   <ul>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		拨打美国和加拿大地区的电话：请拨1 + 地区号码 + 电话号码，例如：1-202-888-8888；		   		 
 		   	</li>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		拨打国际电话：请拨011 + 国家代码 + 电话号码，例如：011-86-10-88888888；
 		   	</li>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		使用免费网内通话服务与其他iTalkBB家庭电话用户通话：请拨对方的899号码；
 		   	</li>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		使用美国、加拿大传真：请拨# + 1 + 传真号码，例如：#+1+888-888-8888；
 		   		<div class="pMgn"></div>
 		   	</li>
 		   </ul>			
 		</div>
-		<div class="partAll">
+		<div class="partAll titMgnTop">
 	       <p class="title30 mTitle30 fwn">iTalkBB APP国际长途拨打方式：</p>
 		   <ul>
-		   	<li class="text18 mText18 fwn">
-		   		扫描下方二维码下载APP，或者到Apple Store或Google Play搜寻“iTalkBB”, 下载APP并进行安装；	   		 
+		   	<li class="text18 mText22 fwn">
+		   		扫描下方二维码下载APP，或者到Apple Store或Google Play搜寻“iTalkBB”, 下载APP并进行安装；
+		   		<div class="appQRcode clearfix">
+		   		  <div class="QRcode">
+		   		  	 <p>
+		   		  	 <img src="../shared/images/support/appQRcode1.png" alt="">
+		   		  	 <img src="../shared/images/support/chs_appBtn1.png" alt="">
+		   		  	 <span class="showM mTitle24">适用于 iPhone 下载</span>
+		   		  	 </p>
+		   		  	 <p>
+		   		  	 <img src="../shared/images/support/appQRcode2.png" alt="">
+		   		  	 <img src="../shared/images/support/chs_appBtn2.png" alt="">
+		   		  	 <span class="showM mTitle24">适用于 Android 手机下载</span>
+		   		  	 </p>
+		   		  	 <p>
+		   		  	 <img src="../shared/images/support/appQRcode3.png" alt="">
+		   		  	 <img src="../shared/images/support/chs_appBtn3.png" alt="">
+		   		  	 <span class="showM mTitle24">适用于 Android 手机下载</span>
+		   		  	 </p>
+		   		  </div>
+		   		  <div class="clear clearfix"></div>		   		  
+		   		</div>	   		 
 		   	</li>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		 安装后, 先浏览“欢迎页面”, 并点击确认服务条款；
+		   		 <div class="imgLeft hideM" style="width: 38%;">
+		   		   <img src="../shared/images/support/chs_useBBExplain1.png" alt="">
+				 </div>
+				 <div class="showM imgCnt">
+		   		   <img src="../shared/images/support/chs_mUseBBExplain1.png" alt="">
+				 </div>
 		   	</li>
-		   	<li class="text18 mText18 fwn">
-		   		第一次使用APP时，需要绑定手机号并进行验证码（PIN）验证，验证码为四个数字；
-		   		<p class="db fwn"><span class="da">&gt;</span>使用有线网络：请在打开盒子开关前，连接好网线。开机后即可直接观看；</p>
+		   	<li class="text18 mText22 fwn">
+		   		第一次使用APP时，需要绑定手机号并进行验证码（PIN）验证，验证码为四个数字；	
+		   		<div class="imgLeft hideM" style="width: 43.5%;">
+		   		   <img src="../shared/images/support/chs_useBBExplain2.png" alt="">
+				</div>
+	   	        <div class="showM imgCnt">
+		   		   <img src="../shared/images/support/chs_mUseBBExplain2.png" alt="">
+				 </div>	   		
 		   	</li>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		手机号验证成功后可以开始使用APP，选择“Wi-Fi拨打”或“手机分钟数拨打”两种拨打方式：
-		   		<p class="db fwn"><span>&gt;</span>“Wi-Fi拨打”：免费，不会额外费用；</p>
-		   		<p class="db fwn"><span>&gt;</span>“Wi-Fi拨打”：免费，不会额外费用；</p>
+		   		<p class="fwn clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon" style="margin-left: -1%;">“Wi-Fi拨打”：免费，不会额外费用；</span>
+		   		</p>
+		   		<p class="fwn clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon" style="margin-left: -1%;">“Wi-Fi拨打”：免费，不会额外费用；</span>
+		   		</p>
+		   		<div class="imgLeft hideM" style="width: 43.5%;">
+		   		   <img src="../shared/images/support/chs_useBBExplain3.png" alt="">
+				</div>
+	   	        <div class="showM imgCnt">
+		   		   <img src="../shared/images/support/chs_mUseBBExplain3.png" alt="">
+				 </div>
 		   	</li>
-		   	<li class="text18 mText18 fwn">
+		   	<li class="text18 mText22 fwn">
 		   		 遵循以下方式，可以直接输入被拨打号码；
-		   		 <div class="pMgn"></div>
+		   		 <div class="imgLeft hideM" style="width: 54.5%;">
+		   		   <img src="../shared/images/support/chs_useBBExplain4.png" alt="">
+				</div>
+   	            <div class="showM imgCnt">
+		   		   <img src="../shared/images/support/chs_mUseBBExplain4.png" alt="">
+				 </div>
+	   	        <div class="pMgn"></div>
 		   	</li>
 		   </ul>			
 		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle30 fwn">中国号码 950 拨打方式： </p>
+		   <div class="onlyText text18 mText22">
+		   	  <p class="fwn clearfix"><span class="textCon">任何中国的亲友联系您，直拨这个 950 开头的 11 位号码，就能接通您在美国的电话，无需支付任何国际长途费用，就像拨打一个普通市话一样。亲友拨打您的 950 号码时，只需直接输入 950 号码，无需在号码前加拨 1 或其他任何国际区号。<a href="">了解详情；</a></span>
+		   	  </p>
+		   </div>			
 		</div>
-		</div>		
-	</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle30 fwn">台湾通用号码拨打方式：</p>
+		   <div class="onlyText text18 mText22">
+		   	  <p class="fwn clearfix"><span class="textCon">您的 iTalkBB 蜻蜓电话附带一个台湾通用号码的服务。在台湾的亲友无需支付任何国际长途费用拨打方式：先拨打 02-40660660 或 40502999 的任意 1 个，接通后输入您的 899 号码。<a href="">了解详情；</a></span>
+		   	  </p>
+		   </div>			
+		</div>
+		
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainBox">
+		<div class="partAll">
+	       <p class="title30 mTitle30 fwn">此处仅为效果展示：没有二级标题的CSS样式。<span style="color: #ff7f00">其他页面内容后期补上</span></p>
+		   <div class="onlyText text18 mText22">
+		   	  <p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">使用有线网络：请在打开盒子开关前，连接好网线。开机后即可直接观看用有线网络：请在打开盒子开关前，连接好网线。开机后即可直接观看</span>
+		   	  </p>
+		   	  <p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">使用有线网络：请在打开盒子开关前，连接好网线。开机后即可直接观看用有线网络：请在打开盒子开关前，连接好网线。开机后即可直接观看；使用有线网络：请在打开盒子开关前，连接好网线。开机后即可直接有线网络打开盒子开关好网线。开机后即可直接观有线网络：请在打开盒子开关前</span>
+		   	  </p>
+		   </div>		
+		</div>
+		</div>
+		</div>
 	</section>
+   
+      <section class="mainPart">
+      	  <div class="mainCon">
+       	    <div class="sptLeft">
+        	    <p class="searchTitle title32 mTitle36">有问题？我们将为您竭解答。</p>
+        	    <p class="searchImg text18 mText30">&nbsp;</p>
+        	    <input class="searchBar text18 mText30" type="search" placeholder="" value="输入需要帮助的关键字" onfocus="if (value =='输入需要帮助的关键字'){value =''}" onblur="if (value ==''){value='输入需要帮助的关键字'}" >        	    
+        	    <p class="searchButton text18 mText30">
+                    <span>&gt;</span>
+                </p>
+        	    <div class="clear clearfix"></div>        		
+        	</div>
+        	<div class="sptRight">
+        		<p class="title32 mTitle36">24小时人工客服</p>
+        		<p class="title22 mTitle30">专人为您服务</p>
+        		<div class="mHservice">
+        		<ul class="hService clearfix">        		 
+        		   <li class="text18 mText30 bgService1">致电我们</li>
+        		   <li class="text18 mText30 bgService2">微信我们</li>
+        		   <li class="text18 mText30 bgService3 noBoder">到体验店</li>
+        		</ul>
+        		</div>
+        	</div>
+        	<div class="clear clearfix"></div>
+		  </div>           	      	
+      </section>
     </div>
     <!--主体内容 end-->
     

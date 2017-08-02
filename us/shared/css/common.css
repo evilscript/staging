@@ -2,7 +2,7 @@
 /*初始化设置*/
 *{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;/*盒模型定义高度和宽度*/}
 html{overflow-y:scroll;/*提供滚动机制*/-webkit-text-size-adjust: none;/*取消浏览器最小字体限制*/}
-body {font-family: 'pingfang', 微软雅黑, sans-serif;background: #f6f6f6;color: #000;font-size: 16px;height:100%;transition: margin-left .5s, margin-right .5s;}
+body {font-family: 'pingfang', 微软雅黑, sans-serif;background: #f6f6f6;color: #222;font-size: 16px;height:100%;transition: margin-left .5s, margin-right .5s;}
 ul,ol,li{list-style-type:none;}
 .clearfix:after {visibility: hidden;display: block;font-size: 0; content: " "; clear: both; height: 0;}
 * html .clearfix { height: 1%;}
@@ -54,12 +54,12 @@ input:focus{ outline:none;}
 /*字体部分结束*/
 
 /* fontSize start */
-.title60,.title32,.title28,.title22,.title20,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#222;}
 .title60{font-size: 60px;}
 .title36{font-size: 36px;}
 .title32{font-size: 32px;}
 .title30{font-size: 30px;}
 .title28{font-size: 28px;}
+.title24{font-size: 24px;}
 .title22{font-size: 22px;}
 .title20{font-size: 20px;}
 .title18{font-size: 18px;}
@@ -543,13 +543,12 @@ input:focus{ outline:none;}
 
 @media (max-width:1600px) {
 	/* fontSize start */
-    .title60,.title32,.title20{color:#333;}
-    .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 50px;}
     .title36{font-size: 30px}
     .title32{font-size: 27px;}
 	.title30{font-size: 25px;}
     .title28{font-size: 23px;}
+	.title24{font-size: 20px;}
     .title22{font-size: 18px;}
     .title20{font-size: 17px;}
     .title18{font-size: 15px;}
@@ -566,7 +565,7 @@ input:focus{ outline:none;}
 	.titColorSpl18{font-size: 15px; color: #d4d4d4;}
     .text32{font-size: 27px;}
     .text28{font-size: 23px;}
-        .text20{font-size: 17px;}
+    .text20{font-size: 17px;}
     .text18{font-size: 15px;}
 	.text16{font-size: 14px;}
     .txtNom34,.txtEng34{font-size: 28px;}
@@ -591,13 +590,12 @@ input:focus{ outline:none;}
 
 @media (max-width:1400px){
 	/* fontSize start */
-    .title60,.title32,.title20{color:#333;}
-    .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 44px;}
     .title36{font-size: 26px}
     .title32{font-size: 23px;}
 	.title30{font-size: 22px;}
     .title28{font-size: 20px;}
+	.title24{font-size: 17px;}
     .title22{font-size: 16px;}
     .title20{font-size: 15px;}
     .title18{font-size: 13px;}
@@ -613,7 +611,7 @@ input:focus{ outline:none;}
     .titColor18{font-size: 13px; color: #fff;}	
 	.titColorSpl18{font-size: 13px; color: #d4d4d4;}
     .text32{font-size: 23px;}
-        .text20{font-size: 15px;}
+    .text20{font-size: 15px;}
     .text28{font-size: 20px;}
     .text18{font-size: 13px;}
 	.text16{font-size: 12px;}
@@ -654,13 +652,12 @@ input:focus{ outline:none;}
 
 @media (max-width:1300px){	
 	/* fontSize start */
-    .title60,.title32,.title20{color:#333;}
-    .title28,.title22,.title18,.titNom30,.titEng30,.text32,.text28,.text18,.txtNom34,.txtEng34,.txtNom30,.txtEng30,.txtNom20,.txtEng20{color:#444;}
     .title60{font-size: 3.2vw;}
     .title36{font-size: 1.85vw;}
     .title32{font-size: 1.7vw;}
 	.title30{font-size: 1.5vw;}
     .title28{font-size: 1.46vw;}
+	.title24{font-size: 1.23vw;}
     .title22{font-size: 1.15vw;}
     .title20{font-size: 1.1vw;}
     .title18{font-size: 0.9vw;}
@@ -844,7 +841,7 @@ input:focus{ outline:none;}
 
 @media (max-width:767px) {
 	/* mainLayout start */	
-	.mainLayout{max-width:767px; padding-top: 15%;margin-bottom: 0;}
+	.mainLayout{max-width:767px; padding-top: 14%;margin-bottom: 0;}
 	.mainPart{margin-top: 5%;}
 	.mainCon{margin: 0 auto; width:100%;}
 	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
@@ -865,6 +862,7 @@ input:focus{ outline:none;}
 	.mText30{font-size: 3.91vw;}
 	.mText28{font-size: 3.65vw;}
 	.mText24{font-size: 3.13vw;}
+	.mText22{font-size: 2.87vw;}
 	.mText18{font-size: 2.35vw;}
 	/* fontSize end */
     .headerBackToTop {
@@ -1071,7 +1069,7 @@ input:focus{ outline:none;}
 
 @media (max-width:511px){
 	/* mainLayout start */
-    .mainLayout{padding-top: 20%;}
+    .mainLayout{padding-top: 19%;}
 	/* mainLayout end */
 	
 }
