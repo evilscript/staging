@@ -60,8 +60,8 @@ input:focus{ outline:none;}
 
 @font-face {
     font-family: 'pingfang';
-    src: url('../fonts/pingfang/PingFang-middle1.woff') format('woff'),
-         url('../fonts/pingfang/PingFang-middle1.ttf') format('truetype');
+    src: url('../fonts/pingfang/PingFang-middle.woff') format('woff'),
+         url('../fonts/pingfang/PingFang-middle.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
@@ -1061,7 +1061,7 @@ input:focus{ outline:none;}
 }
 
 /*For cellphone horizontal mode*/
-@media (max-width:767px) and (min-width:511px){
+@media (max-width:768px) and (min-width:511px){
     .logo img {
         width: 70%;
         margin-left: 15%;
