@@ -57,6 +57,7 @@
     }
     .footerSitemap .footerText {
         font-size: 12px;
+
     }
     .teleText {
         font-size: 14px;
@@ -129,15 +130,6 @@
     .teleText {
         font-size: 1.4vw;
     }
-
-
-
-
-
-
-
-
-
 }
 
 @media (max-width:767px) {
