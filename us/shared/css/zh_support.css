@@ -84,7 +84,7 @@
 .bgService3{background: url(../images/support/supportIcon3.png) no-repeat scroll center center;	background-size: 27.5%; background-position-y: 10%;}
 /* support others end */
 
-@media (max-width:768px){
+@media (max-width:767px){
 	.mNoboder{border: none;}
 	.sptLeft,.sptRight,.sptHot,.sptHot .hot1,.sptHot .hot2{width: 100%; overflow: hidden; float: none;}
 	.sptLeft{ background: #f0f0f0; padding: 8% 0 8.2% 0;}

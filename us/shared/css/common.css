@@ -859,7 +859,7 @@ input:focus{ outline:none;}
 
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
 	/* mainLayout start */	
 	.mainLayout{max-width:767px; padding-top: 14%;margin-bottom: 0;}
 	.mainPart{margin-top: 5%;}
@@ -1055,7 +1055,7 @@ input:focus{ outline:none;}
 }
 
 /*For cellphone horizontal mode*/
-@media (max-width:768px) and (min-width:511px){
+@media (max-width:767px) and (min-width:511px){
     .logo img {
         width: 70%;
         margin-left: 15%;
