@@ -91,7 +91,7 @@
 	.sptRight{padding-top: 6%; padding-bottom: 3%;}
 	.sptHot{ padding: 6% 0 5% 0;}
 	.sptHot .hot1,.sptHot .hot2{margin: 0; padding: 0; text-align: center;line-height: 2; padding-bottom: 5%;background: url(../images/support/supportHot.png) no-repeat; background-size: 2.4%; background-position-x: 38%;background-position-y: 4%;}
-	.searchImg,.searchBar,.searchButton{line-height: 2}
+	.searchImg,.searchBar,.searchButton{line-height: 1.5}
 	.searchImg{
 		width: 10%;
 		margin-left: 10%;
