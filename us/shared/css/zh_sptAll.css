@@ -9,7 +9,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.imgCnt img{width: 100%; margin: 3% 0;}	
 	.imgLeft img{width: 100%; margin: 5% 0;}
 	.imgTitle{text-align: center; margin-bottom: -2%;}
-	.imgTitRight img{display: inline-block; margin-left: 1.2%;}
+	.imgTitRight{background: url(../images/support/doubleArrowOrange.png) no-repeat scroll left center;background-size:70%; margin-left:1%;}
 	.bgMgn{padding:3.5% 0;}
 	.gradient{
     background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
@@ -53,6 +53,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	ul li{margin-left: 6.5%;line-height: 1.61}
 	.titMgnTop{margin-top: 7%;}
 	.imgTitle{margin-top: 3%;}
+	.imgTitRight{background-size:80%;}
 	.imgCnt{width: 100%;}
 	.imgCnt img{margin: 8.8% 0;}
 	.imgLeft{width: 100%;}
