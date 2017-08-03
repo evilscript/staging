@@ -6,10 +6,10 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.titFirst{margin-bottom: 1.5%;}
     .titMgnTop,.imgTitle{margin-top: 3%;}	
 	.imgCnt{margin: 0 auto; width: 66%;/*border-bottom: 1px solid #e6e6e6*/}
-	.imgCnt img{width: 100%; margin: 7% 0;}	
+	.imgCnt img{width: 100%; margin: 3% 0;}	
 	.imgLeft img{width: 100%; margin: 5% 0;}
-	.imgTitle{text-align: center; margin-bottom: -5%;}
-	.imgTitRight img{display: inline-block; margin-left: 1.2%; margin-bottom: .5%;}
+	.imgTitle{text-align: center; margin-bottom: -2%;}
+	.imgTitRight img{display: inline-block; margin-left: 1.2%;}
 	.bgMgn{padding:3.5% 0;}
 	.gradient{
     background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
@@ -24,7 +24,6 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.bbMenuBtn{float: left; width: 32.6%; margin-left: 1.1%; text-align: center;border: 1px solid #327fe8;line-height: 230%;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
 	.bbMenuBtn:hover,.selected{color:white;box-shadow: inset 300px 0 0 #327fe8;}
 	
-	.part1{margin-top:6%;}
 	.partAll{width: 82.8%;}
 	.hService>li{list-style-type: none;}
 	ul{padding: 0;}
@@ -45,10 +44,11 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 
     @media (max-width:767px){
 	.mainLayout{padding-bottom: 5%;}
-	.lineGray{border-bottom: 1px solid #e6e6e6}
+	.lineGray{border-bottom: 1px solid #e6e6e6;}
 	.sptBBMenu{width: 100%; margin-top: 3%;}
     .mainBox{padding: 0 5.5%; width: 100%}
-	.gradient{padding: 6% 0;}
+	.bgMgn{padding: 6% 0;}
+	.noBgMgnbtm{padding: 6% 0 0 0;}
     .partAll{width: 100%}
 	ul li{margin-left: 6.5%;line-height: 1.61}
 	.titMgnTop{margin-top: 7%;}
