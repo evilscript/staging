@@ -568,11 +568,7 @@ input:focus{ outline:none;}
     .title32{font-size: 27px;}
 	.title30{font-size: 25px;}
     .title28{font-size: 23px;}
-<<<<<<< HEAD
-	.title24{font-size: 20px;}
-=======
     .title24{font-size: 20px;}
->>>>>>> master
     .title22{font-size: 18px;}
     .title20{font-size: 17px;}
     .title18{font-size: 15px;}
@@ -619,11 +615,7 @@ input:focus{ outline:none;}
     .title32{font-size: 23px;}
 	.title30{font-size: 22px;}
     .title28{font-size: 20px;}
-<<<<<<< HEAD
 	.title24{font-size: 17px;}
-=======
-    .title24{font-size: 18px;}
->>>>>>> master
     .title22{font-size: 16px;}
     .title20{font-size: 15px;}
     .title18{font-size: 13px;}
@@ -685,11 +677,7 @@ input:focus{ outline:none;}
     .title32{font-size: 1.7vw;}
 	.title30{font-size: 1.5vw;}
     .title28{font-size: 1.46vw;}
-<<<<<<< HEAD
 	.title24{font-size: 1.23vw;}
-=======
-    .title24{font-size: 1.23vw;}
->>>>>>> master
     .title22{font-size: 1.15vw;}
     .title20{font-size: 1.1vw;}
     .title18{font-size: 0.9vw;}
@@ -871,7 +859,7 @@ input:focus{ outline:none;}
 
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 	/* mainLayout start */	
 	.mainLayout{max-width:767px; padding-top: 14%;margin-bottom: 0;}
 	.mainPart{margin-top: 5%;}
@@ -1067,7 +1055,7 @@ input:focus{ outline:none;}
 }
 
 /*For cellphone horizontal mode*/
-@media (max-width:767px) and (min-width:511px){
+@media (max-width:768px) and (min-width:511px){
     .logo img {
         width: 70%;
         margin-left: 15%;
