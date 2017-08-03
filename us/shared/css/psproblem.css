@@ -92,7 +92,7 @@
 		.td3{width: 33.3%}
 		.f16{font-size: 2.6vw}
 		
-		td{padding: 3% 0% 3% 2%;}
+		td{padding: 3% 0 3% 2%;}
 		.color{font-size: 2.8vw;text-align: center;padding: 1% 0% 1% 2%;}
 		table td:nth-child(odd){text-align: center;}
 		.tdMiddle{padding: 2%}
