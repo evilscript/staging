@@ -52,9 +52,8 @@
       	    </div> 	   
        </section>
        
-       <section class="mainPart">
-      	  <div class="mainCon">
-       	    <!--橙色装饰线，样式已放入common.css，直接引用即可-->
+       <section class="mainMgnTop">
+      	  <div class="mainBothEnds">
         	<div class="lineOrange"></div>       	        	 
         	<div class="sptBBMenu clearfix">
 			<p class="bbMenuBtn title22 mTitle24 fwn">产品使用</p>
@@ -62,11 +61,11 @@
 			<p class="bbMenuBtn title22 mTitle24 fwn">费率查询</p>		
 			</div>
 		  </div>           	      	
-       </section>
+       </section>  
        
        <section>	    
 	    <div class="bgMgn gradient">
-		<div class="mainBox">
+		<div class="mainLimited">
 		<div class="partAll">
 		    <p class="titFirst title36 mTitle36 fwn">电话拨打故障</p>
 		    <p class="title30 mTitle32 fwn">电话无拨号音</p> 
@@ -151,7 +150,7 @@
 		</div>
 		
 		<div class="bgMgn gradient">
-		<div class="mainBox">
+		<div class="mainLimited">
 		<div class="partAll">
 		    <p class="titFirst title36 mTitle36 fwn">电话盒安装故障</p>
 		    <p class="title30 mTitle32 fwn">指示灯全不亮</p> 
@@ -214,7 +213,7 @@
 		</div>
 		
 		<div class="bgMgn gradient">
-		<div class="mainBox">
+		<div class="mainLimited">
 		<div class="partAll">
 		    <p class="titFirst title36 mTitle36 fwn">功能故障</p>
 		    <p class="title30 mTitle32 fwn">无法显示来电</p> 
@@ -265,44 +264,21 @@
 		</div>
 		
 		</div>
-		</div>
-		
+		</div>		
 	  </section>
    
-      <section class="mainPart">
-      	  <div class="mainCon">
-       	    <div class="sptLeft">
-        	    <p class="searchTitle title32 mTitle36">有问题？我们将为您竭解答。</p>
-        	    <p class="searchImg text18 mText30">&nbsp;</p>
-        	    <input class="searchBar text18 mText30" type="search" placeholder="" value="输入需要帮助的关键字" onfocus="if (value =='输入需要帮助的关键字'){value =''}" onblur="if (value ==''){value='输入需要帮助的关键字'}" >        	    
-        	    <p class="searchButton text18 mText30">
-                    <span>&gt;</span>
-                </p>
-        	    <div class="clear clearfix"></div>        		
-        	</div>
-        	<div class="sptRight">
-        		<p class="title32 mTitle36">24小时人工客服</p>
-        		<p class="text22 mtext32">专人为您服务</p>
-        		<div class="mHservice">
-        		<ul class="hService clearfix">        		 
-        		   <li class="text18 mText28 bgService1">致电我们</li>
-        		   <li class="text18 mText28 bgService2">微信我们</li>
-        		   <li class="text18 mText28 bgService3 noBoder">到体验店</li>
-        		</ul>
-        		</div>
-        	</div>
-        	<div class="clear clearfix"></div>
-		  </div>           	      	
+      <!--帮助支持搜索 start--> 
+      <section class="container1920 partMgnTop">
+        <div ng-include="'sptSearch.html'"></div>
       </section>
+      <!--帮助支持搜索 end--> 
+      
     </div>
     <!--主体内容 end-->
     
     <div class="lineBlue"></div>
-    
-    <!--底部文件引入 start--> 
     <div class="container1920">
         <div ng-include="'footer.html'"></div>
     </div>
-    <!--底部文件引入 end--> 
 </body>
 </html>

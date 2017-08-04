@@ -1,8 +1,7 @@
 /* support All css */
 body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:justify}
 	a.textLink, a.textLink:hover, a.textLink:focus{color: #ff7f00; text-decoration: underline;}
-	.lineOrange{margin-bottom: 1.2%;}
-	.mainBox{margin: 0 auto;width: 79.2%;}
+	.lineOrange{margin-bottom: 1.2%;}	
 	.titFirst{margin-bottom: 1.5%;}
     .titMgnTop,.imgTitle{margin-top: 3%;}	
 	.imgCnt{margin: 0 auto; width: 66%;/*border-bottom: 1px solid #e6e6e6*/}
@@ -26,16 +25,16 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.bbMenuBtn{float: left; width: 32.6%; margin-left: 1.1%; text-align: center;border: 1px solid #327fe8;line-height: 220%;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
 	.bbMenuBtn:hover,.selected{color:white;box-shadow: inset 300px 0 0 #327fe8;}
 	
-	.partAll{width: 82.8%;}
+	.partAll{width: 100%; padding-right: 17.2%;}
 	.hService>li{list-style-type: none;}
 	ul{padding: 0;}
 	ul li{list-style-type:decimal; margin-left: 1.6%;line-height: 2}
 	ul li p:first-child{margin-top: 1%}
 	ul li p:last-child{margin-bottom: 1%;}
 	ul li div.pMgn{margin-bottom: 1.2%;}	
-	.Sharp,.textCon{float: left;}
-	.Sharp{vertical-align: top;margin-right:.8%; }
-	.textCon{width: 96%;}
+	.Sharp,.textCon{float: left; display: block;}
+	.Sharp{vertical-align: top;width: 2%;}
+	.textCon{ width: 95%;}
 	.onlyText{margin-left: 0;}
 	
 	.appQRcode{margin: 1.5% 0;}
@@ -43,20 +42,45 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.QRcode p:first-child{margin-top: 0;}
 	.QRcode p img{width: 100%; display: block;}
 	.QRcode p img:first-child{margin-bottom: 6%;}
+	
+@media  (min-width:1500px) and (max-width:1700px){
+	.Sharp{width: 1.9%;}	
+}
+	
+@media  (min-width:1300px) and (max-width:1500px){
+	.Sharp{width: 1.8%;}	
+}
+	
+@media  (min-width:1000px) and (max-width:1300px){
+	.Sharp{width: 1.6%;}	
+}
 
-    @media (max-width:767px){
+@media  (min-width:1001px){
+	.mainBothEnds{margin: 0 auto;width: 79.2%;}	
+}
+
+@media  (min-width:768px) and (max-width:1000px){
+	.partMgnTop{margin-top: 0;}
+	.partAll{padding:0 6%;}
+	.Sharp{width: 2.5%;}
+	.sptBBMenu{width: 100%; margin-top: 2%;}
+	
+}
+
+@media (max-width:767px){
 	.mainLayout{padding-bottom: 5%;}
+    .mainLimited{width: 100%}
 	.lineGray{border-bottom: 1px solid #e6e6e6;}
-	.sptBBMenu{width: 100%; margin-top: 3%;}
-    .mainBox{padding: 0 5.5%; width: 100%}
+	.sptBBMenu{width: 100%; margin-top: 3%;}	
 	.bgMgn{padding: 6% 0;}
 	.noBgMgnbtm{padding: 6% 0 0 0;}
-    .partAll{width: 100%}
+    .partAll{width: 100%;padding: 0 5.5%;}
 	ul li{margin-left: 6.5%;line-height: 1.61}
 	.titMgnTop{margin-top: 7%;}
+	.Sharp{width: 5%;}
 	.imgTitle{margin-top: 3%;}
 	.imgTitRight{background-size:70%;}
-	.imgCnt{width: 100%;}
+    .imgCnt{width: 100%;}
 	.imgCnt img{margin: 8.8% 0;}
 	.imgLeft{width: 100%;}
 	.imgLeft img{width: 100%;}

@@ -52,8 +52,8 @@
       	    </div> 	   
        </section>
        
-       <section class="mainPart">
-      	  <div class="mainCon">
+       <section class="mainMgnTop">
+      	  <div class="mainBothEnds">
        	    <!--橙色装饰线，样式已放入common.css，直接引用即可-->
         	<div class="lineOrange"></div>       	        	 
         	<div class="sptBBMenu clearfix">
@@ -66,7 +66,7 @@
        
        <section>	    
 	    <div class="bgMgn gradient">
-		<div class="mainBox">
+		<div class="mainLimited">
 		<div class="partAll">
 		    <p class="title30 mTitle32 fwn">网络连接故障</p> 
 		    <div class="onlyText text18 mText28 fwn">
@@ -183,32 +183,13 @@
 		</div>
 		</div>		
 	  </section>
-   
-      <section class="mainPart">
-      	  <div class="mainCon">
-       	    <div class="sptLeft">
-        	    <p class="searchTitle title32 mTitle36">有问题？我们将为您竭解答。</p>
-        	    <p class="searchImg text18 mText30">&nbsp;</p>
-        	    <input class="searchBar text18 mText30" type="search" placeholder="" value="输入需要帮助的关键字" onfocus="if (value =='输入需要帮助的关键字'){value =''}" onblur="if (value ==''){value='输入需要帮助的关键字'}" >        	    
-        	    <p class="searchButton text18 mText30">
-                    <span>&gt;</span>
-                </p>
-        	    <div class="clear clearfix"></div>        		
-        	</div>
-        	<div class="sptRight">
-        		<p class="title32 mTitle36">24小时人工客服</p>
-        		<p class="text22 mtext32">专人为您服务</p>
-        		<div class="mHservice">
-        		<ul class="hService clearfix">        		 
-        		   <li class="text18 mText28 bgService1">致电我们</li>
-        		   <li class="text18 mText28 bgService2">微信我们</li>
-        		   <li class="text18 mText28 bgService3 noBoder">到体验店</li>
-        		</ul>
-        		</div>
-        	</div>
-        	<div class="clear clearfix"></div>
-		  </div>           	      	
-      </section>
+        
+      <!--帮助支持搜索 start--> 
+      <div class="container1920">
+        <div ng-include="'sptSearch.html'"></div>
+      </div>
+      <!--帮助支持搜索 end--> 
+      
     </div>
     <!--主体内容 end-->
     

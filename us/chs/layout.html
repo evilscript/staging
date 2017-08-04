@@ -41,17 +41,25 @@
        <section>
       	    <!--这里书写banner，或外部引用--> 	   
        </section>
-       <section class="mainPart">
-      	  <div class="mainCon">
+       <section class="mainMgnTop"><!--mainMgnTop 为主体内容距bannner的距离，如果有特殊页面这里可以单独定义。-->
+      	  <div class="mainLimited"><!--mainLimited为不全屏，限制了1920px的左右边距为200px-->
        	    <!--橙色装饰线，样式已放入common.css，直接引用即可-->
         	<div class="lineOrange"></div>       	        	 
         	<!--如果左右边距为固定200px，将除banner外的主体内容写在这里--> 
 		  </div>           	      	
        </section>
+       
+       <section>
+      	  <!--如果需要全屏显示，那么将内容写在这里-->        	      	
+       </section>
+        
+       <section>
+      	  <div class="mainLimited"><!--mainLimited为不全屏，限制了1920px的左右边距为200px-->
+		  </div>        	      	
+       </section>
+                   
     </div>
-    <!--主体内容 end-->
-    
-    <!--如果需要全屏显示，那么将内容写在这里-->
+    <!--主体内容 end-->  
     
     <!--蓝色装饰线，样式已放入common.css，直接引用即可-->
     <div class="lineBlue"></div>
