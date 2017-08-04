@@ -1,4 +1,5 @@
 /* support All css */
+/* Amy制作 */
 body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:justify}
 	a.textLink, a.textLink:hover, a.textLink:focus{color: #ff7f00; text-decoration: underline;}
 	.foldingBlock{background: #fff; padding: 1.8% 2.5%; border-radius: 10px; border: #ddd 1px solid; margin-top: 2%;}	
@@ -72,6 +73,8 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.Sharp{width: 2.5%;}
 	.sptBBMenu{width: 100%; margin-top: 2%;}
 	.textNote{padding-left: 2.5%; background-size: 1.5%;background-position-y: 2.8%;}
+	ul.listNom li{margin-left: 3.2%;}
+	ul.listDot{margin-left: 1.5%;}
 }
 
 @media (max-width:767px){
@@ -82,8 +85,8 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.bgMgn{padding: 6% 0;}
 	.noBgMgnbtm{padding: 6% 0 0 0;}
     .partAll{width: 100%;padding: 0 5.5%;}
-	ul.listNom li{margin-left: 6.5%;line-height: 1.61}
-	ul.listDot li{width: 48%;}
+	ul.listNom li{margin-left: 6.8%;line-height: 1.61}
+	ul.listDot li{width: 44%;margin-left: 6.2%;}
 	.titMgnTop{margin-top: 7%;}
 	.Sharp{width: 5%;}
 	.imgTitle{margin-top: 3%;}
