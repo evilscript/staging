@@ -72,7 +72,7 @@
                 $(this).click( function() {
                     $(this).next().slideToggle(300);
                     $(this).toggleClass('minus');
-                    $(".footerTitle").not(this).next().slideUp(300);
+                    $(".footerTitle").not(this).removeClass('minus').next().slideUp(300);
                 });
             });
         }
