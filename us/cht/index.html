@@ -26,6 +26,28 @@
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/scrollify.min.js"></script>
     <script src="../shared/js/common.js"></script>
+    <script>
+        /*整屏滚动功能*/
+        $(function() {
+            $.scrollify({
+                section : ".scroll",
+                sectionName : "section-name",
+                interstitialSection : "iTalkBB",
+                easing: "easeOutExpo",
+                scrollSpeed: 1500,
+                offset : 0,
+                scrollbars: true
+            });
+        });
+        /*如果是移动设备，初始化时直接禁用整屏滚动*/
+        function isMobile() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+        if (isMobile()) {
+            $.scrollify.disable();
+        }
+        /*整屏滚动功能结束*/
+    </script>
 </head>
 
 

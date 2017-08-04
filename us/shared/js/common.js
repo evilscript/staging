@@ -77,26 +77,7 @@ $(document).ready(function(){
         $(this).attr('src','../shared/images/index/iconIns.jpg');
     });
 
-    /*整屏滚动功能*/
-    $(function() {
-        $.scrollify({
-            section : ".scroll",
-            sectionName : "section-name",
-            interstitialSection : "iTalkBB",
-            easing: "easeOutExpo",
-            scrollSpeed: 1500,
-            offset : 0,
-            scrollbars: true
-        });
-    });
-    /*如果是移动设备，初始化时直接禁用整屏滚动*/
-    function isMobile() {
-        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    }
-    if (isMobile()) {
-        $.scrollify.disable();
-    }
-    /*整屏滚动功能结束*/
+
 });
 
 
