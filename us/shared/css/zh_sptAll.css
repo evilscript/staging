@@ -1,6 +1,7 @@
 /* support All css */
 body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:justify}
 	a.textLink, a.textLink:hover, a.textLink:focus{color: #ff7f00; text-decoration: underline;}
+	.foldingBlock{background: #fff; padding: 1.8% 2.5%; border-radius: 10px; border: #ddd 1px solid; margin-top: 2%;}
 	.lineOrange{margin-bottom: 1.2%;}	
 	.titFirst{margin-bottom: 1.5%;}
     .titMgnTop,.imgTitle{margin-top: 3%;}	
@@ -8,7 +9,8 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.imgCnt img{width: 100%; margin: 3% 0;}	
 	.imgLeft img{width: 100%; margin: 5% 0;}
 	.imgTitle{text-align: center; margin-bottom: -2%;}
-	.imgTitRight{background: url(../images/support/doubleArrowOrange.png) no-repeat scroll left center;background-size:60%; margin-left:1%;}
+	.imgTitRgt18{background: url(../images/support/doubleArrowOrange.png) no-repeat scroll left center;background-size:100%; margin-left:2%;}
+	.imgTitRgt30{background: url(../images/support/doubleArrowOrange.png) no-repeat scroll left center;background-size:60%; margin-left:1%;}
 	.bgMgn{padding:3.5% 0;}
 	.gradient{
     background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
@@ -28,10 +30,12 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.partAll{width: 100%; padding-right: 17.2%;}
 	.hService>li{list-style-type: none;}
 	ul{padding: 0;}
-	ul li{list-style-type:decimal; margin-left: 1.6%;line-height: 2}
-	ul li p:first-child{margin-top: 1%}
-	ul li p:last-child{margin-bottom: 1%;}
-	ul li div.pMgn{margin-bottom: 1.2%;}	
+	ul li{margin-left: 1.6%; line-height: 2}
+	ul.listNom li{list-style-type:decimal;}
+	ul.listNom li p:first-child{margin-top: 1%}
+	ul.listNom li p:last-child{margin-bottom: 1%;}
+	ul.listNom li div.pMgn{margin-bottom: 1.2%;}
+	ul.listDot li{float: left;width: 28%; list-style-type: disc;}
 	.Sharp,.textCon{float: left; display: block;}
 	.Sharp{vertical-align: top;width: 2%;}
 	.textCon{ width: 95%;}
@@ -64,7 +68,6 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.partAll{padding:0 6%;}
 	.Sharp{width: 2.5%;}
 	.sptBBMenu{width: 100%; margin-top: 2%;}
-	
 }
 
 @media (max-width:767px){
@@ -75,11 +78,13 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.bgMgn{padding: 6% 0;}
 	.noBgMgnbtm{padding: 6% 0 0 0;}
     .partAll{width: 100%;padding: 0 5.5%;}
-	ul li{margin-left: 6.5%;line-height: 1.61}
+	ul.listNom li{margin-left: 6.5%;line-height: 1.61}
+	ul.listDot li{width: 48%;}
 	.titMgnTop{margin-top: 7%;}
 	.Sharp{width: 5%;}
 	.imgTitle{margin-top: 3%;}
-	.imgTitRight{background-size:70%;}
+	.imgTitRgt18{background-size: 70%; background-position-y: 50%; font-size: 3.65vw; margin-left: 2.5%;}
+	.imgTitRgt30{background-size:70%;}
     .imgCnt{width: 100%;}
 	.imgCnt img{margin: 8.8% 0;}
 	.imgLeft{width: 100%;}

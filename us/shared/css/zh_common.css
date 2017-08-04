@@ -589,7 +589,7 @@ input:focus{ outline:none;}
     .text20{font-size: 17px;}
     .text18{font-size: 15px;}
 	.text16{font-size: 14px;}
-    .text14{font-size: 13px;}
+	.text14{font-size: 12px;}
     .txtNom34,.txtEng34{font-size: 28px;}
     .txtNom30,.txtEng30{font-size: 25px;}
     .txtNom20,.txtEng20{font-size: 17px;}
@@ -637,7 +637,7 @@ input:focus{ outline:none;}
     .text28{font-size: 20px;}
     .text18{font-size: 13px;}
 	.text16{font-size: 12px;}
-    .text14{font-size: 12px;}
+	.text14{font-size: 10px;}
     .txtNom34,.txtEng34{font-size: 25px;}
     .txtNom30,.txtEng30{font-size: 22px;}
     .txtNom20,.txtEng20{font-size: 15px;}
@@ -684,7 +684,6 @@ input:focus{ outline:none;}
     .title22{font-size: 1.15vw;}
     .title20{font-size: 1.1vw;}
     .title18{font-size: 0.9vw;}
-        .text14{font-size: 0.7vw;}
     .titNom30,.titEng30{font-size: 1.5vw;}
 	.titNomCol16,.titEngCol16{font-size: 0.8vw; color: #fff;}
     .titColor80{font-size: 4.2vw; color: #fff;}
@@ -698,9 +697,10 @@ input:focus{ outline:none;}
 	.titColorSpl18{font-size: 0.9vw; color: #d4d4d4;}
     .text32{font-size: 1.7vw;}
     .text28{font-size: 1.46vw;}
-        .text20{font-size: 1.1vw;}
+    .text20{font-size: 1.1vw;}
     .text18{font-size: 0.9vw;}
 	.text16{font-size: 0.8vw;}
+	.text14{font-size: 0.7px;}
     .txtNom34,.txtEng34{font-size: 1.8vw;}
     .txtNom30,.txtEng30{font-size: 1.5vw;}
     .txtNom20,.txtEng20{font-size: 1.1vw;}
@@ -757,9 +757,9 @@ input:focus{ outline:none;}
 	
 	/* fontSize start */
     .title60{font-size: 3.2vw;}
-    .title36{font-size: 1.85vw;}
+    .title36{font-size: 3.2vw;}/**/
     .title32{font-size: 2.6vw;} /**/
-	.title30{font-size: 1.5vw;}
+	.title30{font-size: 2.4vw;} /**/
     .title28{font-size: 1.46vw;}
 	.title24{font-size: 1.8vw;}
     .title22{font-size: 2.2vw;} /**/
@@ -781,6 +781,7 @@ input:focus{ outline:none;}
     .text20{font-size: 1.1vw;}
     .text18{font-size: 1.8vw;} /**/
 	.text16{font-size: 1.6vw;} /**/
+	.text14{font-size: 1.4vw;} /**/
     .txtNom34,.txtEng34{font-size: 1.8vw;}
     .txtNom30,.txtEng30{font-size: 1.5vw;}
     .txtNom20,.txtEng20{font-size: 1.1vw;}
