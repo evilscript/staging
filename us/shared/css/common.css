@@ -2,7 +2,7 @@
 /*初始化设置*/
 *{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;/*盒模型定义高度和宽度*/}
 html{overflow-y:scroll;/*提供滚动机制*/-webkit-text-size-adjust: none;/*取消浏览器最小字体限制*/}
-body {font-family: 'pingfang', 微软雅黑, sans-serif;background: #f6f6f6;color: #222;height:100%;transition: margin-left .5s, margin-right .5s;}
+body {font-family: 'pingfang', 微软雅黑, sans-serif;background: #f6f6f6;color: #222;font-size: 16px;height:100%;transition: margin-left .5s, margin-right .5s;}
 ul,ol,li{list-style-type:none;}
 .clearfix:after {visibility: hidden;display: block;font-size: 0; content: " "; clear: both; height: 0;}
 * html .clearfix { height: 1%;}
@@ -16,8 +16,8 @@ input:focus{ outline:none;}
 
 /* mainLayout start */
 .mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%;}
-.mainMgnTop{margin-top: 3%;}
-.mainLimited{margin: 0 auto; width: 79.2%;}
+.mainPart{margin-top: 3%;}
+.mainCon{margin: 0 auto; width: 79.2%;}
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8;margin-top: 7%;}
 /* mainLayout end */
@@ -684,7 +684,6 @@ input:focus{ outline:none;}
     .title22{font-size: 1.15vw;}
     .title20{font-size: 1.1vw;}
     .title18{font-size: 0.9vw;}
-        .text14{font-size: 0.7vw;}
     .titNom30,.titEng30{font-size: 1.5vw;}
 	.titNomCol16,.titEngCol16{font-size: 0.8vw; color: #fff;}
     .titColor80{font-size: 4.2vw; color: #fff;}
@@ -701,6 +700,7 @@ input:focus{ outline:none;}
         .text20{font-size: 1.1vw;}
     .text18{font-size: 0.9vw;}
 	.text16{font-size: 0.8vw;}
+    .text14{font-size: 0.7vw;}
     .txtNom34,.txtEng34{font-size: 1.8vw;}
     .txtNom30,.txtEng30{font-size: 1.5vw;}
     .txtNom20,.txtEng20{font-size: 1.1vw;}
@@ -746,48 +746,7 @@ input:focus{ outline:none;}
     }
 }
 
-@media (min-width:768px) and (max-width:1000px) {
-    /* mainLayout start */	
-	.mainLayout{max-width:1000px; padding-top: 14%;margin-bottom: 0;}
-	.mainMgnTop{margin-top: 3.5%;}
-	.mainLimited{margin: 0 auto; width:100%;}
-	.lineOrange{height:0; border-bottom: .55vw solid #ff7f00;}
-	.lineBlue{height:0; border-bottom: .55vw solid #327fe8; margin-top: 0;}
-	/* mainLayout end*/
-	
-	/* fontSize start */
-    .title60{font-size: 3.2vw;}
-    .title36{font-size: 1.85vw;}
-    .title32{font-size: 2.6vw;} /**/
-	.title30{font-size: 1.5vw;}
-    .title28{font-size: 1.46vw;}
-	.title24{font-size: 1.8vw;}
-    .title22{font-size: 2.2vw;} /**/
-    .title20{font-size: 1.1vw;}
-    .title18{font-size: 0.9vw;}
-    .titNom30,.titEng30{font-size: 1.5vw;}
-	.titNomCol16,.titEngCol16{font-size: 0.8vw; color: #fff;}
-    .titColor80{font-size: 4.2vw; color: #fff;}
-	.titColor60{font-size: 3.2vw; color: #fff;}
-	.titColor48{font-size: 2.5vw; color: #fff;}
-	.titColor36{font-size: 1.85vw; color: #fff;}
-    .titColor32{font-size: 1.7vw; color: #fff;}
-    .titColor28{font-size: 1.46vw; color: #fff;}
-    .titColor20{font-size: 1.1vw; color: #fff;}
-    .titColor18{font-size: 0.9vw; color: #fff;}	
-	.titColorSpl18{font-size: 0.9vw; color: #d4d4d4;}
-    .text32{font-size: 1.7vw;}
-    .text28{font-size: 1.46vw;}
-    .text20{font-size: 1.1vw;}
-    .text18{font-size: 1.8vw;} /**/
-	.text16{font-size: 1.6vw;} /**/
-    .txtNom34,.txtEng34{font-size: 1.8vw;}
-    .txtNom30,.txtEng30{font-size: 1.5vw;}
-    .txtNom20,.txtEng20{font-size: 1.1vw;}
-    .txtColor16{font-size: 0.8vw; color: #fff;}
-    .txtColorSpl16{font-size: 0.8vw; color: #989898;}
-	/* fontSize end */
-	
+@media (min-width:768px) and (max-width:992px) {
     .toggle{
         padding-left:0;
     }
@@ -907,8 +866,8 @@ input:focus{ outline:none;}
 @media (max-width:767px) {
 	/* mainLayout start */	
 	.mainLayout{max-width:767px; padding-top: 14%;margin-bottom: 0;}
-	.mainMgnTop{margin-top: 5%;}
-	.mainLimited{margin: 0 auto; width:100%;}
+	.mainPart{margin-top: 5%;}
+	.mainCon{margin: 0 auto; width:100%;}
 	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
 	.lineBlue{height:0; border-bottom: .9vw solid #327fe8; margin-top: 0;}
 	/* mainLayout end*/

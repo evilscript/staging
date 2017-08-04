@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+    <!--这里继续添加子页面的Css引用文件-->   
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
+ 
+    
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+    <!--这里继续添加子页面的Js引用文件-->
+    <style>
+	body{margin: 0;padding:0;background-color: #fff; text-align:justify}
+	a, a:hover, a:focus{color: #ff7f00; text-decoration: none;}
+	.lineOrange{margin-bottom: 1.2%;}
+	.mainBox{margin: 0 auto;width: 79.2%;}
+	.titFirst{margin-bottom: 1.5%;}
+    .titMgnTop,.imgTitle{margin-top: 3%;}	
+	.imgCnt{margin: 0 auto; width: 66%;/*border-bottom: 1px solid #e6e6e6*/}
+	.imgCnt img{width: 100%; margin: 7% 0;}	
+	.imgLeft img{width: 100%; margin: 5% 0;}
+	.imgTitle{text-align: center; margin-bottom: -5%;}	
+	.bgMgn{padding:3.5% 0;}
+	.gradient{
+    background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: -webkit-gradient(linear, top, bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#f5f5f5 100%);    
+	}	
+	.sptBBMenu{margin: 0 auto;width: 62%;}
+	.sptBBMenu p:first-child{margin-left: 0;}
+	.bbMenuBtn{float: left; width: 24%; text-align: center;border: 1px solid #327fe8;line-height: 230%;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
+	.changesR{margin-right:0.5% }
+	.bbMenuBtn:hover,.selected{color:white;box-shadow: inset 300px 0 0 #327fe8;}
+	
+	.part1{margin-top:6%;}
+	.partAll{width: 82.8%;}
+	.hService>li{list-style-type: none;}
+	ul{padding: 0;}
+	ul li{list-style-type:decimal; margin-left: 1.6%;line-height: 2}
+	ul li p:first-child{margin-top: 1%}
+	ul li p:last-child{margin-bottom: 1%;}
+	ul li div.pMgn{margin-bottom: 1.2%;}	
+	.Sharp,.textCon{float: left;}
+	.Sharp{vertical-align: top;margin-right:.8%; }
+	.textCon{width: 96%;}
+	.onlyText{margin-left: 0;}
+	
+	.appQRcode{margin: 1.5% 0;}
+	.QRcode p{float: left; width: 20%;margin-right: 4%; cursor: pointer;}
+	.QRcode p:first-child{margin-top: 0;}
+	.QRcode p img{width: 100%; display: block;}
+	.QRcode p img:first-child{margin-bottom: 6%;}
+
+	.star div{display: inline-block;vertical-align: top}
+	.star{padding-top: 1%}
+	.starimg{width: 2%}
+	.startext{width: 97%;color: #ff7f00}
+	.starimg img{width: 70%}
+	.bgMgnx{padding-bottom:3.5% }
+	.pays,.moneys,.menus{display: none;}
+	.users3{margin-top: 3.5%}
+
+		.picUseNum{display: inline-block;width: 49%;text-align: center;vertical-align: top;position: relative;}
+		.picUseNum1{border-right: 1px solid #c9c9c9}
+		.picBox1{width: 50%;margin: 0 auto;}
+		.picBox1 div img{width: 100%;}
+		.picBox2{width: 64%;margin: 0 auto;}
+		.picBox2 div img{width: 100%}
+		.nameNum{width: 40%;margin: 0 auto;border: 1px solid #ff7f00;line-height: 1 ;color:#ff7f00 ;padding:0.6%; box-shadow: 10px 10px  #d9d9d9;}
+		.whereNum{margin-bottom:7% }
+		.whereNum{margin-top: 3%;}
+		.boxbottom{padding-top: 4%}
+		.picBox1Img2{display: none;}
+		.picBox2Img2{display: none;}
+		.titMgnTopy{margin-top: 4.5%}
+		.blod{font-weight: 600}
+
+		.td1{width: 19%}
+		.td2{width: 55%}
+		.td3{width: 26%}
+		.title2{padding-top:2.5%;padding-bottom: 2.1%;width: 60%;margin: 0 auto }
+		.calltable{margin-bottom:5%;padding-left:5.5%;}
+		.tabletitle{padding-bottom: 0.5%;font-weight: 600}
+		.tablebottom{padding-top: 0.5%;font-weight: 600}
+		table{line-height: 2}
+		table tr:nth-child(odd){background: #e8e8e8;}
+		.color{color: white;}
+		table tr:nth-of-type(1){background: #444444;}
+		td{padding: 2% 2% 2% 2%;}
+		.tdMiddle{padding: 2% 2% 2% 5%}
+		.weight{font-weight: 600}
+
+
+
+
+    @media (max-width:767px){
+	.mainLayout{padding-bottom: 5%;}
+	.lineGray{border-bottom: 1px solid #e6e6e6}
+	.sptBBMenu{width: 100%; margin-top: 3%;}
+    .mainBox{padding: 0 5.5%; width: 100%}
+	.gradient{padding: 6% 0;}
+    .partAll{width: 100%}
+	ul li{margin-left: 4.5%;line-height: 1.61}
+	.titMgnTop{margin-top: 7%;}
+	.imgTitle{margin-top: 3%;}
+	.imgCnt{width: 100%;}
+	.imgCnt img{margin: 8.8% 0;}
+	.imgLeft{width: 100%;}
+	.imgLeft img{width: 100%;}
+	.QRcode p{width: 100%; padding:0 21% 0 18%; margin: 6% 0;}
+	.QRcode p:first-child{margin-top: 8%;}
+	.QRcode p:last-child{margin-bottom: 8%;}
+	.QRcode p img:first-child{margin-bottom: 12%;}
+	.QRcode p span{text-align: center; margin-top: 2%;}
+	.sptLeft{background: none;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: -webkit-gradient(linear, top, bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#f5f5f5 100%);}
+	.imgBox img{margin: 8.5% 0;}
+
+
+	.star div{display: block;}
+	.starimg{float: left;width: 7%}
+	.starimg img{width: 40%}
+			.picUseNum{display: block;width: 100%}
+		.nameNum{width: 60%;}
+		.nameNum{font-size: 4.1vw}
+		.nameNum span{font-size: 3.3vw}
+
+		.whereNum span{font-size: 3.1vw}
+		.picBox1,.picBox2{width: 60%}
+		.picBox1Img1{display: none;}
+		.picBox2Img1{display: none;}
+		.picBox1Img2{display:block;}
+		.picBox2Img2{display: block;}
+		.boxbottom{padding-top:8%  }
+		
+		.picUseNum{padding-top: 5%}
+		.title30,.title36{text-align: center;padding-bottom: 4%}
+
+		.td1{width: 33.3%}
+		.td2{width: 33.3%}
+		.td3{width: 33.3%}
+		.f16{font-size: 2.6vw}
+		
+		td{padding: 3% 0% 3% 2%;}
+		.color{font-size: 2.8vw;text-align: center;padding: 1% 0% 1% 2%;}
+		table td:nth-child(odd){text-align: center;}
+		.tdMiddle{padding: 2%}
+		.spanx{text-align: center;}
+		.spany{text-align: left;}
+		.tablebottom{font-size: 2.6vw;width:52%;margin: 0 auto;text-align: center;padding: 4% 0;line-height: 1.5 }
+		.tabletitle{text-align: center;}
+		.title2{width: 100%}
+		.text14{font-size: 2.6vw}
+		.blod{font-weight: 500;font-size: 3.13vw;margin-top: 6%}
+		}
+    
+	/*这里是不同的style*/
+	
+	</style>
+</head>
+
+
+<body ng-app="">
+    <!--头部文件引入 start--> 
+
+
+    <!--头部文件引入 end--> 
+    
+    <!--主体内容 start--> 
+    <div class="mainLayout">
+       <section>
+      	    <div class="hideM">
+      	    	<img src="../shared/images/support/chs_sptTvBanner.jpg" alt="" style="width:100%;">
+      	    </div>
+      	    <div class="showM">
+      	    	<img src="../shared/images/support/chs_mobileSupportBanner.jpg" alt="" style="width:100%;">
+      	    </div> 	   
+       </section>
+       
+       <section class="mainPart">
+      	  <div class="mainCon">
+       	    <!--橙色装饰线，样式已放入common.css，直接引用即可-->
+        	<div class="lineOrange"></div>       	        	 
+        	<div class="sptBBMenu clearfix">
+			<p class="bbMenuBtn title22 mTitle24 fwn changesR user">账户管理</p>
+			<p class="bbMenuBtn title22 mTitle24 fwn changesR menu">账单管理</p>
+			<p class="bbMenuBtn title22 mTitle24 fwn changesR pay">支付方式</p>
+			<p class="bbMenuBtn title22 mTitle24 fwn money">收费明细</p>				
+			</div>
+		  </div>           	      	
+       </section>
+       
+       <section class='shows'>
+		
+	    <div class="users">
+	    	<div class="bgMgn gradient">
+	    		<div class="mainBox ">
+	    			<div class="part1">
+	    			 	<div class="partAll ">
+	      					<p class="title36 mTitle36 fwn">设置您的账户登录名</p>
+		   					<ul>
+		   						<li class="text18 mText28 fwn">
+		   						当您下订单后，我们就会发送给您一封含有临时登录名和临时密码的邮件，通过这些登录信息，您就可以登陆网上账户。在第一次登录网上账户之后，您可以在"账户设定"页面重新设置登录名或更改密码。</li>
+		   						<li class="text18 mText28 fwn">如果您未收到该邮件，请<a href="">联系我们</a>，我们专业的客服人员，将竭诚为您服务。</li>
+		  					</ul>		
+						</div>
+					</div>
+				</div>
+	    	</div>
+
+	    <div class="bgMgn gradient"> 
+			<div class="mainBox">
+				<div class="partAll">
+	       			<p class="title36 mTitle36 fwn">登录名的种类</p>
+		  			<div class="onlyText text18 mText28">
+		   				<p class="fwn clearfix"><span class="textCon">在您下单后，使用iTalkBB蜻蜓发给您的临时登录名和密码登入网上账户之后，您可以选择有以下几种方式作为登录名：</span></p>
+		   	 			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">您註册时设置的登录名</span></p>
+		   	  			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">或您注册时设定手机号码作为登录名</span></p>
+		   	 	 		<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">或通过您的iTalkBB蜻蜓家庭电话号码, 10位数字, 如: 6261234567</span></p>
+		   	  			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">或您iTalkBB蜻蜓家庭电话的899号码或中文电视的699号码。您的899号码可以在您的iTalkBB电话盒上找到，如下图所示：</span></p>
+		   			</div>
+				</div>
+			</div>
+			<div class="users3">
+                <div class="picUseNum picUseNum1">
+                    <div class="nameNum title24 mTitle32">蜻蜓电话899号码示意图 <br><span class='text16';>Locate Your 899 Number</span> </div>
+                    <div class="whereNum text16 mText22">您可于iTalkBB蜻蜓电话盒子正面的贴纸上找到899号码 <br><span class=' text14'>The 899 number is located on a sticker on your iTalkBB VOIP Box</span></div>
+                    <div class="picBox1">
+                        <div class="picBox1Img1"><img src="../shared/images/support/box7.png" alt=""></div>
+                        <div class="picBox1Img2"><img src="../shared/images/support/box10.png" alt=""></div>
+                        <div class="boxbottom mText22">iTalkBB蜻蜓电话盒子 <br>iTalkBB VOIP Box</div>
+                    </div>
+<!--                    <div class="orangelineL"></div>
+                    <div class="f16 wherePaper">899号码贴纸位置 <br>899 number sticker</div> -->
+                </div><div class="picUseNum">
+                    <div class="nameNum title24 mTitle32">蜻蜓电话899号码示意图<br><span  class='text16'>Locate Your 699 Number</span></div>
+                    <div class="whereNum  text16 mText22">您可于iTalkBB蜻蜓电话盒子正面的贴纸上找到899号码 <br><span class=' text14'>The 699 number is located on a sticker on your iTalkBB TV Box</span></div>
+                    <div class="picBox2">
+                        <div class="picBox2Img1"><img src="../shared/images/support/box8.png" alt=""></div>
+                        <div class="picBox2Img2" ><img src="../shared/images/support/box9.png" alt=""></div>
+                        <div class="boxbottom mText22">iTalkBB蜻蜓电话盒子 <br>iTalkBB TV Box</div>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+	    <div class="bgMgn gradient"> 
+			<div class="mainBox">
+				<div class="partAll">
+	       			<p class="title30 mTitle32 fwn">更新账户信息</p>
+		  			<div class="onlyText text18 mText28">
+		   				<p class="fwn clearfix"><span class="textCon">通过登陆网上账户，您就可以更新信息。只需按照以下指导步骤 ：</span></p>
+		   	 			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">请登录您的网上账户<br>请注意：如果这是您第一次登陆账户，登录信息就在您订单确认邮件内！如果您未收到该邮件，请<a href="">联系我们</a>。如果这并不是您第一次登陆，请使用您设置的用户名和密码登陆。</span></p>
+		   	  			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">在最上方的菜单界面内点击“Account & Bill，然后在“Account Profile”这一栏内点击”Update account info”，您就可以轻松得更新您的账户信息，包括您的地址、邮箱以及联系电话。</span></p>
+		   			</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="bgMgn gradient"> 
+			<div class="mainBox">
+				<div class="partAll">
+	       			<p class="title30 mTitle32 fwn">忘记密码</p>
+		   			<div class="onlyText text18 mText28">
+		   	  			<p class="fwn clearfix"><span class="textCon">如果您忘记密码，请<a href="">联系我们</a>，我们专业的客服人员会帮您核实用户身份，身份核实成功之后，客服会为您找回密码或者重新设置密码。</span></p>
+		   			</div>			
+				</div>
+
+				<div class="partAll titMgnTopy">
+	       			<p class="title30 mTitle32 fwn">账户暂停（限蜻蜓移动业务）</p>
+		   			<div class="onlyText text18 mText28">
+		   	  			<p class="fwn clearfix"><span class="textCon">如果您忘记密码，请联系我们，我们专业的客服人员会帮您核实用户身份，身份核实成功之后，客服会为您找回密码或者重新设置密码。</span></p>
+		   			</div>
+		   			<div class="onlyText text18 mText28 star">
+                    	<div class="starimg"><img src="../shared/images/support/supportPay.png" alt=""></div>
+                   		<div class="startext text18 mText24">请注意：如果这是您第一次登陆账号，登录信息就在您的手机号码订单发货后的确认邮件内！如果您未收到该邮件，请<a href="">联系我们</a>，我们专业的客服人员，将竭诚为您服务。如果这并不是您第一次登陆，请使用您设置的用户名和密码登陆。在最上方的菜单界面内点击“账户设定”并选择“账户信息”，然后点击在您现在支付方式信息旁的“update”， 即可轻松更新支付方式。</div>
+            		</div>				
+				</div>
+		   	</div>
+		</div>
+	    </div>
+
+       	<div class="pays">
+       		<div class="bgMgn gradient"> 
+				<div class="mainBox ">
+					<div class="part1">
+						<div class="partAll ">
+	       					<p class="title36 mTitle36 fwn">支付方式</p>
+		   					<div class="onlyText text18 mText28">
+		   	  					<p class="fwn clearfix"><span class="textCon">为了保护您的财产安全，我们暂时只接受借记卡和信用卡的支付方式，包括Visa, Master, American Express以及Discover。</span></p>
+		   					</div>			
+						</div>
+					</div>
+	    		</div>
+	   		</div>
+
+	    	<div class="bgMgn gradient"> 
+				<div class="mainBox">
+					<div class="partAll ">
+	     		 		<p class="title36 mTitle36 fwn">支付日期</p>
+		   		  		<div class="onlyText text18 mText28">
+		   	  	  			<p class="fwn clearfix"><span class="textCon">服务周期以自然月为准，从您的账户激活这一天作为账期起始日，从账期起始日后30天为一个账期。您无需记住日期并在收到帐单后手动付款，我们每月支付日期当天自动收取下一个账期的月费以及上一个账期可能产生的其他服务费用</span></p></div>
+		   		  		<div class="onlyText text18 mText28 star">
+                    		<div class="starimg"><img src="../shared/images/support/supportPay.png" alt=""></div>
+                    		<div class="startext text18 mText24">请注意：如果您同时使用蜻蜓移动和蜻蜓电话服务，在您激活蜻蜓移动手机服务的当天，我们会按比例向您收取从激活当天算起到您下一个蜻蜓电话账单生成日这一期间的手机服务费。之后我们会在每月收取电话服务费的同时，向您收取您整月的电话服务费以及您的手机服务费。您的电话账单日期和您手机服务的账单日期将被调整成同一天，方便您管理和支付。</div>
+            	  		</div>			
+					</div>
+				</div>
+			</div>
+
+
+
+	    	<div class="bgMgn gradient"> 
+				<div class="mainBox">
+					<div class="partAll ">
+	       				<p class="title36 mTitle36 fwn">支付失败</p>
+		   					<div class="onlyText text18 mText28">
+		   	  					<p class="fwn clearfix"><span class="textCon">如果iTalkBB蜻蜓向您的借记卡或信用卡扣款失败，您的服务会被暂停。如果您需要支付的款项超过45天没有支付，您的账户会被取消，而您的号码也将无法被保留下来。账户内的任何余额都是不可退还也不可转去其他账户的。为了避免这一情况发生，请及时更新您的信用卡信息。如果您的账户内已经有一笔未支付的款项，请在您更新信用卡信息后进行支付。支付方式更新想要更新您的支付方式？没问题！只要登陆网上账户就能轻松搞定。请根据以下步骤进行操作：请登录您的网上账户。</span></p>
+		   					</div>
+		   					<div class="onlyText text18 mText28 star">
+                    			<div class="starimg"><img src="../shared/images/support/supportPay.png" alt=""></div>
+                   				<div class="startext text18 mText24">请注意：如果这是您第一次登陆账号，登录信息就在您的手机号码订单发货后的确认邮件内！如果您未收到该邮件，请联系我们，我们专业的客服人员，将竭诚为您服务。如果这并不是您第一次登陆，请使用您设置的用户名和密码登陆。在最上方的菜单界面内点击“账户设定”并选择“账户信息”，然后点击在您现在支付方式信息旁的“update”， 即可轻松更新支付方式。</div>
+            					</div>			
+							</div>
+				</div>			
+			</div>
+		</div>
+
+		<div class="moneys">
+			<div class="bgMgn gradient">
+	    		<div class="mainBox ">
+	    			<div class="part1">
+	    			 	<div class="partAll ">
+	    					<div class="onlyText text18 mText28 fwn">
+		   	  					<p class="blod">除了下一个账期的产品计划月费以及上一个账期可能产生的其他服务费用之外，iTalkBB蜻蜓每月还会收取您以下款项：</p>
+		   	  					<p class="clearfix"><span class="Sharp">&gt;</span><span class="textCon">BB-综合管理费（Applicable Regulatory/Compliance Fees and Charges）： iTalkBB蜻蜓收取这笔费用来支付政府规定的相关费用，包括联邦、州、地区行业监管费、州税、地方税、紧急拨出费、本地及国际公共电话网络使用费、知识產权费、号码费及其他法律规定的费用。综合管理费为每个电话号码每月$3.95。如果您是包年计划用户，您会在注册时一次缴清一年的综合管理费。</span></p>
+		   	  					<p class="clearfix"><span class="Sharp">&gt;</span><span class="textCon">BB-电信消费税：目前Virginia州和Texas州的用户需支付一定数额的电信消费税。iTalkBB依照规定收取这笔费用并上缴给相关州政府。 </span></p>
+		   	  					<p class="blod">除了上述两项费用之外，iTalkBB蜻蜓移动账单还包括以下收款项目：</p>
+		   					</div>	
+						</div>
+
+
+
+
+					</div>
+				</div>
+			<div class="title2">
+                <div class="table">
+                    <div class="text14  tabletitle">以下是您可在iTalkBB蜻蜓移动账单中看到的收费：</div>
+                    <table width="100%" style="table-layout:fixed" class="  text16 pin f16" frame="below" rules="cols" cellspacing="0" cellpadding="0" bordercolor="#d0d0d0">
+                        <tr class="color">
+                            <td class="td1">Transaction</td>
+                            <td class="td2 tdMiddle">Description</td>
+                            <td class="td3">Amount</td>
+                        </tr>
+
+                        <tr>
+                            <td>Activation激活费</td>
+                            <td class="tdMiddle">只在账户开通时收取，增加额外的手机号码时不收取。</td>
+                            <td>$25</td>
+                        </tr>
+                        <tr>
+                            <td>Reinstate账号恢复</td>
+                            <td class="tdMiddle">以下情况适用：<br> 1.如果有未支付的费用，且未支付天数在1+54天。超过55天， 账户会被取消并且无法恢复。<br> 2.如果客户自行选择停止账户，之后又选择恢复账户。</td>
+                            <td>$10/line 每条线$10</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping邮费</td>
+                            <td class="tdMiddle spanx">适用于设备运送</td>
+                            <td class="spany">Single Standard Service: $3.99; Express Service: $14.99;  Shipping for Mobile&BB&TV ;$15 total 单产品标准邮费;$14.9 移动电话，BB和TV：总计$15</td>
+                        </tr>
+                        <tr>
+                            <td>China Sim Card Fee 中国Sim卡费</td>
+                            <td class="tdMiddle spanx">适用于购买中国SIM卡</td>
+                            <td>$10</td>
+                        </tr>
+                        <tr>
+                            <td>Plan Change Fee 计划变更费</td>
+                            <td class="tdMiddle">适用于降手机计划（从Premium计划将为economic计划）: <br>在升计划时不适用（从economic 计划升级为premi</td>
+                            <td>$18</td>
+                        </tr>
+                        <tr>
+                            <td>International Calling Toll</td>
+                            <td class="tdMiddle"></td>
+                            <td>View Calling Rates</td>
+                        </tr>
+                        <tr>
+                            <td>Charge 国际电话费</td>
+                            <td class="tdMiddle"></td>
+                            <td>参见相应通话费用</td>
+                        </tr>
+                    </table>
+                    <div class="text14 pin tablebottom">除了上述提及的费用外，您需要支付税费。税费具体金额取决于您居住的地区。</div>
+                </div>
+            </div>
+	    	</div>
+
+		</div>
+
+		<div class="menus">
+			<div class="bgMgn gradient">
+	    		<div class="mainBox ">
+	    			<div class="part1">
+	    			 	<div class="partAll ">
+	      					<p class="title36 mTitle36 fwn">查看账单</p>
+		   					<ul>
+		   						<li class="text18 mText28 fwn">
+		   						iTalkBB蜻蜓让您通过登陆网上账户就可以轻松管理您的账单。登录之后，在最上方的菜单界面内点击“账单资讯”即可查看最新账单。</li>
+		   						<li class="text18 mText28 fwn">如果查看历史账单，在最上方的菜单界面内点击“账单资讯”，然后在“历史账单”这一栏内，您可最多查看最近6个月的账单。</li>
+		  					</ul>		
+						</div>
+					</div>
+				</div>
+	    	</div>
+
+	    	<div class="bgMgn gradient">
+	    		<div class="mainBox ">
+
+	    			 	<div class="partAll ">
+	      					<p class="title36 mTitle36 fwn">账单详解</p>
+		   					<div class="onlyText text18 mText28 fwn">
+		   	  					<p class=""><span class='weight'>账期</span>：服务周期以自然月为准，从您的账户激活这一天作为账期起始日，从账期起始日后30天为一个账期。</p>
+		   	  					<p class=""><span class='weight'>缴费</span>：您无需记住日期并在收到帐单后手动付款，我们每月支付日期当天自动收取下一个账期的产品计划月费以及上一个账期可能产生的其他服务费用。iTalkBB蜻蜓移动给您带来非常便利的一点是，您无需记住日期并在收到帐单后手动付款，我们每月会在支付日期的那一天自动收取当月的服务费。</p>
+		   					</div>	
+						</div>
+			
+				</div>
+	    	</div>
+
+	    	<div class="bgMgn gradient">
+	    		<div class="mainBox ">
+
+	    			 	<div class="partAll ">
+	      					<p class="title36 mTitle36 fwn">如果您同时使用蜻蜓移动和蜻蜓电话服务</p>
+		   					<div class="onlyText text18 mText28 fwn">
+		   	  					<p class="">在您激活蜻蜓移动手机服务的当天，我们会按比例向您收取从激活当天算起到您下一个蜻蜓电话账单生成日这一期间的手机服务费。之后我们会在每月收取电话服务费的同时，向您收取您整月的电话服务费以及您的手机服务费。您的蜻蜓电话账单日期和您蜻蜓移动的账单日期将被调整成同一天，方便您管理和支付。</p>
+		   	  					
+		   					</div>	
+						</div>
+			
+				</div>
+	    	</div>
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</section>
+   
+      <section class="mainPart">
+      	  <div class="mainCon">
+       	    <div class="sptLeft">
+        	    <p class="searchTitle title32 mTitle36">有问题？我们将为您竭解答。</p>
+        	    <p class="searchImg text18 mText30">&nbsp;</p>
+        	    <input class="searchBar text18 mText30" type="search" placeholder="" value="输入需要帮助的关键字" onfocus="if (value =='输入需要帮助的关键字'){value =''}" onblur="if (value ==''){value='输入需要帮助的关键字'}" >        	    
+        	    <p class="searchButton text18 mText30">
+                    <span>&gt;</span>
+                </p>
+        	    <div class="clear clearfix"></div>        		
+        	</div>
+        	<div class="sptRight">
+        		<p class="title32 mTitle36">24小时人工客服</p>
+        		<p class="text22 mtext32">专人为您服务</p>
+        		<div class="mHservice">
+        		<ul class="hService clearfix">        		 
+        		   <li class="text18 mText28 bgService1">致电我们</li>
+        		   <li class="text18 mText28 bgService2">微信我们</li>
+        		   <li class="text18 mText28 bgService3 noBoder">到体验店</li>
+        		</ul>
+        		</div>
+        	</div>
+        	<div class="clear clearfix"></div>
+		  </div>           	      	
+      </section>
+    </div>
+    </div>
+    <!--主体内容 end-->
+    
+    <div class="lineBlue"></div>
+    
+    <!--底部文件引入 start--> 
+
+    <!--底部文件引入 end--> 
+</body>
+<script>
+	
+	$(".money").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".moneys").css('display','block');
+    $('.sptBBMenu').children().removeClass('selected');
+    $(this).addClass('selected');
+
+})
+
+	$(".user").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".users").css('display','block');
+    $('.sptBBMenu').children().removeClass('selected');
+    $(this).addClass('selected');
+})
+
+$(".menu").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".menus").css('display','block');
+    $('.sptBBMenu').children().removeClass('selected');
+    $(this).addClass('selected');
+})
+
+$(".pay").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".pays").css('display','block');
+    $('.sptBBMenu').children().removeClass('selected');
+    $(this).addClass('selected');
+})
+
+</script>
+
+</html>
