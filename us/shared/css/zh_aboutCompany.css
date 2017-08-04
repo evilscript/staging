@@ -1,0 +1,45 @@
+.aboutBanner{
+    background:url("../../shared/images/about/companyBannerBg.jpg") top center no-repeat;
+    background-size:100%;
+}
+.aboutTitle{
+    color: white;
+    font-weight: 600;
+    padding-top: 9.5%;
+    margin-bottom:0;
+}
+.aboutSubtitle{
+    padding-top: 1%;
+    font-weight: 500;
+    color: white;
+    line-height: 1.3;
+    margin-bottom:0;
+}
+.aboutTopIcon{
+    float:left;
+    width:20%;
+    padding-top: 14.5%;
+}
+.aboutTopIcon img{
+    width:75%;
+    margin-left:12.5%;
+    opacity:0.9;
+    cursor: pointer;
+}
+.aboutTopIconFirst{
+    margin-left:10%;
+}
+.aboutTopOrg{
+    display:none;
+}
+.aboutTextTitle{
+    padding-top: 3%;
+    color: #222222;
+    margin-bottom:0;
+}
+.aboutTextText{
+    color: #444344;
+    padding-bottom: 1%;
+    padding-top:1%;
+    margin-bottom: 0;
+}

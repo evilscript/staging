@@ -76,8 +76,6 @@ $(document).ready(function(){
     }).mouseleave(function(){
         $(this).attr('src','../shared/images/index/iconIns.jpg');
     });
-
-
 });
 
 
