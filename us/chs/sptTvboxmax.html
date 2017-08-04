@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
     <!--这里继续添加子页面的Css引用文件-->   
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
     
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
     <script src="../shared/js/angular-1.6.4.min.js"></script>
@@ -28,82 +29,16 @@
     <script src="../shared/js/common.js"></script>
     <!--这里继续添加子页面的Js引用文件-->
     <style>
-	body{margin: 0;padding:0;background-color: #fff; text-align:justify}
-	 a:hover, a:focus{color: #ff7f00; }
-	.lineOrange{margin-bottom: 1.2%;}
-	.mainBox{margin: 0 auto;width: 79.2%;}
-	.titFirst{margin-bottom: 1.5%;}
-    .titMgnTop,.imgTitle{margin-top: 3%;}	
-	.imgCnt{margin: 0 auto; width: 66%;/*border-bottom: 1px solid #e6e6e6*/}
-	.imgCnt img{width: 100%; margin: 7% 0;}	
-	.imgLeft img{width: 100%; margin: 5% 0;}
-	.imgTitle{text-align: center; margin-bottom: -5%;}	
-	.bgMgn{padding:3.5% 0;}
-	.gradient{
-    background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
-    background: -webkit-gradient(linear, top, bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
-    background: -webkit-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
-    background: -o-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
-    background: -ms-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
-    background: linear-gradient(to bottom, #ffffff 0%,#f5f5f5 100%);    
-	}	
-	.sptBBMenu{margin: 0 auto;width: 54%;}
-	.sptBBMenu p:first-child{margin-left: 0;}
-	.bbMenuBtn{float: left; width: 49%; margin-left: 1.1%; text-align: center;border: 1px solid #327fe8;line-height: 230%;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
-	.bbMenuBtn:hover,.selected{color:white;box-shadow: inset 400px 0 0 #327fe8;}
-	
-	.part1{margin-top:6%;}
-	.partAll{width: 82.8%;}
-	.hService>li{list-style-type: none;}
-	ul{padding: 0;}
-	ul li{list-style-type:decimal; margin-left: 1.6%;line-height: 2}
-	ul li p:first-child{margin-top: 1%}
-	ul li p:last-child{margin-bottom: 1%;}
-	ul li div.pMgn{margin-bottom: 1.2%;}	
-	.Sharp,.textCon{float: left;}
-	.Sharp{vertical-align: top;margin-right:.8%; }
-	.textCon{width: 96%;}
-	.onlyText{margin-left: 0;}
-	
-	.appQRcode{margin: 1.5% 0;}
-	.QRcode p{float: left; width: 20%;margin-right: 4%; cursor: pointer;}
-	.QRcode p:first-child{margin-top: 0;}
-	.QRcode p img{width: 100%; display: block;}
-	.QRcode p img:first-child{margin-bottom: 6%;}
 
 
 	.me{color: #ff7f00; }
-
-    @media (max-width:767px){
-	.mainLayout{padding-bottom: 5%;}
-	.lineGray{border-bottom: 1px solid #e6e6e6}
-	.sptBBMenu{width: 100%; margin-top: 3%;}
-    .mainBox{padding: 0 5.5%; width: 100%}
-	.gradient{padding: 6% 0;}
-    .partAll{width: 100%}
-	ul li{margin-left: 4.5%;line-height: 1.61}
-	.titMgnTop{margin-top: 7%;}
-	.imgTitle{margin-top: 3%;}
-	.imgCnt{width: 100%;}
-	.imgCnt img{margin: 8.8% 0;}
-	.imgLeft{width: 100%;}
-	.imgLeft img{width: 100%;}
-	.QRcode p{width: 100%; padding:0 21% 0 18%; margin: 6% 0;}
-	.QRcode p:first-child{margin-top: 8%;}
-	.QRcode p:last-child{margin-bottom: 8%;}
-	.QRcode p img:first-child{margin-bottom: 12%;}
-	.QRcode p span{text-align: center; margin-top: 2%;}
-	.sptLeft{background: none;
-	background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
-    background: -webkit-gradient(linear, top, bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
-    background: -webkit-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
-    background: -o-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
-    background: -ms-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
-    background: linear-gradient(to bottom, #ffffff 0%,#f5f5f5 100%);}
-	.imgBox img{margin: 8.5% 0;}
+	.write2{display: none;}
+	.bbMenuBtn{width: 49%;}
+	.bbMenuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
+   
     }	
 
-    .write2{display: none;}
+
 	</style>
 </head>
 
@@ -126,8 +61,8 @@
       	    </div> 	   
        </section>
        
-       <section class="mainPart">
-      	  <div class="mainCon">
+       <section class="mainMgnTop">
+      	  <div class="mainLimited">
        	    <!--橙色装饰线，样式已放入common.css，直接引用即可-->
         	<div class="lineOrange"></div>       	        	 
         	<div class="sptBBMenu clearfix">
@@ -139,21 +74,23 @@
        
        <section class='shows'>
        	<div class="write">
-			<div class="mainBox">
-				<div class="part1">
+			<div class="mainLimited bgMgn">
+
+					<div class="partAll">
 		    		<p class="titFirst title36 mTitle36 fwn">电视盒子安装</p>
 		    		<p class="title30 mTitle32 fwn">安装示意图</p>		    
 		    		<div class="imgCnt lineGray">
 		    			<p class="imgTitle title22 mTitle28 fwn"><a href="" class="me black buttn">蜻蜓电视盒子-黑色幻彩</a> | <a href="" class="ag buttn">蜻蜓电视盒子-银色A5</a> </p>
 		    			<img class="tvboximg" src="../shared/images/support/tvbox01.png" alt="">
 		    		</div>
-				</div>
+		    		</div>
+	
 	    	</div> 
 
 
 		
 		<div class="bgMgn gradient">
-			<div class="mainBox">
+			<div class="mainLimited">
 				<div class="partAll titMgnTop">
 	       			<p class="title30 mTitle32 fwn">iTalkBB蜻蜓电视安装步骤</p>
 		   			<ul>
@@ -188,7 +125,7 @@
 
 		
 		<div class="bgMgn gradient">
-			<div class="mainBox">
+			<div class="mainLimited">
 				<div class="partAll">
            			<p class="titFirst title36 mTitle36 fwn">产品功能</p>
 	      			<p class="title30 mTitle32 fwn">影视点播 </p>
@@ -229,8 +166,8 @@
 		</div>
 
 		<div class="write2">
-			<div class="mainBox">
-				<div class="part1">
+			<div class="mainLimited bgMgn">
+	
 					<div class="partAll">
            				<p class="titFirst title36 mTitle36 fwn">播放问题</p>
 	       				<p class="title30 mTitle32 fwn">机顶盒启动过程中无任何图像显示 </p>
@@ -240,13 +177,13 @@
 		   					<li class="text18 mText28 fwn">请检查电视机“Input"键或“Source"键，查看是否切换到与输入端相对应的视频通道；</li>
 		   				</ul>			
 					</div>
-				</div>
+				
 	    	</div> 
 
 
 		
 			<div class="bgMgn gradient">
-				<div class="mainBox">
+				<div class="mainLimited">
 					<div class="partAll">
 	       				<p class="title30 mTitle32 fwn">机顶盒正常安装后，电视有画面却没有声音</p>
 		   				<div class="onlyText text18 mText28">
@@ -260,7 +197,7 @@
 		   		</div>
 		
 				<div class="bgMgn ">
-					<div class="mainBox">
+					<div class="mainLimited">
 						<div class="partAll">
 	       					<p class="title30 mTitle32 fwn">电视画面为黑白色</p>
 		   					<div class="onlyText text18 mText28">
@@ -270,7 +207,7 @@
 					</div>
 				</div>
 		
-				<div class="mainBox">
+				<div class="mainLimited">
 					<div class="partAll">
 	       				<p class="title30 mTitle32 fwn">观看时，画面突然卡住不动</p>
 		   				<div class="onlyText text18 mText28">
@@ -283,7 +220,7 @@
 				</div>
 
 			<div class="bgMgn ">
-				<div class="mainBox">
+				<div class="mainLimited">
 					<div class="partAll">
 	       				<p class="title30 mTitle32 fwn">收看过程中节目突然中断</p>
 		   				<div class="onlyText text18 mText28">
@@ -295,7 +232,7 @@
 			</div>
 
 
-			<div class="mainBox">
+			<div class="mainLimited">
 				<div class="partAll">
 	      			<p class="title30 mTitle32 fwn">画面播放正常过程中遥控器操作无反应</p>
 		   			<div class="onlyText text18 mText28">
@@ -310,7 +247,7 @@
 
 		
 				<div class="bgMgn gradient">
-					<div class="mainBox">
+					<div class="mainLimited">
 						<div class="partAll">
            					<p class="titFirst title36 mTitle36 fwn">网络连接问题</p>
 	       					<p class="title30 mTitle32 fwn">电视显示iTalkBB中文电视服务主页面，但是无法进行线上视频观看</p>
@@ -342,30 +279,8 @@
 		</div>
 	</section>
    
-      <section class="mainPart">
-      	  <div class="mainCon">
-       	    <div class="sptLeft">
-        	    <p class="searchTitle title32 mTitle36">有问题？我们将为您竭解答。</p>
-        	    <p class="searchImg text18 mText30">&nbsp;</p>
-        	    <input class="searchBar text18 mText30" type="search" placeholder="" value="输入需要帮助的关键字" onfocus="if (value =='输入需要帮助的关键字'){value =''}" onblur="if (value ==''){value='输入需要帮助的关键字'}" >        	    
-        	    <p class="searchButton text18 mText30">
-                    <span>&gt;</span>
-                </p>
-        	    <div class="clear clearfix"></div>        		
-        	</div>
-        	<div class="sptRight">
-        		<p class="title32 mTitle36">24小时人工客服</p>
-        		<p class="text22 mtext32">专人为您服务</p>
-        		<div class="mHservice">
-        		<ul class="hService clearfix">        		 
-        		   <li class="text18 mText28 bgService1">致电我们</li>
-        		   <li class="text18 mText28 bgService2">微信我们</li>
-        		   <li class="text18 mText28 bgService3 noBoder">到体验店</li>
-        		</ul>
-        		</div>
-        	</div>
-        	<div class="clear clearfix"></div>
-		  </div>           	      	
+      <section class="container1920 partMgnTop">
+        <div ng-include="'sptSearch.html'"></div>
       </section>
     </div>
     <!--主体内容 end-->
