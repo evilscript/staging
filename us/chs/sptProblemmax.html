@@ -30,6 +30,11 @@
     <!--这里继续添加子页面的Js引用文件-->
     <style>
 	
+	ul li{margin-left: 0}
+	.sptBBMenu{width: 74%;}
+	.bbMenuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
+	.bbMenuBtn{width: 24%;}
+	.bbMenuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
 	.star div{display: inline-block;vertical-align: top}
 	.star{padding-top: 1%}
 	.starimg{width: 2%}
@@ -51,11 +56,11 @@
 	.picBox1Img2{display: none;}
 	.picBox2Img2{display: none;}
 	.titMgnTopy{margin-top: 4.5%}
-	.blod{font-weight: 600}
+	.blod{font-weight: 600;margin-top: 2%}
 	.td1{width: 19%}
 	.td2{width: 55%}
 	.td3{width: 26%}
-	.title2{padding-top:2.5%;padding-bottom: 2.1%;width: 60%;margin: 0 auto }
+	.title2{padding-top:3.5%;padding-bottom: 2.1%;width: 60%;margin: 0 auto }
 	.calltable{margin-bottom:5%;padding-left:5.5%;}
 	.tabletitle{padding-bottom: 0.5%;font-weight: 600}
 	.tablebottom{padding-top: 0.5%;font-weight: 600}
@@ -67,10 +72,16 @@
 	.tdMiddle{padding: 2% 2% 2% 5%}
 	.weight{font-weight: 600}
 
+	@media  (min-width:768px) and (max-width:1000px){
+		.title2{width: 100%}
+
+}
+
 
 
 
     @media (max-width:767px){
+    .sptBBMenu{width: 100%}
 	.star div{display: block;}
 	.starimg{float: left;width: 7%}
 	.starimg img{width: 40%}
@@ -126,7 +137,7 @@
       	    </div> 	   
        </section>
        
-       <section class="mainPart">
+       <section class="mainMgnTop">
       	  <div class="mainLimited">
        	    <!--橙色装饰线，样式已放入common.css，直接引用即可-->
         	<div class="lineOrange"></div>       	        	 
@@ -144,7 +155,7 @@
 	    <div class="users">
 	    	<div class="bgMgn gradient">
 	    		<div class="mainLimited">
-	    			<div class="part1">
+
 	    			 	<div class="partAll ">
 	      					<p class="title36 mTitle36 fwn">设置您的账户登录名</p>
 		   					<ul>
@@ -153,7 +164,7 @@
 		   						<li class="text18 mText28 fwn">如果您未收到该邮件，请<a href="">联系我们</a>，我们专业的客服人员，将竭诚为您服务。</li>
 		  					</ul>		
 						</div>
-					</div>
+
 				</div>
 	    	</div>
 
@@ -233,14 +244,14 @@
        	<div class="pays">
        		<div class="bgMgn gradient"> 
 				<div class="mainLimited">
-					<div class="part1">
+	
 						<div class="partAll ">
 	       					<p class="title36 mTitle36 fwn">支付方式</p>
 		   					<div class="onlyText text18 mText28">
 		   	  					<p class="fwn clearfix"><span class="textCon">为了保护您的财产安全，我们暂时只接受借记卡和信用卡的支付方式，包括Visa, Master, American Express以及Discover。</span></p>
 		   					</div>			
 						</div>
-					</div>
+	
 	    		</div>
 	   		</div>
 
@@ -279,7 +290,7 @@
 		<div class="moneys">
 			<div class="bgMgn gradient">
 	    		<div class="mainLimited">
-	    			<div class="part1">
+	    	
 	    			 	<div class="partAll ">
 	    					<div class="onlyText text18 mText28 fwn">
 		   	  					<p class="blod">除了下一个账期的产品计划月费以及上一个账期可能产生的其他服务费用之外，iTalkBB蜻蜓每月还会收取您以下款项：</p>
@@ -345,12 +356,12 @@
             </div>
 	    	</div>
 
-		</div>
+		
 
 		<div class="menus">
 			<div class="bgMgn gradient">
 	    		<div class="mainLimited">
-	    			<div class="part1">
+	    			
 	    			 	<div class="partAll ">
 	      					<p class="title36 mTitle36 fwn">查看账单</p>
 		   					<ul>
@@ -359,7 +370,7 @@
 		   						<li class="text18 mText28 fwn">如果查看历史账单，在最上方的菜单界面内点击“账单资讯”，然后在“历史账单”这一栏内，您可最多查看最近6个月的账单。</li>
 		  					</ul>		
 						</div>
-					</div>
+				
 				</div>
 	    	</div>
 
