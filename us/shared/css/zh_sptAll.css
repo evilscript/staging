@@ -96,6 +96,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.foldBoxSpc2{margin-bottom: 4%;} 
 	.foldBoxSpc2 .bubbleAngle{margin-left: 15%;}
 	.foldText{padding:3.5% 4.2% 2.3% 4.2%; border-radius: 8px;}
+	.bubbleAngle{margin-bottom: -10px;}
 	.mainLayout{padding-bottom: 5%;}
     .mainLimited{width: 100%}
 	.bubbleAngle{margin-left: 8.5%;}
