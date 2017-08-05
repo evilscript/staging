@@ -1,0 +1,86 @@
+.aboutBanner{
+    background:url("../../shared/images/about/companyBannerBg.jpg") top center no-repeat;
+    background-size:100%;
+}
+.aboutTitle{
+    color: white;
+    font-weight: 600;
+    padding-top: 9.5%;
+    margin-bottom:0;
+}
+.aboutSubtitle{
+    padding-top: 1%;
+    font-weight: 500;
+    color: white;
+    line-height: 1.3;
+    margin-bottom:0;
+}
+.aboutTopIcon{
+    float:left;
+    width:20%;
+    padding-top: 14.5%;
+}
+.aboutTopIcon img{
+    width:75%;
+    margin-left:12.5%;
+    opacity:0.9;
+    cursor: pointer;
+}
+.aboutTopIconFirst{
+    margin-left:10%;
+}
+.aboutTopOrg{
+    display:none;
+}
+.aboutTextTitle{
+    padding-top: 3%;
+    color: #222222;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.aboutTextText{
+    color: #444344;
+    padding-bottom: 1%;
+    padding-top:1%;
+    margin-bottom: 0;
+}
+@keyframes rot {
+    0%   { transform: rotate(0deg); }
+    25% { transform: rotate(90deg); }
+    50% { transform: rotate(180deg); }
+    75% { transform: rotate(270deg); }
+    100% { transform: rotate(360deg); }
+}
+.aboutTextLeftImg{
+    float:left;
+    width:15%;
+    cursor:pointer;
+    margin-top: 2%;
+}
+.aboutTextLeftImg img{
+    width:100%;
+}
+.divB, .divC, .divD{
+    position: absolute;
+    width: 12%;
+    height: 24%;
+    background: url(../../shared/images/about/textLeftIconBorder.png) top center no-repeat;
+    background-size: cover;
+}
+.divB:hover, .divC:hover, .divD:hover{
+    animation:rot 2s infinite;
+    animation-delay:0s;
+    animation-timing-function: linear;
+}
+.aboutTextRightText{
+    float: left;
+    width: 85%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.rightTextTitle{
+    font-weight:600;
+}
+.rightTextSubTitle{
+    line-height:1.6;
+}

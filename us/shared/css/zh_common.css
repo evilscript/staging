@@ -11,6 +11,7 @@ a, a:hover, a:focus{ text-decoration:none;}
 img{border:none; display:block;}
 .opacity {filter: alpha(opacity=75); -moz-opacity: .75; -khtml-opacity: .75; opacity: .75;}
 input:focus{ outline:none;}
+.org{color:#ff972f;}
 .scroll{height:auto!important;}
 /*初始化设置结束*/
 
@@ -140,6 +141,11 @@ input:focus{ outline:none;}
 }
 .container1920{
     max-width:1920px;
+    width:100%;
+    margin:0 auto;
+}
+.container1520{
+    max-width:1520px;
     width:100%;
     margin:0 auto;
 }
