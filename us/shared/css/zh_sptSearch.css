@@ -80,8 +80,8 @@ a, a:hover, a:focus{color: #222;}
 	.searchButton{width: 16%;}
 	.mHservice{margin-top: 1.5%;}
 	.hService{width: 100%; margin-left: .5%;padding: 0 1%; margin-bottom: 7%; margin-top: 5%;}
-	.hService p{float: left; width: 33%; text-align: center; padding-top: 16%;border-right: 1px solid #b1b1b1;}
-	.bgService1,.bgService2,.bgService3{background-size: 42%;background-position-y: 0;}
+	.hService p{float: left; width: 33%; text-align: center; padding-top: 14.5%;border-right: 1px solid #b1b1b1;}
+	.bgService1,.bgService2,.bgService3{background-size: 38%;background-position-y: 0;}
 	
 }
 

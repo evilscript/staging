@@ -27,6 +27,7 @@
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
+    <script src="../shared/js/AmyInterim.js"></script>
     <!--这里继续添加子页面的Js引用文件-->
     <style>
 	/**/
@@ -54,10 +55,12 @@
        <section class="mainMgnTop">
       	  <div class="mainBothEnds">
         	<div class="lineOrange"></div>       	        	 
-        	<div class="sptBBMenu clearfix">
-			<p class="bbMenuBtn title22 mTitle24 fwn selected">产品使用</p>
-			<p class="bbMenuBtn title22 mTitle24 fwn">故障查询</p>
-			<p class="bbMenuBtn title22 mTitle24 fwn">费率查询</p>		
+        	<div class="sptMenu">
+        	<div class="menuBox clearfix">
+			<a href="sptBBuse.html"><p class="menuBtn title22 mTitle24 fwn selected">产品使用</p></a>
+			<a href="sptBBfault.html"><p class="menuBtn title22 mTitle24 fwn">故障查询</p></a>
+			<a href=""><p class="menuBtn title22 mTitle24 fwn">费率查询</p></a>
+			</div>	
 			</div>
 		  </div>           	      	
        </section>
@@ -334,9 +337,13 @@
 		</div>
 		
 		<div class="partAll titMgnTop clearfix">
-           <p class="title30 mTitle32 fwn">
-           来电转移-设置方法<span class="imgTitRgt30 title30 mTitle32">&nbsp;&nbsp;</span>
-           </p>	       		
+           <div class="btnTxt30 title30 mTitle32 fwn" onclick="show('foldCall','imgCall')">来电转移 - 设置方法<img id="imgCall" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
+           <div id="foldCall" class="foldBox" style="display: none;">
+             <div class="bubbleAngle"></div>
+             <div class="foldText text18 mText28 fwn">
+	   	        <p>此处还没有提供正式文案，仅为效果展示。</p>
+		     </div>
+		   </div>       		
 		</div>
 		<div class="partAll titMgnTop">
            <p class="title30 mTitle32 fwn">来电显示</p>	       		
@@ -345,9 +352,13 @@
            <p class="title30 mTitle32 fwn">来电等候</p>	       		
 		</div>
 		<div class="partAll titMgnTop clearfix">
-           <p class="title30 mTitle32 fwn">
-           三方通话—使用方法<span class="imgTitRgt30 title30 mTitle32">&nbsp;&nbsp;</span>
-           </p>	       		
+           <div class="btnTxt30 title30 mTitle32 fwn" onclick="show('foldCall2','imgCall2')">三方通话 - 使用方法<img id="imgCall2" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
+           <div id="foldCall2" class="foldBox" style="display: none;">
+             <div class="bubbleAngle"></div>
+             <div class="foldText text18 mText28 fwn">
+	   	        <p>此处还没有提供正式文案，仅为效果展示。</p>
+		     </div>
+		   </div>       		
 		</div>		
 		<div class="partAll titMgnTop">
            <p class="title30 mTitle32 fwn">免费网内通话：</p>
@@ -356,9 +367,13 @@
 		   </div>			
 		</div>
 		<div class="partAll titMgnTop clearfix">
-           <p class="title30 mTitle32 fwn">
-           语音信箱—使用方法<span class="imgTitRgt30 title30 mTitle32">&nbsp;&nbsp;</span>
-           </p>	       		
+           <div class="btnTxt30 title30 mTitle32 fwn" onclick="show('foldCall3','imgCall3')">语音信箱 - 使用方法<img id="imgCall3" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
+           <div id="foldCall3" class="foldBox" style="display: none;">
+             <div class="bubbleAngle"></div>
+             <div class="foldText text18 mText28 fwn">
+	   	        <p>此处还没有提供正式文案，仅为效果展示。</p>
+		     </div>
+		   </div>      		
 		</div>		
 		<div class="partAll titMgnTop">
            <p class="title30 mTitle32 fwn">E911：</p>

@@ -26,11 +26,12 @@
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
-    <!--这里继续添加子页面的Js引用文件-->
+    <script src="../shared/js/AmyInterim.js"></script>
+    <!--这里继续添加子页面的Js引用文件--> 
 
     <style>
 	/**/
-	.Zk_text{ display:none}
+	
 	</style>
 </head>
 
@@ -55,10 +56,12 @@
        <section class="mainMgnTop">
       	  <div class="mainBothEnds">
         	<div class="lineOrange"></div>       	        	 
-        	<div class="sptBBMenu clearfix">
-			<p class="bbMenuBtn title22 mTitle24 fwn selected">产品使用</p>
-			<p class="bbMenuBtn title22 mTitle24 fwn">故障查询</p>
-			<p class="bbMenuBtn title22 mTitle24 fwn">信号覆盖</p>		
+        	<div class="sptMenu">
+        	<div class="menuBox clearfix">
+			<a href="sptMobileUse.html"><p class="menuBtn title22 mTitle24 fwn selected">产品使用</p></a>
+			<a href="sptMobileFault.html"><p class="menuBtn title22 mTitle24 fwn">故障查询</p></a>
+			<a href="sptMobileSignal.html"><p class="menuBtn title22 mTitle24 fwn">信号覆盖</p></a>
+			</div>	
 			</div>
 		  </div>           	      	
        </section>
@@ -79,18 +82,29 @@
 		   	  	 <li>呼叫等待</li>
 		   	  	 <li>无限国际短信</li>
 		   	  	 <li>
-		   	  	 无限网络流量<span class="imgTitRgt18 text18">&nbsp;&nbsp;</span>
+		   	  	 <div class="btnTxt18" onclick="show('fold1','imgPoint1')">语音邮箱设置方法<img id="imgPoint1" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
 		   	  	 </li>
 		   	  	 <li>
-		   	  	 语音邮箱设置方法<span class="imgTitRgt18 text18">&nbsp;&nbsp;</span>		   	  	 
+		   	  	 <div class="btnTxt18" onclick="show('fold2','imgPoint2')">无限网络流量<img id="imgPoint2" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
 		   	  	 </li>		   	  	 		   	  	 
-		   	  </ul>	
-		   	  <!--<div class="foldingBlock Zk_text">
-		   	    <p>所有iTalkBB蜻蜓移动计划都提供无限流量。</p>
-		   	    <p>但是无限流量与高速流量是有区别的，每一个手机计划在每月提供的高速4G LTE流量是有限的。当您的用量超过了，您仍旧可以继续随心上网，只是速度会有所下降。但即使降速了，您仍然可以发送邮件、浏览网页、和使用微信等常用的服务，而不受到影响。</p>
-		   	    <p>情景举例：您使用的是5GB超值计划，您可以通过iTalkBB蜻蜓移动的手机计划享用5GB的高速流量服务。您可以使用高速流量下载视频，图片，收发邮件，或浏览网页。 当您的手机使用了超过5GB的流量后，您在剩余的账单期限内使用手机时的网络速度将会有所下降，但您仍然可以通过iTalkBB蜻蜓移动继续使用网络服务</p>
-			  </div>-->	   	  	
-		    </div>		    
+		   	  </ul>		  	  	
+		    </div>
+		    <!--此处为隐藏文本 start-->	
+		    <div id="fold1" class="foldBox foldBoxSpc1" style="display: none;">             
+                 <div class="bubbleAngle"></div>
+				 <div class="foldText text18 mText28 fwn">
+				    <p>此处还没有提供正式文案，仅为效果展示。</p>
+				 </div>
+		    </div>
+	    	<div id="fold2" class="foldBox foldBoxSpc2" style="display: none;">             
+                 <div class="bubbleAngle"></div>
+				 <div class="foldText text18 mText28 fwn">
+				    <p>所有iTalkBB蜻蜓移动计划都提供无限流量。</p>
+				    <p>但是无限流量与高速流量是有区别的，每一个手机计划在每月提供的高速4G LTE流量是有限的。当您的用量超过了，您仍旧可以继续随心上网，只是速度会有所下降。但即使降速了，您仍然可以发送邮件、浏览网页、和使用微信等常用的服务，而不受到影响。</p>
+				    <p>情景举例：您使用的是5GB超值计划，您可以通过iTalkBB蜻蜓移动的手机计划享用5GB的高速流量服务。您可以使用高速流量下载视频，图片，收发邮件，或浏览网页。 当您的手机使用了超过5GB的流量后，您在剩余的账单期限内使用手机时的网络速度将会有所下降，但您仍然可以通过iTalkBB蜻蜓移动继续使用网络服务。</p>
+				 </div>
+		    </div>
+		    <!--此处为隐藏文本 end-->		    	    
 		</div>
 		</div>
 		</div>
