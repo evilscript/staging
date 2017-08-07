@@ -35,7 +35,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.sptMenu{margin: 0 auto; width: 54%;}
 	.menuBox{width: 101.1%;}
 	.menuBtn{float: left; width: 32.3%; text-align: center; margin-right: 1%; border: 1px solid #327fe8;line-height: 220%;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
-	.menuBtn:hover,.selected{color:white;box-shadow: inset 300px 0 0 #327fe8;}
+	.menuBtn:hover,.selected,.menuBtn:visited{color:white;box-shadow: inset 300px 0 0 #327fe8;}
 	
 	.partAll{width: 100%; padding-right: 17.2%;}
 	.hService>li{list-style-type: none;}
