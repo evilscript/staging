@@ -18,7 +18,8 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <!--这里继续添加子页面的Css引用文件-->   
+    <!--这里继续添加子页面的Css引用文件-->  
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_support.css"> 
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
     
@@ -44,12 +45,7 @@
     <!--主体内容 start--> 
     <div class="mainLayout">
        <section>
-      	    <div class="hideM">
-      	    	<img src="../shared/images/support/chs_sptTvBanner.jpg" alt="" style="width:100%;">
-      	    </div>
-      	    <div class="showM">
-      	    	<img src="../shared/images/support/chs_mobileSupportBanner.jpg" alt="" style="width:100%;">
-      	    </div> 	   
+      	    <div ng-include="'sptBanner.html'"></div>	   
        </section>
        
        <section class="mainMgnTop">
@@ -341,7 +337,18 @@
            <div id="foldCall" class="foldBox" style="display: none;">
              <div class="bubbleAngle"></div>
              <div class="foldText text18 mText28 fwn">
-	   	        <p>此处还没有提供正式文案，仅为效果展示。</p>
+	   	        <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">设置转移所有来电：听到拨号音后，按「 * 」键+72直接输入您需要设置的电话号码听到短音后，即设置成功</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">取消转移所有来电：听到拨号音后，按「 * 」键+73听到提示音，即取消设置</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">设置转移所有无人接听来电：听到拨号音后，按「 * 」键+92直接输入您需要设置的电话号码听到短音后，即设置成功</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">取消转移所有无人接听来电：听到拨号音后，按「 * 」键+93听到提示音后，即取消设置</span>
+		   	    </p>
 		     </div>
 		   </div>       		
 		</div>
@@ -356,7 +363,20 @@
            <div id="foldCall2" class="foldBox" style="display: none;">
              <div class="bubbleAngle"></div>
              <div class="foldText text18 mText28 fwn">
-	   	        <p>此处还没有提供正式文案，仅为效果展示。</p>
+	   	        <ul class="listNom">
+		      	<li class="text18 mText28 fwn">
+		   		请先拨通对方电话	   		 
+		   	    </li>
+		      	<li class="text18 mText28 fwn">
+		   		按应答键或Flash键，让对方处于等候状态
+		     	</li>
+		   	    <li class="text18 mText28 fwn">
+		   		听到拨号音后，再拨第三方电话号码
+		      	</li>
+		      	<li class="text18 mText28 fwn">
+		   		待接通后，再按应答键或Flash键
+		      	</li>
+		        </ul>
 		     </div>
 		   </div>       		
 		</div>		
@@ -371,7 +391,15 @@
            <div id="foldCall3" class="foldBox" style="display: none;">
              <div class="bubbleAngle"></div>
              <div class="foldText text18 mText28 fwn">
-	   	        <p>此处还没有提供正式文案，仅为效果展示。</p>
+	   	        <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">您可以通过电话录制的方式随时更新您的问候语</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">您可以随时登录您的账户，在"增值服务"菜单下选择"语音信箱"，设置、启动或关闭您的语音信箱功能</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">语音资讯发送到您的Email之后，还会在服务器上为您保留24小时；若您不希望无应答来电进入语音信箱，我们还提供呼叫转移功能</span>
+		   	    </p>
 		     </div>
 		   </div>      		
 		</div>		

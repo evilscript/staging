@@ -17,7 +17,8 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <!--这里继续添加子页面的Css引用文件-->   
+    <!--这里继续添加子页面的Css引用文件-->  
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_support.css"> 
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
     
@@ -44,12 +45,7 @@
     <!--主体内容 start--> 
     <div class="mainLayout">
        <section>
-      	    <div class="hideM">
-      	    	<img src="../shared/images/support/chs_sptTvBanner.jpg" alt="" style="width:100%;">
-      	    </div>
-      	    <div class="showM">
-      	    	<img src="../shared/images/support/chs_mobileSupportBanner.jpg" alt="" style="width:100%;">
-      	    </div> 	   
+      	    <div ng-include="'sptBanner.html'"></div>	   
        </section>
        
        <section class="mainMgnTop">
@@ -92,7 +88,13 @@
 		    <div id="fold1" class="foldBox foldBoxSpc1" style="display: none;">             
                  <div class="bubbleAngle"></div>
 				 <div class="foldText text18 mText28 fwn">
-				    <p>此处还没有提供正式文案，仅为效果展示。</p>
+				    <p class="">可以通过以下两种方式管理和设置您的语音信箱：</p>
+		   	        <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		    <span class="textCon">在拨号界面长按1，即可连接到语音信箱，然后您可以根据语音菜单提示进行设置。</span>
+		   	        </p>
+		   	        <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		    <span class="textCon">通过您手机的通话或设置功能进行管理，具体操作方法，请参照您手机的说明书。</span>
+		   	        </p>
 				 </div>
 		    </div>
 	    	<div id="fold2" class="foldBox foldBoxSpc2" style="display: none;">             

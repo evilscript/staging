@@ -762,7 +762,7 @@ input:focus{ outline:none;}
 	/* mainLayout end*/
 	
 	/* fontSize start */
-    .title60{font-size: 3.2vw;}
+    .title60{font-size: 5.2vw;}/**/
     .title36{font-size: 3.2vw;}/**/
     .title32{font-size: 2.6vw;} /**/
 	.title30{font-size: 2.4vw;} /**/
@@ -921,6 +921,7 @@ input:focus{ outline:none;}
 	/* mainLayout end*/
 	
 	/* fontSize start */
+	.mTitle60{font-size: 7.8vw;}
 	.mTitle50{font-size: 6.52vw;}
 	.mTitle48{font-size: 6.26vw;}
 	.mTitle36{font-size: 4.69vw;}

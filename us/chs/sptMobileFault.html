@@ -18,7 +18,8 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <!--这里继续添加子页面的Css引用文件-->   
+    <!--这里继续添加子页面的Css引用文件-->  
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_support.css"> 
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
     
@@ -43,12 +44,7 @@
     <!--主体内容 start--> 
     <div class="mainLayout">
        <section>
-      	    <div class="hideM">
-      	    	<img src="../shared/images/support/chs_sptTvBanner.jpg" alt="" style="width:100%;">
-      	    </div>
-      	    <div class="showM">
-      	    	<img src="../shared/images/support/chs_mobileSupportBanner.jpg" alt="" style="width:100%;">
-      	    </div> 	   
+      	    <div ng-include="'sptBanner.html'"></div>	   
        </section>
        
        <section class="mainMgnTop">
