@@ -33,8 +33,8 @@
 
 	.me{color: #ff7f00; }
 	.write2{display: none;}
-	.bbMenuBtn{width: 49%;}
-	.bbMenuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
+	.menuBtn{width: 49%;}
+	.menuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
    
     }	
 
@@ -61,16 +61,23 @@
       	    </div> 	   
        </section>
        
+
+
+
        <section class="mainMgnTop">
-      	  <div class="mainLimited">
-       	    <!--橙色装饰线，样式已放入common.css，直接引用即可-->
+      	  <div class="mainBothEnds">
         	<div class="lineOrange"></div>       	        	 
-        	<div class="sptBBMenu clearfix">
-			<p class="bbMenuBtn use title22 mTitle24 fwn ">产品使用</p>
-			<p class="bbMenuBtn wrong title22 mTitle24 fwn">故障查询</p>
+        	<div class="sptMenu">
+        	<div class="menuBox clearfix">
+			<p class="menuBtn title22 mTitle24 fwn  use">产品使用</p>
+		    <p class="menuBtn title22 mTitle24 fwn wrong">故障查询</p>
+
+			</div>	
 			</div>
 		  </div>           	      	
        </section>
+
+
        
        <section class='shows'>
        	<div class="write">
@@ -298,7 +305,7 @@
         $(".use").click(function(){
     $(".shows").children().css("display", "none");
     $(".write").css('display','block');
-    $('.sptBBMenu').children().removeClass('selected');
+    $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');
 
 
@@ -307,7 +314,7 @@
     $(".wrong").click(function(){
     $(".shows").children().css("display", "none");
     $(".write2").css('display','block');
-    $('.sptBBMenu').children().removeClass('selected');
+    $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');
   
 })

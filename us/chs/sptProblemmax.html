@@ -32,9 +32,9 @@
 	
 
 	.sptBBMenu{width: 74%;}
-	.bbMenuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
-	.bbMenuBtn{width: 24%;}
-	.bbMenuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
+	.menuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
+	.menuBtn{width: 24%;}
+	.menuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
 	.star div{display: inline-block;vertical-align: top}
 	.star{padding-top: 1%}
 	.starimg{width: 2%}
@@ -137,18 +137,25 @@
       	    </div> 	   
        </section>
        
+
+
+
+
        <section class="mainMgnTop">
-      	  <div class="mainLimited">
-       	    <!--橙色装饰线，样式已放入common.css，直接引用即可-->
+      	  <div class="mainBothEnds">
         	<div class="lineOrange"></div>       	        	 
-        	<div class="sptBBMenu clearfix">
-			<p class="bbMenuBtn title22 mTitle24 fwn changesR user">账户管理</p>
-			<p class="bbMenuBtn title22 mTitle24 fwn changesR menu">账单管理</p>
-			<p class="bbMenuBtn title22 mTitle24 fwn changesR pay">支付方式</p>
-			<p class="bbMenuBtn title22 mTitle24 fwn money">收费明细</p>				
+        	<div class="sptMenu">
+        	<div class="menuBox clearfix">
+			<p class="menuBtn title22 mTitle24 fwn  user">账户管理</p>
+		    <p class="menuBtn title22 mTitle24 fwn menu">账单管理</p>
+			<p class="menuBtn title22 mTitle24 fwn pay">支付方式</p>
+			<p class="menuBtn title22 mTitle24 fwn money">收费明细</p>	
+			</div>	
 			</div>
 		  </div>           	      	
        </section>
+
+
        
        <section class='shows'>
 		
@@ -424,7 +431,7 @@
 	$(".money").click(function(){
 	$(".shows").children().css("display", "none");
 	$(".moneys").css('display','block');
-    $('.sptBBMenu').children().removeClass('selected');
+    $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');
 
 })
@@ -432,21 +439,21 @@
 	$(".user").click(function(){
 	$(".shows").children().css("display", "none");
 	$(".users").css('display','block');
-    $('.sptBBMenu').children().removeClass('selected');
+    $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');
 })
 
 $(".menu").click(function(){
 	$(".shows").children().css("display", "none");
 	$(".menus").css('display','block');
-    $('.sptBBMenu').children().removeClass('selected');
+    $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');
 })
 
 $(".pay").click(function(){
 	$(".shows").children().css("display", "none");
 	$(".pays").css('display','block');
-    $('.sptBBMenu').children().removeClass('selected');
+    $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');
 })
 
