@@ -54,10 +54,11 @@
 <body ng-app="">
     <!--Carson制作-->
 
-    <section data-section-name="iTalkBB" class="scroll container1920">
-        <header class="container1920">
-            <div ng-include="'header.html'"></div>
-        </header>
+    <section data-section-name="iTalkBB" class="scroll">
+
+        <div ng-include="'header.html'"></div>
+
+        <div class="container1920">
             <!--桌面端banner开始-->
             <div id="myCarousel" class="carousel slide hideM" data-ride="carousel" data-interval="false">
                 <!-- Indicators -->
@@ -182,7 +183,8 @@
             </div>
             <!--移动端banner结束-->
             <div class="clear clearfix"></div>
-        </section>
+        </div>
+    </section>
 
     <section data-section-name="iTalkMobile" id="iTalkMobile" class="scroll iTalkMobile">
         <div class="container1920 bg2">
@@ -394,7 +396,7 @@
             </p>
             <div class="clear clearfix"></div>
         </div>
-        <footer class="scroll container1920">
+        <footer class="scroll">
             <div ng-include="'footer.html'"></div>
         </footer>
     </section>

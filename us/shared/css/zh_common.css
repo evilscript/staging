@@ -113,8 +113,8 @@ input:focus{ outline:none;}
 /*Header和Footer*/
 .headerTotal{
     position:fixed;
-    width:100%;
-    max-width:1920px;
+    width:100%;/*
+    max-width:1920px;*/
     z-index:1000;
 }
 .header1{
@@ -412,13 +412,14 @@ input:focus{ outline:none;}
     z-index: 5000;
     width: 90%;
     text-align: left;
-    position: absolute;
+    position: relative;
     border-bottom: 1px solid #aaaaaa;
     border-top: 1px solid #aaaaaa;
     padding-top: 1%;
     padding-bottom: 0.5%;
     margin-left: 5%;
     margin-top: 1.5%;
+    max-width: 1920px;
 }
 .hugeLogo{
     float:left;
