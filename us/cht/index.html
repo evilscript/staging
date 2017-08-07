@@ -34,8 +34,7 @@
                 sectionName : "section-name",
                 interstitialSection : "iTalkBB",
                 easing: "easeOutExpo",
-                scrollSpeed: 1500,
-                offset : 0,
+                scrollSpeed: 800,
                 scrollbars: true
             });
         });
@@ -52,134 +51,136 @@
 
 
 <body ng-app="">
-    <section data-section-name="iTalkBB" class="container1920 scroll">
-        <header class="container1920">
-            <div ng-include="'header.html'"></div>
-        </header>
-        <!--桌面端banner开始-->
-        <div id="myCarousel" class="carousel slide hideM" data-ride="carousel" data-interval="false">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+    <section data-section-name="iTalkBB" class="scroll">
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
+        <div ng-include="'header.html'"></div>
 
-                <div class="item active">
-                    <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
-                    <div class="carousel-caption">
-                        <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
-                        <div class="clear clearfix"></div>
-                        <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
-                        </p>
-                        <p class="bannerButton pin">了解更多</p>
+        <div class="container1920">
+            <!--桌面端banner开始-->
+            <div id="myCarousel" class="carousel slide hideM" data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                            <div class="clear clearfix"></div>
+                            <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
+                            </p>
+                            <p class="bannerButton pin">了解更多</p>
+                        </div>
                     </div>
+
+                    <div class="item">
+                        <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                            <div class="clear clearfix"></div>
+                            <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
+                            </p>
+                            <p class="bannerButton pin">了解更多</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                            <div class="clear clearfix"></div>
+                            <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
+                            </p>
+                            <p class="bannerButton pin">了解更多</p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="item">
-                    <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
-                    <div class="carousel-caption">
-                        <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
-                        <div class="clear clearfix"></div>
-                        <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
-                        </p>
-                        <p class="bannerButton pin">了解更多</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
-                    <div class="carousel-caption">
-                        <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
-                        <div class="clear clearfix"></div>
-                        <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
-                        </p>
-                        <p class="bannerButton pin">了解更多</p>
-                    </div>
-                </div>
-
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+                    <img src="../shared/images/index/leftArrow.png" class="leftArrow" alt="">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <!--<span class="glyphicon"></span>-->
+                    <img src="../shared/images/index/rightArrow.png" class="rightArrow" alt="">
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
+            <!--桌面端banner结束-->
+            <div class="clear clearfix"></div>
+            <!--移动端banner开始-->
+            <div id="myCarouseM" class="carousel slide showM" data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarouseM" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarouseM" data-slide-to="1"></li>
+                    <li data-target="#myCarouseM" data-slide-to="2"></li>
+                </ol>
 
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
-                <img src="../shared/images/index/leftArrow.png" class="leftArrow" alt="">
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <!--<span class="glyphicon"></span>-->
-                <img src="../shared/images/index/rightArrow.png" class="rightArrow" alt="">
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-        <!--桌面端banner结束-->
-        <div class="clear clearfix"></div>
-        <!--移动端banner开始-->
-        <div id="myCarouseM" class="carousel slide showM" data-ride="carousel" data-interval="false">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarouseM" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarouseM" data-slide-to="1"></li>
-                <li data-target="#myCarouseM" data-slide-to="2"></li>
-            </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-
-                <div class="item active">
-                    <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
-                    <div class="carousel-caption">
-                        <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
-                        <div class="clear clearfix"></div>
-                        <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
-                        </p>
-                        <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
-                        <p class="bannerButton pin">了解更多</p>
+                    <div class="item active">
+                        <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                            <div class="clear clearfix"></div>
+                            <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
+                            </p>
+                            <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
+                            <p class="bannerButton pin">了解更多</p>
+                        </div>
                     </div>
+
+                    <div class="item">
+                        <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                            <div class="clear clearfix"></div>
+                            <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
+                            </p>
+                            <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
+                            <p class="bannerButton pin">了解更多</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
+                            <div class="clear clearfix"></div>
+                            <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
+                            </p>
+                            <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
+                            <p class="bannerButton pin">了解更多</p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="item">
-                    <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
-                    <div class="carousel-caption">
-                        <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
-                        <div class="clear clearfix"></div>
-                        <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
-                        </p>
-                        <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
-                        <p class="bannerButton pin">了解更多</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
-                    <div class="carousel-caption">
-                        <p class="bannerTitle1 pin"><span class="sans">2017</span>華語綜藝<br>盡在蜻蜓電視</p>
-                        <div class="clear clearfix"></div>
-                        <p class="bannerTitle2 pin">《新歌声<span class="sans">2</span>》<span class="sans">iTalkBB</span>蜻蜓電視搶先看
-                        </p>
-                        <img src="../shared/images/index/chs_bannerPriceImg.png" class="img bannerPriceImgClass" alt="">
-                        <p class="bannerButton pin">了解更多</p>
-                    </div>
-                </div>
-
+                <a class="left carousel-control" href="#myCarouseM" data-slide="prev">
+                    <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+                    <img src="../shared/images/index/leftArrow.png" class="leftArrow" alt="">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarouseM" data-slide="next">
+                    <!--<span class="glyphicon"></span>-->
+                    <img src="../shared/images/index/rightArrow.png" class="rightArrow" alt="">
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-
-            <a class="left carousel-control" href="#myCarouseM" data-slide="prev">
-                <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
-                <img src="../shared/images/index/leftArrow.png" class="leftArrow" alt="">
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarouseM" data-slide="next">
-                <!--<span class="glyphicon"></span>-->
-                <img src="../shared/images/index/rightArrow.png" class="rightArrow" alt="">
-                <span class="sr-only">Next</span>
-            </a>
+            <!--移动端banner结束-->
+            <div class="clear clearfix"></div>
         </div>
-        <!--移动端banner结束-->
-        <div class="clear clearfix"></div>
     </section>
 
     <section data-section-name="iTalkMobile" id="iTalkMobile" class="scroll iTalkMobile">
@@ -392,9 +393,8 @@
             </p>
             <div class="clear clearfix"></div>
         </div>
-        <footer class="container1920">
-            <div ng-include="'footer.html'"></div>
-        </footer>
+
+        <div ng-include="'footer.html'"></div>
     </section>
 </body>
 </html>
