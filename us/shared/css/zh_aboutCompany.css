@@ -1,6 +1,6 @@
 .aboutBanner{
     background:url("../../shared/images/about/companyBannerBg.jpg") top center no-repeat;
-    background-size:100%;
+    background-size:cover;
 }
 .aboutTitle{
     color: white;
@@ -8,12 +8,13 @@
     padding-top: 9.5%;
     margin-bottom:0;
 }
-.aboutSubtitle{
+.aboutSubtitle {
     padding-top: 1%;
     font-weight: 500;
     color: white;
     line-height: 1.3;
-    margin-bottom:0;
+    margin-bottom: 0;
+    padding-bottom: 20%;
 }
 .aboutTopIcon{
     float:left;
@@ -87,4 +88,50 @@
 }
 .rightTextSubTitle{
     line-height:1.6;
+}
+.orangeBandLevel{
+    border-top:5px solid #ff7f00;
+}
+.aboutContentTab{
+    margin-top:2%;
+}
+.aboutSectionTab{
+    float:left;
+    width:15%;
+    margin-right:1%;
+}
+.aboutSectionTab1{
+    margin-left:18%;
+}
+.aboutSectionTabText{
+    text-align: center;
+    color: #222222;
+    border: 1px solid #222222;
+    font-weight: 300;
+    padding: 3%;
+    margin-top: 10%;
+    cursor: pointer;
+    text-shadow: none;
+    box-shadow: inset 0 0 0 0 #327fe8;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+.aboutSectionTabTextActive{
+    background:#327fe8;
+    color:white;
+    border:1px solid #327fe8;
+}
+.aboutSectionTabText:hover {
+    color: white;
+    box-shadow: inset 300px 0 0 #327fe8;
+    border:1px solid #327fe8;
+}
+#card img{
+    width:100%;
+}
+.lastBg{
+    background:url("../../shared/images/about/lastBg.jpg") top center no-repeat;
+    background-size:cover;
+    padding-bottom: 5%;
 }

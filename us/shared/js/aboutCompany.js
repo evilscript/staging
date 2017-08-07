@@ -1,4 +1,11 @@
 $(document).ready(function(){
+    $("#card1, #card2, #card3").flip({
+        trigger: 'hover',
+        speed: 1000,
+        reverse: 'false'
+    });
+
+/*
     $('.aboutTopBlue1').mouseover(function(){
         $(this).fadeOut(250, function(){
             $(this).attr('src','../shared/images/about/companyTopIconOrg1.png').css('padding-top','8%').on('load', function(){
@@ -50,5 +57,5 @@ $(document).ready(function(){
                 if (this.complete) $(this).fadeIn(250);
             });
         });
-    });
+    });*/
 });

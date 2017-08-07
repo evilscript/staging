@@ -9,6 +9,7 @@ ul,ol,li{list-style-type:none;}
 .clearfix {display: block;}
 a, a:hover, a:focus{ text-decoration:none;}
 img{border:none; display:block;}
+.trans{opacity:0;}
 .opacity {filter: alpha(opacity=75); -moz-opacity: .75; -khtml-opacity: .75; opacity: .75;}
 input:focus{ outline:none;}
 .org{color:#ff972f;}
@@ -146,6 +147,11 @@ input:focus{ outline:none;}
 }
 .container1520{
     max-width:1520px;
+    width:100%;
+    margin:0 auto;
+}
+.container1725{
+    max-width:1725px;
     width:100%;
     margin:0 auto;
 }
