@@ -20,8 +20,8 @@ input:focus{ outline:none;}
 .mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%;}
 .mainMgnTop{margin-top: 3%;}
 .mainLimited{margin: 0 auto; width: 79.2%;}
-.lineOrange{height:0; border-bottom: .4vw solid #ff7f00;}
-.lineBlue{height:0; border-bottom: .4vw solid #327fe8;margin-top: 7%;}
+.lineOrange{height:0; border-bottom: .4vw solid #ff7f00; -khtml-border-bottom: .4vw solid #ff7f00;}
+.lineBlue{height:0; border-bottom: .4vw solid #327fe8; -khtml-border-bottom: .4vw solid #327fe8; margin-top: 7%;}
 /* mainLayout end */
 
 /*字体部分*/

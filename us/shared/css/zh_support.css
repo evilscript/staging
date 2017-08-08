@@ -3,7 +3,7 @@
 .sptBanner{margin: 0 auto; padding: 0;max-width: 1920px; text-align: center; background: url(../images/support/sptBannerBg.jpg) no-repeat;background-size: 100%;}
 .sptBanPart1{padding-top: 5%; color: #fff;}
 .sptBanArrow{background: url(../images/support/sptBannerArrow.png) no-repeat scroll center center;background-size: 1.8%; margin-top: 1%;}
-.sptBanPart2{margin: 0 auto; position: relative; bottom: 0; padding-bottom: 2.5vw;}
+.sptBanPart2{margin: 0 auto; padding-bottom: 2.5%;}
 .sptBanIcon{margin: 0 auto; width: 72%;}
 .IconBox{width: 105%;}
 .IconBox a{float: left; width: 20%; margin-right: 5%; text-align: center; cursor: pointer;color: #fff; padding-top: 1.8%;}
