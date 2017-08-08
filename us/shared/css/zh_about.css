@@ -218,3 +218,6 @@
     width: 100%;
     display: block;
 }
+.year2017, .year2016, .year2015{
+    transition: all, 0.5s;
+}

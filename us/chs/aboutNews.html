@@ -82,29 +82,29 @@
                         <div class="clear clearfix"></div>
                     </div>
                     <div class="otherYear" style="display:none;">
-                        <div class="otherYearAll" ng-click="yearAll()">
+                        <div class="otherYearAll" ng-click="year='全部新闻';news2017=true;news2016=true;news2015=true;">
                             <p class="otherYearText sans title28">全部新闻</p>
                         </div>
-                        <div class="otherYear2017" ng-click="year2017()">
+                        <div class="otherYear2017" ng-click="year=2017;news2017=true;news2016=false;news2015=false;">
                             <p class="otherYearText sans title28">2017</p>
                         </div>
-                        <div class="otherYear2016" ng-click="year2016()">
+                        <div class="otherYear2016" ng-click="year=2016;news2017=false;news2016=true;news2015=false;">
                             <p class="otherYearText sans title28">2016</p>
                         </div>
-                        <div class="otherYear2015" ng-click="year2015()">
+                        <div class="otherYear2015" ng-click="year=2015;news2017=false;news2016=false;news2015=true;">
                             <p class="otherYearText sans title28">2015</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="yearAll">
-                    <div class="year2017" ng-show="newsContent2017">
+                <div class="yearAll" style="margin-top:20%;">
+                    <div class="year2017" ng-show="news2017">
                         2017
                     </div>
-                    <div class="year2016" ng-show="newsContent2016">
+                    <div class="year2016" ng-show="news2016">
                         2016
                     </div>
-                    <div class="year2015" ng-show="newsContent2015">
+                    <div class="year2015" ng-show="news2015">
                         2015
                     </div>
                 </div>
@@ -120,33 +120,9 @@
         var app = angular.module('myApp', []);
         app.controller('myCtrl', function($scope) {
             $scope.year='全部新闻';
-            $scope.newsContent2017=true;
-            $scope.newsContent2016=true;
-            $scope.newsContent2015=true;
-            $scope.yearAll = function(){
-                $scope.year = '全部新闻';
-                $scope.newsContent2017 = true;
-                $scope.newsContent2016 = true;
-                $scope.newsContent2015 = true;
-            };
-            $scope.year2017 = function(){
-                $scope.year = '2017';
-                $scope.newsContent2017 = true;
-                $scope.newsContent2016 = false;
-                $scope.newsContent2015 = false;
-            };
-            $scope.year2016 = function(){
-                $scope.year = '2016';
-                $scope.newsContent2017 = false;
-                $scope.newsContent2016 = true;
-                $scope.newsContent2015 = false;
-            };
-            $scope.year2015 = function(){
-                $scope.year = '2015';
-                $scope.newsContent2017 = false;
-                $scope.newsContent2016 = false;
-                $scope.newsContent2015 = true;
-            };
+            $scope.news2017=true;
+            $scope.news2016=true;
+            $scope.news2015=true;
         });
     </script>
 </body>
