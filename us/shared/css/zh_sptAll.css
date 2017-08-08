@@ -72,10 +72,6 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
 	.btnTxt18 img{margin-left: 1.5%; margin-bottom: 1.2%;}
 }
 
-@media  (min-width:1001px){
-	.mainBothEnds{margin: 0 auto;width: 79.2%;}	
-}
-
 @media  (min-width:768px) and (max-width:1000px){
     .foldBoxSpc1 .bubbleAngle{margin-left: 35.5%;}
 	.foldBoxSpc2 .bubbleAngle{margin-left: 65%;}
