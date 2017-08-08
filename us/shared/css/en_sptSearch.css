@@ -1,0 +1,105 @@
+/* support Search css */
+/* Amy制作 */
+a, a:hover, a:focus{color: #222;}
+.partMgnTop{ margin-top: 3.5%;}
+.sptLeft,.sptRight{margin: 0 auto; text-align: center; width: 50%}
+.sptLeft{float: left;padding-top: 6%;}
+.sptRight{float: right;padding-top: 3%;border-left: 1px solid #dedede;}
+.searchTitle{margin-bottom: 4%; margin-left: 2.5%;}
+.searchImg{
+	padding-top: 1.8%;
+    padding-bottom: 1.8%;
+	margin-left: 14%;
+    width: 6.5%;
+	float: left;
+	font-weight: bold;
+	cursor: pointer;        
+    border: 1px solid #b1b1b1;
+	border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+	background: #fff url(../images/support/supportSearch.png) no-repeat scroll center center;
+	background-size: 55%;
+    background-position-x: 60%;
+}
+.searchBar{
+    padding-left: 1%;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+    margin-bottom: 0.5%;
+    width: 52%;
+    float:left;
+	color: #999;
+    border: 1px solid #b1b1b1;
+	border-radius:0;
+	border-left: none;
+	border-right: none;    
+}
+.searchButton {
+	padding-top: 1.8%;
+    padding-bottom: 1.8%;	   
+    width: 13%;
+    float: left;
+	text-align: center;
+    font-weight: bold;
+	color: #ff7f00;
+    cursor: pointer;
+	background: #fff; 
+    border: 1px solid #b1b1b1;
+	border-left-color: #ccc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 0 0 #ff7f00;
+    -webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    transition: all ease .8s;
+}
+.searchButton:hover{
+    color: white;
+    box-shadow: inset 200px 0 0 0 #ff7f00;
+}
+.hService{width: 100%; margin-left: 4.5%;padding: 0 5%; margin-bottom: 7%; margin-top: 3%;}
+.hService p{float: left; width: 30%; text-align: center; padding-top: 15%;border-right: 1px solid #b1b1b1;}
+.hService p.noBoder{border: none;}
+.bgService1{background: url(../images/support/supportIcon1.png) no-repeat scroll center center;}
+.bgService2{background: url(../images/support/supportIcon2.png) no-repeat scroll center center;}
+.bgService3{background: url(../images/support/supportIcon3.png) no-repeat scroll center center;}
+.bgService1,.bgService2,.bgService3{background-size: 40%; background-position-y: 10%;}
+/* support others end */
+
+@media  (min-width:768px) and (max-width:1000px){
+    .mainLimited{width: 100%;}
+	.sptLeft{ padding: 6.5% 0 5.2% 0;}
+	.sptRight{padding-top: 3.8%; padding-bottom: .4%;}	
+	.searchImg,.searchBar,.searchButton{line-height: 1.5}
+	.searchImg{
+		width: 10%;
+		margin-left: 10%;
+	}
+	.searchBar{width: 54%;}
+	.searchButton{width: 16%;}
+	.mHservice{margin-top: 1.5%;}
+	.hService{width: 100%; margin-left: .5%;padding: 0 1%; margin-bottom: 7%; margin-top: 5%;}
+	.hService p{float: left; width: 33%; text-align: center; padding-top: 14.5%;border-right: 1px solid #b1b1b1;}
+	.bgService1,.bgService2,.bgService3{background-size: 38%;background-position-y: 0;}
+	
+}
+
+@media (max-width:767px){
+	.sptLeft,.sptRight{width: 100%; overflow: hidden; float: none;}
+	.sptLeft{ background: #f0f0f0; padding: 8% 0 8.2% 0;}
+	.sptRight{padding-top: 6%; padding-bottom: 3%;}	
+	.searchImg,.searchBar,.searchButton{line-height: 1.5}
+	.searchImg{
+		width: 9%;
+		margin-left: 10%;
+		background-size: 50%;
+		background-position-x: 50%;
+	}	
+	.searchBar{width: 55%;}
+	.searchButton{width: 16%;}
+	.mHservice{margin-top: 1.5%;}
+	.hService{margin: 0 auto;}
+	.hService p{float: none; width: 90%; border: none;border-bottom: 1px solid #b1b1b1;padding:25% 0 5% 0;margin-left: 5%;}
+	.bgService1,.bgService2,.bgService3{background-size: 20%;background-position-y: 28%;}
+}

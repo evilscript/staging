@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+	<meta name="apple-itunes-app" content="app-id=514896649">
+
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+    <!--这里继续添加子页面的Css引用文件-->  
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_support.css"> 
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/en_support.css"> 
+    <link rel="stylesheet" type="text/css"  href="../shared/css/en_sptSearch.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/en_sptAll.css">
+    
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+    <script src="../shared/js/AmyInterim.js"></script>
+    <!--这里继续添加子页面的Js引用文件--> 
+    <style>
+	/**/
+	.faultCon,.signalCon{display: none;}
+	</style>
+</head>
+
+
+<body ng-app="">
+    <!--Amy制作--> 
+	<div ng-include="'header.html'"></div>
+
+    <!--主体内容 start-->
+	<div class="container1920">
+		<div class="mainLayout">
+       <section>
+      	    <div ng-include="'sptBanner.html'"></div>	   
+       </section>
+       
+       <section class="mainMgnTop">
+      	  <div class="mainLimited">
+        	<div class="lineOrange"></div>       	        	 
+        	<div class="sptMenu">
+        	<div class="menuBox clearfix">
+			<p class="menuBtn title22 mTitle24 fwn use">Product Custom</p>
+			<p class="menuBtn title22 mTitle24 fwn fault">Inquire About</p>
+			<p class="menuBtn title22 mTitle24 fwn signal">Signal Cover</p>
+			</div>	
+			</div>
+		  </div>           	      	
+       </section>
+       
+       <section class="mobile">
+       <div class="useCon">	    
+	    <div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">产品功能</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">每一个 iTalkBB 蜻蜓移动的手机计划都可享受以下功能：</p>
+		   	  <ul class="enListDot clearfix">
+		   	  	 <li>无限国内通话</li>
+		   	  	 <li>来电显示</li>
+		   	  	 <li>来电转移</li>
+		   	  	 <li>无限国内短信</li>
+		   	  	 <li>三方通话</li>
+		   	  	 <li>呼叫等待</li>
+		   	  	 <li>无限国际短信</li>
+		   	  	 <li>
+		   	  	 <div class="btnTxt18" onclick="show('fold1','imgPoint1')">语音邮箱设置方法<img id="imgPoint1" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
+		   	  	 </li>
+		   	  	 <li>
+		   	  	 <div class="btnTxt18" onclick="show('fold2','imgPoint2')">无限网络流量<img id="imgPoint2" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
+		   	  	 </li>		   	  	 		   	  	 
+		   	  </ul>		  	  	
+		    </div>
+		    <!--此处为隐藏文本 start-->	
+		    <div id="fold1" class="foldBox foldBoxSpc1" style="display: none;">             
+                 <div class="bubbleAngle"></div>
+				 <div class="foldText text18 mText28 fwn">
+				    <p class="">可以通过以下两种方式管理和设置您的语音信箱：</p>
+		   	        <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		    <span class="textCon">在拨号界面长按1，即可连接到语音信箱，然后您可以根据语音菜单提示进行设置。</span>
+		   	        </p>
+		   	        <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		    <span class="textCon">通过您手机的通话或设置功能进行管理，具体操作方法，请参照您手机的说明书。</span>
+		   	        </p>
+				 </div>
+		    </div>
+	    	<div id="fold2" class="foldBox foldBoxSpc2" style="display: none;">             
+                 <div class="bubbleAngle"></div>
+				 <div class="foldText text18 mText28 fwn">
+				    <p>所有iTalkBB蜻蜓移动计划都提供无限流量。</p>
+				    <p>但是无限流量与高速流量是有区别的，每一个手机计划在每月提供的高速4G LTE流量是有限的。当您的用量超过了，您仍旧可以继续随心上网，只是速度会有所下降。但即使降速了，您仍然可以发送邮件、浏览网页、和使用微信等常用的服务，而不受到影响。</p>
+				    <p>情景举例：您使用的是5GB超值计划，您可以通过iTalkBB蜻蜓移动的手机计划享用5GB的高速流量服务。您可以使用高速流量下载视频，图片，收发邮件，或浏览网页。 当您的手机使用了超过5GB的流量后，您在剩余的账单期限内使用手机时的网络速度将会有所下降，但您仍然可以通过iTalkBB蜻蜓移动继续使用网络服务。</p>
+				 </div>
+		    </div>
+		    <!--此处为隐藏文本 end-->		    	    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">流量转存</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">每一个月，所有未使用完的高速流量会自动转存至下一个账单期限，转存的流量有效期为 3 个月。当您将该月的额定高速流量使用完之后，就开始使用之前转存下来的高速流量。如果您将高速流量也使用完了之后，您仍旧可以降速上网（只限美国卡）。</p>		   	  	
+		    </div>		    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">国际通话服务</p> 
+		    <ul class="enListNom">
+		   	<li class="text18 mText28 fwn">
+		   		如果您是iTalkBB蜻蜓电话用户：在办理蜻蜓移动的手机业务之后，可以享受免费拨打国际通话至 29 个国家与地区；
+		   		<p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">全球无限计划用户：计划内所有手机线—无限拨打国际通话至 29 个国家与地区；</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">家庭经济计划用户：计划内所有手机线—每月获得 100 分钟免费拨打国际通话至29个国家与地区；</span>
+		   	    </p>	   		 
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		如果你是非 iTalkBB 蜻蜓电话用户：可以选择办理国际通话的套餐，让您可以以极低的通话费率拨打国际电话；
+		   		<p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">无限拨打国际通话至 29 个国家与地区：只需 $14.99/手机号码/月；</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">办理国际通话套餐，请拨打 24 小时服务热线 1-855-482-5566，或到 iTalkBB 蜻蜓体验店咨询。您选择添加以上两种国际通话服务后，该服务会每月自动延续，您也可以随时取消。</span>
+		   	    </p>
+		   	</li>
+		   </ul>	    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">无合约限制</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">所有的 iTalkBB 蜻蜓移动计划都没有合约，无违约金。</p>		   	  	
+		    </div>		    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">关于“中美双卡”计划</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">办理“中美双卡”计划，让您不论在中国还是美国，都能享有无限通话、无限短信；</p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">一次性卡费：$10/美国卡，$10/中国卡； 中国卡服务费：$12/年；</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">中国美国都可享有无限通话、无限短信，以及网络流量中美两国共同享用。例如：如果您的手机计划每月拥有 5GB 高速流量，您在美国和中国一共使用的高速流量可高达 5GB ；</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">您的美国手机SIM卡和中国手机SIM卡是一对一绑定的。当您在美国时，打到您中国号码的电话会自动转到您的美国号码上；当您在中国时，打到您美国号码的电话会自动转到您的中国号码上。无论您使用哪一张SIM卡，都不会错过来自另一张卡的任何来电，而对方只需支付当地市话费；</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">
+		   	  设置绑定关系 3 种方式：<br>
+		   	  网上账户：登录您的网上账户，可以在账户上直接设置手机号码绑定和添加中国手机 SIM 卡；<br>
+		   	  人工客服：请拨打 24 小时服务热线 1-855-482-5566，我们专业的客服人员会帮您设置号码的绑定；<br>
+		   	  体验店：您可以在 iTalkBB 蜻蜓体验店内购买时，店内的销售人员会帮您设置号码的绑定关系；
+		   	  </span>
+		   	  </p>		   	  		
+		    </div>	    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">更改计划</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">请拨打 24 小时服务热线 1-855-482-5566，我们专业的客服人员，将根据您的需求为您更改手机计划；</p>		   	  	
+		    </div>		    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+	       <p class="title30 mTitle32 fwn">保留号码</p>
+	       <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">无论在您首次购买 iTalkBB 蜻蜓移动的服务时，还是您想在您现有的账户下添加一条手机线，您都能轻易地将您的现有号码转入 iTalkBB 蜻蜓移动手机网络；</p>
+		   </div>			
+		</div>
+		<div class="partAll titMgnTop">
+           <p class="titFirst title30 mTitle32 fwn">保留号码流程：</p>
+	       <ul class="enListNom">
+		   	<li class="text18 mText28 fwn">
+		   		你需要提供以下信息：
+		   		<p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">您在现有手机运营商的的账号；</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">您在现有手机运营商的账户名；</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">您的社会安全号 SSN（如果您现有的运营商不需要您提供社会安全号，则转号程序也不需要您提供）；</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">您现有手机运营商的密码；</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">您账户的邮政编码；</span>
+		   	    </p>	   		 
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		选择以下方式保留您的号码：
+		   		<p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">拨打我们的 24 小时热线电话 1-855-482-5566</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">或者访问 iTalkBB 蜻蜓体验店</span>
+		   	    </p>
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		您提交保留号码的申请后，我们会给你寄送一张手机 SIM 卡。您收到新手机卡后，请致电 1-855-482-5566启动转号码流程。以下是转号码期间的使用须知：
+		   		<p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">在转号开始后的 4 小时内，您原本的手机卡依然可能接到呼入的电话。同时，您的新手机可以进行拨号业务。这是一情况的出现是因为号码转移程序的时间流程所导致的。同样， 您的短信业务可能在未来 8 小时出现相似的情况。</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">网络流量不受此变动影响，一旦您完成激活手机，便可以立刻开始使用流量服务。</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">在绝大多数情况下，您的转号将在 24 小时之内完成。如果您想查询转号状态，请拨打我们的 24 小时热线电话 1-855-482-5566。</span>
+		   	    </p>
+		   	    <p class="textNote">请注意：iTalkBB蜻蜓根据您提供的信息联系您当前手机运营商以帮助您保留您的现有号码。因此，您提供的信息必须和您在现有手机运营商的所保存的信息完全一致。 否则，我们将无法按时为您完成转号服务。请您在转号完成前，不要取消您现有的手机服务，否则，您的号码会因为被回收而无法保留。同时，我们建议您保留一份您之前手机运营商的账单。您现有手机运营商的密码与您平时登录的网上账户或语音信箱的密码可能会有所出入。 如果您无法想起您的手机运营商密码，您可以通过账单上的联系方式联系您的手机运营商。</p>
+		   	</li>
+		   </ul>			
+		</div>
+		<div class="partAll titMgnTop">
+		    <p class="title30 mTitle32 fwn">保留号码失败</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">保留号码失败会有如下潜在原因：</p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">您的手机号码已被取消或无法连接；</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">此号码为家用电话号码；</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">此号码为国际电话号码；</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">此号码为商用号码；</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">个别小型通讯公司的号码无法保留；</span>
+		   	  </p>
+		   	  <p class="">如果因为特殊原因，您无法保留您的现有号码，您可以在 iTalkBB 蜻蜓移动选择一个全新的号码；</p>		   	  		
+		    </div>	    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">订单成功</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">当 iTalkBB 蜻蜓寄出您的订单后，您会收到一封邮件。该邮件包括您的订单详情、邮寄信息、您的新手机号码，以及您的网上账户的登录名和密码；</p>		   	  	
+		    </div>		    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">订单查询</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">您可以通过订单确认邮件中提供的邮寄确认码来追踪您的订单。同时，您也可以登录您的<a href="#">网上账户</a>查询您的订单状态；</p>		   	  	
+		    </div>		    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">取消订单</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">在您确认并提交您的订单之后，该订单将无法被取消。 不过，因为 iTalkBB 蜻蜓的手机服务没有合约，您可以在任何时间取消。 如果您的手机卡损坏或者丢失，您可以免费获得一张新的手机卡。如果您需要 iTalkBB 蜻蜓寄送一张新的手机卡给您，请拨打 24 小时服务热线 1-855-482-5566；</p>		   	  	
+		    </div>		    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">邮寄时间</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">寄达时间取决于您的寄送地址，标准的邮寄时间为 2-5 个工作日。如果您长时间未收到您所订购的手机卡，请拨打 24 小时服务热线 1-855-482-5566，我们专业的客服人员会竭诚为您服务；</p>		   	  	
+		    </div>		    
+		</div>
+		</div>
+		</div>
+	  </div>
+	  
+	  <div class="faultCon">
+	  	<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">Network Connection Failure</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">When you use mobile services within areas that covered by 3G, 4G, or 4G LTE network, your mobile phone will automatically search for the best network. When the phone has successfully connected to the 3G,4G or 4G LTE network, 3G, 4G, H or 4G LTE will appear at the upper left corner or upper right corner your phone.</p>
+		   	  <p class="">Troubleshooting Network Connection:</p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Please make sure that your mobile phone supports 3G, 4G, or 4G LTE network</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Please make sure that your phone has the latest version of software</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Check the network coverage to confirm the signal intensity in your area</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Restart your phone</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Make sure your SIM card is inserted properly in the device</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Manually search network</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">If you still cannot successfully connect to 3G/4G/LTE, check if other iTalkBB 3G, 4G, or 4G LTE mobile devices are able to use in your region</span>
+		   	  </p>
+		   	  <p class="">If you are still unable to resolve your issue, please visit our <a class="textLink" href="#">iTalkBB store</a>, or call our 24 -hour service hotline 1-855-482-5566, our professional customer service staff are ready for help.</p>		
+		    </div>
+		    
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Unable to make or receive calls</p>
+		   <div class="onlyText text18 mText28 fwn">
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">If your mobile phone has no signal, please refer to network connection solutions</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Please make sure that you have paid all bills</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Please turn off your cell phones for 5 seconds then restart it</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Remove SIM card, reload again</span>
+		   	  </p>
+		   	  <p class="">If the problem is still not resolved, please visit the <a class="textLink" href="#">iTalkBB store</a>, or call our 24 -hour service hotline 1-855-482-5566, our professional customer service staff are ready for help.</p>		
+		    </div>		
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Unable to dial a specific number</p>
+		   <div class="onlyText text18 mText28 fwn">
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">If you are using a third-party application or dial-up software (such as Google Voice, etc), please exit first</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">If you are dialing an international number, please make sure you have enabled the international calling features and you are calling with correct country code</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Please turn off your cell phones for 5 seconds, and then restart it</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">If the problem occurs only when calling a specific number, please redial this number in call dialing interface rather than recent calls interface</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Try to use a different phone to dial a number to see if it properly connected</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">If all of the above fails, please try to contact the operator of that number since there may be something wrong with that number; if the above test succeeds, please dial the number again using your own number: call *67 plus 11-digit number. If it works, then the reason you cannot connect to that number is that your number is blocked</span>
+		   	  </p>
+		   	  <p class="">If the problem is still not resolved, please visit the <a class="textLink" href="#">iTalkBB store</a>, or call our 24 -hour service hotline 1-855-482-5566, our professional customer service staff are ready to help.</p>		
+		    </div>		
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Poor calling quality</p>
+		   <div class="onlyText text18 mText28 fwn">
+	   	      <p class="">Make sure that:</p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Your phone has at least 2 bars of signal</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Don’t cover the microphone when you make calls</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Make sure the cell phone has no special casing or protective film; if there is, remove it and try again</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Use your mobile phone without headphones (wired or wireless); if the problem occurs only when you wear headphones, then the poor calling quality may because of your headphones</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">You did not turn on speaker</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Please turn off your cell phones for 5 seconds, and then restart it</span>
+		   	  </p>
+		   	  <p class="">If the problem is still not resolved, please visit the <a class="textLink" href="#">iTalkBB store</a>, or call our 24 -hour service hotline 1-855-482-5566, our professional customer service staff are ready to help.</p>		
+		    </div>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Suspended Service</p>
+		   <div class="onlyText text18 mText28 fwn">
+	   	      <p class="">Periodic suspension:  If your phone is lost or stolen, or you just want your mobile services to be suspended for a period of time, you can do that. Please call the 24 -hour service hotline 1-855-482-5566, our professional customer service staff are ready to help. </p>
+	   	      <p class="">Account suspension due to debt:  when your account is not paid on time, your phone services will immediately be suspended. If you do not pay within 45 days, your account will be revoked and your phone number will not be retained. </p>
+	   	      <p class="">When you pause the service:</p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">You cannot make or receive calls, text messages, or using data</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">You can call 911</span>
+		   	  </p>
+		    </div>			
+		</div>
+		</div>
+		</div>
+	  </div>
+	  
+	  <div class="signalCon">
+	  	<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">信号覆盖范围查询</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">请点击查看<a class="textLink" href="#">信号覆盖</a>。</p>		
+		    </div>		    
+		</div>
+		</div>
+		</div>
+		
+	    <div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">什么是4G LTE？</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">iTalkBB蜻蜓的全国4G LTE网络让您享受非凡的网络速度！如此快的网络速度让您上网体验不受限制。4G LTE网络拥有比普通3G网络高50%的速度。如果您所在的区域在我们4G LTE覆盖的区域内，您就可以享受到前所未有的高速网络啦。现在就点击信号覆盖查询所有4G LTE的区域吧! *频率表: Band 2 (1900 MHz), Band 4 (1700/2100 MHz), Band 12 (700 MHz)</p>		
+		    </div>		    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">什么是4G (HSPA+)？</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">4G网络最高下载速度可达21 Mbps 至42 Mbps。 在如此高速下，您的移动生活将无比精彩，可以同时拨打电话、浏览网页、下载音乐等等。Frequencies: Band 2 (1900 MHz), Band 4 (1700/2100 MHz)</p>		
+		    </div>		    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">什么是3G (HSPA)？</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">3G网络的最高下载速度可达14 Mbps。在此速度下，您也可以同时拨打电话和使用流量服务。Frequencies: Band 4 (1700/2100 MHz)</p>		
+		    </div>		    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">什么是2G (GSM, GPRS, and EDGE)</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">iTalkBB蜻蜓的2G网络最高下载速度可达263 kbps。而传统的2G网路速度在35 kbps 和45kbps之间。在此速度下，您仍旧能够轻松地浏览网页、处理邮件、收发微信等。Frequencies: Band 2 (1900 MHz)</p>		
+		    </div>		    
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="title30 mTitle32 fwn">设备要求</p> 
+		    <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">您使用的设备须与您使用的网络类型匹配，例如，只有支持4G LTE网络的手机设备才能达到4G LTE的网络速度。另外，您所在的位置需要有移动信号覆盖，请点击查看信号覆盖。</p>		
+		    </div>		    
+		</div>
+		</div>
+		</div>		
+	  </div>		
+	  </section>
+   
+      <!--帮助支持搜索 start--> 
+      <div class="partMgnTop">
+        <div ng-include="'sptSearch.html'"></div>
+      </div>
+      <!--帮助支持搜索 end--> 
+      
+    </div>
+	</div>
+	<!--主体内容 end-->
+    
+    <div class="lineBlue"></div>    
+	<div ng-include="'footer.html'"></div>
+</body>
+<script>
+$(".use").click(function(){
+    $(".mobile").children().css("display", "none");
+    $(".useCon").css('display','block');
+    $('.menuBox').children().removeClass('selected');
+    $(this).addClass('selected');
+})
+
+$(".fault").click(function(){
+    $(".mobile").children().css("display", "none");
+    $(".faultCon").css('display','block');
+    $('.menuBox').children().removeClass('selected');
+    $(this).addClass('selected');  
+})
+
+$(".signal").click(function(){
+    $(".mobile").children().css("display", "none");
+    $(".signalCon").css('display','block');
+    $('.menuBox').children().removeClass('selected');
+    $(this).addClass('selected');  
+})
+</script>
+</html>

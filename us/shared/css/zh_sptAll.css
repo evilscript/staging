@@ -1,6 +1,6 @@
 /* support All css */
 /* Amy制作 */
-body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:justify}
+body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:justify;}
 	a.textLink, a.textLink:hover, a.textLink:focus{color: #ff7f00; text-decoration: underline;}	
 	/*有尖角文本框*/
 	.foldBox{margin-top: 2%;}
@@ -103,7 +103,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:jus
     .partAll{width: 100%;padding: 0 5.5%;}
 	ul{margin-left: 6.5%;}
 	ul.listNom li{line-height: 1.61}
-	ul.listDot{margin-left: 4.45%;}
+	ul.listDot{margin-left: 6%;}
 	ul.listDot li{width: 48%;}
 	.titMgnTop{margin-top: 6%;}
 	.Sharp{width: 5%;}
