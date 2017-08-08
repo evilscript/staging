@@ -1,6 +1,7 @@
 /* support All css */
 /* Amy制作 */
-body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:justify;font-family:'open sans', Arial, sans-serif;}	
+body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:justify;font-family:'open sans', Arial, sans-serif;}
+.pin {font-family: 'open sans', Arial, sans-serif;}
 	.sptMenu{margin: 0 auto; width: 54%;}
 	.menuBox{width: 101.1%;}
 	.menuBtn{float: left; width: 32.3%; text-align: center; margin-right: 1%; border: 1px solid #327fe8;line-height: 220%;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
