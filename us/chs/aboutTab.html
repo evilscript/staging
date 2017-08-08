@@ -26,30 +26,28 @@
 </section>
 
 <script>
-    $(document).ready(function () {
-        if(window.location.href.indexOf("aboutCompany") > -1) {
-            $('.aboutSectionTab1 p').addClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab2 p').removeClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab3 p').removeClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab4 p').removeClass('aboutSectionTabTextActive');
-        }
-        else if(window.location.href.indexOf("aboutNews") > -1) {
-            $('.aboutSectionTab1 p').removeClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab2 p').addClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab3 p').removeClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab4 p').removeClass('aboutSectionTabTextActive');
-        }
-        else if(window.location.href.indexOf("aboutVideos") > -1) {
-            $('.aboutSectionTab1 p').removeClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab2 p').removeClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab3 p').addClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab4 p').removeClass('aboutSectionTabTextActive');
-        }
-        else if(window.location.href.indexOf("aboutBrand") > -1) {
-            $('.aboutSectionTab1 p').removeClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab2 p').removeClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab3 p').removeClass('aboutSectionTabTextActive');
-            $('.aboutSectionTab4 p').addClass('aboutSectionTabTextActive');
-        }
-    });
+    if(window.location.href.indexOf("aboutCompany") > -1) {
+        $('.aboutSectionTab1 p').addClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab2 p').removeClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab3 p').removeClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab4 p').removeClass('aboutSectionTabTextActive');
+    }
+    else if(window.location.href.indexOf("aboutNews") > -1) {
+        $('.aboutSectionTab1 p').removeClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab2 p').addClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab3 p').removeClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab4 p').removeClass('aboutSectionTabTextActive');
+    }
+    else if(window.location.href.indexOf("aboutVideos") > -1) {
+        $('.aboutSectionTab1 p').removeClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab2 p').removeClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab3 p').addClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab4 p').removeClass('aboutSectionTabTextActive');
+    }
+    else if(window.location.href.indexOf("aboutBrand") > -1) {
+        $('.aboutSectionTab1 p').removeClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab2 p').removeClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab3 p').removeClass('aboutSectionTabTextActive');
+        $('.aboutSectionTab4 p').addClass('aboutSectionTabTextActive');
+    }
 </script>
