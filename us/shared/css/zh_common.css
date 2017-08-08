@@ -76,39 +76,24 @@ input:focus{ outline:none;}
 /*字体部分结束*/
 
 /* fontSize start */
+.title80{font-size: 80px;}
 .title60{font-size: 60px;}
+.title48{font-size: 48px;}
 .title36{font-size: 36px;}
 .title32{font-size: 32px;}
 .title30{font-size: 30px;}
 .title28{font-size: 28px;}
+.title26{font-size: 26px;}
 .title24{font-size: 24px;}
 .title22{font-size: 22px;}
 .title20{font-size: 20px;}
 .title18{font-size: 18px;}
-.titNom30,.titEng30{font-size: 30px;}
-.titNomCol16,.titEngCol16{font-size: 16px; color: #fff;}
-.titColor80{font-size: 80px; color: #fff;}
-.titColor60{font-size: 60px; color: #fff;}
-.titColor48{font-size: 48px; color: #fff;}
-.titColor36{font-size: 36px; color: #fff;}
-.titColor32{font-size: 32px; color: #fff;}
-.titColor28{font-size: 28px; color: #fff;}
-.titColor20{font-size: 20px; color: #fff;}
-.titColor18{font-size: 18px; color: #fff;}
-.titColorSpl18{font-size: 18px; color: #d4d4d4;}
-.text32{font-size: 32px;}
-.text28{font-size: 28px;}
-.text18{font-size: 18px;}
-.text18{font-size: 18px;}
+.title16{font-size: 16px;}
+
 .text20{font-size: 20px;}
+.text18{font-size: 18px;}
 .text16{font-size: 16px;}
 .text14{font-size: 14px;}
-.txtNom34,.txtEng34{font-size: 34px;}
-.txtNom30,.txtEng30{font-size: 30px;}
-.txtNom20,.txtEng20{font-size: 20px;}
-.txtColor16{font-size: 16px; color: #fff;}
-.txtColorSpl16{font-size: 16px; color: #989898;}
-
 /* fontSize end */
 
 /*Header和Footer*/
@@ -577,38 +562,26 @@ input:focus{ outline:none;}
 
 @media (max-width:1600px) {
 	/* fontSize start */
+    .title80{font-size: 67px;}
     .title60{font-size: 50px;}
-    .title36{font-size: 30px}
+    .title48{font-size: 40px;}
+    .title36{font-size: 30px;}
     .title32{font-size: 27px;}
-	.title30{font-size: 25px;}
+    .title30{font-size: 25px;}
     .title28{font-size: 23px;}
+    .title26{font-size: 22px;}
     .title24{font-size: 20px;}
     .title22{font-size: 18px;}
     .title20{font-size: 17px;}
     .title18{font-size: 15px;}
-    .titNom30,.titEng30{font-size: 25px;}
-	.titNomCol16,.titEngCol16{font-size: 14px; color: #fff;}
-    .titColor80{font-size: 67px; color: #fff;}
-    .titColor60{font-size: 50px; color: #fff;}
-	.titColor48{font-size: 48px; color: #fff;}
-	.titColor36{font-size: 30px; color: #fff;}
-    .titColor32{font-size: 27px; color: #fff;}
-    .titColor28{font-size: 23px; color: #fff;}
-    .titColor20{font-size: 17px; color: #fff;}
-    .titColor18{font-size: 15px; color: #fff;}	
-	.titColorSpl18{font-size: 15px; color: #d4d4d4;}
-    .text32{font-size: 27px;}
-    .text28{font-size: 23px;}
+    .title16{font-size: 14px;}
+
     .text20{font-size: 17px;}
     .text18{font-size: 15px;}
-	.text16{font-size: 14px;}
-	.text14{font-size: 12px;}
-    .txtNom34,.txtEng34{font-size: 28px;}
-    .txtNom30,.txtEng30{font-size: 25px;}
-    .txtNom20,.txtEng20{font-size: 17px;}
-    .txtColor16{font-size: 14px; color: #fff;}
-    .txtColorSpl16{font-size: 14px; color: #989898;}
+    .text16{font-size: 14px;}
+    .text14{font-size: 13px;}
 	/* fontSize end */
+	
     .teleText{
         font-size:14px;
     }
@@ -625,37 +598,24 @@ input:focus{ outline:none;}
 
 @media (max-width:1400px){
 	/* fontSize start */
+    .title80{font-size: 58px;}
     .title60{font-size: 44px;}
-    .title36{font-size: 26px}
+    .title48{font-size: 35px;}
+    .title36{font-size: 26px;}
     .title32{font-size: 23px;}
-	.title30{font-size: 22px;}
+    .title30{font-size: 22px;}
     .title28{font-size: 20px;}
-	.title24{font-size: 17px;}
-    .title22{font-size: 16px;}
-    .title20{font-size: 15px;}
-    .title18{font-size: 13px;}
-    .titNom30,.titEng30{font-size: 22px;}
-	.titNomCol16,.titEngCol16{font-size: 12px; color: #fff;}
-    .titColor80{font-size: 58px; color: #fff;}
-    .titColor60{font-size: 44px; color: #fff;}
-	.titColor48{font-size: 48px; color: #fff;}
-	.titColor36{font-size: 26px; color: #fff;}
-    .titColor32{font-size: 23px; color: #fff;}
-    .titColor28{font-size: 20px; color: #fff;}
-    .titColor20{font-size: 15px; color: #fff;}
-    .titColor18{font-size: 13px; color: #fff;}	
-	.titColorSpl18{font-size: 13px; color: #d4d4d4;}
-    .text32{font-size: 23px;}
-    .text20{font-size: 15px;}
-    .text28{font-size: 20px;}
-    .text18{font-size: 13px;}
-	.text16{font-size: 12px;}
-	.text14{font-size: 10px;}
-    .txtNom34,.txtEng34{font-size: 25px;}
-    .txtNom30,.txtEng30{font-size: 22px;}
-    .txtNom20,.txtEng20{font-size: 15px;}
-    .txtColor16{font-size: 12px; color: #fff;}
-    .txtColorSpl16{font-size: 12px; color: #989898;}
+    .title26{font-size: 19px;}
+    .title24{font-size: 18px;}
+    .title22{font-size: 17px;}
+    .title20{font-size: 16px;}
+    .title18{font-size: 14px;}
+    .title16{font-size: 13px;}
+
+    .text20{font-size: 16px;}
+    .text18{font-size: 14px;}
+    .text16{font-size: 13px;}
+    .text14{font-size: 12px;}
 	/* fontSize end */
     .headerMirrorSearchPart{
         padding-top: 1.5%;
@@ -688,37 +648,24 @@ input:focus{ outline:none;}
 
 @media (max-width:1300px){	
 	/* fontSize start */
+    .title80{font-size: 4.2vw;}
     .title60{font-size: 3.2vw;}
+    .title48{font-size: 2.5vw;}
     .title36{font-size: 1.85vw;}
     .title32{font-size: 1.7vw;}
-	.title30{font-size: 1.5vw;}
+    .title30{font-size: 1.5vw;}
     .title28{font-size: 1.46vw;}
-	.title24{font-size: 1.23vw;}
+    .title26{font-size: 1.38vw;}
+    .title24{font-size: 1.23vw;}
     .title22{font-size: 1.15vw;}
     .title20{font-size: 1.1vw;}
-    .title18{font-size: 0.9vw;}
-    .titNom30,.titEng30{font-size: 1.5vw;}
-	.titNomCol16,.titEngCol16{font-size: 0.8vw; color: #fff;}
-    .titColor80{font-size: 4.2vw; color: #fff;}
-	.titColor60{font-size: 3.2vw; color: #fff;}
-	.titColor48{font-size: 2.5vw; color: #fff;}
-	.titColor36{font-size: 1.85vw; color: #fff;}
-    .titColor32{font-size: 1.7vw; color: #fff;}
-    .titColor28{font-size: 1.46vw; color: #fff;}
-    .titColor20{font-size: 1.1vw; color: #fff;}
-    .titColor18{font-size: 0.9vw; color: #fff;}	
-	.titColorSpl18{font-size: 0.9vw; color: #d4d4d4;}
-    .text32{font-size: 1.7vw;}
-    .text28{font-size: 1.46vw;}
+    .title18{font-size: 1vw;}
+    .title16{font-size: .9vw;}
+
     .text20{font-size: 1.1vw;}
-    .text18{font-size: 0.9vw;}
-	.text16{font-size: 0.8vw;}
-	.text14{font-size: 0.7px;}
-    .txtNom34,.txtEng34{font-size: 1.8vw;}
-    .txtNom30,.txtEng30{font-size: 1.5vw;}
-    .txtNom20,.txtEng20{font-size: 1.1vw;}
-    .txtColor16{font-size: 0.8vw; color: #fff;}
-    .txtColorSpl16{font-size: 0.8vw; color: #989898;}
+    .text18{font-size: 1vw;}
+    .text16{font-size: .9vw;}
+    .text14{font-size: .85vw;}
 	/* fontSize end */
     .headerBackToTop {
         height:50px;
@@ -772,38 +719,25 @@ input:focus{ outline:none;}
 	/* mainLayout end*/
 	
 	/* fontSize start */
+    .title80{font-size: 4.2vw;}
     .title60{font-size: 5.2vw;}/**/
+    .title48{font-size: 2.5vw;}
     .title36{font-size: 3.2vw;}/**/
     .title32{font-size: 2.6vw;} /**/
-	.title30{font-size: 2.4vw;} /**/
+    .title30{font-size: 2.5vw;} /**/
     .title28{font-size: 1.46vw;}
-	.title24{font-size: 1.8vw;}
+    .title26{font-size: 1.38vw;}
+    .title24{font-size: 1.23vw;}
     .title22{font-size: 2.2vw;} /**/
     .title20{font-size: 1.1vw;}
-    .title18{font-size: 0.9vw;}
-    .titNom30,.titEng30{font-size: 1.5vw;}
-	.titNomCol16,.titEngCol16{font-size: 0.8vw; color: #fff;}
-    .titColor80{font-size: 4.2vw; color: #fff;}
-	.titColor60{font-size: 3.2vw; color: #fff;}
-	.titColor48{font-size: 2.5vw; color: #fff;}
-	.titColor36{font-size: 1.85vw; color: #fff;}
-    .titColor32{font-size: 1.7vw; color: #fff;}
-    .titColor28{font-size: 1.46vw; color: #fff;}
-    .titColor20{font-size: 1.1vw; color: #fff;}
-    .titColor18{font-size: 0.9vw; color: #fff;}	
-	.titColorSpl18{font-size: 0.9vw; color: #d4d4d4;}
-    .text32{font-size: 1.7vw;}
-    .text28{font-size: 1.46vw;}
+    .title18{font-size: 1.8vw;} /**/
+    .title16{font-size: 1.6vw;} /**/
+
     .text20{font-size: 1.1vw;}
     .text18{font-size: 1.8vw;} /**/
-	.text16{font-size: 1.6vw;} /**/
-	.text14{font-size: 1.4vw;} /**/
-    .txtNom34,.txtEng34{font-size: 1.8vw;}
-    .txtNom30,.txtEng30{font-size: 1.5vw;}
-    .txtNom20,.txtEng20{font-size: 1.1vw;}
-    .txtColor16{font-size: 0.8vw; color: #fff;}
-    .txtColorSpl16{font-size: 0.8vw; color: #989898;}
-	/* fontSize end */
+    .text16{font-size: 1.6vw;} /**/
+    .text14{font-size: 1.4vw;} /**/
+	/* fontSize end */	
 	
     .toggle{
         padding-left:0;
