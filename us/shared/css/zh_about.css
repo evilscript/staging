@@ -135,3 +135,86 @@
     background-size:cover;
     padding-bottom: 5%;
 }
+.aboutNewsBanner1, .aboutNewsBanner2, .aboutNewsBanner3{
+    width:33.3%;
+    float:left;
+    margin-right:0.05%;
+    position:relative;
+    border-bottom:5px solid #327fe8;
+    overflow:hidden;
+    cursor:pointer;
+}
+.aboutNewsBanner1 img:hover, .aboutNewsBanner2 img:hover, .aboutNewsBanner3 img:hover{
+    transform: scale(1.2);
+}
+.aboutNewsBanner1 img, .aboutNewsBanner2 img, .aboutNewsBanner3 img{
+    transition: all 1s;
+}
+.aboutNewsBanner2{
+    border-bottom:5px solid #ff7f00;
+}
+.aboutNewsBanner3{
+    margin-right:0;
+}
+.aboutNewsBannerText{
+    background: black;
+    opacity: 0.8;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: 300;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 0;
+    text-align: center;
+}
+.yearText{
+    color: #222222;
+    padding-left: 5%;
+    margin-bottom: 0;
+}
+.yearContainer{
+    width:28%;
+    position:relative;
+}
+.yearSelect{
+    width: 100%;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    padding: 1%;
+    margin-top: 5%;
+    cursor:pointer;
+}
+.yearSelectLeft{
+    float:left;
+    width:80%;
+}
+.yearSelectRight{
+    width:20%;
+    float:left;
+}
+.yearRightArrow{
+    margin-bottom: 0;
+    text-align: center;
+    border-left: 1px solid #808080;
+}
+.otherYearText{
+    color:#222222;
+    text-align:center;
+    margin-bottom:0;
+    border: 1px solid #aaaaaa;
+    cursor:pointer;
+    background: rgba(255,255,255,0.9);
+}
+.otherYearText:hover{
+    background:rgba(255,127,0,0.9);
+    border:1px solid #ff7f00;
+    color:white;
+    transition:all, 0.5s;
+}
+.otherYear{
+    position: absolute;
+    width: 100%;
+    display: block;
+}

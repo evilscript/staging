@@ -17,8 +17,9 @@
 
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../shared/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_aboutCompany.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_about.css">
     <!--这里继续添加子页面的Css引用文件-->
 
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
@@ -26,35 +27,39 @@
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
+    <script src="../shared/js/aboutNews.js"></script>
     <!--这里继续添加子页面的Js引用文件-->
 </head>
 
 
-<body ng-app="">
+<body ng-app="myApp" ng-controller="myCtrl" style="background:white;">
     <!--Carson制作-->
 
     <div ng-include="'header.html'"></div>
 
     <div class="container1920">
         <div class="mainLayout">
-            <section class="aboutBanner">
-                <div class="container1520">
-                    <p class="aboutTitle pin title60">移动生活，处处精彩。</p>
-                    <p class="aboutSubtitle pin title36">iTalkBB蜻蜓蜻蜓为移民而生，<br>
-                        为海外华人打造更美好的生活。</p>
-                    <!--<div class="aboutTopIcon aboutTopIconFirst">
-                    <img src="../shared/images/about/companyTopIcon1.png" class="img aboutTopBlue1" alt="">
+            <section class="aboutNewsBanner">
+                <div class="container1920">
+                    <div class="aboutNewsBanner1">
+                        <img src="../shared/images/about/aboutNewsBanner1.jpg" class="img w100" alt="">
+                        <div class="aboutNewsBannerText title30 pin" style="display:none;">
+                            <span class="sans">iTalkBB</span>化蜻蜓，沟通全球华人显决心
+                        </div>
                     </div>
-                    <div class="aboutTopIcon">
-                        <img src="../shared/images/about/companyTopIcon2.png" class="img aboutTopBlue2" alt="">
+                    <div class="aboutNewsBanner2">
+                        <img src="../shared/images/about/aboutNewsBanner2.jpg" class="img w100" alt="">
+                        <div class="aboutNewsBannerText title30 pin" style="display:none;">
+                            <span class="sans">iTalkBB</span>化蜻蜓，沟通全球华人显决心
+                        </div>
                     </div>
-                    <div class="aboutTopIcon">
-                        <img src="../shared/images/about/companyTopIcon3.png" class="img aboutTopBlue3" alt="">
+                    <div class="aboutNewsBanner3">
+                        <img src="../shared/images/about/aboutNewsBanner3.jpg" class="img w100" alt="">
+                        <div class="aboutNewsBannerText title30 pin" style="display:none;">
+                            <span class="sans">iTalkBB</span>化蜻蜓，沟通全球华人显决心
+                        </div>
                     </div>
-                    <div class="aboutTopIcon">
-                        <img src="../shared/images/about/companyTopIcon4.png" class="img aboutTopBlue4" alt="">
-                    </div>
-                    <div class="clear clearfix"></div>-->
+                    <div class="clear clearfix"></div>
                 </div>
                 <div class="clear clearfix"></div>
             </section>
@@ -62,11 +67,87 @@
             <!--关于我们系列页面 tab 公共部分，每页的active不同-->
             <div ng-include="'aboutTab.html'"></div>
             <!--结束-->
+
+            <div class="container1520">
+                <div class="yearContainer">
+                    <div class="yearSelect">
+                        <div class="yearSelectLeft">
+                            <p class="yearText sans title30">{{year}}</p>
+                        </div>
+                        <div class="yearSelectRight">
+                            <p class="org title30 sans yearRightArrow">
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                        <div class="clear clearfix"></div>
+                    </div>
+                    <div class="otherYear" style="display:none;">
+                        <div class="otherYearAll" ng-click="yearAll()">
+                            <p class="otherYearText sans title28">全部新闻</p>
+                        </div>
+                        <div class="otherYear2017" ng-click="year2017()">
+                            <p class="otherYearText sans title28">2017</p>
+                        </div>
+                        <div class="otherYear2016" ng-click="year2016()">
+                            <p class="otherYearText sans title28">2016</p>
+                        </div>
+                        <div class="otherYear2015" ng-click="year2015()">
+                            <p class="otherYearText sans title28">2015</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="yearAll">
+                    <div class="year2017" ng-show="newsContent2017">
+                        2017
+                    </div>
+                    <div class="year2016" ng-show="newsContent2016">
+                        2016
+                    </div>
+                    <div class="year2015" ng-show="newsContent2015">
+                        2015
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     
     <div class="lineBlue"></div>
     
     <div ng-include="'footer.html'"></div>
+
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('myCtrl', function($scope) {
+            $scope.year='全部新闻';
+            $scope.newsContent2017=true;
+            $scope.newsContent2016=true;
+            $scope.newsContent2015=true;
+            $scope.yearAll = function(){
+                $scope.year = '全部新闻';
+                $scope.newsContent2017 = true;
+                $scope.newsContent2016 = true;
+                $scope.newsContent2015 = true;
+            };
+            $scope.year2017 = function(){
+                $scope.year = '2017';
+                $scope.newsContent2017 = true;
+                $scope.newsContent2016 = false;
+                $scope.newsContent2015 = false;
+            };
+            $scope.year2016 = function(){
+                $scope.year = '2016';
+                $scope.newsContent2017 = false;
+                $scope.newsContent2016 = true;
+                $scope.newsContent2015 = false;
+            };
+            $scope.year2015 = function(){
+                $scope.year = '2015';
+                $scope.newsContent2017 = false;
+                $scope.newsContent2016 = false;
+                $scope.newsContent2015 = true;
+            };
+        });
+    </script>
 </body>
 </html>

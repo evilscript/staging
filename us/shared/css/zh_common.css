@@ -14,6 +14,7 @@ img{border:none; display:block;}
 input:focus{ outline:none;}
 .org{color:#ff972f;}
 .scroll{height:auto!important;}
+.w100{width:100%;}
 /*初始化设置结束*/
 
 /* mainLayout start */
