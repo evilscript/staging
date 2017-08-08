@@ -86,7 +86,6 @@ a, a:hover, a:focus{color: #222;}
 }
 
 @media (max-width:767px){
-	.mNoboder{border: none;}
 	.sptLeft,.sptRight{width: 100%; overflow: hidden; float: none;}
 	.sptLeft{ background: #f0f0f0; padding: 8% 0 8.2% 0;}
 	.sptRight{padding-top: 6%; padding-bottom: 3%;}	
@@ -97,10 +96,10 @@ a, a:hover, a:focus{color: #222;}
 		background-size: 50%;
 		background-position-x: 50%;
 	}	
-	.searchBar{width: 54%;}
+	.searchBar{width: 55%;}
 	.searchButton{width: 16%;}
 	.mHservice{margin-top: 1.5%;}
 	.hService{margin: 0 auto;}
-	.hService p{float: none; width: 80%; border: none;border-bottom: 1px solid #b1b1b1;padding:25% 0 5% 0;margin-left: 10%;}
+	.hService p{float: none; width: 90%; border: none;border-bottom: 1px solid #b1b1b1;padding:25% 0 5% 0;margin-left: 5%;}
 	.bgService1,.bgService2,.bgService3{background-size: 20%;background-position-y: 28%;}
 }

@@ -719,24 +719,24 @@ input:focus{ outline:none;}
 	/* mainLayout end*/
 	
 	/* fontSize start */
-    .title80{font-size: 4.2vw;}
-    .title60{font-size: 5.2vw;}/**/
-    .title48{font-size: 2.5vw;}
-    .title36{font-size: 3.2vw;}/**/
-    .title32{font-size: 2.6vw;} /**/
-    .title30{font-size: 2.5vw;} /**/
-    .title28{font-size: 1.46vw;}
-    .title26{font-size: 1.38vw;}
-    .title24{font-size: 1.23vw;}
-    .title22{font-size: 2.2vw;} /**/
-    .title20{font-size: 1.1vw;}
-    .title18{font-size: 1.8vw;} /**/
-    .title16{font-size: 1.6vw;} /**/
+    .title80{font-size: 6.7vw;}/*以67px在1000px分辨率的比例取值，下同*/
+    .title60{font-size: 5.2vw;}/* 52px */
+    .title48{font-size: 4.2vw;}/* 42px */
+    .title36{font-size: 3.2vw;}/* 32px */
+    .title32{font-size: 3.0vw;}/* 30px */
+    .title30{font-size: 2.8vw;}/* 28px */
+    .title28{font-size: 2.6vw;}/* 26px */
+    .title26{font-size: 2.4vw;}/* 24px */
+    .title24{font-size: 2.2vw;}/* 22px */
+    .title22{font-size: 2.0vw;}/* 20px */
+    .title20{font-size: 1.8vw;}/* 18px */
+    .title18{font-size: 1.6vw;}/* 16px */
+    .title16{font-size: 1.4vw;}/* 14px */
 
-    .text20{font-size: 1.1vw;}
-    .text18{font-size: 1.8vw;} /**/
-    .text16{font-size: 1.6vw;} /**/
-    .text14{font-size: 1.4vw;} /**/
+    .text20{font-size: 1.8vw;}/* 18px */
+    .text18{font-size: 1.6vw;}/* 16px */
+    .text16{font-size: 1.4vw;}/* 14px */
+    .text14{font-size: 1.3vw;}/* 13px */
 	/* fontSize end */	
 	
     .toggle{
@@ -864,6 +864,26 @@ input:focus{ outline:none;}
 	/* mainLayout end*/
 	
 	/* fontSize start */
+	
+	.title80{font-size: 6.7vw;}/*以67px在1000px分辨率的比例取值，下同*/
+    .title60{font-size: 5.2vw;}/* 52px */
+    .title48{font-size: 4.2vw;}/* 42px */
+    .title36{font-size: 3.2vw;}/* 32px */
+    .title32{font-size: 3.0vw;}/* 30px */
+    .title30{font-size: 2.8vw;}/* 28px */
+    .title28{font-size: 2.6vw;}/* 26px */
+    .title26{font-size: 2.4vw;}/* 24px */
+    .title24{font-size: 2.2vw;}/* 22px */
+    .title22{font-size: 2.0vw;}/* 20px */
+    .title20{font-size: 1.8vw;}/* 18px */
+    .title18{font-size: 1.6vw;}/* 16px */
+    .title16{font-size: 1.4vw;}/* 14px */
+
+    .text20{font-size: 1.8vw;}/* 18px */
+    .text18{font-size: 1.6vw;}/* 16px */
+    .text16{font-size: 1.4vw;}/* 14px */
+    .text14{font-size: 1.3vw;}/* 13px */
+	
 	.mTitle60{font-size: 7.8vw;}
 	.mTitle50{font-size: 6.52vw;}
 	.mTitle48{font-size: 6.26vw;}
