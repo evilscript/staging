@@ -1,9 +1,5 @@
 $(document).ready(function(){
-    $('.aboutNewsBanner1, .aboutNewsBanner2, .aboutNewsBanner3').mouseover(function(){
-        $(this).children('.aboutNewsBannerText').fadeIn(500);
-    }).mouseleave(function(){
-        $(this).children('.aboutNewsBannerText').fadeOut(500);
-    });
+
 
     $('.yearSelect').click(function(){
         $('.otherYear').slideToggle(300);
