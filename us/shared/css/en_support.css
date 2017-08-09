@@ -1,16 +1,18 @@
 /* support banner en */
 /* Amy制作 */
-.sptBantitle{}
+body{margin: 0;padding:0;overflow: hidden;font-family:'open sans', Arial, sans-serif;}
+.sptBantitle1,.sptBantitle2{padding: 0 5%;}
+.sptBantitle2{line-height: 1;}
 /* support others start */
-.pin {font-family: 'open sans', Arial, sans-serif;}
-
 @media  (min-width:768px) and (max-width:1000px){
-    
+    .sptBanPart1{padding-top: 3.5%;}  
+	.sptBanPart2{padding-bottom: 3.2%; padding-top: -7%;}
 }
 
 @media (max-width:767px){    
-	
+    .sptBantitle1,.sptBantitle2{padding: 0 5%;}
+	.sptBanPart2{margin-top: 1.5%;}
 }
 @media (max-width:511px){
-    
+    .sptBanPart2{margin-top: -8%;}    
 }

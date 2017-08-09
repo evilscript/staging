@@ -1,28 +1,46 @@
 /* support All css */
 /* Amy制作 */
-body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:justify;font-family:'open sans', Arial, sans-serif;}
-.pin {font-family: 'open sans', Arial, sans-serif;}
-	.sptMenu{margin: 0 auto; width: 54%;}
-	.menuBox{width: 101.1%;}
-	.menuBtn{float: left; width: 32.3%; text-align: center; margin-right: 1%; border: 1px solid #327fe8;line-height: 220%;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
-	.menuBtn:hover,.selected,.menuBtn:visited{color:white;box-shadow: inset 350px 0 0 #327fe8;}	
-	
+body{margin: 0;padding:0;overflow: hidden;font-family:'open sans', Arial, sans-serif;}
+    .foldText{padding: 1.8% 2.4% 1.4% 2.4%;}
+	.foldBoxSpc1 .bubbleAngle{margin-left: 51%;}
+	.foldBoxSpc2 .bubbleAngle{margin-left: 83.5%;}
 	ul{margin-left: 1.75%; padding: 0;}
-	ul.enListNom li,ul.enListDot li{ line-height: 2}
-	ul.enListNom li{list-style-type:decimal;}
-	ul.enListNom li p:first-child{margin-top: 1%}
-	ul.enListNom li p:last-child{margin-bottom: 1%;}
-	ul.enListNom li div.pMgn{margin-bottom: 1.2%;}
-	ul.enListDot{margin-left: 1.65%;}
-	ul.enListDot li{float: left;width: 28%; list-style-type: disc;}
-	
+	ul.listDot{width: 120%}
+	ul.listDot li{float: left;width: 32%; line-height: 1.5;}
+	.btnTxt18 img{margin-left: 1.5%; width: 2.6%; margin-bottom: 1.0%;}
 
-@media  (min-width:768px) and (max-width:1000px){
-	ul.enListDot{margin-left: 2%;}
+@media  (min-width:1651px) and (max-width:1800px){ul{margin-left: 1.85%;}}
+@media  (min-width:1501px) and (max-width:1650px){ul{margin-left: 1.86%;}}
+@media  (min-width:1351px) and (max-width:1500px){ul{margin-left: 1.88%;}}
+@media  (min-width:1201px) and (max-width:1350px){ul{margin-left: 1.86%;}}
+@media  (min-width:1001px) and (max-width:1200px){ul{margin-left: 1.88%;}}
+
+@media  (min-width:1500px) and (max-width:1700px){.Sharp{width: 1.9%;}}	
+@media  (min-width:1300px) and (max-width:1500px){.Sharp{width: 1.8%;}}	
+@media  (min-width:1000px) and (max-width:1300px){
+	.Sharp{width: 1.6%;}
+	.textNote{padding-left: 1.5%; background-size: 1%;background-position-y: 3.5%;}
+	.btnTxt18 img{margin-left: 1.5%; margin-bottom: 1.2%;}
 }
 
-@media (max-width:767px){    
-	ul.enListNom li{line-height: 1.61}
-	ul.enListDot{margin-left: 6%;}
-	ul.enListDot li{width: 48%;}	
-    }	
+@media  (min-width:768px) and (max-width:1000px){
+    .foldText{padding: 1.8% 2.4% 1.4% 2.4%;}
+	.foldBoxSpc1 .bubbleAngle{margin-left: 55%;}
+	.foldBoxSpc2 .bubbleAngle{margin-left: 88%;}
+	ul{margin-left: 2.1%;}
+	ul.listDot{width: 126%; margin-left: 2%;}
+	.btnTxt18 img{margin-left: 2.5%; width: 3.2%; margin-bottom: 1%;}
+}
+
+@media (max-width:767px){
+    .foldText{padding:3.5% 3% 2.3% 4.6%;}
+    .foldBoxSpc1 .bubbleAngle{margin-left: 17%;}
+	.foldBoxSpc2 .bubbleAngle{margin-left: 16%;}
+	ul{margin-left: 5%;}
+	ul.listNom li{line-height: 1.61}
+	ul.listDot{margin-left: 6%;}
+	ul.listDot li{width: 48%; padding-right: 8%;}
+	.btnTxt18 img{margin-left: 2.8%; width: 4%; margin-bottom: 1%;}	
+}	
+	
+	

@@ -81,13 +81,12 @@ a, a:hover, a:focus{color: #222;}
 	.mHservice{margin-top: 1.5%;}
 	.hService{width: 100%; margin-left: .5%;padding: 0 1%; margin-bottom: 7%; margin-top: 5%;}
 	.hService p{float: left; width: 33%; text-align: center; padding-top: 14.5%;border-right: 1px solid #b1b1b1;}
-	.bgService1,.bgService2,.bgService3{background-size: 38%;background-position-y: 0;}
-	
+	.bgService1,.bgService2,.bgService3{background-size: 38%;background-position-y: 0;}	
 }
 
 @media (max-width:767px){
 	.sptLeft,.sptRight{width: 100%; overflow: hidden; float: none;}
-	.sptLeft{ background: #f0f0f0; padding: 8% 0 8.2% 0;}
+	.sptLeft{ background: #f0f0f0; padding: 5% 0 10.5% 0;}
 	.sptRight{padding-top: 6%; padding-bottom: 3%;}	
 	.searchImg,.searchBar,.searchButton{line-height: 1.5}
 	.searchImg{
@@ -103,3 +102,4 @@ a, a:hover, a:focus{color: #222;}
 	.hService p{float: none; width: 90%; border: none;border-bottom: 1px solid #b1b1b1;padding:25% 0 5% 0;margin-left: 5%;}
 	.bgService1,.bgService2,.bgService3{background-size: 20%;background-position-y: 28%;}
 }
+
