@@ -221,3 +221,55 @@
 .year2017, .year2016, .year2015{
     transition: all, 0.5s;
 }
+.newsBlockLeft{
+    float:left;
+    padding-left: 3%;
+    width:20%;
+}
+.newsBlockRight{
+    float:left;
+    width:80%;
+}
+.newsBlockLeftYear{
+    color:#333333;
+    margin-bottom:0;
+}
+.newsBlockLeftDate{
+    color:#333333;
+    font-size:90px;
+    margin-bottom:0;
+}
+.newsBlock{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    cursor: pointer;
+}
+.fontAdjust{
+    font-size: 32px;
+    top: -30px;
+    vertical-align: middle;
+}
+.newsBlockRightText{
+    margin-bottom: 0;
+    font-size: 21.6px;
+    padding-top: 1%;
+    line-height: 1.5;
+}
+.newsBlockRightTitle{
+    margin-bottom:0;
+    font-size:33px;
+}
+.wtf{
+    display: inline-block;
+    position: absolute;
+    margin-top: -75px;
+}
+.deviderText{
+    font-size:28px;
+    text-align:center;
+    color:#ff7f00;
+    cursor:pointer;
+}
+.none{
+    display:none;
+}

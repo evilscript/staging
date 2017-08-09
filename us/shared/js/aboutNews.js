@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     $('.yearSelect').click(function(){
         $('.otherYear').slideToggle(300);
-    })
+    });
 });
 
 $(document).mouseup(function(e)
