@@ -1,5 +1,6 @@
 /* support banner start */
 /* Amy制作 */
+.IconBox a,.IconBox a:link,.IconBox a:hover{color: #fff;}
 .sptBanner{margin: 0 auto; padding: 0;max-width: 1920px; text-align: center; background: url(../images/support/sptBannerBg.jpg) no-repeat;background-size: 100%;}
 .sptBanPart1{padding-top: 5%; color: #fff;}
 .sptBanArrow{background: url(../images/support/sptBannerArrow.png) no-repeat scroll center center;background-size: 1.8%; margin-top: 1%;}
@@ -7,7 +8,7 @@
 .sptBanIcon{margin: 0 auto; width: 72%;}
 .IconBox{width: 105%;}
 .IconBox a{float: left; width: 20%; margin-right: 5%; text-align: center; cursor: pointer;color: #fff; padding-top: 1.8%;}
-.IconBox a:hover{background: url(../images/support/sptBannerIconLight.png) no-repeat;background-size: 98%; background-position-x: 45%;background-position-y: -6%;color: #fff;}
+.IconBox a:hover{background: url(../images/support/sptBannerIconLight.png) no-repeat;background-size: 98%; background-position-x: 45%;background-position-y: -6%;}
 .IconBox p{padding-top: 10%;}
 .sptBanA img{margin: 0 auto; width: 80%;}
 
