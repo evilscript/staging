@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+	<meta name="apple-itunes-app" content="app-id=514896649">
+
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptQuery.css">
+
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+	<script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+
+    <style>
+select {width: 100%;padding: 2%;font-size:18px;border:1px solid #333333; 
+/*将默认的select选择框样式清除*/
+appearance:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;
+/*在选择框的最右侧中间显示小箭头图片*/
+background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% center transparent;        }
+    </style>
+    
+</head>
+<body ng-app="" style="background-color:#ffffff">
+
+	<div ng-include="'header.html'"></div>
+    <div class="clear clearfix"></div>
+	
+	<div class="bodyy container1920">
+     <div class="mainLayout">
+	
+		<div class="fixhead">
+		   <div class="d1">
+				<img  class="d1img" src="../shared/images/support/whereBanner.jpg" alt="" style="width:100%;" alt="">
+				<img  class="d2img" src="../shared/images/support/mwhereBanner.jpg" alt="" style="width:100%;" alt="">
+				<div class="textBanner">
+					<div class="t1 pin title80">不论您身在美国何处</div>
+					<div class="t2 pin title32">iTalkBB蜻蜓体验店为您提供全方位的服务</div>
+					<div class="t2 pin title32">365天全年无休为海外华人服务</div>
+				</div>
+		    </div>
+		   	<div class="d3 ">
+				<img  class="d1img" src="../shared/images/support/customerBanner.jpg" alt="" style="width:100%;" alt="">
+				<img  class="d2img" src="../shared/images/support/mcustomerBanner.jpg" alt="" style="width:100%;" alt="">
+<!--  
+				<div class="textBanner">
+					<div class="t1 pin title80">不论您身在美国何处</div>
+					<div class="t2 pin title32">iTalkBB蜻蜓体验店为您提供全方位的服务</div>
+					<div class="t2 pin title32">365天全年无休为海外华人服务</div>
+				</div>
+-->
+		    </div>
+
+		    <div class="d5 ">
+				<img  class="d1img" src="../shared/images/support/collaborateBanner.jpg" alt="" style="width:100%;" alt="">
+				<img  class="d2img" src="../shared/images/support/mcollaborateBanner.jpg" alt="" style="width:100%;" alt="">
+				<div class="textBanner">
+					<div class="t1 pin title80">不论您身在美国何处</div>
+					<div class="t2 pin title32">iTalkBB蜻蜓体验店为您提供全方位的服务</div>
+					<div class="t2 pin title32">365天全年无休为海外华人服务</div>
+				</div>
+		    </div>
+		</div>
+
+	<section class='where mainMgnTop'>
+		 <div class="mainLimited">
+        	<div class="lineOrange"></div> 	
+		  </div> 
+		<div class="change">
+			<div class="changes title22 mTitle24 pin button1">人工客服</div><div class="changes title22 mTitle24 changes2 button2 pin">店面查询</div><div class="changes title22 mTitle24 button3 pin">业务合作</div>
+		</div>
+	</section>
+
+
+	<div class="changeshow">
+<!-- shop -->
+	<section class='shop'>
+		<div class="title pin title32">请选择您要找的店面</div>
+		<div class="changeShop">
+			<select id="sel" class="title20" >
+  					<option value="DC Maryland and Virginia">DC Maryland and Virginia</option>
+  					<option value="South California">South California</option>
+ 					<option value="North California">North California</option>
+ 					<option value="New York">New York</option>
+ 					<option value="Texas">Texas</option>
+ 					<option value="Georgia">Georgia</option>
+ 					<option value="Massachusetts">Massachusetts</option>
+  					
+			</select>
+		</div>	
+		<div class="backgroundColor">
+		<div class="add">
+		<div class="shops">
+			<div class="shopx">
+				<div class="shopname title32 pin">Rockville</div>
+				<div class="address pin text18">Address: 700 Hungerford Dr, Rockville, MD 20850 </div>
+				<div class="time pin text18">Hours: Mon – Sun, 9:30am - 6:30pm</div>
+				<div class="num pin text18">Tel: (301) 880-1268</div>
+			</div>
+
+			<div class="map">
+				<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://ditu.google.cn/maps?f=q&amp;source=s_q&amp;hl=zh-CN&amp;geocode=&amp;q=Frederick+Rd,+Germantown,+MD+20876&amp;aq=&amp;sll=39.90403,116.407526&amp;sspn=0.816433,1.783905&amp;brcurrent=3,0x0:0x0,0%3B5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=Frederick+Rd,+Germantown,+Maryland+20876%E7%BE%8E%E5%9B%BD&amp;t=m&amp;z=14&amp;ll=39.1897,-77.241383&amp;output=embed"></iframe>
+			</div>
+			 <div class="clear clearfix"></div>
+		</div>
+		</div>
+		<div class="add white">
+		<div class="shops ">
+			<div class="shopx">
+				<div class="shopname title32 pin ">Falls Church</div>
+				<div class="address pin text18">Address: 2982 Gallows Rd, Falls Church, VA 22042</div>
+				<div class="time pin text18">Hours: Mon – Sun, 10:30am - 7:30pm</div>
+				<div class="num pin text18">Tel: (703) 879-8285</div>
+			</div>
+
+			<div class="map">
+				<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://ditu.google.cn/maps?f=q&amp;source=s_q&amp;hl=zh-CN&amp;geocode=&amp;q=Frederick+Rd,+Germantown,+MD+20876&amp;aq=&amp;sll=39.90403,116.407526&amp;sspn=0.816433,1.783905&amp;brcurrent=3,0x0:0x0,0%3B5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=Frederick+Rd,+Germantown,+Maryland+20876%E7%BE%8E%E5%9B%BD&amp;t=m&amp;z=14&amp;ll=39.1897,-77.241383&amp;output=embed"></iframe>
+			</div>
+			 <div class="clear clearfix"></div>
+		</div>
+
+		</div>
+		</div>
+	</section>
+
+<!-- 客服 -->
+	
+	<section class='customer'>
+		<div class='customes'>
+		<div class="tel24">
+			<img src="../shared/images/support/supportIcon1.png" alt="">
+			<div class="custitle title28 pin">电话客服</div>
+			<div class="telnums text18 pin">售后客服：1-877-482-5503  </div>
+			<div class="telnums text18 pin">销售客服：1-877-482-5522</div>
+			<div class="telnums text18 pin  aline">中国大陆客户服务热线：950-4030-000</div>
+		</div><div class="weixin">
+			<img src="../shared/images/support/supportIcon2.png" alt="">
+			<div class="custitle title28 pin">微信客服</div>
+			<img class="wma" src="../shared/images/support/wma.png" alt="">
+			<img class="mwma" src="../shared/images/support/mwma.png" alt="">
+		</div><div class="email">
+			<img src="../shared/images/support/email.png" alt="">
+			<div class="custitle title28 pin"><span class='titEng30'>Email</span>支持</div>
+			<div class="emails sans aline txtEng20">support@italkbb.com </div>
+		</div>
+		</div>
+
+	</section>
+
+<!-- 合作 -->
+	<section class='collaborate'>
+		<div class='collaborates'>
+		<div class="collaborate1">
+			<img class="collaboratePic" src="../shared/images/support/collaboratePic1.jpg" alt="">
+			<img class="mcollaboratePic" src="../shared/images/support/mcollaboratePic1.jpg" alt="">
+			<div class="opt">
+				<div class="optext">
+					<div class="optextName title28 pin">广告业务合作</div>
+					<div class="optexts text16 pin">iTalkBB蜻蜓中文电视平台投放广告业务，请访问www.iTalkBBMedia.com </div>
+					<div class="optexts text16 pin">联系电话: 1-888-670-6</div>
+					<div class="optexts text16 pin">Email: info@italkbbmedia.com</div>
+				</div>
+			</div>
+		</div><div class="collaborate2">
+			<img class="collaboratePic" src="../shared/images/support/collaboratePic2.jpg" alt="">
+			<img class="mcollaboratePic" src="../shared/images/support/mcollaboratePic2.jpg" alt="">
+			<div class="opt">
+				<div class="optext">
+					<div class="optextName title28 pin">代理商加盟</div>
+					<div class="optexts optexts2 text16 pin">成为iTalkBB蜻蜓代理商,www.iTalkBBdealer.com</div>
+					<div class="optexts optexts2 text16 pin">联系电话：1-877-482-5551</div>
+					<div class="optexts optexts2 text16 pin">Email: info@italkbb.com</div>
+				</div>
+			</div>
+		</div><div class="collaborate3" >
+			<img class="collaboratePic" src="../shared/images/support/collaboratePic3.jpg" alt="">
+			<img class="mcollaboratePic mcollaboratePic3" src="../shared/images/support/mcollaboratePic3.jpg" alt="">
+			<div class="opt2 opt3">
+				<div class="boptext">
+					<div class="boptextL">
+						<img class="quartersimg" src="../shared/images/support/bossimg.png" alt="">
+						<div class="title32 quarters pin">美国总部</div>
+					</div><div class="boptextR">
+					
+						<div>
+							<div class="quartersName title20 pin">DC Office</div>
+							<div class="quartersAddress text16 pin">Address: 7926 Jones Branch Drive, Ste 1100, Mclean VA 22102 USA</div>
+							<div class="quartersNum text16 pin">Fax: 703-848-1669 <br> Email: info@italkbb.com</div>
+						</div>
+
+						<div>
+							<div class="quartersName title20 pin">Austin Office</div>
+							<div class="quartersAddress text16 pin">Address: 1122 S. Capital of Texas Highway, Suite 375, Austin TX 78746 USA</div>
+							<div class="quartersNum text16 pin">Fax: 512-637-1451 <br> Email: info@italkbb.com</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	</div>
+
+
+
+
+	</div>
+	</div>
+
+
+
+
+	<section class='lineBlue'></section>
+    <div class="clear clearfix"></div>
+	<div ng-include="'footer.html'"></div>
+</body>
+<script src="../shared/js/sptQuery.js"></script>
+
+</html>

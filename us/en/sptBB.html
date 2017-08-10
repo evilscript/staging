@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+	<meta name="apple-itunes-app" content="app-id=514896649">
+
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+    <!--这里继续添加子页面的Css引用文件-->  
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_support.css"> 
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
+    
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+    <script src="../shared/js/AmyInterim.js"></script>
+    <!--这里继续添加子页面的Js引用文件-->
+    <style>
+	/**/
+	.faultCon{display: none;}
+	</style>
+</head>
+
+
+<body ng-app="">
+    <!--Amy制作--> 
+
+	<div ng-include="'header.html'"></div>
+
+    <!--主体内容 start-->
+	<div class="container1920">
+	    <div class="mainLayout">
+       <section>
+      	    <div ng-include="'sptBanner.html'"></div>	   
+       </section>
+       
+       <section class="mainMgnTop">
+      	  <div class="mainLimited">
+        	<div class="lineOrange"></div>       	        	 
+        	<div class="sptMenu">
+        	<div class="menuBox clearfix">
+			<p class="menuBtn title22 mTitle24 fwn use selected">Product Custom</p>
+			<p class="menuBtn title22 mTitle24 fwn fault">Inquire About</p>
+			<a href="#"><p class="menuBtn title22 mTitle24 fwn">费率查询</p></a>
+			</div>	
+			</div>
+		  </div>           	      	
+       </section>
+       
+       <section class="BB">
+       <div class="useCon">	    
+	    <div class="bgMgn noBgMgnbtm lineGray">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="titFirst title36 mTitle36 fwn">iTalkBB Home Phone installation</p>
+		    <p class="title30 mTitle32 fwn">iTalkBB Home Phone Box installation diagram</p>		    
+		    <div class="imgCnt">
+		    <p class="imgTitle title22 mTitle28 fwn">蜻蜓家庭电话盒</p>
+		    <img src="../shared/images/support/chs_sptBBsketch.png" alt="">
+		    </div>
+		</div>
+		</div>
+		</div>
+
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+	       <p class="title30 mTitle32 fwn">How to install iTalkBB Home Phone with router:</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		Plug one end of the cable into the "Internet" jack of the iTalkBB Home Phone Box and the other end into the Ethernet (LAN) socket on your home router
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Plug one end of you telephone line into the "Phone 1" jack of the iTalkBB Home Phone Box and the other end into your telephone
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Connect iTalkBB Home Phone Box to power
+		   	</li>
+		   </ul>			
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+	       <p class="title30 mTitle32 fwn">How to install iTalkBB Home Phone with modem (without router):</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		Disconnect the original modem from the PC, plug one of the network cables into the "Internet" jack of the iTalkBB Home Phone Box, and the other at the Modem's "LAN" socket		   		 
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Connect one end of the cable to the "LAN" jack of the iTalkBB Home Phone Box and the other end to the computer's "Ethernet" jack
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Plug one end of the telephone lines into the "Phone 1" jack of the iTalkBB Home Phone Box and the other end into your telephone
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Connect the iTalkBB Home Phone Box to power
+		   	</li>
+		   </ul>			
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+           <p class="titFirst title36 mTitle36 fwn">How to dial:</p>
+	       <p class="title30 mTitle32 fwn">Making International Calls with home phone:</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		Call a US or Canada number: 1 + area number + telephone number, Example: 1-202-888-8888		   		 
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Call an international number: Please dial 011 + country code + phone number, Example: 011-86-10-88888888
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Call to other iTalkBB home phone users using the free in-network call service: dial the 899 number
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Fax to United States, Canada: Please call # + 1 + fax number, Example: # + 1 + 888-888-8888
+		   		<div class="pMgn"></div>
+		   	</li>
+		   </ul>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Making International Calls with iTalkBB APP</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		Scan the QR code below to download the APP, or go to the Apple Store or Google Play search "iTalkBB", then download and install the APP
+		   		<div class="appQRcode clearfix">
+		   		  <div class="QRcode">
+		   		  	 <p>
+		   		  	 <img src="../shared/images/support/appQRcode1.png" alt="">
+		   		  	 <img src="../shared/images/support/chs_appBtn1.png" alt="">
+		   		  	 <span class="showM mTitle24">For iPhone download</span>
+		   		  	 </p>
+		   		  	 <p>
+		   		  	 <img src="../shared/images/support/appQRcode2.png" alt="">
+		   		  	 <img src="../shared/images/support/chs_appBtn2.png" alt="">
+		   		  	 <span class="showM mTitle24">For android phone download</span>
+		   		  	 </p>
+		   		  	 <p>
+		   		  	 <img src="../shared/images/support/appQRcode3.png" alt="">
+		   		  	 <img src="../shared/images/support/chs_appBtn3.png" alt="">
+		   		  	 <span class="showM mTitle24">For android phone download</span>
+		   		  	 </p>
+		   		  </div>
+		   		  <div class="clear clearfix"></div>		   		  
+		   		</div>	   		 
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		 After installing,  go visit the "welcome page" and click to confirm the terms of service
+		   		 <div class="imgLeft hideM" style="width: 38%;">
+		   		   <img src="../shared/images/support/chs_useBBExplain1.png" alt="">
+				 </div>
+				 <div class="showM imgCnt">
+		   		   <img src="../shared/images/support/chs_mUseBBExplain1.png" alt="">
+				 </div>
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		You need to bind your phone number with the APP and to verify code (PIN) when using the APP for the first time. The verification code is 4 digits	
+		   		<div class="imgLeft hideM" style="width: 43.5%;">
+		   		   <img src="../shared/images/support/chs_useBBExplain2.png" alt="">
+				</div>
+	   	        <div class="showM imgCnt">
+		   		   <img src="../shared/images/support/chs_mUseBBExplain2.png" alt="">
+				 </div>	   		
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		After completing all of the above, you can make phone calls in two ways:
+		   		<p class="fwn clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon" style="margin-left: -1%;">"Wi-Fi call": it is free and no extra cost</span>
+		   		</p>
+		   		<p class="fwn clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon" style="margin-left: -1%;">"Phone number call": You can uses your calling minutes to make phone calls through the APP</span>
+		   		</p>
+		   		<div class="imgLeft hideM" style="width: 43.5%;">
+		   		   <img src="../shared/images/support/chs_useBBExplain3.png" alt="">
+				</div>
+	   	        <div class="showM imgCnt">
+		   		   <img src="../shared/images/support/chs_mUseBBExplain3.png" alt="">
+				 </div>
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		 Follow the instructions below to learn how to dial any numbers directly through the APP 
+		   		 <div class="imgLeft hideM" style="width: 54.5%;">
+		   		   <img src="../shared/images/support/chs_useBBExplain4.png" alt="">
+				</div>
+   	            <div class="showM imgCnt">
+		   		   <img src="../shared/images/support/chs_mUseBBExplain4.png" alt="">
+				 </div>
+	   	        <div class="pMgn"></div>
+		   	</li>
+		   </ul>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Making International Calls with <a class="textLink" href="#">China Local Number 950</a></p>
+		   <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">Any families or friends in China can contact you with numbers beginning with 950 + 11-digit numbers. They can call your US telephone without any toll. When they call your 950 number, they don't need to dial 1 or any other international area code before the number. <a class="textLink" href="">Learn more</a>.
+		   	  </p>
+		   </div>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Making International Calls with <a class="textLink" href="#">Taiwan Access Number</a>:</p>
+		   <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">Your iTalkBB Home Phone comes with a <a class="textLink" href="#">Taiwan Access Number</a>. Friends in Taiwan can call without any toll: first dial 02-40660660 or 40502999, then enter your 899 number after being connected. <a class="textLink" href="">Learn more</a>.
+		   	  </p>
+		   </div>			
+		</div>
+		
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+           <p class="titFirst title36 mTitle36 fwn">How to Transfer Your Home Phone Number </p>
+	       <p class="title30 mTitle32 fwn">There are two ways to transfer your home phone number:</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		- Apply for phone number transferring service online by completing <a class="textLink" href="#">Letter of Authorization</a> <br> http://www.italkbb.com/bb/chs/Transfer/chs_Number_Transfer.asp；		   		 
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Or send your current home phone bill to <a  href="mailto:Portin@iTalkBB.com">Portin@iTalkBB.com</a> or fax it to 1-800-872-2059
+		   	</li>
+		   </ul>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">While your home phone number is in the process of porting to iTalkBB, please note:</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		Your name, address and phone number have to be on the first page of your bill and have to be consistent with <a class="textLink" href="#">Letter of Authorization</a>		   		 
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		The name and address you submit for phone number transfer must be the same with the ones you provided to your currentl telephone company, i.e. Service Address. If you are not sure, please contact your current company to confirm the CSR (Customer service record) information for your phone number. If the information you provide is inaccurate, your phone number transferring application will be rejected.
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Please do not cancel your current home phone service during the transfer process, otherwise, the number will be revoked.
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		After successfully transferring your phone number, your current home phone services will be canceled automatically. In case, you can double check with your current telephone company beforehand.
+		   	</li>
+		   </ul>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Check your transfer/port request status</p>
+		   <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">The process will take about 2-6 weeks. We will inform you via email of the latest updates. You can also log in to your online account or call 1-877-482-5503 to check the status.</p>
+		   </div>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Successful Transfer</p>
+		   <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">Once your home phone number transfers to iTalkBB successfully, your previous home phone service will be automatically canceled.</p>
+		   </div>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Failed Transfer </p>
+		   <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">Most of the home phone numbers can be successfully transferred. However, but for users who have bundle plans of home phone and Internet services, they can not cancel home phone service with Internet service retained. Therefore, these users have to confirm with current home phone service provider before transferring home phone number. </p>
+		   </div>			
+		</div>
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+           <p class="titFirst title36 mTitle36 fwn">Product Features</p>
+	       <p class="title30 mTitle32 fwn">iTalkBB APP - make international calls with your mobile phone</p>
+	       <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">iTalkBB App provides free international calling service for iTalkBB users, allowing users to make international calls for free or at very low rates. The app supports two modes: wifi and mobile phone call. You can directly dial the phone number or you can call someone by clicking on your contacts. The functions provided by the APP can replace most paid international call services. Click <a class="textLink" href="#">Making International Calls with iTalkBB APP</a> for more information.</p>
+		   </div>			
+		</div>
+		<div class="partAll titMgnTop">
+           <p class="titFirst title30 mTitle32 fwn">China Local Number 950</p>
+	       <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">iTalkBB Home Phone users can get an 11-digit “virtual China local number” beginning with 950. Friends in the US can contact you with your US number, while friends and relatives in China can contact you via your 950 number directly without international call tolls. Users can make international calls without toll. It is an exclusive feature offered by iTalkBB that can save iTalkBB users and their friends in China a lot of money. </p>
+		   	  <p>How to get a 950 number:</p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">After you signed up for iTalkBB Home Phone service, you will get a China Local Number 950 for free within your plan option. Once the free time assigned to your plan is up, you still can have access to your 950 number at a rate of $0.99/month.</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">After you signed up for iTalkBB Home Phone service, we will send you your 950 number via email</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">You can log in to your <a class="textLink" href="#">online account</a> and find your 950 number on the "Account Information" page. You can also go to "Value-added Services", then "Featured Services" to change your number or cancel this service.</span>
+		   	  </p>
+		   </div>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Taiwan Access Number</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		iTalkBB Home Phone service provides each user with a Taiwan Access Number for free. Your friends and family in Taiwan need dial this phone number first, then dial your 899 number to get in touch with you.   		 
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		There is a way for your friends and family in Taiwan to call you without any international call toll: Dail 02-40660660 or 40502999 first, then dial your 899 number.
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		If your friends and family are in Taipei, they only need to pay at the same rate as calling a local phone number; if they are not in Taipei, then they need to pay at the same rate as Taiwan's toll.
+		   	</li>
+		   </ul>			
+		</div>
+		<div class="partAll titMgnTop">
+           <p class="title30 mTitle32 fwn">Hong Kong, Taiwan, and South Korea phone numbers</p>
+	       <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">In addition to a US home phone number, iTalkBB Home Phone users can get a virtual Hong Kong, Taiwan, or South Korea's local number. If your families and friends in these areas can contact you with the virtual local phone number without any international call toll. </p>
+		   	  <p>How to get an virtual local number: </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">
+		   		Hong Kong number: only $ 4.99 / month, Hong Kong local number with +852 country code, such as +852 - XXXX-XXXX<br>
+                Taiwan number: only $ 4.99 / month, Taiwan local number with Taipei District Code 02, such as + 886-2-XXXX-XXXX<br>
+                Korean number: only $ 4.99 / month, Korean local number, such as +82-XX-XXX-XXXX</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">After you have requested this service, we will send you the local number via email. You can also login to your online account and find the local number on your "Account Information" page. You can also go to "Value-added Services", then "Featured Services" to change your number or cancel this service.</span>
+		   	  </p>
+		   </div>			
+		</div>
+		
+		<div class="partAll titMgnTop clearfix">
+           <div class="btnTxt30 title30 mTitle32 fwn" onclick="show('foldCall','imgCall')">Call Transfer - How to set up:<img id="imgCall" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
+           <div id="foldCall" class="foldBox" style="display: none;">
+             <div class="bubbleAngle"></div>
+             <div class="foldText text18 mText28 fwn">
+	   	        <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Set up to transfer all calls: After you hear the dial tone, press "*"  +72 to enter the phone number you need to set up. After you hear a short tone, the setup is complete.</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Cancel to transfer all calls: After you hear the dial tone, press the "*" key +73. After you hear a short tone, the cancellation is complete.</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Set up to transfer all unanswered calls: After you hear the dial tone, press the "*" key +92 and the phone number you need to set up. Then when you hear a short tone, the process is complete.</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Cancel to transfer  all unanswered calls: After you hear the dial tone, press the "*" key +93. After you hear a tone, the cancellation is complete.</span>
+		   	    </p>
+		     </div>
+		   </div>       		
+		</div>
+		<div class="partAll titMgnTop">
+           <p class="title30 mTitle32 fwn">Caller ID</p>	       		
+		</div>
+		<div class="partAll titMgnTop">
+           <p class="title30 mTitle32 fwn">Call waiting</p>	       		
+		</div>
+		<div class="partAll titMgnTop clearfix">
+           <div class="btnTxt30 title30 mTitle32 fwn" onclick="show('foldCall2','imgCall2')">Three-party call - How to set up<img id="imgCall2" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
+           <div id="foldCall2" class="foldBox" style="display: none;">
+             <div class="bubbleAngle"></div>
+             <div class="foldText text18 mText28 fwn">
+	   	        <ul class="listNom">
+		      	<li class="text18 mText28 fwn">
+		   		Please dial a number first	   		 
+		   	    </li>
+		      	<li class="text18 mText28 fwn">
+		   		Press the answer key or the Flash key 
+		     	</li>
+		   	    <li class="text18 mText28 fwn">
+		   		After you hear a dialing tone, input the phone number of the third party in this conversation
+		      	</li>
+		      	<li class="text18 mText28 fwn">
+		   		When you connect to the third person, press the answer key or the Flash key again
+		      	</li>
+		        </ul>
+		     </div>
+		   </div>       		
+		</div>		
+		<div class="partAll titMgnTop">
+           <p class="title30 mTitle32 fwn">Free in-network calls:</p>
+	       <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">If your friends and family are also iTalkBB home phone users, you can have free calls with your 899 numbers.</p>
+		   </div>			
+		</div>
+		<div class="partAll titMgnTop clearfix">
+           <div class="btnTxt30 title30 mTitle32 fwn" onclick="show('foldCall3','imgCall3')">Voicemail - How to set up<img id="imgCall3" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
+           <div id="foldCall3" class="foldBox" style="display: none;">
+             <div class="bubbleAngle"></div>
+             <div class="foldText text18 mText28 fwn">
+	   	        <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">You can update your greeting message any time</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">You can log into your account at any time, then select "Voicemail" under "Value-added Services" menu to set, start or close your voice mail function</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">After voice messages are sent to your email, they will be kept for 24 hours on our server. If you do not want to transfer unanswered calls to your voice mail, we also provide call forwarding service.</span>
+		   	    </p>
+		     </div>
+		   </div>      		
+		</div>		
+		<div class="partAll titMgnTop">
+           <p class="title30 mTitle32 fwn">E911：</p>
+	       <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">iTalkBB cares about your safety. iTalkBB VOIP home phone provides you with emergency call service. When there is an emergency and you call for help with iTalkBB home phone, rescue agencies can immediately access your address registered in iTalkBB. If your address changes, just log into your account and select "E911 Address" under "Account Settings" menu to update your address online.</p>
+		   	  <p>Because of our emergency calls are achieved through the VOIP network, it may be affected by network conditions and some other factors. Please read the terms of service for more details.</p>
+		   </div>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Fax:</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		iTalkBB home phone provides you with free domestic fax service. How to use it: Press # key + 1 + fax number.	   		 
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Domestic fax service is for free. But the use of time will be counted as call minutes and will be charged at the rate of calls. However, users who have paid for monthly plan do not need to pay any fees.
+		   	</li>
+		   </ul>			
+		</div>
+		</div>
+		</div>
+	  </div>
+	  
+	  <div class="faultCon">
+	  	<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="titFirst title36 mTitle36 fwn">Telephone call troubleshooting</p>
+		    <p class="title30 mTitle32 fwn">The phone has no dial tone</p> 
+		    <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		Please make sure that your network works;
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Make sure your phone box is installed properly
+		   		<p class="">The normal status is:</p>
+		   		<p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">power light, network light, Phone 1 light are on</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Phone 1 light flashing during the call, the network light sometimes flashes</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">If the telephone box is not installed properly, please click here for troubleshooting</span>
+		   	    </p>
+		   	</li>
+		   </ul>
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">The phone can call out but cannot receive calls</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		Please confirm that your home phone is activated within 24 hours or you transfer your home phone number within 24 hours; iTalkBB home phone usually works immediately after activation or phone number transferring. But in some cases, it may need 24 hours before it works.
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Make sure that your telephone line is connected to the "Phone 1" socket of the iTalkBB telephone box rather than "Phone 2".
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		If you set up some advanced features for your home phone, it may also lead to some problems with the phone. Please make sure that the dial tone is normal: if you hear some abnormal tones like 3 short tones plus 1 long tone, please try to cancel the following special features.
+		   		<p class="">Instructions for operation:</p>
+		   		<p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Cancel Call Forwarding - Pick up the phone, press * 73</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Cancel Call Rejection - Pick up the phone, press * 79</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Cancel direct accessing to voicemail - Pick up the phone, press * 993</span>
+		   	    </p>
+		   	</li>
+		   </ul>			
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">The phone can receive calls but cannot call out</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		Please make sure the phone number you input is correct, for example, you need to dial 011 + country code + phone number of your relatives or friends when you make an international call. Click here for more information.
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Please make sure if there is nothing wrong with your phone box. You can try to replace the phone box, or restart the telephone.
+		   	</li>
+		   </ul>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Poor Calling Quality</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		Please confirm that your network is normal. Usually, if you can hear others speak clearly, but they can not hear you speak clearly, the poor calling quality may be caused by your network. Downloading software or other activities use network bandwidth and will cause the problem.
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		If you hear "rust" or static noise, it may be due to poor contact of your telephone receiver or telephone line, please replace the telephone line and reconnect it.
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		If your phone is connected to extensions without disconnecting the Local bus, there will be noise, echo, etc.; Please disconnect the Local bus before connecting extensions.
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		If you are using a cordless phone, please change to another frequency to see if the call quality is improved.
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		If all of the above fails, try restarting the iTalkBB telephone box.
+		   	</li>
+		   </ul>			
+		</div>
+		
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="titFirst title36 mTitle36 fwn">Problems Related to Telephone Box Installation</p>
+		    <p class="title30 mTitle32 fwn">All the indicator lights are off</p> 
+		    <ul class="listNom">		   	
+		   	<li class="text18 mText28 fwn">
+		   		ITalkBB phone box is installed correctly when:
+		   		<p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Power light, network light, Phone 1 light are on</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Phone 1 light flashing during the call, the network light sometimes flashes</span>
+		   	    </p>
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		3 lights are all off showing that the box does not work. Please check power connection, and try to replace the power outlet. If the power supply is available and the power supply is connected but the problem still happens, there should be something wrong with the equipment. Please contact us for help.
+		   	</li>
+		   </ul>
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Only the power light is on</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		ITalkBB phone box is installed correctly when: power light, network light, Phone 1 light are on; Phone 1 light flashing during the call, the network light sometimes flashes.
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		If only the power light is on, it is a connection problem, please follow the steps:
+		   		<p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Please check if the cable is incorrectly inserted into the yellow ethernet interface of iTalkBB phone box. It should be connected to the blue Internet interface.</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Please make sure that your home modem/router/hub is working properly, please try different ports.</span>
+		   	    </p>
+		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		<span class="textCon">Please make sure the network cable works, try different network cable.</span>
+		   	    </p>
+		   	</li>
+		   </ul>			
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">The power light and the network light are on and the Phone 1 light flashes </p>
+	       <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">The reason for that including the phone does not hang up or there are some problems with extensions, please follow the steps:</p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Please check if your telephone has hung up.</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">Unplug the telephone line from the phone box to see if the Phone 1 light is still on for a long time. If yes, it is the problem of phone line or extensions; if the Phone 1 light flashes, there may be some problems with the phone box.</span>
+		   	  </p>		
+		   </div>		   			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Power light, network light, Phone 1 light are on, but the phone does not work</p>
+		   <div class="onlyText text18 mText28 fwn">
+		   	  <p class="">Please check if the phone box works, try to replace the phone box or telephone line. If the Phone 1 light is still on but no flashes, there may be something wrong with the phone box.</p>		   	  		
+		   </div>			
+		</div>		
+		</div>
+		</div>
+		
+		<div class="bgMgn gradient">
+		<div class="mainLimited">
+		<div class="partAll">
+		    <p class="titFirst title36 mTitle36 fwn">Problems Related to Functions</p>
+		    <p class="title30 mTitle32 fwn">Caller IDs do not display</p> 
+		    <ul class="listNom">		   	
+		   	<li class="text18 mText28 fwn">
+		   		If some of caller IDs display but some do not, it may because some callers have set up blocking function
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		If all the caller IDs do not display, make sure your phone battery and display screen work, or you can try to change the phone box
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Please make sure that your caller ID function is on: pick up the phone, press * 65 to turn on the caller ID function; press * 85 to turn off the caller ID function
+		   	</li>
+		   </ul>
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Three-party call troubleshooting</p>
+		   <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		Make sure the way you use the three-way call is correct. Instructions for three-party call: connect to someone first, then press the answer key or the Flash key. After you hear a dialing tone, input the phone number of the third party in this conversation. When you connect to the third person, press the answer key or the Flash key again to start the three-party call.
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		iTalkBB home phone only supports three-party call among Mainland China (excluding Hong Kong, Macao, and Taiwan), the United States, Canada, Britain, Singapore, Australia
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		If all the above solutions do not work, try to restart iTalkBB phone box
+		   	</li>
+		   </ul>			
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="title30 mTitle32 fwn">Fax does not work normally</p>
+	       <ul class="listNom">
+		   	<li class="text18 mText28 fwn">
+		   		Please confirm that you use the function in the correct way: press # 1 + the fax number of receiver; if it still does not work normally, try to use 333 + 1 + the fax number of receiver, * 99 + 1 + the fax number of receiver
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		If you are using a Cable network, connect the phone box directly to the modem or Router and try again
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Please try to change the fax speed to 9600 bps or less
+		   	</li>
+		   	<li class="text18 mText28 fwn">
+		   		Please turn off Error Correction Mode of your fax machine
+		   	</li>
+		   </ul>		   			
+		</div>
+		
+		</div>
+		</div>	
+	  </div>		
+	  </section>
+   
+      <!--帮助支持搜索 start--> 
+      <section class="partMgnTop">
+        <div ng-include="'sptSearch.html'"></div>
+      </section>
+      <!--帮助支持搜索 end-->
+      
+    </div>
+	</div>
+	<!--主体内容 end-->
+    
+    <div class="lineBlue"></div>
+	<div ng-include="'footer.html'"></div>
+</body>
+<script>
+$(".use").click(function(){
+    $(".BB").children().css("display", "none");
+    $(".useCon").css('display','block');
+    $('.menuBox').children().removeClass('selected');
+    $(this).addClass('selected');
+})
+
+$(".fault").click(function(){
+    $(".BB").children().css("display", "none");
+    $(".faultCon").css('display','block');
+    $('.menuBox').children().removeClass('selected');
+    $(this).addClass('selected');  
+})
+</script>
+</html>
