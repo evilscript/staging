@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/en_common.css">
+    <!--这里继续添加子页面的Css引用文件-->
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_support.css">   
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
+ 
+    
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+    <!--这里继续添加子页面的Js引用文件-->
+    <style>
+	.sptBBMenu{width: 74%;}
+	.menuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
+	.menuBtn{width: 24%;}
+	.menuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
+	.star div{display: inline-block;vertical-align: top}
+	.star{padding-top: 1%}
+	.starimg{width: 2%}
+	.startext{width: 97%;color: #ff7f00}
+	.starimg img{width: 70%}
+	.bgMgnx{padding-bottom:3.5% }
+	.pays,.moneys,.menus{display: none;}
+	.users3{margin-top: 3.5%}
+	.picUseNum{display: inline-block;width: 49%;text-align: center;vertical-align: top;position: relative;}
+	.picUseNum1{border-right: 1px solid #c9c9c9}
+	.picBox1{width: 50%;margin: 0 auto;}
+	.picBox1 div img{width: 100%;}
+	.picBox2{width: 50%;margin: 0 auto;}
+	.picBox2 div img{width: 100%}
+	.nameNum{width: 40%;margin: 0 auto;border: 1px solid #ff7f00;line-height: 1 ;color:#ff7f00 ;padding:0.6%; box-shadow: 10px 10px  #d9d9d9;}
+	.whereNum{margin-bottom:7% }
+	.whereNum{margin-top: 3%;}
+	
+	.picBox1Img2{display: none;}
+	.picBox2Img2{display: none;}
+	.titMgnTopy{margin-top: 4.5%}
+	.blod{font-weight: 600;margin-top: 2%}
+	.td1{width: 19%}
+	.td2{width: 55%}
+	.td3{width: 26%}
+	.title2{padding-top:3.5%;padding-bottom: 2.1%;width: 60%;margin: 0 auto }
+	.calltable{margin-bottom:5%;padding-left:5.5%;}
+	.tabletitle{padding-bottom: 0.5%;font-weight: 600}
+	.tablebottom{padding-top: 0.5%;font-weight: 600}
+	table{line-height: 2}
+	table tr:nth-child(odd){background: #e8e8e8;}
+	.color{color: white;}
+	table tr:nth-of-type(1){background: #444444;}
+	td{padding: 2% 2% 2% 2%;}
+	.tdMiddle{padding: 2% 2% 2% 5%}
+	.weight{font-weight: 600}
+
+	@media  (min-width:768px) and (max-width:1000px){
+		.title2{width: 100%}
+
+}
+
+
+
+
+    @media (max-width:767px){
+    .sptBBMenu{width: 100%}
+	.star div{display: block;}
+	.starimg{float: left;width: 7%}
+	.starimg img{width: 40%}
+	.picUseNum{display: block;width: 100%}
+	.nameNum{width: 60%;}
+	.nameNum{font-size: 4.1vw}
+	.nameNum span{font-size: 3.3vw}
+	.whereNum span{font-size: 3.1vw}
+	.picBox1,.picBox2{width: 60%}
+	.picBox1Img1{display: none;}
+	.picBox2Img1{display: none;}
+	.picBox1Img2{display:block;}
+	.picBox2Img2{display: block;}
+	.boxbottom{padding-top:8%  }
+	.picUseNum{padding-top: 5%}
+	.title30,.title36{text-align: center;padding-bottom: 4%}
+	.td1{width: 33.3%}
+	.td2{width: 33.3%}
+	.td3{width: 33.3%}
+	.f16{font-size: 2.6vw}
+	td{padding: 3% 0% 3% 2%;}
+	.color{font-size: 2.8vw;text-align: center;padding: 1% 0% 1% 2%;}
+	table td:nth-child(odd){text-align: center;}
+	.tdMiddle{padding: 2%}
+	.spanx{text-align: center;}
+	.spany{text-align: left;}
+	.tablebottom{font-size: 2.6vw;width:52%;margin: 0 auto;text-align: center;padding: 4% 0;line-height: 1.5 }
+	.tabletitle{text-align: center;}
+	.title2{width: 100%}
+	.text14{font-size: 2.6vw}
+	.blod{font-weight: 500;font-size: 3.13vw;margin-top: 6%}
+		}
+	</style>
+</head>
+
+<body ng-app="">
+    <!--侯男制作--> 
+	<div ng-include="'header.html'"></div>
+    
+    <!--主体内容 start-->
+	<div class="container1920">
+	    <div class="mainLayout">
+       <section>
+      	    <div ng-include="'sptBanner.html'"></div>	   
+       </section>
+
+       <section class="mainMgnTop">
+      	  <div class="mainBothEnds">
+        	<div class="lineOrange"></div>       	        	 
+        	<div class="sptMenu">
+        	<div class="menuBox clearfix">
+			<p class="menuBtn title22 mTitle24 fwn user selected">Account</p>
+		    <p class="menuBtn title22 mTitle24 fwn menu">Bill</p>
+			<p class="menuBtn title22 mTitle24 fwn pay">Payment</p>
+			<p class="menuBtn title22 mTitle24 fwn money">Charge Details</p>	
+			</div>	
+			</div>
+		  </div>           	      	
+       </section>
+       
+       <section class='shows'>		
+	    <div class="users">
+	    	<div class="bgMgn gradient">
+	    		<div class="mainLimited">
+
+	    			 	<div class="partAll ">
+	      					<p class="title36 mTitle36 fwn">Set Account Name</p>
+		   					<ul class="listNom">
+		   						<li class="text18 mText28 fwn">
+		   						After placing an order, we will send you a message with a temporary account name and password. After logging into your account online, you can reset your account name and password via Account Settings.</li>
+		   						<li class="text18 mText28 fwn">If you do not receive the message, please<a href="">contact us</a>, our professional customer service staff are ready to help you.</li>
+		  					</ul>		
+						</div>
+
+				</div>
+	    	</div>
+	    <div class="bgMgn gradient"> 
+			<div class="mainLimited">
+				<div class="partAll">
+	       			<p class="title36 mTitle36 fwn">Types of Account Name</p>
+		  			<div class="onlyText text18 mText28">
+		   				<p class="fwn clearfix"><span class="textCon">After placing your order and logging in with the temporary account name and password given by iTalkBB, you can change your account name with :</span></p>
+		   	 			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">The account name you set when you register</span></p>
+		   	  			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">The phone number you set when you register</span></p>
+		   	 	 		<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">Your iTalkBB 10-digit home phone number, such as 6261234567</span></p>
+		   	  			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">Your iTalkBB home phone 899 number or Chinese TV 699 number. Your 899 number can be found on iTalkBB phone box as shown below:</span></p>
+		   			</div>
+				</div>
+			</div>
+			<div class="users3">
+                <div class="picUseNum picUseNum1">
+                    <div class="nameNum title24 mTitle32">蜻蜓电话899号码示意图 <br><span class='text16';>Locate Your 899 Number</span> </div>
+                    <div class="whereNum text16 mText22">您可于iTalkBB蜻蜓电话盒子正面的贴纸上找到899号码 <br><span class=' text14'>The 899 number is located on a sticker on your iTalkBB VOIP Box</span></div>
+                    <div class="picBox1">
+                        <div class="picBox1Img1"><img src="../shared/images/support/box7.png" alt=""></div>
+                        <div class="picBox1Img2"><img src="../shared/images/support/box10.png" alt=""></div>
+                        <div class="boxbottom mText22">iTalkBB蜻蜓电话盒子 <br>iTalkBB VOIP Box</div>
+                    </div>
+<!--                    <div class="orangelineL"></div>
+                    <div class="f16 wherePaper">899号码贴纸位置 <br>899 number sticker</div> -->
+                </div><div class="picUseNum">
+                    <div class="nameNum title24 mTitle32">蜻蜓电话899号码示意图<br><span  class='text16'>Locate Your 699 Number</span></div>
+                    <div class="whereNum  text16 mText22">您可于iTalkBB蜻蜓电话盒子正面的贴纸上找到899号码 <br><span class=' text14'>The 699 number is located on a sticker on your iTalkBB TV Box</span></div>
+                    <div class="picBox2">
+                        <div class="picBox2Img1"><img src="../shared/images/support/box8.png" alt=""></div>
+                        <div class="picBox2Img2" ><img src="../shared/images/support/box9.png" alt=""></div>
+                        <div class="boxbottom mText22">iTalkBB蜻蜓电话盒子 <br>iTalkBB TV Box</div>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+	    <div class="bgMgn gradient"> 
+			<div class="mainLimited">
+				<div class="partAll">
+	       			<p class="title30 mTitle32 fwn">Update Account Information</p>
+		  			<div class="onlyText text18 mText28">
+		   				<p class="fwn clearfix"><span class="textCon">By logging into your online account, you can easily update your account information. Just follow the steps below:</span></p>
+		   	 			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">Login to your online account<br>Please note:  First time users, login information is included in your order confirmation email. If you have not received the email, please <a href="">contact us</a>. If this is not your first-time, please use your username and password to log in.</span></p>
+		   	  			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">Click "Account & Bill" on the top and click "Update Account Info" in the "Account Profile" section to update your account information (address, email, contact number).</span></p>
+		   			</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bgMgn gradient"> 
+			<div class="mainLimited">
+				<div class="partAll">
+	       			<p class="title30 mTitle32 fwn">Forgetting Your Password</p>
+		   			<div class="onlyText text18 mText28">
+		   	  			<p class="fwn clearfix"><span class="textCon">If you forget your password, please <a href="">contact us</a>. Our professional customer service staff will help you verify the identity. We will retrieve the password for you or help you reset it.</span></p>
+		   			</div>			
+				</div>
+
+				<div class="partAll titMgnTopy">
+	       			<p class="title30 mTitle32 fwn">Account Suspended</p>
+		   			<div class="onlyText text18 mText28">
+		   	  			<p class="fwn clearfix"><span class="textCon">Suspend your account for a certain period: You can suspend your account by contacting us.</span></p>
+		   			</div>
+		   			<div class="onlyText text18 mText28 star">
+                    	<div class="starimg"><img src="../shared/images/support/supportPay.png" alt=""></div>
+                   		<div class="startext text18 mText24">Account suspended due to debt: If iTalkBB fails to charge your credit card on your billing day, your phone service will be suspended immediately. If you do not pay your bill for more than 45 days, your account will be revoked.</div>
+            		</div>				
+				</div>
+		   	</div>
+		</div>
+	    </div>
+
+       	<div class="pays">
+       		<div class="bgMgn gradient"> 
+				<div class="mainLimited">
+	
+						<div class="partAll ">
+	       					<p class="title36 mTitle36 fwn">Payment Methods</p>
+		   					<div class="onlyText text18 mText28">
+		   	  					<p class="fwn clearfix"><span class="textCon">We only accept debit and credit card payments, including Visa, Master, American Express and Discover.</span></p>
+		   					</div>			
+						</div>
+	
+	    		</div>
+	   		</div>
+
+	    	<div class="bgMgn gradient"> 
+				<div class="mainLimited">
+					<div class="partAll ">
+	     		 		<p class="title36 mTitle36 fwn">Payment Date</p>
+		   		  		<div class="onlyText text18 mText28">
+		   	  	  			<p class="fwn clearfix"><span class="textCon">The service cycle is every 30 days, the starting date of your bill period is when you activate your account. The following 30 days from the starting day are regarded as one bill period.We will automatically collect the monthly fee of your plan for the next month and extra service charges of the latest month.</span></p></div>
+		   		  		<div class="onlyText text18 mText28 star">
+                    		<div class="starimg"><img src="../shared/images/support/supportPay.png" alt=""></div>
+                    		<div class="startext text18 mText24">Please note: If you are using both iTalkBB Mobile services and iTalkBB home phone services, we will regard your home phone bill period as your mobile service bill period as well. We will charge your mobile service fee from your activation date to your next period starting date. </div>
+            	  		</div>			
+					</div>
+				</div>
+			</div>
+
+
+
+	    	<div class="bgMgn gradient"> 
+				<div class="mainLimited">
+					<div class="partAll ">
+	       				<p class="title36 mTitle36 fwn">Payment Failed</p>
+		   					<div class="onlyText text18 mText28">
+		   	  					<p class="fwn clearfix"><span class="textCon">If iTalkBB fails to charge your debit or credit card, your service will be suspended.  If you do not pay your bill for more than 45 days, your account and phone number will be revoked. Any balance in your account is non-refundable and can not be transferred to other accounts. To avoid this, please update your credit card information when needed. If you already have an unpaid bill in your account, please pay for it after updating your credit card information. </span></p>
+		   					</div>
+		   					<div class="onlyText text18 mText28 star">
+                    			<div class="starimg"><img src="../shared/images/support/supportPay.png" alt=""></div>
+                   				<div class="startext text18 mText24">Please note:  First time users, login information is included in your order confirmation email. If you have not received the email, please contact us. If this is not your first-time, please use your username and password to login. After logging in, click "Account Settings" in the top menu and select "Account Information", then click "update" to update your payment method.</div>
+            					</div>			
+							</div>
+				</div>			
+			</div>
+		</div>
+
+		<div class="moneys">
+			<div class="bgMgn gradient">
+	    		<div class="mainLimited">
+	    	
+	    			 	<div class="partAll ">
+	    					<div class="onlyText text18 mText28 fwn">
+		   	  					<p >In addition to the monthly fee for the product plan for the next bill period and extra service charges that may arise from the previous account period, iTalkBB will collect the following fees based on your service:</p>
+		   	  					<p class="clearfix"><span class="Sharp">&gt;</span><span class="textCon">Applicable Regulatory/Compliance Fees and Charges: iTalkBB charges this fee to cover government-related fees, including federal, state, regional regulatory fees, state taxes, local taxes, emergency grants, local and regional fees, International public telephone network use fees, intellectual property fees, number fees and other legal fees. The integrated management fee is $ 3.95 per month for each phone number. If you are an annual program user, you will be charged for one year at the time of registration.</span></p>
+		   	  					<p class="clearfix"><span class="Sharp">&gt;</span><span class="textCon">BB-Telecom consumption tax: Users of Virginia and Texas are required to pay telecom consumption tax. iTalkBB charges this fee and surrenders to the relevant state government.</span></p>
+		   	  					<p >除了上述两项费用之外，iTalkBB蜻蜓移动账单还包括以下收款项目：</p>
+		   					</div>	
+						</div>
+
+					</div>
+				</div>
+			<div class="title2">
+                <div class="table">
+                    <div class="text14  tabletitle">If you are an iTalkBB Mobile users, you may also see the following charges on your bill:</div>
+                    <table width="100%" style="table-layout:fixed" class="  text16 pin f16" frame="below" rules="cols" cellspacing="0" cellpadding="0" bordercolor="#d0d0d0">
+                        <tr class="color">
+                            <td class="td1">Transaction</td>
+                            <td class="td2 tdMiddle">Description</td>
+                            <td class="td3">Amount</td>
+                        </tr>
+
+                        <tr>
+                            <td>Activation激活费</td>
+                            <td class="tdMiddle">Users will be charged once when activating account; no charges for adding new number</td>
+                            <td>$25</td>
+                        </tr>
+                        <tr>
+                            <td>Reinstate账号恢复</td>
+                            <td class="tdMiddle">Applicable to the following situations:<br>1. If the user fails to pay for the bill, the account will be suspended immediately; the user needs to apply for account recovery within 45 days and pay arrears and account recovery fees (arrears of more than 45 days will cause the account canceled and the phone number recovered, and your account cannot be restored anymore)<br> 2. If the user chooses to suspend the account and then chooses to restore the account later, you need to pay the account recovery fee</td>
+                            <td>$10/line 每条线$10</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping邮费</td>
+                            <td class="tdMiddle spanx">适用于设备运送</td>
+                            <td class="spany">Single Standard Service: $3.99; Express Service: $14.99;  Shipping for Mobile&BB&TV ;$15 total 单产品标准邮费;$14.9 移动电话，BB和TV：总计$15</td>
+                        </tr>
+                        <tr>
+                            <td>China Sim Card Fee 中国Sim卡费</td>
+                            <td class="tdMiddle spanx">适用于购买中国SIM卡</td>
+                            <td>$10</td>
+                        </tr>
+                        <tr>
+                            <td>Plan Change Fee 计划变更费</td>
+                            <td class="tdMiddle">适用于降手机计划（从Premium计划将为economic计划）: <br>在升计划时不适用（从economic 计划升级为premi</td>
+                            <td>$18</td>
+                        </tr>
+                        <tr>
+                            <td>International Calling Toll</td>
+                            <td class="tdMiddle"></td>
+                            <td>View Calling Rates</td>
+                        </tr>
+                        <tr>
+                            <td>Charge 国际电话费</td>
+                            <td class="tdMiddle"></td>
+                            <td>参见相应通话费用</td>
+                        </tr>
+                    </table>
+                    <div class="text14 pin tablebottom">除了上述提及的费用外，您需要支付税费。税费具体金额取决于您居住的地区。</div>
+                </div>
+            </div>
+	    	</div>		
+
+		<div class="menus">
+			<div class="bgMgn gradient">
+	    		<div class="mainLimited">
+	    			
+	    			 	<div class="partAll ">
+	      					<p class="title36 mTitle36 fwn">Check Your Bill</p>
+		   					<ul class="listNom">
+		   						<li class="text18 mText28 fwn">
+		   						iTalkBB allows you to easily manage your bill by logging into your account online. After logging in, click "Billing Information" on the top to view the latest bill.</li>
+		   						<li class="text18 mText28 fwn">If you want to check previous bills, click "Billing information" in the top menu, and then go into the "History Billing" to access the bills for the last 6 months.</li>
+		  					</ul>		
+						</div>
+				
+				</div>
+	    	</div>
+
+	    	<div class="bgMgn gradient">
+	    		<div class="mainLimited">
+
+	    			 	<div class="partAll ">
+	      					<p class="title36 mTitle36 fwn">Read Your Bill</p>
+		   					<div class="onlyText text18 mText28 fwn">
+		   	  					<p class=""><span class='weight'>Bill period</span>：After you activate your account, the following 30 days is regarded as one bill period.</p>
+		   	  					<p class=""><span class='weight'>Payment</span>：You do not need to remember the date and pay the payment manually after receiving the bill. We will automatically collect the monthly fee of your plan for the next month and extra service charges of the latest month.</p>
+		   					</div>	
+						</div>
+			
+				</div>
+	    	</div>
+
+	    	<div class="bgMgn gradient">
+	    		<div class="mainLimited">
+
+	    			 	<div class="partAll ">
+	      					<p class="title36 mTitle36 fwn">Using Both iTalkBB Mobile Services and iTalkBB Home Phone Services</p>
+		   					<div class="onlyText text18 mText28 fwn">
+		   	  					<p class="">After you activate iTalkBB Mobile services, we will regard your home phone bill period as your mobile service bill period as well. We will charge your mobile service fee from your activation date to your next period.</p>
+		   	  					
+		   					</div>	
+						</div>
+			
+				</div>
+	    	</div>
+		</div>
+
+	</section>
+    <section class="partMgnTop">
+      <div ng-include="'sptSearch.html'"></div>
+    </section>
+    </div>
+	</div>
+	<!--主体内容 end-->
+    
+    <div class="lineBlue"></div>
+	<div ng-include="'footer.html'"></div>
+</body>
+<script>
+	
+	$(".money").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".moneys").css('display','block');
+    $('.menuBox').children().removeClass('selected');
+    $(this).addClass('selected');
+
+})
+
+	$(".user").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".users").css('display','block');
+    $('.menuBox').children().removeClass('selected');
+    $(this).addClass('selected');
+})
+
+$(".menu").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".menus").css('display','block');
+    $('.menuBox').children().removeClass('selected');
+    $(this).addClass('selected');
+})
+
+$(".pay").click(function(){
+	$(".shows").children().css("display", "none");
+	$(".pays").css('display','block');
+    $('.menuBox').children().removeClass('selected');
+    $(this).addClass('selected');
+})
+
+</script>
+
+</html>
