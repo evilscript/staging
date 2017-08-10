@@ -28,6 +28,11 @@
     <script src="../shared/js/flip.min.js"></script>
     <script src="../shared/js/common.js"></script>
     <script src="../shared/js/aboutCompany.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('map').imageMapResize();
+        })
+    </script>
     <!--这里继续添加子页面的Js引用文件-->
 </head>
 
@@ -78,7 +83,19 @@
                     <p class="aboutTextText pin title18">目前，<span class="sans">iTalkBB</span>蜻蜓已成为全球第一大华裔和韩裔电信运营商，在美国、加拿大、澳大利亚、新加坡等国开设超过<span class="sans">30</span>家体验店，全球用户超过<span class="sans">120</span>万。而在北美，每<span class="sans">5</span>个华人就有一位在使用<span class="sans">iTalkBB</span>蜻蜓的服务，品牌知名度超过<span class="sans">80%</span>。</p>
 
                     <div>
-                        <img src="../shared/images/about/aboutCompanyGlobe.png" class="img w100" alt="">
+                        <img src="../shared/images/about/aboutGlobalAll.jpg" class="img w100 globalImg" usemap="#global" alt="">
+                        <map name="global">
+                            <area shape="rect" coords="211, 450, 401, 701" class="bottomHover1" alt="">
+                            <area shape="rect" coords="505, 450, 684, 701" class="bottomHover2" alt="">
+                            <area shape="rect" coords="761, 450, 963, 701" class="bottomHover3" alt="">
+                            <area shape="rect" coords="1065, 450, 1250, 701" class="bottomHover4" alt="">
+
+                            <area shape="rect" coords="1057, 134, 1133, 232" class="usa" alt="">
+                            <area shape="rect" coords="972, 88, 1047, 181" class="canada" alt="">
+                            <area shape="rect" coords="585, 300, 663, 398" class="australia" alt="">
+                            <area shape="rect" coords="476, 224, 552, 330" class="singapore" alt="">
+                            <area shape="rect" coords="529, 122, 601, 222" class="china" alt="">
+                        </map>
                     </div>
 
                     <p class="aboutTextTitle pin title36">我们的<span class="org">服务</span></p>

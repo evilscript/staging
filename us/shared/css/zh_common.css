@@ -54,7 +54,6 @@ input:focus{ outline:none;}
     font-weight: 300;
     font-style: normal;
 }
-
 @font-face {
     font-family: jh;
     src: url('../fonts/pingfang/PingFang-middle1.woff') format('woff'),
@@ -62,7 +61,6 @@ input:focus{ outline:none;}
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'pingfang';
     src: url('../fonts/pingfang/PingFang-middle.woff') format('woff'),

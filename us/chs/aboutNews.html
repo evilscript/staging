@@ -132,6 +132,9 @@
             };
             $scope.year2017 = function(){
                 resetAllParameters();
+                $(".news2017:first").addClass('yo').removeClass('none')
+                    .next('.news2017').addClass('yo').removeClass('none')
+                    .next('.news2017').addClass('yo').removeClass('none');
                 $scope.year='2017';
                 $scope.newsAll = false;
                 $scope.news2017= true;
@@ -141,6 +144,9 @@
             };
             $scope.year2016 = function(){
                 resetAllParameters();
+                $(".news2016:first").addClass('yo').removeClass('none')
+                    .next('.news2016').addClass('yo').removeClass('none')
+                    .next('.news2016').addClass('yo').removeClass('none');
                 $scope.year='2016';
                 $scope.newsAll = false;
                 $scope.news2017= false;
@@ -150,6 +156,9 @@
             };
             $scope.year2015 = function(){
                 resetAllParameters();
+                $(".news2015:first").addClass('yo').removeClass('none')
+                    .next('.news2015').addClass('yo').removeClass('none')
+                    .next('.news2015').addClass('yo').removeClass('none');
                 $scope.year='2015';
                 $scope.newsAll = false;
                 $scope.news2017= false;
@@ -178,12 +187,14 @@
                         .next('.newsAll').addClass('yo')
                         .next('.newsAll').addClass('yo');
                     $('.devider').click(function(){
-                        $('.yo:last').next('.newsAll').removeClass('none').addClass('yo')
-                            .next('.newsAll').removeClass('none').addClass('yo')
-                            .next('.newsAll').removeClass('none').addClass('yo');
-                        if( $('.devider').prev(".newsAll").hasClass('yo') ){
-                            $(this).addClass('none');
-                            $('.soap').removeClass('none');
+                        if( $scope.year == '全部新闻' ) {
+                            $('.yo:last').next('.newsAll').removeClass('none').addClass('yo')
+                                .next('.newsAll').removeClass('none').addClass('yo')
+                                .next('.newsAll').removeClass('none').addClass('yo');
+                            if ($('.devider').prev(".newsAll").hasClass('yo')) {
+                                $(this).addClass('none');
+                                $('.soap').removeClass('none');
+                            }
                         }
                     });
                     $('.soap').click(function(){
@@ -197,13 +208,11 @@
                         $(".newsAll:first").addClass('yo')
                             .next('.newsAll').addClass('yo')
                             .next('.newsAll').addClass('yo');
+                        yearAll();
                     })
                 }
 
                 else if ( $scope.year == '2017' ) {
-                    $(".news2017:first").addClass('yo').removeClass('none')
-                        .next('.news2017').addClass('yo').removeClass('none')
-                        .next('.news2017').addClass('yo').removeClass('none');
                     $('.devider').click(function(){
                         if( $('.yo:last').nextAll().hasClass('news2017') ){
                             $('.yo:last').next('.news2017').removeClass('none').addClass('yo')
@@ -226,13 +235,11 @@
                         $(".news2017:first").addClass('yo')
                             .next('.news2017').addClass('yo')
                             .next('.news2017').addClass('yo');
+                        year2017();
                     })
                 }
 
                 else if ( $scope.year == '2016' ) {
-                    $(".news2016:first").addClass('yo').removeClass('none')
-                        .next('.news2016').addClass('yo').removeClass('none')
-                        .next('.news2016').addClass('yo').removeClass('none');
                     $('.devider').click(function(){
                         if( $('.yo:last').nextAll().hasClass('news2016') ){
                             $('.yo:last').next('.news2016').removeClass('none').addClass('yo')
@@ -255,13 +262,11 @@
                         $(".news2016:first").addClass('yo')
                             .next('.news2016').addClass('yo')
                             .next('.news2016').addClass('yo');
+                        year2016();
                     })
                 }
 
                 else if ( $scope.year == '2015' ) {
-                    $(".news2015:first").addClass('yo').removeClass('none')
-                        .next('.news2015').addClass('yo').removeClass('none')
-                        .next('.news2015').addClass('yo').removeClass('none');
                     $('.devider').click(function(){
                         if( $('.yo:last').nextAll().hasClass('news2015') ){
                             $('.yo:last').next('.news2015').removeClass('none').addClass('yo')
@@ -284,6 +289,7 @@
                         $(".news2015:first").addClass('yo')
                             .next('.news2015').addClass('yo')
                             .next('.news2015').addClass('yo');
+                        year2015();
                     })
                 }
             }
