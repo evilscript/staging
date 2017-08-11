@@ -54,20 +54,7 @@ input:focus{ outline:none;}
     font-weight: 300;
     font-style: normal;
 }
-@font-face {
-    font-family: jh;
-    src: url('../fonts/pingfang/PingFang-middle1.woff') format('woff'),
-         url('../fonts/pingfang/PingFang-middle1.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'pingfang';
-    src: url('../fonts/pingfang/PingFang-middle.woff') format('woff'),
-         url('../fonts/pingfang/PingFang-middle.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
+
 
 
 
