@@ -92,6 +92,9 @@ input:focus{ outline:none;}
     max-width:1920px;*/
     z-index:1000;
 }
+img.map, map area{
+    outline: none;
+}
 .header1{
     background: #ff7f00;
 }
