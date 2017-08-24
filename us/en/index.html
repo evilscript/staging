@@ -375,24 +375,30 @@
                 <p class="contactSubTitle pin">Contact us and one of our friendly Customer <br class="showM">Service<br class="hideM">
                     Specialists will be there to support you.</p>
             </div>
-            <div class="s5Left">
-                <img src="../shared/images/index/en_contactIcon1.png" class="img contactIcon1En" alt="">
-                <p class="s6IconText pin">24/7 Customer Support</p>
-                <p class="s6IconText pin">One-stop Service</p>
-                <p class="s6IconText pin">Online All Day</p>
+            <div style="position:relative;">
+                <div class="overlayLayer" style="display:none;">
+                    <p class="overlayLayerTitle pin">Scan to Follow</p>
+                    <img src="../shared/images/index/wechatSocialIcon.jpg" class="img w100">
+                </div>
+                <div class="s5Left">
+                    <img src="../shared/images/index/en_contactIcon1.png" class="img contactIcon1En" alt="">
+                    <p class="s6IconText pin">24/7 Customer Support</p>
+                    <p class="s6IconText pin">One-stop Service</p>
+                    <p class="s6IconText pin">Online All Day</p>
+                </div>
+                <div class="s5Middle">
+                    <img src="../shared/images/index/en_contactIcon2.png" class="img contactIcon2En" alt="">
+                    <p class="s6IconText pin">24/7 Customer Support</p>
+                    <p class="s6IconText pin">Respond in 3 seconds</p>
+                    <p class="s6IconText pin">100% Response Rate</p>
+                </div>
+                <div class="s5Right">
+                    <img src="../shared/images/index/en_contactIcon3.png" class="img contactIcon3En" alt="">
+                    <p class="s6IconText pin">23 Stores in U.S.</p>
+                    <p class="s6IconText pin">Find a Store</p>
+                </div>
+                <div class="clear clearfix"></div>
             </div>
-            <div class="s5Middle">
-                <img src="../shared/images/index/en_contactIcon2.png" class="img contactIcon2En" alt="">
-                <p class="s6IconText pin">24/7 Customer Support</p>
-                <p class="s6IconText pin">Respond in 3 seconds</p>
-                <p class="s6IconText pin">100% Response Rate</p>
-            </div>
-            <div class="s5Right">
-                <img src="../shared/images/index/en_contactIcon3.png" class="img contactIcon3En" alt="">
-                <p class="s6IconText pin">23 Stores in U.S.</p>
-                <p class="s6IconText pin">Find a Store</p>
-            </div>
-            <div class="clear clearfix"></div>
         </div>
         <div class="container1920">
             <div>
@@ -499,10 +505,19 @@
         </div>
         <script>
             $('.social1').click(function(){
-                $('.wechatIconSocial').slideToggle(500);
-            })
+                $('.wechatIconSocial').slideDown(500);
+            }).mouseleave(function(){
+                $('.wechatIconSocial').slideUp(500);
+            });
+            $('.contactIcon2En').mouseover(function(){
+                $('.overlayLayer').fadeIn(500);
+            }).click(function(){
+                $('.overlayLayer').fadeIn(500);
+            });
+            $('.overlayLayer').mouseleave(function(){
+                $(this).fadeOut(500);
+            });
         </script>
-
         <footer class="scroll">
             <div ng-include="'footer.html'"></div>
         </footer>

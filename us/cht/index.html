@@ -362,24 +362,30 @@
                 <p class="contactTitle pin"><span class="sans">24</span>小時客服服務</p>
                 <p class="contactSubTitle pin"><span class="sans">365</span>天全年無休為海外華人服務</p>
             </div>
-            <div class="s5Left">
-                <img src="../shared/images/index/chs_contactIcon1.png" class="img contactIcon1" alt="">
-                <p class="s6IconText pin"><span class="sans">24</span>小時全天候</p>
-                <p class="s6IconText pin">一站式咨詢服務</p>
-                <p class="s6IconText pin">全天守候</p>
+            <div style="position:relative;">
+                <div class="overlayLayer" style="display:none;">
+                    <p class="overlayLayerTitle pin">掃碼關注微信公眾號</p>
+                    <img src="../shared/images/index/wechatSocialIcon.jpg" class="img w100">
+                </div>
+                <div class="s5Left">
+                    <img src="../shared/images/index/chs_contactIcon1.png" class="img contactIcon1" alt="">
+                    <p class="s6IconText pin"><span class="sans">24</span>小時全天候</p>
+                    <p class="s6IconText pin">一站式咨詢服務</p>
+                    <p class="s6IconText pin">全天守候</p>
+                </div>
+                <div class="s5Middle">
+                    <img src="../shared/images/index/chs_contactIcon2.png" class="img contactIcon2" alt="">
+                    <p class="s6IconText pin"><span class="sans">24</span>小時全天候</p>
+                    <p class="s6IconText pin"><span class="sans">3</span>秒內應答</p>
+                    <p class="s6IconText pin"><span class="sans">100%</span>應答率</p>
+                </div>
+                <div class="s5Right">
+                    <img src="../shared/images/index/chs_contactIcon3.png" class="img contactIcon3" alt="">
+                    <p class="s6IconText pin">全美<span class="sans">23</span>家店面</p>
+                    <p class="s6IconText pin">店面地址查詢</p>
+                </div>
+                <div class="clear clearfix"></div>
             </div>
-            <div class="s5Middle">
-                <img src="../shared/images/index/chs_contactIcon2.png" class="img contactIcon2" alt="">
-                <p class="s6IconText pin"><span class="sans">24</span>小時全天候</p>
-                <p class="s6IconText pin"><span class="sans">3</span>秒內應答</p>
-                <p class="s6IconText pin"><span class="sans">100%</span>應答率</p>
-            </div>
-            <div class="s5Right">
-                <img src="../shared/images/index/chs_contactIcon3.png" class="img contactIcon3" alt="">
-                <p class="s6IconText pin">全美<span class="sans">23</span>家店面</p>
-                <p class="s6IconText pin">店面地址查詢</p>
-            </div>
-            <div class="clear clearfix"></div>
         </div>
         <div class="container1920">
             <div>
@@ -486,10 +492,19 @@
         </div>
         <script>
             $('.social1').click(function(){
-                $('.wechatIconSocial').slideToggle(500);
-            })
+                $('.wechatIconSocial').slideDown(500);
+            }).mouseleave(function(){
+                $('.wechatIconSocial').slideUp(500);
+            });
+            $('.contactIcon2').mouseover(function(){
+                $('.overlayLayer').fadeIn(500);
+            }).click(function(){
+                $('.overlayLayer').fadeIn(500);
+            });
+            $('.overlayLayer').mouseleave(function(){
+                $(this).fadeOut(500);
+            });
         </script>
-
         <footer class="scroll">
             <div ng-include="'footer.html'"></div>
         </footer>

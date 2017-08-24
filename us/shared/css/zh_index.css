@@ -942,9 +942,25 @@
     .wechatIconSocial{
         margin-top: -1%;
     }
+    .overlayLayerTitle{
+        font-size:1.2vw;
+    }
 }
 
 @media (max-width:767px) {
+    .overlayLayer {
+        position: absolute;
+        max-width: 35%;
+        width: 100%;
+        margin-left: 6%;
+        border: 1px solid #aaaaaa;
+        background: white;
+        opacity: 0.95;
+        margin-top: 40%;
+    }
+    .overlayLayerTitle {
+        font-size: 3.2vw;
+    }
     .carousel-control.left, .carousel-control.right {
         background-image: none!important;
         width: 10%!important;
