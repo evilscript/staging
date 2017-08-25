@@ -206,7 +206,7 @@ $(".button3").click(function(){
  $("#sel").bind('input propertychange',function(){
  var k = $('#sel option:selected').val();
 
- var l = eval(data[k]).length;
+ var l = eval("("+(data[k]).length+")");
 
   $('.backgroundColor').children().remove();
 
