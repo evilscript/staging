@@ -19,6 +19,8 @@
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
     <!--这里继续添加子页面的Css引用文件-->
+    <link href="../shared/css/ratesList.css" rel="stylesheet" type="text/css" />
+    <link href="../shared/css/ratesPlanList.css" rel="stylesheet" type="text/css" />
 
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
     <script src="../shared/js/angular-1.6.4.min.js"></script>
@@ -26,8 +28,162 @@
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
     <!--这里继续添加子页面的Js引用文件-->
+    <script src="../shared/js/Rates.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		$(function () {
+            // 费率相关 js begin
+		    var ComboID = $.Request("combo_id");
+		    if (!ComboID) {
+		        ComboID = 200004;
+		    }
+            var ModuleType = $.Request("module_type");
+            var LocationName = $.Request("Location_name");
+            if (ModuleType == null || ModuleType == "") {
+                ModuleType = "BB";
+            }
+            if (LocationName == null || LocationName == "") {
+                LocationName = "A";
+            }
+            var Params = { PageStart: 1, PageSize: 999999, LocationName: LocationName, ComboID: ComboID, ModuleType: ModuleType };
+            Rates_Search(Params, "#js_rates_results_tb");
+            Rates_HighlightBtn(Params, "#js_rates_btn_tb");
+            Rates_FireBtn(Params, "#js_rates_btn_tb");
+            Rates_FireSearchBtn(Params, "#js_rates_sch_btn_tb");
+            // 费率相关 js end
+        });      
+    </script>
     <style>
-	  
+	body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:left; word-break:break-word;}
+	a{text-decoration: none; color: #222;}
+	.bbRegion{padding: 5% 0 5% 0;}
+	.regionPart1,.ratesPart1{text-align: center;}  
+	.regionPart1{margin-bottom: 5%;}
+	.regionPart2{padding: 0 10%;}
+	.countryBox{width: 100%;}
+	.countryText{margin-left: 27%;}
+	.conBlock{display: block;}
+	.conTelephone{background: url(../shared/images/bb/bbRateIconTelephone.png) no-repeat; background-size: 32%; background-position-x: 2%;background-position-y: 30%; padding-left: 15%;}
+	.conPhone{background: url(../shared/images/bb/bbRateIconPhone.png) no-repeat; background-size: 23%; background-position-x: 0%;background-position-y: 30%; padding-left: 10.5%; margin-left: 1%;}
+	.conCountry{float: left; width: 20%; padding: 1.6% 0;}
+	.Country01{background: url(../shared/images/bb/bbRateIcon1.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country02{background: url(../shared/images/bb/bbRateIcon2.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country03{background: url(../shared/images/bb/bbRateIcon3.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country04{background: url(../shared/images/bb/bbRateIcon4.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country05{background: url(../shared/images/bb/bbRateIcon5.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country06{background: url(../shared/images/bb/bbRateIcon6.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country07{background: url(../shared/images/bb/bbRateIcon7.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country08{background: url(../shared/images/bb/bbRateIcon8.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country09{background: url(../shared/images/bb/bbRateIcon9.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country10{background: url(../shared/images/bb/bbRateIcon10.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country11{background: url(../shared/images/bb/bbRateIcon11.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country12{background: url(../shared/images/bb/bbRateIcon12.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country13{background: url(../shared/images/bb/bbRateIcon13.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country14{background: url(../shared/images/bb/bbRateIcon14.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country15{background: url(../shared/images/bb/bbRateIcon15.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country16{background: url(../shared/images/bb/bbRateIcon16.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country17{background: url(../shared/images/bb/bbRateIcon17.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country18{background: url(../shared/images/bb/bbRateIcon18.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country19{background: url(../shared/images/bb/bbRateIcon19.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country20{background: url(../shared/images/bb/bbRateIcon20.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country21{background: url(../shared/images/bb/bbRateIcon21.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country22{background: url(../shared/images/bb/bbRateIcon22.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country23{background: url(../shared/images/bb/bbRateIcon23.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country24{background: url(../shared/images/bb/bbRateIcon24.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country25{background: url(../shared/images/bb/bbRateIcon25.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country26{background: url(../shared/images/bb/bbRateIcon26.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country27{background: url(../shared/images/bb/bbRateIcon27.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country28{background: url(../shared/images/bb/bbRateIcon28.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	.Country29{background: url(../shared/images/bb/bbRateIcon29.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+	
+	.bbRates{}
+	.ratesPart1{padding: 4% 0 5% 0;}
+	.ratesPart2{text-align: center;}
+	.gradientTop{
+    background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 100%);
+    background: -webkit-gradient(linear, top, bottom, color-stop(0%,#ffffff), color-stop(100%,#f3f3f3));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 100%);
+    background: linear-gradient(to top, #ffffff 0%,#f3f3f3 100%);    
+	}
+	.alphaBox{width: 55%; float: left;}
+	.alphabet{margin: 3% 0 3% 0;}
+	.alphaButton {
+	padding-top: 1.1%;
+    padding-bottom: 1.1%;
+	margin-right: 1.5%;
+	margin-bottom: 1.5%;
+    width: 5.5%;
+    float: left;
+	text-align: center;
+    cursor: pointer;
+	background: #fff; 
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 0 #ff7f00;
+    -webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    transition: all ease .8s;
+}
+   .alphaButton:hover{
+    color: white;
+    box-shadow: inset 200px 0 0 0 #ff7f00;
+}
+   .regionNameSearch{ width: 45%; float: right;}
+   .regionSearch{margin: 3% 0 3% 0;}
+   .searchImg{
+	padding-top: 1.8%;
+    padding-bottom: 1.8%;
+	margin-left: 14%;
+    width: 7%;
+	float: left;
+	font-weight: bold;
+	cursor: pointer;        
+    border: 1px solid #b1b1b1;
+	border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+	background: #fff url(../shared/images//support/supportSearch.png) no-repeat scroll center center;
+	background-size: 55%;
+    background-position-x: 60%;
+}
+.searchBar{
+    padding-left: 1%;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+    margin-bottom: 0.5%;
+    width: 65.6%;
+    float:left;
+	color: #999;
+    border: 1px solid #b1b1b1;
+	border-radius:0;
+	border-left: none;
+	border-right: none;    
+}
+.searchButton {
+	padding-top: 1.8%;
+    padding-bottom: 1.8%;	   
+    width: 13%;
+    float: left;
+	text-align: center;
+    font-weight: bold;
+	color: #ff7f00;
+    cursor: pointer;
+	background: #fff; 
+    border: 1px solid #b1b1b1;
+	border-left-color: #ccc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 0 0 #ff7f00;
+    -webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    transition: all ease .8s;
+}
+.searchButton:hover{
+    color: white;
+    box-shadow: inset 200px 0 0 0 #ff7f00;
+}
+   .btnSelected{}
 	</style>
 </head>
 
@@ -43,43 +199,278 @@
       	    <img src="../shared/images/bb/chs_bbRateBanner.jpg" alt="" style="width:100%;">	   
        </section>
        
-       <section class="mainMgnTop"><!--mainMgnTop 为主体内容距bannner的距离，如果有特殊页面这里可以单独定义。-->
-      	  <div class="mainLimited"><!--mainLimited 是 仅1001px到1920px时，限制宽度，左右边距为200px; 在1000px以内的分辨率为通栏效果。-->
+       <section class="mainMgnTop">
+      	  <div class="mainLimited">
         	<div class="lineOrange"></div> 
         	      	        	 
         	<div class="bbRegion">
-        	    <div class="regionPart1" style="text-align: center; margin: 5% 0 5% 0;">
+        	    <div class="regionPart1">
         		<p class="title36">全球包月计划</p>
         		<p class="text18">免费无线拨打全球29个国家和地区，接听免费。</p>
         		</div>
         		
-        		<div class="regionPart2" style="padding: 0 10%;">
+        		<div class="regionPart2">
         	    <p class="text18 fwb">全球29个国家和地区，包括：</p>
-       	        <div class="Region">
-        	       <div class="" style="background: url(../shared/images/bb/bbRateIcon1.png) no-repeat; background-size: 5%; background-position-x: 0%;background-position-y: 50%; padding: 1.5% 0;">
-        	         <div class="" style="margin-left: 6.2%;">
-        	    		<p class="text18">美国</p>
-        	    		<div class="" style="margin-top: -.6%;">
-        	    			<span class="text16" style="background: url(../shared/images/bb/bbRateIconTelephone.png) no-repeat; background-size: 33%; background-position-x: 0%;background-position-y: 30%; padding-left: 2.3%;">固话</span> + 
-        	    			<span class="text16" style="background: url(../shared/images/bb/bbRateIconPhone.png) no-repeat; background-size: 23%; background-position-x: 0%;background-position-y: 30%; padding-left: 1.7%;">移动</span>
-        	    		</div>
+       	        <div class="countryBox clearfix">
+        	       <div class="conCountry Country01">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">美国</span>
+        	    		<span class="text16 conTelephone">固话</span><span class="text16"> + </span><span class="text16 conPhone">移动</span>
         	    	 </div>
         	       </div>
+        	       <div class="conCountry Country02">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">加拿大</span>
+        	    		<span class="text16 conTelephone">固话</span><span class="text16"> + </span><span class="text16 conPhone">移动</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country03">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">中国</span>
+        	    		<span class="text16 conTelephone">固话</span><span class="text16"> + </span><span class="text16 conPhone">移动</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country04">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">香港</span>
+        	    		<span class="text16 conTelephone">固话</span><span class="text16"> + </span><span class="text16 conPhone">移动</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country05">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">新加坡</span>
+        	    		<span class="text16 conTelephone">固话</span><span class="text16"> + </span><span class="text16 conPhone">移动</span>
+        	    	 </div>
+        	       </div>
+        	       
+        	       <div class="conCountry Country06">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">澳大利亚</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country07">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">台湾</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country08">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">奥地利</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country09">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">比利时</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country10">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">智利</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       
+        	       <div class="conCountry Country11">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">丹麦</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country12">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">法国</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country13">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">德国</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country14">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">希腊</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country15">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">爱尔兰</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country16">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">意大利</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country17">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">日本</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country18">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">韩国</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+       	           <div class="conCountry Country19">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">卢森堡</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country20">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">马来西亚</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       
+        	       <div class="conCountry Country21">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">荷兰</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country22">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">纽西兰</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country23">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">葡萄牙</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country24">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">西班牙</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country25">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">瑞典</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country26">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">瑞士</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country27">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">英国</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country28">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">梵蒂冈</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+       	           <div class="conCountry Country29">
+        	         <div class="countryText">
+        	    		<span class="text18 conBlock">挪威</span>
+        	    		<span class="text16 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       
         	    </div>
         		</div>
-        	</div>
+        	</div>        	
         	
-        	<div></div>
 		  </div>           	      	
        </section>
        
-       <section>
-      	  <!--如果需要全屏显示，那么将内容写在这里-->        	      	
-       </section>
-        
-       <section>
-      	  <div class="mainLimited"><!--还可以添加 “全屏” 和 “不全屏” 交错显示的布局-->
-		  </div>        	      	
+       <section class="bbRates">
+          <div class="ratesPart1 gradientTop">
+        	<p class="title36">费率查询</p>
+        	<p class="text18">*非全球包月计划以及除指定29个国家和地区之外的费率查询</p>
+          </div>
+          <div class="ratesPart2 mainLimited">
+            <div class="clearfix">
+               <!-- 費率按鈕 js 控制 Begin-->
+               <div class="alphaBox"  id="js_rates_btn_tb">
+          	      <p class="title18 fwb">按首字母查询</p>
+          	      <div class="alphabet">
+          	      	<a code="A" href="javascript:void(0);"><p class="alphaButton title18">A</p></a>
+          	      	<a code="B" href="javascript:void(0);"><p class="alphaButton title18">B</p></a>
+          	      	<a code="C" href="javascript:void(0);"><p class="alphaButton title18">C</p></a>
+          	      	<a code="D" href="javascript:void(0);"><p class="alphaButton title18">D</p></a>
+          	      	<a code="E" href="javascript:void(0);"><p class="alphaButton title18">E</p></a>
+          	      	<a code="F" href="javascript:void(0);"><p class="alphaButton title18">F</p></a>
+          	      	<a code="G" href="javascript:void(0);"><p class="alphaButton title18">G</p></a>
+          	      	<a code="H" href="javascript:void(0);"><p class="alphaButton title18">H</p></a>
+          	      	<a code="I" href="javascript:void(0);"><p class="alphaButton title18">I</p></a>
+          	      	<a code="J" href="javascript:void(0);"><p class="alphaButton title18">J</p></a>
+          	      	<a code="K" href="javascript:void(0);"><p class="alphaButton title18">K</p></a>
+          	      	<a code="L" href="javascript:void(0);"><p class="alphaButton title18">L</p></a>
+          	      	<a code="M" href="javascript:void(0);"><p class="alphaButton title18">M</p></a>
+          	      	<a code="N" href="javascript:void(0);"><p class="alphaButton title18">N</p></a>
+          	      	<a code="O" href="javascript:void(0);"><p class="alphaButton title18">O</p></a>
+          	      	<a code="P" href="javascript:void(0);"><p class="alphaButton title18">P</p></a>
+          	      	<a code="Q" href="javascript:void(0);"><p class="alphaButton title18">Q</p></a>
+          	      	<a code="R" href="javascript:void(0);"><p class="alphaButton title18">R</p></a>
+          	      	<a code="S" href="javascript:void(0);"><p class="alphaButton title18">S</p></a>
+          	      	<a code="T" href="javascript:void(0);"><p class="alphaButton title18">T</p></a>
+          	      	<a code="U" href="javascript:void(0);"><p class="alphaButton title18">U</p></a>
+          	      	<a code="V" href="javascript:void(0);"><p class="alphaButton title18">V</p></a>
+          	      	<a code="W" href="javascript:void(0);"><p class="alphaButton title18">W</p></a>
+          	      	<a code="X" href="javascript:void(0);"><p class="alphaButton title18">X</p></a>
+          	      	<a code="Y" href="javascript:void(0);"><p class="alphaButton title18">Y</p></a>
+          	      	<a code="Z" href="javascript:void(0);"><p class="alphaButton title18">Z</p></a>
+          	      </div>
+               </div>
+               <!-- 費率按鈕 js 控制 End-->
+               <!-- 費率查詢輸框 js 控制 Begin-->
+               <div class="regionNameSearch clearfix"  id="js_rates_sch_btn_tb">
+               	  <p class="title18 fwb">按区域名字查询</p>
+               	  <div class="regionSearch">
+               	  	<p class="searchImg text18 mText24">&nbsp;</p>
+        	        <input id="js_rates_sch_txt" class="searchBar text18 mText24" type="search" placeholder="" value="请输入区域名字" onfocus="if (value =='请输入区域名字'){value =''}" onblur="if (value ==''){value='请输入区域名字'}" >        	    
+        	        <p class="searchButton text18 mText24"  id="js_rates_sch_btn">
+                    <span>&gt;</span>
+                    </p>
+               	  </div>
+               </div>
+               <!-- 費率查詢輸框 js 控制 End-->
+               </div>
+               
+               <div class="">
+               	<div class="blank30">
+			&nbsp;</div>
+		 <table cellpadding="0" cellspacing="0" class="rate">
+            <tr class="tr_title">
+                <td width="230"> Country / Region</td>
+                <td> Country Code</td>
+                <td class="border_right_none" width="230"> Rate ($)</td>
+            </tr>
+        </table>
+        <!-- 费率查询结果 由 js 动态填充 Begin -->
+            <table id="js_rates_results_tb" class="rate" cellpadding="0" cellspacing="0">
+            </table>
+            <!-- 费率查询结果 由 js 动态填充 End -->
+             <div class="blank20"> &nbsp;</div>
+               	
+               </div>
+               <div class="text18">注意：本国际费率表仅供参考。我们会不定时对费率进行调整。 最近更新：4/1/2012</div>
+            	
+          </div>      	      	
        </section>
                    
     </div>
