@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="apple-itunes-app" content="app-id=514896649">
+
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+    <!--这里继续添加子页面的Css引用文件-->
+    <link href="../shared/css/zh_bbRates.css" rel="stylesheet" type="text/css" />
+
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+    <!--这里继续添加子页面的Js引用文件-->
+    <script src="../shared/js/Rates.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		$(function () {
+            // 费率相关 js begin
+		    var ComboID = $.Request("combo_id");
+		    if (!ComboID) {
+		        ComboID = 200004;
+		    }
+            var ModuleType = $.Request("module_type");
+            var LocationName = $.Request("Location_name");
+            if (ModuleType == null || ModuleType == "") {
+                ModuleType = "BB";
+            }
+            if (LocationName == null || LocationName == "") {
+                LocationName = "A";
+            }
+            var Params = { PageStart: 1, PageSize: 999999, LocationName: LocationName, ComboID: ComboID, ModuleType: ModuleType };
+            Rates_Search(Params, "#js_rates_results_tb");
+            Rates_HighlightBtn(Params, "#js_rates_btn_tb");
+            Rates_FireBtn(Params, "#js_rates_btn_tb");
+            Rates_FireSearchBtn(Params, "#js_rates_sch_btn_tb");
+            // 费率相关 js end
+        });      
+    </script>
+    <style>
+	
+	</style>
+</head>
+
+
+<body ng-app="">
+   <!--Amy制作-->    
+   <div ng-include="'header.html'"></div>
+    
+   <!--主体内容 start-->
+   <div class="container1920">
+     <div class="mainLayout">
+       <section>
+      	    <img class="hideM" src="../shared/images/bb/chs_bbRateBanner.jpg" alt="" style="width:100%;">
+      	    <img class="showM" src="../shared/images/bb/chs_mBBRateBanner.jpg" alt="" style="width:100%;">	   
+       </section>
+       
+       <section class="mainMgnTop">
+      	  <div class="mainLimited">
+        	<div class="lineOrange"></div> 
+        	      	        	 
+        	<div class="bbRegion">
+        	    <div class="regionPart1">
+        		<p class="title36 mTitle42">全球包月计划</p>
+        		<p class="text18 mText24">免费无线拨打全球29个国家和地区，接听免费。</p>
+        		</div>
+        		
+        		<div class="regionPart2">
+        	    <p class="text18 mText28 fwb">全球29个国家和地区，包括：</p>
+       	        <div class="countryBox clearfix">
+        	       <div class="conCountry Country01">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">美国</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span><span class="text16 mText16"> + </span><span class="text16 mText18 conPhone">移动</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country02">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">加拿大</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span><span class="text16 mText16"> + </span><span class="text16 mText18 conPhone">移动</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country03">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">中国</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span><span class="text16 mText16"> + </span><span class="text16 mText18 conPhone">移动</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country04">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">香港</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span><span class="text16 mText16"> + </span><span class="text16 mText18 conPhone">移动</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country05">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">新加坡</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span><span class="text16 mText16"> + </span><span class="text16 mText18 conPhone">移动</span>
+        	    	 </div>
+        	       </div>
+        	       
+        	       <div class="conCountry Country06">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">澳大利亚</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country07">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">台湾</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country08">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">奥地利</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country09">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">比利时</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country10">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">智利</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       
+        	       <div class="conCountry Country11">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">丹麦</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country12">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">法国</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country13">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">德国</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country14">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">希腊</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country15">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">爱尔兰</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country16">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">意大利</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country17">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">日本</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country18">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">韩国</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+       	           <div class="conCountry Country19">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">卢森堡</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country20">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">马来西亚</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       
+        	       <div class="conCountry Country21">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">荷兰</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country22">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">纽西兰</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country23">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">葡萄牙</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country24">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">西班牙</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country25">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">瑞典</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country26">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">瑞士</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country27">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">英国</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       <div class="conCountry Country28">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">梵蒂冈</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+       	           <div class="conCountry Country29">
+        	         <div class="countryText">
+        	    		<span class="text18 mText24 conBlock">挪威</span>
+        	    		<span class="text16 mText18 conTelephone">固话</span>
+        	    	 </div>
+        	       </div>
+        	       
+        	    </div>
+        		</div>
+        	</div>        	
+        	
+		  </div>           	      	
+       </section>
+       
+       <section class="bbRates">
+          <div class="ratesPart1 gradientTop">
+        	<p class="title36 mTitle42">费率查询</p>
+        	<p class="text18 mText24">*非全球包月计划以及除指定29个国家和地区之外的费率查询</p>
+          </div>
+          <div class="ratesPart2 mainLimited">
+            <div class="clearfix">
+               <!-- 費率按鈕 js 控制 Begin-->
+               <div class="alphaBox"  id="js_rates_btn_tb">
+          	      <p class="title18 mTitle24 fwb">按首字母查询</p>
+          	      <div class="alphabet">
+          	      	<a code="A" href="javascript:void(0);" class="alphaButton selected title18 mTitle20">A</a>
+          	      	<a code="B" href="javascript:void(0);" class="alphaButton title18 mTitle20">B</a>
+          	      	<a code="C" href="javascript:void(0);" class="alphaButton title18 mTitle20">C</a>
+          	      	<a code="D" href="javascript:void(0);" class="alphaButton title18 mTitle20">D</a>
+          	      	<a code="E" href="javascript:void(0);" class="alphaButton title18 mTitle20">E</a>
+          	      	<a code="F" href="javascript:void(0);" class="alphaButton title18 mTitle20">F</a>
+          	      	<a code="G" href="javascript:void(0);" class="alphaButton title18 mTitle20">G</a>
+          	      	<a code="H" href="javascript:void(0);" class="alphaButton title18 mTitle20">H</a>
+          	      	<a code="I" href="javascript:void(0);" class="alphaButton title18 mTitle20">I</a>
+          	      	<a code="J" href="javascript:void(0);" class="alphaButton title18 mTitle20">J</a>
+          	      	<a code="K" href="javascript:void(0);" class="alphaButton title18 mTitle20">K</a>
+          	      	<a code="L" href="javascript:void(0);" class="alphaButton title18 mTitle20">L</a>
+          	      	<a code="M" href="javascript:void(0);" class="alphaButton title18 mTitle20">M</a>
+          	      	<a code="N" href="javascript:void(0);" class="alphaButton title18 mTitle20">N</a>
+          	      	<a code="O" href="javascript:void(0);" class="alphaButton title18 mTitle20">O</a>
+          	      	<a code="P" href="javascript:void(0);" class="alphaButton title18 mTitle20">P</a>
+          	      	<a code="Q" href="javascript:void(0);" class="alphaButton title18 mTitle20">Q</a>
+          	      	<a code="R" href="javascript:void(0);" class="alphaButton title18 mTitle20">R</a>
+          	      	<a code="S" href="javascript:void(0);" class="alphaButton title18 mTitle20">S</a>
+          	      	<a code="T" href="javascript:void(0);" class="alphaButton title18 mTitle20">T</a>
+          	      	<a code="U" href="javascript:void(0);" class="alphaButton title18 mTitle20">U</a>
+          	      	<a code="V" href="javascript:void(0);" class="alphaButton title18 mTitle20">V</a>
+          	      	<a code="W" href="javascript:void(0);" class="alphaButton title18 mTitle20">W</a>
+          	      	<a code="X" href="javascript:void(0);" class="alphaButton title18 mTitle20">X</a>
+          	      	<a code="Y" href="javascript:void(0);" class="alphaButton title18 mTitle20">Y</a>
+          	      	<a code="Z" href="javascript:void(0);" class="alphaButton title18 mTitle20">Z</a>
+          	      </div>
+               </div>
+               <!-- 費率按鈕 js 控制 End-->
+               <!-- 費率查詢輸框 js 控制 Begin-->
+               <div class="regionNameSearch clearfix"  id="js_rates_sch_btn_tb">
+               	  <p class="title18 mTitle24 fwb">按区域名字查询</p>
+               	  <div class="regionSearch">
+               	  	<p class="searchImg text18 mText22">&nbsp;</p>
+        	        <input id="js_rates_sch_txt" class="searchBar text18 mText22" type="search" placeholder="" value="请输入区域名字" onfocus="if (value =='请输入区域名字'){value =''}" onblur="if (value ==''){value='请输入区域名字'}" >        	    
+        	        <p class="searchButton text18 mText22"  id="js_rates_sch_btn">
+                    <span>&gt;</span>
+                    </p>
+               	  </div>
+               </div>
+               <!-- 費率查詢輸框 js 控制 End-->
+               </div>
+               
+               <div class="ratesList">
+              	   <table cellpadding="0" cellspacing="0">
+              	   	  <tbody>
+              	   	  	 <tr class="listTitle" >
+              	   	  	 	<td class="title16 mTitle18 listLeft">Country / Region</td>
+              	   	  	 	<td class="title16 mTitle18 listCenter">Country Code</td>
+              	   	  	 	<td class="title16 mTitle18 listRight">Rate ($)</td>
+              	   	  	 </tr>
+              	   	  </tbody>
+              	   </table>
+              	   <table cellpadding="0" cellspacing="0">
+              	   	  <tbody>
+              	   	  	 <tr class="bgWhite" >
+              	   	  	 	<td class="text16 mText18 listLeft">Afghanistan</td>
+              	   	  	 	<td class="text16 mText18 listCenter">93</td>
+              	   	  	 	<td class="text16 mText18 listRight">0.3513</td>
+              	   	  	 </tr>
+              	   	  	 <tr class="bgGray" >
+              	   	  	 	<td class="text16 mText18 listLeft">Albania - Landline</td>
+              	   	  	 	<td class="text16 mText18 listCenter">355</td>
+              	   	  	 	<td class="text16 mText18 listRight">0.1505</td>
+              	   	  	 </tr>
+              	   	  	 <tr class="bgWhite" >
+              	   	  	 	<td class="text16 mText18 listLeft">Albania - Mobile</td>
+              	   	  	 	<td class="text16 mText18 listCenter">35567, 35568, 35569</td>
+              	   	  	 	<td class="text16 mText18 listRight">0.2346</td>
+              	   	  	 </tr>
+              	   	  	 <tr class="bgGray" >
+              	   	  	 	<td class="text16 mText18 listLeft">Algeria - Landline</td>
+              	   	  	 	<td class="text16 mText18 listCenter">213</td>
+              	   	  	 	<td class="text16 mText18 listRight">0.1201</td>
+              	   	  	 </tr>
+              	   	  </tbody>
+              	   </table>       	
+               </div>
+               <div class="text18 mText24">注意：本国际费率表仅供参考。我们会不定时对费率进行调整。 最近更新：4/1/2012</div>
+            	
+          </div>      	      	
+       </section>
+                   
+    </div>
+  </div>
+  <!--主体内容 end-->      
+  
+  <div class="lineBlue"></div>
+  <div ng-include="'footer.html'"></div>
+  <!--底部文件引入 end-->
+</body>
+</html>

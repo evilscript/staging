@@ -864,6 +864,7 @@ img.map, map area{
 	.mTitle54{font-size: 7.04vw;}
 	.mTitle48{font-size: 6.26vw;}
 	.mTitle42{font-size: 5.48vw;}
+	.mTitle38{font-size: 4.95vw;}
 	.mTitle36{font-size: 4.69vw;}
 	.mTitle32{font-size: 4.17vw;}
 	.mTitle30{font-size: 3.91vw;}
@@ -880,6 +881,8 @@ img.map, map area{
 	.mText24{font-size: 3.13vw;}
 	.mText22{font-size: 2.87vw;}
 	.mText20{font-size: 2.61vw;}
+	.mText18{font-size: 2.35vw;}
+	.mText16{font-size: 2.09vw;}
 	/* fontSize end */
     .headerBackToTop {
         display:none!important;

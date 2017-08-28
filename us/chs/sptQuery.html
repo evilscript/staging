@@ -83,7 +83,7 @@ background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% cente
         	<div class="lineOrange"></div> 	
 		  </div> 
 		<div class="change">
-			<div class="changes title22 mTitle24 pin button1">人工客服</div><div class="changes title22 mTitle24 changes2 button2 pin">店面查询</div><div class="changes title22 mTitle24 button3 pin">业务合作</div>
+			<div class="changes title22 mTitle24 pin button1 changesadd">人工客服</div><div class="changes title22 mTitle24 changes2 button2 pin">店面查询</div><div class="changes title22 mTitle24 button3 pin">业务合作</div>
 		</div>
 	</section>
 
@@ -232,5 +232,20 @@ background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% cente
 	<div ng-include="'footer.html'"></div>
 </body>
 <script src="../shared/js/sptQuery.js"></script>
+<script>
+	  var kk = window.location.hash;
+        console.log(kk);
+        if(kk=='#sq'){
+    
+        		$(".customer").css("display","none");
+        		$(".shop").css("display","block");
+        		$(".change").children().removeClass('changesadd');
+        	
+        		$(".changes2").addClass('changesadd');
+
+        	
+        }
+
+</script>
 
 </html>

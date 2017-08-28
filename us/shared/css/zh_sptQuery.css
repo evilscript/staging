@@ -83,7 +83,7 @@ select::-ms-expand { display: none; }
 .where{width: 100%}
 .change{width: 91%;margin-top:2.6%;margin-bottom: 2.6%; }
 .shop{width: 100%}
-.fixhead{padding-top: 9%;}
+
 .textBanner{top: 11%;width: 100%;left: 0%;text-align: center;}
 .textBanner .t1{font-size: 6vw;}
 .textBanner .t2{margin-top:1%;font-size: 4vw; }
@@ -135,12 +135,10 @@ select::-ms-expand { display: none; }
 .quartersName{font-size: 3.6vw;}
 .boptextL{margin-bottom: 5%}
 .quartersNum{margin-bottom: 3%}
+.collaborate1 img,.collaborate2 img,.collaborate3 img{height: 100%}
 
 
 
 
 }
 
-@media (max-width:511px) {
-    .fixhead{padding-top: 14%;}
-}

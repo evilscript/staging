@@ -7,8 +7,8 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 	.foldBox{margin-top: 2%;}
 	.foldBoxSpc1,.foldBoxSpc2{margin-top: 1.5%;}
 	.foldText{background: #fff; padding: 2.2% 2.5% 1.8% 2.5%; border-radius: 10px; border: #e9e9e9 1px solid;}
-	.foldBoxSpc1 .bubbleAngle{margin-left: 33.8%;}
-	.foldBoxSpc2 .bubbleAngle{margin-left: 63.5%;}
+	.foldBoxSpc1 .bubbleAngle{margin-left: 34.6%;}
+	.foldBoxSpc2 .bubbleAngle{margin-left: 60.7%;}
 	.bubbleAngle{display: inline-block; width:10px; height:10px; border-width:0 0 1px 1px; border-color:#e9e9e9;  border-style:solid; background-color: #fff;transform:rotate(135deg); margin-left: 4.5%; margin-bottom: -10px;}
 	
 	.lineOrange{margin-bottom: 1.2%;}	
@@ -74,8 +74,8 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 }
 
 @media  (min-width:768px) and (max-width:1000px){
-    .foldBoxSpc1 .bubbleAngle{margin-left: 35.5%;}
-	.foldBoxSpc2 .bubbleAngle{margin-left: 65%;}
+    .foldBoxSpc1 .bubbleAngle{margin-left: 36%;}
+	.foldBoxSpc2 .bubbleAngle{margin-left: 61.5%;}
 	.partMgnTop{margin-top: 0;}
 	.partAll{padding:0 6%;}
 	.Sharp{width: 2.5%;}
@@ -89,9 +89,9 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 
 @media (max-width:767px){
     .foldBoxSpc1{margin-top:-2.5%; margin-bottom: 4%;}  	
-    .foldBoxSpc1 .bubbleAngle{margin-top:0%;margin-left: 69%;}
+    .foldBoxSpc1 .bubbleAngle{margin-top:0%;margin-left: 67%;}
 	.foldBoxSpc2{margin-bottom: 4%;} 
-	.foldBoxSpc2 .bubbleAngle{margin-left: 15%;}
+	.foldBoxSpc2 .bubbleAngle{margin-left: 17.6%;}
 	.foldText{padding:3.5% 4.2% 2.3% 4.2%; border-radius: 8px;}
 	.bubbleAngle{margin-bottom: -10px;}
 	.mainLayout{padding-bottom: 5%;}
