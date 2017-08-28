@@ -165,7 +165,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 	.ratesPart1{padding: 5% 0 3% 0;}
 	.countryBox{width: 103%;}
 	.countryText{margin-left: 32%;}
-    .conCountry{float: left; width: 33.3%; padding: 3% 0;background-size: 27%;}
+    .conCountry{width: 33.3%; padding: 3% 0;background-size: 27%;}
 	.alphaBox{width: 100%; margin-bottom: 5%;}
 	.alphabet{width: 105.2%;margin-left: 1%;}
 	.regionNameSearch{width: 100%;}
@@ -181,4 +181,9 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
     .listCenter{width: 48%;}
     .listRight{width: 18%;}
 
+}
+
+@media (max-width:511px){	
+	.countryText{line-height: 1;margin-left: 33%;}
+	.conCountry{padding: 3.2% 0;background-size: 29%;}
 }
