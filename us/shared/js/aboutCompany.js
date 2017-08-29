@@ -25,27 +25,27 @@ $(document).ready(function(){
     }).mouseleave(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalAll.jpg');
     });
-    $('.usa').click(function(){
+    $('.usa').mouseover(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalHoverUSA.jpg');
     }).mouseleave(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalAll.jpg');
     });
-    $('.canada').click(function(){
+    $('.canada').mouseover(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalHoverCanada.jpg');
     }).mouseleave(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalAll.jpg');
     });
-    $('.australia').click(function(){
+    $('.australia').mouseover(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalHoverAustarlia.jpg');
     }).mouseleave(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalAll.jpg');
     });
-    $('.singapore').click(function(){
+    $('.singapore').mouseover(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalHoverSingapore.jpg');
     }).mouseleave(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalAll.jpg');
     });
-    $('.china').click(function(){
+    $('.china').mouseover(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalHoverChina.jpg');
     }).mouseleave(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalAll.jpg');
