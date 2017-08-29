@@ -1,28 +1,31 @@
 /* support All css */
 /* Amy制作 */
 body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:left; word-break:break-word;}
-	a.textLink, a.textLink:hover, a.textLink:focus{color: #ff7f00; text-decoration: underline;}
+	a.textLink, a.textLink:hover, a.textLink:focus{color: #ff7f00;}
+	a.textLink:hover, a.textLink:focus{text-decoration: underline;}
 	p{line-height: 1.47}
 	/*有尖角文本框*/
 	.foldBox{margin-top: 2%;}
 	.foldBoxSpc1,.foldBoxSpc2{margin-top: 1.5%;}
 	.foldText{background: #fff; padding: 2.2% 2.5% 1.8% 2.5%; border-radius: 10px; border: #e9e9e9 1px solid;}
+	.foldText > ul.listNom{margin: 0;padding-left: 2%;}
 	.foldBoxSpc1 .bubbleAngle{margin-left: 34.6%;}
 	.foldBoxSpc2 .bubbleAngle{margin-left: 60.7%;}
 	.bubbleAngle{display: inline-block; width:10px; height:10px; border-width:0 0 1px 1px; border-color:#e9e9e9;  border-style:solid; background-color: #fff;transform:rotate(135deg); margin-left: 4.5%; margin-bottom: -10px;}
 	
 	.lineOrange{margin-bottom: 1.2%;}	
 	.titFirst{margin-bottom: 1.5%;}
-    .titMgnTop,.imgTitle{margin-top: 2.6%;}	
+    .titMgnTop,.imgTitle{margin-top: 3%;}
+	.titMgnBtm{margin-bottom: -7%;}
 	.imgCnt{margin: 0 auto; width: 66%;}
 	.imgCnt img{width: 100%; margin: 3% 0;}	
 	.imgLeft img{width: 100%; margin: 5% 0;}
 	.imgTitle{text-align: center; margin-bottom: -2%;}
 	
-	.btnTxt18,.btnTxt30{cursor: pointer;}
-	.btnTxt18 img,.btnTxt30 img{display: inline-block;}
+	.btnTxt18,.btnTxt24{cursor: pointer;}
+	.btnTxt18 img,.btnTxt24 img{display: inline-block;}
 	.btnTxt18 img{margin-left: 1.5%; width: 3%; margin-bottom: 1.3%;}
-	.btnTxt30 img{margin-left: 1%; width: 1%; margin-bottom: .5%;}
+	.btnTxt24 img{margin-left: 1%; width: 1%; margin-bottom: .5%;}
 	.bgMgn{padding:2.6% 0;}
 	.gradient{
     background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
@@ -40,10 +43,8 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 	.partAll{width: 100%; padding-right: 17.2%;}
 	.hService>li{list-style-type: none;}
 	ul{margin-left: 1.75%; padding: 0;}
-	ul li{ line-height: 2}
+	ul,.listTxtCon{margin-top: 1.5%;}
 	ul.listNom li{list-style-type:decimal;}
-	ul.listNom li p:first-child{margin-top: 1%}
-	ul.listNom li p:last-child{margin-bottom: 1%;}
 	ul.listNom li div.pMgn{margin-bottom: 1.2%;}
 	ul.listDot{margin-left: 1.65%;}
 	ul.listDot li{float: left;width: 28%; list-style-type: disc;}
@@ -51,7 +52,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 	.Sharp{vertical-align: top;width: 2%;}
 	.textCon{ width: 95%;}
 	.textNote{color: #ff7f00; padding-left: 2%; background: url(../images/support/supportPay.png) no-repeat; background-size: 1.3%; background-position-x: 0%;background-position-y: 2%;}
-	.onlyText{margin-left: 0;}	
+		
 	
 	.appQRcode{margin: 1.5% 0;}
 	.QRcode p{float: left; width: 20%;margin-right: 4%; cursor: pointer;}
@@ -74,17 +75,19 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 }
 
 @media  (min-width:768px) and (max-width:1000px){
+    .titMgnBtm{margin-bottom:0%;}
     .foldBoxSpc1 .bubbleAngle{margin-left: 36%;}
 	.foldBoxSpc2 .bubbleAngle{margin-left: 61.5%;}
 	.partMgnTop{margin-top: 0;}
-	.partAll{padding:0 6%;}
+	.partAll{padding:0 5%;}
 	.Sharp{width: 2.5%;}
 	.sptMenu{width: 100%; margin-top: 2%;}
 	.textNote{padding-left: 2.5%; background-size: 1.5%;background-position-y: 2.8%;}
 	ul{margin-left: 2.15%;}
 	ul.listDot{margin-left: 2%;}
 	.btnTxt18 img{margin-left: 2.5%; width: 5%; margin-bottom: 1.5%;}
-	.btnTxt30 img{margin-left: 1.2%; width: 1.5%; margin-bottom: .6%;}
+	.btnTxt24 img{margin-left: 1.2%; width: 1.5%; margin-bottom: .6%;}
+	.bgMgn{padding-top:3.2%;}
 }
 
 @media (max-width:767px){
@@ -93,24 +96,25 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 	.foldBoxSpc2{margin-bottom: 4%;} 
 	.foldBoxSpc2 .bubbleAngle{margin-left: 17.6%;}
 	.foldText{padding:3.5% 4.2% 2.3% 4.2%; border-radius: 8px;}
+	.foldText > ul.listNom{margin: 0;padding-left: 5%;}
 	.bubbleAngle{margin-bottom: -10px;}
 	.mainLayout{padding-bottom: 5%;}
     .mainLimited{width: 100%}
 	.bubbleAngle{margin-left: 8.5%;}
 	.lineGray{border-bottom: 1px solid #e6e6e6;}
 	.sptMenu{width: 100%; margin-top: 3%;}	
-	.bgMgn{padding: 5% 0;}
+	.bgMgn{padding-top: 5.5%; padding-bottom: 4%;}
 	.noBgMgnbtm{padding: 6% 0 0 0;}
     .partAll{width: 100%;padding: 0 5.5%;}
-	ul{margin-left: 6.5%;}
-	ul.listNom li{line-height: 1.61}
+	ul{margin-left: 6.5%;margin-top: 3%;}
+	ul.listNom li{line-height: 1.61;}
 	ul.listDot{margin-left: 6%;}
 	ul.listDot li{width: 48%;}
 	.titMgnTop{margin-top: 6%;}
 	.Sharp{width: 5%;}
 	.imgTitle{margin-top: 3%;}	
 	.btnTxt18 img{margin-left: 2.8%; width: 5%; margin-bottom: 1.8%;}
-	.btnTxt30 img{margin-left: 1.5%; width: 2%; margin-bottom: 1%;}
+	.btnTxt24 img{margin-left: 1.5%; width: 2%; margin-bottom: 1%;}
     .imgCnt{width: 100%;}
 	.imgCnt img{margin: 7.5% 0;}
 	.imgLeft{width: 100%;}

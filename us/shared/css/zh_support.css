@@ -1,6 +1,6 @@
 /* support banner start */
 /* Amy制作 */
-.sptBanIcon a,.sptBanIcon a:link,.sptBanIcon a:hover{color: #fff;}
+.sptBanIcon a,.sptBanIcon a:link,.sptBanIcon a:hover,.sptBanIcon a:visited{color: #fff;}
 .sptBanner{margin: 0 auto; padding: 0;max-width: 1920px; text-align: center; background: url(../images/support/sptBannerBg.jpg) no-repeat;background-size: 100%;}
 .sptBanPart1{padding-top: 4.5%; color: #fff;}
 .sptBanArrow{background: url(../images/support/sptBannerArrow.png) no-repeat scroll center center;background-size: 1.8%; margin-top: 2%;}
@@ -12,9 +12,9 @@
 .sptBanIcon img{margin: 0 auto; width: 56%;}
 
 /* support others start */
-.sptHot{background: #f0f0f0;border-top: 1px solid #dedede; padding: 1.3% 0 1.5% 8%; width: 100%;}
-.sptHot .hot1{padding-left: 2.5%;float: left;background: url(../images/support/supportHot.png) no-repeat; background-size: 9%; background-position-x: 10%;background-position-y: 2%;}
-.sptHot .hot2{margin-left: 14%;padding-left: 2.5%;float: left;background: url(../images/support/supportHot.png) no-repeat; background-size: 9%; background-position-x: 10%;background-position-y: 2%;}
+.sptHot{background: #f0f0f0;border-top: 1px solid #dedede; padding: 1.8% 0 1.5% 8%; width: 100%;}
+.sptHot .hot1{padding-left: 2.5%;float: left;background: url(../images/support/supportHot.png) no-repeat; background-size: 8%; background-position-x: 11%;background-position-y: 2%;}
+.sptHot .hot2{margin-left: 14%;padding-left: 2.5%;float: left;background: url(../images/support/supportHot.png) no-repeat; background-size: 8%; background-position-x: 11%;background-position-y: 2%;}
 
 @media  (min-width:768px) and (max-width:1000px){
     .mainLimited{width: 100%;}
@@ -24,7 +24,7 @@
 	.sptHot{background: #f0f0f0;border-top: 1px solid #dedede; padding: 4.6% 0 3.8% 4%; width: 100%;}
 	.sptHot .hot1{padding-left: 4%;float: left;background: url(../images/support/supportHot.png) no-repeat; }
     .sptHot .hot2{margin-left: 14%;padding-left: 4.2%;float: left;background: url(../images/support/supportHot.png) no-repeat;}
-	.sptHot .hot1,.sptHot .hot2{background-size: 8%; background-position-x: 10%;background-position-y: 1%;}
+	.sptHot .hot1,.sptHot .hot2{background-size: 8%; background-position-x: 14%;background-position-y: 1%;}
 }
 
 @media (max-width:767px){    
@@ -36,8 +36,8 @@
 	.sptBanIcon a:hover{background-size: 76%; background-position-x: 50%;background-position-y: 2%;}
 	.sptBanIcon a.mSptIconRight{margin-right: 9.8%;}
 	.sptBanA img{width: 60%;}
-	.sptHot{ padding: 6% 0 5% 0;}
-	.sptHot .hot1,.sptHot .hot2{width: 100%; overflow: hidden; float: none; margin: 0; padding: 0; text-align: center;line-height: 2; padding-bottom: 5%;background: url(../images/support/supportHot.png) no-repeat; background-size: 2.2%; background-position-x: 40%;background-position-y: 3%;}	
+	.sptHot{ padding: 6% 0 0 0;}
+	.sptHot .hot1,.sptHot .hot2{width: 100%; overflow: hidden; float: none; margin: 0; padding: 0; text-align: center;line-height: 2; padding-bottom: 5%; background-size: 2%; background-position-x: 40%;background-position-y: 4%;}	
 }
 @media (max-width:511px){
     .sptBanPart2{margin-top: -10%; padding-bottom: 3%;}

@@ -130,7 +130,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
     color: white;
     box-shadow: inset 200px 0 0 0 #ff7f00;
 }
-   .ratesList{margin: 3% 0 5% 0;}
+   .ratesList{margin: 3% 0;}
    .ratesList table{border: 0; width: 100%;}
    .ratesList>table td{text-align: left; border-right: #d8d8d8 1px solid; padding:1% 3.8% 1.1% 4%;}
    .ratesList>table td:last-child{border-right: none;}
@@ -162,20 +162,20 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 }
 @media (max-width:767px){
     .regionPart2,.ratesPart2{padding: 0 5%;}
-	.ratesPart1{padding: 5% 0 3% 0;}
+	.ratesPart1{padding: 5.5% 0 4.5% 0;}
 	.countryBox{width: 103%;}
 	.countryText{margin-left: 32%;}
     .conCountry{width: 33.3%; padding: 3% 0;background-size: 27%;}
-	.alphaBox{width: 100%; margin-bottom: 5%;}
+	.alphaBox{width: 100%; margin-top: 5%;}
 	.alphabet{width: 105.2%;margin-left: 1%;}
 	.regionNameSearch{width: 100%;}
-	.bbRates{margin-bottom: 5%;}
+	.bbRates{margin-bottom: 7%;}
 	.alphaButton{width: 12%;}
 	.searchImg,.searchBar,.searchButton{line-height: 1.5}
 	.searchImg{margin-left: 1%; width: 8.6%;}
 	.searchBar{width: 73%;}
 	.searchButton{width: 16%;}
-	.ratesList{margin: 5% 0 6% 0;}
+	.ratesList{margin: 5% 0 5% 0;}
 	.ratesList>table td{padding:1.3% 3.8% 1.4% 4%;}
 	.listLeft{width: 34%;}
     .listCenter{width: 48%;}

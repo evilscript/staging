@@ -2,11 +2,11 @@
   Version:1.0.0.2
   Author:hooyes
   Create Date:2013-07-29
-  Update Date:2013-07-30
+  Update Date:2017-08-29
   Desc : Rates Search
 */
 
-var __Rates_Server__ = "http://webaccount.italkbb.com/WebSite_Controller/";
+var __Rates_Server__ = "https://webaccount.italkbb.com/WebSite_Controller/";
 
 (function ($) {
     $.extend({
@@ -34,26 +34,26 @@ function Rates_Search(Params, Container) {
                 var od = 100; // 
                 for (var i = 0; i < data.Rates.length; i++) {
                     if (od == 100) {
-                        Ht.push('<tr class="tr_white">');
-                        Ht.push('<td class="special" style="width:190px;">' + data.Rates[i].LocationName + '</td>');
-                        Ht.push('<td class="special">' + data.Rates[i].AreaCode + '</td>');
-                        Ht.push('<td class="special border_right_none" style="width:190px;">' + data.Rates[i].DMcharge + '</td>');
+                        Ht.push('<tr class="bgWhite">');
+                        Ht.push('<td class="text16 mText20 listLeft" >' + data.Rates[i].LocationName + '</td>');
+                        Ht.push('<td class="text16 mText20 listCenter">' + data.Rates[i].AreaCode + '</td>');
+                        Ht.push('<td class="text16 mText20 listRight">' + data.Rates[i].DMcharge + '</td>');
                         Ht.push('</tr>');
                         od = 1;
                     }
                     else if (od == 0) {
-                        Ht.push('<tr class="tr_white">');
-                        Ht.push('<td>' + data.Rates[i].LocationName + '</td>');
-                        Ht.push('<td>' + data.Rates[i].AreaCode + '</td>');
-                        Ht.push('<td class="border_right_none">' + data.Rates[i].DMcharge + '</td>');
+                        Ht.push('<tr class="bgWhite">');
+                        Ht.push('<td class="text16 mText20 listLeft">' + data.Rates[i].LocationName + '</td>');
+                        Ht.push('<td class="text16 mText20 listCenter">' + data.Rates[i].AreaCode + '</td>');
+                        Ht.push('<td class="text16 mText20 listRight">' + data.Rates[i].DMcharge + '</td>');
                         Ht.push('</tr>');
                         od = 1;
                     }
                     else {
-                        Ht.push('<tr class="tr_gray">');
-                        Ht.push('<td>' + data.Rates[i].LocationName + '</td>');
-                        Ht.push('<td>' + data.Rates[i].AreaCode + '</td>');
-                        Ht.push('<td class="border_right_none">' + data.Rates[i].DMcharge + '</td>');
+                        Ht.push('<tr class="bgGray">');
+                        Ht.push('<td class="text16 mText20 listLeft">' + data.Rates[i].LocationName + '</td>');
+                        Ht.push('<td class="text16 mText20 listCenter">' + data.Rates[i].AreaCode + '</td>');
+                        Ht.push('<td class="text16 mText20 listRight">' + data.Rates[i].DMcharge + '</td>');
                         Ht.push('</tr>');
                         od = 0;
                     }
