@@ -1,0 +1,120 @@
+body{margin: 0;padding:0;overflow: hidden;background-color: #fff;text-align:justify}
+.bbTitMgnBtm{margin-bottom: 1.1vw;text-align: center;}
+.bbTryout,.bbApp,.otherFunction{text-align: center;}
+.tryoutCon > .left,.tryoutCon > .right,.bbFunction .function{width: 50%; padding: 0 5.5%;}
+.bbTryout{background: #f2f2f2;}
+.tryoutCon{padding: 4% 0 4% 0;}
+.tryoutCon > .left{float: left; padding-right: 5%; padding-bottom: 29.5%; border-right: 1px #c1c1c1 solid;background:url(../images/bb/bbPlanPic01.png) no-repeat scroll bottom;background-size: 79%;}
+.tryoutCon > .right{float: right;padding-right: 5%; padding-bottom: 27%; background:url(../images/bb/bbPlanPic02.png) no-repeat scroll bottom; background-size: 79%;}
+.tryoutTxt{text-align: left;}
+.numberSearch{margin-top: 4%;}
+.searchImg{
+	padding-top: 1.8%;
+    padding-bottom: 1.8%;
+	margin-left: 0%;
+    width: 8%;
+	float: left;
+	font-weight: bold;
+	cursor: pointer;        
+    border: 1px solid #b1b1b1;
+	border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+	background: #fff url(../images/bb/bbPlanIconNom.png) no-repeat scroll center center;
+	background-size: 40%;
+    background-position-x: 60%;
+}
+.searchBar,.searchBarLine{
+    padding-left: 1%;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+    margin-bottom: 0.5%;
+	text-align: center;
+    width: 21%;
+    float:left;
+	color: #aaa;
+    border: 1px solid #b1b1b1;
+	border-radius:0;
+	border-left: none;
+	border-right: none;    
+}
+.searchBarLine{
+    width: 3%;
+	padding-left: 0%;
+	color: #b1b1b1;
+	background: #fff;
+}
+.searchButton {
+	padding-top: 1.8%;
+    padding-bottom: 1.8%;	   
+    width: 21%;
+    float: left;
+	text-align: center;
+    font-weight: bold;
+	color: #ff7f00;
+    cursor: pointer;
+	background: #fff; 
+    border: 1px solid #b1b1b1;
+	border-left-color: #ccc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 0 0 #ff7f00;
+    -webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    transition: all ease .8s;
+}
+.searchButton:hover{
+    color: white;
+    box-shadow: inset 200px 0 0 0 #ff7f00;
+}
+
+.bbApp{padding: 4% 7.5%;background:url(../images/bb/bbPlanBg02.jpg) no-repeat scroll top; color: #f2f2f2;}
+.appAPK{float: left;  margin-left: 78.5%; cursor: pointer; margin-top: .6%;}
+.apkNote{float: right;margin-right: 10.5%; text-align: right; padding-top: 1.6%;}
+.appQRcode{margin-top: 2.5%;}
+.QRcode p{float: left; width: 20%;margin-left: 9.5%; cursor: pointer;}
+.QRcode p:first-child{margin-top: 0;}
+.QRcode p img{width: 100%; display: block;}
+.QRcode p img:first-child{margin-bottom: 8%;}
+
+.bbFunction{margin: 4% 0;}
+.bbFunction .function{padding-top: 14%; float: left; margin-bottom: 3%;}
+.bbFunction .function1{background:url(../images/bb/bbPlanBigIcon01.png)  no-repeat top; background-size: 23%;}
+.bbFunction .function2{background:url(../images/bb/bbPlanBigIcon02.png)  no-repeat top; background-size: 23%;}
+.bbFunction .function3{background:url(../images/bb/bbPlanBigIcon03.png)  no-repeat top; background-size: 23%;}
+.bbFunction .function4{background:url(../images/bb/bbPlanBigIcon04.png)  no-repeat top; background-size: 23%;}
+.function:last-child{margin-bottom: 4%;}
+
+.otherFunction{padding: 0 4.2%; margin: 3% 0;}
+.otherFunction .Func{float: left; padding: 7.4% 1%  0 1%; width: 16.6%;}
+.otherFunction .Func1{ background:url(../images/bb/bbPlanIcon09.png)  no-repeat top; background-size: 38%;}
+
+@media  (min-width:1001px){
+	.bbPlanLimited{margin: 0 auto;width: 89.6%;}	
+}  
+@media  (min-width:768px) and (max-width:1000px){
+    .apkNote{margin-right: 0; text-align: center;}
+    .bbFunction{margin-top: 4.9%;}
+	.otherFunction{margin-bottom: 4%}
+}
+@media (max-width:767px){
+    .bbTitMgnBtm{margin-bottom: 2vw;}
+	.tryoutCon{padding-top: 5.5%;}
+    .tryoutCon > .left,.tryoutCon > .right,.bbFunction .function,.QRcode p,.appAPK{float: none; width: 100%;}	
+	.tryoutCon > .left{border-right:none; border-right: 1px #c1c1c1 solid; padding-bottom: 50%; margin-bottom: 6%;}
+	.tryoutCon > .right{padding-bottom: 52%;}
+	.bbApp{padding: 6% 5%; padding-bottom: 7%;background: #000 url(../images/bb/mBBPlanBg02.png) no-repeat scroll bottom;}
+	.appAPK{margin-left: 48.3%;}
+	.QRcode{margin: 2% 0;}
+	.QRcode p{margin-left: 0; padding: 4% 18%;}
+	.QRcode span{display: none;}
+	.apkNote{margin-right: 0; text-align: center;}
+	.bbFunction{margin-top:.5%;}
+	.bbFunction .function{margin: 7% 0; padding-top: 28%;}
+	.otherFunction{margin-top: 5%;}
+	.otherFunction .Func{width: 25%; padding: 0 2%;padding-top: 16%; margin-bottom: 2%;background-size: 58%;}
+}
+
+@media (max-width:511px){	
+	
+}

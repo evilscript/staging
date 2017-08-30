@@ -90,7 +90,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 	border-right: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-	background: #fff url(../images//support/supportSearch.png) no-repeat scroll center center;
+	background: #fff url(../images/support/supportSearch.png) no-repeat scroll center center;
 	background-size: 55%;
     background-position-x: 60%;
 }
@@ -130,7 +130,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
     color: white;
     box-shadow: inset 200px 0 0 0 #ff7f00;
 }
-   .ratesList{margin: 3% 0;}
+   .ratesList,.ratesCon{margin-bottom: 3%;}
    .ratesList table{border: 0; width: 100%;}
    .ratesList>table td{text-align: left; border-right: #d8d8d8 1px solid; padding:1% 3.8% 1.1% 4%;}
    .ratesList>table td:last-child{border-right: none;}
@@ -163,6 +163,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 @media (max-width:767px){
     .regionPart2,.ratesPart2{padding: 0 5%;}
 	.ratesPart1{padding: 5.5% 0 4.5% 0;}
+	.ratesCon{margin-bottom: 5%;}
 	.countryBox{width: 103%;}
 	.countryText{margin-left: 32%;}
     .conCountry{width: 33.3%; padding: 3% 0;background-size: 27%;}

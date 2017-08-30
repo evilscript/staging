@@ -1,8 +1,6 @@
 /* support All css */
 /* Amy制作 */
-body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:left; word-break:break-word;}
-	a.textLink, a.textLink:hover, a.textLink:focus{color: #ff7f00;}
-	a.textLink:hover, a.textLink:focus{text-decoration: underline;}
+body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:left; word-break:break-word;}	
 	p{line-height: 1.47}
 	/*有尖角文本框*/
 	.foldBox{margin-top: 2%;}

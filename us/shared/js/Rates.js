@@ -2,7 +2,7 @@
   Version:1.0.0.2
   Author:hooyes
   Create Date:2013-07-29
-  Update Date:2017-08-29
+  Update Date:2017-08-30
   Desc : Rates Search
 */
 
@@ -59,6 +59,8 @@ function Rates_Search(Params, Container) {
                     }
                 }
                 //alert(Ht.join(""));
+                //Head 
+                $("#js_rates_title_tb").show();
                 $(Container).html(Ht.join(""));
             } else {
                 alert(data.Result.Message);

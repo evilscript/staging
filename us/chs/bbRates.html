@@ -44,8 +44,8 @@
                 LocationName = "A";
             }
             var Params = { PageStart: 1, PageSize: 999999, LocationName: LocationName, ComboID: ComboID, ModuleType: ModuleType };
-            Rates_Search(Params, "#js_rates_results_tb");
-            Rates_HighlightBtn(Params, "#js_rates_btn_tb");
+            //Rates_Search(Params, "#js_rates_results_tb");
+            //Rates_HighlightBtn(Params, "#js_rates_btn_tb");
             Rates_FireBtn(Params, "#js_rates_btn_tb");
             Rates_FireSearchBtn(Params, "#js_rates_sch_btn_tb");
             // 费率相关 js end
@@ -274,7 +274,7 @@
         	<p class="text18 mText26">*非全球包月计划以及除指定29个国家和地区之外的费率查询</p>
           </div>
           <div class="ratesPart2 mainLimited">
-            <div class="clearfix">
+            <div class="ratesCon clearfix">
                <!-- 費率查詢輸框 js 控制 Begin-->
                <div class="regionNameSearch clearfix"  id="js_rates_sch_btn_tb">
                	  <p class="title20 mTitle28 fwb">按区域名字查询</p>
@@ -291,7 +291,7 @@
                <div class="alphaBox"  id="js_rates_btn_tb">
           	      <p class="title20 mTitle28 fwb">按首字母查询</p>
           	      <div class="alphabet">
-          	      	<a code="A" href="javascript:void(0);" class="alphaButton selected title18 mTitle22">A</a>
+          	      	<a code="A" href="javascript:void(0);" class="alphaButton title18 mTitle22">A</a>
           	      	<a code="B" href="javascript:void(0);" class="alphaButton title18 mTitle22">B</a>
           	      	<a code="C" href="javascript:void(0);" class="alphaButton title18 mTitle22">C</a>
           	      	<a code="D" href="javascript:void(0);" class="alphaButton title18 mTitle22">D</a>
@@ -323,7 +323,7 @@
                </div>
                
                <div class="ratesList">
-              	   <table cellpadding="0" cellspacing="0">
+              	   <table cellpadding="0" cellspacing="0" id="js_rates_title_tb" style="display: none">
               	   	  <tbody>
               	   	  	 <tr class="listTitle" >
               	   	  	 	<td class="title16 mTitle20 listLeft">Country / Region</td>
