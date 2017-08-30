@@ -67,7 +67,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff;text-align:just
     color: white;
     box-shadow: inset 200px 0 0 0 #ff7f00;
 }
-
+.searchImg,.searchBar,.searchBarLine,.searchButton{line-height: 1.5}
 .bbApp{padding: 4% 7.5%;background:url(../images/bb/bbPlanBg02.jpg) no-repeat scroll top; color: #f2f2f2;}
 .appAPK{float: left;  margin-left: 78.5%; cursor: pointer; margin-top: .6%;}
 .apkNote{float: right;margin-right: 10.5%; text-align: right; padding-top: 1.6%;}
@@ -98,6 +98,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff;text-align:just
 	.otherFunction{margin-bottom: 4%}
 }
 @media (max-width:767px){
+    .tryoutTxt,.function{text-align: center;}
     .bbTitMgnBtm{margin-bottom: 2vw;}
 	.tryoutCon{padding-top: 5.5%;}
     .tryoutCon > .left,.tryoutCon > .right,.bbFunction .function,.QRcode p,.appAPK{float: none; width: 100%;}	
@@ -106,7 +107,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff;text-align:just
 	.bbApp{padding: 6% 5%; padding-bottom: 7%;background: #000 url(../images/bb/mBBPlanBg02.png) no-repeat scroll bottom;}
 	.appAPK{margin-left: 48.3%;}
 	.QRcode{margin: 2% 0;}
-	.QRcode p{margin-left: 0; padding: 4% 18%;}
+	.QRcode p{margin-left: 0; padding: 3% 20%;}
 	.QRcode span{display: none;}
 	.apkNote{margin-right: 0; text-align: center;}
 	.bbFunction{margin-top:.5%;}
