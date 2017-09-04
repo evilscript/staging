@@ -6,7 +6,7 @@
 		position: fixed; 
 		height: 100%;
 		width: 100%;
-		background: #fff;
+		background: #000;
 		background: rgba(5,5,15,.8);
 		opacity:0.8;
 		filter: alpha(opacity=80); 
@@ -22,7 +22,7 @@
 		left: 50%;
 		margin-left: -33.38%;
 		width: 66.7%;
-		background: #eee /*url(modal-gloss.png) no-repeat -200px -80px*/;
+		background: #fcfcfc /*url(modal-gloss.png) no-repeat -200px -80px*/;
 		position: absolute;
 		/*position:fixed;*/
 		z-index: 101;
