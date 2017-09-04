@@ -21,8 +21,11 @@
     <!--这里继续添加子页面的Css引用文件-->
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_bbPlan.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/reveal.css">
 
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/jquery-1.7.2.min.js"></script>
+    <script src="../shared/js/jquery.reveal.js"></script>
     <script src="../shared/js/angular-1.6.4.min.js"></script>
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
@@ -53,7 +56,7 @@
        </section>
        
        <section class="mainMgnTop">
-      	  <div class="mainLimited bbPlanLimitedBig">
+      	  <div class="bbPlanLimitedBig">
       	  	<div class="lineOrange"></div>
       	  </div>
       	  <div class="planLimitedBig"> 
@@ -101,11 +104,23 @@
         	  	   </div>
         	  	</div>
         	  	<div class="planSpace hideM">
-  	  	           <a href="#">
+  	  	           <a href="#" class="big-link" data-reveal-id="planFormCompare">
     	  	       <div class="planCompare">
 				     <img src="../shared/images/bb/chs_bbPlanIconCompare.png"/>
     	  	       </div>
      	  	       </a>
+     	  	       <div class="planForm">
+                      <div id="planFormCompare" class="reveal-modal">
+                         <div class="planFormCon">
+                            <p class="title36 mTitle44">iTalkBB家庭电话计划比较</p>
+                            <div class="">
+                            <p style="font-size:14px;">iTalkBB蜻蜓与布鲁克林篮网队奖学金只限纽约地区申请者</p>
+                            <a href="https://www.sojump.hk/jq/11657087.aspx" target="_blank"><p>点击申请</p></a>
+                            </div>
+                         </div>
+                         <a class="close-reveal-modal" style="text-decoration:none">&#215;</a>
+                      </div>
+                   </div>
        	  	    </div>
         	  	<div class="planCon plan2">
                    <div class="planUpper">
@@ -113,7 +128,7 @@
         	  			<p class="title36">全球包月计划</p>
         	  		  </div>
         	  		  <div class="planText">
-        	  		     <p class="title28">直播全球，接听免费</p>
+        	  		     <p class="title28">无限拨打全球</p>
         	  			 <div class="priceBox priceBox2 avenir clearfix">
         	  			   <p class="dollar title60">$</p>
         	  			   <p class="priceBig title140">24</p>
@@ -189,6 +204,7 @@
         	  				<p class="title18 mTitle26">免费保留原号码</p>
         	  				<p class="title18 mTitle26">赠送手机App</p>
         	  				<p class="title18 mTitle26">赠送 6 个月中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
+        	  				<p class="title18 mTitle26" style="background: none;">&nbsp;</p>
         	  			</div>
         	  			</div>   	  			
         	  	   </div>
@@ -199,7 +215,7 @@
         	  			 <p class="title36 mTitle44">全球包月计划</p>
         	  		  </div>
         	  		  <div class="planText">
-        	  			<p class="title28 mTitle36">直播全球，接听免费</p>
+        	  			<p class="title28 mTitle36">无限拨打全球</p>
         	  			<div class="priceBox priceBox2 avenir clearfix">
         	  			   <p class="dollar title60 mTitle68">$</p>
         	  			   <p class="priceBig title140 mTitle162">24</p>
@@ -227,6 +243,45 @@
         	  				<p class="title18 mTitle26">免费保留原号码</p>
         	  				<p class="title18 mTitle26">赠送手机App</p>
         	  				<p class="title18 mTitle26">赠送 1 年中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
+        	  				<p class="title18 mTitle26" style="background: none;">&nbsp;</p>
+        	  			</div>
+						</div>
+        	  	   </div>
+        	  	</div>
+        	  	<div class="planCon plan3 mSwiper-slide">
+                   <div class="planUpper">
+        	  		  <div class="titleBox titleBox2 clearfix">
+        	  			 <p class="title36 mTitle44">全球包年计划</p>
+        	  		  </div>
+        	  		  <div class="planText">
+        	  			<p class="title28 mTitle36">无限拨打及接听</p>
+        	  			<div class="priceBox priceBox3 avenir clearfix">
+        	  			   <p class="dollar title60 mTitle68">$</p>
+        	  			   <p class="priceBig title140 mTitle162">299</p>
+        	  			   <p class="priceSmall title70 mTitle78">
+        	  			     <span class="smallNom">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        	  			     <span class="smallSub title36 mTitle44 pin">/年</span>
+        	  			   </p>       	  			 	
+        	  			</div>
+        	  			<div class="textBox">
+       	  			       <p class="textSpecial title18 mTitle26">
+        	  			    <span class="textHot">美国 / 加拿大 / 中国等<br>全球29个国家地区无合约限制</span>
+        	  			   </p>
+        	  			</div>
+        	  		  </div>
+                   </div>
+        	  	   <div class="planList planList3">
+        	  		    <div class="planBtn">
+						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
+       	  			    </div>
+       	  			    <div class="clear clearfix"></div>
+       	  			    <div class="list2">
+        	  			<div class="listCon">
+        	  				<p class="title18 mTitle26">每月赠送500分钟蜻蜓手机国际通话</p>
+        	  				<p class="title18 mTitle26">赠送来电显示，来电等待，来电转移，三方通话，语音信箱等多种功能</p>
+        	  				<p class="title18 mTitle26">赠送1年中国号码950，国内亲友直拨美国无需再付国际长途费</p>
+        	  				<p class="title18 mTitle26">无合约，取消时返还剩余月份月费</p>
+        	  				<p class="title18 mTitle26">免费保留原有号码</p>
         	  			</div>
 						</div>
         	  	   </div>
@@ -257,23 +312,13 @@
 		                  </div>		   
 		               </div>
 		            </div>
-        	        <p class="title36 mTitle44">30天试用承诺，无理由全额退款！ 如何申请退款？</p>
+        	        <p class="title36 mTitle44">30天试用承诺，无理由全额退款！ <a href="" class="textLink">如何申请退款？</a></p>
         	        <div class="hideM">
         	           <div class="btnTxt24 title18 mTitle26" onclick="show('fold01','img01')">不想要合约？iTalkBB还有无合约计划<img id="img01" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
-                       <div id="fold01" class="foldBox" style="display: none;">
-                          <div class="bubbleAngle"></div>
-                          <div class="foldText text18 mText26">
-	   	                     <p class="clearfix">
-		   		             <span class="textCon">此内容仅为效果展示</span>
-		   	                 </p>
-		   	                 <p class="clearfix">
-		   		             <span class="textCon">此内容仅为效果展示</span>
-		   	                 </p>
-		                  </div>		   
-		               </div>
+                       
 		            </div>
 			     </div>
-       	         <div class="planYear hideM">
+       	         <div id="fold01" class="planYear hideM">
        	       	    <div class="planYearUp clearfix">
        	       	    	<div class="yearText">
        	       	    		<p class="title28">无限拨打及接听</p>
@@ -283,7 +328,7 @@
         	  			       <p class="dollar title60">$</p>
         	  			       <p class="priceBig title140">299</p>
         	  			       <p class="priceSmall title70">
-        	  			         <span class="smallNom">&nbsp;&nbsp;&nbsp;</span>
+        	  			         <span class="smallNom">&nbsp;&nbsp;&nbsp;&nbsp;</span>
         	  			         <span class="smallSub title36 pin">/年</span>
         	  			       </p>       	  			 	
         	  			    </div>
@@ -292,12 +337,11 @@
        	       	    		<p class="title18">美国 / 加拿大 / 中国等全球29个国家地区无合约限制</p>
        	       	    	</div>
        	       	    </div>
-       	       	    <div class="planYearDown planList" style="background: #f2f2f2;">
+       	       	    <div class="planYearDown planList">
         	  		    <div class="planBtn">
 						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
-       	  			    <div class="list3">
         	  			<div class="listCon clearfix">
         	  				<p class="title18 mTitle26">每月赠送500分钟iTalkBB蜻蜓手机国际通话</p>
         	  				<p class="title18 mTitle26 conRight">赠送来电显示，来电等待，来电转移，三方通话，语音信箱等多种功能</p>
@@ -305,7 +349,6 @@
         	  				<p class="title18 mTitle26 conRight">无合约，取消时返还剩余月份月费</p>
         	  				<p class="title18 mTitle26">免费保留原有号码</p>
         	  			</div>
-						</div>
         	  	   </div>
        	         </div>       	         
        	      </div>
@@ -405,29 +448,32 @@
        </section>
         
        <section class="bbFunction">
-      	  <div class="bbPlanLimited clearfix">
-      	     <div class="function function1 left">
+      	  <div class="bbPlanLimited">
+     	     <div class="clearfix">
+      	        <div class="function function1 left">
       	     	<p class="bbTitMgnBtm title36 mTitle44">中美双号，中国亲友只收当地市话费</p>
       	     	<p class="text18 mText26">iTalkBB蜻蜓电话用户除了获有一个常规的美国号码之外，可以再获得一个以950开头的"模拟的中国本地号码"。美国的亲友联系您，拨打您的美国号码。而您所有的中国亲友联系您，只要直拨这个950开头的11位号码，就能打通您在美国的电话，完全无需支付任何国际长途费用，就像在拨打一个普通市话一样。</p>
-      	     </div>
-      	     <div class="function function2 right">
+      	        </div>
+      	        <div class="function function2 right">
       	     	<p class="bbTitMgnBtm title36 mTitle44">台湾本地通用号码，台湾亲友只收当地市话费</p>
       	     	<p class="text18 mText26">iTalkBB蜻蜓电话用户也可免费后的一个台湾本地通用号码。您在台湾的亲友可以用座机或手机通过拨打这个通用号码，随时与您取得联系。亲友拨打此号码仅需支付台湾当地市话费，不必支付任何国内或国际长途费用。</p>
+      	        </div>	
       	     </div>
-		  </div>
-         <div class="bbPlanLimited clearfix">      	    
-      	     <div class="function function3 left">
+      	     <div class="clearfix">
+      	        <div class="function function3 left">
       	     	<p class="bbTitMgnBtm title36 mTitle44">E911, 家庭安防系统必备</p>
       	     	<p class="text18 mText26">对 iTalkBB蜻蜓电话来说非常重要。iTalkBB蜻蜓电话用 VOIP 网络为您提供紧急呼叫服务。在遇到突发状况，当您使用电话寻求救援时，救援机构能立刻看到您在 iTalkBB注册的地址。然后由于我们的紧急呼叫通过VOIP 网络实现，与传统的911服务相比，恐怕会受到网络条件和某些因素的限制。请阅读服务条款了解详情。</p>
-      	     </div>
-      	     <div class="function function4 right">
+      	        </div>
+      	        <div class="function function4 right">
       	     	<p class="bbTitMgnBtm title36 mTitle44">网内免费通话</p>
       	     	<p class="text18 mText26">如果您有亲朋好友也是iTalkBB蜻蜓电话的用户，那么您只要直拨他们的899号码， 就能和他们免费通话。 </p>
+      	        </div>	
       	     </div>
 		  </div>
-          <div class="bbPlanLimited mOther">
+          
+          <div class="bbPlanLimited otherFunction">
              <p class="bbTitMgnBtm title36 mTitle44">其他功能</p>	
-             <div class="otherFunction clearfix">
+             <div class="otherFuncBox clearfix">
              	<div class="Func Func1">
              		<p class="bbTitMgnBtm text18 mText26">来电显示</p>
              		<p class="text18 mText26 hideM">显示屏上会显示对方号码。</p>
@@ -443,7 +489,7 @@
              	<div class="Func Func1">
              		<p class="bbTitMgnBtm text18 mText26">三方通话</p>
              		<p class="text18 mText26 hideM">让分处三地的亲友同时通话。</p>
-             		<p class="text18 mText26 hideM"><a class="textLink">使用方法</a></p>
+             		<p class="text18 mText26 hideM"><a class="textLink" href="">使用方法</a></p>
              	</div>
              	<div class="Func Func1">
              		<p class="bbTitMgnBtm text18 mText26">语音信箱</p>
