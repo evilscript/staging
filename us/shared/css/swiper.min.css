@@ -1,0 +1,57 @@
+/**
+ */
+.mSwiperBox{margin:0 auto;position:relative;overflow:hidden;z-index:1}
+.mSwiper-wrapper{
+    position:relative;
+	width:100%;
+	height:100%;
+	z-index:1;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-transition-property:-webkit-transform;
+	-moz-transition-property:-moz-transform;
+	-o-transition-property:-o-transform;
+	-ms-transition-property:-ms-transform;
+	transition-property:transform;
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box
+	}
+.mSwiper-slide{
+    -webkit-flex-shrink:0;
+	-ms-flex:0 0 auto;
+	flex-shrink:0;
+	width:100%;
+	height:100%;
+	position:relative
+	}
+.mSwiper-button-next,.mSwiper-button-prev{
+    position:absolute;
+	top:21.5%;
+	width:6%;
+	height:10%;
+	z-index:10;
+	cursor:pointer;
+	-moz-background-size:6% 10%;
+	-webkit-background-size:6% 10%;
+	background-size:6% 10%;
+	background-position:center;
+	background-repeat:no-repeat
+	}
+.mSwiper-button-next.mSwiper-button-disabled,.mSwiper-button-prev.mSwiper-button-disabled{
+     opacity:.35;
+	 cursor:auto;
+	 pointer-events:none
+	 }
+.mSwiper-button-prev,.mSwiperBox-rtl .mSwiper-button-next{
+     background: url(../images/bb/mSwiperPrev.png) no-repeat; background-size: 100%; background-position-x: 0%;background-position-y: 50%;
+	 left:2%;
+	 right:auto}
+.mSwiper-button-next,.mSwiperBox-rtl .mSwiper-button-prev{
+	 background: url(../images/bb/mSwiperNext.png) no-repeat; background-size: 100%; background-position-x: 0%;background-position-y: 50%;
+	 right:1.5%;
+	 left:auto
+	 }
