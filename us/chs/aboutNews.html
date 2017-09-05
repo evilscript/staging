@@ -59,49 +59,38 @@
                         <div class="clear clearfix"></div>
                     </div>
                     <div class="otherYear" style="display:none;">
-                        <div class="otherYearAll" ng-click="yearAll()">
+                        <div class="otherYearAll" ng-click="year='全部新闻';newsAll=true">
                             <p class="otherYearText sans title28">全部新闻</p>
                         </div>
-                        <div class="otherYear2017" ng-click="year2017()">
+                        <div class="otherYear2017" ng-click="year='2017';news2017=true">
                             <p class="otherYearText sans title28">2017</p>
                         </div>
-                        <div class="otherYear2016" ng-click="year2016()">
+                        <div class="otherYear2016" ng-click="year='2016';news2016=true">
                             <p class="otherYearText sans title28">2016</p>
                         </div>
-                        <div class="otherYear2015" ng-click="year2015()">
+                        <div class="otherYear2015" ng-click="year='2015';news2015=true">
                             <p class="otherYearText sans title28">2015</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="newsAll news2017 yo" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170102.html'"></div>
-                <div class="newsAll news2017 yo" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170304.html'"></div>
-                <div class="newsAll news2017 yo" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170506.html'"></div>
-                <div class="newsAll news2017 none" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170708.html'"></div>
-                <div class="newsAll news2016 none" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161030.html'"></div>
-                <div class="newsAll news2016 none" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161016.html'"></div>
-                <div class="newsAll news2016 none" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161006.html'"></div>
-                <div class="newsAll news2016 none" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161006.html'"></div>
-                <div class="newsAll news2016 none" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161006.html'"></div>
-                <div class="newsAll news2015 none" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150102.html'"></div>
-                <div class="newsAll news2015 none" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150304.html'"></div>
-                <div class="newsAll news2015 none" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150506.html'"></div>
-                <div class="newsAll news2015 none" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150708.html'"></div>
-                <div class="newsAll news2015 none" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150910.html'"></div>
-                <div class="newsAll news2015 none" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20151011.html'"></div>
-                <div class="newsAll news2015 none" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20151112.html'"></div>
-                <div class="devider">
-                    <p class="deviderText">
-                        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
-                        阅读更多...
-                    </p>
-                </div>
-                <div class="soap none">
-                    <p class="deviderText">
-                        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
-                        收起所有...
-                    </p>
-                </div>
+                <div class="newsAll news2017" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170102.html'"></div>
+                <div class="newsAll news2017" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170304.html'"></div>
+                <div class="newsAll news2017" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170506.html'"></div>
+                <div class="newsAll news2017" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170708.html'"></div>
+                <div class="newsAll news2016" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161030.html'"></div>
+                <div class="newsAll news2016" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161016.html'"></div>
+                <div class="newsAll news2016" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161006.html'"></div>
+                <div class="newsAll news2016" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161006.html'"></div>
+                <div class="newsAll news2016" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161006.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150102.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150304.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150506.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150708.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150910.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20151011.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20151112.html'"></div>
+
             </div>
         </div>
     </div>
@@ -114,186 +103,12 @@
         var app = angular.module('aboutNewsApp', []);
         app.controller('aboutNewsController', function($scope) {
             $scope.year='全部新闻';
-            $scope.newsAll = true;
-            $scope.news2017= false;
-            $scope.news2016= false;
-            $scope.news2015= false;
-            resetAllParameters();
-            checkYear();
-
-            $scope.yearAll = function(){
-                resetAllParameters();
-                $scope.year='全部新闻';
-                $scope.newsAll = true;
-                $scope.news2017= false;
-                $scope.news2016= false;
-                $scope.news2015= false;
-                checkYear();
-            };
-            $scope.year2017 = function(){
-                resetAllParameters();
-                $(".news2017:first").addClass('yo').removeClass('none')
-                    .next('.news2017').addClass('yo').removeClass('none')
-                    .next('.news2017').addClass('yo').removeClass('none');
-                $scope.year='2017';
-                $scope.newsAll = false;
-                $scope.news2017= true;
-                $scope.news2016= false;
-                $scope.news2015= false;
-                checkYear();
-            };
-            $scope.year2016 = function(){
-                resetAllParameters();
-                $(".news2016:first").addClass('yo').removeClass('none')
-                    .next('.news2016').addClass('yo').removeClass('none')
-                    .next('.news2016').addClass('yo').removeClass('none');
-                $scope.year='2016';
-                $scope.newsAll = false;
-                $scope.news2017= false;
-                $scope.news2016= true;
-                $scope.news2015= false;
-                checkYear();
-            };
-            $scope.year2015 = function(){
-                resetAllParameters();
-                $(".news2015:first").addClass('yo').removeClass('none')
-                    .next('.news2015').addClass('yo').removeClass('none')
-                    .next('.news2015').addClass('yo').removeClass('none');
-                $scope.year='2015';
-                $scope.newsAll = false;
-                $scope.news2017= false;
-                $scope.news2016= false;
-                $scope.news2015= true;
-                checkYear();
-            };
-
-            function resetAllParameters(){
-                $scope.year='全部新闻';
-                $scope.newsAll = true;
-                $scope.news2017= false;
-                $scope.news2016= false;
-                $scope.news2015= false;
-                $('.newsAll').removeClass('yo').addClass('none');
-                $('.newsAll:first').removeClass('none').addClass('yo')
-                    .next('.newsAll').removeClass('none').addClass('yo')
-                    .next('.newsAll').removeClass('none').addClass('yo');
-                $('.devider').removeClass('none');
-                $('.soap').addClass('none');
-            }
-
-            function checkYear(){
-                if( $scope.year == '全部新闻' ) {
-                    $(".newsAll:first").addClass('yo')
-                        .next('.newsAll').addClass('yo')
-                        .next('.newsAll').addClass('yo');
-                    $('.devider').click(function(){
-                        if( $scope.year == '全部新闻' ) {
-                            $('.yo:last').next('.newsAll').removeClass('none').addClass('yo')
-                                .next('.newsAll').removeClass('none').addClass('yo')
-                                .next('.newsAll').removeClass('none').addClass('yo');
-                            if ($('.devider').prev(".newsAll").hasClass('yo')) {
-                                $(this).addClass('none');
-                                $('.soap').removeClass('none');
-                            }
-                        }
-                    });
-                    $('.soap').click(function(){
-                        $('.newsAll').addClass('none');
-                        $('.newsAll:first').removeClass('none')
-                            .next('.newsAll').removeClass('none')
-                            .next('.newsAll').removeClass('none');
-                        $('.newsAll').removeClass('yo');
-                        $(this).addClass('none');
-                        $('.devider').removeClass('none');
-                        $(".newsAll:first").addClass('yo')
-                            .next('.newsAll').addClass('yo')
-                            .next('.newsAll').addClass('yo');
-                        yearAll();
-                    })
-                }
-
-                else if ( $scope.year == '2017' ) {
-                    $('.devider').click(function(){
-                        if( $('.yo:last').nextAll().hasClass('news2017') ){
-                            $('.yo:last').next('.news2017').removeClass('none').addClass('yo')
-                                .next('.news2017').removeClass('none').addClass('yo')
-                                .next('.news2017').removeClass('none').addClass('yo');
-                        }
-                        if( ! $('.yo:last').nextAll().hasClass('news2017') ){
-                            $('.devider').addClass('none');
-                            $('.soap').removeClass('none');
-                        }
-                    });
-                    $('.soap').click(function(){
-                        $('.news2017').addClass('none');
-                        $('.news2017:first').removeClass('none')
-                            .next('.news2017').removeClass('none')
-                            .next('.news2017').removeClass('none');
-                        $('.news2017').removeClass('yo');
-                        $(this).addClass('none');
-                        $('.devider').removeClass('none');
-                        $(".news2017:first").addClass('yo')
-                            .next('.news2017').addClass('yo')
-                            .next('.news2017').addClass('yo');
-                        year2017();
-                    })
-                }
-
-                else if ( $scope.year == '2016' ) {
-                    $('.devider').click(function(){
-                        if( $('.yo:last').nextAll().hasClass('news2016') ){
-                            $('.yo:last').next('.news2016').removeClass('none').addClass('yo')
-                                .next('.news2016').removeClass('none').addClass('yo')
-                                .next('.news2016').removeClass('none').addClass('yo');
-                        }
-                        if( ! $('.yo:last').nextAll().hasClass('news2016') ){
-                            $('.devider').addClass('none');
-                            $('.soap').removeClass('none');
-                        }
-                    });
-                    $('.soap').click(function(){
-                        $('.news2016').addClass('none');
-                        $('.news2016:first').removeClass('none')
-                            .next('.news2016').removeClass('none')
-                            .next('.news2016').removeClass('none');
-                        $('.news2016').removeClass('yo');
-                        $(this).addClass('none');
-                        $('.devider').removeClass('none');
-                        $(".news2016:first").addClass('yo')
-                            .next('.news2016').addClass('yo')
-                            .next('.news2016').addClass('yo');
-                        year2016();
-                    })
-                }
-
-                else if ( $scope.year == '2015' ) {
-                    $('.devider').click(function(){
-                        if( $('.yo:last').nextAll().hasClass('news2015') ){
-                            $('.yo:last').next('.news2015').removeClass('none').addClass('yo')
-                                .next('.news2015').removeClass('none').addClass('yo')
-                                .next('.news2015').removeClass('none').addClass('yo');
-                        }
-                        if( ! $('.yo:last').nextAll().hasClass('news2015') ){
-                            $('.devider').addClass('none');
-                            $('.soap').removeClass('none');
-                        }
-                    });
-                    $('.soap').click(function(){
-                        $('.news2015').addClass('none');
-                        $('.news2015:first').removeClass('none')
-                            .next('.news2015').removeClass('none')
-                            .next('.news2015').removeClass('none');
-                        $('.news2015').removeClass('yo');
-                        $(this).addClass('none');
-                        $('.devider').removeClass('none');
-                        $(".news2015:first").addClass('yo')
-                            .next('.news2015').addClass('yo')
-                            .next('.news2015').addClass('yo');
-                        year2015();
-                    })
-                }
-            }
+            $scope.newsAll=true;
+            $scope.news2017=false;
+            $scope.news2016=false;
+            $scope.news2015=false;
         });
     </script>
+
 </body>
 </html>
