@@ -62,11 +62,11 @@
       	  <div class="planLimitedBig"> 
       	    <!-- 产品计划PC端 begin-->       	         	      	        	 
         	<div class="bbPlan hideM">
-       	      <p class="planTitleBig title42">蜻蜓电话产品计划</p>
+       	      <p class="planTitleBig title42" id="tit">蜻蜓电话产品计划</p>
        	      
         	  <div class="planBox clearfix">
         	  	<div class="planCon">
-                   <div class="planUpper">
+                   <div class="planUpper" id="up1">
         	  		  <div class="titleBox clearfix">
         	  		     <p class="title36">家庭经济计划</p>
         	  		  </div>
@@ -88,7 +88,7 @@
         	  			</div>
         	  		  </div>
                    </div>
-        	  	   <div class="planList">
+        	  	   <div class="planList" id="down1">
         	  		    <div class="planBtn">
 						   <a href=""><p class="button title30">立即订购</p></a>
        	  			    </div>
@@ -123,7 +123,7 @@
                    </div>
        	  	    </div>
         	  	<div class="planCon plan2">
-                   <div class="planUpper">
+                   <div class="planUpper" id="up2">
 					  <div class="titleBox titleBox2 clearfix">
         	  			<p class="title36">全球包月计划</p>
         	  		  </div>
@@ -145,7 +145,7 @@
         	  			 </div>
         	  		  </div>
                    </div>
-        	  	   <div class="planList planList2">
+        	  	   <div class="planList planList2" id="down2">
         	  		    <div class="planBtn">
 						   <a href=""><p class="button title30">立即订购</p></a>
        	  			    </div>
@@ -531,14 +531,14 @@
 <script> 
 $(window).resize(function(){
 var screenWidth = $(window).width();
-     if(screenWidth<767){
-          
-        }
-        if(screenWidth>=767){
+    if(screenWidth<767){
+              
 
-        var a = $(".planUpper").height();                     
-                  var c = $(".planTitleBig").width();
-                  var d = $(".planTitleBig").height();
+        }
+    if(screenWidth>=767){
+          var a = $("#up1").height();
+                  var c = $("#tit").width();
+                  var d = $("#tit").height();
 
                   var b = c*0.035;
                   var e = c*0.025;
@@ -546,36 +546,48 @@ var screenWidth = $(window).width();
                   var p = d+b+e;
                   var k = p+a;
 
-            $(".bbPlan").css({"background-size":"100%" + k+'px'});			
-			$(".planSpace").css({"height":a});
-		
-		var i = $(".list1").height();
-		$(".list2").css({"height":i});		
-		
+
+
+            $(".bbPlan").css({"background-size":"100% "+k+'px'});
+
+      $(".planSpace").css({"height":k});
+      
+    var i = $("#up1").height();
+    $("#up2").css({"height":i});
+    var o = $("#down1").height();
+    $("#down2").css({"height":o});    
+    
         }
 });
 
-$(function(){
+$(window).load(function(){
 var screenWidth = $(window).width();
     if(screenWidth<767){
               
 
         }
     if(screenWidth>=767){
-          var a = $(".planUpper").height();
-                  var c = $(".planTitleBig").width();
-                  var d = $(".planTitleBig").height();
+          var a = $("#up1").height();
+                  var c = $("#tit").width();
+                  var d = $("#tit").height();
 
                   var b = c*0.035;
                   var e = c*0.025;
 
                   var p = d+b+e;
                   var k = p+a;
-            $(".bbPlan").css({"background-size":"100%" + k+'px'});
-			$(".planSpace").css({"height":a});
+
+
+
+            $(".bbPlan").css({"background-size":"100% "+k+'px'});
+
+
+			$(".planSpace").css({"height":k});
 			
-		var i = $(".list1").height();
-		$(".list2").css({"height":i});	
+		var i = $("#up1").height();
+		$("#up2").css({"height":i});
+    var o = $("#down1").height();
+    $("#down2").css({"height":o});  	
 		
         }
 });
