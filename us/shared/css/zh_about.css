@@ -185,7 +185,7 @@
     border: 1px solid #808080;
     border-radius: 10px;
     padding: 1%;
-    margin-top: 5%;
+    margin-top: 15%;
     cursor:pointer;
 }
 .yearSelectLeft{
@@ -219,6 +219,7 @@
     position: absolute;
     width: 100%;
     display: block;
+    z-index:1000;
 }
 .year2017, .year2016, .year2015{
     transition: all, 0.5s;
@@ -242,9 +243,12 @@
     margin-bottom:0;
 }
 .newsBlock{
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-bottom: 0;
     cursor: pointer;
+    padding-bottom: 3%;
+    border: 1px solid #ececec;
+    border-top: none;
 }
 .fontAdjust{
     font-size: 32px;
@@ -352,6 +356,12 @@
     width: 100%;
     height: 100%;
 }
+.newsContentBlock{
+    background: url(../images/about/newsBlockBg.jpg) no-repeat right bottom;
+    background-size: auto;
+    padding-bottom: 5%;
+}
+
 
 @media (max-width:1600px) {
     .container1520 {
