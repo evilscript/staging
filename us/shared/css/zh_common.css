@@ -4,9 +4,15 @@
 html{overflow-y:scroll;/*提供滚动机制*/-webkit-text-size-adjust: none;/*取消浏览器最小字体限制*/}
 body {font-family: 'pingfang', 微软雅黑, sans-serif;background: #f6f6f6;color: #222;height:100%;transition: margin-left .5s, margin-right .5s;}
 ul,ol,li{list-style-type:none;}
-.clearfix:after {visibility: hidden;display: block;font-size: 0; content: " "; clear: both; height: 0;}
+/* Clear Fix */  
+.clearfix::before,.clearfix::after { display: table;line-height: 0; content:"";}
+.clearfix::after{clear:both;}
+.clearfix{zoom:1;}
+/* end of clearfix */ 
+
+/*.clearfix:after {visibility: hidden;display: block;font-size: 0; content: " "; clear: both; height: 0;}
 * html .clearfix { height: 1%;}
-.clearfix {display: block;}
+.clearfix {display: block;}*/
 a, a:hover, a:focus{ text-decoration:none;}
 a.textLink, a.textLink:hover, a.textLink:focus{color: #ff7f00;}
 a.textLink:hover, a.textLink:focus{text-decoration: underline;}
