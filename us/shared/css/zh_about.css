@@ -239,7 +239,8 @@
 }
 .newsBlockLeftDate{
     color:#333333;
-    font-size:90px;
+    font-size:75px;
+    padding-top: 5%;
     margin-bottom:0;
 }
 .newsBlock{
@@ -251,19 +252,16 @@
     border-top: none;
 }
 .fontAdjust{
-    font-size: 32px;
-    top: -30px;
+    top: -23px;
     vertical-align: middle;
 }
 .newsBlockRightText{
     margin-bottom: 0;
-    font-size: 21.6px;
     padding-top: 1%;
     line-height: 1.5;
 }
 .newsBlockRightTitle{
     margin-bottom:0;
-    font-size:33px;
 }
 .wtf{
     display: inline-block;
@@ -358,10 +356,57 @@
 }
 .newsContentBlock{
     background: url(../images/about/newsBlockBg.jpg) no-repeat right bottom;
-    background-size: auto;
+    background-size: 100%;
     padding-bottom: 5%;
 }
-
+.templateTitle{
+    padding-top: 5%;
+    margin-bottom: 0;
+    text-align:center;
+}
+.templateText{
+    padding-top:2%;
+    margin-bottom:0;
+    line-height:1.8;
+}
+.templateSubTitle{
+    padding-top:2%;
+    margin-bottom:0;
+    line-height:1.8;
+}
+.templateImg{
+    width:80%;
+    margin-left:10%;
+    display:block;
+    padding-top:2%;
+}
+.template{
+    padding-bottom:5%;
+}
+.templateJump{
+    width:40%;
+    margin-left:30%;
+    text-align:center;
+    float:left;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.templateBack{
+    width:30%;
+    float:left;
+    text-align:right;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+a{
+    color:#222222;
+}
+a:hover{
+    color:#222222;
+}
+.social-share .icon-facebook:before {
+    content: "\f03a";
+}
 
 @media (max-width:1600px) {
     .container1520 {
@@ -370,6 +415,9 @@
     }
     .lastBg {
         background-size: 80%;
+    }
+    .newsBlockLeftDate{
+        font-size:66px;
     }
 }
 
@@ -386,6 +434,12 @@
     }
     .aboutSubtitle{
         padding-bottom:16%;
+    }
+    .newsBlockLeftDate {
+        font-size: 4vw;
+    }
+    .fontAdjust {
+        top: -1.2vw;
     }
 }
 
@@ -412,6 +466,12 @@
         width: 90%;
         margin-left: 5%;
         margin-top: 20%;
+    }
+    .newsBlockLeftDate {
+        font-size: 5.5vw;
+    }
+    .fontAdjust {
+        top: -1.6vw;
     }
 }
 
@@ -465,6 +525,33 @@
         width:100%;
         margin-left:0;
         padding-bottom: 56.25%; /* 16:9 */
+    }
+    .yearContainer {
+        width: 50%;
+        position: relative;
+    }
+    .yearText{
+        text-align:center;
+    }
+    .newsBlockLeft {
+        padding-left: 2%;
+        width: 25%;
+    }
+    .newsBlockRight {
+        float: left;
+        width: 75%;
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+    .newsBlockLeftDate {
+        font-size: 7vw;
+    }
+    .newsBlockRightTitle {
+        margin-bottom: 0;
+        font-size: 4.4vw;
+    }
+    .newsBlockRightText {
+        font-size: 3.5vw;
     }
 }
 

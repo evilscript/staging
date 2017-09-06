@@ -150,6 +150,11 @@ input:focus{ outline:none;}
     width:100%;
     margin:0 auto;
 }
+.container1280{
+    max-width:1280px;
+    width:100%;
+    margin:0 auto;
+}
 .header2 {
     background: white;
     border-bottom: 1px solid #aaaaaa;
