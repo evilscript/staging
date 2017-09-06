@@ -407,6 +407,10 @@ a:hover{
 .social-share .icon-facebook:before {
     content: "\f03a";
 }
+.otherYear div{
+    float:left;
+    width:50%;
+}
 
 @media (max-width:1600px) {
     .container1520 {
