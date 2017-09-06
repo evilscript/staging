@@ -1,6 +1,22 @@
+.right2{
+    padding-top:3%;
+}
+.right3{
+    padding-top:2%;
+}
+
+
+
+
+
+
+
+
 
 @media (max-width:1600px) {
-
+    .right3{
+        padding-top:3%;
+    }
 }
 
 @media (max-width:1500px) {
