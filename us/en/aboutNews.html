@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>iTalkBB蜻蜓公司简介</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="apple-itunes-app" content="app-id=514896649">
+
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../shared/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_about.css">
+    <!--这里继续添加子页面的Css引用文件-->
+
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+    <script src="../shared/js/aboutNews.js"></script>
+    <!--这里继续添加子页面的Js引用文件-->
+</head>
+
+
+<body ng-app="aboutNewsApp" ng-controller="aboutNewsController" style="background:white;">
+    <!--Carson制作-->
+
+    <div ng-include="'header.html'"></div>
+
+    <div class="container1920">
+        <div class="mainLayout">
+            <div ng-include="'aboutNewsBanner.html'"></div>
+
+            <!--关于我们系列页面 tab 公共部分，每页的active不同-->
+            <div ng-include="'aboutTab.html'"></div>
+            <!--结束-->
+
+            <div class="container1520">
+                <div class="yearContainer">
+                    <div class="yearSelect">
+                        <div class="yearSelectLeft">
+                            <p class="yearText sans title30">{{year}}</p>
+                        </div>
+                        <div class="yearSelectRight">
+                            <p class="org title30 sans yearRightArrow">
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                        <div class="clear clearfix"></div>
+                    </div>
+                    <div class="otherYear" style="display:none;">
+                        <div class="otherYearAll" ng-click="year='全部新闻';newsAll=true">
+                            <p class="otherYearText sans title28">全部新闻</p>
+                        </div>
+                        <div class="otherYear2017" ng-click="year='2017';news2017=true">
+                            <p class="otherYearText sans title28">2017</p>
+                        </div>
+                        <div class="otherYear2016" ng-click="year='2016';news2016=true">
+                            <p class="otherYearText sans title28">2016</p>
+                        </div>
+                        <div class="otherYear2015" ng-click="year='2015';news2015=true">
+                            <p class="otherYearText sans title28">2015</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="newsAll news2017" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170102.html'"></div>
+                <div class="newsAll news2017" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170304.html'"></div>
+                <div class="newsAll news2017" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170506.html'"></div>
+                <div class="newsAll news2017" ng-show="newsAll||news2017" ng-include="'aboutNewsBlock/20170708.html'"></div>
+                <div class="newsAll news2016" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161030.html'"></div>
+                <div class="newsAll news2016" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161016.html'"></div>
+                <div class="newsAll news2016" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161006.html'"></div>
+                <div class="newsAll news2016" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161006.html'"></div>
+                <div class="newsAll news2016" ng-show="newsAll||news2016" ng-include="'aboutNewsBlock/20161006.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150102.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150304.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150506.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150708.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20150910.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20151011.html'"></div>
+                <div class="newsAll news2015" ng-show="newsAll||news2015" ng-include="'aboutNewsBlock/20151112.html'"></div>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="lineBlue"></div>
+    
+    <div ng-include="'footer.html'"></div>
+
+    <script>
+        var app = angular.module('aboutNewsApp', []);
+        app.controller('aboutNewsController', function($scope) {
+            $scope.year='全部新闻';
+            $scope.newsAll=true;
+            $scope.news2017=false;
+            $scope.news2016=false;
+            $scope.news2015=false;
+        });
+    </script>
+
+</body>
+</html>
