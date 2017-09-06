@@ -302,7 +302,7 @@
     margin-top: 10%;
     cursor:pointer;
 }
-.maskVideo0, .maskVideo1,.maskVideo2,.maskVideo3,.maskVideo4,.maskVideo5,.maskVideo6,.maskVideo7,.maskVideo8,.maskVideo9,.maskVideo10{
+.maskVideo{
     opacity: 0.8;
     background-color: black;
     z-index: 2000;
