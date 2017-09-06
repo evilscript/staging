@@ -16,15 +16,16 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
     .titMgnTop,.imgTitle{margin-top: 3%;}
 	.titMgnBtm{margin-bottom: -7%;}
 	.imgCnt{margin: 0 auto; width: 66%;}
-	.imgCnt img{width: 100%; margin: 3% 0;}	
+	.imgCnt img{width: 100%; margin-top: 3% 0;}	
 	.imgLeft img{width: 100%; margin: 5% 0;}
-	.imgTitle{text-align: center; margin-bottom: -2%;}
+	.imgCnt .imgTitle{text-align: center;margin-bottom: 3%;}
 	
 	.btnTxt18,.btnTxt24{cursor: pointer;}
 	.btnTxt18 img,.btnTxt24 img{display: inline-block;}
 	.btnTxt18 img{margin-left: 1.5%; width: 3%; margin-bottom: 1.3%;}
 	.btnTxt24 img{margin-left: 1%; width: 1%; margin-bottom: .5%;}
 	.bgMgn{padding:3% 0;}
+	.noBgMgnbtm{padding-bottom: 0;}
 	.gradient{
     background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
     background: -webkit-gradient(linear, top, bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
@@ -77,7 +78,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
     .foldBoxSpc1 .bubbleAngle{margin-left: 36%;}
 	.foldBoxSpc2 .bubbleAngle{margin-left: 61.5%;}
 	.partMgnTop{margin-top: 0;}
-	.partAll{padding:0 5%;}
+	.partAll,.imgCnt{padding:0 5%;}
 	.Sharp{width: 2.5%;}
 	.sptMenu{width: 100%; margin-top: 2%;}
 	.textNote{padding-left: 2.5%; background-size: 1.5%;background-position-y: 2.8%;}
@@ -87,6 +88,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 	.btnTxt24 img{margin-left: 1.2%; width: 1.5%; margin-bottom: .6%;}
 	.menuBox p{margin-bottom: 0;}
 	.bgMgn{padding-top: 5%; padding-bottom: 4.5%;}
+	.noBgMgnbtm{padding-bottom: 0;}
 }
 
 @media (max-width:767px){
@@ -115,8 +117,9 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 	.imgTitle{margin-top: 3%;}	
 	.btnTxt18 img{margin-left: 2.8%; width: 5%; margin-bottom: 1.8%;}
 	.btnTxt24 img{margin-left: 1.5%; width: 2%; margin-bottom: 1%;}
-    .imgCnt{width: 100%;}
-	.imgCnt img{margin: 7.5% 0;}
+    .imgCnt{width: 100%; margin-top: 7.5%;}
+	.imgCnt .imgTitle{margin-bottom: 5%;}
+	.imgCnt img{margin-bottom: 11%;}
 	.imgLeft{width: 100%;}
 	.imgLeft img{width: 100%;}
 	
