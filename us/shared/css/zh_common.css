@@ -10,9 +10,6 @@ ul,ol,li{list-style-type:none;}
 .clearfix{zoom:1;}
 /* end of clearfix */ 
 
-/*.clearfix:after {visibility: hidden;display: block;font-size: 0; content: " "; clear: both; height: 0;}
-* html .clearfix { height: 1%;}
-.clearfix {display: block;}*/
 a, a:hover, a:focus{ text-decoration:none;}
 a.textLink, a.textLink:hover, a.textLink:focus{color: #ff7f00;}
 a.textLink:hover, a.textLink:focus{text-decoration: underline;}
@@ -37,8 +34,8 @@ input:focus{ outline:none;}
 .fontI{font-style: italic;}
 
 /*苹方字体，引用字体粗细为300，500和700*/
-.fwl{font-weight: 300;}
-.fwn{font-weight: 500;}
+/*.fwl{font-weight: 300;}
+.fwn{font-weight: 500;}*/
 .fwb{font-weight: 700;}
 
 @font-face {
