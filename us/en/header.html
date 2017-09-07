@@ -402,7 +402,8 @@
 
 <!--返回顶部-->
 <div class="headerBackToTop" style="display:none;">
-    <i class="fa fa-angle-up fa-3x" aria-hidden="true"></i>
+    <!--<i class="fa fa-angle-up fa-3x" aria-hidden="true"></i>-->
+    <img class="backToTopImgBlueAndWhite" src="../shared/images/header/backToTopWhiteArrow.png" alt="">
 </div>
 <!--结束-->
 
@@ -525,6 +526,10 @@
         $('html,body').animate({
             scrollTop: 0
         }, 500);
+    }).mouseover(function(){
+        $('.backToTopImgBlueAndWhite').attr('src','../shared/images/header/backToTopBlueArrow.png');
+    }).mouseleave(function(){
+        $('.backToTopImgBlueAndWhite').attr('src','../shared/images/header/backToTopWhiteArrow.png');
     });
     /*结束*/
 
