@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="../shared/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_about.css">
+    <style>
+        .newsAll .pin{font-family: open sans, pingfang, sans-serif;}
+    </style>
     <!--这里继续添加子页面的Css引用文件-->
 
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
@@ -50,10 +53,10 @@
                     <div class="yearContainer">
                         <div class="yearSelect">
                             <div class="yearSelectLeft">
-                                <p class="yearText sans title30 mTitle38">{{year}}</p>
+                                <p class="yearText sans title24 mTitle32 fwb">{{year}}</p>
                             </div>
                             <div class="yearSelectRight">
-                                <p class="org title30 mTitle38 sans yearRightArrow">
+                                <p class="org title30 mTitle38 sans yearRightArrow fwb">
                                     <i class="fa fa-angle-down" aria-hidden="true"></i>
                                 </p>
                             </div>
@@ -61,46 +64,46 @@
                         </div>
                         <div class="otherYear" style="display:none;">
                             <div class="otherYearAll" ng-click="yearWhole()">
-                                <p class="otherYearText pin title30 mTitle38">全部新闻</p>
+                                <p class="otherYearText pin title24 mTitle32 fwb">全部新闻</p>
                             </div>
                             <div class="otherYear2017" ng-click="year2017()">
-                                <p class="otherYearText sans title30 mTitle38">2017</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2017</p>
                             </div>
                             <div class="otherYear2016" ng-click="year2016()">
-                                <p class="otherYearText sans title30 mTitle38">2016</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2016</p>
                             </div>
                             <div class="otherYear2015" ng-click="year2015()">
-                                <p class="otherYearText sans title30 mTitle38">2015</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2015</p>
                             </div>
                             <div class="otherYear2014" ng-click="year2014()">
-                                <p class="otherYearText sans title30 mTitle38">2014</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2014</p>
                             </div>
                             <div class="otherYear2013" ng-click="year2013()">
-                                <p class="otherYearText sans title30 mTitle38">2013</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2013</p>
                             </div>
                             <div class="otherYear2012" ng-click="year2012()">
-                                <p class="otherYearText sans title30 mTitle38">2012</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2012</p>
                             </div>
                             <div class="otherYear2011" ng-click="year2011()">
-                                <p class="otherYearText sans title30 mTitle38">2011</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2011</p>
                             </div>
                             <div class="otherYear2010" ng-click="year2010()">
-                                <p class="otherYearText sans title30 mTitle38">2010</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2010</p>
                             </div>
                             <div class="otherYear2009" ng-click="year2009()">
-                                <p class="otherYearText sans title30 mTitle38">2009</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2009</p>
                             </div>
                             <div class="otherYear2008" ng-click="year2008()">
-                                <p class="otherYearText sans title30 mTitle38">2008</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2008</p>
                             </div>
                             <div class="otherYear2007" ng-click="year2007()">
-                                <p class="otherYearText sans title30 mTitle38">2007</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2007</p>
                             </div>
                             <div class="otherYear2006" ng-click="year2006()">
-                                <p class="otherYearText sans title30 mTitle38">2006</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2006</p>
                             </div>
                             <div class="otherYear2005" ng-click="year2005()">
-                                <p class="otherYearText sans title30 mTitle38">2005</p>
+                                <p class="otherYearText sans title24 mTitle32 fwb">2005</p>
                             </div>
                         </div>
                     </div>
@@ -886,8 +889,945 @@
                         </div>
                     </a>
 
-                    <span class="sans">iTalkBB</span>
-                    <span class="sans">iTalk</span>
+                    <a href="">
+                        <div class="newsAll news2010 20101205" ng-show="newsAll||news2010">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2010</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">12 / </sup>05</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        支持中文教育发展，<span class="sans">iTalkBB</span>免费赠送全美中文学校中文电视服务
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">12</span>月<span class="sans">3</span>日在全美中文学校协会举办第八届年会之时，作为首席赞助的<span class="sans">iTalkBB</span>新电信公司为了进一步促进中文教育在北美的发展，特送赠送给到会的众多中文学校一年免费的中文电视服务。 <span class="sans">iTalkBB</span>之魅力中国中文电视收录众多中文教育类节目，不仅包括成语故事、快乐汉语等指导性的中文教育节目，还包括喜羊羊与灰太狼、西游记等众多中文动画片，寓教于乐，激发北美华裔子女学习汉语的兴趣，同时也帮助他们更有效的学习汉语知识和中华文化。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2010 20101015" ng-show="newsAll||news2010">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2010</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">10 / </sup>15</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        划时代独家巨献：开启中国直拨美国的低费时代
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">您知道以前一通从中国打到美国的直拨电话多少钱吗？<span class="sans">1</span>分钟<span class="sans">8</span>块钱人民币，相当于<span class="sans">$1/min</span>。您知道现在一通电话从中国直接打到美国要多少钱吗？只要当地市话费用，差不多人民币<span class="sans">2</span>毛钱左右，不到<span class="sans">$0.03/min</span>。怎么会有这么大的差别呢？
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2010 20100524" ng-show="newsAll||news2010">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2010</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">05 / </sup>24</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        姚明 - <span class="sans">iTalkBB</span>免费青海地震热线真情传送<span class="sans">500</span>万分钟!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">2010</span>年<span class="sans">4</span>月<span class="sans">14</span>日中国青海省玉树县发生<span class="sans">7.1</span>级地震，造成<span class="sans">2000</span>多人死亡，逾万人受伤。身在海外的华人心系灾区人民，"我们在一起"的牵挂一同飞跃重洋。作为篮球巨星的姚明在其一时间携手<span class="sans">iTalkBB</span>新电信设立姚明-<span class="sans">iTalkBB</span>免费青海地震热线，让远隔重洋的海外华人可以在第一时间与家乡的亲人朋友取得联系。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2010 20100517" ng-show="newsAll||news2010">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2010</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">05 / </sup>17</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        开赛了！比一比：谁是终极投篮王？
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">开赛了！开赛了！<span class="sans">iTalkBB</span>掌上"灌篮高手"全国大赛正式开赛！<span class="sans">5</span>月<span class="sans">23</span>日纽约<span class="sans">Flushing Mall</span>正式开赛，男女老少，不分年龄性别，都可以参加新一轮的掌上"灌篮高手"全国大赛。全国<span class="sans">10</span>场比赛，分级进阶，初赛－复赛－总决赛，东西岸最终晋爵，看看谁能一较群雄，独占鳌头！
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2010 20100510" ng-show="newsAll||news2010">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2010</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">05 / </sup>10</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        摇一摇：摇出精彩，摇出＂迷你投篮王＂！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">还记得那部风靡全球的"灌篮高手"吗？想成为新一代的"投篮王"吗？其实你不用身长6尺，也不用弹跳力过人，只要你有热情，有动力，就成成为全新"掌上灌篮高手"的全国大赛总冠军！</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2010 20100501" ng-show="newsAll||news2010">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2010</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">05 / </sup>01</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        您知道吗？母亲最想要的母亲节礼物是什么？
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">曾经有一个调查，有多少人能够清楚的记得母亲的生日。能够顺利回答出来的人寥寥无几。尤其是身在海外的游子。您是否还记得儿时母亲轻哼的童谣，是否还记得出国临上飞机前母亲的目光，又是否还能体会母亲在大洋彼岸的记挂呢？</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2010 20100414" ng-show="newsAll||news2010">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2010</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">04 / </sup>14</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        姚明及其基金会携手<span class="sans">iTalkBB</span>设立青海地震热线提供免费通讯!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">美国东部时间<span class="sans">4</span>月<span class="sans">13</span>日傍晚<span class="sans">7</span>时<span class="sans">49</span>分许，青海省藏族自治州玉树县发生<span class="sans">7.1</span>级地震，震源深度<span class="sans">33</span>千米。强震之后，当地又连续发生了<span class="sans">4.8</span>级、<span class="sans">4.3</span>级、 <span class="sans">3.8</span>级、<span class="sans">6.3</span>级等多次余震。迄今<span class="sans">400</span>多人死亡，上万人受伤。身在海外的华人心系灾情，为了帮助海外华人尽快与灾区亲友取得联系，姚明及其基金会携手<span class="sans">iTalkBB</span>新电信迅速反应，设立姚明-<span class="sans">iTalkBB</span>青海地震热线，为海外华人提供免费通讯服务 直达青海灾区。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2010 20100328" ng-show="newsAll||news2010">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2010</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">03 / </sup>28</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        姚明及其基金会授予<span class="sans">iTalkBB</span>新电信＂杰出企业合作伙伴＂荣誉证书!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">星光云集、名流穿梭的姚明基金会慈善晚宴于3月28日在休斯顿艺术博物馆举行。休斯顿的社会上流、姚明的队友休斯敦火箭队的老板、著名退役中锋穆托姆博、现役中锋斯科拉等、闻名全美的中餐大厨<span class="sans">Ming Tsai</span>以及格兰美提名歌星<span class="sans">Michael Cavanaugh</span>都汇集在休斯顿艺术博物馆，为<span class="sans">iTalkBB</span>新电信与姚明基金会合作<span class="sans">2010</span>慈善晚宴增添了一道亮丽的风景线。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2010 20100115" ng-show="newsAll||news2010">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2010</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">01 / </sup>15</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        看看这个春节怎么过？海外华人的新主流
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">调查显示：<span class="sans">65%</span>的海外华人表示春节就和朋友家人一起出去吃饭，<span class="sans">78%</span>的人认为会忙着给中港台的亲戚朋友打电话拜年，<span class="sans">53%</span>的会去朋友家<span class="sans">Party</span>，<span class="sans">85%</span>的反映会和家人一起看春节联欢晚会，打电话拜年和看春晚的占绝大多数。看来，这个春节的新主流就是"越洋电话大拜年，看虎年春晚不花钱。"
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20091214" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">12 / </sup>14</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">iTalkBB</span>步入全球化新时代!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">2009</span>年大事不断，中美建交<span class="sans">30</span>年，新中国成立<span class="sans">60</span>周年，成长的一年，成就的一年。细数<span class="sans">2009</span>年，也是<span class="sans">iTalkBB</span>新家庭电话步入快速发展的一年。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20091201" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">12 / </sup>01</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        姚明有约：<span class="sans">iTalkBB</span>新电信岁末大抽奖!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">"姚明有约：<span class="sans">iTalkBB</span>岁末大抽奖"为广大<span class="sans">iTalkBB</span>用户及姚明粉丝提供独一无二的贺岁大奖：让您与篮球巨星姚明零距离面对面。抽中奖者不仅可以免费参与<span class="sans">2010</span>年<span class="sans">1</span>月<span class="sans">30</span>日在休斯敦艺术博物馆举行的<span class="sans">iTalkBB</span>冠名赞助姚明基金会慈善晚宴，还可以免费携带一名家属或朋友一同参与。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20091117" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">11 / </sup>17</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        共同成就，我们在一起 - <span class="sans">iTalkBB</span>携手姚明及其基金会共同创建美好明天!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">iTalkBB</span>新电信携手姚明及其基金会于<span class="sans">11</span>月<span class="sans">17</span>日在休斯顿艺术博物馆隆重举行记者发布会，宣布<span class="sans">iTalkBB</span>新电信正式成为姚明基金会<span class="sans">2010</span>年慈善晚宴冠名赞助。著名NBA球星姚明和<span class="sans">iTalk Global CEO</span>赵捷等出席了新闻发布会。 <span class="sans">2010</span>年姚明基金会慈善晚宴将于<span class="sans">1</span>月<span class="sans">30</span>日在休斯敦艺术博物馆举行。带伤出席新闻发布会的姚明表示，姚明基金会将进一步致力于服务休斯顿小区工作和儿童教育等，基金会最近的捐款将有一部分用于建设遭受台风袭击的得克萨斯湾区的运动球场等。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090923" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">09 / </sup>23</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        ＂您不理财，财不理您＂，算算您的电话账单
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">经济形式的下滑对在美华人来说无疑是一场严峻的考验。如何有效管理自己的账单，成为生活中很重要的一环。放弃一贯喜欢的奢侈品，节约从生活的小事做起，对于购买的每一件商品或服务，都要仔细考虑它的价值，从而让自己的消费更加合理。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090911" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">09 / </sup>11</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">iTalkBB</span> 登陆世界书局，金秋佳丽齐献礼
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">秋高气爽，云淡风高。<span class="sans">iTalkBB</span>连手世界书局，在纽约法拉盛购物中心<span class="sans">(Flushing Mall)</span>举行登陆大典并大礼物派送。此次是<span class="sans">iTalkBB</span>首次与世界书局合作，并正式授予世界书局"<span class="sans">iTalkBB</span>特约经销商"称号。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090909" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">09 / </sup>09</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                       人背井而心不离乡，<span class="sans">iTalkBB</span>平价＂保持通话＂
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">留学或移民美国是多数人的梦想。 对于离乡背井，只身来到美国的您来说，和朋友家人间的联系成为抚慰心灵的一大支柱。使用传统的家庭电话直拨越洋电话那么贵，一天到晚买电话卡又这么地费时耗力。真的没有其他的办法吗？专门为海外华人量身订做的新家庭电话iTalkBB 为您解决通讯上的所有问题。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090820" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">08 / </sup>20</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">2</span>分钱＂报平安＂，初来乍到无忧通话
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">开学在即，刚来到美国的莘莘学子，通常第一件事就是申请月费高昂的手机服务，然后另外购买电话卡打电话回家报平安。往往一个月在电话费上就要花上<span class="sans">$40</span>左右的美金，对于没有收入的学生来说，是笔很大的开销。没有其他的选择吗？有！</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090811" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">08 / </sup>11</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        《非常夏天，完美通话》章子怡、范冰冰、何润东同台轻松谈＂恋爱＂
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">由章子怡首次担任制片人，并和范冰冰与何润东等重量级明星联袂演绎的浪漫爱情喜剧《非常完美》将在<span class="sans">8</span>月<span class="sans">14</span>日上映。绯闻八卦不断的章子怡和范冰冰，戏里情敌相见分外眼红，戏外嬉笑怒骂欢喜冤家。本月初三人同台做客录制凤凰卫视的《鲁豫有约》，即将于<span class="sans">8</span>月<span class="sans">17</span>日在凤凰卫视美洲台首播。想看三大巨星如何同台大谈"恋爱"？想知道章子怡、范冰冰双姝如何争锋失和？就请锁定由<span class="sans">iTalkBB</span>独家冠名赞助的《鲁豫有约》。<span class="sans">iTalkBB</span>敬邀您 关注情感，关注沟通，在这个"非常夏天"，<span class="sans">iTalkBB</span>让你"完美通话。"</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090730" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">07 / </sup>30</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        家庭电话直拨国际费用比一比!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">经济不景气，许多电话公司陆续推出各式各样的优惠费率和计划。究竟哪一家的计划最合算呢？</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090702" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">07 / </sup>02</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        低话费通讯时代 - 电信业者推出<span class="sans">$4.99</span>新低月费!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">景气尚未复苏，消费者持续紧看荷包，华人市场上最大的家庭电话品牌<span class="sans">iTalkBB</span>推出只要<span class="sans">$4.99</span>月费，就可以享受拨打全美各地一律每分钟<span class="sans">$0.02</span>的费率。最让人意外的是，就连拨打加拿大、中国、香港，和台湾也都只要每分钟<span class="sans">$0.02</span>。一般<span class="sans">AT&T</span>或者<span class="sans">Verizon</span>等家用电话的使用者一个月月租费至少从<span class="sans">$13</span>元起跳，如需拨打中港台，还需加上每分钟至少<span class="sans">$1~$6</span>不等的费用。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090627" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">06 / </sup>27</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">iTalkBB</span>体验店再献好礼!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">iTalkBB</span>将在<span class="sans">6</span>月<span class="sans">28</span>日本周日下午<span class="sans">5:30</span>至<span class="sans">6:30</span>于其位于圣盖博全统广场的体验店进行欢乐大抽奖的抽奖仪式。奖品包括了价值<span class="sans">$250</span>的<span class="sans">NBA</span>球票礼卷、<span class="sans">Golf Guy</span>全美<span class="sans">13,000</span>个球场的通行证、大华<span class="sans">99</span>礼券、<span class="sans">AMC</span>电影礼券、<span class="sans">Target</span>礼券等，共有<span class="sans">108</span>个得奖机会！当天推荐朋友或自己加入<span class="sans">iTalkBB</span>的消费者不但可以再参加一年免费<span class="sans">iTalkBB</span>电话服务的抽奖活动，现场加入的用户还可以立即获得大华<span class="sans">99</span>超市价值<span class="sans">$20</span>的礼卷。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090625" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">06 / </sup>25</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">iTalkBB</span>成功进入美国韩侨市场 - 服务范围遍及全美!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">2008</span>年<span class="sans">5</span>月，在北美华人<span class="sans">VoIP</span>家用电话市场已位居龙头的<span class="sans">iTalkBB</span>在其总部所在地的华盛顿<span class="sans">DC</span>大都会区首次推出专为在美韩侨所量身订做的服务计划。<span class="sans">iTalkBB</span>除了提供韩文网站之外，更还提供了<span class="sans">365</span>天，且<span class="sans">24</span>小时不间断的韩语客户服务专线。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090616" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">06 / </sup>16</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        省钱大作战，从检视电话账单做起!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">当大家在盼望景气复苏的同时，不少家庭还是持续地在想办法减少更多的开支，多存一点钱。由于景气的低糜，折价卷的使用量又再创新高，消费者不管是买菜、在线购物或使用专业的服务，都尽可能地使用折价卷。自己煮菜在家吃饭也变成另一种最常见的省钱方式，另外还有像是随手关灯关电视，或是拔掉不用电器的插头等，都是可以积少成多帮你解省开支的方式。即使这些都只是小钱，久而久之，这些小举动也是可以为你省下不少钱的。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090530" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">05 / </sup>30</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">iTalkBB</span>体验店进驻最受华人欢迎的圣盖博全统广场
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">iTalkBB</span>体验店在今天正式进驻在圣盖博的全统广场。全统广场被<span class="sans">LA</span>时报喻为"<span class="sans">The Great Mall of China</span>"，超过<span class="sans">20</span>万平方呎的空间，提供从食、衣、住、行到通讯等各式各样的服务，是<span class="sans">L.A.</span>最具代表性的华人购物商场。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090415" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">04 / </sup>15</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        不要再花这么多钱在你的电话账单上
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">问：有可以为我省钱的电话公司吗？答：科技的进步为带来消费者带来了更多的选择，消费者不再被传统的电话公司绑住，目前已有数以万计的人口使用<span class="sans">VoIP</span>网络电话服务为他们节省每月的电话费。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090312" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">03 / </sup>12</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">iTalkBB</span>中国寻根之旅实录将在凤凰卫视首播
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">为了提高在北美生活的侨民子弟对华文的驾驭能力，增强中华文明的认同感，全美中文学校协会与<span class="sans">iTalkBB</span>联合举办了本次比赛。比赛的主旨是鼓励孩子们用中文描述他们眼中的精彩生活。通过作文比赛，生发出学习中文的热情，为将来参加中文<span class="sans">AP</span>写作考试做好准备。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090312" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">03 / </sup>12</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">iTalkBB</span>实习生招募中，欢迎加入！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">iTalkBB</span>实习生招募中，欢迎加入！请点击访问招聘页面查看详情。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090311" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">03 / </sup>11</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        低糜景气中的赚钱新招
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">据英国《泰晤士报》报道，因经济危机失去工作和住宅的美国公众，被迫沿着美国加州首府萨克拉曼多的美国之河旁边的荒地中重新搭起帐篷。据统计，沿着美国之河搭建帐篷为家的人有<span class="sans">300</span>多人，而且正在以每周<span class="sans">50</span>人的速度增加。加州<span class="sans">1</span>月份的失业率已经达到<span class="sans">10.4%</span>，加州正承受着美国最严重的经济衰退，甚至曾有一天之内<span class="sans">500</span>人失去住宅的情况发生。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090303" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">03 / </sup>03</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">iTalkBB</span>欢庆五周年 - 公司全面进入全球拓展计划！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">iTalkBB</span>隆重宣布公司成立五周年庆。这五年的成长经历为<span class="sans">iTalkBB</span>的进一步发展打下了深厚的基础。对于<span class="sans">iTalkBB</span>来说，这是一个重要的里程碑。<span class="sans">iTalkBB</span>在这个特别的日子里抚今追昔，展望其未来的全球拓展计划。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090110" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">01 / </sup>10</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        用最省钱的方式打国际电话回台湾拜年！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">再过几天就是除夕夜了，除了大扫除和买年货之外，可别忘了向远在海外的亲朋好友们拜年啊！寄贺卡费时又费力，打电话又怕伤荷包，虽然说<span class="sans">Skype</span>可以提供计算机免费对打的服务，但是很多家中的长辈是不会操纵计算机的，还是家里电话拿起来就能打是最方便的。然而，不管家里使用的是哪家电话服务，基本月费再加上长途或者国际电话费，每月电话费少说也要<span class="sans">$50</span>元以上，一般家庭往往都是吃不消的。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2009 20090106" ng-show="newsAll||news2009">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2009</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">01 / </sup>06</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        不能在经济危机的时候让消费者们来承担商家的风险！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">大环境的不景气造成民众对于未来的不确定感在持续地增加，商家也贴心地推出让民众可以毫无后顾之忧的新计划。举例来说，北美最大的华人家庭电话公司<span class="sans">iTalkBB</span>在<span class="sans">2009</span>新年对现有计划推出了一连串的调整：无隐藏费用，以<span class="sans">iTalkBB</span>最受市场欢迎的全球包月计划举例，每月<span class="sans">$24.99</span>的费用，不但可以让您无限拨打美国、加拿大、中国、香港、台湾，和其他<span class="sans">20</span>多个国家和地区，仅收取每月固定<span class="sans">$2.95</span>的税杂费。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20081105" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">11 / </sup>05</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">iTalkBB</span>推出为香港移民量身订做的全新计划！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">iTalkBB</span>在本月推出了针对在加拿大香港移民的全新电话方案。「通话自由」美/加/港包月计划。每月只要<span class="sans">$24.99</span>，即可无限拨打加拿大、美国，及香港，并附赠香港当地号码及中国号码。「通话自由」全球包月计划每月仅<span class="sans">$29.99</span>，即可无限拨打加拿大、香港、美国、中国、台湾等<span class="sans">29</span>个国家地区，同样也获赠香港当地号码及中国号码。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080923" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">09 / </sup>23</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">iTalkBB</span>为四川受灾亲友作桥梁，赠送了高达<span class="sans">1000000</span>分钟的免费电话专线服务
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">距离中国百年一遇的大灾害---玟川大地震<span class="sans">5.12</span>已经差不多<span class="sans">5</span>个月了。在<span class="sans">5</span>月<span class="sans">12</span>日这一天，黎级特制<span class="sans">7.9</span>的大地震轰炸着四川。这一灾难所造成的死亡、伤害人员的数字是惊人的。现在，四川省和全国各地的群众都在为四川的重建努力着，而且为四川群众能尽快回复正常的生活而奋斗着。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080908" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">09 / </sup>08</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        留美的亚洲国际学生与亲朋好友保持联络的经济省钱方式！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">美国的教育系统一直是全球公认最好与最具吸引力的教育系统之一。美国的联邦和本地政府一直以来都视学前、小学、中学、还有高中的教育作为最优先花费预算的项目。对美国公民来说，大学以前的学费都是免费的。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080902" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">09 / </sup>02</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        打电话，送月饼，真正的＂话好月圆＂！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">iTalkBB</span>继母亲节父亲节赠送蔘茶，和奥运期间赠送<span class="sans">Shell</span>加油卡，以及"得金牌送话费"活动之后，现正推出"预付话费送月饼"的活动， 在<span class="sans">9</span>月<span class="sans">1</span>日至<span class="sans">9</span>月<span class="sans">14</span>日期间，凡是一次预缴<span class="sans">12</span>个月的全球包月计划话费，不但可以省去近<span class="sans">$30</span>的开户费外和2个月免费之外，还可以获赠一盒生计的月饼。这样一来，您不但可以毫无顾忌地打国际电话与在远方的亲友团圆，又可以值此佳节期间享受<span class="sans">iTalkBB</span>赠送的月饼。因为<span class="sans">iTalkBB</span>的全球包月计划每月只要<span class="sans">$24.99</span>，就可以让您无限拨打美国、加拿大、中国、香港、台湾，和<span class="sans">20</span>多个其它国家。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080819" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">08 / </sup>19</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">45</span>面冠军金牌，<span class="sans">45</span>块现金回馈：继续为中华健儿们加油！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28"><span class="sans">2008</span>年的奥运自<span class="sans">8</span>月<span class="sans">8</span>日在北京展开后，中国代表选手已经夺下了<span class="sans">45</span>面金牌的佳绩，比起<span class="sans">2000</span>年悉尼奥运的<span class="sans">28</span>面和<span class="sans">2004</span>年雅典奥运的<span class="sans">32</span>面有了极显著的增长。超过<span class="sans">40</span>亿的观众从世界各地观看比赛，海外华人也无一不关注此届奥林匹克运动会的。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080815" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">08 / </sup>15</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        台湾号码功能已全面上线！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">非常感谢您一直以来对我们的支持，为了能让您享受更便利的通话服务，自<span class="sans">2008</span>年<span class="sans">8</span>月<span class="sans">15</span>日起，<span class="sans">iTalkBB</span>公司将在美加市场同步推出台湾本地号码这一高级功能<span class="sans">(Taiwan Local Number)</span>。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080808" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">08 / </sup>08</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        打台湾市话通美国电话！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">北美最大华人电话公司<span class="sans">iTalkBB</span>宣布将于美国时间8月15日继广受欢迎的中国通用号码和香港号码之后，推出台湾通用号码的服务，此服务将带给在台湾有亲友的美国华人无比的便利。藉由此项创新的服务，在台湾的亲友可只付当地市话费拨打用户的台湾当地号码，与远在美国的用户联络。在商业用途上也会带给有在台湾做生意的在美华人很大的便利，台湾客户可以随时拨打用户在美国的台湾电话，与远在美国的用户联系。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080730" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">07 / </sup>30</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        还记得在四川的我们吗？
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">这个故事将深入报导在<span class="sans">2008</span>奥运的雄伟梦想背后，<span class="sans">512</span>大地震对四川的蹂躏及所带来的伤害。每天，我们都可以听到北京为了筹办奥运所做所为的最新消息，同时间在向南约略<span class="sans">1200</span>英哩外，<span class="sans">7</span>个星期前刚被地震突然袭击的四川省居民还在努力将他们原有的美丽家园重新拼凑起来。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080521" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">05 / </sup>21</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">iTalkBB</span>为帮助四川大地震灾后重整期间的通讯免费提供美国、加拿大拨打中
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">全中国在<span class="sans">5</span>月<span class="sans">19</span>日下午<span class="sans">2</span>时<span class="sans">28</span>分，即四川<span class="sans">7.8</span>级地震发生的一周后，为四川地震遇难者默哀三分钟，愿生者坚强，逝者安息。救灾援助与希望受难家属可以早日重逢的祝福仍不断地由世界各地涌入。网络电话公司<span class="sans">iTalkBB</span> 的总裁赵捷也在今天宣布该公司在四川大地震灾后重整期间，为了帮助亲友间的联系，<span class="sans">iTalkBB</span>将提供美国、加拿大所有民众免费拨打国际电话至中国四川的服务。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080513" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">05 / </sup>13</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        <span class="sans">Wii</span>游戏机幸运得主出炉
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">在<span class="sans">3</span>月<span class="sans">18</span>日至<span class="sans">4</span>月<span class="sans">8</span>日短短的<span class="sans">20</span>几天内，全美青少年中文作文比赛主题网站涌入了上万名的读者参加这次作文比赛的在线投票活动，目的在选出一位原作品人气最旺，最受欢迎的小朋友和其他六位由评审团所选出的小朋友们一起参加<span class="sans">2008</span>年寒假由<span class="sans">iTalkBB</span>全额赞助的中国寻根之旅。由于得奖票数相近，<span class="sans">iTalkBB</span>决定让两位人气相当的小朋友都有机会参加今年寒假出团的中国寻根之旅。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080512" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">05 / </sup>12</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        怎样让电话费账单缩水？
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">近年来<span class="sans">VoIP</span>技术在美国取得长足进展，应用愈来愈普及，由它提供的通话质量与传统电话的质量已让人无法区辩，因此接受该服务的用户愈来愈多。同时用<span class="sans">VoIP</span>技术的新兴电话公司正在迅速崛起，不但迅速蚕食传统长途电话公司的市场，也使本地电话公司受到了威胁。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080414" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">04 / </sup>14</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        比电话卡省钱又方便？！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">糟糕!电话卡忘了带出门没办法打国际电话。怎么办!电话卡余额不足拨不出去~ 奇怪，怎么那天才刚储值的电话卡现在又讲完了呢? 较为精打细算一点的在北美华人拨打国际电话通常是使用国际电话卡，虽然比起使用当地电话公司<span class="sans">Bell</span>和<span class="sans">AT&T</span>等便宜了许多，但市面上的电话卡质量参差不齐，有些不但通话质量及服务不够完善，而且还有打了<span class="sans">30</span>分钟却被扣了<span class="sans">50</span>分钟这种多扣分钟数的情形。许多民众虽然不满意电话卡仅能提供的服务，但因为也没有其它的替代方案，所以也只好持续地使用下去了。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080324" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">03 / </sup>24</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        香港本地号码功能已全面上线！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">非常感谢您一直以来对我们的支持，为了能让您享受更便利的通话服务，自<span class="sans">2008</span>年<span class="sans">3</span>月<span class="sans">24</span>日起，<span class="sans">iTalkBB</span>公司将在美加市场同步推出香港本地号码这一高级功能<span class="sans">(HongKong Local Number)</span>。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080321" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">03 / </sup>21</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        打香港，通美国再也不是梦！
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">北美最大华人电话公司iTalkBB宣布将于美国时间3月24日推出香港通用号码的服务，此服务将带给在香港有亲友的美国华人无比的便利。藉由此项创新的服务，在香港的亲友可以当地费率拨打用户的香港当地号码，与远在美国的用户联络。在商业用途上也会带给有在香港做生意的在美华人很大的便利，香港客户可以随时拨打用户在美国的香港电话，与远在美国的用户联系。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2008 20080107" ng-show="newsAll||news2008">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2008</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">01 / </sup>07</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        幸运儿节日期间获大奖，惊喜万分——纽约居民赢得意料之外的大奖!
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">2007年12月17日对颜先生来说只是一个平常的日子，直到他接到一个令人兴奋的电话，告诉他赢取了一等奖奖品--一台52寸的Plasma电视。上星期，送货人员已把电视送到了他在纽约的家。时至今日，颜先生的喜悦之情仍然溢于言表，他说："这真的是一个很大的惊喜!我甚至不知道我可以获得这个大奖！这是iTalkBB送给我的一份很特别的节日礼物。"</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2007 20071224" ng-show="newsAll||news2007">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2007</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">12 / </sup>24</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        iTalkBB美国计划费率调整通知
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">iTalkFreedom服务接听中国通用号码来电的费率也将由原来的$0.02/分钟调整为$0.04/分钟(使用IP BOX接听的中国来电不受此限制，大陆亲友仍旧不必付国际长途费用)。但愿此调整不会对您使用iTalkFreedom服务造成太大的影响。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2007 20070504" ng-show="newsAll||news2007">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2007</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">05 / </sup>04</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        iTalkBB公司与全美中文学校协会推出母亲节，父亲节中文贺卡活动
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">全美上万个华人家庭将收到小朋友的孝心礼物！iTalkBB公司本着回报华人团体的宗旨，首次和全美中文学校协会合作，于2007年五月、六月推出母亲节、父亲节中文贺卡活动。此次活动的目的是鼓励孩子们学习和应用中文，更重要的是要使中华美德之一：孝敬父母--发扬光大。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2006 20060509" ng-show="newsAll||news2006">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2006</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">05 / </sup>09</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        iTalkBB公司宣布全球拓展计划
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">网络语音电话(VoIP)行业之先驱，iTalkBB公司即日宣布，以美国和加拿大华人市场为主的营销计划执行十个月来，用户数量激增幅度高达1000%，并且指出其成功在于为华人市场量身定做了价格最具竞争力的独一无二的电话服务，让用户在不更换电话机、不更改现有电话号码的情况下替换了他们的传统的电话服务计划。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2006 20060412" ng-show="newsAll||news2006">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2006</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">04 / </sup>12</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        iTalkBB四月全面开通加拿大VoIP家庭网络电话服务
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">iTalkBB是新浪北美独家VoIP合作伙伴，也是在华人社区首家推出结合「电话与宽频网路」网路语音技术(Voice over Internet Protocol，VoIP)的电讯公司，该公司已於今年二月全面开通「加拿大 VoIP家庭网络电话服务」，该计划完全可以替代您现有的传统家庭电话，省钱高达90%！其中每月29.99(加元)的全球包月计划，不仅本地电话全包﹐还让您免费拨打中、港、台、美国和加拿大等20多个国家和地区；免费让中国亲友打电话给加拿大(使用iTalkBB独家首创的免费中国通用号码)， 得到免费来电显示， 三方通话， 来电转接等高级功能，同时还可任选加拿大Local电话号码。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2005 20050927" ng-show="newsAll||news2005">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2005</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">09 / </sup>27</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        iTalkBB公司宣布与新浪网结成伙伴关系
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">网络语音技术(Voice over Internet Protocol, VoIP)业界的先锋iTalk Global Communications, Inc.(iTalkBB)宣布与公司(Sina.Com Online)结成伙伴关系(是一家服务于中国及全球华人小区的领先在线媒体及增值信息服务提供商)。</p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="newsAll news2005 20050811" ng-show="newsAll||news2005">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft">
+                                    <p class="newsBlockLeftYear sans title30 mTitle38">2005</p>
+                                    <p class="newsBlockLeftDate sans"><sup class="fontAdjust title30 mTitle38">08 / </sup>11</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="newsBlockRightTitle pin title30 mTitle38 fwb">
+                                        2005世羽赛：iTalkBB祝中国队旗开得胜
+                                    </p>
+                                    <p class="newsBlockRightText pin title20 mTitle28">2005年世界羽毛球锦标赛(2005 World Badminton Championships)8月15-21日在美国洛杉矶市举行。为鼓励跨海远征的中国代表队在这次比赛中扬威国际，为所有华人争光，iTalkBB与北美网特别在比赛期间免费赞助国际电话卡，供中国代表队选手打电话回中国与亲友家人联系之用。
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <span class="sans">
 
                 </div>
             </div>
@@ -901,11 +1841,11 @@
     <script>
         var app = angular.module('aboutNewsApp', []);
         app.controller('aboutNewsController', function($scope) {
-            $scope.year='全部新闻';
-            $scope.newsAll=true;
-            $scope.news2017=false;
-            $scope.news2016=false;
-            $scope.news2015=false;
+            $scope.year='最新新闻';
+            $scope.newsAll=false;
+            $scope.news2017=true;
+            $scope.news2016=true;
+            $scope.news2015=true;
             $scope.news2014=false;
             $scope.news2013=false;
             $scope.news2012=false;

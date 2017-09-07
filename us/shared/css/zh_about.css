@@ -170,10 +170,13 @@
     margin-bottom: 0;
     text-align: center;
 }
-.yearText{
+.yearText {
     color: #222222;
     padding-left: 5%;
     margin-bottom: 0;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-right: 1px solid #000000;
 }
 .yearContainer{
     width:28%;
@@ -195,10 +198,9 @@
     width:20%;
     float:left;
 }
-.yearRightArrow{
+.yearRightArrow {
     margin-bottom: 0;
     text-align: center;
-    border-left: 1px solid #808080;
 }
 .otherYearText{
     color:#222222;
@@ -206,6 +208,8 @@
     margin-bottom:0;
     border: 1px solid #aaaaaa;
     cursor:pointer;
+    padding-top:1%;
+    padding-bottom:1%;
     background: rgba(255,255,255,0.9);
 }
 .otherYearText:hover{
@@ -214,11 +218,14 @@
     color:white;
     transition:all, 0.5s;
 }
-.otherYear{
+.otherYear {
     position: absolute;
     width: 100%;
     display: block;
-    z-index:1000;
+    z-index: 1000;
+    max-height: 400%;
+    overflow-y: auto;
+    border-bottom: 1px solid #000000;
 }
 .year2017, .year2016, .year2015{
     transition: all, 0.5s;
@@ -407,8 +414,8 @@ a:hover{
     content: "\f03a";
 }
 .otherYear div{
-    float:left;
-    width:50%;
+    float: none;
+    width: 100%;
 }
 
 @media (max-width:1600px) {
