@@ -37,7 +37,6 @@
     padding-top: 2%;
     color: #222222;
     margin-bottom: 0;
-    font-weight: 500;
 }
 .aboutTextText{
     color: #444344;
@@ -84,10 +83,10 @@
     width: 85%;
     padding-left: 5%;
     padding-top: 5%;
-}
+}/*
 .rightTextTitle{
     font-weight:500;
-}
+}*/
 .rightTextSubTitle{
     line-height:1.6;
 }
