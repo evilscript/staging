@@ -29,7 +29,6 @@
     <!--这里继续添加子页面的Js引用文件-->
     <style>
 	/**/	
-	.sptSearch .right{padding-top: 11%; padding-bottom: 3%;}	
 	.sptHot{background: #f2f2f2;border-top: 1px solid #dedede; padding: 2% 0;}
     .hotCon{margin-left: 9%;}
     .hotCon .hotTitle{line-height: 2; padding-left: 2%;margin-left: -2%; background: url(../shared/images/support/supportHot.png) no-repeat; background-size: 1%;background-position-y: 50%;}
@@ -38,7 +37,7 @@
 	.hotBox p:hover{color: #ff7f00; text-decoration: underline;}
 @media  (min-width:768px) and (max-width:1000px){
     .sptHot{margin-bottom: -6%; padding: 4% 0;}
-	.hotCon{margin-left: 6.8%;}
+	.hotCon{margin-left: 7%;}
 }
 @media (max-width:767px){
     .sptHot{margin-bottom: -17%; padding: 9% 5%;}
@@ -61,7 +60,7 @@
       	    <div ng-include="'sptBanner.html'"></div>	   
        </section>
        <section class="mainMgnTop">
-      	  <div class="mainLimited">
+      	  <div class="mainMgn200">
         	<div class="lineOrange"></div>        	
 		  </div>
           <!--帮助支持搜索 start--> 
@@ -71,10 +70,11 @@
           <!--帮助支持搜索 end-->     	      	
        </section> 
       
-       <section class="sptHot mainLimited">
-            <div class="hotCon mNoboder">
+       <section class="mainMgn200">
+           <div class="sptHot">
+            <div class="hotCon mNoboder clearfix">
      	       <p class="hotTitle title20 mTitle28 fwb">热点问题</p>
-      	       <div class="hotBox">
+      	       <div class="hotBox clearfix">
       	       	  <a href="#"><p class="text18 mText26">手机号转号</p></a>
       	       	  <a href="#"><p class="text18 mText26">蜻蜓电视安装</p></a>
       	       	  <a href="#"><p class="text18 mText26">蜻蜓电话安装</p></a>
@@ -91,9 +91,9 @@
       	       	  <a href="#"><p class="text18 mText26">节目可否下载</p></a>
       	       	  <a href="#"><p class="text18 mText26">什么是950号码</p></a>
       	       	  <a href="#"><p class="text18 mText26">什么是699号码</p></a>
-      	       </div>   
-       	       <div class="clear clearfix"></div>    		
-        	</div>          	      	
+      	       </div>
+        	</div> 
+          </div>         	      	
        </section>
     </div>
     </div>

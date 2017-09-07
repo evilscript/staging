@@ -28,7 +28,7 @@ input:focus{ outline:none;}
 /* mainLayout start */
 .mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%;}
 .mainMgnTop{margin-top: 3%;}
-.mainLimited{margin: 0 auto;}
+/*.mainLimited{margin: 0 auto;}*/
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00; -khtml-border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8; -khtml-border-bottom: .4vw solid #327fe8; margin-top: 7%;}
 /* mainLayout end */
@@ -78,8 +78,8 @@ input:focus{ outline:none;}
 /* fontSize start */
 .title140{font-size: 140px;}
 .title70{font-size: 70px;}
+.title60{font-size: 60px;}
 .title42{font-size: 42px;}
-
 .title36{font-size: 36px;}
 .title30{font-size: 30px;}
 .title24{font-size: 24px;}
@@ -87,23 +87,18 @@ input:focus{ outline:none;}
 .title18{font-size: 18px;}
 .title16{font-size: 16px;}
 
+.text18{font-size: 18px;}
+.text16{font-size: 16px;}
 
-
-.title80{font-size: 80px;}
-.title60{font-size: 60px;}
+/*.title80{font-size: 80px;}
 .title48{font-size: 48px;}
-
 .title32{font-size: 32px;}
 .title28{font-size: 28px;}
 .title26{font-size: 26px;}
 .title22{font-size: 22px;}
-
-
-.text18{font-size: 18px;}
-.text16{font-size: 16px;}
-
 .text20{font-size: 20px;}
-.text14{font-size: 14px;}
+.text14{font-size: 14px;}*/
+
 /* fontSize end */
 
 /*Header和Footer*/
@@ -579,6 +574,7 @@ input:focus{ outline:none;}
 	/* fontSize start */
 	.title140{font-size: 117px;}
 	.title70{font-size: 58px;}
+	.title60{font-size: 50px;}	
 	.title42{font-size: 35px;}
 	.title36{font-size: 30px;}
 	.title30{font-size: 25px;}
@@ -587,20 +583,19 @@ input:focus{ outline:none;}
 	.title18{font-size: 15px;}
     .title16{font-size: 14px;}
 	
-    .title80{font-size: 67px;}
-    .title60{font-size: 50px;}
-    .title48{font-size: 40px;}    
+	.text18{font-size: 15px;}
+    .text16{font-size: 14px;}	
+	
+	
+    /*.title80{font-size: 67px;}    
+    .title48{font-size: 40px;} 	
     .title32{font-size: 27px;}    
     .title28{font-size: 23px;}
     .title26{font-size: 22px;}    
-    .title22{font-size: 18px;} 
-
-
-    .text18{font-size: 15px;}
-    .text16{font-size: 14px;}
-	
+    .title22{font-size: 18px;} 	
 	.text20{font-size: 17px;}    
-    .text14{font-size: 13px;}
+    .text14{font-size: 13px;}*/
+	
 	/* fontSize end */
 	
     .teleText{
@@ -621,7 +616,8 @@ input:focus{ outline:none;}
 	/* fontSize start */
 	.title140{font-size: 102px;}
 	.title70{font-size: 51px;}
-	.title42{font-size: 31px;}
+	.title60{font-size: 44px;}
+	.title42{font-size: 31px;} 
 	.title36{font-size: 26px;}
 	.title30{font-size: 22px;}
 	.title24{font-size: 18px;}
@@ -629,21 +625,19 @@ input:focus{ outline:none;}
     .title18{font-size: 14px;}
     .title16{font-size: 13px;}
 	
-    .title80{font-size: 58px;}
-    .title60{font-size: 44px;}
-    .title48{font-size: 35px;}
-	.title42{font-size: 31px;}    
+	.text18{font-size: 14px;}
+    .text16{font-size: 13px;}	
+	
+	
+    /*.title80{font-size: 58px;}    
+    .title48{font-size: 35px;}	   
     .title32{font-size: 23px;}    
     .title28{font-size: 20px;}
     .title26{font-size: 19px;}    
     .title22{font-size: 17px;}
-    
-	
-	.text18{font-size: 14px;}
-    .text16{font-size: 13px;}
-
     .text20{font-size: 16px;}    
-    .text14{font-size: 12px;}
+    .text14{font-size: 12px;}*/
+	
 	/* fontSize end */
     .headerMirrorSearchPart{
         padding-top: 1.5%;
@@ -678,6 +672,7 @@ input:focus{ outline:none;}
 	/* fontSize start */
 	.title140{font-size: 7.3vw;}
 	.title70{font-size: 3.6vw;}
+	.title60{font-size: 3.2vw;}
 	.title42{font-size: 2.15vw;}
 	.title36{font-size: 1.85vw;}
 	.title30{font-size: 1.5vw;}
@@ -686,21 +681,19 @@ input:focus{ outline:none;}
     .title18{font-size: 1vw;}
     .title16{font-size: .9vw;}
 	
-    .title80{font-size: 4.2vw;}
-    .title60{font-size: 3.2vw;}
-    .title48{font-size: 2.5vw;}
-	.title42{font-size: 2.15vw;}    
+	.text18{font-size: 1vw;}
+    .text16{font-size: .9vw;}
+	
+	
+   /* .title80{font-size: 4.2vw;}    
+    .title48{font-size: 2.5vw;}	    
     .title32{font-size: 1.7vw;}    
     .title28{font-size: 1.46vw;}
     .title26{font-size: 1.38vw;}    
     .title22{font-size: 1.15vw;}
-    
-	
-	.text18{font-size: 1vw;}
-    .text16{font-size: .9vw;}
-
     .text20{font-size: 1.1vw;}    
-    .text14{font-size: .85vw;}
+    .text14{font-size: .85vw;}*/
+	
 	/* fontSize end */
     .headerBackToTop {
         height:50px;
@@ -742,7 +735,7 @@ input:focus{ outline:none;}
 }
 
 @media  (min-width:1001px){
-	.mainLimited{margin: 0 auto;width: 79.2%;}	
+	/*.mainLimited{margin: 0 auto;width: 79.2%;}*/	
 	.mainMgn200{margin: 0 auto;width: 79.2%;}
 	.mainMgn100{margin: 0 auto;width: 89.5%;;}
 }
@@ -756,31 +749,30 @@ input:focus{ outline:none;}
 	/* mainLayout end*/
 	
 	/* fontSize start */
-	.title140{font-size: 12vw;}/* 120px */ 
+	.title140{font-size: 12vw;}/* 120px */ /*以767px在1000px分辨率的比例取值，下同*/
 	.title70{font-size: 6.0vw;}/* 60px */ 
-	.title42{font-size: 3.6vw;}/* 36px */ 
+	.title60{font-size: 5.2vw;}/* 52px */
+	.title42{font-size: 3.6vw;}/* 36px */
 	.title36{font-size: 3.2vw;}/* 32px */
 	.title30{font-size: 2.8vw;}/* 28px */
 	.title24{font-size: 2.2vw;}/* 22px */
 	.title20{font-size: 1.8vw;}/* 18px */
     .title18{font-size: 1.6vw;}/* 16px */
-    .title16{font-size: 1.4vw;}/* 14px */
-	
-    .title80{font-size: 6.7vw;}/*以767px在1000px分辨率的比例取值，下同*/
-    .title60{font-size: 5.2vw;}/* 52px */
-    .title48{font-size: 4.2vw;}/* 42px */
-	.title42{font-size: 3.6vw;}/* 36px */    
-    .title32{font-size: 3.0vw;}/* 30px */    
-    .title28{font-size: 2.6vw;}/* 26px */
-    .title26{font-size: 2.4vw;}/* 24px */    
-    .title22{font-size: 2.0vw;}/* 20px */
-    
+    .title16{font-size: 1.4vw;}/* 14px */	
 	
 	.text18{font-size: 1.6vw;}/* 16px */
     .text16{font-size: 1.4vw;}/* 14px */
-
-    .text20{font-size: 1.8vw;}/* 18px */    
-    .text14{font-size: 1.3vw;}/* 13px */
+	
+	
+	
+    /*.title80{font-size: 6.7vw;}*/  /*以767px在1000px分辨率的比例取值，下同*/    
+    /*.title48{font-size: 4.2vw;}*/  /* 42px */	    
+    /*.title32{font-size: 3.0vw;}*/  /* 30px */    
+    /*.title28{font-size: 2.6vw;}*/  /* 26px */
+    /*.title26{font-size: 2.4vw;} */ /* 24px */    
+    /*.title22{font-size: 2.0vw;} */ /* 20px */
+    /*.text20{font-size: 1.8vw;}*/  /* 18px */    
+    /*.text14{font-size: 1.3vw;} */ /* 13px */
 	/* fontSize end */	
 	
     .toggle{
@@ -908,6 +900,11 @@ input:focus{ outline:none;}
 	/* mainLayout end*/
 	
 	/* fontSize start */
+	.mTitle162{font-size: 21.12vw;}
+	.mTitle78{font-size: 10.17vw;}
+	.mTitle68{font-size: 8.87vw;}
+	.mTitle60{font-size: 7.8vw;}
+	.mTitle50{font-size: 6.52vw;}
 	.mTitle44{font-size: 5.74vw;}
 	.mTitle42{font-size: 5.48vw;}
 	.mTitle38{font-size: 4.95vw;}
@@ -920,26 +917,22 @@ input:focus{ outline:none;}
 	.mTitle22{font-size: 2.87vw;}
 	.mTitle20{font-size: 2.61vw;}
 	.mTitle18{font-size: 2.35vw;}
-	.mTitle16{font-size: 2.01vw;}		
+	.mTitle16{font-size: 2.01vw;}	
 	
-	.mTitle162{font-size: 21.12vw;}
-	.mTitle78{font-size: 10.17vw;}
-	.mTitle68{font-size: 8.87vw;}
-	.mTitle60{font-size: 7.8vw;}
-	.mTitle54{font-size: 7.04vw;}
-	.mTitle50{font-size: 6.52vw;}
-	.mTitle48{font-size: 6.26vw;}
-	
-		
+	.mText28{font-size: 3.65vw;}
 	.mText26{font-size: 3.39vw;}
 	.mText24{font-size: 3.13vw;}
 	.mText22{font-size: 2.87vw;}
 	.mText20{font-size: 2.61vw;}
 	.mText18{font-size: 2.35vw;}
 	.mText16{font-size: 2.09vw;}
-	.mText14{font-size: 1.83vw;}
+	.mText14{font-size: 1.83vw;}	
 	
-	.mText28{font-size: 3.65vw;}
+	
+	
+	/*.mTitle54{font-size: 7.04vw;}	
+	.mTitle48{font-size: 6.26vw;}*/
+	
 	/* fontSize end */
     .headerBackToTop {
         display:none!important;
