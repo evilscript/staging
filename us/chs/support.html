@@ -18,9 +18,8 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <!--这里继续添加子页面的Css引用文件-->  
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_support.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
+    <!--这里继续添加子页面的Css引用文件-->
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
 
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
     <script src="../shared/js/angular-1.6.4.min.js"></script>
@@ -30,6 +29,24 @@
     <!--这里继续添加子页面的Js引用文件-->
     <style>
 	/**/	
+	.sptSearch .right{padding-top: 11%; padding-bottom: 3%;}	
+	.sptHot{background: #f2f2f2;border-top: 1px solid #dedede; padding: 2% 0;}
+    .hotCon{margin-left: 9%;}
+    .hotCon .hotTitle{line-height: 2; padding-left: 2%;margin-left: -2%; background: url(../shared/images/support/supportHot.png) no-repeat; background-size: 1%;background-position-y: 50%;}
+	.hotBox a,.hotBox a:link,.hotBox a:visited{color: #222;}
+    .hotBox p{float: left; width: 25%; line-height: 1.5;}
+	.hotBox p:hover{color: #ff7f00; text-decoration: underline;}
+@media  (min-width:768px) and (max-width:1000px){
+    .sptHot{margin-bottom: -6%; padding: 4% 0;}
+	.hotCon{margin-left: 6.8%;}
+}
+@media (max-width:767px){
+    .sptHot{margin-bottom: -17%; padding: 9% 5%;}
+	.hotCon{margin-left: 10%;}
+	.hotCon .hotTitle{background-size: 3%;padding-left: 5.5%;margin-left: -5.5%;background-position-y: 55%;}
+	.hotBox{width: 122%;}
+	.hotBox p{width: 50%; line-height: 2;}	
+}
 	</style>
 </head>
 
@@ -45,29 +62,35 @@
        </section>
        <section class="mainMgnTop">
       	  <div class="mainLimited">
-        	<div class="lineOrange"></div>
-		  </div>           	      	
+        	<div class="lineOrange"></div>        	
+		  </div>
+          <!--帮助支持搜索 start--> 
+          <div class="supportSearch">
+             <div ng-include="'sptSearch.html'"></div> 
+          </div> 
+          <!--帮助支持搜索 end-->     	      	
        </section> 
-       <!--帮助支持搜索 start--> 
-       <section>
-           <div ng-include="'sptSearch.html'"></div>
-       </section>
-       <!--帮助支持搜索 end-->
-       <section class="mainLimited">
-            <div class="sptHot mNoboder">
-      	       <div class="hot1">
-      	       	  <p class="title20 mTitle28 fwb">常见问题</p>
-      	       	  <a href="#"><p class="text18 mText26">费率查询</p></a>
-      	       	  <a href="#"><p class="text18 mText26">订单查询</p></a>
-      	       	  <a href="#"><p class="text18 mText26">蜻蜓电话安装</p></a>
+      
+       <section class="sptHot mainLimited">
+            <div class="hotCon mNoboder">
+     	       <p class="hotTitle title20 mTitle28 fwb">热点问题</p>
+      	       <div class="hotBox">
+      	       	  <a href="#"><p class="text18 mText26">手机号转号</p></a>
       	       	  <a href="#"><p class="text18 mText26">蜻蜓电视安装</p></a>
-      	       </div>
-      	       <div class="hot2">
-      	       	  <p class="title20 mTitle28 fwb">热点问题</p>
-      	       	  <a href="#"><p class="text18 mText26">费率查询</p></a>
-      	       	  <a href="#"><p class="text18 mText26">订单查询</p></a>
       	       	  <a href="#"><p class="text18 mText26">蜻蜓电话安装</p></a>
-      	       	  <a href="#"><p class="text18 mText26">蜻蜓电视安装</p></a>
+      	       	  <a href="#"><p class="text18 mText26">如何登录账户</p></a>
+      	       	  <a href="#"><p class="text18 mText26">订单查询</p></a>
+      	       	  <a href="#"><p class="text18 mText26">电视计划更改</p></a>
+      	       	  <a href="#"><p class="text18 mText26">费率查询</p></a>
+      	       	  <a href="#"><p class="text18 mText26">忘记账户密码</p></a>
+      	       	  <a href="#"><p class="text18 mText26">更改手机计划</p></a>
+      	       	  <a href="#"><p class="text18 mText26">电视播放故障</p></a>
+      	       	  <a href="#"><p class="text18 mText26">使用App拨打电话</p></a>
+      	       	  <a href="#"><p class="text18 mText26">什么是899号码</p></a>
+      	       	  <a href="#"><p class="text18 mText26">手机故障查询</p></a>
+      	       	  <a href="#"><p class="text18 mText26">节目可否下载</p></a>
+      	       	  <a href="#"><p class="text18 mText26">什么是950号码</p></a>
+      	       	  <a href="#"><p class="text18 mText26">什么是699号码</p></a>
       	       </div>   
        	       <div class="clear clearfix"></div>    		
         	</div>          	      	

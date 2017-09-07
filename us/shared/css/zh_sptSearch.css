@@ -1,7 +1,7 @@
 /* support Search css */
 /* Amy制作 */
 a, a:hover, a:focus{color: #222;}
-.partMgnTop{ margin-top: 3.5%;}
+/*.partMgnTop{ margin-top: 3.5%;}
 .sptLeft,.sptRight{margin: 0 auto; text-align: center; width: 50%}
 .sptLeft{float: left;padding-top: 6.5%;}
 .sptRight{float: right;padding-top: 3%;border-left: 1px solid #dedede;}
@@ -64,7 +64,7 @@ a, a:hover, a:focus{color: #222;}
 .bgService1{background: url(../images/support/supportIcon1.png) no-repeat scroll center center;}
 .bgService2{background: url(../images/support/supportIcon2.png) no-repeat scroll center center;}
 .bgService3{background: url(../images/support/supportIcon3.png) no-repeat scroll center center;}
-.bgService1,.bgService2,.bgService3{background-size: 40%; background-position-y: 10%;}
+.bgService1,.bgService2,.bgService3{background-size: 40%; background-position-y: 10%;}*/
 /* support others end */
 
 @media  (min-width:768px) and (max-width:1000px){

@@ -2,7 +2,7 @@
 /*初始化设置*/
 *{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;/*盒模型定义高度和宽度*/}
 html{overflow-y:scroll;/*提供滚动机制*/-webkit-text-size-adjust: none;/*取消浏览器最小字体限制*/}
-body {font-family: 'pingfang', 微软雅黑, sans-serif;background: #f6f6f6;color: #222;height:100%;transition: margin-left .5s, margin-right .5s;}
+body {font-family: 'pingfang', 微软雅黑, sans-serif; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
 ul,ol,li{list-style-type:none;}
 /* Clear Fix */  
 .clearfix::before,.clearfix::after { display: table;line-height: 0; content:"";}
@@ -743,6 +743,8 @@ input:focus{ outline:none;}
 
 @media  (min-width:1001px){
 	.mainLimited{margin: 0 auto;width: 79.2%;}	
+	.mainMgn200{margin: 0 auto;width: 79.2%;}
+	.mainMgn100{margin: 0 auto;width: 89.5%;;}
 }
 
 @media (min-width:768px) and (max-width:1000px) {
@@ -750,7 +752,7 @@ input:focus{ outline:none;}
 	.mainLayout{max-width:1000px; padding-top: 14%;margin-bottom: 0;}
 	.mainMgnTop{margin-top: 3.5%;}
 	.lineOrange{height:0; border-bottom: .55vw solid #ff7f00;}
-	.lineBlue{height:0; border-bottom: .55vw solid #327fe8; margin-top: 0;}
+	.lineBlue{height:0; border-bottom: .55vw solid #327fe8; margin-top: 6%;}
 	/* mainLayout end*/
 	
 	/* fontSize start */
@@ -902,7 +904,7 @@ input:focus{ outline:none;}
 	.mainLayout{max-width:767px; padding-top: 14%;margin-bottom: 0;}
 	.mainMgnTop{margin-top: 5%;}
 	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
-	.lineBlue{height:0; border-bottom: .9vw solid #327fe8; margin-top: 0;}
+	.lineBlue{height:0; border-bottom: .9vw solid #327fe8; margin-top: 12%;}
 	/* mainLayout end*/
 	
 	/* fontSize start */
