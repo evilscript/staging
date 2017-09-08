@@ -694,6 +694,9 @@ a:hover{
         line-height: 1.8;
         text-align:center;
     }
+    .templateText{
+        padding-top:5%;
+    }
     .templateJump {
         width: 100%;
         margin-left: 0;
