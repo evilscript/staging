@@ -148,7 +148,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff;text-align:just
 
 .bbApp{margin-bottom: 5%; padding: 3.5% 7.5%; padding-bottom: 2.5%; background:url(../images/bb/bbPlanBg02.jpg) no-repeat scroll top; color: #f2f2f2;}
 .appAPK{float: left;  margin-left: 78.5%; cursor: pointer; margin-top: .6%;margin-bottom: 1.8%;}
-.appAPK img{width: 100%;}
+.appAPK img{width: 70%;}
 .appNote{text-align: center;}
 .appQRcode{margin-top: 2.5%;}
 .QRcode p{float: left; width: 20%;margin-left: 9.5%; cursor: pointer;}
@@ -229,7 +229,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff;text-align:just
 	/*plan End*/
 	
     .bbApp{padding: 6% 5%; padding-bottom: 3.8%; text-align: left;margin-bottom: 7%;}
-	.appAPK img{width: 90%;}
+	.appAPK img{width: 60%;}
     .appNote{text-align: center;}
     .function{padding: 0 5%;padding-top: 16%; margin-bottom: 5%;}
 	.otherFuncBox{margin-bottom: 6%}
@@ -290,7 +290,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff;text-align:just
 	.tryoutCon > .right{padding-bottom: 52%;}
 	.bbApp{margin-bottom: 17%; padding: 14% 5%; padding-bottom: 12%;background: #000 url(../images/bb/mBBPlanBg02.png) no-repeat scroll bottom;}
 	.appAPK{margin-left: 48.5%;margin-bottom: 5%;}
-	.appAPK img{width: 3%;}
+	.appAPK img{width: 3.2%;}
 	.QRcode{margin: 2% 0;}
 	.QRcode p{margin-left: 0; padding: 3% 20%;}
 	.QRcode span{display: none;}
