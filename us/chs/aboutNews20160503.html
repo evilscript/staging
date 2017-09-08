@@ -32,6 +32,11 @@
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
     <script src="../shared/js/aboutNews.js"></script>
+    <script language="javascript">
+        function emailCurrentPage(){
+            window.location.href="mailto:?subject="+document.title+"&body="+escape(window.location.href);
+        }
+    </script>
 </head>
 
 
