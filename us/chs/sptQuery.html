@@ -35,7 +35,7 @@ background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% cente
     </style>
     
 </head>
-<body ng-app="" style="background-color:#ffffff">
+<body ng-app="" style="background-color:#ffffff" onhashchange="aa()">
 
 	<div ng-include="'header.html'"></div>
     <div class="clear clearfix"></div>
@@ -243,6 +243,29 @@ background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% cente
 
         	
         }
+
+	
+	function aa(){
+		 var m =window.location.hash;
+
+
+		if(m=='#!#chaxun'){
+
+			
+			    $(".customer").css("display","none");
+        		$(".shop").css("display","block");
+        		$(".change").children().removeClass('changesadd'); 	
+        		$(".button2").addClass('changesadd');
+		}
+			if(m=='#!#kefu'){
+				
+				 $(".customer").css("display","block");
+        		$(".shop").css("display","none");
+        		$(".change").children().removeClass('changesadd'); 	
+        		$(".buttob1").addClass('changesadd');
+			}
+	}
+
 
 </script>
 
