@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+	<meta name="apple-itunes-app" content="app-id=514896649">
+
+
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+
+
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+	<script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+    <style>
+
+
+		label{font-weight: 500}
+		a{color:#333333;}
+		a:hover{color:#333333;}
+		.bodyy{margin-top: 9%;background-color: white}
+
+		.bannerAd2,.bannerAd3{width: 100%;position: relative;}
+		.bannerAd2 img,.bannerAd3 img{width: 100%}
+		.banner{position: relative;}
+		.wei{position: absolute;left: 10.42%;top: 25%;color: white}
+		.wei2{position: absolute;left: 10.42%;top: 9%}
+		.wei3{position: absolute;left: 10.42%;top: 11%}
+		.bannerAdtit{font-weight: 800;}
+		.wei2 .text1{line-height: 1.8;width: 52%;margin-top: 1%}
+		.wei3 .text1{line-height: 1.8;width: 100%;margin-top: 2%}
+		.bannertex2{top: 32%}
+		.banner{width: 100%}
+		.banner img{width: 100%}
+		.plan{margin-top: 3% }
+		.bbPlanLimitedBig, .planLimitedBig { margin: 0 auto;width: 89.5%;}
+		.planTitleBig {color: #fff;margin-bottom: 1.8%;padding-top: 2.6%;text-align: center;}
+		.use{width: 74.1%;margin: 0 auto;background-color: white;}
+		.user{display: inline-block;width: 50%;text-align: center;margin-top: 0.8%;color:#b4b4b4;border-bottom: 1px solid #b4b4b4;}
+		.useradd{color:#ff7f00;border-bottom: 1px solid #ff7f00;font-weight: 800}
+		.picmb{display: none;}
+		.md1,.md3{display: inline-block;width: 37%;vertical-align: top}
+		.md2{display: inline-block;width: 26%;padding-left: 5%}	
+		.md2a{font-family: avenir;line-height: 1;float: left;}
+		.md2b{font-family: avenir;line-height: 0.9;float: left;letter-spacing: -5px;}
+		.md2c{font-family: avenir;line-height: 1; margin-left: 2%; float: left;}
+		.md2d{line-height: 1; margin-left: 5%; float: left;}
+		.cir,.optxt{display: inline-block;vertical-align: top}
+		.cir{width: 5%;line-height: 1.5;border:1px solid black;border-radius: 100%;margin-top: 2.9% }
+		.cir:hover{cursor:pointer;}
+		.optxt{width: 92%;margin-left: 3%;line-height: 2}
+		.ciradd{border:4px solid #ff7f00;}
+		.opt2{margin-top: 2%}
+		.md1tit{color:#ff7f00;}
+		.cont1{margin-left: 39%;}
+		.cont2{width: 75%;margin-left:12%;}
+		.middle{padding-top: 6.5%;padding-bottom: 6%}
+		.midButton{position: absolute;width: 12.5%;background-color: #327fe8;color: white;left: 44%;margin-top: -1.3%;text-align: center;line-height: 2;border-radius: 5px;}
+		.bannerAd1{margin-bottom: 3.8%;}
+		.tvshow{background-color: black; padding-bottom: 1%;}
+		.showtit1{color: white;text-align: center;padding-top:3.2%;font-weight: 800}
+		.showtit2{color: white;text-align: center;margin-top:1% ;margin-bottom:3.5%;}
+		.bannerAd1tit{text-align: center;font-weight: 800;    padding-top: 4%; }
+		.textAd1{text-align: center;margin: 0 auto;width: 63%;margin-top: 1%;line-height: 1.8}
+		.icons{width: 78.5%;margin: 0 auto}
+		.icons{margin-top: 4.8%;margin-bottom: 4.8%}
+		.icons1{width: 50%;float: left;}
+		.icons2{width: 50%;float: right;}
+		.icons3{ width: 50%;float: right;margin-top: 10%}
+		.icons4{ width: 50%;float: left;margin-top: 10%;}
+		.icontit{font-weight: 800;text-align: center;margin-top: 8%;}
+		.icons1 img,.icons2 img,.icons3 img,.icons4 img{width: 26.2%;margin:0 auto;}
+		.icontext{width: 81%;margin: 0 auto;margin-top: 3%;line-height: 1.8}
+		.bannerAd1Pic{background:url(../shared/images/tv/tvgoodAd1.jpg) center center  no-repeat;background-size: 100% 100% }
+		.bg{background:url(../shared/images/bb/bbPlanBg01.jpg ) center center  no-repeat;background-size: cover}
+		.bottom{width: 74.2%;margin: 0 auto;background-color: #f2f2f2;padding-left: 8%}
+		.bottom ul li{display: inline-block;width: 25%} 
+		.bottom ul{padding:8% 0;}
+		.bimg,.btxt{display: inline-block;vertical-align: top}
+		.bimg{margin-right: 5%;width: 8%;}
+		.bimg img{width: 100%}
+		.btxt{width: 87%}
+		.lia{margin-bottom: 4.5%}
+		#wrap{ position: relative;width: 100%;overflow: hidden;}
+		#roll{position: absolute;left: 0;width: 9999px;}
+		#roll img{float: left;}
+		.old{text-decoration: line-through;margin-top: 15%;display:none;color: red}
+		.try{text-align: center;margin-top: 3.5%}
+
+		@media screen and (min-width: 1600px) and (max-width: 1700px) {
+    .title140{font-size: 130px}
+}
+
+
+
+		@media (max-width:1000px){
+			.planLimitedBig,.bbPlanLimitedBig{width: 100%}
+   			.md2{width: 30%}
+   			.use{width: 89.6%}
+   			.bottom{width: 90%}
+   			.cont2,.cont1{width: 100%}
+   			.cont1{margin-left: 20%}
+   			.cont2{margin-left: 0}
+   			.md1, .md3{width: 35%}
+   			.midButton{margin-top: -2%;width: 24%;left: 38%}
+   			.ciradd{border: 2px solid #ff7f00;}
+   			.middle{padding-top:4% }
+   			.bottom{padding-left:3% }
+   			.btxt{line-height: 1}
+   			.bannerAd3 .text1{top: 17%}
+   			.old{margin-top: 20%}
+   			.cont1{font-size:2.3vw }
+   			.bottom ul li .btxt{line-height: 1.8}
+   			.textAd1{width: 89.6%}
+   			.bimg{margin-top: 2%}
+   			.icons{width: 100%}
+   			.icontext{width: 80%}
+   			.icons4,.icons3{margin-top:6.5% }
+}
+@media (max-width:767px){
+	.bodyy{margin-top: 14%}
+	.picpc{display: none;}
+	.picmb{display: block;}
+	.plan{width: 100%}
+	.use{width: 80%;}
+	a.left{border: 2px}
+	a.right{border:2px;}
+	.md1,.md2,.md3{display: block;width: 100%}
+	.md1{text-align: center;}
+	.cont1{width: 100%;font-weight: 800;margin-left: 0}
+	.cont2{width:80%;margin: 0 auto}
+	.md1tit,.mid1txt{display: inline-block;}
+	.text{padding-top: 6%}
+	.bannertext1{margin-top: 2%}
+	.plan{margin-top: 5%}
+	.planTitleBig{padding-top: 5.6%;margin-bottom: 5.5%}
+
+
+	.middle{padding-top: 7%;padding-bottom: 10%}
+	.md2{width: 48%;margin: 0 auto;margin-top: 5%}
+	.text{padding-bottom: 1%}
+	.md2a{font-size: 7vw}
+	.md2b{font-size: 18vw}
+	.md2c{font-size: 8vw;margin-top: 2%}
+	.md2d{font-size: 5vw;margin-top:3% }
+	.md3{margin-top: 30%}
+	.ciradd{border: 5px solid #ff7f00;}
+	.cir{margin-top: 2%}
+	.bottom{width: 80%}
+	.bottom ul li{display:block;width: 100%} 
+	.bimg{width: 4%;margin-top: 2%}
+	.bimg img{width: 100%}
+	.bottom ul{padding: 10% 0}
+	.bottom ul li{margin-bottom:2.7% }
+	.bottom{padding-left: 8%}
+	.bottom ul {padding: 10% 0 5% 0;}
+	.midButton{width: 40%;left: 30%;margin-top: -3.5%}
+	.lia{margin-top: 3%}
+	.textAd1{width: 88%}
+	.bannerAd1{margin-top: 3%}
+	.bannerAd1tit{font-weight: 500}
+	.textAd1{text-align: center;line-height: 1.8}
+	.bannerAd2,.bannerAd1Pic,.bannerAd3{background-size:cover;}
+	.bannerAd3{background-size: 170%;    background-position: 85% 90%;}
+	.showtit1{padding-top: 7%;font-weight: 800}
+	.showtit2{    margin-bottom: 6%;line-height: 1.8;padding-left: 5%;padding-right: 5%}
+	.icons1,.icons2,.icons3,.icons4{float: none;width: 89.4%;border-bottom:1px solid #aaaaaa;margin:0 auto;padding: 7% 0}
+	.icons4{border-bottom:none;padding-bottom: 0}
+	
+	.icons1 img,.icons2 img,.icons3 img,.icons4 img{width: 36%}
+	.icons{padding-top: 5%}
+	.icontit{margin-top:6% }
+
+	.wei,.wei2,.wei3{width: 100%;left: 0}
+	.wei2{top: 7%}
+	.wei{top: 9.5%}
+	.wei3{top: 9%}
+	.bannerAdtit{text-align: center;width: 100%;left:0 }
+	.wei2 .text1 {line-height: 1.8;width: 89.6%; margin: 0 auto;text-align: center;margin-top: 1%}
+	.wei3 .text1 {line-height: 1.8;width: 89.6%; margin: 0 auto;text-align: center;margin-top: 1%}
+
+	.bannertit{width: 100%;text-align: center;left: 0;top: 8%;}
+	.bannertext{width: 100%;text-align: center;left: 0}
+	.bannertext {top: 20%;}
+	.bannertex2 {top: 25%;}
+	.old{text-align: center;margin-top: 0}
+	.cont1{font-size:4.17vw }
+	.try{width: 80%;margin: 0 auto;margin-top:4% }
+}
+
+
+		
+    </style>
+</head>
+<body ng-app="">
+	<div ng-include="'header.html'"></div>
+    <div class="clear clearfix"></div>
+	<div class="bodyy">
+		<div class="banner">
+			<div>
+				<img class="picpc" src="../shared/images/tv/tvgoodBanner.jpg" alt="">
+				<img class="picmb" src="../shared/images/tv/tvgoodBannerM.jpg" alt="">
+			</div>
+			<div class="wei">
+			<div class="bannertit title60 mTitle60 fwb">iTalkBB蜻蜓电视</div>
+			<div class="bannertext title32 mTitle28 bannertext1">海外华人首选中文电视，</div>
+			<div class="bannertext bannertex2  title32 mTitle28">2017华语新片, 尽在蜻蜓电视。</div>
+			</div>
+		</div>
+
+
+		<div class="plan">
+		    <div class="bbPlanLimitedBig">
+      	  		<div class="lineOrange"></div>
+      	    </div>
+			<div class="planLimitedBig">
+				<div class="bg">
+					<p class="planTitleBig title42 mTitle50 fwb" id="tit">蜻蜓电话产品计划</p>
+					<div class="use">
+						<div class="top">
+							<a href=""><div class=" user title28 mTitle32 useradd" use='no'>非用户</div></a><a href=""><div class="  user  title28 mTitle32" use='yes'>用户</div></a>
+						</div>
+						<div class="middle">
+							<div class="md1">
+								<div class="cont1 title28 mTitle32">
+								<div class="md1tit">订购</div>
+								<div class="mid1txt">iTalkBB蜻蜓电视</div>
+								</div>
+							</div><div class="md2">
+							
+								<div class="md2a title60">$</div>
+								<div class="md2b title140">4</div>
+								<div class="fen">
+								<div class="md2c title70">.99</div>
+								<div class="md2d title36">/月</div>
+								</div>
+							</div><div class="md3">
+								<div class="cont2 title18 mText24">
+								<form >
+								    <div class="opt">
+        									<div class="ciradd cir cir1" buy='cheap'></div><div class="optxt">领取$10/月优惠，原价 $14.99 /月，享受电话+电视两个服务</div>
+    								</div>
+    								<div class="opt opt2">
+        									<div class="cir cir2" buy='exp'></div><div class="optxt">不领取优惠，$14.99/月</div>
+    								</div>
+								</form>
+								<div class="old">原价14.99/月</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="buy" href="www.4a99.com"><div class="midButton title24 mTitle30">
+						立即订购
+					</div></a>
+				</div>
+					<div class="bottom">
+						<ul class="title18 mTitle26">
+							<li class="lia "><div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">最新独家正版院线大片</div></li><li>
+							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">2017最新电视剧</div></li><li>
+							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">支持72小时回放</div></li><li>
+							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">全新设备升级</div></li><li>
+							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">海量影视剧点播</div></li><li>
+							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">高清中港台直播频道</div></li><li>
+							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">本地视频播放</div></li><li>
+							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">5分钟简易安装</div></li>
+						</ul>
+
+
+					</div>
+				
+			</div>
+		</div>
+
+		<div class="try"><p class="title36 mTitle44">30天试用承诺，无理由全额退款！ <a href="" class="textLink">如何申请退款？</a></p></div>
+
+		<div class="bannerAd1">
+			<div class="bannerAd1tit title36 mTitle54 fwb">独家院线新片</div>
+			<div class="textAd1 text18 mText24">iTalkBB蜻蜓电视提供最新的正版院线大片，让您在家就可以看到一级棒的华语电影，免费点播，高清画质。同时， 我们采用最尖端的图像处理技术，为您呈现高清画质的视听享受，无论是武打片还是都市剧，您都可以享受到完美的画质和音效，在家看大片。</div>
+			<div class="bannerAd1Pic">
+				
+			</div>
+		</div>
+
+		<div class="tvshow">
+			<div class="showtit1 title36 mTitle50 fwb">海量影视点播</div>
+			<div class="showtit2 text18 mText24">iTalkBB蜻蜓电视提供六十多个热门频道的实时直播，让您和家人观看内地、香港、台湾和海外频道的即时节目，新闻、综艺、访谈、电视剧应用尽有。</div>
+
+			<div id="wrap">
+				<div id="roll">
+					<img src="../shared/images/tv/tvgoodGopic.jpg" alt="">
+					<img src="../shared/images/tv/tvgoodGopic.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="icons">
+			<div class="icons1">
+				<img src="../shared/images/tv/tvgoodIcon6.png" alt="">
+				<div class="icontit title36 mTitle44">高清中港台直播</div>
+				<div class="icontext text18 mText24">iTalkBB蜻蜓电视提供六十多个热门频道的实时直播，让您和家人观看内地、香港、台湾和海外频道的即时节目，新闻、综艺、访谈、电视剧应用尽有。</div>
+			</div><div class="icons2">
+				<img src="../shared/images/tv/tvgoodIcon5.png" alt="">
+				<div class="icontit title36 mTitle44">72小时回放</div>
+				<div class="icontext text18 mText24">支持72小时热门频道回看功能，让您不会错过任何精彩节目，无论是新闻访谈还是春晚跨年，您都可以随时观看。</div>
+			</div>
+
+			<div class="clear clearfix"></div>
+			<div class="icons3">
+				<img src="../shared/images/tv/tvgoodIcon7.png" alt="">
+				<div class="icontit title36 mTitle44">本地播放</div>
+				<div class="icontext text18 mText24">任何本地的影片或图片，都可以通过iTalkBB蜻蜓电视在电视荧幕上播放。将您的本地移动设备（如U盘、移动硬盘等）连接在机顶盒的USB插口上，点击首页下方的“本地播放”，即可浏览您移动设备中可播放的影片、音乐及图片文件，方便实用。</div>
+			</div>
+			<div class="icons4">
+				<img src="../shared/images/tv/tvgoodIcon8.png" alt="">
+				<div class="icontit title36 mTitle44">正版授权</div>
+				<div class="icontext text18 mText24">iTalkBB蜻蜓电视拥有播出频道的正版授权，为您带来可靠、稳定的正版中文电视节目，不用担心节目中断、电视黑屏、直播卡顿，您的服务由我们保障。</div>
+			</div>
+			<div class="clear clearfix"></div>
+		</div>
+		<div  class="bannerAd2">
+			<a href=""><div>
+				<img class="picpc" src="../shared/images/tv/tvgoodAd2.jpg" alt="">
+				<img class="picmb" src="../shared/images/tv/tvgoodAd2M.jpg" alt="">
+			</div></a>
+			<div class="wei2">
+			<div class="bannerAdtit title36 mTitle44">全新界面</div>
+			<div class="text1 text18 mText28">全新升级的蜻蜓电视设备，拥有更友好的界面和更智能的操作系统，方便您的使用和观看，老人孩子都能轻松学会使用，是您全家的好伴侣。</div>
+			</div>
+		</div>
+		<div class="bannerAd3" >
+			<a href=""><div >
+				<img class="picpc" src="../shared/images/tv/tvgoodAd3.jpg" alt="">
+				<img class="picmb" src="../shared/images/tv/tvgoodAd3M.jpg" alt="">
+			</div></a>
+			<div class="wei3">
+			<div class="bannerAdtit title36 mTitle44">安装便捷</div>
+			<div class="text1 text18 mText28">安装简单，只需插好电源，使用HDMI线连接到电视即可，5分钟内搞定，轻松无负担。</div>
+			</div>
+		</div>
+
+		  
+
+	</div>
+    <div class="clear clearfix"></div>
+	<div ng-include="'footer.html'"></div>
+</body>
+<script>
+
+
+$(window).resize(function(){
+   var wi = $(window).width();
+     if(wi<767){
+               $(".cir1").height($(".cir1").width()*1);
+               $(".cir2").height($(".cir2").width()*1);
+               $(".bannerAd1Pic").height($(".bannerAd1Pic").width()*0.56);
+
+                $("#wrap").height($("#wrap").width()*0.56);
+               $("#roll img").width($("#wrap").width()*1.7);
+               
+
+        }
+        if(wi>=767){
+
+               $("#wrap").height($("#wrap").width()*0.346);
+               $("#roll img").width($("#wrap").width());
+               $(".bannerAd1Pic").height($(".bannerAd1Pic").width()*0.318);
+               $(".cir1").height($(".cir1").width()*1);
+               $(".cir2").height($(".cir2").width()*1);
+               
+               // $(".md2").height($(".md2").width()*0.8);
+        }
+});
+
+
+
+	$(function(){
+		 var wb = $(window).width();
+	
+    	if(wb<767){
+               $(".cir1").height($(".cir1").width()*1);
+               $(".cir2").height($(".cir2").width()*1);
+               $(".bannerAd1Pic").height($(".bannerAd1Pic").width()*0.56);
+
+               $("#wrap").height($("#wrap").width()*0.56);
+               $("#roll img").width($("#wrap").width()*1.7);
+               rollFn(2);
+        }
+    	if(wb>=767){
+
+               $("#wrap").height($("#wrap").width()*0.346);
+               $("#roll img").width($("#wrap").width());
+         
+               $(".bannerAd1Pic").height($(".bannerAd1Pic").width()*0.318);
+               $(".cir2").height($(".cir2").width()*1);
+               $(".cir1").height($(".cir1").width()*1);
+               		rollFn(2);
+               // $(".md2").height($(".md2").width()*0.8);
+
+        }
+
+			function rollFn(v){
+			// 获取元素对象
+				var wrap = document.getElementById("wrap");
+				var roll = document.getElementById("roll");
+				var imgs = roll.getElementsByTagName('img');
+				var step = v;
+				var width = imgs[0].offsetWidth * imgs.length;
+				console.log(step);
+			// 自动滚动
+				function rollAuto(){
+					setInterval(function(){
+						move();
+					},30);
+				}
+
+			// 动起来的方法
+			function move(){
+				step -= v;
+				if (step <= -width) {
+					step = 0;
+					}
+				roll.style.left = step + 'px';		
+			}
+			// 初始化
+			function init(){
+				roll.innerHTML += roll.innerHTML;
+				rollAuto();
+			}
+			init();
+		}
+
+		$('.cir').click(function(){
+			$('.cir').removeClass('ciradd');
+			$(this).addClass('ciradd');
+			var b = $(this).attr('buy');
+			if(b=='exp'){
+				
+
+					$('.md2b').html(14);
+					$('.md2').css('padding-left','0%');
+					$(".buy").attr("href","www.14a99.com"); 
+
+			}if(b=='cheap'){
+
+					$('.md2b').html(4);
+					$('.md2').css('padding-left','5%');
+					$('.md2c').css('margin-left','2%');
+					$('.md2d').css('margin-left','5%');
+					
+					$(".buy").attr("href","www.4a99.com"); 
+			}
+	
+		});
+
+		$('.user').click(function(){
+			$('.user').removeClass('useradd');
+			$(this).addClass('useradd');
+			var a = $(this).attr('use');
+			if(a=='no'){
+					$('.md2b').html(4);
+					$('.md2d').html('/月');
+					$('.old').css('display','none');
+					$('.ng-valid').css('display','block');
+					$('.md2').css('padding-left','5%');
+					$('.md2c').css('margin-left','2%');
+					$('.md2d').css('margin-left','5%');
+					$(".buy").attr("href","www.4a99.com"); 
+					$('.cir').removeClass('ciradd');
+					$('.cir1').addClass('ciradd');
+
+
+			}if(a=='yes'){
+			
+					$('.md2b').html(49);
+					$('.md2d').html('/年');
+
+					$('.md2').css('padding-left','0%');
+					$('.md2a').css('padding-left','0%');
+					$('.md2b').css('margin-left','0%');
+					$('.old').css('display','block');
+					$('.ng-valid').css('display','none');
+					$(".buy").attr("href","www.49a99.com"); 
+
+			}
+
+		});
+
+		// $('.cir2').click(function(){
+		// 	alert(2);
+		// });
+
+
+
+
+
+
+
+
+	
+	})
+
+</script>
+</html>
