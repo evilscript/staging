@@ -2,7 +2,7 @@
   Version:1.0
   Author: Amy
   Create Date:2017-07-27
-  Update Date:2017-09-07
+  Update Date:2017-09-08
   Desc : Support Common CSS
   */  
 	
@@ -63,8 +63,8 @@
 
 /* Sharp text box begin */
 .foldBox{margin-top: 1%;}
-.foldBoxSpc1,.foldBoxSpc2{margin-top: 1.5%;}
-.foldText{background: #fff; padding: 2.8% 0 2% 3%; border-radius: 10px; border: #e9e9e9 1px solid;}
+.foldBoxSpc1,.foldBoxSpc2{margin-top: 0;}
+.foldText{background: #fff; padding: 2.65% 2% 2% 3%; border-radius: 10px; border: #e9e9e9 1px solid;}
 .foldText > ul.listNom{margin: 0;padding-left: 2%;}
 .foldBoxSpc1 .bubbleAngle{margin-left: 34.6%;}
 .foldBoxSpc2 .bubbleAngle{margin-left: 60.7%;}
@@ -144,7 +144,9 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
 	.service1:hover,.service2:hover,.service3:hover,.service1,.service2,.service3{background-size: 38%;background-position-y: 0;}	
 	/* support search end */
 	
-    /* Sharp text box begin */    
+    /* Sharp text box begin */
+	.foldBox{margin-top: .5%;}
+	.foldText{padding: 3.2% 2.2% 2.2% 3.6%;}	
     .foldBoxSpc1 .bubbleAngle{margin-left: 36%;}
 	.foldBoxSpc2 .bubbleAngle{margin-left: 61.5%;}
 	.partMgnTop{margin-top: 0;}
@@ -195,11 +197,13 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
 	/* support search end */
 	
 	/* Sharp text box begin */	
+	.foldBox{margin-top: .8%;}
+	.foldText{padding:5% 4% 2.2% 5%; border-radius: 8px;}
+	.foldBoxSpc1,.foldBoxSpc2{margin-top: -1%;}
     .foldBoxSpc1{margin-top:-2.5%; margin-bottom: 4%;}  	
-    .foldBoxSpc1 .bubbleAngle{margin-top:0%;margin-left: 67%;}
+    .foldBoxSpc1 .bubbleAngle{margin-top:0%;margin-left: 66%;}
 	.foldBoxSpc2{margin-bottom: 4%;} 
-	.foldBoxSpc2 .bubbleAngle{margin-left: 17.6%;}
-	.foldText{padding:3.5% 4.2% 2.3% 4.2%; border-radius: 8px;}
+	.foldBoxSpc2 .bubbleAngle{margin-left: 16.6%;}	
 	.foldText > ul.listNom{margin: 0;padding-left: 5%;}
 	.bubbleAngle{margin-bottom: -10px; margin-left: 8.5%;}
 	/* Sharp text box end */
