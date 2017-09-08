@@ -457,6 +457,12 @@ a:hover{
     margin-top: -5%;
     width: 5%;
 }
+.shareLeft{
+    width:80%;float:left;text-align:right;
+}
+.shareRight{
+    width:20%;float:left;text-align:right;
+}
 
 @media (max-width:1600px) {
     .container1520 {
@@ -476,6 +482,12 @@ a:hover{
         padding-left:5%;
         padding-right:5%;
     }
+    .templateCommentDate {
+        padding-top: 8%;
+    }
+    .templateTextLeft .templateComment {
+        padding-top: 1.5%;
+    }
 }
 
 @media (max-width:1300px) {
@@ -490,6 +502,24 @@ a:hover{
     }
     .fontAdjust {
         top: -1.2vw;
+    }
+    .container1280{
+        padding-left:5%;
+        padding-right:5%;
+    }
+    .templateCommentDate {
+        padding-top: 10%;
+    }
+    .social-share .social-share-icon {
+        width: 4vw!important;
+        height: 4vw!important;
+        font-size: 2vw!important;
+    }
+    .templateCommentDate {
+        padding-top: 15%;
+    }
+    .templateTextLeft .templateComment{
+        padding-top:3%;
     }
 }
 
@@ -619,8 +649,65 @@ a:hover{
         width: 15%;
         float: right;
     }
+    .templateTextLeft{
+        width:100%;
+        float:none;
+        margin-top:0;
+    }
+    .templateComment{
+        padding-top:2%;
+        text-align:center;
+    }
+    .social-share .social-share-icon {
+        width: 8vw!important;
+        height: 8vw!important;
+        font-size: 4vw!important;
+    }
+    .shareRight{
+        display:none;
+    }
+    .shareLeft{
+        width:100%;
+        margin-top:2%;
+        text-align:center;
+        float:none;
+    }
     .hideM{
         display:none;
+    }
+    .templateImg {
+        width: 100%;
+        margin-left: 0;
+        display: block;
+        margin-top: 5%;
+    }
+    .templateImgLeft {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        float: none;
+        margin-top: 5%;
+    }
+    .templateSubTitle {
+        padding-top: 5%;
+        margin-bottom: 0;
+        line-height: 1.8;
+        text-align:center;
+    }
+    .templateJump {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        float: none;
+        padding-top: 10%;
+        padding-bottom: 0;
+    }
+    .templateBack {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 10%;
     }
 }
 
