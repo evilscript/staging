@@ -97,11 +97,7 @@
 .titMgnTop,.imgTitle{margin-top: 3%;}
 .imgCnt{margin: 0 auto; width: 66%;}
 .imgCnt img{width: 100%; margin-top: 3% 0;}	
-.imgAppExplain img{margin: 5% 0;} 
-.imgAppExplain1 img{width: 36%;} 
-.imgAppExplain2 img{width: 43.5%;} 
-.imgAppExplain3 img{width: 43.5%;} 
-.imgAppExplain4 img{width: 53.5%;} 
+.imgAppExplain img{margin: 5% 0; width: 53.5%;} 
 .imgCnt .imgTitle{text-align: center;margin-bottom: 3%;}		
 ul.listNom,ul.listDot{margin-left: 1.75%; padding: 0;}
 ul.listNom,ul.listDot,.listTxtCon{margin-top: 1.5%;}
@@ -165,6 +161,7 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
 	.bgMgn{padding-top: 5%; padding-bottom: 4.5%;}
 	.noBgMgnbtm{padding-bottom: 0;}
 	.searchMgnBtm{margin-bottom:-6%;}
+	.imgAppExplain img{width: 65%;} 
 	.textNote{padding-left: 2.5%; background-size: 1.5%;background-position-y: 2.8%;}
 	ul.listNom,ul.listDot{margin-left: 2.15%;}
 	ul.listDot{margin-left: 2%;}
@@ -229,10 +226,7 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
     .imgCnt{width: 100%; margin-top: 7.5%;}
 	.imgCnt .imgTitle{margin-bottom: 5%;}
 	.imgCnt img{margin-bottom: 12%;}
-	.imgAppExplain1 img{width: 38%;} 
-    .imgAppExplain2 img{width: 43.5%;} 
-    .imgAppExplain3 img{width: 43.5%;} 
-    .imgAppExplain4 img{width: 93%;} 	
+	.imgAppExplain img{width: 93%;} 	
 	.textNote{padding-left: 4.5%; background-size: 2.6%;background-position-y: 1.6%;}
 	.QRcode p{width: 100%; padding:0 22.5% 0 16%; margin: 6% 0;}
 	.QRcode p:first-child{margin-top: 8%;}
