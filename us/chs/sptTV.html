@@ -51,7 +51,7 @@
     <!--主体内容 start-->
 	<div class="container1920">
 	    <div class="mainLayout">
-       <section>
+       <section class="sptTVbanner">
       	    <div ng-include="'sptBanner.html'"></div>	   
        </section>
        
@@ -67,7 +67,7 @@
 		  </div>           	      	
        </section>
        
-       <section class="BB">
+       <section class="supportTV">
        <div class="useCon">	    
 	    <div class="bgMgn noBgMgnbtm lineGray">
 		<div class="mainMgn200">
@@ -319,14 +319,14 @@
 </body>
 <script>
 $(".use").click(function(){
-    $(".BB").children().css("display", "none");
+    $(".supportTV").children().css("display", "none");
     $(".useCon").css('display','block');
     $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');
 })
 
 $(".fault").click(function(){
-    $(".BB").children().css("display", "none");
+    $(".supportTV").children().css("display", "none");
     $(".faultCon").css('display','block');
     $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');  

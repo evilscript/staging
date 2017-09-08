@@ -42,7 +42,7 @@
     <!--主体内容 start-->
 	<div class="container1920">
 		<div class="mainLayout">
-       <section>
+       <section class="sptMBbanner">
       	    <div ng-include="'sptBanner.html'"></div>	   
        </section>
        
@@ -59,7 +59,7 @@
 		  </div>           	      	
        </section>
        
-       <section class="mobile">
+       <section class="supportMobile">
        <div class="useCon">	    
 	    <div class="bgMgn gradient">
 		<div class="mainMgn200">
@@ -537,14 +537,14 @@
 </body>
 <script>
 $(".use").click(function(){
-    $(".mobile").children().css("display", "none");
+    $(".supportMobile").children().css("display", "none");
     $(".useCon").css('display','block');
     $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');
 })
 
 $(".fault").click(function(){
-    $(".mobile").children().css("display", "none");
+    $(".supportMobile").children().css("display", "none");
     $(".faultCon").css('display','block');
     $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');  

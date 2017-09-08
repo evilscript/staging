@@ -95,7 +95,7 @@
     <!--主体内容 start-->
 	<div class="container1920">
 		<div class="mainLayout">
-       <section>
+       <section class="sptATbanner">
       	    <div ng-include="'sptBanner.html'"></div>	   
        </section>
        
@@ -113,7 +113,7 @@
 		  </div>           	      	
        </section>
        
-       <section class="sptAccount">
+       <section class="supportAccount">
        <div class="accountCon">
 		
 		<div class="bgMgn gradient">
@@ -424,27 +424,27 @@
 </body>
 <script>
 $(".account").click(function(){
-    $(".sptAccount").children().css("display", "none");
+    $(".supportAccount").children().css("display", "none");
     $(".accountCon").css('display','block');
     $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');
 })
 
 $(".bill").click(function(){
-    $(".sptAccount").children().css("display", "none");
+    $(".supportAccount").children().css("display", "none");
     $(".billCon").css('display','block');
     $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');  
 })
 
 $(".payment").click(function(){
-    $(".sptAccount").children().css("display", "none");
+    $(".supportAccount").children().css("display", "none");
     $(".paymentCon").css('display','block');
     $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');  
 })
 $(".details").click(function(){
-    $(".sptAccount").children().css("display", "none");
+    $(".supportAccount").children().css("display", "none");
     $(".detailsCon").css('display','block');
     $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');  
