@@ -18,7 +18,6 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <!--这里继续添加子页面的Css引用文件--> 
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
     
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
@@ -27,24 +26,23 @@
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
     <script src="../shared/js/AmyInterim.js"></script>
-    <!--这里继续添加子页面的Js引用文件-->
+
     <style>
 	/**/
 	.faultCon{display: none;}
 	.imgConCenter{padding-right: 0;}
 	@media (max-width:1000px){ 
-	     .imgConCenter{padding:0 5%}
+	.imgConCenter{padding:0 5%}
 	}
 	</style>
 </head>
 
 
 <body ng-app="">
-    <!--Amy制作--> 
-
+    <!-- Author: Amy --> 
 	<div ng-include="'header.html'"></div>
 
-    <!--主体内容 start-->
+    <!--main content begin-->
 	<div class="container1920">
 	    <div class="mainLayout">
        <section class="sptBBbanner">
@@ -142,24 +140,28 @@
 		</div>
 		<div class="partAll titMgnTop">
 	       <p class="title24 mTitle32 fwb">iTalkBB APP国际长途拨打方式：</p>
+	       <p class="btnImgN title24 mTitle32 fwb" onclick="show('foldApp','imgApp')">iTalkBB APP国际长途拨打方式<img id="imgApp" src="../shared/images/icons/doubleArrowOrangeDown.png"/></p>
+ 
+           <div id="foldApp">
 		   <ul class="listNom text18 mText26">
 		   	<li>
 		   		<p>扫描下方二维码下载APP，或者到Apple Store或Google Play搜寻“iTalkBB”, 下载APP并进行安装；</p>
 		   		<div class="appQRcode clearfix">
 		   		  <div class="QRcode">
 		   		  	 <p>
-		   		  	 <img src="../shared/images/support/appQRcode1.png" alt="">
-		   		  	 <img src="../shared/images/support/chs_appBtn1.png" alt="">
+		   		  	 <img src="../shared/images/icons/appQRcodeApple.png" alt="">
+					 <img src="../shared/images/icons/chs_appBtnApple.png" alt="">
+ 
 		   		  	 <span class="showM mTitle24">适用于 iPhone 下载</span>
 		   		  	 </p>
 		   		  	 <p>
-		   		  	 <img src="../shared/images/support/appQRcode2.png" alt="">
-		   		  	 <img src="../shared/images/support/chs_appBtn2.png" alt="">
+		   		  	 <img src="../shared/images/icons/appQRcodeGoogle.png" alt="">
+		   		  	 <img src="../shared/images/icons/chs_appBtnGoogle.png" alt="">
 		   		  	 <span class="showM mTitle24">适用于 Android 手机下载</span>
 		   		  	 </p>
 		   		  	 <p>
-		   		  	 <img src="../shared/images/support/appQRcode3.png" alt="">
-		   		  	 <img src="../shared/images/support/chs_appBtn3.png" alt="">
+		   		  	 <img src="../shared/images/icons/appQRcodeAPK.png" alt="">
+		   		  	 <img src="../shared/images/icons/chs_appBtnAPK.png" alt="">
 		   		  	 <span class="showM mTitle24">适用于 Android 手机下载</span>
 		   		  	 </p>
 		   		  </div>
@@ -168,60 +170,48 @@
 		   	</li>
 		   	<li>
 		   		 <p>安装后, 先浏览“欢迎页面”, 并点击确认服务条款；</p>
-		   		 <div class="imgLeft hideM" style="width: 38%;">
+		   		 <div class="imgAppExplain imgAppExplain1">
 		   		   <img src="../shared/images/support/chs_useBBExplain1.png" alt="">
-				 </div>
-				 <div class="showM imgCnt">
-		   		   <img src="../shared/images/support/chs_mUseBBExplain1.png" alt="">
 				 </div>
 		   	</li>
 		   	<li>
 		   		<p>第一次使用APP时，需要绑定手机号并进行验证码（PIN）验证，验证码为四个数字；	</p>
-		   		<div class="imgLeft hideM" style="width: 43.5%;">
+		   		<div class="imgAppExplain imgAppExplain2">
 		   		   <img src="../shared/images/support/chs_useBBExplain2.png" alt="">
-				</div>
-	   	        <div class="showM imgCnt">
-		   		   <img src="../shared/images/support/chs_mUseBBExplain2.png" alt="">
-				 </div>	   		
+				</div>   		
 		   	</li>
 		   	<li>
 		   		<p>手机号验证成功后可以开始使用APP，选择“Wi-Fi拨打”或“手机分钟数拨打”两种拨打方式：</p>
-		   		<p class="fclearfix"><span class="Sharp">&gt;</span>
+		   		<p class="clearfix"><span class="Sharp">&gt;</span>
 		   		<span class="textCon" style="margin-left: -1%;">“Wi-Fi拨打”：免费，不会额外费用；</span>
 		   		</p>
 		   		<p class="clearfix"><span class="Sharp">&gt;</span>
 		   		<span class="textCon" style="margin-left: -1%;">“手机分钟数拨打”：将使用手机运营商提供的分钟数；</span>
 		   		</p>
-		   		<div class="imgLeft hideM" style="width: 43.5%;">
+		   		<div class="imgAppExplain imgAppExplain3">
 		   		   <img src="../shared/images/support/chs_useBBExplain3.png" alt="">
 				</div>
-	   	        <div class="showM imgCnt">
-		   		   <img src="../shared/images/support/chs_mUseBBExplain3.png" alt="">
-				 </div>
 		   	</li>
 		   	<li>
 		   		 <p>遵循以下方式，可以直接输入被拨打号码；</p>
-		   		 <div class="imgLeft hideM" style="width: 54.5%;">
+		   		 <div class="imgAppExplain imgAppExplain4">
 		   		   <img src="../shared/images/support/chs_useBBExplain4.png" alt="">
-				</div>
-   	            <div class="showM imgCnt">
-		   		   <img src="../shared/images/support/chs_mUseBBExplain4.png" alt="">
 				 </div>
-	   	        <div class="pMgn"></div>
 		   	</li>
-		   </ul>			
+		   </ul>
+		  </div>			
 		</div>
 		<div class="partAll titMgnTop">
 	       <p class="title24 mTitle32 fwb">中国号码 950 拨打方式： </p>
 		   <div class="text18 mText26">
-		   	  <p class="listTxtCon">任何中国的亲友联系您，直拨这个 950 开头的 11 位号码，就能接通您在美国的电话，无需支付任何国际长途费用，就像拨打一个普通市话一样。亲友拨打您的 950 号码时，只需直接输入 950 号码，无需在号码前加拨 1 或其他任何国际区号。<a class="textLink" href="">了解详情；</a>
+		   	  <p class="listTxtCon">任何中国的亲友联系您，直拨这个 950 开头的 11 位号码，就能接通您在美国的电话，无需支付任何国际长途费用，就像拨打一个普通市话一样。亲友拨打您的 950 号码时，只需直接输入 950 号码，无需在号码前加拨 1 或其他任何国际区号。<a class="linkOrange" href="">了解详情；</a>
 		   	  </p>
 		   </div>			
 		</div>
 		<div class="partAll titMgnTop">
 	       <p class="title24 mTitle32 fwb">台湾通用号码拨打方式：</p>
 		   <div class="text18 mText26">
-		   	  <p class="listTxtCon">您的 iTalkBB 蜻蜓电话附带一个台湾通用号码的服务。在台湾的亲友无需支付任何国际长途费用拨打方式：先拨打 02-40660660 或 40502999 的任意 1 个，接通后输入您的 899 号码。<a class="textLink" href="">了解详情；</a>
+		   	  <p class="listTxtCon">您的 iTalkBB 蜻蜓电话附带一个台湾通用号码的服务。在台湾的亲友无需支付任何国际长途费用拨打方式：先拨打 02-40660660 或 40502999 的任意 1 个，接通后输入您的 899 号码。<a class="linkOrange" href="">了解详情；</a>
 		   	  </p>
 		   </div>			
 		</div>
@@ -236,7 +226,8 @@
 	       <p class="title24 mTitle32 fwb">转号步骤：</p>
 		   <ul class="listNom text18 mText26">
 		   	<li>
-		   		<p>在线填写 Letter of Authorization 完成转号申请<br> http://www.italkbb.com/bb/chs/Transfer/chs_Number_Transfer.asp；	</p>	   		 
+		   		<p>在线填写 Letter of Authorization 完成转号申请<br> 
+		   		<a class="linkOrange" href="http://www.italkbb.com/bb/chs/Transfer/chs_Number_Transfer.asp" target="_blank">http://www.italkbb.com/bb/chs/Transfer/chs_Number_Transfer.asp</a>；	</p>	   		 
 		   	</li>
 		   	<li>
 		   		<p>或者您需要把现在的电话账单发给 Portin@iTalkBB.com 或传真到 1-800-872-2059；</p>
@@ -287,7 +278,7 @@
            <p class="titFirst title30 mTitle38 fwb">产品功能</p>
 	       <p class="title24 mTitle32 fwb">iTalkBB APP - 让您用手机直接拨打国际长途</p>
 	       <div class="text18 mText26">
-		   	  <p class="listTxtCon">iTalkBB APP 是一款为 iTalkBB 蜻蜓电话用户免费提供国际通话的手机拨打工具，让您免费或以超低费率拨打国际长途电话。支持 Wifi（数据）拨打，及手机分钟拨打两种模式。您在使用时，只需直拨目的地号码，也可直接使用手机通讯录中的联络人讯息，无需再输入接驳号。注册之后，马上下载，便能完全替代您现有手机公司的付费国际长途功能。查看使用方式，<a class="textLink" href="#">请点击iTalkBB APP国际长途拨打方式；</a></p>
+		   	  <p class="listTxtCon">iTalkBB APP 是一款为 iTalkBB 蜻蜓电话用户免费提供国际通话的手机拨打工具，让您免费或以超低费率拨打国际长途电话。支持 Wifi（数据）拨打，及手机分钟拨打两种模式。您在使用时，只需直拨目的地号码，也可直接使用手机通讯录中的联络人讯息，无需再输入接驳号。注册之后，马上下载，便能完全替代您现有手机公司的付费国际长途功能。查看使用方式，<a class="linkOrange" href="#">请点击iTalkBB APP国际长途拨打方式；</a></p>
 		   </div>			
 		</div>
 		<div class="partAll titMgnTop">
@@ -336,7 +327,7 @@
 		</div>
 		
 		<div class="partAll titMgnTop clearfix">
-           <div class="btnTxt24 title24 mTitle32 fwb" onclick="show('foldCall','imgCall')">来电转移 - 设置方法<img id="imgCall" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
+           <div class="btnImgN title24 mTitle32 fwb" onclick="show('foldCall','imgCall')">来电转移 - 设置方法<img id="imgCall" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
            <div id="foldCall" class="foldBox" style="display: none;">
              <div class="bubbleAngle"></div>
              <div class="foldText text18 mText26">
@@ -362,7 +353,7 @@
            <p class="title24 mTitle32 fwb">来电等候</p>	       		
 		</div>
 		<div class="partAll titMgnTop clearfix">
-           <div class="btnTxt24 title24 mTitle32 fwb" onclick="show('foldCall2','imgCall2')">三方通话 - 使用方法<img id="imgCall2" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
+           <div class="btnImgN title24 mTitle32 fwb" onclick="show('foldCall2','imgCall2')">三方通话 - 使用方法<img id="imgCall2" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
            <div id="foldCall2" class="foldBox" style="display: none;">
              <div class="bubbleAngle"></div>
              <div class="foldText text18 mText26">
@@ -390,7 +381,7 @@
 		   </div>			
 		</div>
 		<div class="partAll titMgnTop clearfix">
-           <div class="btnTxt24 title24 mTitle32 fwb" onclick="show('foldCall3','imgCall3')">语音信箱 - 使用方法<img id="imgCall3" src="../shared/images/support/doubleArrowOrangeDown.png"/></div>
+           <div class="btnImgN title24 mTitle32 fwb" onclick="show('foldCall3','imgCall3')">语音信箱 - 使用方法<img id="imgCall3" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
            <div id="foldCall3" class="foldBox" style="display: none;">
              <div class="bubbleAngle"></div>
              <div class="foldText text18 mText26">
@@ -640,15 +631,16 @@
 	  </div>		
 	  </section>
    
-      <!--帮助支持搜索 start--> 
+      <!--help support search begin--> 
       <section class="searchMgnBtm">
         <div ng-include="'sptSearch.html'"></div>
       </section>
-      <!--帮助支持搜索 end-->
+      <!--help support search end-->
       
     </div>
 	</div>
-	<!--主体内容 end-->
+	<!--main content end-->
+
     
     <div class="lineBlue"></div>
 	<div ng-include="'footer.html'"></div>

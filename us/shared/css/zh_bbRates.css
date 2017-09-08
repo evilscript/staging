@@ -91,7 +91,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
 	border-right: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-	background: #fff url(../images/support/supportSearch.png) no-repeat scroll center center;
+	background: #fff url(../images/icons/magnifierGray.png) no-repeat scroll center center;
 	background-size: 55%;
     background-position-x: 60%;
 }

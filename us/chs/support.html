@@ -18,7 +18,6 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <!--这里继续添加子页面的Css引用文件-->
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
 
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
@@ -26,12 +25,12 @@
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
-    <!--这里继续添加子页面的Js引用文件-->
+
     <style>
 	/**/	
 	.sptHot{background: #f2f2f2;border-top: 1px solid #dedede; padding: 2% 0;}
     .hotCon{margin-left: 9%;}
-    .hotCon .hotTitle{line-height: 2; padding-left: 2%;margin-left: -2%; background: url(../shared/images/support/supportHot.png) no-repeat; background-size: 1%;background-position-y: 50%;}
+    .hotCon .hotTitle{line-height: 2; padding-left: 2%;margin-left: -2%; background: url(../shared/images/icons/hotSpotBlue.png) no-repeat; background-size: 1%;background-position-y: 50%;}
 	.hotBox a,.hotBox a:link,.hotBox a:visited{color: #222;}
     .hotBox p{float: left; width: 25%; line-height: 1.5;}
 	.hotBox p:hover{color: #ff7f00; text-decoration: underline;}
@@ -50,10 +49,10 @@
 </head>
 
 <body ng-app="">
-    <!--Amy制作--> 
+    <!-- Author: Amy --> 
     <div ng-include="'header.html'"></div>
 
-    <!--主体内容 start-->
+    <!--main content begin-->
     <div class="container1920">
         <div class="mainLayout">
        <section>
@@ -63,11 +62,11 @@
       	  <div class="mainMgn200">
         	<div class="lineOrange"></div>        	
 		  </div>
-          <!--帮助支持搜索 start--> 
+          <!--help support search begin--> 
           <div class="supportSearch">
              <div ng-include="'sptSearch.html'"></div> 
           </div> 
-          <!--帮助支持搜索 end-->     	      	
+          <!--help support search end-->     	      	
        </section> 
       
        <section class="mainMgn200">
@@ -97,7 +96,8 @@
        </section>
     </div>
     </div>
-    <!--主体内容 end-->
+    <!--main content end-->
+
 
     <div class="lineBlue"></div>
     <div ng-include="'footer.html'"></div>

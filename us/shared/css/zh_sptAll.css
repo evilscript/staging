@@ -28,7 +28,7 @@
 	border-right: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-	background: #fff url(../images/support/supportSearch.png) no-repeat scroll center center;
+	background: #fff url(../images/icons/magnifierGray.png) no-repeat scroll center center;
 	background-size: 55%;
     background-position-x: 60%;
 }
@@ -52,12 +52,12 @@
 .serviceBox{margin-top: 4%; margin-bottom: 6%; margin-left: 3.4%; padding: 0 5%;}
 .serviceBox p{float: left; width: 32%; padding-top: 15%; border-right: 1px solid #b1b1b1;}
 .serviceBox p.noBoder{border: none;}
-.service1{background: url(../images/support/supportIcon1.png) no-repeat scroll center center;}
-.service2{background: url(../images/support/supportIcon2.png) no-repeat scroll center center;}
-.service3{background: url(../images/support/supportIcon3.png) no-repeat scroll center center;}
-.service1:hover{background: url(../images/support/supportIcon1H.png) no-repeat scroll center center;}
-.service2:hover{background: url(../images/support/supportIcon2H.png) no-repeat scroll center center;}
-.service3:hover{background: url(../images/support/supportIcon3H.png) no-repeat scroll center center;}
+.service1{background: url(../images/icons/callCenterIcon.png) no-repeat scroll center center;} 
+.service2{background: url(../images/icons/weChatIcon.png) no-repeat scroll center center;} 
+.service3{background: url(../images/icons/storeIcon.png) no-repeat scroll center center;} 
+.service1:hover{background: url(../images/icons/callCenterIconH.png) no-repeat scroll center center;} 
+.service2:hover{background: url(../images/icons/weChatIconH.png) no-repeat scroll center center;} 
+.service3:hover{background: url(../images/icons/storeIconH.png) no-repeat scroll center center;} 
 .service1:hover,.service2:hover,.service3:hover,.service1,.service2,.service3{background-size: 40%; background-position-y: 10%;}
 /* support search end */
 
@@ -97,7 +97,11 @@
 .titMgnTop,.imgTitle{margin-top: 3%;}
 .imgCnt{margin: 0 auto; width: 66%;}
 .imgCnt img{width: 100%; margin-top: 3% 0;}	
-.imgLeft img{width: 100%; margin: 5% 0;}
+.imgAppExplain img{margin: 5% 0;} 
+.imgAppExplain1 img{width: 36%;} 
+.imgAppExplain2 img{width: 43.5%;} 
+.imgAppExplain3 img{width: 43.5%;} 
+.imgAppExplain4 img{width: 53.5%;} 
 .imgCnt .imgTitle{text-align: center;margin-bottom: 3%;}		
 ul.listNom,ul.listDot{margin-left: 1.75%; padding: 0;}
 ul.listNom,ul.listDot,.listTxtCon{margin-top: 1.5%;}
@@ -108,7 +112,7 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
 .Sharp,.textCon{float: left; display: block;}
 .Sharp{vertical-align: top;width: 2%;}
 .textCon{ width: 95%;}
-.textNote{color: #ff7f00; padding-left: 2%; background: url(../images/support/supportPay.png) no-repeat; background-size: 1.3%; background-position-x: 0%;background-position-y: 2%;}	
+.textNote{color: #ff7f00; padding-left: 2%; background: url(../images/icons/hotSpotOrange.png) no-repeat; background-size: 1.3%; background-position-x: 0%;background-position-y: 2%;}	
 .appQRcode{margin: 1.5% 0;}
 .QRcode p{float: left; width: 20%;margin-right: 4%; cursor: pointer;}
 .QRcode p:first-child{margin-top: 0;}
@@ -148,7 +152,7 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
     .foldBoxSpc1 .bubbleAngle{margin-left: 36%;}
 	.foldBoxSpc2 .bubbleAngle{margin-left: 61.5%;}
 	.partMgnTop{margin-top: 0;}
-	.partAll,.imgCnt{padding:0 5%;}
+	.partAll,.imgCnt{padding:0 5%; padding-right: 4.8%;} 
 	.Sharp{width: 2.5%;}
 	/* Sharp text box end */
 	
@@ -214,7 +218,7 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
 	.bgMgn{padding-top: 9%; padding-bottom: 8%;}
 	.noBgMgnbtm{padding-bottom: 0;}
 	.searchMgnBtm{margin-bottom:-12%;}
-    .partAll{width: 100%;padding: 0 5.2%;}
+    .partAll{padding: 0 5.2%;} 
 	ul.listNom,ul.listDot{margin-left: 6.5%;margin-top: 3%;}
 	ul.listNom li{line-height: 1.61;}
 	ul.listDot{margin-left: 6%;}
@@ -225,8 +229,10 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
     .imgCnt{width: 100%; margin-top: 7.5%;}
 	.imgCnt .imgTitle{margin-bottom: 5%;}
 	.imgCnt img{margin-bottom: 12%;}
-	.imgLeft{width: 100%;}
-	.imgLeft img{width: 100%;}	
+	.imgAppExplain1 img{width: 38%;} 
+    .imgAppExplain2 img{width: 43.5%;} 
+    .imgAppExplain3 img{width: 43.5%;} 
+    .imgAppExplain4 img{width: 93%;} 	
 	.textNote{padding-left: 4.5%; background-size: 2.6%;background-position-y: 1.6%;}
 	.QRcode p{width: 100%; padding:0 22.5% 0 16%; margin: 6% 0;}
 	.QRcode p:first-child{margin-top: 8%;}
@@ -248,26 +254,4 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
     .sptBanCon{margin-top: -6%; padding-bottom: 3%;}
 }
 
-
-
-/* Indicator arrow begin */
-.btnTxt18,.btnTxt24{cursor: pointer;}
-.btnTxt18 img,.btnTxt24 img{display: inline-block;}
-.btnTxt18 img{margin-left: 1.5%; width: 3%; margin-bottom: 1.3%;}
-.btnTxt24 img{margin-left: 1%; width: 1%; margin-bottom: .5%;}
-
-@media  (min-width:1001px) and (max-width:1300px){
-     .btnTxt18 img{margin-left: 1.5%; margin-bottom: 1.2%;}
-}
-
-@media  (min-width:768px) and (max-width:1000px){
-     .btnTxt18 img{margin-left: 2.5%; width: 5%; margin-bottom: 1.5%;}
-	 .btnTxt24 img{margin-left: 1.2%; width: 1.5%; margin-bottom: .6%;}
-}
-
-@media  (max-width:767px){
-     .btnTxt18 img{margin-left: 2.8%; width: 5%; margin-bottom: 1.8%;}
-	 .btnTxt24 img{margin-left: 1.5%; width: 2%; margin-bottom: 1%;}
-}
-/* Indicator arrow end */
 	

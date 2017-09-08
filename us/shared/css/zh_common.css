@@ -1,5 +1,10 @@
-/*全站通用css文件，主要为Header和Footer及整体网站的公共style*/
-/*初始化设置*/
+/* Version:1.0  Author: Amy,Carson 
+  Create Date:2017-07-27 
+  Update Date:2017-09-08 
+  Desc : Support Common CSS */ 
+  
+ 
+/*Initialization settings begin*/ 
 *{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;/*盒模型定义高度和宽度*/}
 html{overflow-y:scroll;/*提供滚动机制*/-webkit-text-size-adjust: none;/*取消浏览器最小字体限制*/}
 body {font-family: 'pingfang', 微软雅黑, sans-serif; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
@@ -11,21 +16,19 @@ ul,ol,li{list-style-type:none;}
 /* end of clearfix */ 
 
 a, a:hover, a:focus{ text-decoration:none;}
-a.textLink, a.textLink:hover, a.textLink:focus{color: #ff7f00;}
-a.textLink:hover, a.textLink:focus{text-decoration: underline;}
+a.linkOrange, a.linkOrange:hover, a.linkOrange:focus{color: #ff7f00;} 
+a.linkOrange:hover, a.linkOrange:focus{text-decoration: underline;} 
 img{border:none; display:block;}
-img[usemap], map area{
-    outline: none;
-}
+img[usemap], map area{ outline: none;}
 .trans{opacity:0;}
 .opacity {filter: alpha(opacity=75); -moz-opacity: .75; -khtml-opacity: .75; opacity: .75;}
 input:focus{ outline:none;}
 .org{color:#ff972f;}
 .scroll{height:auto!important;}
 .w100{width:100%;}
-/*初始化设置结束*/
+/*Initialization settings end*/ 
 
-/* mainLayout start */
+/* mainLayout begin */
 .mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%;}
 .mainMgnTop{margin-top: 3%;}
 /*.mainLimited{margin: 0 auto;}*/
@@ -35,10 +38,6 @@ input:focus{ outline:none;}
 
 /*字体部分*/
 .fontI{font-style: italic;}
-
-/*苹方字体，引用字体粗细为300，500和700*/
-/*.fwl{font-weight: 300;}
-.fwn{font-weight: 500;}*/
 .fwb{font-weight: 700;}
 
 @font-face {
@@ -740,7 +739,7 @@ input:focus{ outline:none;}
 }
 
 @media  (min-width:1001px){
-	/*.mainLimited{margin: 0 auto;width: 79.2%;}*/	
+    .mainMgn320{margin: 0 auto;width: 66.7%;}
 	.mainMgn200{margin: 0 auto;width: 79.2%;}
 	.mainMgn100{margin: 0 auto;width: 89.5%;;}
 }
@@ -1153,19 +1152,34 @@ input:focus{ outline:none;}
 
 
 
+/* Supplemental public style begin */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+/* Indicator arrow begin */
+ 
+.btnImgN,.btnImgPer30{cursor: pointer;} 
+.btnImgN img,.btnImgPer30 img{display: inline-block;} 
+.btnImgN img{margin-left: .8%; width: 1.1%; margin-bottom: .4%;} 
+.btnImgPer30 img{margin-left: 2.5%; width: 4.16%; margin-bottom: 1.3%;} 
+/* Indicator arrow end */
+  
+@media  (min-width:768px) and (max-width:1000px){ 
+     /* Indicator arrow begin */ 
+   .btnImgN img{margin-left: 1.2%; width: 1.4%; margin-bottom: .4%;} 
+   .btnImgPer30 img{margin-left: 3%; width: 5.4%; margin-bottom: 1.6%;} 
+   /* Indicator arrow end */ 
+}
+ 
+@media  (max-width:767px){ 
+     /* Indicator arrow begin */ 
+   .btnImgN img{margin-left: 1.8%; width: 3%; margin-bottom: 1%;} 
+   .btnImgPer30 img{margin-left: 5%; width: 6.5%; margin-bottom: 1.6%;} 
+   /* Indicator arrow end */
+ 
+}
+ 
+ 
+/* Supplemental public style begin */
+ 
 
 
