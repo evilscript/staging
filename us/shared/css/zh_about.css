@@ -157,7 +157,7 @@
 .aboutNewsBanner3{
     margin-right:0;
 }
-.aboutNewsBannerText{
+.aboutNewsBannerText, .aboutNewsBannerTextMobile{
     background: black;
     opacity: 0.8;
     color: white;
@@ -755,6 +755,14 @@ a:hover{
         width:100%;
         padding-left: 0;
         padding-right: 0;
+    }
+    .floatImg {
+        margin-top: -20%;
+        right: 1%;
+        width: 15%;
+    }
+    .aboutNewsBanner1, .aboutNewsBanner2, .aboutNewsBanner3 {
+        border-bottom: 5px solid white;
     }
 }
 
