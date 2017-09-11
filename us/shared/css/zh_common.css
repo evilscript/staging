@@ -9,6 +9,8 @@
 html{overflow-y:scroll;/*提供滚动机制*/-webkit-text-size-adjust: none;/*取消浏览器最小字体限制*/}
 body {font-family: 'pingfang', 微软雅黑, sans-serif; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
 ul,ol,li{list-style-type:none;}
+input[type="text"]{-webkit-appearance: none;}
+textarea{-webkit-appearance: none;}
 /* Clear Fix */  
 .clearfix::before,.clearfix::after { display: table;line-height: 0; content:"";}
 .clearfix::after{clear:both;}
