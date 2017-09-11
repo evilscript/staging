@@ -20,7 +20,11 @@
 }
 
 @media (max-width: 1000px) and (min-width: 768px){
-
+    .aboutBanner {
+        background: url(../../shared/images/about/companyBannerBg.jpg) top center no-repeat;
+        background-size: 200%;
+        background-position-x: 18%;
+    }
 }
 
 @media (max-width:767px) {
