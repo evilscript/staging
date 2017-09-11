@@ -42,7 +42,10 @@
 
     <div class="container1920">
         <div class="mainLayout">
-            <div ng-include="'aboutNewsBanner.html'"></div>
+            <div id="aboutNewsBanner"></div>
+            <script>
+                $('#aboutNewsBanner').load('aboutNewsBanner.html')
+            </script>
 
             <!--关于我们系列页面 tab 公共部分，每页的active不同-->
             <div ng-include="'aboutTab.html'"></div>
