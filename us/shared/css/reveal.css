@@ -54,6 +54,7 @@
 		cursor: pointer;
 		} 
 
+
 @media (min-width:768px) and (max-width:1000px) {
     .reveal-modal{margin-left: -42.5%; width: 85%;}
 

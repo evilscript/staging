@@ -1,4 +1,11 @@
-body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:left; word-break:break-word;}
+/* Version:1.0  Author: Amy
+  Create Date:2017-09-01 
+  Update Date:2017-09-11 
+  Desc : bbPlan CSS */ 
+.bbRatesBanner{max-width: 1920px; height: 33vw; text-align: left;padding-top: 8%; padding-left: 10.42%;  color: #fff; background: url(../images/bb/bbRateBannerBg.jpg) no-repeat; background-size: 100%;}
+.bbRatesBanner span{display: block;}
+.bannerTitle{margin-bottom: 1.5%;}
+
 	a{text-decoration: none; color: #222;}
 	.alphabet p.selected:hover{ background: red;color:#fff;}
 	.bbRegion{padding: 4.5% 0 4.5% 0;}
@@ -145,6 +152,8 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
    
    
 @media  (min-width:768px) and (max-width:1000px){
+    .bbRatesBanner{max-width: 1000px; height: 46vw;  padding-top: 10.3%; padding-left: 6%; background: url(../images/bb/ipadBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
+
     .bbRegion{padding: 6% 0 5.5% 0;}
 	.regionPart1{margin-bottom: 3%;}
     .regionPart2,.ratesPart2{padding: 0 5%;}
@@ -163,6 +172,9 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff; text-align:lef
     .listRight{width: 14%;}
 }
 @media (max-width:767px){
+    .bbRatesBanner{max-width: 767px; height: 100vw; text-align: center; padding-top: 6%; padding-left: 5%; padding-right: 5%; background: url(../images/bb/mBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
+	.bannerTitle{line-height: 1.2; margin-bottom: 3.5%;}
+	
     .bbRegion{padding: 9% 0 12.5% 0;}
 	.regionPart1{margin-bottom: 6%;}
     .regionPart2,.ratesPart2{padding: 0 5%;}

@@ -46,19 +46,23 @@
 
 <body ng-app="">
    <!-- Author: Amy --> 
-   
-   <!--头部文件引入 start--> 
    <div ng-include="'header.html'"></div>
-   <!--头部文件引入 end--> 
   
-   <!--main content begin-->
-  
+   <!--main content begin-->  
    <div class="container1920">
      <div class="mainLayout">
-       <section>
-      	    <img class="hideM" src="../shared/images/bb/chs_bbPlanBanner.jpg" alt="" style="width:100%;">
-      	    <img class="showM" src="../shared/images/bb/chs_mBBRateBanner.jpg" alt="" style="width:100%;">	   
+      
+       <section class="bbPlanBanner">
+     	    <div class="bannerText">
+     	    	<p class="title60 mTitle60 fwb bannerTitle">iTalkBB蜻蜓电话</p>
+     	    	<p class="title30 mTitle30">
+     	    	   <span>海外华人市场NO.1家庭电话品牌，</span>
+     	    	   <span>14年历史，A+产品服务。</span>
+     	    	</p>
+     	    </div>      	    	   
        </section>
+       <!--<img class="hideM" src="../shared/images/bb/chs_bbPlanBanner.jpg" alt="" style="width:100%;">
+       <img class="showM" src="../shared/images/bb/chs_mBBRateBanner.jpg" alt="" style="width:100%;">-->
        
        <section class="mainMgnTop">
       	  <div class="bbPlanLimitedBig">
@@ -507,7 +511,7 @@
              	<div class="Func Func1">
              		<p class="bbTitMgnBtm text18 mText26">三方通话</p>
              		<p class="text18 mText26 hideM">让分处三地的亲友同时通话。</p>
-             		<p class="funcUse btnTxt18 text18 mText26 hideM" onclick="show('flodUse','imgUse')">使用方法<img id="imgUse" src="../shared/images/support/doubleArrowOrangeDown.png" /></p>
+             		<p class="funcUse btnImgN text18 mText26 hideM" onclick="show('flodUse','imgUse')">使用方法<img id="imgUse" src="../shared/images/icons/doubleArrowOrangeDown.png" /></p>
              		<div id="flodUse" class=" hideM" style="margin-top: 10%; text-align: left; display: none">
              		  <p class="text14 hideM">第一步：请先拨通对方电话。</p>
              		  <p class="text14 hideM">第二步：按应答键或Flash键，让对方处于等候状态。</p>
