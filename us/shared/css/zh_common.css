@@ -50,6 +50,9 @@ input:focus{ outline:none;}
 .fromHeader{background: #535353; color: #fff;}
 .list4_1{width: 22%;}
 .list4_2,.list4_3,.list4_4{width: 26%;}
+.fromBox3 p{padding: 2.5% 5%;}
+.list3_2{width: 50%;}
+.list3_1,.list3_3{width: 25%;}
 .bgWhite{background: #fff;}
 .bgGray{background: #ececec;}
 /* from css end */
@@ -1184,24 +1187,62 @@ input:focus{ outline:none;}
 
 /* Supplemental public style begin */
 
+/* Sharp text box begin */
+.foldBox{margin-top: 1%;}
+.foldText{background: #fff; padding: 2.65% 2% 2% 3%; border-radius: 10px; border: #e9e9e9 1px solid;}
+.foldText > ul.listNom{margin: 0;padding-left: 2%;}
+.bubbleAngle{display: inline-block; width:10px; height:10px; border-width:0 0 1px 1px; border-color:#e9e9e9;  border-style:solid; background-color: #fff;transform:rotate(135deg); margin-left: 4.5%; margin-bottom: -10px;}
+/* Sharp text box end */
+
+/* menu styles begin */
+.sptMenu{margin: 0 auto; width: 54%; padding-top: 1.2%;}
+.menuBox{width: 101.1%;}
+.menuBox a,.menuBox a:link,.menuBox a:visited{color: #222;}
+.menuBtn{float: left; text-align: center; margin-right: 1%; border: 1px solid #327fe8;line-height: 200%;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
+.menuBtn:hover,.selected,.menuBtn:visited{color:white;box-shadow: inset 450px 0 0 #327fe8;}
+.menuBox2 .menuBtn{ width: 48.96%;}
+.menuBox3 .menuBtn{ width: 32.3%;}
+.menuBox4 .menuBtn{ width: 23.97%;}
+/* menu styles begin */
  
-/* Indicator arrow begin */
- 
+/* Indicator arrow begin */ 
 .btnImgN,.btnImgPer30{cursor: pointer;} 
 .btnImgN img,.btnImgPer30 img{display: inline-block;} 
 .btnImgN img{margin-left: .8%; width: 1.1%; margin-bottom: .4%;} 
 .btnImgPer30 img{margin-left: 2.5%; width: 4.16%; margin-bottom: 1.3%;} 
 /* Indicator arrow end */
   
-@media  (min-width:768px) and (max-width:1000px){ 
-     /* Indicator arrow begin */ 
+@media  (min-width:768px) and (max-width:1000px){    
+    /* Sharp text box begin */
+	.foldBox{margin-top: .5%;}
+	.foldText{padding: 3.2% 2.2% 2.2% 3.6%;}	
+	/* Sharp text box end */
+	
+	/* menu styles begin */
+	.sptMenu{width: 100%; margin-top: .8%;}
+	.menuBox p{margin-bottom: 0;}
+	/* menu styles end */
+	
+    /* Indicator arrow begin */ 
    .btnImgN img{margin-left: 1.2%; width: 1.4%; margin-bottom: .4%;} 
    .btnImgPer30 img{margin-left: 3%; width: 5.4%; margin-bottom: 1.6%;} 
    /* Indicator arrow end */ 
 }
  
-@media  (max-width:767px){ 
-     /* Indicator arrow begin */ 
+@media  (max-width:767px){   
+    /* Sharp text box begin */	
+	.foldBox{margin-top: .8%;}
+	.foldText{padding:5% 4% 2.2% 5%; border-radius: 8px;}	
+	.foldText > ul.listNom{margin: 0;padding-left: 5%;}
+	.bubbleAngle{margin-bottom: -10px; margin-left: 8.5%;}
+	/* Sharp text box end */
+     
+    /* menu styles begin */
+	.sptMenu{width: 100%; margin-top: 2%;}	
+	.menuBox p{margin-bottom: 0;}
+	/* menu styles end */
+	
+    /* Indicator arrow begin */ 
    .btnImgN img{margin-left: 1.8%; width: 3%; margin-bottom: 1%;} 
    .btnImgPer30 img{margin-left: 5%; width: 6.5%; margin-bottom: 1.6%;} 
    /* Indicator arrow end */
