@@ -1,6 +1,7 @@
-/*	--------------------------------------------------
-	Reveal Modals
-	-------------------------------------------------- */
+/* Version:1.0  Author: Amy
+  Create Date:2017-09-05 
+  Update Date:2017-09-11 
+  Desc : bbPlan Reveal CSS */ 
 		
 	.reveal-modal-bg { 
 		position: fixed; 
@@ -32,7 +33,7 @@
 		border-radius: 5px;
 		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
 		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
-		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		box-shadow: 0 0 10px rgba(0,0,0,.4);
 		}
 		.reveal-modal2 {
 		top: 35%; 
@@ -41,8 +42,6 @@
 		text-align: center;
 		}
 		
-	
-	
 	.reveal-modal .close-reveal-modal {
 		font-size: 22px;
 		line-height: .5;
@@ -54,4 +53,12 @@
 		font-weight: bold;
 		cursor: pointer;
 		} 
+
+@media (min-width:768px) and (max-width:1000px) {
+    .reveal-modal{margin-left: -42.5%; width: 85%;}
+
+}
+
+
+
 

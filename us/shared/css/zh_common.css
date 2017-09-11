@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy,Carson 
   Create Date:2017-07-27 
-  Update Date:2017-09-08 
+  Update Date:2017-09-11 
   Desc : Support Common CSS */ 
   
  
@@ -18,6 +18,7 @@ ul,ol,li{list-style-type:none;}
 a, a:hover, a:focus{ text-decoration:none;}
 a.linkOrange, a.linkOrange:hover, a.linkOrange:focus{color: #ff7f00;} 
 a.linkOrange:hover, a.linkOrange:focus{text-decoration: underline;} 
+a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;} 
 img{border:none; display:block;}
 img[usemap], map area{ outline: none;}
 .trans{opacity:0;}
@@ -35,6 +36,23 @@ input:focus{ outline:none;}
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00; -khtml-border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8; -khtml-border-bottom: .4vw solid #327fe8; margin-top: 7%;}
 /* mainLayout end */
+
+/* from css begin */
+.formCon{text-align: center;}
+.fromBox{width: 100%;border-bottom: 1px #e8e8e8 solid;}
+.fromBox td{border-right: #d8d8d8 1px solid;}
+.fromBox td:last-child{border-right: none;}
+.fromBox .fromBtn{background: #327fe8;}
+.fromBox p{margin-bottom: 0;padding: 3.5% 5%;line-height: 1.5;}
+.fromBox p.crossBar{padding: 1.5%;}
+.fromBox span{display: block;}
+.fromTitle{margin-bottom: 2%;}
+.fromHeader{background: #535353; color: #fff;}
+.list4_1{width: 22%;}
+.list4_2,.list4_3,.list4_4{width: 26%;}
+.bgWhite{background: #fff;}
+.bgGray{background: #ececec;}
+/* from css end */
 
 /*字体部分*/
 .fontI{font-style: italic;}
@@ -752,6 +770,12 @@ input:focus{ outline:none;}
 	.lineBlue{height:0; border-bottom: .55vw solid #327fe8; margin-top: 6%;}
 	/* mainLayout end*/
 	
+	/* from css begin */
+   .fromBox p{padding: 5% 5%;}
+   .fromBox p.crossBar{padding: 1.5%;}
+   .fromTitle{margin-bottom: 2%;}
+   /* from css end */
+	
 	/* fontSize start */
 	.title140{font-size: 12vw;}/* 120px */ /*以767px在1000px分辨率的比例取值，下同*/
 	.title70{font-size: 6.0vw;}/* 60px */ 
@@ -902,6 +926,12 @@ input:focus{ outline:none;}
 	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
 	.lineBlue{height:0; border-bottom: .9vw solid #327fe8; margin-top: 12%;}
 	/* mainLayout end*/
+	
+	/* from css begin */
+   .fromBox p{padding: 6% 8%;}
+   .fromBox p.crossBar{padding: 2.5%;}
+   .fromTitle{margin-bottom: 3%;}
+   /* from css end */
 	
 	/* fontSize start */
 	.mTitle162{font-size: 21.12vw;}

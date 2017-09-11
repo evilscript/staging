@@ -27,31 +27,12 @@
     <script src="../shared/js/common.js"></script>
     <!--这里继续添加子页面的Js引用文件-->
     <style>
-	body{margin: 0;padding:0;overflow: hidden;background-color: #fff;text-align:justify}
-   .fromTitle{margin-bottom: 2%;}
-   .ratesList,.ratesCon{margin-bottom: 3%; text-align: center;}
-   .ratesList table{border: 0; width: 100%;}
-   .ratesList>table td{border-right: #d8d8d8 1px solid; padding:1% 3% 1.1% 3%;}
-   .ratesList>table td:last-child{border-right: none;}
-   .listTitle{background: #535353; color: #fff;}
-   .list01{width: 22%;}
-   .list02,.list03,.list04{width: 26%;}
-   .bgWhite{background: #fff;}
-   .bgGray{background: #ececec;}
    
-@media  (min-width:768px) and (max-width:1000px){    
-	.ratesList>table td{padding:1.2% 3.8% 1.3% 4%;}
-	/*.list01{width: 36%;}
-    .list02{width: 50%;}
-    .list03{width: 14%;}*/
+@media  (min-width:768px) and (max-width:1000px){  
+   .mainMgnTop{margin-top: 4.5%;}
 }
-@media (max-width:767px){    
-	.ratesList{margin: 5% 0 5% 0;}
-	.ratesList>table td{padding:1.3% 3.8% 1.4% 4%;}
-	/*.list01{width: 34%;}
-    .list02{width: 48%;}
-    .list03{width: 18%;}*/
-
+@media (max-width:767px){   
+   .mainMgnTop{margin-top: 10%;}
 }
 
     </style>
@@ -59,13 +40,10 @@
 
 
 <body ng-app="">
-   <!--Amy制作--> 
-   
-   <!--头部文件引入 start--> 
+   <!-- Author: Amy --> 
    <div ng-include="'header.html'"></div>
-   <!--头部文件引入 end-->
     
-   <!--主体内容 start-->
+   <!--main content begin-->
    <div class="container1920">
      <div class="mainLayout">
        <section>
@@ -73,95 +51,14 @@
        </section>
        
        <section class="mainMgnTop">
-      	  <div class="mainLimited ratesList">
-             	   <p class="fromTitle title36 mTitle44">iTalkBB家庭電話計劃比較</p>
-              	   <table cellpadding="0" cellspacing="0" style="border-bottom: 1px #e8e8e8 solid;">
-              	   	  <tbody>
-             	   	  	 <tr class="listTitle" >
-              	   	  	 	<td class="title16 mTitle20 list01">计划详情</td>
-              	   	  	 	<td class="title16 mTitle20 list02">家庭经济计划</td>
-              	   	  	 	<td class="title16 mTitle20 list03">全球包月计划</td>
-              	   	  	 	<td class="title16 mTitle20 list04">全球包年计划</td>
-              	   	  	 </tr>
-              	   	  	 <tr class="bgWhite" >
-              	   	  	 	<td class="title16 mTitle20 list01">标准资费</td>
-              	   	  	 	<td class="title16 mTitle20 list02">$4.99/月</td>
-              	   	  	 	<td class="title16 mTitle20 list03">$24.99/月</td>
-              	   	  	 	<td class="title16 mTitle20 list04">$299/年</td>
-              	   	  	 </tr>
-              	   	  	 <tr class="bgGray" >
-              	   	  	 	<td class="title16 mTitle20 list01">当前优惠</td>
-              	   	  	 	<td class="title16 mTitle20 list02">首月免费，每天前5名送一盒高级月饼</td>
-              	   	  	 	<td class="title16 mTitle20 list03">免设备费，返运费， 每天前5名送一盒高级月饼</td>
-              	   	  	 	<td class="title16 mTitle20 list04">减免$29.99开通费</td>
-              	   	  	 </tr>
-              	   	  	 <tr class="bgWhite" >
-              	   	  	 	<td class="title16 mTitle20 list01">合约期</td>
-              	   	  	 	<td class="title16 mTitle20 list02">2年</td>
-              	   	  	 	<td class="title16 mTitle20 list03">1年</td>
-              	   	  	 	<td class="title16 mTitle20 list04">无合约（剩余月费全部返还）</td>
-              	   	  	 </tr>
-              	   	  	 <tr class="bgGray" >
-              	   	  	 	<td class="title16 mTitle20 list01">美国及加拿大境内电话</td>
-              	   	  	 	<td class="title16 mTitle20 list02">无限免费拨打</td>
-              	   	  	 	<td class="title16 mTitle20 list03">2¢/分钟</td>
-              	   	  	 	<td class="title16 mTitle20 list04">无限免费拨打</td>
-              	   	  	 </tr>
-              	   	  	 <tr class="bgWhite" >
-              	   	  	 	<td class="title16 mTitle20 list01">国际长途</td>
-              	   	  	 	<td class="title16 mTitle20 list02">
-              	   	  	 	   <p>中港台等<a href="bbRates.html" class="textLink">全球29个国家</a></p>
-              	   	  	 	   <p>无限拨打</p>
-              	   	  	 	   <p><a href="bbRates.html" class="textLink">其他国家国际费率</a></p>
-             	   	  	 	</td>
-              	   	  	 	<td class="title16 mTitle20 list03">
-							   <p>中港台2¢/分钟</p>
-              	   	  	 	   <p>其他国家国际费率</p>
-             	   	  	 	</td>
-              	   	  	 	<td class="title16 mTitle20 list04">
-							   <p>中港台等<a href="bbRates.html" class="textLink">全球29个国家</a></p>
-              	   	  	 	   <p>无限拨打</p>
-              	   	  	 	   <p><a href="bbRates.html" class="textLink">其他国家国际费率</a></p>
-             	   	  	    </td>
-              	   	  	 </tr>
-              	   	  	 <tr class="bgGray" >
-              	   	  	 	<td class="title16 mTitle20 list01">&nbsp;</td>
-              	   	  	 	<td class="title16 mTitle20 list02">$4.99/月</td>
-              	   	  	 	<td class="title16 mTitle20 list03">$24.99/月</td>
-              	   	  	 	<td class="title16 mTitle20 list04">$299/年</td>
-              	   	  	 </tr>
-              	   	  	 <tr class="listTitle" >
-              	   	  	 	<td class="title16 mTitle20 list01">&nbsp;</td>
-              	   	  	 	<td class="title16 mTitle20 list02">家庭经济计划</td>
-              	   	  	 	<td class="title16 mTitle20 list03">全球包月计划</td>
-              	   	  	 	<td class="title16 mTitle20 list04">全球包年计划</td>
-              	   	  	 </tr>
-              	   	  	 <tr class="bgWhite" >
-              	   	  	 	<td class="title16 mTitle20 list01">标准资费</td>
-              	   	  	 	<td class="title16 mTitle20 list02">$4.99/月</td>
-              	   	  	 	<td class="title16 mTitle20 list03">$24.99/月</td>
-              	   	  	 	<td class="title16 mTitle20 list04">$299/年</td>
-              	   	  	 </tr>
-              	   	  	 <tr class="bgGray" >
-              	   	  	 	<td class="title16 mTitle20 list01">标准资费</td>
-              	   	  	 	<td class="title16 mTitle20 list02">$4.99/月</td>
-              	   	  	 	<td class="title16 mTitle20 list03">$24.99/月</td>
-              	   	  	 	<td class="title16 mTitle20 list04">$299/年</td>
-              	   	  	 </tr>
-              	   	  </tbody>
-              	   </table>       	
-               </div>          	      	
+      	  <div class="mainMgn200" ng-include="'bbFromCom.html'"></div>          	      	
        </section>
                    
     </div>
   </div>
-  <!--主体内容 end-->  
+  <!--main content end-->  
     
-  <!--蓝色装饰线，样式已放入common.css，直接引用即可-->
   <div class="lineBlue"></div>
-    
-  <!--底部文件引入 start--> 
   <div ng-include="'footer.html'"></div>
-  <!--底部文件引入 end-->
 </body>
 </html>

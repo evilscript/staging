@@ -1,5 +1,8 @@
-/**
- */
+/* Version:1.0  Author: Amy
+  Create Date:2017-09-05 
+  Update Date:2017-09-11 
+  Desc : bbPlan Swiper CSS */ 
+  
 .mSwiperBox{margin:0 auto;position:relative;overflow:hidden;z-index:1}
 .mSwiper-wrapper{
     position:relative;

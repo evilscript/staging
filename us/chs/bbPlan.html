@@ -18,7 +18,6 @@
 
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <!--这里继续添加子页面的Css引用文件-->
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_bbPlan.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/swiper.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/reveal.css">
@@ -30,8 +29,7 @@
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
-    <script src="../shared/js/AmyInterim.js"></script>
-    <!--这里继续添加子页面的Js引用文件-->	  
+    <script src="../shared/js/AmyInterim.js"></script>  
     <!-- 电话查询 -->
     <script src="../shared/js/italkbb.tools.js"></script>
     <script src="../shared/js/colorbox.js"></script>
@@ -121,11 +119,7 @@
        	  	    <div class="planForm">
                       <div id="planFormCompare" class="reveal-modal">
                          <div class="planFormCon">
-                            <p class="title36 mTitle44">iTalkBB家庭电话计划比较</p>
-                            <div class="">
-                            <!--<p style="font-size:14px;">iTalkBB蜻蜓与布鲁克林篮网队奖学金只限纽约地区申请者</p>
-                            <a href="https://www.sojump.hk/jq/11657087.aspx" target="_blank"><p>点击申请</p></a>-->
-                            </div>
+                            <div ng-include="'bbFromCom.html'"></div>
                          </div>
                          <a class="close-reveal-modal" style="text-decoration:none">&#215;</a>
                       </div>                 
@@ -308,18 +302,7 @@
        	      <div class="planOtherBox">
         	     <div class="planRefund">
        	            <div class="mPlanCompare showM">
-        	           <p class="title24 mTitle32 fwb"><a class="linkOrange" href="" target="_blank">iTalkBB家庭電話計劃比較</a></p>
-                       <div id="fold02" class="foldBox" style="display: none;">
-                          <div class="bubbleAngle"></div>
-                          <div class="foldText text18 mText26">
-	   	                     <p class="clearfix">
-		   		             <span class="textCon">此内容仅为效果展示</span>
-		   	                 </p>
-		   	                 <p class="clearfix">
-		   		             <span class="textCon">此内容仅为效果展示</span>
-		   	                 </p>
-		                  </div>		   
-		               </div>
+        	           <p class="title24 mTitle32 fwb"><a class="linkOrange" href="bbcompare.html" target="_blank">iTalkBB家庭電話計劃比較</a></p>
 		            </div>
         	        <p class="title36 mTitle44 fwb">30天试用承诺，无理由全额退款！ <a href="" class="linkOrange">如何申请退款？</a></p>
         	        <div class="hideM">

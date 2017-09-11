@@ -1,4 +1,8 @@
-body{margin: 0;padding:0;overflow: hidden;background-color: #fff;text-align:justify}
+/* Version:1.0  Author: Amy
+  Create Date:2017-09-05 
+  Update Date:2017-09-11 
+  Desc : bbPlan CSS */ 
+  
 /*from support begin*/
     .btnTxt18,.btnTxt24{cursor: pointer;}
 	.btnTxt18 img,.btnTxt24 img{display: inline-block;}
@@ -28,6 +32,7 @@ body{margin: 0;padding:0;overflow: hidden;background-color: #fff;text-align:just
 .planSpace{ width: 6.9%;position: relative;}
 .planCompare{overflow:hidden; position:absolute; z-index:100; margin-left: -17%; margin-top: 18%; width: 146%; bottom: 0;}
 .planCompare img{display: inline-block; width: 100%;}
+.planFormCon{padding-bottom: 1.8%;}
 .planCon{width: 46.55%; background: #fcfcfc;}
 .titleBox{border-bottom:1px solid #222; padding: 0 21%;}
 .titleBox p{padding:8% 0% 2% 24%; margin-bottom:-9.5%; background: #fcfcfc url(../images/bb/chs_bbPlanIconHot.png) no-repeat; background-size: 19%; background-position-x: 10%;background-position-y: 50%;}
