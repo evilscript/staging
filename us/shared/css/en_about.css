@@ -24,7 +24,9 @@
 }
 
 @media (max-width:767px) {
-
+    .aboutTitle{
+        font-size:7.5vw;
+    }
 }
 
 

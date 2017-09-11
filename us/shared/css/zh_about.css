@@ -593,12 +593,12 @@ a:hover{
         line-height: 1.5;
     }
     .aboutTextLeftImg {
-        width: 25%;
-        float:left;
-        margin-top: 5%;
+        display:none;
     }
-    .aboutTextRightText{
-        width:75%;
+    .aboutTextRightText {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
     .lastBg{
         background-size:100%;
@@ -727,6 +727,34 @@ a:hover{
         text-align: center;
         padding-top: 5%;
         padding-bottom: 10%;
+    }
+    .aboutBanner {
+        background: url(../../shared/images/about/aboutCompanyMobileBanner.jpg) top center no-repeat;
+        background-size: cover;
+    }
+    .aboutTitle{
+        text-align:center;
+    }
+    .aboutSubtitle{
+        padding-bottom:68vw;
+        text-align:center;
+    }
+    .aboutContentTab {
+        margin-top: 5%;
+    }
+    .aboutSectionTabText{
+        margin-top:15%;
+    }
+    .aboutTextTitle {
+        padding-top: 10%;
+    }
+    .aboutTextText{
+        padding-top:3%;
+    }
+    .mobileContainerSpecialDiv{
+        width:100%;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
