@@ -43,8 +43,6 @@
                 LocationName = "A";
             }
             var Params = { PageStart: 1, PageSize: 999999, LocationName: LocationName, ComboID: ComboID, ModuleType: ModuleType };
-            //Rates_Search(Params, "#js_rates_results_tb");
-            //Rates_HighlightBtn(Params, "#js_rates_btn_tb");
             Rates_FireBtn(Params, "#js_rates_btn_tb");
             Rates_FireSearchBtn(Params, "#js_rates_sch_btn_tb");
             // 费率相关 js end
@@ -60,7 +58,7 @@
 <body ng-app="">
    <!-- Author: Amy -->    
    <div ng-include="'header.html'"></div>
-    
+       
    <!--main content begin--> 
    <div class="container1920">
      <div class="mainLayout">

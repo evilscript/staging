@@ -60,6 +60,18 @@ input:focus{ outline:none;}
 .bgGray{background: #ececec;}
 /* from css end */
 
+/* price css begin */
+.priceBox{margin-top: 5%;}
+.priceBox1{margin-left: 32.2%;}
+.priceBox2{margin-left: 26%;}
+.priceBox p{float: left; line-height: .8; margin-bottom:0;}
+.priceBox p.subScript{margin-left: -22.5%; margin-top: 17%;}
+.priceBox p.priceSmall{text-align: left;}
+.priceSmall span{display: block;}
+.priceSmall .smallNom{margin-bottom: 15%;}
+.priceSmall .smallSub{margin-left: 5.8%;}
+/* price css end */
+
 /*字体部分*/
 .fontI{font-style: italic;}
 .fwb{font-weight: 700;}
@@ -113,15 +125,16 @@ input:focus{ outline:none;}
 
 .text18{font-size: 18px;}
 .text16{font-size: 16px;}
+.text14{font-size: 14px;}
 
 /*.title80{font-size: 80px;}
 .title48{font-size: 48px;}
 .title32{font-size: 32px;}
-.title28{font-size: 28px;}
+
 .title26{font-size: 26px;}
 .title22{font-size: 22px;}
 .text20{font-size: 20px;}
-.text14{font-size: 14px;}*/
+*/
 
 /* fontSize end */
 
@@ -538,9 +551,9 @@ input:focus{ outline:none;}
 .showM{
     display:none;
 }
-.hideM{
+/*.hideM{
     display:block;
-}
+}*/
 /*Mobile header*/
 .noscroll {
     /*position: fixed;
@@ -614,7 +627,8 @@ input:focus{ outline:none;}
     .title16{font-size: 14px;}
 	
 	.text18{font-size: 15px;}
-    .text16{font-size: 14px;}	
+    .text16{font-size: 14px;}
+	.text14{font-size: 13px;}
 	
 	
     /*.title80{font-size: 67px;}    
@@ -624,7 +638,7 @@ input:focus{ outline:none;}
     .title26{font-size: 22px;}    
     .title22{font-size: 18px;} 	
 	.text20{font-size: 17px;}    
-    .text14{font-size: 13px;}*/
+    */
 	
 	/* fontSize end */
 	
@@ -657,7 +671,8 @@ input:focus{ outline:none;}
     .title16{font-size: 13px;}
 	
 	.text18{font-size: 14px;}
-    .text16{font-size: 13px;}	
+    .text16{font-size: 13px;}
+	.text14{font-size: 12px;}
 	
 	
     /*.title80{font-size: 58px;}    
@@ -667,7 +682,7 @@ input:focus{ outline:none;}
     .title26{font-size: 19px;}    
     .title22{font-size: 17px;}
     .text20{font-size: 16px;}    
-    .text14{font-size: 12px;}*/
+    */
 	
 	/* fontSize end */
     .headerMirrorSearchPart{
@@ -715,6 +730,7 @@ input:focus{ outline:none;}
 	
 	.text18{font-size: 1vw;}
     .text16{font-size: .9vw;}
+	.text14{font-size: .85vw;}
 	
 	
    /* .title80{font-size: 4.2vw;}    
@@ -724,7 +740,7 @@ input:focus{ outline:none;}
     .title26{font-size: 1.38vw;}    
     .title22{font-size: 1.15vw;}
     .text20{font-size: 1.1vw;}    
-    .text14{font-size: .85vw;}*/
+    */
 	
 	/* fontSize end */
     .headerBackToTop {
@@ -766,6 +782,33 @@ input:focus{ outline:none;}
     }
 }
 
+/*price position begin*/
+@media  (min-width:1801px) and (max-width:1880px){
+    .priceBox1{margin-left: 31.2%;}
+	.priceBox2{margin-left: 24.2%;}
+}
+@media  (min-width:1701px) and (max-width:1800px){
+    .priceBox1{margin-left: 30.2%;}
+	.priceBox2{margin-left: 22.6%;}
+}
+@media  (min-width:1601px) and (max-width:1700px){
+    .priceBox1{margin-left: 29.4%;}
+	.priceBox2{margin-left: 22%;}
+}
+@media  (min-width:1501px) and (max-width:1600px){
+    .priceBox1{margin-left: 31.4%;}
+	.priceBox2{margin-left: 25%;}
+}
+@media  (min-width:1401px) and (max-width:1500px){
+    .priceBox1{margin-left: 30.3%;}
+	.priceBox2{margin-left: 23%;}
+}
+@media  (min-width:1301px) and (max-width:1400px){
+    .priceBox1{margin-left: 31.9%;}
+	.priceBox2{margin-left: 25%;}
+}
+/*price position end*/
+
 @media  (min-width:1001px){
     .mainMgn320{margin: 0 auto;width: 66.7%;}
 	.mainMgn200{margin: 0 auto;width: 79.2%;}
@@ -781,11 +824,15 @@ input:focus{ outline:none;}
 	/* mainLayout end*/
 	
 	/* from css begin */
-   .fromBox p{padding: 5% 5%;}
-   .fromBox p.crossBar{padding: 1.5%;}   
-   .fromBox .fromBtn p{margin: 6% 18% 6.3% 18%; padding: 2% 3%;}
-   .fromTitle{margin-bottom: 2%;}
-   /* from css end */
+    .fromBox p{padding: 5% 5%;}
+    .fromBox p.crossBar{padding: 1.5%;}   
+    .fromBox .fromBtn p{margin: 6% 18% 6.3% 18%; padding: 2% 3%;}
+    .fromTitle{margin-bottom: 2%;}
+    /* from css end */
+   
+    /* price css begin */
+    
+    /* price css end */
 	
 	/* fontSize start */
 	.title140{font-size: 12vw;}/* 120px */ /*以767px在1000px分辨率的比例取值，下同*/
@@ -802,6 +849,7 @@ input:focus{ outline:none;}
 	
 	.text18{font-size: 1.6vw;}/* 16px */
     .text16{font-size: 1.4vw;}/* 14px */
+	.text14{font-size: 1.3vw;}/* 13px */
 	
 	
 	
@@ -811,8 +859,7 @@ input:focus{ outline:none;}
     /*.title28{font-size: 2.6vw;}*/  /* 26px */
     /*.title26{font-size: 2.4vw;} */ /* 24px */    
     /*.title22{font-size: 2.0vw;} */ /* 20px */
-    /*.text20{font-size: 1.8vw;}*/  /* 18px */    
-    /*.text14{font-size: 1.3vw;} */ /* 13px */
+    /*.text20{font-size: 1.8vw;}*/  /* 18px */ 
 	/* fontSize end */	
 	
     .toggle{
@@ -940,11 +987,18 @@ input:focus{ outline:none;}
 	/* mainLayout end*/
 	
 	/* from css begin */
-   .fromBox p{padding: 6% 8%;}
-   .fromBox p.crossBar{padding: 2.5%;}   
-   .fromBox .fromBtn p{margin: 10% 10% 10.3% 10%; padding: 2% 3%;}
-   .fromTitle{margin-bottom: 3%;}
-   /* from css end */
+    .fromBox p{padding: 6% 8%;}
+    .fromBox p.crossBar{padding: 2.5%;}   
+    .fromBox .fromBtn p{margin: 10% 10% 10.3% 10%; padding: 2% 3%;}
+    .fromTitle{margin-bottom: 3%;}
+    /* from css end */
+	
+    /* price css begin */
+    .priceBox{margin-top: 5%;}
+	.priceBox1{margin-left: 30.5%;}
+	.priceBox2{margin-left: 23.4%;}
+	.priceBox3{margin-left: 19%;}
+    /* price css end */
 	
 	/* fontSize start */
 	.mTitle162{font-size: 21.12vw;}
@@ -1218,7 +1272,7 @@ input:focus{ outline:none;}
 /* Indicator arrow begin */ 
 .btnImgN,.btnImgPer30{cursor: pointer;} 
 .btnImgN img,.btnImgPer30 img{display: inline-block;} 
-.btnImgN img{margin-left: .8%; width: 1.1%; margin-bottom: .4%;} 
+.btnImgN img{margin-left: .8%; width: 1.1%; margin-bottom: .3%;} 
 .btnImgPer30 img{margin-left: 2.5%; width: 4.16%; margin-bottom: 1.3%;} 
 /* Indicator arrow end */
   

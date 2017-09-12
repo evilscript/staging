@@ -1,17 +1,18 @@
 /* Version:1.0  Author: Amy
   Create Date:2017-09-05 
-  Update Date:2017-09-11 
+  Update Date:2017-09-12 
   Desc : bbPlan CSS */ 
-
+  
+/* bbPlan banner begin */
 .bbPlanBanner{max-width: 1920px; height: 33vw; text-align: left;padding-top: 8%; padding-left: 10.42%;  color: #fff; background: url(../images/bb/bbPlanBannerBg.jpg) no-repeat; background-size: 100%;}
 .bbPlanBanner span{display: block;}
 .bannerTitle{margin-bottom: 1.5%;}
+/* bbPlan banner end */
 
 
 /*plan begin*/
 .left{float: left;}
 .right{float: right;}
-.bbTitMgnBtm{margin-bottom: 1.1vw;}
 .bbTitMgnBtm,.bbPlan,.bbPlanOther,.bbTryout,.bbApp,.otherFuncBox{text-align: center;}
 .tryoutCon > .left,.tryoutCon > .right{width: 50%;}
 .textBox p,.planBtn p{margin-bottom: 0;}
@@ -32,7 +33,7 @@
 .textBox{margin-top: 4%; padding-bottom: 7%; padding-right: 1%;}
 .textBox p{color: #ff7f00;}
 .textBox p img{display: inline-block; width: 12.2%; padding-bottom: 4.5%;}
-.priceBox{margin-top: 5%;}
+/*.priceBox{margin-top: 5%;}
 .priceBox1{margin-left: 32.2%;}
 .priceBox2{margin-left: 26%;}
 .priceBox p{float: left; line-height: .8; margin-bottom:0;}
@@ -40,21 +41,21 @@
 .priceBox p.priceSmall{text-align: left;}
 .priceSmall span{display: block;}
 .priceSmall .smallNom{margin-bottom: 15%;}
-.priceSmall .smallSub{margin-left: 5.8%;}
+.priceSmall .smallSub{margin-left: 5.8%;}*/
 .planList{background: #f2f2f2;}
 .listCon{padding: 10% 10% 8% 11%; text-align: left;}
 .listCon p{margin-bottom: 5%; padding-left: 7%; background: url(../images/bb/chs_bbPlanIconHook.png) no-repeat; background-size: 4%; background-position-y: .2vw;}
 .planBtn{float: left; width: 44%; background: #327fe8; margin-left: 28%; margin-top: -5%; padding-bottom: .2%; border-radius: 10px; cursor: pointer;}
-.planBtn p{line-height: 2;}
+.planBtn p{line-height: 1.8;}
 .planBtn a{color: #fff;}
 
 
 .planOtherBox{margin-bottom: 5%;}
 .planRefund{margin-bottom: 4.5%;}
 .planYear{}
-.planYearUp{background: #f8f8f8; padding-top: 8%; padding-bottom: 5.5%; padding-left: 18.5%;}
+.planYearUp{background: #f8f8f8; padding-top: 8%; padding-bottom: 5.5%; padding-left: 18%;}
 .planYearUp .yearText{float: left;}
-.planYearUp .yearTextCenter{margin-left: 4%; margin-right: 3%;}
+.planYearUp .yearTextCenter{margin-left: 3%; margin-right: 2%;}
 .planYearUp .yearTextRight{width: 36%; padding-right: 4%; text-align: left;}
 .planYearUp .priceBox3 {margin-top: -10%;}
 .planYearDown .planBtn{width: 22%; margin-left: 39%; margin-top: -2.5%;}
@@ -81,32 +82,23 @@
 .tryoutCon > .right{padding-right: 4.4%; padding-left: 4.5%; padding-bottom: 27%; background:url(../images/bb/bbPlanPic02.png) no-repeat scroll bottom; background-size: 79%;}
 .tryoutTxt{text-align: left;}
 .numberSearch{margin-top: 4%;}
+.searchImg,.searchBar,.searchBarLine,.searchButton{float: left; padding-top: 1.8%; padding-bottom: 1.8%; border: 1px solid #b1b1b1; line-height: 1.5;text-align: center;}
 .searchImg{
-	padding-top: 1.8%;
-    padding-bottom: 1.8%;
 	margin-left: 0%;
     width: 8%;
-	float: left;
 	font-weight: bold;
-	cursor: pointer;        
-    border: 1px solid #b1b1b1;
 	border-right: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 	background: #fff url(../images/bb/bbPlanIconNom.png) no-repeat scroll center center;
-	background-size: 40%;
+	background-size: 50%;
     background-position-x: 60%;
 }
 .searchBar,.searchBarLine{
-    padding-left: 1%;
-    padding-top: 1.8%;
-    padding-bottom: 1.8%;
+    padding-left: 1%;    
     margin-bottom: 0.5%;
-	text-align: center;
     width: 21%;
-    float:left;
 	color: #aaa;
-    border: 1px solid #b1b1b1;
 	border-radius:0;
 	border-left: none;
 	border-right: none;    
@@ -117,17 +109,12 @@
 	color: #b1b1b1;
 	background: #fff;
 }
-.searchButton {
-	padding-top: 1.8%;
-    padding-bottom: 1.8%;	   
-    width: 21%;
-    float: left;
-	text-align: center;
+.searchButton {   
+    width: 21%;	
     font-weight: bold;
 	color: #ff7f00;
     cursor: pointer;
-	background: #fff; 
-    border: 1px solid #b1b1b1;
+	background: #fff;
 	border-left-color: #ccc;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -136,10 +123,7 @@
     -moz-transition: all ease .8s;
     transition: all ease .8s;
 }
-.searchButton:hover{
-    color: white;
-    box-shadow: inset 200px 0 0 0 #ff7f00;
-}
+.searchButton:hover{color: white; box-shadow: inset 200px 0 0 0 #ff7f00;}
 .searchImg,.searchBar,.searchBarLine,.searchButton{line-height: 1.5}
 
 .bbApp{margin-bottom: 5%; padding: 3.5% 7.5%; padding-bottom: 2.5%; background:url(../images/bb/bbPlanBg02.jpg) no-repeat scroll top; color: #f2f2f2;}
@@ -160,36 +144,44 @@
 .function4{background:url(../images/bb/bbPlanBigIcon04.png)  no-repeat top; background-size: 26.2%;}
 .otherFunction .otherTitle{margin-bottom: 3%;}
 .otherFuncBox{padding: 0 3.5%;margin-bottom: -1%;}
-.otherFuncBox .Func{float: left; padding: 8% 1.6%  0 1.6%; width: 16.6%;}
+.otherFuncBox .Func{float: left; padding: 8% .5%  0 .5%; width: 16.6%;}
 .otherFuncBox .Func1{ background:url(../images/bb/bbPlanIcon09.png)  no-repeat top; background-size: 42%;}
-.funcUse img{ width: 6.8%; margin-left: 5%; margin-bottom: 1.7%;}
+.Func .btnImgN img{width: 6.8%; margin-left: 4%; margin-bottom: 1%;}
+.otherIconBox{margin-top: -3%;}
+.otherIconBox .foldText{text-align: left; padding-left: 6%; padding-right: 4%;}
+.otherIconBox p{margin-top: 2%;}
 
 /*price position begin*/
 @media  (min-width:1801px) and (max-width:1880px){
-    .priceBox1{margin-left: 31.2%;}
-	.priceBox2{margin-left: 24.2%;}
+    .planYearUp{padding-left: 17%;}
+    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
 }
 @media  (min-width:1701px) and (max-width:1800px){
-    .priceBox1{margin-left: 30.2%;}
-	.priceBox2{margin-left: 22.6%;}
+    .planYearUp{padding-left: 15.5%;}
+    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
 }
 @media  (min-width:1601px) and (max-width:1700px){
-    .priceBox1{margin-left: 29.4%;}
-	.priceBox2{margin-left: 22%;}
+    .planYearUp{padding-left: 13.5%;}
+    .planYearUp .yearTextRight{width: 32%; padding-right: 4%;}
 }
 @media  (min-width:1501px) and (max-width:1600px){
-    .priceBox1{margin-left: 31.4%;}
-	.priceBox2{margin-left: 25%;}
+    .planYearUp{padding-left: 18%;}
+    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
 }
 @media  (min-width:1401px) and (max-width:1500px){
-    .priceBox1{margin-left: 30.3%;}
-	.priceBox2{margin-left: 23%;}
-}
+    .planYearUp{padding-left: 15.5%;}
+    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
+}  
 @media  (min-width:1301px) and (max-width:1400px){
-    .priceBox1{margin-left: 31.9%;}
-	.priceBox2{margin-left: 25%;}
+    .planYearUp{padding-left: 17%;}
+    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
+}
+@media  (min-width:1001px) and (max-width:1300px){
+    .planYearUp{padding-left: 19%;}
+    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
 }
 /*price position end*/
+
 @media  (min-width:1001px){
 	.bbPlanLimited{margin: 0 auto;width: 79%;}	
 	.bbPlanLimitedBig,.planLimitedBig{margin: 0 auto;width: 89.5%;}
@@ -213,8 +205,8 @@
 	.planBtn p{margin-bottom: 1.2%;line-height: 1.5;}
 	
     .planOtherBox{margin-bottom: 5.5%;}
-    .planYearUp{padding-left: 11%;}
-	.planYearUp .yearTextCenter{margin-left: 4%; margin-right: 3%;}
+    .planYearUp{padding-left: 9.5%;}
+	.planYearUp .yearTextCenter{margin-left: 4%; margin-right: 2.5%;}
 	.planYearUp .yearTextRight{padding-right: 4%; width: 29%;}
 	.planYearUp .priceBox3 {margin-top: -10%;}
 	.planYearDown .planBtn{width: 24%; margin-left: 38%;}
@@ -229,7 +221,7 @@
     .appNote{text-align: center;}
     .function{padding: 0 5%;padding-top: 16%; margin-bottom: 5%;}
 	.otherFuncBox{margin-bottom: 6%}
-	.funcUse img{ width: 9.5%; margin-left: 5%; margin-bottom: 2%;}
+	.Func .btnImgN img{width: 8%;}
 }
 @media (max-width:767px){
     .bbPlanBanner{max-width: 767px; height: 100vw; text-align: center; padding-top: 9%; padding-left: 5%; padding-right: 5%; background: url(../images/bb/mBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
@@ -246,10 +238,10 @@
 	.titleBox p{padding:8% 0% 2% 21%; margin-bottom:-9.5%; background-size: 18.5%; background-position-x: 9.5%;background-position-y: 50%;}
 	.titleBox2 p{background: #fcfcfc;padding-left: 0;}
 	.planText{margin-top: 11%;}
-	.priceBox{margin-top: 5%;}
+	/*.priceBox{margin-top: 5%;}
 	.priceBox1{margin-left: 30.5%;}
 	.priceBox2{margin-left: 23.4%;}
-	.priceBox3{margin-left: 19%;}
+	.priceBox3{margin-left: 19%;}*/
 	.textBox p.textSpecial{margin: 8.6% 0;}
 	.textBox p img{width: 17%;}
 	.planList .listCon{ padding: 10% 6% 5% 8%;}
@@ -269,7 +261,7 @@
 	.iconsBox .iconCon{ width: 25%;padding: 0 2%;padding-top: 18%;margin-bottom: 6%;}
 	/*plan End*/
 	
-    .bbTitMgnBtm{margin-bottom: 2vw;}
+    /*.bbTitMgnBtm{margin-bottom: 2vw;}*/
 	.tryoutCon{padding-top: 13%; padding-bottom: 12.5%;}
     .tryoutCon > .left,.tryoutCon > .right,.bbFunction .function,.QRcode p,.appAPK{float: none; width: 100%;}	
 	.tryoutCon > .left{border-right:none; border-right: 1px #c1c1c1 solid; padding-bottom: 50%; margin-bottom: 11.5%;}
@@ -285,7 +277,7 @@
     .function{padding-top: 36%; margin-bottom: 15%;background-size: 30%;}
 	.otherFunction{margin-top: -1%;}
 	.otherFunction .otherTitle{margin-bottom: 5%;}
-	.otherFuncBox{margin-bottom: 9%;}	
+	.otherFuncBox{margin-bottom: -4%;}	
 	.otherFuncBox .Func{width: 25%; padding: 0 2%;padding-top: 18%; margin-bottom: 6%;background-size: 60%;}
 	.planIcons,.otherFuncBox{padding: 0 .6%;}
 	
