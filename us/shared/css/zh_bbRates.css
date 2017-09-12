@@ -16,8 +16,8 @@
 .countryCon{width: 100%;}
 .countryText{margin-left: 27%;}
 .conBlock{display: block;}
-.conTelephone{background: url(../images/bb/bbRateIconTelephone.png) no-repeat; background-size: 32%; background-position-x: 2%;background-position-y: 30%; padding-left: 15%;}
-.conPhone{background: url(../images/bb/bbRateIconPhone.png) no-repeat; background-size: 23%; background-position-y: 30%; padding-left: 10.5%; margin-left: 1%;}
+.conTelephone{background: url(../images/icons/homePhoneIconSmall.png) no-repeat; background-size: 32%; background-position-x: 2%;background-position-y: 30%; padding-left: 15%;}
+.conPhone{background: url(../images/icons/mobilePhoneIconSmall.png) no-repeat; background-size: 23%; background-position-y: 30%; padding-left: 10.5%; margin-left: 1%;}
 .countryBox{float: left; width: 20%; padding: 1.6% 0;}
 .Country01{background: url(../images/bb/bbRateIcon1.png) no-repeat; background-size: 23%;background-position-y: 50%;}
 .Country02{background: url(../images/bb/bbRateIcon2.png) no-repeat; background-size: 23%;background-position-y: 50%;}
