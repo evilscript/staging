@@ -31,6 +31,30 @@
     .aboutTitle{
         font-size:7.5vw;
     }
+    .textBg {
+        background: url(../../shared/images/about/textBg.jpg) no-repeat left top;
+        background-size: 100%;
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .special01{
+        padding-left: 27%;
+        padding-toP: 1%;
+    }
+    .special02{
+        padding-top: 2%;
+        padding-left: 3%;
+        padding-right: 44%;
+    }
+    .special03{
+        padding-top: 4%;
+        padding-left: 27%;
+    }
+    .special04{
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-right: 30%;
+    }
 }
 
 

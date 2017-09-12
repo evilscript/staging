@@ -104,7 +104,7 @@
                         </map>
                     </div>
                     <div class="showM">
-                        <img src="../shared/images/about/animationUS.jpg" class="img w100 clickUSA" usemap="#mobileGlobal" alt="">
+                        <img src="../shared/images/about/animationUS-en.jpg" class="img w100 clickUSA" usemap="#mobileGlobal" alt="">
                         <map name="mobileGlobal">
                             <area shape="rect" coords="548, 174, 627, 287" class="hoverUSA" alt="">
                             <area shape="rect" coords="482, 149, 550, 258" class="hoverCAN" alt="">
@@ -113,11 +113,28 @@
                             <area shape="rect" coords="286, 174, 352, 266" class="hoverCHN" alt="">
                         </map>
                     </div>
+<script>
+    $('.hoverUSA').click(function(){
+        $('.clickUSA').attr('src','../shared/images/about/animationUS-en.jpg');
+    });
+    $('.hoverAUS').click(function(){
+        $('.clickUSA').attr('src','../shared/images/about/animationAU-en.jpg');
+    });
+    $('.hoverCHN').click(function(){
+        $('.clickUSA').attr('src','../shared/images/about/animationCN-en.jpg');
+    });
+    $('.hoverSIN').click(function(){
+        $('.clickUSA').attr('src','../shared/images/about/animationSI-en.jpg');
+    });
+    $('.hoverCAN').click(function(){
+        $('.clickUSA').attr('src','../shared/images/about/animationCA-en.jpg');
+    });
+</script>
                     <div class="textBg showM">
-                        <p class="aboutTextText pin title18 mTitle26">全球第一大华裔、韩裔电信运营商</p>
-                        <p class="aboutTextText pin title18 mTitle26 special02">超过120万用户</p>
-                        <p class="aboutTextText pin title18 mTitle26 special03">每5位华人就有一位使用者</p>
-                        <p class="aboutTextText pin title18 mTitle26 special04">超过80%的品牌认知</p>
+                        <p class="aboutTextText pin title18 mTitle26 special01">No.1 telecom company in both the overseas Chinese and Korean market all over the globe</p>
+                        <p class="aboutTextText pin title18 mTitle26 special02">Over 1.2 million iTalkBB users located around the world</p>
+                        <p class="aboutTextText pin title18 mTitle26 special03">One iTalkBB user in every five Chinese people in the United States</p>
+                        <p class="aboutTextText pin title18 mTitle26 special04">Over 80% of Brand Awareness in Chinese communities</p>
                     </div>
 
                     <p class="aboutTextTitle pin title36 mTitle44 fwb">Our <span class="org">Services</span></p>
@@ -190,7 +207,7 @@
             $('.serviceIcon1img').css('opacity','0.15');
             $('.serviceIcon2img').css('opacity','0.15');
             $('.serviceIcon3img').css('opacity','0.15');
-            $('.serviceIcon2img').css('opacity','1');
+            $('.serviceIcon1img').css('opacity','1');
             flag = false;
         }
     });

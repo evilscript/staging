@@ -113,7 +113,23 @@
                         <p class="aboutTextText pin title18 mTitle26 special03">每5位华人就有一位使用者</p>
                         <p class="aboutTextText pin title18 mTitle26 special04">超过80%的品牌认知</p>
                     </div>
-
+<script>
+    $('.hoverUSA').click(function(){
+        $('.clickUSA').attr('src','../shared/images/about/animationUS.jpg');
+    });
+    $('.hoverAUS').click(function(){
+        $('.clickUSA').attr('src','../shared/images/about/animationAU.jpg');
+    });
+    $('.hoverCHN').click(function(){
+        $('.clickUSA').attr('src','../shared/images/about/animationCN.jpg');
+    });
+    $('.hoverSIN').click(function(){
+        $('.clickUSA').attr('src','../shared/images/about/animationSI.jpg');
+    });
+    $('.hoverCAN').click(function(){
+        $('.clickUSA').attr('src','../shared/images/about/animationCA.jpg');
+    });
+</script>
 
                     <p class="aboutTextTitle pin title36 mTitle44 fwb">我们的<span class="org">服务</span></p>
 
@@ -192,65 +208,65 @@
                             </div>
                         </div>-->
                     </div>
-                    <script>
-                        $('.imageToBeChanged').mouseover(function(){
-                            $(this).attr('src','../shared/images/about/aboutCompanyTextIconTrans2.png');
-                        }).mouseleave(function(){
-                            $(this).attr('src','../shared/images/about/aboutCompanyTextIconBlue.png');
-                        })
-                    </script>
+<script>
+    $('.imageToBeChanged').mouseover(function(){
+        $(this).attr('src','../shared/images/about/aboutCompanyTextIconTrans2.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/about/aboutCompanyTextIconBlue.png');
+    })
+</script>
                     <div class="aboutTextRightText right3">
                         <p class="rightTextTitle pin title30 mTitle32 fwb"><span class="sans">iTalkBB</span>蜻蜓电话</p>
                         <p class="rightTextSubTitle pin title18 mTitle26">为海外华人打造的专属的手机计划。<span class="sans">iTalkBB</span>蜻蜓独家推出最适合海外华人的手机计划，让用户可以在美国和中国享受无限通话/无限短信/无限流量和<span class="sans">4G LTE</span>高速流量。</p>
                     </div>
                     <div class="clear clearfix"></div>
 
-                    <script>
-                        $.fn.isInViewport = function() {
-                            var elementTop = $(this).offset().top;
-                            var elementBottom = elementTop + $(this).outerHeight();
+<script>
+    $.fn.isInViewport = function() {
+        var elementTop = $(this).offset().top;
+        var elementBottom = elementTop + $(this).outerHeight();
 
-                            var viewportTop = $(window).scrollTop();
-                            var viewportBottom = viewportTop + $(window).height();
+        var viewportTop = $(window).scrollTop();
+        var viewportBottom = viewportTop + $(window).height();
 
-                            return elementBottom > viewportTop && elementTop < viewportBottom;
-                        };
-                        var flag = true;
-                        $(window).on('resize scroll', function() {
-                            if ($('.specialLogoCenter').isInViewport() && flag) {
-                                $('.specialLogoCenter').css('opacity','0').css('z-index','-1');
-                                $('.serviceIcon1img').css('opacity','0.15');
-                                $('.serviceIcon2img').css('opacity','0.15');
-                                $('.serviceIcon3img').css('opacity','0.15');
-                                $('.serviceIcon2img').css('opacity','1');
-                                flag = false;
-                            }
-                        });
-                        $('.serviceIcon2img').click(function(){
-                            $('.serviceIcon2img').css('opacity','1');
-                            $('.serviceIcon1img').css('opacity','0.15');
-                            $('.serviceIcon3img').css('opacity','0.15');
-                            $('.right1').css('display','none');
-                            $('.right2').css('display','block');
-                            $('.right3').css('display','none');
-                        });
-                        $('.serviceIcon1img').click(function(){
-                            $('.serviceIcon1img').css('opacity','1');
-                            $('.serviceIcon2img').css('opacity','0.15');
-                            $('.serviceIcon3img').css('opacity','0.15');
-                            $('.right2').css('display','none');
-                            $('.right1').css('display','block');
-                            $('.right3').css('display','none');
-                        });
-                        $('.serviceIcon3img').click(function(){
-                            $('.serviceIcon3img').css('opacity','1');
-                            $('.serviceIcon1img').css('opacity','0.15');
-                            $('.serviceIcon2img').css('opacity','0.15');
-                            $('.right1').css('display','none');
-                            $('.right3').css('display','block');
-                            $('.right2').css('display','none');
-                        });
-                    </script>
+        return elementBottom > viewportTop && elementTop < viewportBottom;
+    };
+    var flag = true;
+    $(window).on('resize scroll', function() {
+        if ($('.specialLogoCenter').isInViewport() && flag) {
+            $('.specialLogoCenter').css('opacity','0').css('z-index','-1');
+            $('.serviceIcon1img').css('opacity','0.15');
+            $('.serviceIcon2img').css('opacity','0.15');
+            $('.serviceIcon3img').css('opacity','0.15');
+            $('.serviceIcon1img').css('opacity','1');
+            flag = false;
+        }
+    });
+    $('.serviceIcon2img').click(function(){
+        $('.serviceIcon2img').css('opacity','1');
+        $('.serviceIcon1img').css('opacity','0.15');
+        $('.serviceIcon3img').css('opacity','0.15');
+        $('.right1').css('display','none');
+        $('.right2').css('display','block');
+        $('.right3').css('display','none');
+    });
+    $('.serviceIcon1img').click(function(){
+        $('.serviceIcon1img').css('opacity','1');
+        $('.serviceIcon2img').css('opacity','0.15');
+        $('.serviceIcon3img').css('opacity','0.15');
+        $('.right2').css('display','none');
+        $('.right1').css('display','block');
+        $('.right3').css('display','none');
+    });
+    $('.serviceIcon3img').click(function(){
+        $('.serviceIcon3img').css('opacity','1');
+        $('.serviceIcon1img').css('opacity','0.15');
+        $('.serviceIcon2img').css('opacity','0.15');
+        $('.right1').css('display','none');
+        $('.right3').css('display','block');
+        $('.right2').css('display','none');
+    });
+</script>
 
 
                     <p class="aboutTextTitle pin title36 mTitle44 fwb"><span class="sans">iTalkBB</span>蜻蜓名字的由来</p>

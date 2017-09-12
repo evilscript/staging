@@ -50,20 +50,4 @@ $(document).ready(function(){
     }).mouseleave(function(){
         $('.globalImg').attr('src', '../shared/images/about/aboutGlobalAll.jpg');
     });
-
-    $('.hoverUSA').click(function(){
-        $('.clickUSA').attr('src','../shared/images/about/animationUS.jpg');
-    });
-    $('.hoverAUS').click(function(){
-        $('.clickUSA').attr('src','../shared/images/about/animationAU.jpg');
-    });
-    $('.hoverCHN').click(function(){
-        $('.clickUSA').attr('src','../shared/images/about/animationCN.jpg');
-    });
-    $('.hoverSIN').click(function(){
-        $('.clickUSA').attr('src','../shared/images/about/animationSI.jpg');
-    });
-    $('.hoverCAN').click(function(){
-        $('.clickUSA').attr('src','../shared/images/about/animationCA.jpg');
-    });
 });
