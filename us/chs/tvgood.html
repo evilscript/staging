@@ -75,6 +75,7 @@
 		.showtit2{color: white;text-align: center;margin-top:1% ;margin-bottom:3.5%;}
 		.bannerAd1tit{text-align: center;font-weight: 800;    padding-top: 4%; }
 		.textAd1{text-align: center;margin: 0 auto;width: 63%;margin-top: 1%;line-height: 1.8}
+
 		.icons{width: 78.5%;margin: 0 auto}
 		.icons{margin-top: 4.8%;margin-bottom: 4.8%}
 		.icons1{width: 50%;float: left;}
@@ -99,6 +100,16 @@
 		#roll img{float: left;}
 		.old{text-decoration: line-through;margin-top: 15%;display:none;color: red}
 		.try{text-align: center;margin-top: 3.5%}
+		.balance{margin-bottom: 6%}
+		.compare{width: 83.8%;margin:0 auto;}
+		.putong,.gaoqing{width: 49.5%;display: inline-block;}
+		.putong img,.gaoqing img{width: 100%;-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, transparent) , to(rgba(250, 250, 250, 0.2)));}
+		.putong{margin-right: 1%}
+		.bannerAd1tit2{text-align: center;font-weight: 800; }
+	
+		.textAd2{text-align: center;margin: 0 auto;width: 63%;margin-top: 1%;margin-bottom: 1.5%;line-height: 1.8}
+		.textLink{color:#ff7f00}
+
 
 		@media screen and (min-width: 1600px) and (max-width: 1700px) {
     .title140{font-size: 130px}
@@ -130,7 +141,20 @@
    			.icontext{width: 80%}
    			.icons4,.icons3{margin-top:6.5% }
 }
+
+
+		@media screen and (min-width: 767px) and (max-width: 785px) {
+   .bannerAd1Pic{background-size: cover}
+}
+
+
+
 @media (max-width:767px){
+	.compare{width: 100%}
+	.putong img,.gaoqing img{-webkit-box-reflect: none}
+	.putong,.gaoqing{width: 100%;display: block;}
+	.textAd2{width: 88%;margin-bottom: 4%}
+
 	.bodyy{margin-top: 14%}
 	.picpc{display: none;}
 	.picmb{display: block;}
@@ -287,7 +311,7 @@
 		<div class="try"><p class="title36 mTitle44">30天试用承诺，无理由全额退款！ <a href="" class="textLink">如何申请退款？</a></p></div>
 
 		<div class="bannerAd1">
-			<div class="bannerAd1tit title36 mTitle54 fwb">独家院线新片</div>
+			<div class="bannerAd1tit title36 mTitle50 fwb">独家院线新片</div>
 			<div class="textAd1 text18 mText24">iTalkBB蜻蜓电视提供最新的正版院线大片，让您在家就可以看到一级棒的华语电影，免费点播，高清画质。同时， 我们采用最尖端的图像处理技术，为您呈现高清画质的视听享受，无论是武打片还是都市剧，您都可以享受到完美的画质和音效，在家看大片。</div>
 			<div class="bannerAd1Pic">
 				
@@ -331,6 +355,16 @@
 			</div>
 			<div class="clear clearfix"></div>
 		</div>
+		
+		<div class="balance">
+			<div class="bannerAd1tit2 title36 mTitle50 fwb">1080p画质, 打造视觉盛宴</div>
+			<div class="textAd2 text18 mText24">iTalkBB蜻蜓采用最尖端的图像处理技术，无论是最新影视剧，热门综艺节目和精彩赛事都能让您拥有最极致的视觉享受。</div>
+			<div class="compare">
+				<div class="putong"><img class="pupic" src="../shared/images/tv/putong.jpg" alt=""></div><div class="gaoqing"><img class="gaopic" src="../shared/images/tv/gaoqing.jpg" alt=""></div>
+			</div>
+		</div>
+
+
 		<div  class="bannerAd2">
 			<a href=""><div>
 				<img class="picpc" src="../shared/images/tv/tvgoodAd2.jpg" alt="">
@@ -367,6 +401,8 @@ $(window).resize(function(){
                $(".cir1").height($(".cir1").width()*1);
                $(".cir2").height($(".cir2").width()*1);
                $(".bannerAd1Pic").height($(".bannerAd1Pic").width()*0.56);
+               $(".pupic").attr("src","../shared/images/tv/gaoqingM.jpg");
+               $(".gaopic").attr("src","../shared/images/tv/putongM.jpg");
 
                 $("#wrap").height($("#wrap").width()*0.56);
                $("#roll img").width($("#wrap").width()*1.7);
@@ -380,6 +416,8 @@ $(window).resize(function(){
                $(".bannerAd1Pic").height($(".bannerAd1Pic").width()*0.318);
                $(".cir1").height($(".cir1").width()*1);
                $(".cir2").height($(".cir2").width()*1);
+               $(".pupic").attr("src","../shared/images/tv/putong.jpg");
+               $(".gaopic").attr("src","../shared/images/tv/gaoqing.jpg");
                
                // $(".md2").height($(".md2").width()*0.8);
         }
@@ -398,7 +436,10 @@ $(window).resize(function(){
 
                $("#wrap").height($("#wrap").width()*0.56);
                $("#roll img").width($("#wrap").width()*1.7);
+               $(".pupic").attr("src","../shared/images/tv/gaoqingM.jpg");
+               $(".gaopic").attr("src","../shared/images/tv/putongM.jpg");
                rollFn(1);
+
         }
     	if(wb>=767){
 
