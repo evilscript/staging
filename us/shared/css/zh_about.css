@@ -820,6 +820,45 @@ a:hover{
         padding-top: 15%;
         padding-bottom:10%;
     }
+    .serviceIcon1, .serviceIcon2, .serviceIcon3{
+        width:33.3%;
+        float:left;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        position:relative;
+    }
+    .serviceIcon1img{
+        width:70%;
+        margin-left:0;
+        opacity:0;
+        transition: all, 2.5s;
+    }
+    .serviceIcon2img{
+        width:70%;
+        margin-left:15%;
+        opacity:0;
+        transition: all, 2.5s;
+    }
+    .serviceIcon3img{
+        width:70%;
+        margin-left:30%;
+        opacity:0;
+        transition: all, 2.5s;
+    }
+    .specialLogoCenter {
+        width: 86%;
+        margin-left: 7%;
+        top: 15%;
+        position: absolute;
+        opacity:1;
+        transition: all, 3s;
+    }
+    .right1{
+        display:none;
+    }
+    .right3{
+        display:none;
+    }
 }
 
 
