@@ -282,12 +282,14 @@
        
        <section class="bbRates" name="rates" id="rates">
           <div class="ratesPart1 gradientTop">
-        	<p class="title36 mTitle44 fwb">费率查询</p>
-        	<p class="text18 mText26">*非全球包月计划以及除指定29个国家和地区之外的费率查询</p>
+             <div class="mainMgn200">
+        	    <p class="title36 mTitle44 fwb">费率查询</p>
+        	    <p class="text18 mText26">*非全球包月计划以及除指定29个国家和地区之外的费率查询</p>
+        	 </div>
           </div>
           <div class="ratesPart2 mainMgn200">
             <div class="ratesCon clearfix">
-               <!-- 費率查詢輸框 js 控制 Begin-->
+               <!-- Rate inquiry input box js Begin -->
                <div class="regionNameSearch clearfix"  id="js_rates_sch_btn_tb">
                	  <p class="searchTitle title20 mTitle28 fwb">按区域名字查询</p>
                	  <div class="regionSearch">
@@ -298,8 +300,9 @@
                     </p>
                	  </div>
                </div>
-               <!-- 費率查詢輸框 js 控制 End-->
-               <!-- 費率按鈕 js 控制 Begin-->
+               <!-- Rate inquiry input box js End -->
+               
+               <!-- Rate button js Begin -->
                <div class="alphaBox"  id="js_rates_btn_tb">
           	      <p class="title20 mTitle28 fwb">按首字母查询</p>
           	      <div class="alphabet">
@@ -331,11 +334,26 @@
           	      	<a code="Z" href="javascript:void(0);" class="alphaButton title18 mTitle22">Z</a>
           	      </div>
                </div>
-               <!-- 費率按鈕 js 控制 End-->               
+               <!-- Rate button js End-->               
                </div>
                
-               <div class="ratesList">
-              	   <table class="listHeader" cellpadding="0" cellspacing="0" id="js_rates_title_tb" style="display: none">
+               <div class="formCon ratesList">
+              	   <table class="fromBox listHeader" cellpadding="0" cellspacing="0" id="js_rates_title_tb" style="display: none;">
+              	   	  <tbody>
+              	   	  	 <tr class="fromHeader listTitle" >
+              	   	  	 	<td class="title16 mTitle20 listLeft">Country / Region</td>
+              	   	  	 	<td class="title16 mTitle20 listCenter">Country Code</td>
+              	   	  	 	<td class="title16 mTitle20 listRight">Rate ($)</td>
+              	   	  	 </tr>
+              	   	  </tbody>
+              	   </table>
+              	   <table class="fromBox" cellpadding="0" cellspacing="0" style="border-bottom: 1px #e8e8e8 solid;">
+              	   	  <tbody id="js_rates_results_tb"></tbody>
+              	   </table>       	
+               </div>
+               
+               <!--<div class="formCon ratesList">
+              	   <table class="listHeader fromBox" cellpadding="0" cellspacing="0" id="js_rates_title_tb" style="display: none">
               	   	  <tbody>
               	   	  	 <tr class="listTitle" >
               	   	  	 	<td class="title16 mTitle20 listLeft">Country / Region</td>
@@ -347,7 +365,7 @@
               	   <table cellpadding="0" cellspacing="0" style="border-bottom: 1px #e8e8e8 solid;">
               	   	  <tbody id="js_rates_results_tb"></tbody>
               	   </table>       	
-               </div>
+               </div>-->
                <div class="ratesNote text18 mText26">注意：本国际费率表仅供参考。我们会不定时对费率进行调整。 最近更新：4/1/2012</div>
             	
           </div>      	      	

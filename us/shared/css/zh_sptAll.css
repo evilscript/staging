@@ -6,7 +6,7 @@
   Desc : Support Common CSS
   */  
 	
-/* support banner */
+/* support banner begin */
 .sptBanBox a,.sptBanBox a:link,.sptBanBox a:hover,.sptBanBox a:visited{color: #fff;}
 .sptBanner{max-width: 1920px; text-align: center;padding-top: 4.5%;color: #fff; background: url(../images/support/sptBannerBg.jpg) no-repeat; background-size: 100%;}
 .sptBanArrow{margin-top: 1.6%; background: url(../images/support/sptBannerArrow.png) no-repeat scroll center center; background-size: 1.8%;}
