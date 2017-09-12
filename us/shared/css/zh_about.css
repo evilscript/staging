@@ -680,7 +680,7 @@ a:hover{
     }
     .templateComment{
         padding-top:2%;
-        text-align:center;
+        text-align:left;
     }
     .social-share .social-share-icon {
         width: 8vw!important;
@@ -693,7 +693,7 @@ a:hover{
     .shareLeft{
         width:100%;
         margin-top:2%;
-        text-align:center;
+        text-align:left;
         float:none;
     }
     .hideM{
@@ -716,10 +716,10 @@ a:hover{
         padding-top: 5%;
         margin-bottom: 0;
         line-height: 1.8;
-        text-align:center;
+        text-align:left;
     }
     .templateText{
-        padding-top:5%;
+        padding-top:3%;
     }
     .templateJump {
         width: 100%;
@@ -858,6 +858,13 @@ a:hover{
     }
     .right3{
         display:none;
+    }
+    .templateTitle{
+        text-align:left;
+        padding-bottom:8%;
+    }
+    .mobileCenter{
+        text-align:center!important;
     }
 }
 
