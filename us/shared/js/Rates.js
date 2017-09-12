@@ -73,8 +73,8 @@ function Rates_Search(Params, Container) {
 }
 function Rates_HighlightBtn(Params, Container) {
     var Code = Params.LocationName.substring(0, 1).toUpperCase();
-    $(Container).find(".alphabet a").removeClass("selected");
-    $(Container).find(".alphabet a[code='" + Code + "']").addClass("selected");
+    $(Container).find(".alphabetBox a").removeClass("selected");
+    $(Container).find(".alphabetBox a[code='" + Code + "']").addClass("selected");
 }
 function Rates_FireBtn(Params,Container) {
     $(Container).find("a").click(function () {

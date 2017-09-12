@@ -102,6 +102,7 @@ input:focus{ outline:none;}
 .title140{font-size: 140px;}
 .title70{font-size: 70px;}
 .title60{font-size: 60px;}
+.title50{font-size: 50px;}
 .title42{font-size: 42px;}
 .title36{font-size: 36px;}
 .title30{font-size: 30px;}
@@ -602,7 +603,8 @@ input:focus{ outline:none;}
 	/* fontSize start */
 	.title140{font-size: 117px;}
 	.title70{font-size: 58px;}
-	.title60{font-size: 50px;}	
+	.title60{font-size: 50px;}
+	.title50{font-size: 42px;}
 	.title42{font-size: 35px;}
 	.title36{font-size: 30px;}
 	.title30{font-size: 25px;}
@@ -645,6 +647,7 @@ input:focus{ outline:none;}
 	.title140{font-size: 102px;}
 	.title70{font-size: 51px;}
 	.title60{font-size: 44px;}
+	.title50{font-size: 36px;}
 	.title42{font-size: 31px;} 
 	.title36{font-size: 26px;}
 	.title30{font-size: 22px;}
@@ -701,6 +704,7 @@ input:focus{ outline:none;}
 	.title140{font-size: 7.3vw;}
 	.title70{font-size: 3.6vw;}
 	.title60{font-size: 3.2vw;}
+	.title50{font-size: 2.62vw;}
 	.title42{font-size: 2.15vw;}
 	.title36{font-size: 1.85vw;}
 	.title30{font-size: 1.5vw;}
@@ -787,6 +791,7 @@ input:focus{ outline:none;}
 	.title140{font-size: 12vw;}/* 120px */ /*以767px在1000px分辨率的比例取值，下同*/
 	.title70{font-size: 6.0vw;}/* 60px */ 
 	.title60{font-size: 5.2vw;}/* 52px */
+	.title50{font-size: 4.8vw;}/* 48px */
 	.title42{font-size: 3.6vw;}/* 36px */
 	.title36{font-size: 3.2vw;}/* 32px */
 	.title30{font-size: 2.8vw;}/* 28px */
