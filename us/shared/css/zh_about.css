@@ -804,6 +804,22 @@ a:hover{
     .newsBlock {
         margin-top: 10%;
     }
+    .textBg{
+        background:url("../../shared/images/about/textBg.jpg") no-repeat left top;
+        background-size:100%;
+        padding-top: 5%;
+        padding-left: 27%;
+    }
+    .special02{
+        padding-top: 15%;
+    }
+    .special03{
+        padding-top: 15%;
+    }
+    .special04{
+        padding-top: 15%;
+        padding-bottom:10%;
+    }
 }
 
 
