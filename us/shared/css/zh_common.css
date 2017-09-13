@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy,Carson 
   Create Date:2017-07-27 
-  Update Date:2017-09-11 
+  Update Date:2017-09-13 
   Desc : Support Common CSS */ 
   
  
@@ -551,9 +551,9 @@ input:focus{ outline:none;}
 .showM{
     display:none;
 }
-/*.hideM{
-    display:block;
-}*/
+.hidePC{
+    display:none;
+}
 /*Mobile header*/
 .noscroll {
     /*position: fixed;
@@ -1072,6 +1072,9 @@ input:focus{ outline:none;}
     }
     .hideM{
         display:none;
+    }
+	.hidePC{
+    display:block;
     }
     .telephone{
         display:none;

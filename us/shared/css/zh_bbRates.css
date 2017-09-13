@@ -19,35 +19,35 @@
 .conTelephone{background: url(../images/icons/homePhoneIconSmall.png) no-repeat; background-size: 32%; background-position-x: 2%;background-position-y: 30%; padding-left: 15%;}
 .conPhone{background: url(../images/icons/mobilePhoneIconSmall.png) no-repeat; background-size: 23%; background-position-y: 30%; padding-left: 10.5%; margin-left: 1%;}
 .countryBox{float: left; width: 20%; padding: 1.6% 0;}
-.Country01{background: url(../images/bb/bbRateIcon1.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country02{background: url(../images/bb/bbRateIcon2.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country03{background: url(../images/bb/bbRateIcon3.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country04{background: url(../images/bb/bbRateIcon4.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country05{background: url(../images/bb/bbRateIcon5.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country06{background: url(../images/bb/bbRateIcon6.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country07{background: url(../images/bb/bbRateIcon7.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country08{background: url(../images/bb/bbRateIcon8.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country09{background: url(../images/bb/bbRateIcon9.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country10{background: url(../images/bb/bbRateIcon10.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country11{background: url(../images/bb/bbRateIcon11.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country12{background: url(../images/bb/bbRateIcon12.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country13{background: url(../images/bb/bbRateIcon13.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country14{background: url(../images/bb/bbRateIcon14.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country15{background: url(../images/bb/bbRateIcon15.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country16{background: url(../images/bb/bbRateIcon16.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country17{background: url(../images/bb/bbRateIcon17.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country18{background: url(../images/bb/bbRateIcon18.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country19{background: url(../images/bb/bbRateIcon19.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country20{background: url(../images/bb/bbRateIcon20.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country21{background: url(../images/bb/bbRateIcon21.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country22{background: url(../images/bb/bbRateIcon22.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country23{background: url(../images/bb/bbRateIcon23.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country24{background: url(../images/bb/bbRateIcon24.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country25{background: url(../images/bb/bbRateIcon25.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country26{background: url(../images/bb/bbRateIcon26.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country27{background: url(../images/bb/bbRateIcon27.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country28{background: url(../images/bb/bbRateIcon28.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country29{background: url(../images/bb/bbRateIcon29.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country01{background: url(../images/bb/bbRateIconCa.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country02{background: url(../images/bb/bbRateIconChina.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country03{background: url(../images/bb/bbRateIconHK.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country04{background: url(../images/bb/bbRateIconSin.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country05{background: url(../images/bb/bbRateIconUS.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country06{background: url(../images/bb/bbRateIconJapan.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country07{background: url(../images/bb/bbRateIconMalaysia.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country08{background: url(../images/bb/bbRateIconKR.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country09{background: url(../images/bb/bbRateIconTW.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country10{background: url(../images/bb/bbRateIconAustralia.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country11{background: url(../images/bb/bbRateIconNZ.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country12{background: url(../images/bb/bbRateIconAustria.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country13{background: url(../images/bb/bbRateIconBel.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country14{background: url(../images/bb/bbRateIconDenmark.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country15{background: url(../images/bb/bbRateIconFrance.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country16{background: url(../images/bb/bbRateIconGermany.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country17{background: url(../images/bb/bbRateIconGreece.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country18{background: url(../images/bb/bbRateIconIreland.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country19{background: url(../images/bb/bbRateIconItaly.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country20{background: url(../images/bb/bbRateIconLux.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country21{background: url(../images/bb/bbRateIconNL.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country22{background: url(../images/bb/bbRateIconNorway.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country23{background: url(../images/bb/bbRateIconPortugal.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country24{background: url(../images/bb/bbRateIconSpain.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country25{background: url(../images/bb/bbRateIconSweden.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country26{background: url(../images/bb/bbRateIconSZ.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country27{background: url(../images/bb/bbRateIconUK.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country28{background: url(../images/bb/bbRateIconVatican.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country29{background: url(../images/bb/bbRateIconChile.png) no-repeat; background-size: 23%;background-position-y: 50%;}
 /* bbRegion end */
 
 /* bbRates begin */
