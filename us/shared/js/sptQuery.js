@@ -42,7 +42,7 @@ $(".button3").click(function(){
 				"shoptime":"Hours: Mon-Sun, 9:30 am-6:30 pm",
 				"shopnum":"Tel: (301) 880-1268",
 				"mapd":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3096.588859883134!2d-77.15635798436847!3d39.093061742991466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7cd774b600ffb%3A0x9e25622abbc5d85!2zNzAwIEh1bmdlcmZvcmQgRHIsIFJvY2t2aWxsZSwgTUQgMjA4NTDnvo7lnIs!5e0!3m2!1szh-TW!2shk!4v1463034050430",
-				'pic':[{'str':"../shared/images/support/shop1.jpg"},{'str':'../shared/images/support/shop2.jpg'},{'str':'../shared/images/support/shop3.jpg'},{"str":'../shared/images/support/shop4.jpg'}]
+				'pic':[{'str':"../shared/images/support/shop1.jpg"},{'str':'../shared/images/support/shop2.jpg'},{'str':'../shared/images/support/shop3.jpg'}]
 				},
 
 			   {"shopName":"Falls Church",
@@ -244,6 +244,8 @@ function chaxun(){
 	asd();
 	asf();
 	all();
+	aac();
+
 }
 
 // 设置地图及图片大小
@@ -251,20 +253,30 @@ function asd(){
 	var x = $(window).width();
 	if(x<767){
     	$(".map").height(x*0.47);
+    	$(".bigshow").width(x*0.46875);
+        $(".bigshow").height(x*0.3125);
+        $(".bigshow").css('margin-top',-(x*0.3125/2));
+        $(".bigshow").css('margin-left',-(x*0.46875/2));
+
 	}
     if(x>=767){
         $(".map").height(x*0.15625);
-        $(".pics").width(x*0.164);
-        $(".pics").height(x*0.078125);
+        $(".bigshow").width(x*0.46875);
+        $(".bigshow").height(x*0.3125);
+        $(".bigshow").css('margin-top',-(x*0.3125/2));
+        $(".bigshow").css('margin-left',-(x*0.46875/2));
+
     }
 };
 
 function asf(){
 	var x2 = $(window).width();
-	if(x2<767){}
+	if(x2<767){
+
+	}
    	if(x2>=767){
-        $(".pics").width(x2*0.164);
-        $(".pics").height(x2*0.078125);
+
+
     }
 };
 
@@ -424,5 +436,67 @@ function all(){
  		}
 
  }); 
+
+
+
+
+
+function aac () {
+var arr = new Array();
+var ppp;
+ $('.overlay').click(function(){
+ 		$('.allshow').css('display','none');
+ 		arr.length = 0; 
+ })
+
+ $('.pics').click(function(){
+ 	$('.allshow').css('display','block');
+ 	arr.length = 0; 
+ 	sss=$(this).children().attr("src");
+
+ 	$(".bigshows").attr("src",sss);
+
+
+
+ 	lll = $(this).parent().find('.pics').children();
+ 		kkk = $(this).parent().find('.pics').children().length;
+ 	
+
+ 	$(lll).each(function(){
+ 				arr.push($(this).attr('src'));
+ 	});
+
+
+ 	ppp=$(this).index();
+ 	console.log(ppp);
+
+ 	
+ 	console.log(arr);
+
+
+
+
+ })
+
+  	$('.up').click(function (){
+ 		 	
+
+ 			if(ppp<kkk-1){
+ 				ppp++;
+ 			}else{ppp=0}
+ 			$(".bigshows").attr("src",arr[ppp]);
+ 			console.log(ppp);
+ 	})
+
+ 	$('.next').click(function (){
+ 			
+ 			if(ppp<=0){
+ 				ppp=kkk-1;
+ 			}else{ppp--}
+ 			$(".bigshows").attr("src",arr[ppp]);
+ 			console.log(ppp);
+ 	})
+
+}
 
 

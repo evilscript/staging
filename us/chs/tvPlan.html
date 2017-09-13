@@ -27,6 +27,7 @@
     <script src="../shared/js/common.js"></script>
     <style>
 
+		.bannerAll{background: url(../shared/images/tv/tvPlanBannerBg.jpg) no-repeat; background-size: 100%;}
 
 		label{font-weight: 500}
 		a{color:#333333;}
@@ -99,12 +100,12 @@
 		#roll{position: absolute;left: 0;width: 9999px;}
 		#roll img{float: left;}
 		.old{text-decoration: line-through;margin-top: 15%;display:none;color: red}
-		.try{text-align: center;margin-top: 3.5%}
+		.try{text-align: center;}
 		.balance{margin-bottom: 6%}
 		.compare{width: 83.8%;margin:0 auto;}
 		.putong,.gaoqing{width: 49.5%;display: inline-block;}
 		.putong img,.gaoqing img{width: 100%;-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, transparent) , to(rgba(250, 250, 250, 0.2)));}
-		.putong{margin-right: 1%}
+		.putong{margin-right: 0.5%}
 		.bannerAd1tit2{text-align: center;font-weight: 800; }
 	
 		.textAd2{text-align: center;margin: 0 auto;width: 63%;margin-top: 1%;margin-bottom: 1.5%;line-height: 1.8}
@@ -140,6 +141,8 @@
    			.icons{width: 100%}
    			.icontext{width: 80%}
    			.icons4,.icons3{margin-top:6.5% }
+   			.showtit2{ width: 89.6%;margin: 0 auto;margin-bottom: 1%}
+
 }
 
 
@@ -150,6 +153,7 @@
 
 
 @media (max-width:767px){
+    .bannerAll{background: url(../shared/images/tv/mTVPlanBannerBg.jpg) no-repeat; background-size: 100%;}
 	.compare{width: 100%}
 	.putong img,.gaoqing img{-webkit-box-reflect: none}
 	.putong,.gaoqing{width: 100%;display: block;}
@@ -233,17 +237,16 @@
 	<div ng-include="'header.html'"></div>
     <div class="clear clearfix"></div>
 	<div class="bodyy">
-		<div class="banner">
-			<div>
-				<img class="picpc" src="../shared/images/tv/tvgoodBanner.jpg" alt="">
-				<img class="picmb" src="../shared/images/tv/tvgoodBannerM.jpg" alt="">
-			</div>
-			<div class="wei">
-			<div class="bannertit title60 mTitle60 fwb">iTalkBB蜻蜓电视</div>
-			<div class="bannertext title30 mTitle28 bannertext1">海外华人首选中文电视，</div>
-			<div class="bannertext bannertex2  title30 mTitle28">2017华语新片, 尽在蜻蜓电视。</div>
-			</div>
-		</div>
+
+		<section class="bannerAll">
+     	    <div class="bannerText">
+     	    	<p class="title60 mTitle60 fwb bannerTitle">iTalkBB蜻蜓电话</p>
+     	    	<p class="title30 mTitle30">
+     	    	   <span>海外华人首选中文电视</span>
+     	    	   <span>2017华语新片, 尽在蜻蜓电视。</span>
+     	    	</p>
+     	    </div>      	    	   
+       </section>
 
 
 		<div class="plan">
@@ -308,7 +311,7 @@
 			</div>
 		</div>
 
-		<div class="try"><p class="title36 mTitle44">30天试用承诺，无理由全额退款！ <a href="" class="textLink">如何申请退款？</a></p></div>
+		<div class="try"><p class="title30 mTitle30">30天试用承诺，无理由全额退款！ <a href="" class="textLink">如何申请退款？</a></p></div>
 
 		<div class="bannerAd1">
 			<div class="bannerAd1tit title36 mTitle50 fwb">独家院线新片</div>
