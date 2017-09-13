@@ -3,10 +3,8 @@
   Update Date:2017-09-12 
   Desc : bbPlan CSS */ 
   
-/* bbPlan banner begin */
-.bbPlanBanner{max-width: 1920px; height: 33vw; text-align: left;padding-top: 8%; padding-left: 10.42%;  color: #fff; background: url(../images/bb/bbPlanBannerBg.jpg) no-repeat; background-size: 100%;}
-.bbPlanBanner span{display: block;}
-.bannerTitle{margin-bottom: 1.5%;}
+/* bannerAll begin */
+.bannerAll{background: url(../images/bb/bbPlanBannerBg.jpg) no-repeat; background-size: 100%;}
 /* bbPlan banner end */
 
 
@@ -187,7 +185,9 @@
 	.bbPlanLimitedBig,.planLimitedBig{margin: 0 auto;width: 89.5%;}
 }  */
 @media  (min-width:768px) and (max-width:1000px){
-    .bbPlanBanner{max-width: 1000px; height: 46vw;  padding-top: 13%; padding-left: 6%; background: url(../images/bb/ipadBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
+    /* bannerAll begin */
+    .bannerAll{background: url(../images/bb/ipadBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
+	/* bannerAll end */
 
     /*plan begin*/	
 	.bbPlan,.bbPlanOther{padding: 0 5%;} 
@@ -224,7 +224,9 @@
 	.Func .btnImgN img{width: 8%;}
 }
 @media (max-width:767px){
-    .bbPlanBanner{max-width: 767px; height: 100vw; text-align: center; padding-top: 9%; padding-left: 5%; padding-right: 5%; background: url(../images/bb/mBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
+    /* bannerAll begin */
+    .bannerAll{background: url(../images/bb/mBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
+	/* bannerAll end */
 	
     /*plan begin*/
 	.bbTryout,.bbApp,.otherFuncBox{text-align: left;}

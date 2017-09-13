@@ -4,9 +4,7 @@
   Desc : bbPlan CSS */ 
 
 /* bbRates banner begin */
-.bbRatesBanner{max-width: 1920px; height: 33vw; text-align: left;padding-top: 8%; padding-left: 10.42%;  color: #fff; background: url(../images/bb/bbRateBannerBg.jpg) no-repeat; background-size: 100%;}
-.bbRatesBanner span{display: block;}
-.bannerTitle{margin-bottom: 1.5%;}
+.bannerAll{background: url(../images/bb/bbRateBannerBg.jpg) no-repeat; background-size: 100%;}
 /* bbRates banner end */
 
 /* bbRegion begin */
@@ -131,9 +129,9 @@ a.alphaButton{text-decoration: none; color: #222;}
    
 @media  (min-width:768px) and (max-width:1000px){
     .regionPart2,.regionNameSearch,.alphaCon,.ratesNote{padding: 0 5.2%;}	
-    /* bbRates banner begin */
-    .bbRatesBanner{max-width: 1000px; height: 46vw;  padding-top: 10.3%; padding-left: 6%; background: url(../images/bb/ipadBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
-	/* bbRates banner end */
+    /* bannerAll begin */
+    .bannerAll{padding-top: 10.3%;  background: url(../images/bb/ipadBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
+	/* bannerAll end */
 	
     /* bbRegion begin */
     .bbRegion{padding: 6% 0 5.5% 0;}
@@ -162,10 +160,10 @@ a.alphaButton{text-decoration: none; color: #222;}
 @media (max-width:767px){
     .regionPart2,.regionNameSearch,.alphaCon,.ratesNote{padding: 0 5%;}	
 	.ratesText{padding: 0 3%;}
-    /* bbRates banner begin */
-    .bbRatesBanner{max-width: 767px; height: 100vw; text-align: center; padding-top: 6%; padding-left: 5%; padding-right: 5%; background: url(../images/bb/mBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
+    /* bannerAll begin */
+    .bannerAll{padding-top: 6%; background: url(../images/bb/mBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
 	.bannerTitle{line-height: 1.2; margin-bottom: 3.5%;}
-	/* bbRates banner end */
+	/* bannerAll end */
 	
 	/* bbRegion begin */
     .bbRegion{padding: 9% 0 12.5% 0;}

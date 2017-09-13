@@ -2,7 +2,11 @@
   Create Date:2017-09-13 
   Update Date:2017-09-13 
   Desc : bbPlan CSS */ 
-  
+
+/* bannerAll begin */
+.bannerAll{background: url(../images/tv/tvPlanBannerBg.jpg) no-repeat; background-size: 100%;}
+/* bannerAll end */
+
 label{font-weight: 500}
 		a{color:#333333;}
 		a:hover{color:#333333;}
@@ -18,7 +22,6 @@ label{font-weight: 500}
 		.bannertex2{top: 32%}
 		.banner{width: 100%}
 		.banner img{width: 100%}
-		.plan{margin-top: 3% }
 		.bbPlanLimitedBig, .planLimitedBig { margin: 0 auto;width: 89.5%;}
 		.planTitleBig {color: #fff;margin-bottom: 1.8%;padding-top: 2.6%;text-align: center;}
 		.use{width: 74.1%;margin: 0 auto;background-color: white;}
@@ -88,7 +91,11 @@ label{font-weight: 500}
     .title140{font-size: 130px}
 }
 
-@media (max-width:1000px){
+@media  (min-width:768px) and (max-width:1000px){
+    /* bannerAll begin */
+    .bannerAll{background: url(../images/tv/ipadTVPlanBannerBg.jpg) no-repeat; background-size: 100%;}
+	/* bannerAll end */
+	
 			.planLimitedBig,.bbPlanLimitedBig{width: 100%}
    			.md2{width: 30%}
    			.use{width: 89.6%}
@@ -116,11 +123,15 @@ label{font-weight: 500}
 }
 
 
-		@media screen and (min-width: 767px) and (max-width: 785px) {
+@media screen and (min-width: 767px) and (max-width: 785px) {
    .bannerAd1Pic{background-size: cover}
 }
 
 @media (max-width:767px){
+    /* bannerAll begin */
+    .bannerAll{background: url(../images/tv/mTVPlanBannerBg.jpg) no-repeat; background-size: 100%;}
+	/* bannerAll end */
+	
 	.compare{width: 100%}
 	.putong img,.gaoqing img{-webkit-box-reflect: none}
 	.putong,.gaoqing{width: 100%;display: block;}
@@ -139,7 +150,6 @@ label{font-weight: 500}
 	.md1tit,.mid1txt{display: inline-block;}
 	.text{padding-top: 6%}
 	.bannertext1{margin-top: 2%}
-	.plan{margin-top: 5%}
 	.planTitleBig{padding-top: 5.6%;margin-bottom: 5.5%}
 
 
