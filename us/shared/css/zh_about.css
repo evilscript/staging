@@ -866,6 +866,9 @@ a:hover{
     .mobileCenter{
         text-align:center!important;
     }
+    .newsContentBlock{
+        padding-bottom:12%;
+    }
 }
 
 
