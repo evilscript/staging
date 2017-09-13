@@ -34,7 +34,8 @@ input:focus{ outline:none;}
 /* mainLayout begin */
 .mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%;}
 .mainMgnTop{margin-top: 3%;}
-/*.mainLimited{margin: 0 auto;}*/
+.titleMgnBtm{margin-bottom: 1vw;}
+.titleMgnBtm span{display: block;}
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00; -khtml-border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8; -khtml-border-bottom: .4vw solid #327fe8; margin-top: 7%;}
 /* mainLayout end */
@@ -819,6 +820,7 @@ input:focus{ outline:none;}
     /* mainLayout start */	
 	.mainLayout{max-width:1000px; padding-top: 14%;margin-bottom: 0;}
 	.mainMgnTop{margin-top: 3.5%;}
+	.titleMgnBtm{margin-bottom: 1.6vw;}
 	.lineOrange{height:0; border-bottom: .55vw solid #ff7f00;}
 	.lineBlue{height:0; border-bottom: .55vw solid #327fe8; margin-top: 6%;}
 	/* mainLayout end*/
@@ -982,6 +984,7 @@ input:focus{ outline:none;}
 	/* mainLayout start */	
 	.mainLayout{max-width:767px; padding-top: 14%;margin-bottom: 0;}
 	.mainMgnTop{margin-top: 5%;}
+	.titleMgnBtm{margin-bottom: 3vw;}
 	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
 	.lineBlue{height:0; border-bottom: .9vw solid #327fe8; margin-top: 12%;}
 	/* mainLayout end*/

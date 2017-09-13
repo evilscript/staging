@@ -13,9 +13,7 @@
 /*plan begin*/
 .left{float: left;}
 .right{float: right;}
-.bbTitMgnBtm,.bbPlan,.bbPlanOther,.bbTryout,.bbApp,.otherFuncBox{text-align: center;}
-.bbTitMgnBtm{margin-bottom: 1vw;}
-.bbTitMgnBtm span{display: block;}
+.titleMgnBtm,.bbPlan,.bbPlanOther,.bbTryout,.bbApp,.otherFuncBox{text-align: center;}
 .tryoutCon > .left,.tryoutCon > .right{width: 50%;}
 .textBox p,.planBtn p{margin-bottom: 0;}
 .bbPlan,.bbPlanOther{margin: 0 auto;padding: 0 12.8%;}
@@ -191,8 +189,7 @@
 @media  (min-width:768px) and (max-width:1000px){
     .bbPlanBanner{max-width: 1000px; height: 46vw;  padding-top: 13%; padding-left: 6%; background: url(../images/bb/ipadBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
 
-    /*plan begin*/
-	.bbTitMgnBtm{margin-bottom: 1.6vw;}
+    /*plan begin*/	
 	.bbPlan,.bbPlanOther{padding: 0 5.2%;} 
 	.bbPlanOther{margin-top: 6%;}
     .titleBox{padding: 0 15%;}
@@ -230,7 +227,6 @@
     .bbPlanBanner{max-width: 767px; height: 100vw; text-align: center; padding-top: 9%; padding-left: 5%; padding-right: 5%; background: url(../images/bb/mBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
 	
     /*plan begin*/
-	.bbTitMgnBtm{margin-bottom: 3vw;}
 	.bbTryout,.bbApp,.otherFuncBox{text-align: left;}
 	.bbPlan,.bbPlanOther{padding: 0;}
 	.bbPlanOther{margin-top:7%;}
