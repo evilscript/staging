@@ -182,15 +182,15 @@
 }
 /*price position end*/
 
-@media  (min-width:1001px){
+/*@media  (min-width:1001px){
 	.bbPlanLimited{margin: 0 auto;width: 79%;}	
 	.bbPlanLimitedBig,.planLimitedBig{margin: 0 auto;width: 89.5%;}
-}  
+}  */
 @media  (min-width:768px) and (max-width:1000px){
     .bbPlanBanner{max-width: 1000px; height: 46vw;  padding-top: 13%; padding-left: 6%; background: url(../images/bb/ipadBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
 
     /*plan begin*/	
-	.bbPlan,.bbPlanOther{padding: 0 5.2%;} 
+	.bbPlan,.bbPlanOther{padding: 0 5%;} 
 	.bbPlanOther{margin-top: 6%;}
     .titleBox{padding: 0 15%;}
 	.titleBox p{padding:8% 0% 2% 21%; margin-bottom:-9.5%; background-size: 18%; background-position-x: 9.5%;background-position-y: 50%;}
