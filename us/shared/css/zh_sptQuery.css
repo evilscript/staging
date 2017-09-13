@@ -47,7 +47,11 @@ select::-ms-expand { display: none; }
 
 
 .wma{margin: 0 auto;width: 45%}
+
 .mwma{display: none;}
+.teladd,.weixinadd,.emailadd,.weixinxadd{width: 80%;margin:0 auto;}
+.weixinxadd{margin-bottom: 5%;  margin-top: 3%;}
+
 
 /*合作*/
 .collaborate{display: none}
@@ -68,6 +72,7 @@ select::-ms-expand { display: none; }
 .optextName{margin-bottom:2%; }
 
 
+
 .boptext{color: white;}
 .boptextL,.boptextR{display: inline-block;vertical-align: top}
 .boptextL{width: 50%; padding-left: 3%}
@@ -78,20 +83,19 @@ select::-ms-expand { display: none; }
 .mcollaboratePic{display: none;}
 .quartersimg{margin: 0 auto}
 .boptextL img{width: 15%;}
-
-
 .lineBlue{margin-top: 0%}
 .pics{overflow: hidden;margin-left: 0.2%;display: inline-block;width: 33%}
 .pic:after {content: "";display: block;height: 0;clear: both;}
-.pic{margin-top: 1.5%}
-
+.pic{margin-top: 1.5%} 
 .overlay { position: fixed; top: 0;left: 0;height: 100%; width: 100%; background-color: rgba(0,0,0,0.5); z-index: 10}
 .bigshow{position: fixed;top: 50%;  left: 50%; border-radius: 5px;z-index: 11; }
 .next,.up{position: absolute;color: white;top: 50%;line-height: 1;top: 35%;cursor: pointer;}
 .next{left: -10%}
 .up{right: -10%}
-
+ 
+ 
 .allshow{display: none; -webkit-user-select: none; -moz-user-select: none;    -khtml-user-select: none;  -ms-user-select: none;    -o-user-select: none; user-select: none;  }
+ 
 .bigshows{width: 100%;height: 100%}
 
 
@@ -135,8 +139,6 @@ select::-ms-expand { display: none; }
 .next,.up{top:12%;}
 .up{right: -30%}
 .next{left: -30%}
-
-
 .textBanner{top: 8%;width: 100%;left: 0%;text-align: center;line-height: 1.3}
 
 .changes{line-height: 250%;}
