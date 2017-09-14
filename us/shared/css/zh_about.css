@@ -485,6 +485,19 @@ a:hover{
 .tabletOnly{
     display:none;
 }
+.templateImgSpecial{
+    width:20%;
+    margin-left:40%;
+    cursor:pointer;
+    transition: all, 1.5s;
+}
+.templateImgSpecial1{
+    width:100%;
+    margin-left: 0;
+}
+.red{
+    color:red;
+}
 
 @media (max-width:1600px) {
     .container1520 {
