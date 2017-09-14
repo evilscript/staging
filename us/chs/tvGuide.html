@@ -30,7 +30,7 @@
 	.part{margin-bottom: 3.6%;position: relative;}
 	.zw img{width: 100%}
 	.zwM{display: none}
-	video{ object-fit:fill;width:100%;}
+	video{ object-fit:fill;width:100%;autoplay:autoplay}
     .container{ width: 100%;margin: 0 auto;background: url(../shared/images/tv/bg.jpg);}
     .slide{width: 90%;margin: 0 auto; overflow: hidden;position: relative; }
     .slide .img{ overflow: hidden;position: absolute;transition: width 0.8s,height 0.8s,bottom 0.8s,left 0.8s,z-index 0.4s; cursor:pointer}
@@ -62,7 +62,8 @@
     .op4{opacity: 0.2;background-color:black;transition:all 0.8s }
 
 
-    .wei{color: white;position: absolute;left: 10.41%;top: 10%}
+    .wei{color: white;position: absolute;left: 10.41%;top: 10%;z-index: 99}
+    .videom{display: none}
 
       @media (max-width:1000px){
         .wei{top: 5%}
@@ -78,6 +79,8 @@
         .imgc{display: none}
         .slide{width: 100%}
         .slide .img img{-webkit-box-reflect:none}
+        .videom{display: block;}
+        video{display: none;}
         .slide .img3{ width: 82%; height: 69%; bottom: 10%; left: 8%;z-index: 4;}
         .slide .img2{ width: 72.5%;height: 61%;bottom: 10%; left: 0%;z-index: 3;}
         .slide .img4{ width: 72.5%;height: 61%;bottom: 10%; left: 28%;z-index: 3;}
@@ -107,9 +110,9 @@
     <div class="bodyy">
     	<div class="video part">
     		<div class="zw">
-<!--     			<img class="zw1 zwP" src="../shared/images/tv/video.jpg" alt="">
-    			<img class="zwM" src="../shared/images/tv/videoM.jpg" alt=""> -->
-    			<video src="../shared/images/tv/aaa.mp4" autoplay controls loop poster="../shared/images/tv/vd.jpg"></video>
+
+                <a class="videom" href="https://www.youtube.com/embed/2RQy-F3JjMA?enablejsapi=1&rel=0"><img src="../shared/images/tv/videoM.jpg" alt=""></a>
+    			<video id="myVideo" src="../shared/images/tv/aaa.mp4" controls loop ></video>
     		</div>
     	</div>
     	<div class="part pic1">
@@ -126,8 +129,9 @@
     	<div class="part look1">
             <div class="wei">
               <div class="text1 title60 mTitle60">精彩剧集 海量点播</div>
-             
-               </div>
+            </div>
+
+
             
             <div class="container">
                 <div id="slide" class="slide" class="index-slide" alt="star">
@@ -198,9 +202,11 @@ var slideNub;               //轮播图片数量
    var wi = $(window).width();
      if(wi<767){
             $(".slide").height($(".slide").width()*1);
+            document.getElementById('myVideo').pause();
         }
         if(wi>=767){
              $(".slide").height($(".slide").width()*0.415);
+             document.getElementById('myVideo').play();
         }
 });
 
@@ -210,11 +216,13 @@ $(function(){
 
     if(wb<767){
                  $(".slide").height($(".slide").width()*1);
+                 document.getElementById('myVideo').pause();
 
         }
     if(wb>=767){
 
                $(".slide").height($(".slide").width()*0.415);
+                document.getElementById('myVideo').play(); 
         }
 
 
