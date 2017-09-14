@@ -1,13 +1,17 @@
 .bodyy{max-width: 1920px;position: relative;margin:0 auto;}
 .f18{font-size: 18px}
-
 .d1,.d3,.d5{position: relative;}
 .d1 img,.d3 img,.d5 img{width: 100%;}
 .textBanner{position: absolute;top: 25%;color:#ffffff;left:10.4% }
+
+.bannerAll1{background: url(../images/support/whereBanner.jpg) no-repeat; background-size: 100%;}
+.bannerAll2{background: url(../images/support/customerBanner.jpg) no-repeat; background-size: 100%;}
+.bannerAll3{background: url(../images/support/collaborateBanner.jpg) no-repeat; background-size: 100%;}
+.bannerAll3 .bannerText .bannerTitle,.bannerAll2 .bannerText .bannerTitle{margin-bottom: 0px}
+
+
 .mk{margin-top: 4%}
 .mk2{margin-top: 2%}
-
-
 .where{width: 89.2%;margin: 0 auto;margin-bottom: 4.5%;margin-top: 3% }
 .change{width:48%;margin: 0 auto;margin-top:1.2% }
 .changes{width: 32.8%;display: inline-block;text-align: center;border: 1px solid #327fe8;line-height: 200%;vertical-align:top;font-weight: 500;    cursor: pointer;text-shadow: none;box-shadow: inset 0 0 0 0 #327fe8;-webkit-transition: all ease 0.8s;-moz-transition: all ease 0.8s;transition: all ease 0.8s;}
@@ -21,7 +25,7 @@
 .changeShop select{width: 100%;padding: 2%;border:1px solid #333333; }
 .changeShop{margin: 1.5% auto;width: 39%;}
 .shopx{width: 50%;float: left;padding-left: 5.4%}
-.map{width: 50%;float: right;padding-left: 4%;padding-right: 5%}
+.map{width: 50%;float: right;padding-left: 4%;padding-right: 5%;height: 16vw}
 .shopname{margin-bottom:1.7%}
 .address,.num,.time{margin-top: 1.1%}
 .white{background: #ffffff}
@@ -46,7 +50,7 @@ select::-ms-expand { display: none; }
 .titimg{width: 23%;margin: 0 auto ;padding-top: 11%;padding-bottom: 7.5% }
 
 
-.wma{margin: 0 auto;width: 45%}
+.wma{margin: 0 auto;width: 35%}
 
 .mwma{display: none;}
 .teladd,.weixinadd,.emailadd,.weixinxadd{width: 80%;margin:0 auto;}
@@ -89,14 +93,15 @@ select::-ms-expand { display: none; }
 .pic{margin-top: 1.5%} 
 .overlay { position: fixed; top: 0;left: 0;height: 100%; width: 100%; background-color: rgba(0,0,0,0.5); z-index: 10}
 .bigshow{position: fixed;top: 50%;  left: 50%; border-radius: 5px;z-index: 11; }
-.next,.up{position: absolute;color: white;top: 50%;line-height: 1;top: 35%;cursor: pointer;}
-.next{left: -10%}
-.up{right: -10%}
+.next,.up{position: absolute;color: white;top: 50%;line-height: 1;top: 30%;cursor: pointer;}
+.next{left: -20%}
+.up{right: -20%}
  
  
 .allshow{display: none; -webkit-user-select: none; -moz-user-select: none;    -khtml-user-select: none;  -ms-user-select: none;    -o-user-select: none; user-select: none;  }
  
-.bigshows{width: 100%;height: 100%}
+.bigshow{width: 46vw;height: 26vw;margin-top: -13vw;margin-left: -23vw}
+.bigshows{width: 100%;}
 
 
 
@@ -117,7 +122,9 @@ select::-ms-expand { display: none; }
 .title30 {font-size:2.5vw;}
 .opt2{height: 30%}
 .opt{height: 30%}
-.changes{font-size: 2.2vw}
+.map{height: 21vw}
+.next,.up{top: 25%;}
+.pic{text-align: left;}
 
 }
 
@@ -126,6 +133,12 @@ select::-ms-expand { display: none; }
 
 
 @media (max-width:767px){
+
+.bannerAll1{background: url(../images/support/mwhereBanner.jpg) no-repeat; background-size: 100%;}
+.bannerAll2{background: url(../images/support/mcustomerBanner.jpg) no-repeat; background-size: 100%;}
+.bannerAll3{background: url(../images/support/mcollaborateBanner.jpg) no-repeat; background-size: 100%;}
+
+
 .d1img{display: none}
 .d2img{display: block;}
 .where{width: 100%}
@@ -140,15 +153,16 @@ select::-ms-expand { display: none; }
 .up{right: -30%}
 .next{left: -30%}
 .textBanner{top: 8%;width: 100%;left: 0%;text-align: center;line-height: 1.3}
+.map{height: 46vw}
 
 .changes{line-height: 250%;}
 .shop .title{padding-top: 5%;font-size:4.5vw}
 .changeShop{margin-top: 3.9%;width: 61%;margin-bottom:0 }
 .changeShop select{font-size: 3vw;color:#767676;margin-bottom:9%; }
 .shopx{width: 100%;padding-top:0%;display: block;float: none;padding-left:0;margin-top: 0% }
-.map{width: 100%;display: block;;float:none;padding-left: 0;padding-right: 0}
+.map{width: 100%;display: block;;float:none;padding-left: 0;padding-right: 0;}
 .shops{width: 84%;text-align: center;margin: 0 auto}
-.shopname{font-size: 4.1vw;text-align: center;margin-bottom:4.5% }
+.shopname{font-size: 4.1vw;text-align: left;margin-bottom:4.5% }
 .address,.num,.time{text-align: left;font-size: 2.9vw;color: #808080;margin-top: 2%}
 .num{margin-bottom: 6%}
 
