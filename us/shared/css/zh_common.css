@@ -1279,7 +1279,7 @@ input:focus{ outline:none;}
 /* Sharp text box end */
 
 /* menu styles begin */
-.sptMenu{margin: 0 auto; width: 54%; padding-top: 1.2%;}
+.menuCon{margin: 0 auto; width: 54%; padding-top: 1.2%;}
 .menuBox{width: 101.1%;}
 .menuBox a,.menuBox a:link,.menuBox a:visited{color: #222;}
 .menuBtn{float: left; text-align: center; margin-right: 1%; border: 1px solid #327fe8;line-height: 200%;cursor: pointer; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease .9s;  -moz-transition: all ease .9s;}
@@ -1303,7 +1303,7 @@ input:focus{ outline:none;}
 	/* Sharp text box end */
 	
 	/* menu styles begin */
-	.sptMenu{width: 100%; margin-top: .8%;}
+	.menuCon{width: 100%; margin-top: .8%;}
 	.menuBox p{margin-bottom: 0;}
 	/* menu styles end */
 	
@@ -1322,7 +1322,7 @@ input:focus{ outline:none;}
 	/* Sharp text box end */
      
     /* menu styles begin */
-	.sptMenu{width: 100%; margin-top: 2%;}	
+	.menuCon{width: 100%; margin-top: 2%;}	
 	.menuBox p{margin-bottom: 0;}
 	/* menu styles end */
 	
