@@ -27,13 +27,16 @@
     <script src="../shared/js/common.js"></script>
 
     <style>
-select {width: 100%;padding: 2%;font-size:18px;border:1px solid #333333; 
+select {width: 100%;padding: 2%;font-size:18px;border:1px solid #333333; border-radius: 10px;
 /*将默认的select选择框样式清除*/
 appearance:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;
 /*在选择框的最右侧中间显示小箭头图片*/
 background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% center transparent;        }
 
-section.mainMgnTop{margin-bottom: 4.5%}
+section.mainMgnTop{margin-bottom: 1.5%}
+@media (max-width:767px){
+	section.mainMgnTop{margin-bottom: 4.5%}
+}
 
 
     </style>
@@ -62,7 +65,7 @@ section.mainMgnTop{margin-bottom: 4.5%}
 					<section class="bannerAll bannerAll2">
      	    			<div class="bannerText">
      	    				<p class="title60 mTitle50 fwb bannerTitle">不论您身在美国何处</p>
-     	    				<p class="title60 mTitle50">
+     	    				<p class="title60 mTitle50 fwb">
      	    	   			<span>iTalkBB蜻蜓体验店</span>
      	    	   			<span>为您提供全方位的服务</span>
      	    				</p>
@@ -75,8 +78,8 @@ section.mainMgnTop{margin-bottom: 4.5%}
 				<section class="bannerAll bannerAll3">
      	    			<div class="bannerText">
      	    				<p class="title60 mTitle50 fwb bannerTitle">iTalkBB蜻蜓</p>
-     	    				<p class="title60 mTitle50">
-     	    	   			<span>专业 及时 诚信</span>
+     	    				<p class="title60 mTitle50 fwb">
+     	    	   			<span>专业、及时、诚信</span>
      	    	   			<span>您最真诚的合作伙伴</span>
      	    				</p>
      	    			</div>      	    	   
@@ -137,22 +140,23 @@ section.mainMgnTop{margin-bottom: 4.5%}
 		<div class="tel24">
 			<img class="titimg" src="../shared/images/icons/callCenterIcon.png" alt="">
 			<div class="custitle title30 mTitle38">电话客服</div>
-			<div class="telnums text18 mTitle26 sans">售后客服：1-877-482-5503  </div>
-			<div class="telnums text18 mTitle26 sans">销售客服：1-877-482-5522</div>
-			<div class="telnums text18 mTitle26 sans">中国大陆客户服务热线：950-4030-000</div>
-			<div class="telnums text18 aline mTitle26 sans teladd">iTalkBB蜻蜓电话客服，随时随地陪伴常在，欢迎您随时联系我们。</div>
+			<div class="telnums text18 mTitle26 ">售后客服：<span class='sans'>1-877-482-5503</span>  </div>
+			<div class="telnums text18 mTitle26 ">销售客服：<span class='sans'>1-877-482-5522</span></div>
+			<div class="telnums text18 mTitle26 ">中国大陆客户服务热线：<span class='sans'>953-4030-0000</span></div>
+			<div class="telnums text18 aline mTitle26 teladd"><span class='sans'>iTalkBB</span>蜻蜓电话客服，随时随地陪伴常在，欢迎您随时联系我们。</div>
 		</div><div class="weixin">
 			<img  class="titimg titimg2" src="../shared/images/icons/weChatIcon.png" alt="">
 			<div class="custitle title30 mTitle38">微信客服</div>
+			<div class="telnums text18  mTitle26  weixinadd"><span class='sans'>iTalkBB</span>蜻蜓微信客服提供24小时365天无休服务！您可以通过文字、图片、语音、视频等任意形式提出您的问题和需求，微信客服都会为您解决。</div>
 			<img class="wma" src="../shared/images/icons/appQRcodeApple.png" alt="">
 			
-			<div class="telnums text14  mTitle22 sans weixinxadd">打开微信扫一扫，或者在微信中搜索“iTalkBB”即可关注iTalkBB蜻蜓微信号。</div>
-      		<div class="telnums text18  mTitle26  weixinadd">iTalkBB蜻蜓微信客服提供24小时365天无休服务！您可以通过文字、图片、语音、视频等任意形式提出您的问题和需求，微信客服都会为您解决。</div>
+			<div class="telnums text12  mTitle22  weixinxadd">打开微信扫一扫，或者在微信中搜索“<span class='sans'>iTalkBB</span>”即可关注<span class='sans'>iTalkBB</span>蜻蜓微信号。</div>
+      		
 		</div><div class="email">
 			<img class="titimg titimg3" src="../shared/images/support/email.png" alt="">
-			<div class="custitle title30 mTitle38">Email支持</div>
+			<div class="custitle title30 mTitle38"><span class='sans'>Email</span>支持</div>
 			<div class=" sans text18 mTitle26 "><a href="http://support@italkbb.com"></a>support@italkbb.com </div>
-			<div class="emails sans text18 mTitle26 emailadd">您还可以选择发邮件联系我们，iTalkBB蜻蜓专业的客服人员会在第一时间回复您，为您解决问题。</div>
+			<div class="emails  text18 mTitle26 emailadd">您还可以选择发邮件联系我们，<span class='sans'>iTalkBB</span>蜻蜓专业的客服人员会在第一时间回复您，为您解决问题。</div>
 		</div>
 		</div>
 
@@ -169,7 +173,7 @@ section.mainMgnTop{margin-bottom: 4.5%}
 					<div class="optextName title30 mTitle38 fwb">广告业务合作</div>
 					<div class="optexts text18 mTitle26">iTalkBB蜻蜓中文电视平台投放广告业务，请访问www.iTalkBBMedia.com </div>
 					<div class="optexts text18 mTitle26">请访问www.iTalkBBMedia.com </div>
-					<div class="optexts text18 mTitle26">联系电话: 1-888-670-6</div>
+					<div class="optexts text18 mTitle26">联系电话: 1-888-670-6626</div>
 					<div class="optexts text18 mTitle26">Email: info@italkbbmedia.com</div>
 				</div>
 			</div></a>
@@ -238,23 +242,12 @@ section.mainMgnTop{margin-bottom: 4.5%}
 
 
  
+
 // ***********************************************
 
 
 
 // ************************************************************
-	  var kk = window.location.hash;
-       
-        if(kk=='#sq'){
-    
-        		$(".customer").css("display","none");
-        		$(".shop").css("display","block");
-        		$(".change").children().removeClass('changesadd');
-        	
-        		$(".changes2").addClass('changesadd');
-
-        	
-        }
 
 	
 	function aa(){
@@ -264,18 +257,26 @@ section.mainMgnTop{margin-bottom: 4.5%}
 		if(m=='#!#chaxun'){
 
 			
-			    $(".customer").css("display","none");
-        		$(".shop").css("display","block");
-        		$(".change").children().removeClass('changesadd'); 	
-        		$(".button2").addClass('changesadd');
+			$(".changeshow").children().css("display", "none");
+			$(".shop").css('display','block');
+			$('.fixhead').children().css("display", "none");
+			$('.d3').css("display", "block");
+			$('.menuBtn').removeClass('selected');
+			$('.lineBlue').css("margin-top", "5%");
+			$('.button2').addClass('selected');	
+			chaxun();
 		}
 			if(m=='#!#kefu'){
 				
-				 $(".customer").css("display","block");
-        		$(".shop").css("display","none");
-        		$(".change").children().removeClass('changesadd'); 	
-        		$(".buttob1").addClass('changesadd');
-			}
+			$(".changeshow").children().css("display", "none");
+			$(".customer").css('display','block');
+			$('.fixhead').children().css("display", "none");
+			$('.d1').css("display", "block");
+			$('.menuBtn').removeClass('selected');
+			$('.button1').addClass('selected');
+			$('.backgroundColor').children().remove();
+			$('.lineBlue').css("margin-top", "0%");
+		}
 	}
 
 
