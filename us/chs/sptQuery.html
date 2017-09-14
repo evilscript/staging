@@ -32,56 +32,73 @@ select {width: 100%;padding: 2%;font-size:18px;border:1px solid #333333;
 appearance:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;
 /*在选择框的最右侧中间显示小箭头图片*/
 background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% center transparent;        }
+
+section.mainMgnTop{margin-bottom: 4.5%}
+
+
     </style>
+
     
 </head>
 <body ng-app="" style="background-color:#ffffff" onhashchange="aa()">
 
 	<div ng-include="'header.html'"></div>
     <div class="clear clearfix"></div>
-	
-	<div class="bodyy container1920">
-     <div class="mainLayout">
-	
+
+	<div class="mainLayout">
 		<div class="fixhead">
 		   <div class="d1">
-				<img  class="d1img" src="../shared/images/support/whereBanner.jpg" alt="" style="width:100%;" alt="">
-				<img  class="d2img" src="../shared/images/support/mwhereBanner.jpg" alt="" style="width:100%;" alt="">
-				<div class="textBanner">
-					<div class="title60 mTitle50 fwb">24小时人工客服</div>
-					<div class="title36 mTitle44 mk">中粤英三语  专人为您服务</div>
-					<div class="title36 mTitle44">365天全年无休为海外华人服务</div>
+					<section class="bannerAll bannerAll1">
+     	    			<div class="bannerText">
+     	    				<p class="title60 mTitle50 fwb bannerTitle">24小时人工客服</p>
+     	    				<p class="title36 mTitle44">
+     	    	   			<span>中粤英三语  专人为您服务</span>
+     	    	   			<span>365天全年无休为海外华人服务</span>
+     	    				</p>
+     	    			</div>      	    	   
+       				</section>
 				</div>
-		    </div>
 		   	<div class="d3 ">
-				<img  class="d1img" src="../shared/images/support/customerBanner.jpg" alt="" style="width:100%;" alt="">
-				<img  class="d2img" src="../shared/images/support/mcustomerBanner.jpg" alt="" style="width:100%;" alt="">
-				<div class="textBanner">
-					<div class="title60 mTitle50 fwb">不论您身在美国何处</div>
-					<div class="title60 mTitle50 fwb">iTalkBB蜻蜓体验店</div>
-					<div class="title60 mTitle50 fwb">为您提供全方位的服务</div>
-				</div>
-		    </div>
-
+					<section class="bannerAll bannerAll2">
+     	    			<div class="bannerText">
+     	    				<p class="title60 mTitle50 fwb bannerTitle">不论您身在美国何处</p>
+     	    				<p class="title60 mTitle50">
+     	    	   			<span>iTalkBB蜻蜓体验店</span>
+     	    	   			<span>为您提供全方位的服务</span>
+     	    				</p>
+     	    			</div>      	    	   
+       				</section>
+       	     </div>
+			
+			
 		    <div class="d5 ">
-				<img  class="d1img" src="../shared/images/support/collaborateBanner.jpg" alt="" style="width:100%;" alt="">
-				<img  class="d2img" src="../shared/images/support/mcollaborateBanner.jpg" alt="" style="width:100%;" alt="">
-				<div class="textBanner">
-					<div class="title60 mTitle50 fwb">iTalkBB蜻蜓</div>
-					<div class="title60 mTitle50 fwb">专业 及时 诚信</div>
-					<div class="title60 mTitle50 fwb">您最真诚的合作伙伴</div>
-				</div>
-		    </div>
+				<section class="bannerAll bannerAll3">
+     	    			<div class="bannerText">
+     	    				<p class="title60 mTitle50 fwb bannerTitle">iTalkBB蜻蜓</p>
+     	    				<p class="title60 mTitle50">
+     	    	   			<span>专业 及时 诚信</span>
+     	    	   			<span>您最真诚的合作伙伴</span>
+     	    				</p>
+     	    			</div>      	    	   
+       				</section>
+       				</div>
 		</div>
 
-	<section class='where mainMgnTop'>
-		 <div class="mainLimited">
-        	<div class="lineOrange"></div> 	
-		  </div> 
-		<div class="change">
-			<div class="changes title24 mTitle32 pin button1 changesadd">人工客服</div><div class="changes title24 mTitle32 changes2 button2 pin">店面查询</div><div class="changes title24 mTitle32 button3 pin">业务合作</div>
-		</div>
-	</section>
+		
+
+
+	<section class="mainMgnTop">
+      	  <div class="mainMgn100">
+        	<div class="lineOrange"></div>       	        	 
+        	<div class="menuCon">
+        	   <div class="menuBox menuBox3 clearfix">
+			      <p class="menuBtn title24 mTitle32 button1 selected">人工客服</p>
+			      <p class="menuBtn title24 mTitle32 button2">店面查询</p>
+			      <a href="#"><p class="menuBtn title24 mTitle32 button3">业务合作</p></a>
+			</div>	
+			</div>
+		  </div>           	      	
+    </section>
 
 
 	<div class="changeshow">
@@ -98,11 +115,7 @@ background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% cente
   					<option value="North Carolina">North Carolina</option>
   					<option value="North California">North California</option>
   					<option value="South California">South California</option>
- 					<option value="Texas">Texas</option>
-
- 					
- 				
-  					
+ 					<option value="Texas">Texas</option>								
 			</select>
 		</div>	
 		<div class="backgroundColor sans"></div>
@@ -127,19 +140,19 @@ background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% cente
 			<div class="telnums text18 mTitle26 sans">售后客服：1-877-482-5503  </div>
 			<div class="telnums text18 mTitle26 sans">销售客服：1-877-482-5522</div>
 			<div class="telnums text18 mTitle26 sans">中国大陆客户服务热线：950-4030-000</div>
-			<div class="telnums text18 aline mTitle26 sans teladd">iTalkBB蜻蜓电话客服，随时随地陪伴常在，欢迎您随时联系我们</div>
+			<div class="telnums text18 aline mTitle26 sans teladd">iTalkBB蜻蜓电话客服，随时随地陪伴常在，欢迎您随时联系我们。</div>
 		</div><div class="weixin">
 			<img  class="titimg titimg2" src="../shared/images/icons/weChatIcon.png" alt="">
 			<div class="custitle title30 mTitle38">微信客服</div>
 			<img class="wma" src="../shared/images/icons/appQRcodeApple.png" alt="">
 			
-			<div class="telnums text14  mTitle22 sans weixinxadd">打开微信扫一扫，或者在微信中搜索”iTalkBB“即可关注iTalkBB蜻蜓微信号.</div>
-      		<div class="telnums text18  mTitle26 sans weixinadd">iTalkBB蜻蜓微信客服提供24小时365天无休服务！您可以通过文字，图片，语音，视频等任意形式提出您的问题和需求，微信客服都会为您解决</div>
+			<div class="telnums text14  mTitle22 sans weixinxadd">打开微信扫一扫，或者在微信中搜索“iTalkBB”即可关注iTalkBB蜻蜓微信号。</div>
+      		<div class="telnums text18  mTitle26  weixinadd">iTalkBB蜻蜓微信客服提供24小时365天无休服务！您可以通过文字、图片、语音、视频等任意形式提出您的问题和需求，微信客服都会为您解决。</div>
 		</div><div class="email">
 			<img class="titimg titimg3" src="../shared/images/support/email.png" alt="">
 			<div class="custitle title30 mTitle38">Email支持</div>
-			<div class=" sans text18 mTitle26 ">support@italkbb.com </div>
-			<div class="emails sans text18 mTitle26 emailadd">您还可以选择发邮件联系我们，iTalkBB蜻蜓专业的客服人员会在第一时间回复您，为您解决问题</div>
+			<div class=" sans text18 mTitle26 "><a href="http://support@italkbb.com"></a>support@italkbb.com </div>
+			<div class="emails sans text18 mTitle26 emailadd">您还可以选择发邮件联系我们，iTalkBB蜻蜓专业的客服人员会在第一时间回复您，为您解决问题。</div>
 		</div>
 		</div>
 
@@ -206,7 +219,7 @@ background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% cente
 
 
 	</div>
-	</div>
+	
 
 
 
@@ -225,23 +238,6 @@ background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% cente
 
 
  
-
-$(window).resize(function(){
-   var wi = $(window).width();
-     if(wi<767){
-            $(".map").height(wi*0.47);
-        }
-        if(wi>=767){
-              $(".map").height(wi*0.15625);
-             $(".pics").width(wi*0.129);
-             $(".pics").height(wi*0.078);
-             $(".bigshow").width(wi*0.46875); 
-             $(".bigshow").height(wi*0.3125);
-             $(".bigshow").css('margin-top',-(wi*0.3125/2));
-          	 $(".bigshow").css('margin-left',-(wi*0.46875/2));
- 
-        }
-});
 // ***********************************************
 
 
