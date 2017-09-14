@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="apple-itunes-app" content="app-id=514896649">
+
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_referAfriend.css">
+
+
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+
+</head>
+
+
+<body ng-app="">
+   <!-- Author: Amy --> 
+   <div ng-include="'header.html'"></div>
+   
+   <!--main content begin-->
+   <div class="mainLayout">
+       <section class="bannerAll">
+     	    <div class="bannerText">
+     	    	<p class="title60 mTitle60 fwb bannerTitle">
+     	    	   <span>他无聊的美国生活</span>
+     	    	   <span>将因你而改变</span>
+     	    	</p>
+     	    	<p class="title30 mTitle30"></p>
+     	    </div>      	    	   
+       </section>
+       
+       <section class="mainMgnTop">
+      	  <div class="mainMgn100">
+      	  	<div class="lineOrange"></div>
+      	  </div>
+      	  <div class="mainMgn100"> 
+      	    <!-- bbPlan PC begin-->       	         	      	        	 
+        	<div class="bbPlan hideM">
+       	      <p class="planTitleBig title42 fwb" id="tit">蜻蜓电话产品计划</p>
+       	      
+        	  <div class="planBox clearfix">
+        	  	<div class="planCon">
+                   <div class="planUpper" id="up1">
+        	  		  <div class="titleBox clearfix">
+        	  		     <p class="title36 fwb">家庭经济计划</p>
+        	  		  </div>
+        	  		  <div class="planText">
+        	  			<p class="title30">直拨全球，接听免费</p>
+        	  			<div class="priceBox priceBox1 avenir clearfix">
+        	  			   <p class="dollar title60">$</p>
+        	  			   <p class="priceBig title140">4</p>
+        	  			   <p class="priceSmall title70">
+        	  			     <span class="smallNom">.99</span>
+        	  			     <span class="smallSub title36 pin">/月</span>
+        	  			   </p>       	  			 	
+        	  			</div>
+        	  			<div class="textBox">
+       	  			       <p class="title18">
+       	  			        <span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
+        	  			    <span class="textHot">首月免费，返月费</span>
+        	  			   </p>
+        	  			</div>
+        	  		  </div>
+                   </div>
+        	  	   <div class="planList" id="down1">
+        	  		    <div class="planBtn">
+						   <a href=""><p class="button title30">立即订购</p></a>
+       	  			    </div>
+       	  			    <div class="clear clearfix"></div>
+       	  			    <div class="list1">
+        	  			<div class="listCon">
+        	  				<p class="title18">拨打美/加/中/港/台低至$0.02/分钟，超低费率拨打<a class="linkOrange" href="bbRates.html#countrys" target="_blank">全球29个国家和地区</a></p>
+        	  				<p class="title18">免费保留原号码</p>
+        	  				<p class="title18">赠送手机App</p>
+        	  				<p class="title18">赠送6个月中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
+        	  			</div>
+        	  			</div>   	  			
+        	  	   </div>
+        	  	</div>
+        	  	<div class="planSpace hideM">
+  	  	           <a href="#" class="big-link" data-reveal-id="planFormCompare">
+    	  	       <div class="planCompare">
+				     <img src="../shared/images/bb/chs_bbPlanIconCompare.png"/>
+    	  	       </div>
+     	  	       </a>     	  	       
+       	  	    </div>
+       	  	    <!--from begin-->
+       	  	    <div class="planForm">
+                      <div id="planFormCompare" class="reveal-modal">
+                         <div class="planFormCon">
+                            <div ng-include="'bbFromCom.html'"></div>
+                         </div>
+                         <a class="close-reveal-modal" style="text-decoration:none">&#215;</a>
+                      </div>                 
+                </div>
+                <!--from end-->
+        	  	<div class="planCon plan2">
+                   <div class="planUpper" id="up2">
+					  <div class="titleBox titleBox2 clearfix">
+        	  			<p class="title36 fwb">全球包月计划</p>
+        	  		  </div>
+        	  		  <div class="planText">
+        	  		     <p class="title30">无限拨打全球</p>
+        	  			 <div class="priceBox priceBox2 avenir clearfix">
+        	  			   <p class="dollar title60">$</p>
+        	  			   <p class="priceBig title140">24</p>
+        	  			   <p class="priceSmall title70">
+        	  			     <span class="smallNom">.99</span>
+        	  			     <span class="smallSub title36 pin">/月</span>
+        	  			   </p>       	  			 	
+        	  			 </div>
+        	  			 <div class="textBox">
+       	  			       <p class="title18">
+       	  			        <span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
+        	  			    <span class="textHot">前三个月免费，免开通费</span>
+        	  			   </p>
+        	  			 </div>
+        	  		  </div>
+                   </div>
+        	  	   <div class="planList planList2" id="down2">
+        	  		    <div class="planBtn">
+						   <a href=""><p class="button title30">立即订购</p></a>
+       	  			    </div>
+       	  			    <div class="clear clearfix"></div>
+       	  			    <div class="list2">
+        	  			<div class="listCon">
+        	  				<p class="title18">无限拨打美/加/中/港/台等<a class="linkOrange" href="bbRates.html#countrys" target="_blank">全球29个国家和地区</a></p>
+        	  				<p class="title18">免费保留原号码</p>
+        	  				<p class="title18">赠送手机App</p>
+        	  				<p class="title18">赠送1年中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
+        	  			</div>
+						</div>
+        	  	   </div>
+        	  	</div>
+        	  </div>
+             
+        	</div>
+        	<!-- bbPlan PC End-->  
+        	 
+        	<!-- bbPlan Phone begin-->   
+        	<div class="bbPlan showM">
+       	      <p class="planTitleBig title42 mTitle50 fwb">蜻蜓电话产品计划</p>
+       	      <div class="mSwiperBox mNewswiper2">
+        	  <div class="planBox mSwiper-wrapper clearfix">
+        	  	<div class="planCon plan1 mSwiper-slide" >
+                   <div class="planUpper">
+        	  		  <div class="titleBox clearfix">
+        	  			 <p class="title36 mTitle44 fwb">家庭经济计划</p>
+        	  		  </div>
+        	  		  <div class="planText">
+        	  			<p class="title30 mTitle38">直拨全球，接听免费</p>
+        	  			<div class="priceBox priceBox1 avenir clearfix">
+        	  			   <p class="dollar title60 mTitle68">$</p>
+        	  			   <p class="priceBig title140 mTitle162">4</p>
+        	  			   <p class="priceSmall title70 mTitle78">
+        	  			     <span class="smallNom">.99</span>
+        	  			     <span class="smallSub title36 mTitle44 pin">/月</span>
+        	  			   </p>       	  			 	
+        	  			</div>
+        	  			<div class="textBox">
+       	  			       <p class="title18 mTitle26">
+       	  			        <span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
+        	  			    <span class="textHot">首月免费，返月费</span>
+        	  			   </p>
+        	  			</div>
+        	  		  </div>
+                   </div>
+        	  	   <div class="planList">
+        	  		    <div class="planBtn">
+						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
+       	  			    </div>
+       	  			    <div class="clear clearfix"></div>
+       	  			    <div class="list1">
+        	  			<div class="listCon">
+        	  				<p class="title18 mTitle26">拨打美/加/中/港/台低至$0.02/分钟，超低费率拨打<a class="linkOrange" href="bbRates.html#countrys" target="_blank">全球29个国家和地区</a></p>
+        	  				<p class="title18 mTitle26">免费保留原号码</p>
+        	  				<p class="title18 mTitle26">赠送手机App</p>
+        	  				<p class="title18 mTitle26">赠送6个月中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
+        	  				<p class="title18 mTitle26" style="background: none;">&nbsp;</p>
+        	  			</div>
+        	  			</div>   	  			
+        	  	   </div>
+        	  	</div>
+        	  	<div class="planCon plan2 mSwiper-slide">
+                   <div class="planUpper">
+        	  		  <div class="titleBox titleBox2 clearfix">
+        	  			 <p class="title36 mTitle44 fwb">全球包月计划</p>
+        	  		  </div>
+        	  		  <div class="planText">
+        	  			<p class="title30 mTitle38">无限拨打全球</p>
+        	  			<div class="priceBox priceBox2 avenir clearfix">
+        	  			   <p class="dollar title60 mTitle68">$</p>
+        	  			   <p class="priceBig title140 mTitle162">24</p>
+        	  			   <p class="priceSmall title70 mTitle78">
+        	  			     <span class="smallNom">.99</span>
+        	  			     <span class="smallSub title36 mTitle44 pin">/月</span>
+        	  			   </p>       	  			 	
+        	  			</div>
+        	  			<div class="textBox">
+       	  			       <p class="title18 mTitle26">
+       	  			        <span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
+        	  			    <span class="textHot">前三个月免费，免开通费</span>
+        	  			   </p>
+        	  			</div>
+        	  		  </div>
+                   </div>
+        	  	   <div class="planList planList2">
+        	  		    <div class="planBtn">
+						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
+       	  			    </div>
+       	  			    <div class="clear clearfix"></div>
+       	  			    <div class="list2">
+        	  			<div class="listCon">
+        	  				<p class="title18 mTitle26">无限拨打美/加/中/港/台等<a class="linkOrange" href="bbRates.html#countrys" target="_blank">全球29个国家和地区</a></p>
+        	  				<p class="title18 mTitle26">免费保留原号码</p>
+        	  				<p class="title18 mTitle26">赠送手机App</p>
+        	  				<p class="title18 mTitle26">赠送1年中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
+        	  				<p class="title18 mTitle26" style="background: none;">&nbsp;</p>
+        	  			</div>
+						</div>
+        	  	   </div>
+        	  	</div>
+        	  	<div class="planCon plan3 mSwiper-slide">
+                   <div class="planUpper">
+        	  		  <div class="titleBox titleBox2 clearfix">
+        	  			 <p class="title36 mTitle44 fwb">全球包年计划</p>
+        	  		  </div>
+        	  		  <div class="planText">
+        	  			<p class="title30 mTitle38">无限拨打及接听</p>
+        	  			<div class="priceBox priceBox3 avenir clearfix">
+        	  			   <p class="dollar title60 mTitle68">$</p>
+        	  			   <p class="priceBig title140 mTitle162">299</p>
+        	  			   <p class="priceSmall title70 mTitle78">
+        	  			     <span class="smallNom">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        	  			     <span class="smallSub title36 mTitle44 pin">/年</span>
+        	  			   </p>       	  			 	
+        	  			</div>
+        	  			<div class="textBox">
+       	  			       <p class="textSpecial title18 mTitle26">
+        	  			    <span class="textHot">美国/加拿大/中国等<br><a class="linkOrange" href="bbRates.html#countrys" target="_blank" style="text-decoration: underline;">全球29个国家和地区</a>无合约限制</span>
+        	  			   </p>
+        	  			</div>
+        	  		  </div>
+                   </div>
+        	  	   <div class="planList planList3">
+        	  		    <div class="planBtn">
+						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
+       	  			    </div>
+       	  			    <div class="clear clearfix"></div>
+       	  			    <div class="list2">
+        	  			<div class="listCon">
+        	  				<p class="title18 mTitle26">每月赠送500分钟蜻蜓手机国际通话</p>
+        	  				<p class="title18 mTitle26">赠送来电显示，来电等待，来电转移，三方通话，语音信箱等多种功能</p>
+        	  				<p class="title18 mTitle26">赠送1年中国号码950，国内亲友直拨美国无需再付国际长途费</p>
+        	  				<p class="title18 mTitle26">无合约，取消时返还剩余月份月费</p>
+        	  				<p class="title18 mTitle26">免费保留原有号码</p>
+        	  			</div>
+						</div>
+        	  	   </div>
+        	  	</div>
+        	  </div>
+              <!-- Add Arrows -->
+              <div class="mSwiper-button-next mSwiper-button-next2"></div>
+              <div class="mSwiper-button-prev mSwiper-button-prev2"></div>
+             </div>
+        	</div>
+        	<!--  bbPlan Phone End-->  
+        	 
+        	<!--  bbPlan Others Begin-->  
+        	<div class="bbPlanOther" style="">
+       	      <div class="planOtherBox">
+        	     <div class="planRefund">
+       	            <div class="mPlanCompare showM">
+        	           <p class="title24 mTitle32 fwb"><a class="linkOrange" href="bbcompare.html" target="_blank">iTalkBB家庭電話計劃比較</a></p>
+		            </div>
+        	        <p class="title36 mTitle44 fwb">30天试用承诺，无理由全额退款！ <a href="" class="linkOrange">如何申请退款？</a></p>
+        	        <div class="hideM">
+        	           <div class="btnImgN title24 mTitle32" onclick="show('fold01','img01')">不想要合约？iTalkBB蜻蜓还有<strong>无合约计划</strong><img id="img01" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
+                       
+		            </div>
+			     </div>
+       	         <div id="fold01" class="planYear hideM" style="display: none;">
+       	       	    <div class="planYearUp clearfix">
+       	       	    	<div class="yearText">
+       	       	    		<p class="title30">无限拨打及接听</p>
+       	       	    	</div>
+       	       	    	<div class="yearText yearTextCenter">
+       	       	    		<div class="priceBox priceBox3 avenir clearfix">
+        	  			       <p class="dollar title60">$</p>
+        	  			       <p class="priceBig title140">299</p>
+        	  			       <p class="priceSmall title70">
+        	  			         <span class="smallNom">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        	  			         <span class="smallSub title36 pin">/年</span>
+        	  			       </p>       	  			 	
+        	  			    </div>
+       	       	    	</div>
+       	       	    	<div class="yearText yearTextRight">
+       	       	    		<p class="title18">美国 / 加拿大 / 中国等全球29个国家地区无合约限制</p>
+       	       	    	</div>
+       	       	    </div>
+       	       	    <div class="planYearDown planList">
+        	  		    <div class="planBtn">
+						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
+       	  			    </div>
+       	  			    <div class="clear clearfix"></div>
+        	  			<div class="listCon clearfix">
+        	  				<p class="title18 mTitle26">每月赠送500分钟iTalkBB蜻蜓手机国际通话</p>
+        	  				<p class="title18 mTitle26 conRight">赠送来电显示，来电等待，来电转移，三方通话，语音信箱等多种功能</p>
+        	  				<p class="title18 mTitle26">赠送1年中国号码950，国内亲友直拨美国无需再付国际长途费</p>
+        	  				<p class="title18 mTitle26 conRight">无合约，取消时返还剩余月份月费</p>
+        	  				<p class="title18 mTitle26">免费保留原有号码</p>
+        	  			</div>
+        	  	   </div>
+       	         </div>       	         
+       	      </div>
+       	      <div class="planIcons">
+       	       	   <div class="iconsBox clearfix">
+             	      <div class="iconCon iconCon1">
+             		     <p class="titleMgnBtm text16 mText22">30天免费试用</p>
+             	      </div>
+             	      <div class="iconCon iconCon2">
+             		     <p class="titleMgnBtm text16 mText22">免费保留原号码</p>
+             	      </div>
+             	      <div class="iconCon iconCon3">
+             		     <p class="titleMgnBtm text16 mText22">手机App</p>
+             	      </div>
+             	      <div class="iconCon iconCon4">
+             		     <p class="titleMgnBtm text16 mText22">中美双号</p>
+             	      </div>
+             	      <div class="iconCon iconCon5">
+             		     <p class="titleMgnBtm text16 mText22">E911</p>
+             	      </div>
+             	      <div class="iconCon iconCon6">
+             		     <p class="titleMgnBtm text16 mText22">网内免费通话</p>
+             	      </div>
+             	      <div class="iconCon iconCon7">
+             		     <p class="titleMgnBtm text16 mText22">台湾通用号码</p>
+             	      </div>
+             	      <div class="iconCon iconCon8">
+             		     <p class="titleMgnBtm text16 mText22">其他功能</p>
+             	      </div>
+				   </div>
+      	        </div>
+        	</div> 
+        	<!-- bbPlan Others End-->    	
+		  </div>           	      	
+       </section>
+       
+       <section>
+      	  <!--如果需要全屏显示，那么将内容写在这里-->        	      	
+       </section>
+        
+       <section>
+      	  <div class="mainMgn200">
+		  </div>        	      	
+       </section>
+
+  </div>
+  <!--main content end--> 
+    
+  <div class="lineBlue"></div>
+  <div ng-include="'footer.html'"></div>
+
+</body>
+</html>
