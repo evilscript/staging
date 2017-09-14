@@ -30,6 +30,9 @@
 .bannerAll{background: url(../shared/images/tv/tvPlanBannerBg.jpg) no-repeat; background-size: 100%;}
 /* bannerAll end */
 
+/* bannerAll end */
+
+		
 
 		label{font-weight: 500}
 		a{color:#333333;}
@@ -55,6 +58,7 @@
 		.user{display: inline-block;width: 50%;text-align: center;margin-top: 0.8%;color:#b4b4b4;border-bottom: 1px solid #b4b4b4;}
 		.useradd{color:#ff7f00;border-bottom: 1px solid #ff7f00;font-weight: 800}
 		.picmb{display: none;}
+		.picpaid{display: none}
 		.md1,.md3{display: inline-block;width: 37%;vertical-align: top}
 		.md2{display: inline-block;width: 26%;padding-left: 5%}	
 		.md2a{font-family: avenir;line-height: 1;float: left;}
@@ -120,10 +124,7 @@
 
 
 
-@media (min-width:768px) and (max-width:1000px){
-	/* bannerAll begin */
-    .bannerAll{background: url(../shared/images/tv/ipadTVPlanBannerBg.jpg) no-repeat; background-size: 100%;}
-	/* bannerAll end */
+		@media (max-width:1000px){
 			.planLimitedBig,.bbPlanLimitedBig{width: 100%}
    			.md2{width: 30%}
    			.use{width: 89.6%}
@@ -158,9 +159,6 @@
 
 
 @media (max-width:767px){
-    /* bannerAll begin */
-    .bannerAll{background: url(../shared/images/tv/mTVPlanBannerBg.jpg) no-repeat; background-size: 100%;}
-	/* bannerAll end */
 	.compare{width: 100%}
 	.putong img,.gaoqing img{-webkit-box-reflect: none}
 	.putong,.gaoqing{width: 100%;display: block;}
@@ -244,18 +242,7 @@
 	<div ng-include="'header.html'"></div>
     <div class="clear clearfix"></div>
 	<div class="bodyy">
-	    
-	    <section class="bannerAll">
-     	    <div class="bannerText">
-     	    	<p class="title60 mTitle60 fwb bannerTitle">iTalkBB蜻蜓电视</p>
-     	    	<p class="title30 mTitle30">
-     	    	   <span>海外华人首选中文电视，</span>
-     	    	   <span>2017华语新片, 尽在蜻蜓电视。</span>
-     	    	</p>
-     	    </div>      	    	   
-       </section>
-	    
-		<!--<div class="banner">
+		<div class="banner">
 			<div>
 				<img class="picpc" src="../shared/images/tv/tvgoodBanner.jpg" alt="">
 				<img class="picmb" src="../shared/images/tv/tvgoodBannerM.jpg" alt="">
@@ -265,7 +252,14 @@
 			<div class="bannertext title30 mTitle28 bannertext1">海外华人首选中文电视，</div>
 			<div class="bannertext bannertex2  title30 mTitle28">2017华语新片, 尽在蜻蜓电视。</div>
 			</div>
-		</div>-->
+		</div>
+
+     	    	   <span>2017华语新片, 尽在蜻蜓电视。</span>
+     	    	</p>
+     	    </div>      	    	   
+       </section>
+
+
 
 
 		<div class="plan">
@@ -391,15 +385,21 @@
 			<div>
 				<img class="picpc" src="../shared/images/tv/tvgoodAd2.jpg" alt="">
 				<img class="picmb" src="../shared/images/tv/tvgoodAd2M.jpg" alt="">
-			</div>
+			</div></a>
 			<div class="wei2">
 			<div class="bannerAdtit title36 mTitle44">全新界面</div>
 			<div class="text1 text18 mText28">全新升级的蜻蜓电视设备，拥有更友好的界面和更智能的操作系统，方便您的使用和观看，老人孩子都能轻松学会使用，是您全家的好伴侣。</div>
 			</div>
 		</div>
+
+
+
+
+
 		<div class="bannerAd3" >
 			<a href=""><div >
 				<img class="picpc" src="../shared/images/tv/tvgoodAd3.jpg" alt="">
+				<img class="picpaid" src="../shared/images/tv/tvgoodAd3.jpg" alt="">
 				<img class="picmb" src="../shared/images/tv/tvgoodAd3M.jpg" alt="">
 			</div></a>
 			<div class="wei3">
