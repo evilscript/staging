@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy,Carson 
   Create Date:2017-07-27 
-  Update Date:2017-09-11 
+  Update Date:2017-09-13 
   Desc : Support Common CSS */ 
   
  
@@ -34,10 +34,17 @@ input:focus{ outline:none;}
 /* mainLayout begin */
 .mainLayout{max-width:1920px; width:100%; margin:0 auto;padding-top: 9%;}
 .mainMgnTop{margin-top: 3%;}
-/*.mainLimited{margin: 0 auto;}*/
+.titleMgnBtm{margin-bottom: 1vw;}
+.titleMgnBtm span{display: block;}
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00; -khtml-border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8; -khtml-border-bottom: .4vw solid #327fe8; margin-top: 7%;}
 /* mainLayout end */
+
+/* bannerAll begin */
+.bannerAll{max-width: 1920px; height: 33vw; text-align: left; padding-top: 8%; padding-left: 10.42%;  color: #fff;}
+.bannerAll span{display: block;}
+.bannerTitle{margin-bottom: 1.5%;}
+/* bannerAll end */
 
 /* from css begin */
 .formCon{text-align: center;}
@@ -551,9 +558,9 @@ input:focus{ outline:none;}
 .showM{
     display:none;
 }
-/*.hideM{
-    display:block;
-}*/
+.hidePC{
+    display:none;
+}
 /*Mobile header*/
 .noscroll {
     /*position: fixed;
@@ -819,9 +826,14 @@ input:focus{ outline:none;}
     /* mainLayout start */	
 	.mainLayout{max-width:1000px; padding-top: 14%;margin-bottom: 0;}
 	.mainMgnTop{margin-top: 3.5%;}
+	.titleMgnBtm{margin-bottom: 1.6vw;}
 	.lineOrange{height:0; border-bottom: .55vw solid #ff7f00;}
 	.lineBlue{height:0; border-bottom: .55vw solid #327fe8; margin-top: 6%;}
 	/* mainLayout end*/
+	
+	/* bannerAll begin */
+    .bannerAll{max-width: 1000px; height: 46vw;  padding-top: 13%; padding-left: 6%;}
+	/* bannerAll end */
 	
 	/* from css begin */
     .fromBox p{padding: 5% 5%;}
@@ -982,9 +994,14 @@ input:focus{ outline:none;}
 	/* mainLayout start */	
 	.mainLayout{max-width:767px; padding-top: 14%;margin-bottom: 0;}
 	.mainMgnTop{margin-top: 5%;}
+	.titleMgnBtm{margin-bottom: 3vw;}
 	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
 	.lineBlue{height:0; border-bottom: .9vw solid #327fe8; margin-top: 12%;}
 	/* mainLayout end*/
+	
+	/* bannerAll begin */
+    .bannerAll{max-width: 767px; height: 100vw; text-align: center; padding-top: 9%; padding-left: 5%; padding-right: 5%;}
+	/* bannerAll end */
 	
 	/* from css begin */
     .fromBox p{padding: 6% 8%;}
@@ -1072,6 +1089,9 @@ input:focus{ outline:none;}
     }
     .hideM{
         display:none;
+    }
+	.hidePC{
+    display:block;
     }
     .telephone{
         display:none;
