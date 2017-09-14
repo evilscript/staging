@@ -26,6 +26,7 @@
 .changeShop{margin: 1.5% auto;width: 39%;}
 .shopx{width: 50%;float: left;padding-left: 5.4%}
 .map{width: 50%;float: right;padding-left: 4%;padding-right: 5%;height: 16vw}
+.shopname{margin-bottom:1.7%}
 .address,.num,.time{margin-top: 1.1%}
 .white{background: #ffffff}
 .d2img{display: none}
@@ -43,14 +44,18 @@ select::-ms-expand { display: none; }
 .d3{display: none;}
 .tel24,.weixin,.email{width: 33.3%;display: inline-block;text-align: center;vertical-align: top}
 .weixin{border-left: 3px solid #ffffff;border-right:3px solid #ffffff;padding-bottom: 3.4% }
+
 .custitle{color: #444444;font-weight: 500;margin-bottom: 6%}
-.telnums{color: #444444;font-weight: 500;margin-bottom:1.7%;}
+.telnums{color: #444444;font-weight: 300;margin-bottom:1.7%;}
 .titimg{width: 23%;margin: 0 auto ;padding-top: 11%;padding-bottom: 7.5% }
-.wma{margin: 5% auto;width: 35%;}
+
+
+.wma{margin: 0 auto;width: 35%}
+
 .mwma{display: none;}
 .teladd,.weixinadd,.emailadd,.weixinxadd{width: 80%;margin:0 auto;}
-.emails{margin-top: 1.7%}
-.text12{font-size: 12px}
+.weixinxadd{margin-bottom: 5%;  margin-top: 3%;}
+
 
 /*合作*/
 .collaborate{display: none}
@@ -65,8 +70,8 @@ select::-ms-expand { display: none; }
 .collaborate1 img:hover{ transform: scale(1.4);}
 .collaborate2 img:hover{ transform: scale(1.4);}
 
-.opt{width: 100%;height: 42%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
-.opt2{width: 100%;height: 42%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
+.opt{width: 100%;height: 39%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
+.opt2{width: 100%;height: 39%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
 .optext{color: white;padding: 5% 6% 0% 6%;line-height: 1.5}
 .optextName{margin-bottom:2%; }
 
@@ -86,7 +91,7 @@ select::-ms-expand { display: none; }
 .pics{overflow: hidden;margin-left: 0.2%;display: inline-block;width: 33%}
 .pic:after {content: "";display: block;height: 0;clear: both;}
 .pic{margin-top: 1.5%} 
-.overlay { position: fixed; top: 0;left: 0;height: 100%; width: 100%; background-color: rgba(0,0,0,0.8); z-index: 10}
+.overlay { position: fixed; top: 0;left: 0;height: 100%; width: 100%; background-color: rgba(0,0,0,0.5); z-index: 10}
 .bigshow{position: fixed;top: 50%;  left: 50%; border-radius: 5px;z-index: 11; }
 .next,.up{position: absolute;color: white;top: 50%;line-height: 1;top: 30%;cursor: pointer;}
 .next{left: -20%}
@@ -105,10 +110,6 @@ select::-ms-expand { display: none; }
 		.text18 {font-size: 15px;}
 		.title30 {font-size: 25px;}
 }
-
-
-
-
 
 @media  (min-width:768px) and (max-width:1200px){
 .collaborates{width: 100%};
@@ -140,8 +141,6 @@ select::-ms-expand { display: none; }
 .bannerAll1{background: url(../images/support/mwhereBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll2{background: url(../images/support/mcustomerBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll3{background: url(../images/support/mcollaborateBanner.jpg) no-repeat; background-size: 100%;}
-
-.mainMgnTop{margin-bottom: 4.5%;}
 
 
 .d1img{display: none}
@@ -182,12 +181,11 @@ select::-ms-expand { display: none; }
 .telnums,.txtEng20{margin-bottom: 2.5% }
 .weixin{background-color: #ffffff}
 .aline{padding-bottom:9% }
-.wma{display: block}
-
+.wma{display: none}
+.mwma{display: block;width: 33%;margin: 0 auto;}
 .titimg{width: 15%}
 .titimg{padding-top: 7%;padding-bottom: 7%}
 .emails{padding-bottom: 12%}
-
 
 
 
