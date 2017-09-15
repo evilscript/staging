@@ -161,8 +161,8 @@ a.alphaButton{text-decoration: none; color: #222;}
     .regionPart2,.regionNameSearch,.alphaCon,.ratesNote{padding: 0 5%;}	
 	.ratesText{padding: 0 3%;}
     /* bannerAll begin */
-    .bannerAll{padding-top: 6%; background: url(../images/bb/mBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
-	.bannerTitle{line-height: 1.2; margin-bottom: 3.5%;}
+    .bannerAll{padding-top: 10%; background: url(../images/bb/mBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
+	.bannerTitle{line-height: 1.5; margin-bottom: 3.5%;}
 	/* bannerAll end */
 	
 	/* bbRegion begin */
