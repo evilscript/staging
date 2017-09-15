@@ -482,6 +482,22 @@ a:hover{
 .newsBlockRightText .hideM{
     display:inline;
 }
+.tabletOnly{
+    display:none;
+}
+.templateImgSpecial{
+    width:20%;
+    margin-left:40%;
+    cursor:pointer;
+    transition: all, 1.5s;
+}
+.templateImgSpecial1{
+    width:100%;
+    margin-left: 0;
+}
+.red{
+    color:red;
+}
 
 @media (max-width:1600px) {
     .container1520 {
@@ -584,6 +600,9 @@ a:hover{
         background: url(../../shared/images/about/companyBannerBg.jpg) top center no-repeat;
         background-size: 160%;
         background-position-x: 20%;
+    }
+    .tabletOnly{
+        display:inline;
     }
 }
 
