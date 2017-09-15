@@ -31,7 +31,7 @@
 .d2img{display: none}
 select::-ms-expand { display: none; }
 
-.pics img{width: 100%}          
+.pics img{width: 100%; cursor:pointer;}          
 .shop{display: none}
 .d1{display: block;}
 .shopname{font-weight: 700}
@@ -65,10 +65,10 @@ select::-ms-expand { display: none; }
 .collaborate1 img:hover{ transform: scale(1.4);}
 .collaborate2 img:hover{ transform: scale(1.4);}
 
-.opt{width: 100%;height: 42%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
-.opt2{width: 100%;height: 42%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
+.opt{width: 100%;height: 45%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
+.opt2{width: 100%;height: 45%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
 .optext{color: white;padding: 5% 6% 0% 6%;line-height: 1.5}
-.optextName{margin-bottom:2%; }
+
 
 
 
@@ -108,6 +108,9 @@ select::-ms-expand { display: none; }
 
 @media  (min-width:1000px) and (max-width:1200px){
 	.next，.up{top: 30%}
+	.text18 {font-size: 1.6vw;}
+	.title30 {font-size: 2.8vw;}
+
 }
 
 
@@ -120,8 +123,8 @@ select::-ms-expand { display: none; }
 .collaborate2{width: 49.8%;margin-left:0.2%;overflow: hidden;position: relative;}
 .collaborate3{width: 100%;overflow: hidden;  position: relative;}
 
-.opt2{height: 30%}
-.opt{height: 30%}
+.opt2{height: 35%}
+.opt{height: 35%}
 .map{height: 21vw}
 .next,.up{top: 25%;}
 .pic{text-align: left;}
