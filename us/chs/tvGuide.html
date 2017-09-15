@@ -79,8 +79,8 @@
         .imgc{display: none}
         .slide{width: 100%}
         .slide .img img{-webkit-box-reflect:none}
-        .videom{display: block;}
-        video{display: none;}
+        .videos{display: none;}
+        
         .slide .img3{ width: 82%; height: 69%; bottom: 10%; left: 8%;z-index: 4;}
         .slide .img2{ width: 72.5%;height: 61%;bottom: 10%; left: 0%;z-index: 3;}
         .slide .img4{ width: 72.5%;height: 61%;bottom: 10%; left: 28%;z-index: 3;}
@@ -111,8 +111,12 @@
     	<div class="video part">
     		<div class="zw">
 
-                <a class="videom" href="https://www.youtube.com/embed/2RQy-F3JjMA?enablejsapi=1&rel=0"><img src="../shared/images/tv/videoM.jpg" alt=""></a>
-    			<video id="myVideo" src="../shared/images/tv/aaa.mp4" controls loop ></video>
+                <a class="videom" href="https://www.youtube.com/embed/eD7UviJNjp0?enablejsapi=1&rel=0"><img src="../shared/images/tv/videoM.jpg" alt=""></a>
+    			
+                <div class="embed-responsive embed-responsive-16by9 videos">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eD7UviJNjp0?enablejsapi=1&rel=0"></iframe>
+                </div>
+
     		</div>
     	</div>
     	<div class="part pic1">
@@ -202,11 +206,11 @@ var slideNub;               //轮播图片数量
    var wi = $(window).width();
      if(wi<767){
             $(".slide").height($(".slide").width()*1);
-            document.getElementById('myVideo').pause();
+            // document.getElementById('myVideo').pause();
         }
         if(wi>=767){
              $(".slide").height($(".slide").width()*0.415);
-             document.getElementById('myVideo').play();
+             // document.getElementById('myVideo').play();
         }
 });
 
@@ -216,13 +220,13 @@ $(function(){
 
     if(wb<767){
                  $(".slide").height($(".slide").width()*1);
-                 document.getElementById('myVideo').pause();
+                 // document.getElementById('myVideo').pause();
 
         }
     if(wb>=767){
 
                $(".slide").height($(".slide").width()*0.415);
-                document.getElementById('myVideo').play(); 
+                // document.getElementById('myVideo').play(); 
         }
 
 
