@@ -58,9 +58,10 @@
     margin-top: 2.5%;
 }
 .aboutTextLeftImg img{
-    width: 100%;
-    margin-top: 1%;
+    width: 80%;
+    margin-top: 10%;
     margin-bottom: 3%;
+    margin-left: 10%;
 }
 .divA{
     width: 100%;
@@ -498,6 +499,9 @@ a:hover{
 .red{
     color:red;
 }
+.right2{
+    padding-top:4%;
+}
 
 @media (max-width:1600px) {
     .container1520 {
@@ -603,6 +607,9 @@ a:hover{
     }
     .tabletOnly{
         display:inline;
+    }
+    .right3{
+        padding-top:6%;
     }
 }
 
