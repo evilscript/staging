@@ -38,6 +38,46 @@
 	     .imgConCenter{padding:0 5%}
 	}
 	</style>
+	<style>
+		.billCon,.paymentCon,.detailsCon{display: none;}
+		.conTable{border-bottom: #d8d8d8 1px solid;}
+		.fromBox3 .tableUlNom{text-align: left; margin-left: 6%; margin-top: 1.8%;margin-bottom: 2%;}
+		.fromBox3 .tableUlNom p{padding:0; padding-right: 5%;}
+		.tableNote{margin-top: 2%;}
+
+		.bbPlan,.bbPlanOther,.bbTryout,.bbApp,.otherFuncBox{text-align: center;}
+		.left{float: left;}
+		.right{float: right;}
+		.left,.right{width: 50%;text-align: center;}
+		.left .typeTxt{background:url(../shared/images/support/chs_bbSptBox.png) no-repeat scroll bottom;background-size: 66%;}
+		.right .typeTxt{background:url(../shared/images/support/chs_tvSptBox.png) no-repeat scroll bottom; background-size: 66%;}
+		.left .typeTxt,.right .typeTxt{text-align: center;padding-bottom: 64%;}
+		.bothConCenter{padding-right: 0;margin-top: 4%; margin-bottom: 1%;}
+		.bothConCenter > .left{border-right: 1px #c1c1c1 solid;padding-right: 3%;}
+		.bothConCenter > .right {padding-left: 3%;}
+		.bothConCenter .titleBox{width: 50%;margin: 0 auto;margin-bottom: 6%; padding: 1.5%;padding-bottom: .2%; border: 1px solid #ff7f00;color:#ff7f00 ; box-shadow: 10px 10px  #d9d9d9;}
+		.bothConCenter .titleBox p{line-height: 1;}
+
+		@media  (min-width:768px) and (max-width:1000px){
+			.tableNote{padding: 0 5%;}
+
+			.bothConCenter{padding:0 5%}
+			.bothConCenter .titleBox{width: 70%;margin-bottom: 8%;box-shadow: 8px 8px  #d9d9d9;}
+			.left .typeTxt,.right .typeTxt{padding-bottom: 61%;}
+		}
+		@media (max-width:767px){
+			.tableNote{padding: 0 5%;}
+
+			.bothConCenter{padding:0 5.2%; padding-top: 2%;}
+			.bothConCenter .titleBox{width: 66%;margin-bottom: 8%;padding: 2.7%;padding-bottom: .5%;box-shadow: 8px 8px  #d9d9d9;}
+			.bothConCenter .titleBox p{line-height: .8;}
+			.left,.right{float: none; width: 100%;}
+			.left .typeTxt,.right .typeTxt{padding-bottom: 61%;}
+			.bothConCenter > .left{border-right: none;border-bottom: 1px #c1c1c1 solid;padding-right: 0%;padding-bottom: 5%;margin-bottom: 10%;}
+			.bothConCenter > .right {padding-left: 0;}
+
+		}
+	</style>
 </head>
 
 
@@ -91,7 +131,7 @@
 		   		   <span class="textCon">使用高清电视：请将HDMI高清线两端分别插入机顶盒及电视机的HDMI端口使用；</span>
 		   	       </p>
 		   	       <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		   <span class="textCon">使用传统电视：若您的电视机没有HDMI端口，请将AV复合视频线两端的三个插头按颜色插入电视机及机顶盒的AV埠。</span>
+		   		   <span class="textCon">使用传统电视：若您的电视机没有HDMI端口，请将AV复合视频线两端的三个插头按颜色插入电视机及机顶盒的AV端口。</span>
 		   	       </p>
 		   	    </div>	   		 
 		   	</li>
@@ -117,12 +157,19 @@
 		   	<li>
 		   		<p>设置网络</p>
 		   		<div class="">
-		   		   <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		   <span class="textCon">使用有线网络：请在打开盒子开关前，连接好网线。开机后即可直接观看；</span>
+		   		   <p class="clearfix"
+		   		   <span class="textCon">首次使用时，开机后请在首页选择“我的盒子”，点击“网络设置”，进行网络设置。您可以选择“有线网络连接”、“无线网络连接”或“快速连接无线网络”。</span>
 		   	       </p>
-		   	       <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		   <span class="textCon">使用无线网络：选择"快速连接无线网络"，按照盒子上的向导进行操作即可。</span>
-		   	       </p>
+					<p class="clearfix"><span class="Sharp">&gt;</span>
+						<span class="textCon">如您选择“无线网络连接”，即会跳出无线网络清单页，请选择您家的WiFi的名称(SSID)，并输入相应密码。密码验证正确后，选择自动获取IP，点击完成，待机顶盒上的“link灯”由红色转为绿色，则连接成功。</span>
+					</p>
+					<p class="clearfix"><span class="Sharp">&gt;</span>
+						<span class="textCon">如您使用“有线网络连接”，请选择有线网络，如有密码请输入您的网络密码，若无密码设置，请选择自动获取IP，点击完成，待机顶盒上的“link灯”由红色转为绿色，则连接成功。</span>
+					</p>
+					<p class="clearfix"><span class="Sharp">&gt;</span>
+						<span class="textCon">如您选择“快速连接无线网络”，即会跳出无线网络清单页，选择您家的无线网络，并输入相应密码，待机顶盒上的“link灯”由红色转为绿色，则连接成功。</span>
+					</p>
+
 		   	    </div>
 		   	</li>
 		   </ul>	    
@@ -155,7 +202,7 @@
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">最近浏览</p>
 		   <div class="onlyText text18 mText28">
-		   	  <p class="listTxtCon">请在首页选择 “我的盒子” 板块，然后点击 “最近浏览” ，即可找到您之前观看 24 个节目的点播节目。从左上至右下，按从新到旧的时间顺序排放。iTalkBB 蜻蜓电视还为您提供断点续播功能，记录您看此节目的进度。您再看的时候便可直接从上次停止观看的地方开始。</p>
+		   	  <p class="listTxtCon">请在首页选择"观看记录"，即可找到您最近观看的点播节目。从左上至右下，按从新到旧的时间顺序排放。iTalkBB蜻蜓电视还为您提供断点续播功能，记录您看此节目的进度。您再看的时候便可直接从上次停止观看的地方开始观看。</p>
 		   </div>			
 		</div>
 		<div class="partAll titMgnTop">
@@ -165,9 +212,92 @@
 		   </div>			
 		</div>
 		</div>
-		</div>		
-		
-	  </div>
+		</div>
+
+		   <div class="bgMgn gradient">
+			   <div class="mainMgn200">
+				   <div class="partAll">
+					   <p class="titleMgnBtm title30 mTitle38 fwb">iTalkBB蜻蜓电视是否提供节目下载</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">我们暂时不提供节目下载的功能，但是所有频道都提供72小时的节目回播功能，超过10000小时的电影、电视剧、综艺节目点播。每周都有新内容上线，您随时想点就点。</p>
+					   </div>
+				   </div>
+
+			   </div>
+		   </div>
+
+		   <div class="bgMgn gradient">
+			   <div class="mainMgn200">
+				   <div class="partAll">
+					   <p class="titleMgnBtm title30 mTitle38 fwb">关于iTalkBB蜻蜓电视计划</p>
+					   <p class="titleMgnBtm title24 mTitle32 fwb">iTalkBB蜻蜓电话的用户可获得1年优惠的蜻蜓电视服务，最多2台
+					   </p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">每个iTalkBB蜻蜓电话的用户，购买蜻蜓电视时，可享受$49.99/台（折扣后年费）的优惠价格，没有合约限制和任何其他费用。每个用户限购2台iTalkBB蜻蜓电视。<a
+								   href="../chs/tvPlan.html" class="linkOrange">点此购买</a>高清iTalkBB蜻蜓电视服务。</p>
+					   </div>
+				   </div>
+				   <div class="partAll titMgnTop">
+					   <p class="titleMgnBtm title24 mTitle32 fwb">30天试用期</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">为了让您放心购买，iTalkBB蜻蜓电视为您提供30天试用退款保证。购买后30天之内，您可以随时取消服务，您被收取的费用将全额返还。</p>
+					   </div>
+				   </div>
+				   <div class="partAll titMgnTop">
+					   <p class="titleMgnBtm title24 mTitle32 fwb">取消计划</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">购买30天之内，您可以随时取消服务，您被收取的费用将全额返还。
+						   </p>
+						   <p class="listTxtCon">购买30天之后，如果您还是iTalkBB蜻蜓电话的用户，您的iTalkBB蜻蜓电视服务没有合约限制，您可以随时取消服务，不需要支付任何手续费用，但您已被收取的费用将不会被返还。
+						   </p>
+						   <p class="listTxtCon">如果您是单独定购$14.99/月的iTalkBB蜻蜓电视计划，30天之后，您已经过了试用期并且在合约期内。如果您在合约期内取消，需要支付$99手续费，以及合约计划享受的优惠差额。
+						   </p>
+						   <p class="listTxtCon">请拨打iTalkBB蜻蜓电视24小时客户服务热线1-855-482-5588，我们专业的客服人员会帮助您取消服务。
+						   </p>
+					   </div>
+				   </div>
+
+			   </div>
+		   </div>
+
+		   <div class="bgMgn gradient">
+			   <div class="mainMgn200">
+				   <div class="partAll">
+					   <p class="titleMgnBtm title30 mTitle38 fwb">iTalkBB蜻蜓电视699号码
+					   </p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">iTalkBB蜻蜓电视699号码是用来对机顶盒及个人账户进行匹配的号码。在iTalkBB蜻蜓电视盒上可找到以“699”开头的号码，如下图所示：
+						   </p>
+						   <div class="partAll bothConCenter mainMgn200 titMgnTop clearfix">
+							   <div class="left clearfix" style="border-right:none;">
+								   <div class="titleBox">
+									   <p class="title24 mTitle32">蜻蜓电视699号码示意图</p>
+									   <p class="text16 mText24">Locate Your 699 Number</p>
+								   </div>
+								   <div class="typeTxt">
+									   <p class="text16 mText24">您可于iTalkBB蜻蜓电视盒子正面的贴纸上找到699号码 </p>
+									   <p class="text16 mText24">The 699 number is located on a sticker on your iTalkBB TV Box</p>
+								   </div>
+								   <div>
+									   <p class="text16 mText24">iTalkBB蜻蜓电视盒子 </p>
+									   <p class="text16 mText24">iTalkBB TV Box</p>
+								   </div>
+							   </div>
+						   </div>
+						   <p class="listTxtCon"><br>699号码用途如下：
+						   </p>
+						   <p class="listTxtCon">699号码可用于您的网上账户的登录名。登录<a href="" class="linkOrange">网上账户</a>之后，您能轻松管理您的服务，增加服务、更改计划，查看您的账单、通话记录，或是推荐朋友，管理积分等等。
+						   </p>
+					   </div>
+				   </div>
+
+
+			   </div>
+		   </div>
+
+
+
+	   </div>
 	  
 	  <div class="faultCon">
 	  	<div class="bgMgn gradient">

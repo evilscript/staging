@@ -48,7 +48,7 @@ $(".button3").click(function(){
 			   {"shopName":"Falls Church",
 			    "shopaddress":"Address: 2982 Gallows Rd, Falls Church, VA 22042",
 			    "shoptime":"Hours: Mon - Sun, 10:30 am - 7:30 pm",
-			    "shopnum":"Tel: (703) 879-8285",
+			    "shopnum":"Tel: (703) 333-3433",
 				"mapd":"http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d3106.3467038910862!2d-77.23093068508578!3d38.87030885614636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64b6354229161%3A0x93adae5199009956!2zMjk4MiBHYWxsb3dzIFJkLCBGYWxscyBDaHVyY2gsIFZBIDIyMDQy576O5Zu9!5e0!3m2!1szh-TW!2scn!4v1465871570673",
 				'pic':""
 
@@ -122,7 +122,7 @@ $(".button3").click(function(){
 				{"shopName":"Milpitas",
 			   "shopaddress":"Address: 338 Barber Lane, Milpitas, CA 95035",
 			   "shoptime":"Hours: Mon-Sun, 11:00 am - 7:00 pm",
-			   "shopnum":"Tel: (408) 465 - 4777",
+			   "shopnum":"Tel: (408) 465-4777",
 			     "mapd":"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=zh-tw&amp;geocode=&amp;q=338+Barber+Lane,+Milpitas,+CA+9503&amp;aq=&amp;sll=33.99301,-117.933506&amp;sspn=0.007339,0.013937&amp;ie=UTF8&amp;hq=&amp;hnear=338+Barber+Ln,+Milpitas,+Santa+Clara,+California+95035&amp;t=m&amp;ll=37.43016,-121.913052&amp;spn=0.023855,0.057507&amp;z=14&amp;iwloc=A&amp;output=embed",
 			 	'pic':""
 },
@@ -232,7 +232,7 @@ $(".button3").click(function(){
 			 	{"shopName":"Raleigh",
 			   "shopaddress":"Address: Grand Asia Market, 1253 Buck Jones Rd, Raleigh, NC 27606",
 			   "shoptime":"Hours: Sat, 10:30 am - 7:30 pm; Sun, 10:30 am - 6:00 pm",
-			   "shopnum":"Tel: (919)522-0547",
+			   "shopnum":"Tel: (919) 522-0547",
 			     "mapd":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.392942166183!2d-78.74240534871409!3d35.76572288007737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acf484c5d375fb%3A0xd7621cb7abb13be7!2s1253+Buck+Jones+Rd%2C+Raleigh%2C+NC+27606!5e0!3m2!1sen!2sus!4v1504655511623",
 			 	"pic":''},
 			   
