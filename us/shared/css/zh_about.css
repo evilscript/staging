@@ -502,6 +502,14 @@ a:hover{
 .right2{
     padding-top:4%;
 }
+table.templateText{
+    width:80%;
+    margin-top:2%;
+}
+table.templateText td{
+    border:1px solid #222222;
+    text-align:center;
+}
 
 @media (max-width:1600px) {
     .container1520 {
@@ -610,6 +618,9 @@ a:hover{
     }
     .right3{
         padding-top:6%;
+    }
+    table.templateText{
+        width:100%;
     }
 }
 
@@ -894,6 +905,9 @@ a:hover{
     }
     .newsContentBlock{
         padding-bottom:12%;
+    }
+    table.templateText{
+        width:100%;
     }
 }
 
