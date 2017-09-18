@@ -121,7 +121,7 @@ $(".button3").click(function(){
 
 				{"shopName":"Milpitas",
 			   "shopaddress":"Address: 338 Barber Lane, Milpitas, CA 95035",
-			   "shoptime":"Hours: Mon-Sun, 11:00 am - 7:00 pm",
+			   "shoptime":"Hours: Mon - Sun, 11:00 am - 7:00 pm",
 			   "shopnum":"Tel: (408) 465-4777",
 			     "mapd":"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=zh-tw&amp;geocode=&amp;q=338+Barber+Lane,+Milpitas,+CA+9503&amp;aq=&amp;sll=33.99301,-117.933506&amp;sspn=0.007339,0.013937&amp;ie=UTF8&amp;hq=&amp;hnear=338+Barber+Ln,+Milpitas,+Santa+Clara,+California+95035&amp;t=m&amp;ll=37.43016,-121.913052&amp;spn=0.023855,0.057507&amp;z=14&amp;iwloc=A&amp;output=embed",
 			 	'pic':""
