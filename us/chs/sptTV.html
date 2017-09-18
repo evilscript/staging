@@ -299,7 +299,7 @@
 
 	   </div>
 	  
-	  <div class="faultCon">
+	  <div class="faultCon" id="playError">
 	  	<div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll">
@@ -476,6 +476,15 @@ $(".fault").click(function(){
             $('.tvBoxImg').attr('src','../shared/images/support/chs_sptTVsketch02.png');
         
            })
-
+	$(document).ready(function(){
+        if (window.location.href.indexOf("?palyError") > -1) {
+            $(".supportTV").children().css("display", "none");
+            $(".faultCon").css('display','block');
+            $('.menuBox').children().removeClass('selected');
+            $(this).addClass('selected');
+            $("p.fault").addClass('selected');
+            window.location.hash = '#playError';
+        }
+	})
 </script>
 </html>

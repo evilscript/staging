@@ -603,5 +603,16 @@ $(".fault").click(function(){
 //    $('.menuBox').children().removeClass('selected');
 //    $(this).addClass('selected');  
 //})
+
+$(document).ready(function(){
+    if (window.location.href.indexOf("?cellphoneError") > -1) {
+        $(".supportMobile").children().css("display", "none");
+        $(".faultCon").css('display','block');
+        $('.menuBox').children().removeClass('selected');
+        $(this).addClass('selected');
+        $("p.fault").addClass('selected');
+        window.location.hash = '#fault';
+    }
+})
 </script>
 </html>
