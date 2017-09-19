@@ -535,7 +535,9 @@ table.templateText td{
 .column2 td{
     width:50%;
 }
-
+.column6 td{
+    width: 16.67%;
+}
 
 
 
