@@ -11,7 +11,7 @@
 .CloOrange{color: #ff7f00;}
 .referTitleBig{ color: #fff; margin-bottom: 2.5%; padding-top: 3.5%; line-height: 1.6;}
 .referTitleBig span{color: #ff7f00;}
-.referBannerBox{margin: 0 auto;margin-bottom: 6%; padding: 0 12.8%;text-align: center;background: url(../images/bb/bbPlanBg01.jpg) no-repeat;}
+.referBannerBox{margin: 0 auto;margin-bottom: 6%; padding: 0 12.8%;text-align: center;background: #000 url(../images/bb/bbPlanBg01.jpg) no-repeat bottom;background-size: 100%;}
 .rewardCon{background: #fcfcfc; padding: 3.5% 0;}
 .rewardBox{float: left; width: 50%;}
 .rewardBox1{padding-right: 5%;}
