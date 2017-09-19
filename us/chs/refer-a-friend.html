@@ -25,9 +25,7 @@
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
-
 </head>
-
 
 <body ng-app="">
    <!-- Author: Amy --> 
@@ -118,7 +116,7 @@
              	   <div class="stepBox stepBox2">
              		  <p class="stepTitle title24 mTitle28">发送给朋友</p>             		  
              	   </div>
-             	   <div class="stepBox">
+             	   <div class="stepBox stepBox2Con">
              	      <div class="email clearfix">
              		     <p class="searchText text18 mText22">通过电子邮件：</p>
         	             <input class="searchBar text18 mText22" type="search" placeholder="" value="输入您朋友的邮箱" onfocus="if (value =='输入您朋友的邮箱'){value =''}" onblur="if (value ==''){value='输入您朋友的邮箱'}" >        	    
@@ -176,7 +174,7 @@
       	  	   	  	 <p class="text18 mText26">Vitamix 維他美仕 食品調理機Pro 200（黑色）</p>
       	  	   	  	 <p class="text18 mText26 CloOrange">iTalkBB VIP價格: $349</p>
       	  	   	  	 <p class="text18 mText26 priceCrossed">&nbsp;原價:$450.00&nbsp;</p>
-      	  	   	  	 <a class="linkOrange rules" href=""><p class="text18 mText26 fwb">* 活动细则</p></a>
+      	  	   	  	 <a class="linkOrange rules" href="#" target="_blank"><p class="text18 mText26 fwb">* 活动细则</p></a>
       	  	   	  </div>         
       	  	   </div>
       	  	</div>
@@ -188,25 +186,15 @@
     
   <div class="lineBlue"></div>
   <div ng-include="'footer.html'"></div>
-  <script>
+  
+<script>
 
-
-
-
-
-  var h  =$('.referAfriend').height();
-
+var h  =$('.referAfriend').height();
 console.log('ccc'+h);
-
-
-
-
-
-
 
 $('.changes2').click(function(){
       $('.change1').html('邀请您的亲友一起体验精彩的海外生活');
-      $('.change2').html('把您的899号码告诉朋友<span class="where">（在哪里找到899号码？）</span>');
+      $('.change2').html('把您的899号码告诉朋友<span class="where">（<a href="#" class="linkOrange" target="_blank">在哪里找到899号码？</a>)</span>');
       $('.change3').html('成功！您的亲友将注册时输入您的899号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB送出的$10');
       $(".shortMessage").css('display','none');
       $('.referAfriend').height(h);
@@ -216,8 +204,8 @@ $('.changes2').click(function(){
 
 $('.changes3').click(function(){
       $('.change1').html('邀请您的亲友一起体验精彩的海外生活');
-      $('.change2').html('把您的899号码告诉朋友<span class="where">（在哪里找到899号码？）</span>');
-      $('.change3').html('成功！您的亲友将注册时输入您的899号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB送出的$10');
+      $('.change2').html('把您的699号码告诉朋友<span class="where">（<a href="#" class="linkOrange" target="_blank">在哪里找到699号码？</a>)</span>');
+      $('.change3').html('成功！您的亲友将注册时输入您的699号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB送出的$10');
       $(".shortMessage").css('display','none');
        $('.referAfriend').height(h);
            $('.menuBtn').removeClass('selected');
@@ -234,10 +222,7 @@ $('.changes1').click(function(){
     $('.changes1').addClass('selected');  
 })
 
-
-
-
-  </script>
+</script>
 
 </body>
 </html>
