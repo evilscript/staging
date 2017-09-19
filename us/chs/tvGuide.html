@@ -26,10 +26,6 @@
 	<script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
     <style>
-    .bannerAll1{background: url(../shared/images/tv/pic1.jpg) no-repeat; background-size: 100%;}
-    .bannerAll2{background: url(../shared/images/tv/pic2.jpg) no-repeat; background-size: 100%;}
-    .bannerAll3{background: url(../shared/images/tv/pic3.jpg) no-repeat; background-size: 100%;}
-
 	.bodyy{margin-top: 9%}
 	.part{margin-bottom: 3.6%;position: relative;}
 	.zw img{width: 100%}
@@ -86,11 +82,6 @@
 
 
 	  @media (max-width:785px){
-        .bannerAll{padding-left:0px;text-align: center }
-     .bannerAll1{background: url(../shared/images/tv/pic1M.jpg) no-repeat; background-size: 100%;height: 109vw}
-    .bannerAll2{background: url(../shared/images/tv/pic2M.jpg) no-repeat; background-size: 100%;height: 109vw}
-    .bannerAll3{background: url(../shared/images/tv/pic3M.jpg) no-repeat; background-size: 100%;height: 106vw}
-
 		.zwP{display: none;}
 		.zwM{display: block;}
         .imgm{display: block}
@@ -100,6 +91,7 @@
         .slide{width: 100%}
         .slide .img img{-webkit-box-reflect:none}
         .videos{display: none;}
+        #video0{width: 90%;margin-left: 5%;margin-top: 40%;}
         
         .slide .img3{ width: 82%; height: 69%; bottom: 10%; left: 8%;z-index: 4;}
         .slide .img2{ width: 72.5%;height: 61%;bottom: 10%; left: 0%;z-index: 3;}
@@ -118,7 +110,6 @@
         .dy30{    transform: none;}
         .text1{top: 3%;width: 100%;text-align: center;left: 0}
         .text2{text-align: center;width: 100%;top: 12%;left: 0}
-        .textx{padding-top: 6%}
         
 
 	  }
@@ -148,20 +139,20 @@
 
     		</div>
     	</div>
-    	<div class="part ">
-            <section class="bannerAll bannerAll1">
-                        <div class="bannerText">
-                            <p class="title60 mTitle50 fwb bannerTitle">热播电影 高清正版</p>
-                        </div>                     
-            </section>
-
+    	<div class="part pic1">
+            <div class="wei">
+              <div class="text1 title60 mTitle60">热播电影 高清正版 </div>
+             
+            </div>
+            
+            <div class="zw">
+                <img class="zw4 zwP" src="../shared/images/tv/pic1.jpg" alt="">
+                <img class="zwM" src="../shared/images/tv/pic1M.jpg" alt="">
+            </div>
         </div>
-
-
-
     	<div class="part look1">
             <div class="wei">
-              <div class="text1 title60 mTitle60 fwb">精彩剧集 海量点播</div>
+              <div class="text1 title60 mTitle60">精彩剧集 海量点播</div>
             </div>
 
 
@@ -181,7 +172,7 @@
     	</div>
     	<div class="part look2">
             <div class="wei">
-             <div class="text1 title60 mTitle60 fwb">火热综艺 同步更新</div>
+             <div class="text1 title60 mTitle60">火热综艺 同步更新</div>
            
                </div>
 
@@ -197,26 +188,28 @@
                 </div>
             </div>
     	</div>
-
-        <div class="part ">
-            <section class="bannerAll bannerAll2">
-                        <div class="bannerText">
-                            <p class="title60 mTitle50 fwb bannerTitle">少儿动画 精彩纷呈</p>
-                        </div>                     
-            </section>
-
-        </div>
-
-
-        <div class="part ">
-            <section class="bannerAll bannerAll3">
-                        <div class="bannerText">
-                            <p class="title60 mTitle50 fwb bannerTitle">曲艺杂谈 名家名段</p>
-                        </div>                     
-            </section>
-
-        </div>
-
+    	<div class="part pic2">
+            <div class="wei">
+             <div class="text1 title60 mTitle60">少儿动画 精彩纷呈</div>
+            
+               </div>
+            
+    		<div class="zw">
+    			<img class="zw5 zwP" src="../shared/images/tv/pic2.jpg" alt="">
+    			<img class="zwM" src="../shared/images/tv/pic2M.jpg" alt="">
+    		</div>
+    	</div>
+    	<div class="part pic3">
+            <div class="wei">
+             <div class="text1 title60 mTitle60">曲艺杂谈 名家名段</div>
+       
+                </div>
+           
+    		<div class="zw">
+    			<img class="zw6 zwP" src="../shared/images/tv/pic3.jpg" alt="">
+    			<img class="zwM" src="../shared/images/tv/pic3M.jpg" alt="">
+    		</div>
+    	</div>
     </div>
    <div class="clear clearfix"></div>
 	<div ng-include="'footer.html'"></div>
