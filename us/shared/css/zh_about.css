@@ -523,6 +523,21 @@ table.templateText td{
         font-size:66px;
     }
 }
+.column4 td{
+    width:25%;
+}
+.column5 td{
+    width:20%;
+}
+.column3 td{
+    width:33%;
+}
+.column2 td{
+    width:50%;
+}
+
+
+
 
 @media (max-width:1500px) {
     .container1520 {
