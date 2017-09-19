@@ -35,6 +35,47 @@
 	.imgConCenter{padding:0 5%}
 	}
 	</style>
+	<style>
+		.billCon,.paymentCon,.detailsCon{display: none;}
+		.conTable{border-bottom: #d8d8d8 1px solid;}
+		.fromBox3 .tableUlNom{text-align: left; margin-left: 6%; margin-top: 1.8%;margin-bottom: 2%;}
+		.fromBox3 .tableUlNom p{padding:0; padding-right: 5%;}
+		.tableNote{margin-top: 2%;}
+
+		.bbPlan,.bbPlanOther,.bbTryout,.bbApp,.otherFuncBox{text-align: center;}
+		.left{float: left;}
+		.right{float: right;}
+		.left,.right{width: 50%;text-align: center;}
+		.left .typeTxt{background:url(../shared/images/support/chs_bbSptBox.png) no-repeat scroll bottom;background-size: 66%;}
+		.right .typeTxt{background:url(../shared/images/support/chs_tvSptBox.png) no-repeat scroll bottom; background-size: 66%;}
+		.left .typeTxt,.right .typeTxt{text-align: center;padding-bottom: 64%;}
+		.bothConCenter{padding-right: 0;margin-top: 4%; margin-bottom: 1%;}
+		.bothConCenter > .left{border-right: 1px #c1c1c1 solid;padding-right: 3%;}
+		.bothConCenter > .right {padding-left: 3%;}
+		.bothConCenter .titleBox{width: 50%;margin: 0 auto;margin-bottom: 6%; padding: 1.5%;padding-bottom: .2%; border: 1px solid #ff7f00;color:#ff7f00 ; box-shadow: 10px 10px  #d9d9d9;}
+		.bothConCenter .titleBox p{line-height: 1;}
+
+		@media  (min-width:768px) and (max-width:1000px){
+			.tableNote{padding: 0 5%;}
+
+			.bothConCenter{padding:0 5%}
+			.bothConCenter .titleBox{width: 70%;margin-bottom: 8%;box-shadow: 8px 8px  #d9d9d9;}
+			.left .typeTxt,.right .typeTxt{padding-bottom: 61%;}
+		}
+		@media (max-width:767px){
+			.tableNote{padding: 0 5%;}
+
+			.bothConCenter{padding:0 5.2%; padding-top: 2%;}
+			.bothConCenter .titleBox{width: 66%;margin-bottom: 8%;padding: 2.7%;padding-bottom: .5%;box-shadow: 8px 8px  #d9d9d9;}
+			.bothConCenter .titleBox p{line-height: .8;}
+			.left,.right{float: none; width: 100%;}
+			.left .typeTxt,.right .typeTxt{padding-bottom: 61%;}
+			.bothConCenter > .left{border-right: none;border-bottom: 1px #c1c1c1 solid;padding-right: 0%;padding-bottom: 5%;margin-bottom: 10%;}
+			.bothConCenter > .right {padding-left: 0;}
+
+		}
+	</style>
+
 </head>
 
 
@@ -61,15 +102,15 @@
 		  </div>           	      	
        </section>
        
-       <section class="supportBB">
+       <section class="supportBB" id="BBInstallation">
        <div class="useCon">	    
-	    <div class="bgMgn noBgMgnbtm lineGray">
+	    <div class="bgMgn noBgMgnbtm lineGray" id="installation">
 		<div class="mainMgn200">
 		<div class="partAll imgConCenter">
 		    <p class="titleMgnBtm title30 mTitle38 fwb">电话盒子安装</p>
 		    <p class="titleMgnBtm title24 mTitle32 fwb">安装示意图</p>		    
 		    <div class="imgCnt">
-		    <p class="imgTitle title24 mTitle32">蜻蜓家庭电话盒</p>
+		    <p class="imgTitle title24 mTitle32">蜻蜓蜻蜓电话盒</p>
 		    <img src="../shared/images/support/chs_sptBBsketch.png" alt="">
 		    </div>
 		</div>
@@ -79,16 +120,16 @@
 		<div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll">
-	       <p class="titleMgnBtm title24 mTitle32 fwb">使用路由器 (Router) 时，iTalkBB家庭电话的安装步骤：</p>
+	       <p class="titleMgnBtm title24 mTitle32 fwb">使用路由器 (Router) 时，iTalkBB蜻蜓电话的安装步骤：</p>
 		   <ul class="listNom text18 mText26">
 		   	<li>
-		   		<p>请将网线的一头插在iTalkBB家庭电话盒的“Internet"插口，另一头接在您家的路由器的Ethernet（LAN）插口；</p>
+		   		<p>请将网线的一头插在iTalkBB蜻蜓电话盒的“Internet"插口，另一头接在您家的路由器的Ethernet（LAN）插口。</p>
 		   	</li>
 		   	<li>
-		   		<p>请将电话线的一头插在iTalkBB家庭电话盒的“Phone 1"插口，另一头接在您的电话机上；</p>
+		   		<p>请将电话线的一头插在iTalkBB蜻蜓电话盒的“Phone 1"插口，另一头接在您的电话机上。</p>
 		   	</li>
 		   	<li>
-		   		<p>请给iTalkBB家庭电话盒接上电源；</p>
+		   		<p>请给iTalkBB蜻蜓电话盒接上电源。</p>
 		   	</li>
 		   </ul>			
 		</div>
@@ -98,52 +139,53 @@
 		<div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll">
-	       <p class="titleMgnBtm title24 mTitle32 fwb">没有路由器 (Router) 只有Modem时，iTalkBB家庭电话的安装步骤：</p>
+	       <p class="titleMgnBtm title24 mTitle32 fwb">没有路由器 (Router) 只有Modem时，iTalkBB蜻蜓电话的安装步骤：</p>
 		   <ul class="listNom text18 mText26">
 		   	<li>
-		   		<p>断开原有Modem与PC的连接，将网线的一头插在iTalkBB家庭电话盒子的“Internet"插口，另一头接在Modem的"LAN"插口；</p>		   		 
+		   		<p>断开原有Modem与PC的连接，将网线的一头插在iTalkBB蜻蜓电话盒子的“Internet"插口，另一头接在Modem的"LAN"插口。</p>
 		   	</li>
 		   	<li>
-		   		<p>请将网线的一头接到iTalkBB家庭电话盒的“LAN"插口，另一头接到电脑的“Ethernet"插口；</p>
+		   		<p>请将网线的一头接到iTalkBB蜻蜓电话盒的“LAN"插口，另一头接到电脑的“Ethernet"插口。</p>
 		   	</li>
 		   	<li>
-		   		<p>请将电话线的一头插在iTalkBB家庭电话盒的“Phone 1"插口，另一头接在您的电话机上；</p>
+		   		<p>请将电话线的一头插在iTalkBB蜻蜓电话盒的“Phone 1"插口，另一头接在您的电话机上。</p>
 		   	</li>
 		   	<li>
-		   		<p>请给iTalkBB家庭电话盒接上电源；</p>
+		   		<p>请给iTalkBB蜻蜓电话盒接上电源。</p>
 		   	</li>
 		   </ul>			
 		</div>
 		</div>
 		</div>
 		
-		<div class="bgMgn gradient">
+		<div class="bgMgn gradient" id="howToDail">
 		<div class="mainMgn200">
 		<div class="partAll">
-           <p class="titleMgnBtm title30 mTitle38 fwb">拨打方式</p>
-	       <p class="titleMgnBtm title24 mTitle32 fwb">家庭电话拨打方式： </p>
+           <p class="titleMgnBtm title30 mTitle38 fwb" id="howto">拨打方式</p>
+	       <p class="titleMgnBtm title24 mTitle32 fwb">蜻蜓电话拨打方式： </p>
 		   <ul class="listNom text18 mText26">
 		   	<li>
-		   		<p>拨打美国和加拿大地区的电话：请拨1 + 地区号码 + 电话号码，例如：1-202-888-8888；</p>		   		 
+		   		<p>拨打美国和加拿大地区的电话：请拨1 + 地区号码 + 电话号码，例如：1-202-888-8888。</p>
 		   	</li>
 		   	<li>
-		   		<p>拨打国际电话：请拨011 + 国家代码 + 电话号码，例如：011-86-10-88888888；</p>
+		   		<p>拨打国际电话：请拨011 + 国家代码 + 电话号码，例如：011-86-10-88888888。</p>
 		   	</li>
 		   	<li>
-		   		<p>使用免费网内通话服务与其他iTalkBB家庭电话用户通话：请拨对方的899号码；</p>
+		   		<p>使用免费网内通话服务与其他iTalkBB蜻蜓电话用户通话：请拨对方的899号码。</p>
 		   	</li>
 		   	<li>
-		   		<p>使用美国、加拿大传真：请拨# + 1 + 传真号码，例如：#+1+888-888-8888；</p>
+		   		<p>使用美国、加拿大传真：请拨# + 1 + 传真号码，例如：#+1+888-888-8888。</p>
 		   	</li>
 		   </ul>			
 		</div>
 		<div class="partAll titMgnTop">
-	       <p class="titleMgnBtm btnImgN title24 mTitle32 fwb" onclick="show('foldApp','imgApp')">iTalkBB APP国际长途拨打方式<img id="imgApp" src="../shared/images/icons/doubleArrowOrangeDown.png"/></p>
+	       <p class="titleMgnBtm btnImgN title24 mTitle32 fwb" onclick="show('foldApp','imgApp')">iTalkBB蜻蜓手机App国际长途拨打方式：
+			   <img id="imgApp" src="../shared/images/icons/doubleArrowOrangeDown.png"/></p>
  
            <div id="foldApp" style="display: none;">
 		   <ul class="listNom text18 mText26">
 		   	<li>
-		   		<p>扫描下方二维码下载APP，或者到Apple Store或Google Play搜寻“iTalkBB”, 下载APP并进行安装；</p>
+		   		<p>您可以扫一下二维码直接下载iTalkBB蜻蜓手机App，或者在Apple App Store和Google Play输入“iTalkBB”搜索并安装App。</p>
 		   		<div class="appQRcode clearfix">
 		   		  <div class="QRcode">
 		   		  	 <p>
@@ -167,31 +209,38 @@
 		   		</div>	   		 
 		   	</li>
 		   	<li>
-		   		 <p>安装后, 先浏览“欢迎页面”, 并点击确认服务条款；</p>
+		   		 <p>安装后, 先浏览“欢迎页面”, 并点击确认服务条款。</p>
 		   		 <div class="imgAppExplain">
 		   		   <img src="../shared/images/support/chs_useBBExplain1.png" alt="">
 				 </div>
 		   	</li>
 		   	<li>
-		   		<p>第一次使用APP时，需要绑定手机号并进行验证码（PIN）验证，验证码为四个数字；	</p>
+		   		<p>第一次使用App时，需要绑定手机号。
+				</p>
 		   		<div class="imgAppExplain">
 		   		   <img src="../shared/images/support/chs_useBBExplain2.png" alt="">
 				</div>   		
 		   	</li>
 		   	<li>
-		   		<p>手机号验证成功后可以开始使用APP，选择“Wi-Fi拨打”或“手机分钟数拨打”两种拨打方式：</p>
+		   		<p>手机号验证成功后可以开始使用App，选择“Wi-Fi拨打”*或“手机分钟数拨打”两种拨打方式：</p>
+				<p class="clearfix">
+					<span class="textCon" style="margin-left: -1%;">&nbsp;&nbsp;*没有Wi-Fi的情况下，使用“手机流量拨打”。</span>
+				</p>
 		   		<p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon" style="margin-left: -1%;">“Wi-Fi拨打”：免费，不会额外费用；</span>
+		   		<span class="textCon" style="margin-left: -1%;">“Wi-Fi拨打”：在Wi-Fi环境下，推荐使用Wi-Fi拨打</span>
 		   		</p>
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon" style="margin-left: -1%;">“手机流量拨打”：在没有Wi-Fi的环境下，还可以选择使用手机流量拨打</span>
+				</p>
 		   		<p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon" style="margin-left: -1%;">“手机分钟数拨打”：将使用手机运营商提供的分钟数；</span>
+		   		<span class="textCon" style="margin-left: -1%;">“手机分钟数拨打”：使用手机运营商提供的分钟数拨打</span>
 		   		</p>
 		   		<div class="imgAppExplain">
 		   		   <img src="../shared/images/support/chs_useBBExplain3.png" alt="">
 				</div>
 		   	</li>
 		   	<li>
-		   		 <p>遵循以下方式，可以直接输入被拨打号码；</p>
+		   		 <p>遵循以下方式，可以直接输入被拨打号码：</p>
 		   		 <div class="imgAppExplain">
 		   		   <img src="../shared/images/support/chs_useBBExplain4.png" alt="">
 				 </div>
@@ -200,16 +249,16 @@
 		  </div>			
 		</div>
 		<div class="partAll titMgnTop">
-	       <p class="titleMgnBtm title24 mTitle32 fwb">中国号码 950 拨打方式： </p>
+	       <p class="titleMgnBtm title24 mTitle32 fwb">中国号码950拨打方式： </p>
 		   <div class="text18 mText26">
-		   	  <p class="listTxtCon">任何中国的亲友联系您，直拨这个 950 开头的 11 位号码，就能接通您在美国的电话，无需支付任何国际长途费用，就像拨打一个普通市话一样。亲友拨打您的 950 号码时，只需直接输入 950 号码，无需在号码前加拨 1 或其他任何国际区号。<a class="linkOrange" href="">了解详情；</a>
+		   	  <p class="listTxtCon">任何中国的亲友联系您，直拨这个950开头的11位号码，就能接通您在美国的电话，无需支付任何国际长途费用，就像拨打一个普通市话一样。亲友拨打您的950号码时，只需直接输入950号码，无需在号码前加拨1或其他任何国际区号。<a class="linkOrange" href="">了解详情</a>
 		   	  </p>
 		   </div>			
 		</div>
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">台湾通用号码拨打方式：</p>
 		   <div class="text18 mText26">
-		   	  <p class="listTxtCon">您的 iTalkBB 蜻蜓电话附带一个台湾通用号码的服务。在台湾的亲友无需支付任何国际长途费用拨打方式：先拨打 02-40660660 或 40502999 的任意 1 个，接通后输入您的 899 号码。<a class="linkOrange" href="">了解详情；</a>
+		   	  <p class="listTxtCon">您的iTalkBB蜻蜓电话附带一个台湾通用号码的服务。在台湾的亲友无需支付任何国际长途费用拨打方式：先拨打02-40660660或40502999的任意1个，接通后输入您的899号码。<a class="linkOrange" href="">了解详情</a>
 		   	  </p>
 		   </div>			
 		</div>
@@ -224,11 +273,10 @@
 	       <p class="titleMgnBtm title24 mTitle32 fwb">转号步骤：</p>
 		   <ul class="listNom text18 mText26">
 		   	<li>
-		   		<p>在线填写 Letter of Authorization 完成转号申请<br> 
-		   		<a class="linkOrange" href="http://www.italkbb.com/bb/chs/Transfer/chs_Number_Transfer.asp" target="_blank">http://www.italkbb.com/bb/chs/Transfer/chs_Number_Transfer.asp</a>；	</p>	   		 
+		   		<p>在线填写<a class="linkOrange" href="http://www.italkbb.com/bb/chs/Transfer/chs_Number_Transfer.asp" target="_blank">Letter of Authorization</a>完成转号申请。<br> </p>
 		   	</li>
 		   	<li>
-		   		<p>或者您需要把现在的电话账单发给 Portin@iTalkBB.com 或传真到 1-800-872-2059；</p>
+		   		<p>或者您需要把现在的电话账单发给<a href="mailto:Portin@iTalkBB.com" class="linkOrange">Portin@iTalkBB.com</a>或传真到1-800-872-2059。</p>
 		   	</li>
 		   </ul>			
 		</div>
@@ -236,184 +284,310 @@
 	       <p class="titleMgnBtm title24 mTitle32 fwb">转号须知：</p>
 		   <ul class="listNom text18 mText26">
 		   	<li>
-		   		<p>您现在的账单首页必须包括您的名字、地址和电话号码，并且与 Letter of Authorization 上一致；</p>	   		 
+		   		<p>您现在的账单首页必须包括您的名字、地址和电话号码，并且与<a class="linkOrange" href="http://www.italkbb.com/bb/chs/Transfer/chs_Number_Transfer.asp" target="_blank">Letter of Authorization</a>上一致。</p>
 		   	</li>
 		   	<li>
-		   		<p>您在转号申请时所提交的名字及地址，必须是所转号码在电话公司注册的名字和地址，即您号码的 Service Address 。如果您对此不清楚，请联系 Local 公司咨询这个号码的 CSR(Customer service record) 资讯。如果您提供的资讯不准确，将会造成转号被拒，延长转号时间，给您造成不必要的麻烦；</p>
+		   		<p>您在转号申请时所提交的名字及地址，必须是所转号码在电话公司注册的名字和地址，即您号码的Service Address。如果您对此不清楚，请联系所在的电话公司，咨询这个号码的CSR (Customer Service Record) 信息。如果您提供的信息不准确，将会造成转号被拒，延长转号时间，给您造成不必要的麻烦。</p>
 		   	</li>
 		   	<li>
-		   		<p>在转号码期间，请不要取消您现有的本地电话服务，否则号码将被回收；</p>
+		   		<p>在转号码期间，请不要取消您现有的本地电话服务，否则号码将被回收。</p>
 		   	</li>
 		   	<li>
-		   		<p>转号成功后，您原本的电话服务将自动被取消，不需要您联系您的电话公司。如果为保险起见，您可以向您的电话公司确认；</p>
+		   		<p>转号成功后，您原本的电话服务将自动被取消，不需要您联系您的电话公司。如果为保险起见，您可以向您的电话公司确认。</p>
 		   	</li>
 		   </ul>			
 		</div>
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">转号状态查询：</p>
 		   <div class="text18 mText26">
-		   	  <p class="listTxtCon">转号一般需要 2-6 周的时间。转号过程中我们会发邮件通知您转号的进度，或者您可以登录网上账户或者拨打 1-877-482-5503 ，来查询您的转号状态；</p>
+		   	  <p class="listTxtCon">转号一般需要2-6周的时间。转号过程中我们会发邮件通知您转号的进度，或者您可以登录网上账户或者拨打1-877-482-5503，来查询您的转号状态。</p>
 		   </div>			
 		</div>
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">转号成功：</p>
 		   <div class="text18 mText26">
-		   	  <p class="listTxtCon">转号成功后，要保留的电话号码会转到 iTalkBB 蜻蜓电话，您原本的电话服务将自动被取消；</p>
+		   	  <p class="listTxtCon">转号成功后，要保留的电话号码会转到iTalkBB蜻蜓电话，您原本的电话服务将自动被取消。</p>
 		   </div>			
 		</div>
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">转号失败：</p>
 		   <div class="onlyText text18 mText26">
-		   	  <p class="listTxtCon">大部份的电话号码都可成功转号，但有少数 DSL 的用户，由于上网和电话线在一起，所以无法只取消电话服务而保留上网服务。因此，如果您是  DSL的用户，请在申请转号前，与你的电话公司确认是否可以转号后再与我们联系转号，否则可能会造成号码丢失等损失；</p>
+		   	  <p class="listTxtCon">大部份的电话号码都可成功转号，但有少数DSL的用户，由于上网和电话线在一起，所以无法只取消电话服务而保留上网服务。因此，如果您是DSL的用户，请在申请转号前，与你的电话公司确认是否可以转号后再与我们联系转号，否则可能会造成号码丢失等损失。</p>
 		   </div>			
 		</div>
 		</div>
 		</div>
 		
-		<div class="bgMgn gradient">
+		<div class="bgMgn gradient" id="chinese950">
 		<div class="mainMgn200">
 		<div class="partAll">
            <p class="titleMgnBtm title30 mTitle38 fwb">产品功能</p>
-	       <p class="titleMgnBtm title24 mTitle32 fwb">iTalkBB APP - 让您用手机直接拨打国际长途</p>
+	       <p class="titleMgnBtm title24 mTitle32 fwb">iTalkBB蜻蜓手机App-让您用手机直接拨打国际长途</p>
 	       <div class="text18 mText26">
-		   	  <p class="listTxtCon">iTalkBB APP 是一款为 iTalkBB 蜻蜓电话用户免费提供国际通话的手机拨打工具，让您免费或以超低费率拨打国际长途电话。支持 Wifi（数据）拨打，及手机分钟拨打两种模式。您在使用时，只需直拨目的地号码，也可直接使用手机通讯录中的联络人讯息，无需再输入接驳号。注册之后，马上下载，便能完全替代您现有手机公司的付费国际长途功能。查看使用方式，<a class="linkOrange" href="#">请点击iTalkBB APP国际长途拨打方式；</a></p>
+		   	  <p class="listTxtCon">iTalkBB蜻蜓手机App是一款为iTalkBB蜻蜓蜻蜓电话用户免费提供国际通话的手机拨打工具，让您免费或以超低费率拨打国际长途电话，并支持Wi-Fi，数据，及手机分钟共3种拨打模式。您在使用时，只需直拨目的地号码，也可直接使用手机通讯录中的联络人讯息，无需再输入接驳号。注册之后，马上下载，便能完全替代您现有手机公司的付费国际长途功能。查看使用方式，请点击<a class="linkOrange" href="#howto">iTalkBB蜻蜓手机APP国际长途拨打方式</a>。</p>
 		   </div>			
 		</div>
 		<div class="partAll titMgnTop">
-           <p class="titleMgnBtm title24 mTitle32 fwb">中国号码 950</p>
+           <p class="titleMgnBtm title24 mTitle32 fwb">如何获得中国号码950：</p>
 	       <div class="text18 mText26">
-		   	  <p class="listTxtCon">iTalkBB 蜻蜓电话的用户除了获有一个常规的美国号码之外，可以再获得一个以 950 开头的"模拟的中国本地号码"。美国的亲友联系您，拨打您的美国号码。而您所有的中国亲友联系您，只要直拨这个 950 开头的11位号码，就能打通您在美国的电话，完全无需支付任何国际长途费用，就像在拨打一个普通市话一样。使用说明：</p>
+		   	  <p class="listTxtCon">iTalkBB蜻蜓电话的用户除了获有一个常规的美国号码之外，可以再获得一个以950开头的"模拟中国本地号码"。美国的亲友联系您，拨打您的美国号码。而您所有的中国亲友联系您，只要直拨这个950开头的11位号码，就能打通您在美国的电话，无需任何转接，完全无需支付任何国际长途费用，就像在拨打一个普通市话一样。使用说明：</p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon">iTalkBB 家庭电话的用户根据计划不同，自动享有不同时长的免费中国号码 950 服务；优惠期满后，可继续以 $0.99/月的优惠价格享受此服务（原价 $2.99/月）；</span>
+		   		<span class="textCon">iTalkBB蜻蜓电话的用户根据计划不同，自动享有不同时长的免费中国号码950服务；优惠期满后，可继续以 $0.99/月的优惠价格享受此服务（原价$2.99/月）。</span>
 		   	  </p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon">在您注册服务后，我们会将您的 950 号码发送到您的邮箱；</span>
+		   		<span class="textCon">在您注册服务后，我们会将您的950号码发送到您的邮箱。</span>
 		   	  </p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon">您也可以登录您的网上账户，在"账户资讯"页面查到您的 950 号码，并在“增值服务"菜单下“特色服务"中，选择更换号码或取消本项服务；</span>
+		   		<span class="textCon">您也可以登录您的<a href="" class="linkOrange">网上账户</a>，在"账户资讯"页面查到您的950号码，并在“增值服务"菜单下“特色服务"中，选择更换号码或取消本项服务。</span>
 		   	  </p>
+
+			   <p class="clearfix">
+				   <span class="textCon">如果您是iTalkBB蜻蜓电话用户，尚未开通“中国号码950”服务，您可以拨打客户服务热线1-877-482-5503开通，并咨询“中国号码950”相关最新优惠。</span>
+			   </p>
 		   </div>			
 		</div>
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">台湾通用号码</p>
-		   <ul class="listNom text18 mText26">
-		   	<li>
-		   		<p>iTalkBB 蜻蜓电话为您免费提供一个免费的台湾通用号码。您在台湾的亲友可以拨打这个通用号码，然后再拨打您的 899 号码，随时与您取得联系；	</p>   		 
-		   	</li>
-		   	<li>
-		   		<p>亲友无需支付任何国际长途费用拨打方式：先拨打 02-40660660 或 40502999 的任意 1 个，接通后输入您的 899 号码，就可接通您的电话；</p>
-		   	</li>
-		   	<li>
-		   		<p>如果您的亲友在台北县市内，他们拨打此号码只需支付市话费；如果他们不在台北县市内，则需支付台湾当地的国内长途费用；</p>
-		   	</li>
-		   </ul>			
+		   <div class="text18 mText26">
+			   <p class="clearfix">iTalkBB蜻蜓电话为您免费提供一个免费的台湾通用号码。您在台湾的亲友可以拨打这个通用号码，然后再拨打您的<a href="#number899" class="linkOrange">899号码</a>，随时与您取得联系。
+			   </p>
+			   <p class="clearfix">亲友无需支付任何国际长途费用拨打方式：先拨打02-40660660或40502999的任意1个，接通后输入您的<a href="#number899" class="linkOrange">899号码</a>，就可接通您的电话。
+			   </p>
+			   <p class="clearfix">如果您的亲友在台北县市内，他们拨打此号码只需支付市话费；如果他们不在台北县市内，则需支付台湾当地的国内长途费用。
+			   </p>
+		   </div>
 		</div>
 		<div class="partAll titMgnTop">
            <p class="titleMgnBtm title24 mTitle32 fwb">香港、台湾、韩国本地直拨号码</p>
 	       <div class="text18 mText26">
-		   	  <p class="listTxtCon">iTalkBB 蜻蜓电话的用户除了获有一个常规的美国号码之外，可以再购买模拟的香港、台湾，或韩国的本地号码。美国的亲友联系您，拨打您的美国号码。而您所有的当地亲友联系您，只要直拨您购买的当地直拨号码，就能打通您在美国的电话，完全无需支付任何国际长途费用，就像在拨打一个普通市话一样。使用说明：</p>
+		   	  <p class="listTxtCon">iTalkBB蜻蜓电话的用户除了获有一个常规的美国号码之外，可以再购买模拟的香港、台湾，或韩国的本地号码。美国的亲友联系您，拨打您的美国号码。而您所有的当地亲友联系您，只要直拨您购买的当地直拨号码，就能打通您在美国的电话，完全无需支付任何国际长途费用，就像在拨打一个普通市话一样。使用说明：</p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
 		   		<span class="textCon">
-		   		香港本地号码 只需 $4.99/月，可获 +852 国码的香港本地号码，如 +852--XXXX-XXXX;<br>
-   台湾本地号码 只需 $4.99/月，可获台北区码 02 的台湾本地号码，如 +886-2-XXXX-XXXX;<br>
-   韩国本地号码 只需 $4.99/月，可获一个韩国本地号码，如 +82-XX-XXX-XXXX;</span>
+		   		香港本地号码 只需 $4.99/月，可获 +852 国码的香港本地号码，如 +852--XXXX-XXXX。<br>
+   台湾本地号码 只需 $4.99/月，可获台北区码 02 的台湾本地号码，如 +886-2-XXXX-XXXX。<br>
+   韩国本地号码 只需 $4.99/月，可获一个韩国本地号码，如 +82-XX-XXX-XXXX。</span>
 		   	  </p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon">在您开通本服务后，我们会将您的本地直拨号码发送到您的邮箱，您也可以登录您的网上账户，在"账户资讯"页面查到您的本地直拨号码；您的本地直拨号码是  专属于您的号码，可以在“增值服务"菜单下“特色服务"中，选择更换号码或取消本项服务；</span>
+				  <span class="textCon">在您开通本服务后，我们会将您的本地直拨号码发送到您的邮箱，您也可以登录您的<a href="" class="linkOrange">网上账户</a>，在"账户资讯"页面查到您的本地直拨号码；您的本地直拨号码是  专属于您的号码，可以在“增值服务"菜单下“特色服务"中，选择更换号码或取消本项服务。</span>
 		   	  </p>
 		   </div>			
 		</div>
-		
+			<div class="partAll titMgnTop">
+				<p class="titleMgnBtm title24 mTitle32 fwb">来电显示</p>
+			</div>
+			<div class="partAll titMgnTop">
+				<p class="title24 mTitle32 fwb">来电等候</p>
+			</div>
 		<div class="partAll titMgnTop clearfix">
-           <div class="titleMgnBtm btnImgN title24 mTitle32 fwb" onclick="show('foldCall','imgCall')">来电转移 - 设置方法<img id="imgCall" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
+           <div class="titleMgnBtm btnImgN title24 mTitle32 fwb" onclick="show('foldCall','imgCall')">来电转移-设置方法<img id="imgCall" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
            <div id="foldCall" class="foldBox" style="display: none;">
              <div class="bubbleAngle"></div>
              <div class="foldText text18 mText26">
 	   	        <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon">设置转移所有来电：听到拨号音后，按「 * 」键+72直接输入您需要设置的电话号码听到短音后，即设置成功</span>
+		   		<span class="textCon">设置转移所有来电：听到拨号音后，按「*」键+72直接输入您需要设置的电话号码听到短音后，即设置成功。</span>
 		   	    </p>
 		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon">取消转移所有来电：听到拨号音后，按「 * 」键+73听到提示音，即取消设置</span>
+		   		<span class="textCon">取消转移所有来电：听到拨号音后，按「*」键+73听到提示音，即取消设置。</span>
 		   	    </p>
 		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon">设置转移所有无人接听来电：听到拨号音后，按「 * 」键+92直接输入您需要设置的电话号码听到短音后，即设置成功</span>
+		   		<span class="textCon">设置转移所有无人接听来电：听到拨号音后，按「*」键+92直接输入您需要设置的电话号码听到短音后，即设置成功。</span>
 		   	    </p>
 		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon">取消转移所有无人接听来电：听到拨号音后，按「 * 」键+93听到提示音后，即取消设置</span>
+		   		<span class="textCon">取消转移所有无人接听来电：听到拨号音后，按「*」键+93听到提示音后，即取消设置。</span>
 		   	    </p>
 		     </div>
 		   </div>       		
 		</div>
-		<div class="partAll titMgnTop">
-           <p class="titleMgnBtm title24 mTitle32 fwb">来电显示</p>	       		
-		</div>
-		<div class="partAll titMgnTop">
-           <p class="title24 mTitle32 fwb">来电等候</p>	       		
-		</div>
+
 		<div class="partAll titMgnTop clearfix">
-           <div class="titleMgnBtm btnImgN title24 mTitle32 fwb" onclick="show('foldCall2','imgCall2')">三方通话 - 使用方法<img id="imgCall2" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
+           <div class="titleMgnBtm btnImgN title24 mTitle32 fwb" onclick="show('foldCall2','imgCall2')">三方通话-使用方法<img id="imgCall2" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
            <div id="foldCall2" class="foldBox" style="display: none;">
              <div class="bubbleAngle"></div>
              <div class="foldText text18 mText26">
 	   	        <ul class="listNom">
 		      	<li>
-		   		   <p>请先拨通对方电话</p>   		 
+		   		   <p>请先拨通对方电话。</p>   		 
 		   	    </li>
 		      	<li>
-		   		   <p>按应答键或Flash键，让对方处于等候状态</p>
+		   		   <p>按应答键或Flash键，让对方处于等候状态。</p>
 		     	</li>
 		   	    <li>
-		   		   <p>听到拨号音后，再拨第三方电话号码</p>
+		   		   <p>听到拨号音后，再拨第三方电话号码。</p>
 		      	</li>
 		      	<li>
-		   		   <p>待接通后，再按应答键或Flash键</p>
+		   		   <p>待接通后，再按应答键或Flash键。</p>
 		      	</li>
 		        </ul>
 		     </div>
 		   </div>       		
 		</div>		
-		<div class="partAll titMgnTop">
-           <p class="titleMgnBtm title24 mTitle32 fwb">免费网内通话：</p>
-	       <div class="text18 mText26">
-		   	  <p class="listTxtCon">如果您有亲朋好友也是 iTalkBB 家庭电话的用户，那么您只要直拨他们的 899 号码，就能和他们免费通话；</p>
-		   </div>			
-		</div>
+
 		<div class="partAll titMgnTop clearfix">
-           <div class="btnImgN title24 mTitle32 fwb" onclick="show('foldCall3','imgCall3')">语音信箱 - 使用方法<img id="imgCall3" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
+           <div class="btnImgN title24 mTitle32 fwb" onclick="show('foldCall3','imgCall3')">语音信箱-使用方法<img id="imgCall3" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
            <div id="foldCall3" class="foldBox" style="display: none;">
              <div class="bubbleAngle"></div>
              <div class="foldText text18 mText26">
 	   	        <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon">您可以通过电话录制的方式随时更新您的问候语</span>
+		   		<span class="textCon">您可以通过电话录制的方式随时更新您的问候语。</span>
 		   	    </p>
 		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon">您可以随时登录您的账户，在"增值服务"菜单下选择"语音信箱"，设置、启动或关闭您的语音信箱功能</span>
+		   		<span class="textCon">您可以随时登录您的账户，在"增值服务"菜单下选择"语音信箱"，设置、启动或关闭您的语音信箱功能。</span>
 		   	    </p>
 		   	    <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		<span class="textCon">语音资讯发送到您的Email之后，还会在服务器上为您保留24小时；若您不希望无应答来电进入语音信箱，我们还提供呼叫转移功能</span>
+		   		<span class="textCon">语音资讯发送到您的Email之后，还会在服务器上为您保留24小时；若您不希望无应答来电进入语音信箱，我们还提供呼叫转移功能。</span>
 		   	    </p>
 		     </div>
 		   </div>      		
-		</div>		
+		</div>
+			<div class="partAll titMgnTop">
+				<p class="titleMgnBtm title24 mTitle32 fwb">免费网内通话</p>
+				<div class="text18 mText26">
+					<p class="listTxtCon">如果您有亲朋好友也是iTalkBB蜻蜓电话的用户，那么您只要直拨他们的<a href="#number899" class="linkOrange">899号码</a>，就能和他们免费通话。</p>
+				</div>
+			</div>
 		<div class="partAll titMgnTop">
-           <p class="titleMgnBtm title24 mTitle32 fwb">E911：</p>
+           <p class="titleMgnBtm title24 mTitle32 fwb">E911</p>
 	       <div class="text18 mText26">
-		   	  <p class="listTxtCon">保护您的住宅安全，对 iTalkBB 家庭电话来说非常重要。iTalkBB 家庭电话用 VOIP 网络为您提供紧急呼叫服务。在遇到突发状况，当您使用电话寻求救援时，救援机构能立刻看到您在 iTalkBB 注册的地址。如果您搬家了，只要登录您的账户，在“账户设定"菜单下选择 “E911地址"，即可在线更新您的地址；</p>
+			   <p class="listTxtCon">保护您的住宅安全，对iTalkBB蜻蜓电话来说非常重要。iTalkBB蜻蜓电话用VOIP网络为您提供紧急呼叫服务。在遇到突发状况，当您使用电话寻求救援时，救援机构能立刻看到您在iTalkBB蜻蜓注册的地址。如果您搬家了，只要登录<a href="" class="linkOrange">您的网上账户</a>，在“账户设定"菜单下选择 “E911地址"，即可在线更新您的地址。</p>
 		   </div>			
 		</div>
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">传真</p>
-		   <ul class="listNom text18 mText26">
-		   	<li>
-		   		<p>iTalkBB 蜻蜓电话为您提供免费的国内传真服务使用方法：按#号键 +1+ 传真号码；</p>	   		 
-		   	</li>
-		   	<li>
-		   		<p>国内传真服务为免费服务，无功能费用，但使用时间将计入通话时间，按费率收费，包月用户则无需支付任何费用；</p>
-		   	</li>
-		   </ul>			
+			<div class="text18 mText26">
+				<p class="listTxtCon">iTalkBB蜻蜓电话为您提供免费的国内传真服务。</p>
+				<p class="listTxtCon">使用方法：按#号键+1+传真号码。</p>
+				<p class="listTxtCon">国内传真服务为免费服务，无功能费用，但使用时间将计入通话时间，按费率收费。全球包月计划用户则无需支付任何费用。</p>
+			</div>
+
+		</div>
+
+
+
+
+
 		</div>
 		</div>
-		</div>
+
+
+
+		   <div class="bgMgn gradient">
+			   <div class="mainMgn200">
+				   <div class="partAll">
+					   <p class="titleMgnBtm title30 mTitle38 fwb">关于iTalkBB蜻蜓电话计划</p>
+					   <p class="titleMgnBtm title24 mTitle32 fwb">30天试用期
+					   </p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">iTalkBB蜻蜓电话为您提供30天试用退款保证。购买后30天之内您可以随时取消服务，您被收取的激活费、月费和邮费将全额返还。如果30天试用期内，您的使用时间（含拨打和接听）超过500分钟，将不退还月费。</p>
+					   </div>
+				   </div>
+				   <div class="partAll titMgnTop">
+					   <p class="titleMgnBtm title24 mTitle32 fwb">如何激活服务及服务开始日期</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">您不需要自己激活服务。您的电话的服务会在您注册完成的第10天或是您打第一次电话时自动开始。在这两个时间中，从最早的时间开始计算。</p>
+					   </div>
+				   </div>
+				   <div class="partAll titMgnTop">
+					   <p class="titleMgnBtm title24 mTitle32 fwb">更改计划</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">当您购买iTalkBB蜻蜓电话后，您可以随时转到更加高级的计划，无需支付任何费用。<br>
+							   当您需要转到基础计划时，如果您在30天试用期内，则无需支付任何费用；如果您已经过了30天试用期且在合约期内，则您需要支付$29.99的计划更改费用；如果您已经不在合约期内，则可以随时更改计划，无需支付任何费用。</p>
+						   <p class="listTxtCon">请拨打iTalkBB蜻蜓客户服务热线1-877-482-5503，我们专业的客服人员会帮助您更改计划。</p>
+					   </div>
+				   </div>
+				   <div class="partAll titMgnTop">
+					   <p class="titleMgnBtm title24 mTitle32 fwb">取消计划</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">购买后30天之内您可以随时取消服务。您被收取的激活费、月费和邮费将全额返还。如果30天试用期内，您的使用时间（含拨打和接听）超过500分钟，将不退还月费。
+						   </p>
+						   <p class="listTxtCon">30天之后，您已经过了试用期并且在合约期内。如果您在合约期内取消，需要支付$99手续费，以及合约计划享受的优惠差额。如果您购买的是无合约计划，或是合约期已满，则您都可以轻松免费取消服务。
+						   </p>
+						   <p class="listTxtCon">请拨打iTalkBB蜻蜓24小时客户服务热线1-877-482-5503，向我们的客服人员提出您的取消要求，之后您需把iTalkBB蜻蜓电话盒子寄回到客服人员提供的地址，即可完成取消。
+						   </p>
+					   </div>
+				   </div>
+			   </div>
+		   </div>
+
+		   <div class="bgMgn gradient">
+			   <div class="mainMgn200">
+				   <div class="partAll">
+					   <p class="titleMgnBtm title30 mTitle38 fwb">使用iTalkBB蜻蜓电话是否需要网路</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">iTalkBB蜻蜓电话的服务需要网路服务。您家需要有Cable、DSL（宽带）或Fiber（光纤）等网路服务，才能使用iTalkBB蜻蜓电话。</p>
+					   </div>
+				   </div>
+			   </div>
+		   </div>
+
+		   <div class="bgMgn gradient" id="number899">
+			   <div class="mainMgn200">
+				   <div class="partAll">
+					   <p class="titleMgnBtm title30 mTitle38 fwb">iTalkBB蜻蜓电话899号码</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">899号码是您的iTalkBB蜻蜓电话内部号码，在您的iTalkBB蜻蜓电话盒上可找到以“899”开头的号码，如下图所示：</p>
+
+						   <div class="partAll bothConCenter mainMgn200 titMgnTop clearfix">
+							   <div class="left clearfix" style="border-right:none;">
+								   <div class="titleBox">
+									   <p class="title24 mTitle32">蜻蜓电话899号码示意图</p>
+									   <p class="text16 mText24">Locate Your 899 Number</p>
+								   </div>
+								   <div class="typeTxt">
+									   <p class="text16 mText24">您可于iTalkBB蜻蜓电话盒子正面的贴纸上找到899号码</p>
+									   <p class="text16 mText24">The 899 number is located on a sticker on your iTalkBBVOIP Box</p>
+								   </div>
+								   <div>
+									   <p class="text16 mText24">iTalkBB蜻蜓电话盒子 </p>
+									   <p class="text16 mText24">iTalkBBVOIP Box</p>
+								   </div>
+							   </div>
+						   </div>
+
+
+
+						   <p class="listTxtCon">899号码用途如下：</p>
+						   <p class="listTxtCon">1. 899号码可用于您的网上账户的登录名。登录<a href="" class="linkOrange">网上账户</a>之后，您能轻松管理您的服务，增加服务、更改计划，查看您的账单、通话记录，或是推荐朋友，管理积分等等。
+						   </p>
+						   <p class="listTxtCon">2. iTalkBB蜻蜓电话为您提供免费网内通话服务。其它iTalkBB蜻蜓电话的用户拨打您的899号码可与您免费通话，您拨打其他用户的899号码，也通话免费。
+						   </p>
+						   <p class="listTxtCon">3. 您介绍亲戚朋友注册iTalkBB蜻蜓服务时，iTalkBB蜻蜓会为您提供相应的积分奖励和丰富的推荐奖品。只要亲友在注册iTalkBB蜻蜓服务时，输入您的899号码，或是在打电话购买服务时告诉我们的销售人员您的899号码，就能建立推荐关系，您可获得相应的推荐奖励。查询本期<a href="" class="linkOrange">推荐优惠</a>。</p>
+					   </div>
+				   </div>
+			   </div>
+		   </div>
+
+		   <div class="bgMgn gradient">
+			   <div class="mainMgn200">
+				   <div class="partAll">
+					   <p class="titleMgnBtm title30 mTitle38 fwb">推荐亲友，积分奖励</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">您介绍亲戚朋友注册iTalkBB蜻蜓服务时，iTalkBB蜻蜓会为您提供相应的积分奖励和丰富的推荐奖品，亲友也能获得额外的优惠。
+						   </p>
+					   </div>
+				   </div>
+				   <div class="partAll titMgnTop">
+					   <p class="titleMgnBtm title24 mTitle32 fwb">如何推荐</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">点此填入您想推荐亲友的电邮地址，iTalkBB蜻蜓会发送一封介绍iTalkBB蜻蜓电话服务以及特殊优惠的邮件。您推荐的朋友通过这封邮件注册，即可建立推荐关系。或者，请让您的朋友在<a href="../chs/bbPlan.html" class="linkOrange">网上购买</a>时，在推荐号码一栏填您的899号码；或是<a href="../chs/sptQuery.html#kefu" class="linkOrange">电话购买</a>时，告诉我们的销售人员您的899号码，即可建立推荐关系，获得相应的奖励。
+						   </p>
+					   </div>
+				   </div>
+				   <div class="partAll titMgnTop">
+					   <p class="titleMgnBtm title24 mTitle32 fwb">如何将奖励积分兑换为话费</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">点此登录您的<a href="" class="linkOrange">网上账户</a>，在“积分奖励”菜单下的积分管理页，可将您的积分兑换成话费使用。</p>
+					   </div>
+				   </div>
+				   <div class="partAll titMgnTop">
+					   <p class="titleMgnBtm title24 mTitle32 fwb">如何计算特殊推荐优惠的人数和收到实物奖品的时间</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">特殊推荐优惠活动不定期举办。参与此优惠活动的推荐人，被推荐人数的统计以自然月为单位进行计算，即在一个自然月中推荐人数到达某个数量时，即可获得对应奖励。在您推荐的亲友使用iTalkBB蜻蜓产品过了30天试用期后，我们会开始处理您的奖品寄送，您一般会在开始处理后15个工作日内收到奖品。</p>
+					   </div>
+				   </div>
+			   </div>
+		   </div>
+
+
 	  </div>
 	  
 	  <div class="faultCon">
@@ -424,47 +598,49 @@
 		    <p class="titleMgnBtm title24 mTitle32 fwb">电话无拨号音</p> 
 		    <ul class="listNom text18 mText26">
 		   	<li>
-		   		<p>请确认您家的网络环境是否正常；</p>
+		   		<p>请确认您家的网络环境是否正常。</p>
 		   	</li>
 		   	<li>
-		   		<p class="text18 mText26">请确认您的电话盒是否已正常安装；</p>
+		   		<p class="text18 mText26">请确认您的电话盒是否已正常安装。</p>
 		   		<div class="">
 		   		   <p>正常状态为：</p>
 		   		   <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		      <span class="textCon">电源灯、网络灯、Phone 1 灯长亮；</span>
+		   		      <span class="textCon">电源灯、网络灯、Phone 1灯长亮。</span>
 		   	       </p>
 		   	       <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		      <span class="textCon">在通话时Phone1 灯闪烁，网络灯有时闪烁也属于正常现象；</span>
+		   		      <span class="textCon">在通话时Phone1灯闪烁，网络灯有时闪烁也属于正常现象。</span>
 		   	       </p>
 		   	       <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		      <span class="textCon">如果电话盒未正常安装，请点此排查安装故障；</span>
+					   <span class="textCon">如果电话盒未正常安装，请点此查看<a class="linkOrange" href="../chs/sptBB.html#installation">安装步骤</a>。</span>
 		   	       </p>
 		   	    </div>
 		   	</li>
 		   </ul>
 		</div>
+
+
+
 		
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">电话能拨出无法接听</p>
 		   <ul class="listNom text18 mText26">
 		   	<li>
-		   	    <p>请确认您家的电话是否在账户激活 24 小时之内，或转号成功后 24 小时以内；iTalkBB 家庭电话通常在激活后或转号成功后即可正常使用，但是在某些情况下，需要 24 小时之后才可正常接听；</p>
+		   	    <p>请确认您家的电话是否在账户激活24小时之内，或转号成功后24小时以内；iTalkBB蜻蜓电话通常在激活后或转号成功后即可正常使用，但是在某些情况下，需要24小时之后才可正常接听。</p>
 		   	</li>
 		   	<li>
-		   		<p>请确认您家电话机的电话线接在 iTalkBB 电话盒的 “Phone 1" 接口，而非 “Phone 2" 接口上；</p>
+		   		<p>请确认您家电话机的电话线接在iTalkBB蜻蜓电话盒的“Phone 1"接口，而非“Phone 2"接口上。</p>
 		   	</li>
 		   	<li>
-		   		<p>如果您家的电话设置了某些高级功能，也会导致无法正常接听电话，请拿起电话，确认听到的拨号声是否正常，如果听到的是如 3 声短音 1 声长音等的特殊拨号声，请尝试取消以下特殊功能；</p>
+		   		<p>如果您家的电话设置了某些高级功能，也会导致无法正常接听电话，请拿起电话，确认听到的拨号声是否正常，如果听到的是如3声短音1声长音等特殊拨号声，请尝试取消以下特殊功能：</p>
 		   		<div class="">
-		   		   <p>操作方法：</p>
 		   		   <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		   <span class="textCon">取消呼叫转移 - 拿起电话，依次按 *73 ;</span>
+		   		   <span class="textCon">取消呼叫转移：拿起电话，依次按*73。</span>
 		   	       </p>
 		   	       <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		   <span class="textCon">取消来电拒接 - 拿起电话，依次按 *79 ;</span>
+		   		   <span class="textCon">取消来电拒接：拿起电话，依次按*79。</span>
 		   	       </p>
 		   	       <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		   <span class="textCon">取消直接进入语音信箱 - 拿起电话，依次按 *993</span>
+		   		   <span class="textCon">取消直接进入语音信箱：拿起电话，依次按*993。</span>
 		   	       </p>
 		   	    </div>
 		   	</li>
@@ -473,34 +649,34 @@
 		
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">电话可接听无法拨出</p>
-		   <ul class="listNom text18 mText26">
-		   	<li>
-		   		<p>请确认您拨号的方式是否正确，如拨打国际长途时需拨 011 +国家区号+对方号码，点此查看详细拨打方式；</p>
-		   	</li>
-		   	<li>
-		   		<p>请确认您的电话机是否有故障，可尝试更换电话机，或重新启动电话机；</p>
-		   	</li>
-		   </ul>			
+			<div class="text18 mText26">
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">请确认您拨号的方式是否正确，如拨打国际长途时需拨011+国家区号+对方号码，点此查看详细拨打方式。</span>
+				</p>
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">请确认您的电话机是否有故障，可尝试更换电话机，或重新启动电话机。</span>
+				</p>
+			</div>
 		</div>
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">通话质量不佳</p>
-		   <ul class="listNom text18 mText26">
-		   	<li>
-		   		<p>请确认您的网络使用是否正常，一般如果通话中您能听清楚对方说话，但对方无法听清您说话，则有可能是您的网络状况不佳造成的。如果您在运行下载软件或因为其他原因佔用了网络带宽，会造成这种现象；</p>
-		   	</li>
-		   	<li>
-		   		<p>如果您听到“沙沙"或静电噪音，则可能是听筒接触不良或电话线接触不良造成，请更换电话线重新连接；</p>
-		   	</li>
-		   	<li>
-		   		<p>如果您的电话直接连接了分机，而没有断开 Local 总线，也会產生杂音、回音等情况；请断开 Local 总线再连接分机；</p>
-		   	</li>
-		   	<li>
-		   		<p>如果您使用的是无绳电话，请更换频率，再测试一下通话质量是否有所改善；</p>
-		   	</li>
-		   	<li>
-		   		<p>在排除以上可能性后，请尝试重新启动 iTalkBB 电话盒；</p>
-		   	</li>
-		   </ul>			
+			   <div class="text18 mText26">
+				   <p class="clearfix"><span class="Sharp">&gt;</span>
+					   <span class="textCon">请确认您的网络使用是否正常，一般如果通话中您能听清楚对方说话，但对方无法听清您说话，则有可能是您的网络状况不佳造成的。如果您在运行下载软件或因为其他原因佔用了网络带宽，会造成这种现象。</span>
+				   </p>
+				   <p class="clearfix"><span class="Sharp">&gt;</span>
+					   <span class="textCon">如果您听到“沙沙"或静电噪音，则可能是听筒接触不良或电话线接触不良造成，请更换电话线重新连接。</span>
+				   </p>
+				   <p class="clearfix"><span class="Sharp">&gt;</span>
+					   <span class="textCon">如果您的电话连接了分机，并且没有断开之前电话公司设置的电话总线，也会产生杂音、回音等情况；请断开之前电话公司的电话总线后，再连接分机。</span>
+				   </p>
+				   <p class="clearfix"><span class="Sharp">&gt;</span>
+					   <span class="textCon">如果您使用的是无绳电话，请更换频率，再测试一下通话质量是否有所改善。</span>
+				   </p>
+				   <p class="clearfix"><span class="Sharp">&gt;</span>
+					   <span class="textCon">在排除以上可能性后，请尝试重新启动iTalkBB蜻蜓电话盒。</span>
+				   </p>
+			   </div>
 		</div>
 		
 		</div>
@@ -513,18 +689,18 @@
 		    <p class="titleMgnBtm title24 mTitle32 fwb">指示灯全不亮</p> 
 		    <ul class="listNom text18 mText26">		   	
 		   	<li>
-		   		<p>iTalkBB 蜻蜓电话盒子安装正确时的状态为：</p>
+		   		<p>iTalkBB蜻蜓电话盒子安装正确时的状态为：</p>
 		   		<div class="">
 		   		   <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		   <span class="textCon">电源灯、网络灯、Phone 1 灯长亮；</span>
+		   		   <span class="textCon">电源灯、网络灯、Phone 1灯长亮。</span>
 		   	       </p>
 		   	       <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		   <span class="textCon">在通话时Phone1 灯闪烁，网络灯有时闪烁也属于正常现象；</span>
+		   		   <span class="textCon">在通话时Phone1灯闪烁，网络灯有时闪烁也属于正常现。</span>
 		   	       </p>
 		   	    </div>
 		   	</li>
 		   	<li>
-		   		<p>3 个灯全不亮，则表明盒子没有工作，请检查电源连接，并更换电源插座尝试。如果电源有电，电源连接无误，则为设备问题，请联系我们；</p>
+		   		<p>3个灯全不亮，则表明盒子没有工作，请检查电源连接，并更换电源插座尝试。如果电源有电，电源连接无误，则为设备问题，请<a href='../chs/sptQuery.html#kefu' class="linkOrange">联系我们</a>。</p>
 		   	</li>
 		   </ul>
 		</div>
@@ -533,19 +709,19 @@
 	       <p class="titleMgnBtm title24 mTitle32 fwb">指示灯中只有电源灯亮</p>
 		   <ul class="listNom text18 mText26">
 		   	<li>
-		   		<p>iTalkBB 蜻蜓电话盒子安装正确时的状态为：电源灯、网络灯、Phone 1 灯长亮；在通话时 Phone1 灯闪烁，网络灯有时闪烁也属于正常现象；</p>
+		   		<p>iTalkBB蜻蜓电话盒子安装正确时的状态为：电源灯、网络灯、Phone 1灯长亮；在通话时Phone 1灯闪烁，网络灯有时闪烁也属于正常现象。</p>
 		   	</li>
 		   	<li>
 		   		<p>如果只有电源灯亮，则为连接问题，请进行如下操作：</p>
 		   		<div class="">
 		   		   <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		   <span class="textCon">请检查网线是否错误地接到了黄色的 Ethernet 接口，正确的连接方法应为连接到 iTalkBB 电话盒蓝色的 Internet 接口；</span>
+		   		   <span class="textCon">请检查网线是否错误地接到了黄色的Ethernet接口，正确的连接方法应为连接到iTalkBB蜻蜓电话盒蓝色的Internet接口。</span>
 		   	       </p>
 		   	       <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		   <span class="textCon">请检查您家的 Modem/Router/Hub 是否正常工作，请更换端口尝试；</span>
+		   		   <span class="textCon">请检查您家的Modem/Router/Hub是否正常工作，请更换端口尝试。</span>
 		   	       </p>
 		   	       <p class="clearfix"><span class="Sharp">&gt;</span>
-		   		   <span class="textCon">请确认网线正常工作，请更换网线尝试；</span>
+		   		   <span class="textCon">请确认网线正常工作，请更换网线尝试。</span>
 		   	       </p>
 		   	    </div>
 		   	</li>
@@ -553,21 +729,21 @@
 		</div>
 		
 		<div class="partAll titMgnTop">
-	       <p class="titleMgnBtm title24 mTitle32 fwb">指示灯中电源灯和网络灯亮，Phone 1 灯闪烁</p>
+	       <p class="titleMgnBtm title24 mTitle32 fwb">指示灯中电源灯和网络灯亮，Phone 1灯闪烁</p>
 	       <div class="text18 mText26">
-		   	  <p class="listTxtCon">指示灯中电源灯和网络灯亮，Phone 1 灯闪烁，可能为电话没挂好或分机问题，请进行如下操作：</p>
+		   	  <p class="listTxtCon">指示灯中电源灯和网络灯亮，Phone 1灯闪烁，可能为电话没挂好或分机问题，请进行如下操作：</p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   	  <span class="textCon">请您检查您的电话机是否挂好；</span>
+		   	  <span class="textCon">请您检查您的电话机是否挂好。</span>
 		   	  </p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   	  <span class="textCon">请拔掉电话盒上的电话线看 Phone 1 灯是否长亮，如果 Phone 1 灯长亮，则为电话线或分机问题，如果 Phone 1 灯闪烁，则可能为电话盒故障；</span>
+		   	  <span class="textCon">请拔掉电话盒上的电话线看Phone 1灯是否长亮，如果Phone 1灯长亮，则为电话线或分机问题，如果Phone 1灯闪烁，则可能为电话盒故障。</span>
 		   	  </p>		
 		   </div>		   			
 		</div>
 		<div class="partAll titMgnTop">
-	       <p class="titleMgnBtm title24 mTitle32 fwb">电源灯、网络灯、Phone 1 灯长亮，但电话无法使用</p>
+	       <p class="titleMgnBtm title24 mTitle32 fwb">电源灯、网络灯、Phone 1灯长亮，但电话无法使用</p>
 		   <div class="text18 mText26">
-		   	  <p class="listTxtCon">请检查电话机是否正常，可更换电话机或电话线测试，如 Phone 1 灯还是一直长亮，不闪烁，则可能为盒子故障；</p>		   	  		
+		   	  <p class="listTxtCon">请检查电话机是否正常，可更换电话机或电话线测试，如Phone 1灯还是一直长亮，不闪烁，则可能为盒子故障。</p>
 		   </div>			
 		</div>		
 		</div>
@@ -577,51 +753,51 @@
 		<div class="mainMgn200">
 		<div class="partAll">
 		    <p class="titleMgnBtm title30 mTitle38 fwb">功能故障</p>
-		    <p class="titleMgnBtm title24 mTitle32 fwb">无法显示来电</p> 
-		    <ul class="listNom text18 mText26">		   	
-		   	<li>
-		   		<p>如果您只有部份来电无法显示，而其他来电可以显示，则有可能是有些号码设置了屏蔽的功能；</p>
-		   	</li>
-		   	<li>
-		   		<p>如果所有来电都无法显示，请确认您的电话机电池有电，显示屏正常，可尝试更换电话机；</p>
-		   	</li>
-		   	<li>
-		   		<p>请检查您的来电显示功能是否打开，请拿起电话，依次按 *65 打开来电显示功能，按 *85 关闭来电显示功能；</p>
-		   	</li>
-		   </ul>
+		    <p class="titleMgnBtm title24 mTitle32 fwb">无法显示来电</p>
+			<div class="text18 mText26">
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">如果您只有部份来电无法显示，而其他来电可以显示，则有可能是有些号码设置了屏蔽的功能。</span>
+				</p>
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">如果所有来电都无法显示，请确认您的电话机电池有电，显示屏正常，可尝试更换电话机。</span>
+				</p>
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">请检查您的来电显示功能是否打开，请拿起电话，依次按*65打开来电显示功能，按*85关闭来电显示功能。</span>
+				</p>
+			</div>
 		</div>
 		
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">三方通话故障</p>
-		   <ul class="listNom text18 mText26">
-		   	<li>
-		   		<p>请确认您拨打三方通话的方法正确。三方通话使用方法为：打通第一个电话后，按应答键或 Flash 键，就可以让对方暂等，听到 3 声短音后，再拨第三方电话号码，接通后再按应答键或Flash键，三方便可一起通话；</p>
-		   	</li>
-		   	<li>
-		   		<p>iTalkBB 家庭电话现在只支持中国大陆（不包括港澳台），美国、加拿大、英国、新加坡、澳洲的三方通话；</p>
-		   	</li>
-		   	<li>
-		   		<p>在排除以上可能性后，请尝试重新启动 iTalkBB 电话盒；</p>
-		   	</li>
-		   </ul>			
+			<div class="text18 mText26">
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">请确认您拨打三方通话的方法正确。三方通话使用方法为：打通第一个电话后，按应答键或Flash键，就可以让对方暂等，听到3声短音后，再拨第三方电话号码，接通后再按应答键或Flash键，三方便可一起通话。</span>
+				</p>
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">iTalkBB蜻蜓电话现在只支持中国大陆（不包括港澳台），美国、加拿大、英国、新加坡、澳洲的三方通话。</span>
+				</p>
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">在排除以上可能性后，请尝试重新启动iTalkBB蜻蜓电话盒。</span>
+				</p>
+			</div>
 		</div>
 		
 		<div class="partAll titMgnTop">
 	       <p class="titleMgnBtm title24 mTitle32 fwb">传真无法正常使用</p>
-	       <ul class="listNom text18 mText26">
-		   	<li>
-		   		<p>请确认您的拨号方法正确，使用传真时请依次按#1+对方传真号码；如果还是无法正常使用，可尝试用以下拨号方式，使用另一种更利于发送传真的通讯协议333+1+对方传真号码，*99+1+对方传真号码；</p>
-		   	</li>
-		   	<li>
-		   		<p>如果您使用的是 Cable 网络，请尝试直接把电话盒接在 Modem 或 Router 后面尝试发送；</p>
-		   	</li>
-		   	<li>
-		   		<p>请尝试将传真机的传真速度（speed）到 9600bps 或者更低；</p>
-		   	</li>
-		   	<li>
-		   		<p>如果您的传真机上有 ECM 功能（Error Correction Mode 自动检验错误模式），请关闭此功能；</p>
-		   	</li>
-		   </ul>		   			
+			<div class="text18 mText26">
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">请确认您的拨号方法正确，使用传真时请依次按#1+对方传真号码；如果还是无法正常使用，可尝试另两种更利于发送传真的通讯协议：拨打333+1+对方传真号码，或者拨打*+99+1+对方传真号码。</span>
+				</p>
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">如果您使用的是Cable网络，请尝试直接把电话盒接在Modem或Router后面尝试发送。</span>
+				</p>
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">请尝试将传真机的传真速度 (Speed) 到9600bps或者更低。</span>
+				</p>
+				<p class="clearfix"><span class="Sharp">&gt;</span>
+					<span class="textCon">如果您的传真机上有ECM功能（Error Correction Mode自动检验错误模式），请关闭此功能。</span>
+				</p>
+			</div>
 		</div>
 		
 		</div>
