@@ -11,7 +11,7 @@
 .CloOrange{color: #ff7f00;}
 .referTitleBig{ color: #fff; margin-bottom: 2.5%; padding-top: 3.5%; line-height: 1.6;}
 .referTitleBig span{color: #ff7f00;}
-.referBannerBox{margin: 0 auto;margin-bottom: 6%; padding: 0 12.8%;text-align: center;background: #000 url(../images/bb/bbPlanBg01.jpg) no-repeat bottom;background-size: 100%;}
+.referBannerBox{margin: 0 auto;margin-bottom: 6%; padding: 0 12.8%;text-align: center; background: #000 url(../images/bb/bbPlanBg01.jpg) no-repeat bottom; background-size: 100%;}
 .rewardCon{background: #fcfcfc; padding: 3.5% 0;}
 .rewardBox{float: left; width: 50%;}
 .rewardBox1{padding-right: 5%;}
@@ -50,8 +50,8 @@
 .stepQRcode,.foldBox,.searchText,.searchBar,.searchButton{float: left;}
 .searchText,.searchBar,.searchButton{line-height: 1.5; padding-top: 1.6%; padding-bottom: 1.6%;}
 .searchBar,.searchButton{border: 1px solid #b1b1b1;}
-.searchBar{width: 54%; margin-left: 1%; padding-left: 2.5%; color: #999;border-top-left-radius: 10px;border-bottom-left-radius: 10px;}
-.searchButton {width: 15.5%; text-align: center; color: #ff7f00; cursor: pointer;font-weight: bold; background: #fff;border-left: none;
+.searchBar{width: 54%; margin-left: 1%; padding-left: 2.5%; color: #999;border-top-left-radius: 10px;border-bottom-left-radius: 10px; border-top-right-radius: 0;border-bottom-right-radius: 0; border-right:none;}
+.searchButton {width: 15.5%; text-align: center; color: #ff7f00; cursor: pointer;font-weight: bold; background: #fff;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: inset 0 0 0 0 #ff7f00;
@@ -196,7 +196,7 @@
 	.stepBox{padding: 3.2% 0; margin-left: -7.8%; background-size: 14%;background-position-y: 50%;}	
 	.foldBox{margin-left: 3%; width: 35.4%;}
 	.foldText{padding: 5% 8%;}
-	.bubbleAngle{width:1.5vw; height:1.5vw;margin-left: -1.8%; margin-top: 25%;}
+	.bubbleAngle{width:1.5vw; height:1.5vw;margin-left: -2%; margin-top: 25%;}
 	/* refer main end */
 	
 	/* login begin */
