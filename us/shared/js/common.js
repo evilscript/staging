@@ -24,7 +24,7 @@ $(document).ready(function(){
     });
 
     /*主页下方联系我们和social icon的mouseover效果*/
-    $('img.contactIcon1').mouseover(function(){
+    /*$('img.contactIcon1').mouseover(function(){
         $(this).attr('src','../shared/images/index/chs_contactIcon1Blue.png');
     }).mouseleave(function(){
         $(this).attr('src','../shared/images/index/chs_contactIcon1.png');
@@ -38,9 +38,9 @@ $(document).ready(function(){
         $(this).attr('src','../shared/images/index/chs_contactIcon3Blue.png');
     }).mouseleave(function(){
         $(this).attr('src','../shared/images/index/chs_contactIcon3.png');
-    });
+    });*/
     /*English version mouseover*/
-    $('img.contactIcon1En').mouseover(function(){
+    /*$('img.contactIcon1En').mouseover(function(){
         $(this).attr('src','../shared/images/index/en_contactIcon1Blue.png');
     }).mouseleave(function(){
         $(this).attr('src','../shared/images/index/en_contactIcon1.png');
@@ -54,28 +54,28 @@ $(document).ready(function(){
         $(this).attr('src','../shared/images/index/en_contactIcon3Blue.png');
     }).mouseleave(function(){
         $(this).attr('src','../shared/images/index/en_contactIcon3.png');
-    });
+    });*/
     /*Social icons mouseover*/
-    $('.social1').mouseover(function(){
+    /*$('.social1').mouseover(function(){
         $(this).attr('src','../shared/images/index/iconWechatBlue.jpg');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/iconWechat.jpg');
+        $(this).attr('src','../shared/images/index/iconWechat.png');
     });
     $('.social2').mouseover(function(){
         $(this).attr('src','../shared/images/index/iconWeiboBlue.jpg');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/iconWeibo.jpg');
+        $(this).attr('src','../shared/images/index/iconWeibo.png');
     });
     $('.social3').mouseover(function(){
         $(this).attr('src','../shared/images/index/iconFacebookBlue.jpg');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/iconFacebook.jpg');
+        $(this).attr('src','../shared/images/index/iconFacebook.png');
     });
     $('.social4').mouseover(function(){
         $(this).attr('src','../shared/images/index/iconInsBlue.jpg');
     }).mouseleave(function(){
         $(this).attr('src','../shared/images/index/iconIns.jpg');
-    });
+    });*/
 });
 
 

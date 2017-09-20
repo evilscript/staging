@@ -206,7 +206,7 @@
 }
 .knowMoreText p{
     padding-left: 3%;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 24%;
 }
 .orangeBand {
@@ -313,7 +313,7 @@
     margin-bottom: 11%;
 }
 .knowMoreText5 p{
-    margin-bottom: 20%;
+    margin-bottom: 26%;
 }
 /*.s3iconText1 {
     font-size: 26px;
@@ -426,6 +426,17 @@
 .bandLeftS4 img{
     width:100%;
 }
+.bandLeftS5 {
+    width: 72%;
+    float: left;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+}
+.bandLeftS5 img{
+    width:100%;
+}
 /*.s4iconText1 {
     font-size: 26px;
     color: #444444;
@@ -523,33 +534,29 @@
     background-size: cover;
 }
 .s5iconText1 {
-    font-size: 26px;
     color:#444444;
-    font-weight: 300;
     padding-left: 8%;
     margin-bottom: 0;
     padding-top: 2%;
     padding-bottom: 2%;
-    background: url(../images/index/s5icon1.jpg) no-repeat;
-    background-size: 6%;
-    background-position-y: 55%;
+    margin-top: 5%;
+    background: url(../images/index/s5icon1.png) no-repeat;
+    background-size: 6.8%;
+    background-position-y: 50%;
 }
 .s5iconText2 {
-    font-size: 26px;
     color:#444444;
-    font-weight: 300;
     padding-left: 8%;
     margin-bottom: 0;
     padding-bottom: 2%;
     padding-top: 2%;
-    background: url(../images/index/s5icon2.jpg) no-repeat;
-    background-size: 6%;
-    background-position-y: 55%;
+    margin-top:2%;
+    background: url(../images/index/s5icon2.png) no-repeat;
+    background-size: 6.8%;
+    background-position-y: 50%;
 }
 .s5iconText3 {
-    font-size: 26px;
     color:#444444;
-    font-weight: 300;
     padding-left: 8%;
     margin-bottom: 0;
     padding-bottom: 2%;
@@ -562,16 +569,12 @@
     padding-top:15%;
 }
 .contactTitle {
-    font-size: 58px;
-    font-weight: 300;
     color: #333333;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 4%;
 }
 .contactSubTitle{
-    font-size:28px;
     text-align:center;
-    font-weight:300;
     padding-top:0;
     color:#444444;
 }
@@ -594,9 +597,9 @@
     transition: all 0.5s;
 }
 .s5Left img, .s5Middle img, .s5Right img{
-    width:45%;
-    margin-left:27.5%;
-    margin-bottom:5%;
+    width: 36%;
+    margin-left: 32%;
+    margin-bottom: 0%;
 }
 .s6IconText {
     font-size: 17px;
@@ -605,10 +608,15 @@
     padding-bottom: 1%;
     margin-top: 1%;
     background: url(../images/index/contactArrow.jpg) no-repeat;
-    padding-left: 40%;
+    padding-left: 42%;
     background-size: 4%;
     background-position-y: 20%;
-    background-position-x: 35%;
+    background-position-x: 37%;
+}
+.section5IconTitle{
+    padding-top:2%;
+    padding-bottom:2%;
+    margin-bottom:0;
 }
 .s6IconText:hover{
     color:#327fe8;
@@ -617,23 +625,13 @@
     cursor:pointer;
 }
 .subscribeTitle {
-    font-size: 58px;
-    font-weight: 300;
-    color: #333333;
-    text-align: center;
-    padding-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
     border-top: 1px solid #cfcfcf;
     margin-top: 3%;
 }
 .subscribeSubTitle{
-    font-size:28px;
-    text-align:center;
-    font-weight:300;
-    padding-top:0;
-    color:#444444;
-    margin-bottom:2%;
+    padding-bottom:2%;
 }
 .emailBar{
     font-size: 18px;
@@ -689,7 +687,7 @@
     margin-right: 1%;
 }
 .social1{
-    margin-left: 43.5%;
+    margin-left: 42%;
 }
 .wechatIconSocial{
     max-width: 200px;
@@ -841,20 +839,8 @@
 /*    .s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
         font-size: 18px;
     }*/
-    .contactTitle {
-        font-size: 52px;
-    }
-    .contactSubTitle {
-        font-size: 24px;
-    }
     .s6IconText {
         font-size: 14px;
-    }
-    .subscribeTitle {
-        font-size: 52px;
-    }
-    .subscribeSubTitle {
-        font-size: 24px;
     }
 }
 
@@ -894,12 +880,6 @@
     /*.s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
         font-size: 1.2vw;
     }*/
-    .contactTitle, .subscribeTitle {
-        font-size: 4vw;
-    }
-    .contactSubTitle,.subscribeSubTitle {
-        font-size: 1.8vw;
-    }
     .s6IconText {
         font-size: 1vw;
     }
@@ -941,12 +921,8 @@
         margin-bottom:17%;
     }
     .contactTitle, .subscribeTitle {
-        font-size: 5vw;
         padding-top: 5%;
         margin-bottom: 0;
-    }
-    .contactSubTitle, .subscribeSubTitle {
-        font-size: 2vw;
     }
     .s5Left {
         float: left;
@@ -1167,7 +1143,6 @@
     .s3iconText1, .s3iconText3, .s4iconText1, .s4iconText3, .s5iconText1, .s5iconText3{
         float:left;
         width:50%;
-        font-size:4vw;
     }
     .s3iconText2, .s3iconText4, .s4iconText2, .s4iconText4, .s5iconText2{
         float:left;
@@ -1195,8 +1170,6 @@
         text-align: center;
      }
     .s5iconText1, .s5iconText2, .s5iconText3    {
-        font-size: 3.8vw;
-        font-weight: 300;
         padding-left: 0;
         margin-bottom: 0;
         padding-top: 14%;
@@ -1255,11 +1228,11 @@
         margin-top: 0;
     }
     .s5iconText1{
-        background: url(../images/index/s5icon1.jpg) no-repeat top center;
+        background: url(../images/index/s5icon1.png) no-repeat top center;
         background-size: 25%;
     }
     .s5iconText2{
-        background: url(../images/index/s5icon2.jpg) no-repeat top center;
+        background: url(../images/index/s5icon2.png) no-repeat top center;
         background-size: 25%;
     }
     .s5iconText3{
@@ -1272,11 +1245,7 @@
         margin-top: 0;
     }
     .contactTitle, .subscribeTitle {
-        font-size: 7vw;
         margin-top:3%;
-    }
-    .contactSubTitle, .subscribeSubTitle {
-        font-size: 4.5vw;
     }
     .bandLeftS4 {
         width: 62%;
