@@ -92,7 +92,7 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
 .Sharp,.textCon{float: left; display: block;}
 .Sharp{vertical-align: top;width: 2%;}
 .textCon{ width: 95%;}
-.textNote{color: #ff7f00; padding-left: 2%; background: url(../images/icons/hotSpotOrange.png) no-repeat; background-size: 1.3%; background-position-x: 0%;background-position-y: 2%;}	
+.textNote{padding-left: 2%; background: url(../images/icons/hotSpotOrange.png) no-repeat; background-size: 1.3%; background-position-x: 0%;background-position-y: 2%;}	
 .appQRcode{margin: 1.5% 0;}
 .QRcode p{float: left; width: 20%;margin-right: 4%; cursor: pointer;}
 .QRcode p:first-child{margin-top: 0;}
