@@ -136,17 +136,13 @@
     background:#f6f6f6;
 }
 .sectionTitle{
-    font-size: 60px;
     padding-top: 10%;
     color: #333333;
     line-height: 1.5;
-    font-weight: 300;
 }
 .sectionText{
-    font-size: 32px;
     line-height: 1.5;
     color: #444444;
-    font-weight: 300;
     border-bottom: 1px solid #888888;
     padding-bottom: 3%;
     margin-right: 30%;
@@ -235,8 +231,8 @@
     line-height: 2;
 }
 .bandLeft {
-    width: 70%;
-    margin-left:2%;
+    width: 72%;
+    margin-left:0;
     float: left;
     padding-left: 0;
     padding-top: 0;
@@ -251,16 +247,14 @@
     padding-right: 5%;
 }
 .bandButton {
-    font-size: 30px;
     width: 90%;
-    font-weight: 300;
     color: #ff7f00;
     background: white;
     padding: 2% 4%;
     border-radius: 10px;
     text-align: center;
     margin-left: 5%;
-    margin-top: 26%;
+    margin-top: 30%;
     cursor: pointer;
     text-shadow: none;
     box-shadow: inset 0 0 0 0 #327fe8;
@@ -273,60 +267,45 @@
     box-shadow: inset 300px 0 0 0 #327fe8;
 }
 .s2IconText1{
-    font-size: 24px;
     color: #444444;
-    font-weight: 300;
-    padding-left: 15%;
+    padding-left: 17%;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     background: url(../images/index/s2icon1.png) no-repeat;
-    background-size: 12%;
+    background-size: 15%;
     background-position-y: 55%;
 }
 .s2IconText2{
-    font-size: 24px;
     color: #444444;
-    font-weight: 300;
-    padding-left: 15%;
+    padding-left: 17%;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     background: url(../images/index/s2icon2.png) no-repeat;
-    background-size: 12%;
+    background-size: 15%;
     background-position-y: 55%;
 }
 .s2IconText3{
-    font-size: 24px;
     color: #444444;
-    font-weight: 300;
-    padding-left: 15%;
+    padding-left: 17%;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     background: url(../images/index/s2icon3.png) no-repeat;
-    background-size: 12%;
+    background-size: 15%;
     background-position-y: 55%;
 }
 .s2IconText4{
-    font-size: 24px;
     color: #444444;
-    font-weight: 300;
-    padding-left: 15%;
+    padding-left: 17%;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     background: url(../images/index/s2icon4.png) no-repeat;
-    background-size: 12%;
+    background-size: 15%;
     background-position-y: 55%;
 }
-/*.s2IconText2:hover, .s2IconText1:hover, .s2IconText3:hover, .s2IconText4:hover,
-.s3iconText4:hover, .s3iconText3:hover, .s3iconText2:hover, .s3iconText1:hover,
-.s4iconText4:hover, .s4iconText3:hover, .s4iconText2:hover, .s4iconText1:hover,
-.s5iconText1:hover, .s5iconText3:hover, .s5iconText2:hover{
-    color:#327fe8;
-    cursor:pointer;
-}*/
 .knowMoreText3 p{
     margin-bottom: 11%;
 }
@@ -336,7 +315,7 @@
 .knowMoreText5 p{
     margin-bottom: 20%;
 }
-.s3iconText1 {
+/*.s3iconText1 {
     font-size: 26px;
     color: #444444;
     font-weight: 300;
@@ -383,31 +362,71 @@
     background: url(../images/index/s3icon4.png) no-repeat;
     background-size: 7%;
     background-position-y: 55%;
+}*/
+.s3IconText1{
+    color: #444444;
+    padding-left: 17%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: url(../images/index/s3icon1.png) no-repeat;
+    background-size: 15%;
+    background-position-y: 55%;
+}
+.s3IconText2{
+    color: #444444;
+    padding-left: 17%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: url(../images/index/s3icon2.png) no-repeat;
+    background-size: 15%;
+    background-position-y: 55%;
+}
+.s3IconText3{
+    color: #444444;
+    padding-left: 17%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: url(../images/index/s3icon3.png) no-repeat;
+    background-size: 15%;
+    background-position-y: 55%;
+}
+.s3IconText4{
+    color: #444444;
+    padding-left: 17%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: url(../images/index/s3icon4.png) no-repeat;
+    background-size: 15%;
+    background-position-y: 55%;
 }
 .orangeBand3 {
     background: url(../images/index/bgPrice.jpg) no-repeat top center;
     background-size: cover;
 }
 .bandLeftS3 {
-    width: 50%;
-    margin-left: 5%;
+    width: 72%;
+    margin-left: 0;
     float: left;
     padding-left: 0;
     padding-top: 0;
     padding-bottom: 0;
 }
 .bandLeftS4 {
-    width: 60%;
+    width: 62%;
     float: left;
     padding-left: 0;
     padding-top: 0;
     padding-bottom: 0;
-    margin-left: 4%;
+    margin-left: 0;
 }
 .bandLeftS4 img{
     width:100%;
 }
-.s4iconText1 {
+/*.s4iconText1 {
     font-size: 26px;
     color: #444444;
     font-weight: 300;
@@ -453,6 +472,46 @@
     padding-bottom: 2%;
     background: url(../images/index/s4icon4.png) no-repeat;
     background-size: 7%;
+    background-position-y: 55%;
+}*/
+.s4iconText1{
+    color: #444444;
+    padding-left: 17%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: url(../images/index/chs_s4icon1.png) no-repeat;
+    background-size: 15%;
+    background-position-y: 55%;
+}
+.s4iconText2{
+    color: #444444;
+    padding-left: 17%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: url(../images/index/s4icon2.png) no-repeat;
+    background-size: 15%;
+    background-position-y: 55%;
+}
+.s4iconText3{
+    color: #444444;
+    padding-left: 17%;
+    margin-bottom: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: url(../images/index/chs_s4icon3.png) no-repeat;
+    background-size: 15%;
+    background-position-y: 55%;
+}
+.s4iconText4{
+    color: #444444;
+    padding-left: 17%;
+    margin-bottom: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url(../images/index/s4icon4.png) no-repeat;
+    background-size: 15%;
     background-position-y: 55%;
 }
 .orangeBand4 {
@@ -684,6 +743,21 @@
 .carousel-control{
     opacity:0;
 }
+.textUnderBotton{
+    text-align:center;
+    color:white;
+}
+.textLeftBotton{
+    text-align: center;
+    color: white;
+    float: left;
+    width: 10%;
+    margin-bottom: 0;
+    margin-toP: 4.25%;
+}
+.bandButtonWithText{
+    margin-top:25%;
+}
 
 
 @media (max-width:1700px){
@@ -715,15 +789,10 @@
     }
     .sectionTitle{
         padding-top:11%;
-        font-size: 55px;
     }
     .knowMoreText p {
         margin-bottom: 16%;
     }
-}
-    .sectionText {
-        font-size: 30px;
-
     .iconLeft, .iconRight{
         width:40%;
     }
@@ -766,18 +835,12 @@
     .bannerTitle2 {
         font-size: 25px;
     }
-    .sectionTitle {
-        font-size: 52px;
-    }
-    .sectionText {
-        font-size: 24px;
-    }
     .iconText {
         font-size: 20px;
     }
-    .s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
+/*    .s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
         font-size: 18px;
-    }
+    }*/
     .contactTitle {
         font-size: 52px;
     }
@@ -814,15 +877,9 @@
         padding-top: 25%;
         padding-left: 2%;
     }
-    .sectionTitle {
-        font-size: 4vw;
-    }
     .bannerPriceDollarSign {
         font-size: 1.7vw;
         padding-top: 23%;
-    }
-    .sectionText {
-        font-size: 1.8vw;
     }
     .bannerPriceInteger {
         font-size: 4.3vw;
@@ -834,9 +891,9 @@
     .knowMoreText {
         font-size: 1vw;
     }
-    .s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
+    /*.s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
         font-size: 1.2vw;
-    }
+    }*/
     .contactTitle, .subscribeTitle {
         font-size: 4vw;
     }
@@ -848,9 +905,6 @@
     }
     .emailBar, .submitButton {
         font-size: 1.2vw;
-    }
-    .bandButton {
-        font-size: 2vw;
     }
 }
 
@@ -871,16 +925,12 @@
         padding: 0.5% 1%;
     }
     .sectionTitle {
-        font-size: 5vw;
         padding-top: 5%;
         margin-bottom:0;
     }
-    .sectionText {
-        font-size: 2vw;
-    }
-    .s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
+    /*.s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
         font-size: 1.7vw;
-    }
+    }*/
     .knowMoreText {
         font-size: 1.4vw;
     }
@@ -1040,18 +1090,14 @@
     .sectionTitle{
         color: #505050;
         line-height: 1.5;
-        font-weight: 500;
         text-align: center;
-        font-size: 7vw;
     }
     .sectionText{
         line-height: 1.8;
         color: #505050;
-        font-weight: 300;
         border-bottom: 1px solid #505050;
         padding-bottom: 4%;
         margin-right: 0;
-        font-size: 4.5vw;
         text-align: center;
     }
     .iconLeft, .iconRight {
@@ -1106,9 +1152,7 @@
         width:38%;
     }
     .bandButton {
-        font-size: 3.8vw;
         width: 70%;
-        font-weight: 500;
         color: #ff7f00;
         background: white;
         padding: 2% 4%;
@@ -1132,7 +1176,6 @@
     }
     .s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4
     {
-        font-size: 3.8vw;
         padding-toP: 35%;
         padding-left: 0;
         text-align: center;
