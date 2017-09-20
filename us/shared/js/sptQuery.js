@@ -90,7 +90,7 @@ $(".button3").click(function(){
 			   
 
 			   {"shopName":"Irvine",
-			   "shopaddress":"Address: 5414-D Walnut Ave., Irvine, 92604",
+			   "shopaddress":"Address: 5414 Walnut Ave, Irvine, CA 92604",
 			   "shoptime":"Hours: Mon - Sun, 11:00 am - 7:00 pm",
 			   "shopnum":"Tel: (949) 207-6825",
 			     "mapd":"https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=tw&amp;geocode=&amp;q=5414-D+Walnut+Ave.,+Irvine,+CA++92604&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=52.020054,114.169922&amp;ie=UTF8&amp;hq=&amp;hnear=5414+Walnut+Ave,+Irvine,+Orange,+California+92604&amp;t=m&amp;ll=33.697922,-117.767429&amp;spn=0.024993,0.057507&amp;z=14&amp;iwloc=A&amp;output=embed",
@@ -128,10 +128,10 @@ $(".button3").click(function(){
 },
 			   
 			   	{"shopName":"Fremont",
-			   "shopaddress":"Address: #102 46827 Warm Springs Blvd. Ste. 102, Fremont, CA 94539",
+			   "shopaddress":"Address: 46827 Warm Springs Blvd #102, Fremont, CA 94539",
 			   "shoptime":"Hours: Mon - Sun, 11:00 am - 7:00 pm",
 			   "shopnum":"Tel: (510) 488-6798",
-			     "mapd":"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=zh-tw&amp;geocode=&amp;q=46827+Warm+Springs+Blvd.+Ste.+102,+Fremont,+CA+94539&amp;aq=&amp;sll=29.705026,-95.54475&amp;sspn=0.007353,0.013937&amp;ie=UTF8&amp;hq=&amp;hnear=46827+Warm+Springs+Blvd+%23102,+Fremont,+California+94539&amp;t=m&amp;ll=37.495086,-121.925583&amp;spn=0.023834,0.057507&amp;z=14&amp;iwloc=A",
+			     "mapd":"http://www.google.cn/maps/embed?pb=!1m23!1m12!1m3!1d101306.32625177751!2d-121.99907495774883!3d37.48851022662862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x808fc6437599c013%3A0x171516c30b165a30!2s46827+Warm+Springs+Blvd+%23102%2C+Fremont%2C+CA+94539%E7%BE%8E%E5%9B%BD!3m2!1d37.4885309!2d-121.9290346!5e0!3m2!1szh-CN!2scn!4v1505798349736",
 			 	"pic":''},
 			   
 			   	{"shopName":"Newark",
@@ -150,7 +150,7 @@ $(".button3").click(function(){
 	"New York":[
 
 				{"shopName":"NY Flagship Store",
-			   "shopaddress":"Address: 42–35 Main Street, Unit 1E, Flushing 11355",
+			   "shopaddress":"Address: 42–35 Main Street, Unit 1E, Flushing, NY 11355",
 			   "shoptime":"Hours: Mon - Sun, 9:30 am - 8:30 pm",
 			   "shopnum":"Tel: (718) 888-0068",
 			     "mapd":"http://ditu.google.cn/maps?f=q&amp;source=s_q&amp;hl=zh-tw&amp;geocode=&amp;q=42%E2%80%9335+Main+Street,+Unit+1E,+Flushing,+NY+11355&amp;aq=&amp;sll=40.695215,-73.912102&amp;sspn=1.734618,3.56781&amp;brcurrent=3,0x0:0x0,0%3B5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=42-35+Main+St,+Flushing,+New+York+11355%E7%BE%8E%E5%9B%BD&amp;t=m&amp;ll=40.754409,-73.827868&amp;spn=0.022756,0.057507&amp;z=14&amp;iwloc=A&amp;output=embed",
@@ -207,7 +207,7 @@ $(".button3").click(function(){
 			   
 			   	{"shopName":"Duluth",
 			   "shopaddress":"Address: 3875 Venture Dr, S-2, Duluth, GA 30096",
-			   "shoptime":"Hours: Mon - Sun, 9:30 am - 6:30 pm",
+			   "shoptime":"Fri – Sun, 10:30am - 7:30pm",
 			   "shopnum":"Tel: (770) 806-9999",
 			     "mapd":"http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d3309.5663937740155!2d-84.14365058446963!3d33.95227883043806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a30a6970d9bb%3A0xb98e626ccc6d5011!2zMzg3NSBWZW50dXJlIERyLCBEdWx1dGgsIEdBIDMwMDk2576O5Zu9!5e0!3m2!1szh-CN!2scn!4v1486516651527",
 			 	"pic":''},
@@ -256,13 +256,13 @@ function chaxun(){
 
 function all(){
  		var as1 = eval("("+(data['DC Maryland and Virginia']).length+")");
- 		var as6 = eval("("+(data['Georgia']).length+")");
- 		var as8 = eval("("+(data['Massachusetts']).length+")");
+ 		var as2 = eval("("+(data['Georgia']).length+")");
+ 		var as3 = eval("("+(data['Massachusetts']).length+")");
  		var as4 = eval("("+(data['New York']).length+")");
- 		var as7 = eval("("+(data['North Carolina']).length+")");
- 		var as3 = eval("("+(data['North California']).length+")");
- 		var as2 = eval("("+(data['South California']).length+")");
- 		var as5 = eval("("+(data['Texas']).length+")");
+ 		var as5 = eval("("+(data['North Carolina']).length+")");
+ 		var as6 = eval("("+(data['North California']).length+")");
+ 		var as7 = eval("("+(data['South California']).length+")");
+ 		var as8 = eval("("+(data['Texas']).length+")");
  		
 
 
@@ -280,25 +280,25 @@ function all(){
  	 		}	
  	 	};
 
- 	 	for (nn=0; nn<as6; nn++) {
- 	 		var sp6 ="<div class='add '><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['Georgia'][nn].shopName+"</div><div class='address text18 mTitle26'>"+data['Georgia'][nn].shopaddress+"</div><div class='time text18 mTitle26'>"+data['Georgia'][nn].shoptime+"</div><div class='num text18 mTitle26'>"+data['Georgia'][nn].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['Georgia'][nn].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
- 			var fk6 = eval("("+(data['Georgia'][nn]['pic']).length+")");
- 			$(".backgroundColor").append(sp6);
+ 	 	for (nn=0; nn<as2; nn++) {
+ 	 		var sp2 ="<div class='add '><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['Georgia'][nn].shopName+"</div><div class='address text18 mTitle26'>"+data['Georgia'][nn].shopaddress+"</div><div class='time text18 mTitle26'>"+data['Georgia'][nn].shoptime+"</div><div class='num text18 mTitle26'>"+data['Georgia'][nn].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['Georgia'][nn].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
+ 			var fk2 = eval("("+(data['Georgia'][nn]['pic']).length+")");
+ 			$(".backgroundColor").append(sp2);
  			
- 			for(un=0;un<fk6;un++){
+ 			for(un=0;un<fk2;un++){
  				$('.pic').eq(nn+as1).append('<div class="pics"><img src="'+data['Georgia'][nn]['pic'][un]['str']+'" alt=""></div>');
  	 			
  	 		}	
  		};  
 
 
- 		for (pp=0; pp<as8; pp++) {
- 	 		var sp8 ="<div class='add '><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['Massachusetts'][pp].shopName+"</div><div class='address text18 mTitle26'>"+data['South California'][pp].shopaddress+"</div><div class='time text18 mTitle26'>"+data['Massachusetts'][pp].shoptime+"</div><div class='num text18 mTitle26'>"+data['Massachusetts'][pp].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['Massachusetts'][pp].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
- 			var fk8 = eval("("+(data['Massachusetts'][pp]['pic']).length+")");
- 			$(".backgroundColor").append(sp8);
+ 		for (pp=0; pp<as3; pp++) {
+ 	 		var sp3 ="<div class='add '><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['Massachusetts'][pp].shopName+"</div><div class='address text18 mTitle26'>"+data['Massachusetts'][pp].shopaddress+"</div><div class='time text18 mTitle26'>"+data['Massachusetts'][pp].shoptime+"</div><div class='num text18 mTitle26'>"+data['Massachusetts'][pp].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['Massachusetts'][pp].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
+ 			var fk3 = eval("("+(data['Massachusetts'][pp]['pic']).length+")");
+ 			$(".backgroundColor").append(sp3);
  		
- 			for(up=0;up<fk8;up++){
- 				$('.pic').eq(pp+as1+as6).append('<div class="pics"><img src="'+data['Massachusetts'][pp]['pic'][up]['str']+'" alt=""></div>');
+ 			for(up=0;up<fk3;up++){
+ 				$('.pic').eq(pp+as1+as2).append('<div class="pics"><img src="'+data['Massachusetts'][pp]['pic'][up]['str']+'" alt=""></div>');
  	 			
  	 		}	
  		};  
@@ -309,55 +309,55 @@ function all(){
  			$(".backgroundColor").append(sp4);
  
  			for(ul=0;ul<fk4;ul++){
- 				$('.pic').eq(ll+as1+as6+as8).append('<div class="pics"><img src="'+data['New York'][ll]['pic'][ul]['str']+'" alt=""></div>');
+ 				$('.pic').eq(ll+as1+as2+as3).append('<div class="pics"><img src="'+data['New York'][ll]['pic'][ul]['str']+'" alt=""></div>');
  	 			
  	 		}	
  		};
 
 
- 		for (oo=0; oo<as7; oo++) {
- 	 		var sp7 ="<div class='add'><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['North Carolina'][oo].shopName+"</div><div class='address text18 mTitle26'>"+data['North Carolina'][oo].shopaddress+"</div><div class='time text18 mTitle26'>"+data['North Carolina'][oo].shoptime+"</div><div class='num text18 mTitle26'>"+data['North Carolina'][oo].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['North Carolina'][oo].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
- 			var fk7 = eval("("+(data['North Carolina'][oo]['pic']).length+")");
+ 		for (oo=0; oo<as5; oo++) {
+ 	 		var sp5 ="<div class='add'><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['North Carolina'][oo].shopName+"</div><div class='address text18 mTitle26'>"+data['North Carolina'][oo].shopaddress+"</div><div class='time text18 mTitle26'>"+data['North Carolina'][oo].shoptime+"</div><div class='num text18 mTitle26'>"+data['North Carolina'][oo].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['North Carolina'][oo].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
+ 			var fk5 = eval("("+(data['North Carolina'][oo]['pic']).length+")");
+ 			$(".backgroundColor").append(sp5);
+ 
+ 			for(uo=0;uo<fk5;uo++){
+ 				$('.pic').eq(oo+as1+as2+as3+as4).append('<div class="pics"><img src="'+data['North Carolina'][oo]['pic'][uo]['str']+'" alt=""></div>');
+ 	 			
+ 	 		}	
+ 		}; 
+
+
+ 		for (kk=0; kk<as6; kk++) {
+ 	 		var sp6 ="<div class='add '><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['North California'][kk].shopName+"</div><div class='address text18 mTitle26'>"+data['North California'][kk].shopaddress+"</div><div class='time text18 mTitle26'>"+data['North California'][kk].shoptime+"</div><div class='num text18 mTitle26'>"+data['North California'][kk].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['North California'][kk].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
+ 			var fk6 = eval("("+(data['North California'][kk]['pic']).length+")");
+ 			$(".backgroundColor").append(sp6);
+
+ 			for(uk=0;uk<fk6;uk++){
+ 				$('.pic').eq(kk+as1+as2+as3+as4+as5).append('<div class="pics"><img src="'+data['North California'][kk]['pic'][uk]['str']+'" alt=""></div>');
+ 	 			
+ 	 		}	
+ 		}; 
+
+ 	 	for (j=0; j<as7; j++) {
+ 	 		var sp7 ="<div class='add'><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['South California'][j].shopName+"</div><div class='address text18 mTitle26'>"+data['South California'][j].shopaddress+"</div><div class='time text18 mTitle26'>"+data['South California'][j].shoptime+"</div><div class='num text18 mTitle26'>"+data['South California'][j].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['South California'][j].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
+ 			var fk7 = eval("("+(data['South California'][j]['pic']).length+")");
+ 	
  			$(".backgroundColor").append(sp7);
  
- 			for(uo=0;uo<fk7;uo++){
- 				$('.pic').eq(oo+as1+as6+as8+as4).append('<div class="pics"><img src="'+data['North Carolina'][oo]['pic'][uo]['str']+'" alt=""></div>');
+ 			for(uj=0;uj<fk7;uj++){
+ 				$('.pic').eq(j+as1+as2+as3+as4+as5+as6).append('<div class="pics"><img src="'+data['South California'][j]['pic'][uj]['str']+'" alt=""></div>');
  	 			
  	 		}	
  		}; 
 
 
- 		for (kk=0; kk<as3; kk++) {
- 	 		var sp3 ="<div class='add '><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['North California'][kk].shopName+"</div><div class='address text18 mTitle26'>"+data['North California'][kk].shopaddress+"</div><div class='time text18 mTitle26'>"+data['North California'][kk].shoptime+"</div><div class='num text18 mTitle26'>"+data['North California'][kk].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['North California'][kk].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
- 			var fk3 = eval("("+(data['North California'][kk]['pic']).length+")");
- 			$(".backgroundColor").append(sp3);
+ 		for (mm=0; mm<as8; mm++) {
+ 	 		var sp8 ="<div class='add '><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['Texas'][mm].shopName+"</div><div class='address text18 mTitle26'>"+data['Texas'][mm].shopaddress+"</div><div class='time text18 mTitle26'>"+data['Texas'][mm].shoptime+"</div><div class='num text18 mTitle26'>"+data['Texas'][mm].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['Texas'][mm].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
+ 			var fk8 = eval("("+(data['Texas'][mm]['pic']).length+")");
+ 			$(".backgroundColor").append(sp8);
 
- 			for(uk=0;uk<fk3;uk++){
- 				$('.pic').eq(kk+as1+as6+as8+as4+as7).append('<div class="pics"><img src="'+data['North California'][kk]['pic'][uk]['str']+'" alt=""></div>');
- 	 			
- 	 		}	
- 		}; 
-
- 	 	for (j=0; j<as2; j++) {
- 	 		var sp2 ="<div class='add'><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['South California'][j].shopName+"</div><div class='address text18 mTitle26'>"+data['South California'][j].shopaddress+"</div><div class='time text18 mTitle26'>"+data['South California'][j].shoptime+"</div><div class='num text18 mTitle26'>"+data['South California'][j].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['South California'][j].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
- 			var fk2 = eval("("+(data['South California'][j]['pic']).length+")");
- 	
- 			$(".backgroundColor").append(sp2);
- 
- 			for(uj=0;uj<fk2;uj++){
- 				$('.pic').eq(j+as1+as6+as8+as4+as7+as3).append('<div class="pics"><img src="'+data['South California'][j]['pic'][uj]['str']+'" alt=""></div>');
- 	 			
- 	 		}	
- 		}; 
-
-
- 		for (mm=0; mm<as5; mm++) {
- 	 		var sp5 ="<div class='add '><div class='shops '><div class='shopx'><div class='shopname title30 mTitle38 titleMgnBtm''>"+data['Texas'][mm].shopName+"</div><div class='address text18 mTitle26'>"+data['Texas'][mm].shopaddress+"</div><div class='time text18 mTitle26'>"+data['New York'][mm].shoptime+"</div><div class='num text18 mTitle26'>"+data['Texas'][mm].shopnum+"</div><div class='pic'></div></div><div class='map'><iframe width='100%' height='100%' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='"+data['Texas'][mm].mapd+"'></iframe></div><div class='clear clearfix'></div></div></div>";
- 			var fk5 = eval("("+(data['Texas'][mm]['pic']).length+")");
- 			$(".backgroundColor").append(sp5);
-
- 			for(um=0;um<fk5;um++){
- 				$('.pic').eq(mm+as1+as6+as8+as4+as7+as3+as2).append('<div class="pics"><img src="'+data['Texas'][mm]['pic'][um]['str']+'" alt=""></div>');
+ 			for(um=0;um<fk8;um++){
+ 				$('.pic').eq(mm+as1+as2+as3+as4+as5+as6+as7).append('<div class="pics"><img src="'+data['Texas'][mm]['pic'][um]['str']+'" alt=""></div>');
  	 		
  	 		}	
  		};  
