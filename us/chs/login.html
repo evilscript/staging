@@ -27,9 +27,10 @@
     <script src="../shared/js/common.js"></script>
     <style>
 		.bannerAll{background: url(../shared/images/lognin/loginbg.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 33.2vw;}
-		.social-share .social-share-icon {width: 3.33vw;height: 3.33vw;font-size: 1.5vw;line-height: 3.33vw;}
-		.social-share {text-align: center;margin-top: 1.5%;margin-bottom: 4.5%}
+/*		.social-share .social-share-icon {width: 3.33vw;height: 3.33vw;font-size: 1.5vw;line-height: 3.33vw;}
+		.social-share {text-align: center;margin-top: 1.5%;margin-bottom: 4.5%}*/
 		.yuan{letter-spacing:-5px;}
+
 
 		@media  (min-width:1000px) and (max-width:1900px){
 				.title42 {font-size: 2.1vw;}
@@ -40,31 +41,32 @@
 		}
 
 		@media  (min-width:1200px) and (max-width:1300px){
-				.social-share {margin-bottom: 5%}
+				.logos {margin-bottom: 5%}
 		}
 
 		@media  (min-width:1100px) and (max-width:1200px){
-				.social-share {margin-bottom: 10%;margin-top: 5%}
+				.logos{margin-bottom: 10%;margin-top: 5%}
 				.bottomstit{margin-top: 5%}
 		}
 
 		@media  (min-width:1000px) and (max-width:1100px){
-				.social-share {margin-bottom: 15%;margin-top: 5%}
+				.logos{margin-bottom: 15%;margin-top: 5%}
 				.bottomstit{margin-top: 5%}
 		}
 
 		@media  (min-width:768px) and (max-width:1000px){
 			.bannerAll{background: url(../shared/images/lognin/ipadLoginbg.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 46vw;}
 			.searchTitle{margin-left: 10%}
-			.social-share .social-share-icon {width: 8vw;height: 8vw;font-size: 4vw;line-height: 8vw;}
-			.social-share{margin-top: 4%;margin-bottom: 6%}
+            .logos{margin-top:4%;margin-bottom:6%  }
+	
+		
 
 		}
 
-		@media   (max-width:768px){
+		@media   (max-width:767px){
 				.bannerAll{background: url(../shared/images/lognin/Mlogin.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 120.6vw;padding-right: 0}
-				 .social-share .social-share-icon {width: 13vw;height: 13vw;font-size: 6.5vw;line-height: 13vw;}
-				 .social-share {margin-top: 8%;margin-bottom: 12%}
+				
+				 .logos{margin-top: 8%;margin-bottom: 12%}
 
 
 		}
@@ -122,8 +124,8 @@
         			</div>
         			<div class="right clearfix">
         				<div class="card">
-        					<div class="tit title42 mTitle42">邀请您的朋友,一起体验iTalkBB蜻蜓的精彩服务</div>
-        					<div class="txt1 txtleft title30 mTitle28 fwb">每推荐1名亲友加入,您和朋友将同时获得</div>
+        					<div class="tit title42 mTitle42">邀请您的朋友，一起体验iTalkBB蜻蜓的精彩服务</div>
+        					<div class="txt1 txtleft title30 mTitle28 fwb">每推荐1名亲友加入，您和朋友将同时获得</div>
         					<div class="txt2 txtright avenir">
         						<div class="title60 mTitle68 dollar">$</div>
         						<div class="title140 mTitle162 yuan">10</div>
@@ -135,12 +137,15 @@
 		  		</div> 
 			</div>
 			<div class="bottoms">
-		  		<div class="text18 mText28 bottomstit">如果您在登录账户遇到任何问题，请<a style="color: #ff7f00;" href="">联系我们</a>,我们专业的客服人员会帮您为您重新设置登录名和密码。</div>
+		  		<div class="text18 mText28 bottomstit">如果您在登录账户遇到任何问题，请<a class="linkOrange" href="">联系我们</a>,我们专业的客服人员会帮您为您重新设置登录名和密码。</div>
 
-                        <div id="aboutShareDiv"></div>
-                        <script>
-                            $('#aboutShareDiv').load('aboutShareDiv.html')
-                        </script>
+                <div class="logos">
+                    <div class="logo1"><img src="../shared/images/lognin/weixin.png" alt=""></div>
+                    <div class="logo2"><img src="../shared/images/lognin/facebook.png" alt=""></div>
+                    <div class="logo3"><img src="../shared/images/lognin/youtube.png" alt=""></div>
+                    <div class="logo4"><img src="../shared/images/lognin/don.png" alt=""></div>
+                </div>
+
 
 		  	</div>
 		</div>
