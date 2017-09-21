@@ -915,7 +915,7 @@ input:focus{ outline:none;}
         padding-left:0;
     }
     .footerTitle {
-        font-size: 2vw;
+        font-size: 1.7vw;
     }
     .footerText, .disclaimer {
         font-size: 1.4vw;
@@ -945,7 +945,7 @@ input:focus{ outline:none;}
         font-size: 1.1vw;
     }
     .footerText, .disclaimer {
-        font-size: 1.6vw;
+        font-size: 1.4vw;
     }
     .footer1 {
         padding-left: 0;
@@ -1018,13 +1018,11 @@ input:focus{ outline:none;}
     .revisedHeader3 {
         padding-top: 2%;
     }
-
-
-
-
-
-
-
+    .bbb {
+        width: 12%;
+        margin-left: 44%;
+        margin-top: 1%;
+    }
 }
 
 @media (max-width:767px) {
