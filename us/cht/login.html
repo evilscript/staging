@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="apple-itunes-app" content="app-id=514896649">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_login.css">
+    <link rel="stylesheet" href="../shared/css/social-share-in-news-template.css">
+
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+    <style>
+		.bannerAll{background: url(../shared/images/lognin/loginbg.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 33.2vw;}
+/*		.social-share .social-share-icon {width: 3.33vw;height: 3.33vw;font-size: 1.5vw;line-height: 3.33vw;}
+		.social-share {text-align: center;margin-top: 1.5%;margin-bottom: 4.5%}*/
+		.yuan{letter-spacing:-5px;}
+
+
+		@media  (min-width:1001px) and (max-width:1900px){
+				.title42 {font-size: 2.1vw;}
+				.title30{font-size: 1.56vw}
+				.title60{font-size: 3.1vw}
+				.title140{font-size: 7.2vw}
+				.title36{font-size: 1.87vw}
+		}
+
+		@media  (min-width:1200px) and (max-width:1300px){
+				.logos {margin-bottom: 5%}
+		}
+
+		@media  (min-width:1100px) and (max-width:1200px){
+				.logos{margin-bottom: 10%;margin-top: 5%}
+				.bottomstit{margin-top: 5%}
+		}
+
+		@media  (min-width:1001px) and (max-width:1100px){
+				.logos{margin-bottom: 15%;margin-top: 5%}
+				.bottomstit{margin-top: 5%}
+		}
+
+		@media  (min-width:768px) and (max-width:1000px){
+			.bannerAll{background: url(../shared/images/lognin/ipadLoginbg.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 46vw;}
+			.searchTitle{margin-left: 10%}
+            .logos{margin-top:4%;margin-bottom:6%  }
+            .card{padding: 10%}
+	
+		
+
+		}
+
+		@media   (max-width:767px){
+				.bannerAll{background: url(../shared/images/lognin/Mlogin.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 120.6vw;padding-right: 0}
+				
+				 .logos{margin-top: 8%;margin-bottom: 12%}
+
+
+		}
+
+
+
+
+		
+		
+
+    </style>
+</head>
+<body ng-app="">
+	   <div ng-include="'header.html'"></div>
+
+		<div class="mainLayout">
+			<div class="bannerAll">
+									
+      	 	 	<div class="sptSearch mainMgn200 clearfix">
+       	    		<div class="left clearfix">
+        	    		<p class="searchTitle title60 mTitle60 fwb">歡迎登錄</p>
+        	    		<p class="searchTitle title36 mTitle38 searchTitlex">更好的管理您的服務</p>
+        	    		<form action="">
+        	    		<div class="usename">
+        	    			<p class="searchImg text18 mText26">&nbsp;</p>
+        	    			<input class="searchBar text18 mText26" type="search" placeholder="" value="输入用户名" onfocus="if (value =='输入用户名'){value =''}" onblur="if (value ==''){value='输入用户名'}" > 
+
+        	    		</div>
+
+						<div class="clearfix"></div>
+        	    		<div class="password">
+        	    			<p class="searchImg text18 mText26">&nbsp;</p>
+        	    			<input class="searchBar text18 mText26" type="search" placeholder="" value="输入密码" onfocus="if (value =='输入密码'){value =''}" onblur="if (value ==''){value='输入密码'}" >        	    
+        	    		</div>
+        	    		<div class="clearfix"></div>
+
+        	    		 <div class="cookie">
+        	    			<p class="searchImg text18 mText26">&nbsp;</p>
+        	    			<input class="searchBar text18 mText26" type="search" placeholder="" value="输入验证码" onfocus="if (value =='输入验证码'){value =''}" onblur="if (value ==''){value='输入验证码'}" > 
+        	    			  <p class="searchButton text18 mText26">
+                   				<span>1+1=??</span>
+               				 </p>       	    
+        	    		</div>
+        	    		<div class="clearfix"></div>
+        	    		</form>
+        	 			<div class="bom">
+        	 				<a href=""><div class="login title30 mTitle38">登錄</div></a>
+        	    			<div class="www text18 mText28">
+        	    				<a class="text18 mText28" href="">立即註冊</a>  |  <a class="text18 mText28" href="">忘記登錄名</a>  |  <a class="text18 mText28" href="">忘記密碼</a>  
+        	    			</div>
+        	 			</div>
+
+
+     		
+        			</div>
+        			<div class="right clearfix">
+        				<div class="card">
+        					<div class="tit title42 mTitle42">邀請您的朋友，壹起體驗iTalkBB蜻蜓的精彩服務</div>
+        					<div class="txt1 txtleft title30 mTitle28 fwb">每推薦1名親友加入，您和朋友將同時獲得</div>
+        					<div class="txt2 txtright avenir">
+        						<div class="title60 mTitle68 dollar">$</div>
+        						<div class="title140 mTitle162 yuan">10</div>
+        					</div>
+        					<div class="clearfix"></div>
+        					<a href=""><div class="tuijian title30 mTitle38">立即推薦</div></a>
+        				</div>
+        			</div>
+		  		</div> 
+			</div>
+			<div class="bottoms">
+		  		<div class="text18 mText28 bottomstit">如果您在登錄賬戶遇到任何問題，請<a class="linkOrange" href="">聯系我們</a>,我們專業的客服人員會幫您為您重新設置登錄名和密碼。</div>
+
+                <div class="logos">
+                    <div class="logo1"><img src="../shared/images/lognin/weixin.png" alt=""></div>
+                    <div class="logo2"><img src="../shared/images/lognin/facebook.png" alt=""></div>
+                    <div class="logo3"><img src="../shared/images/lognin/youtube.png" alt=""></div>
+                    <div class="logo4"><img src="../shared/images/lognin/don.png" alt=""></div>
+                </div>
+
+
+		  	</div>
+		</div>
+  		<div ng-include="'footer.html'"></div>
+</body>
+
+<script>
+        $('.logo1').mouseover(function(){
+                $('.logo1 img').attr("src","../shared/images/lognin/weixinH.png");
+    });
+
+        $('.logo1').mouseout (function(){
+                $('.logo1 img').attr("src","../shared/images/lognin/weixin.png");
+    });
+
+
+    $('.logo2').mouseover(function(){
+                $('.logo2 img').attr("src","../shared/images/lognin/facebookH.png");
+    });
+
+
+    $('.logo2').mouseout (function(){
+                $('.logo2 img').attr("src","../shared/images/lognin/facebook.png");
+    });
+
+
+    $('.logo3').mouseover(function(){
+                $('.logo3 img').attr("src","../shared/images/lognin/youtubeH.png");
+    });
+
+    $('.logo3').mouseout (function(){
+                $('.logo3 img').attr("src","../shared/images/lognin/youtube.png");
+    });
+
+
+
+    $('.logo4').mouseover(function(){
+                $('.logo4 img').attr("src","../shared/images/lognin/donH.png");
+    });
+
+     $('.logo4').mouseout (function(){
+                $('.logo4 img').attr("src","../shared/images/lognin/don.png");
+    });
+
+
+</script>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>4Gcover</title>
+	<meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+	<meta name="apple-itunes-app" content="app-id=514896649">
+
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+    
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+    <script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+    <style>
+    .bannerAll1{background: url(../shared/images/4g/banner4g.jpg) no-repeat; background-size: 100%;}
+    .top{width: 79.74%;margin: 0 auto;padding-top: 4.5%;padding-bottom: 3.5%}
+    p{padding: 0;margin: 0}
+    .top .p2{margin-top: 1%}
+    .maps{width: 89.5%;height: 45vw;margin: 0 auto}
+    .Sharp {vertical-align: top;width: 2%;}
+    .Sharp, .textCon {float: left;display: block;}
+    .textCon {   width: 95%;}
+    .bottom{width: 89.5%;margin:0 auto;padding-top: 2%}
+    .left,.right{display: inline-block;width: 50%;vertical-align: top;padding: 0% 5%}
+    .txt{line-height: 1.8}
+    .lineBlue {margin-top: 5%}
+
+    @media (max-width:1000px){
+       .bannerAll1{background: url(../shared/images/4g/ipadbanner4g.jpg) no-repeat; background-size: 100%;}
+       .maps{width: 100%;height: 65vw}
+       .left,.right{padding: 0%}
+       .Sharp{width: 4%}
+       .textCon{width: 90%}
+
+    }
+
+    @media (max-width:767px){
+       .bannerAll1{background: url(../shared/images/4g/banner4gM.jpg) no-repeat; background-size: 100%;}
+       .top{width: 90%;padding-top: 12%; padding-bottom: 9%}
+       .top .p2{margin-top: 2%}
+       .left,.right{display: block;width: 100%;vertical-align: top;}
+        .bottom{width: 90%;margin:0 auto;padding-top: 6%}
+         .txt{line-height: 1.5}
+        .txt p{padding-bottom: 1%}
+        .titleMgnBtm {margin-bottom: 1vw;}
+        .right{padding-top: 8%}
+         .lineBlue {margin-top: 9%}
+         .maps{height: 110vw;}
+
+
+
+    }
+
+
+
+    </style>
+
+</head>
+<body ng-app="">
+	<div ng-include="'header.html'"></div>
+	<div class="mainLayout">
+	    <section class="bannerAll bannerAll1">
+     	    <div class="bannerText">
+     	    	<p class="title70 mTitle50 fwb bannerTitle">全美最大的4G LTE手機網絡</p>
+     	    	<p class="title36 mTitle30">iTalkBB蜻蜓移動,然您在哪裏都無需擔心信號問題</p>
+     	    </div>      	    	   
+        </section>
+
+      <section class="mainMgnTop">	
+			      <div class="mainMgn100">
+      	  		<div class="lineOrange"></div>
+      	  	</div>
+    	</section>
+
+     <div class="top title20 mTitle28">
+              <p class="p1"> 在美國，iTalkBB蜻蜓移動網絡覆蓋了美國絕大多數地區，從繁華盛景的紐約到西南重地德克薩斯，從雪山皚皚的丹佛到政治中心華盛頓，從歌舞人生的邁阿密到海岸線悠長的加州，您都能自在使用iTalkBB蜻蜓移動， 無需擔心信號問題。</p>
+
+              <p class="p2"> 在中國，iTalkBB蜻蜓移動信號覆蓋高達99%的人口， 讓您無論是探親訪友，還是出差旅行全都精彩方便。</p>
+      </div>
+
+      <div class="maps">
+        
+          <iframe runat="server" src="https://maps.t-mobile.com/pcc.html?map=mvno-noroam-34l&search=10001" width="100%" height="100%" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes">
+          </iframe>
+        
+      </div>
+
+      <div class="bottom">
+        <div class="left">
+           <p class="titleMgnBtm title42 mTitle36 fwb">如何定位覆蓋範圍？</p>
+           <div class="title20 mTitle28 txt">
+            <p class="clearfix"><span class="Sharp">&gt;</span>
+            <span class="textCon">在搜索欄裏輸入您的完整地址、郵編，或者雙擊地圖某壹點可直接定位</span>
+            </p>
+            <p class="clearfix"><span class="Sharp">&gt;</span>
+            <span class="textCon">點擊地圖右上角的My Places，可查看多個地點的信號狀況</span>
+            </p>
+            <p class="clearfix"><span class="Sharp">&gt;</span>
+            <span class="textCon">綠色陰影越深表示4G連接越好，灰色陰影表示2G覆蓋或者是我們的合作夥伴之壹</span>
+            </p>
+          </div> 
+        </div><div class="right">
+          <p class="titleMgnBtm title42 mTitle36 fwb">什麽是4G LTE流量？</p>
+           <div class="title20 mTitle28 txt">
+             4G代表第四代移動通信技術，相比於之前的3G網絡，擁有更高的數據吞吐量，更低的時延。簡言之，就是能為用戶提供更快的速度並滿足更多需求。在iTalkBB 蜻蜓移動的全美4GLTE網絡下，您無論是在線看視頻，聽音樂，使用GPS導航，還是收發微信，處理郵件都能輕松完成。
+          </div> 
+        </div>
+      </div>
+
+
+
+
+
+	</div>
+    <div class="lineBlue"></div>
+	<div ng-include="'footer.html'"></div>
+</body>
+</html>

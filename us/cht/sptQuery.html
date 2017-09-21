@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>iTalkBB蜻蜓</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+	<meta name="apple-itunes-app" content="app-id=514896649">
+
+<!-- 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptQuery.css">
+
+    <script src="../shared/js/jquery-1.12.4.min.js"></script>
+    <script src="../shared/js/angular-1.6.4.min.js"></script>
+    <script src="../shared/js/bootstrap.min.js"></script>
+	<script src="../shared/js/imageMapResizer.js"></script>
+    <script src="../shared/js/common.js"></script>
+
+    <style>
+select {width: 100%;padding: 2%;font-size:18px;border:1px solid #333333; border-radius: 10px;
+/*将默认的select选择框样式清除*/
+appearance:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;
+/*在选择框的最右侧中间显示小箭头图片*/
+background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% center transparent;        }
+
+
+
+section.mainMgnTop{margin-bottom: 1.5%}
+@media (max-width:767px){
+	section.mainMgnTop{margin-bottom: 4.5%}
+}
+
+@media (min-width:1000px) and (max-width:1200px) {
+	.optextName{font-size: 30px}
+	.optexts,.quartersName,.quartersAddress,.quartersNum{font-size: 18px}
+}
+
+
+    </style>
+
+    
+</head>
+<body ng-app="" style="background-color:#ffffff" onhashchange="aa()">
+
+	<div ng-include="'header.html'"></div>
+    <div class="clear clearfix"></div>
+
+	<div class="mainLayout">
+		<div class="fixhead">
+		   <div class="d1">
+					<section class="bannerAll bannerAll1">
+     	    			<div class="bannerText">
+     	    				<p class="title60 mTitle50 fwb bannerTitle">24小時人工客服</p>
+     	    				<p class="title36 mTitle44">
+     	    	   			<span>中粵英三語  專人為您服務</span>
+     	    	   			<span>365天全年無休為海外華人服務</span>
+     	    				</p>
+     	    			</div>      	    	   
+       				</section>
+				</div>
+		   	<div class="d3 ">
+					<section class="bannerAll bannerAll2">
+     	    			<div class="bannerText">
+     	    				<p class="title60 mTitle50 fwb bannerTitle">不論您身在美國何處</p>
+     	    				<p class="title60 mTitle50 fwb">
+     	    	   			<span>iTalkBB蜻蜓體驗店</span>
+     	    	   			<span>為您提供全方位的服務</span>
+     	    				</p>
+     	    			</div>      	    	   
+       				</section>
+       	     </div>
+			
+			
+		    <div class="d5 ">
+				<section class="bannerAll bannerAll3">
+     	    			<div class="bannerText">
+     	    				<p class="title60 mTitle50 fwb bannerTitle">iTalkBB蜻蜓</p>
+     	    				<p class="title60 mTitle50 fwb">
+     	    	   			<span>專業、及時、誠信</span>
+     	    	   			<span>您最真誠的合作夥伴</span>
+     	    				</p>
+     	    			</div>      	    	   
+       				</section>
+       				</div>
+		</div>
+
+		
+
+
+	<section class="mainMgnTop">
+      	  <div class="mainMgn100">
+        	<div class="lineOrange"></div>       	        	 
+        	<div class="menuCon">
+        	   <div class="menuBox menuBox3 clearfix">
+			      <p class="menuBtn title24 mTitle32 button1 selected">人工客服</p>
+			      <p class="menuBtn title24 mTitle32 button2">店面查詢</p>
+			      <a href="#"><p class="menuBtn title24 mTitle32 button3">業務合作</p></a>
+			</div>	
+			</div>
+		  </div>           	      	
+    </section>
+
+
+	<div class="changeshow">
+<!-- shop -->
+	<section class='shop'>
+		<div class="title title30 mTitle38 shopy">請選擇您要找的店面</div>
+		<div class="changeShop">
+			<select id="sel" class="title20" style="outline:none;">
+					<option value="all">All</option>
+  					<option value="DC Maryland and Virginia">DC Maryland and Virginia</option>
+  					<option value="Georgia">Georgia</option>
+  					<option value="Massachusetts">Massachusetts</option>
+  					<option value="New York">New York</option>
+  					<option value="North Carolina">North Carolina</option>
+  					<option value="North California">North California</option>
+  					<option value="South California">South California</option>
+ 					<option value="Texas">Texas</option>								
+			</select>
+		</div>	
+		<div class="backgroundColor sans"></div>
+		<div class="allshow">
+			<div class="overlay"></div>
+ 			<div class="bigshow">
+			  <img class="bigshows" src="" alt="">
+			  <div class="next"><img style="width:100%" src="../shared/images/bb/mSwiperPrev.png" alt=""></div>
+ 			  <div class="up"><img style="width:100%" src="../shared/images/bb/mSwiperNext.png" alt=""></div>
+    		</div>
+ 
+    </div>
+	</section>
+
+<!-- 客服 -->
+	
+	<section class='customer'>
+		<div class='customes'>
+		<div class="tel24">
+			<img class="titimg" src="../shared/images/icons/callCenterIcon.png" alt="">
+			<div class="custitle title30 mTitle38">電話客服</div>
+			<div class="telnums text18 mTitle26 ">售後客服：<span class='sans'>1-877-482-5503</span>  </div>
+			<div class="telnums text18 mTitle26 ">銷售客服：<span class='sans'>1-877-482-5522</span></div>
+			<div class="telnums text18 mTitle26 ">中國大陸客戶服務熱線：<span class='sans'>950-4030-0000</span></div>
+			<div class="telnums text18 aline mTitle26 teladd"><br><span class='sans'>iTalkBB</span>蜻蜓電話客服，隨時隨地陪伴常在，歡迎您隨時聯系我們。</div>
+		</div><div class="weixin">
+			<img  class="titimg titimg2" src="../shared/images/icons/weChatIcon.png" alt="">
+			<div class="custitle title30 mTitle38">微信客服</div>
+			<div class="telnums text18  mTitle26  weixinadd"><span class='sans'>iTalkBB</span>蜻蜓微信客服提供24小時365天無休服務！您可以通過文字、圖片、語音、視頻等任意形式提出您的問題和需求，微信客服都會為您解抉。</div>
+			<img class="wma" src="../shared/images/index/wechatSocialIcon.jpg" alt="">
+			
+			<div class="telnums text12  mTitle22  weixinxadd">打開微信掃壹掃，或者在微信中搜索“<span class='sans'>iTalkBB</span>”即可關註<span class='sans'>iTalkBB</span>蜻蜓微信號。</div>
+
+		</div><div class="email">
+			<img class="titimg titimg3" src="../shared/images/support/email.png" alt="">
+			<div class="custitle title30 mTitle38"><span class='sans'>Email</span>支持</div>
+			<div class=" sans text18 mTitle26 "><a class="linkOrange" href="http://support@italkbb.com">support@italkbb.com</a> </div>
+			<div class="emails  text18 mTitle26 emailadd">您還可以選擇發郵件聯系我們，<span class='sans'>iTalkBB</span>蜻蜓專業的客服人員會在第壹時間回復您，為您解決問題。</div>
+		</div>
+		</div>
+
+	</section>
+
+<!-- 合作 -->
+	<section class='collaborate'>
+		<div class='collaborates'>
+		<div class="collaborate1"><a href="http://www.italkbbmedia.com/" target="view_window">
+			<img class="collaboratePic" src="../shared/images/support/collaboratePic1.jpg" alt="">
+			<img class="mcollaboratePic" src="../shared/images/support/mcollaboratePic1.jpg" alt="">
+			<div class="opt">
+				<div class="optext">
+					<div class="optextName title30 mTitle38 fwb titleMgnBtm">廣告業務合作</div>
+					<div class="optexts text18 mTitle26">iTalkBB蜻蜓中文電視平臺投放廣告業務</div>
+					<div class="optexts text18 mTitle26">請訪問www.iTalkBBMedia.com </div>
+					<div class="optexts text18 mTitle26">聯系電話: 1-888-670-6626</div>
+					<div class="optexts text18 mTitle26">Email: info@italkbbmedia.com</div>
+				</div>
+			</div></a>
+		</div><div class="collaborate2"><a href="http://dealer.italkbb.com/" target="view_window">
+			<img class="collaboratePic" src="../shared/images/support/collaboratePic2.jpg" alt="">
+			<img class="mcollaboratePic" src="../shared/images/support/mcollaboratePic2.jpg" alt="">
+			<div class="opt">
+				<div class="optext">
+					<div class="optextName title30  mTitle38 fwb titleMgnBtm">代理商加盟</div>
+					<div class="optexts optexts2 text18 mTitle26">成為iTalkBB蜻蜓代理商</div>
+					<div class="optexts optexts2 text18 mTitle26">請訪問，www.iTalkBBdealer.com</div>
+					<div class="optexts optexts2 text18 mTitle26">聯系電話：1-877-482-5551</div>
+					<div class="optexts optexts2 text18 mTitle26">Email: info@italkbb.com</div>
+				</div>
+			</div></a>
+		</div><div class="collaborate3" >
+			<img class="collaboratePic" src="../shared/images/support/collaboratePic3.jpg" alt="">
+			<img class="mcollaboratePic mcollaboratePic3" src="../shared/images/support/mcollaboratePic3.jpg" alt="">
+			<div class="opt2 opt3">
+				<div class="boptext">
+					<div class="boptextL">
+						<div class=" optextName title30 mTitle38 fwb quarters titleMgnBtm">美國總部</div>
+					
+						<div class="quartersName text18 mTitle26 fwb">DC Office</div>
+						<div class="quartersAddress text18 mTitle26">Address: 7926 Jones Branch Drive, Ste 1100, Mclean VA 22102 USA</div>
+						<div class="quartersNum text18 mTitle26">Fax: 703-848-1669 <br> Email: info@italkbb.com</div>
+					
+					</div><div class="boptextR">
+					
+
+
+						<div>
+							<div class="quartersName text18 fwb mTitle26">Austin Office</div>
+							<div class="quartersAddress text18 mTitle26">Address: 1122 S. Capital of Texas Highway, Suite 375, Austin TX 78746 USA</div>
+							<div class="quartersNum text18 mTitle26">Fax: 512-637-1451 <br> Email: info@italkbb.com</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	</div>
+
+
+
+
+	</div>
+	
+
+
+
+
+	<section class='lineBlue'></section>
+    <div class="clear clearfix"></div>
+	<div ng-include="'footer.html'"></div>
+</body>
+<script src="../shared/js/sptQuery.js"></script>
+<script>
+
+
+
+
+
+
+
+ 
+
+// ***********************************************
+
+
+
+// ************************************************************
+
+	
+	function aa(){
+		 var m =window.location.hash;
+
+
+		if(m=='#!#chaxun'){
+
+			
+			$(".changeshow").children().css("display", "none");
+			$(".shop").css('display','block');
+			$('.fixhead').children().css("display", "none");
+			$('.d3').css("display", "block");
+			$('.menuBtn').removeClass('selected');
+			$('.lineBlue').css("margin-top", "5%");
+			$('.button2').addClass('selected');	
+			chaxun();
+		}
+			if(m=='#!#kefu'){
+				
+			$(".changeshow").children().css("display", "none");
+			$(".customer").css('display','block');
+			$('.fixhead').children().css("display", "none");
+			$('.d1').css("display", "block");
+			$('.menuBtn').removeClass('selected');
+			$('.button1').addClass('selected');
+			$('.backgroundColor').children().remove();
+			$('.lineBlue').css("margin-top", "0%");
+		}
+	}
+
+
+</script>
+
+</html>
