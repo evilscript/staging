@@ -565,6 +565,9 @@ input:focus{ outline:none;}
 .footerSitemap .footerText:hover {
     color: #ff7f00;
 }
+.footerSitemap .footerColumn{
+    padding-left:0;
+}
 .closeSitemap {
     cursor:pointer;
     float: left;
