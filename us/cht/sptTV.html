@@ -18,9 +18,6 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <!--这里继续添加子页面的Css引用文件--> 
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_support.css">  
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
     
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
@@ -28,291 +25,466 @@
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
-    <!--这里继续添加子页面的Js引用文件-->
+
     <style>
+	/**/
+	.faultCon{display: none;}
+	.imgConCenter{padding-right: 0;}
+	.imgTitle a.btnSel:hover,.imgTitle a.btnSel:focus{color: #ff7f00;}
+	.imgTitle a.nobtnSel,.imgTitle a.nobtnSel:hover,.imgTitle a.nobtnSel:focus{color: #222;text-decoration: underline;}
+	.btnSel{color: #ff7f00; text-decoration: none;}
+	.nobtnSel{text-decoration: underline;}
+	@media (max-width:1000px){ 
+	     .imgConCenter{padding:0 5%}
+	}
+	</style>
+	<style>
+		.billCon,.paymentCon,.detailsCon{display: none;}
+		.conTable{border-bottom: #d8d8d8 1px solid;}
+		.fromBox3 .tableUlNom{text-align: left; margin-left: 6%; margin-top: 1.8%;margin-bottom: 2%;}
+		.fromBox3 .tableUlNom p{padding:0; padding-right: 5%;}
+		.tableNote{margin-top: 2%;}
 
+		.bbPlan,.bbPlanOther,.bbTryout,.bbApp,.otherFuncBox{text-align: center;}
+		.left{float: left;}
+		.right{float: right;}
+		.left,.right{width: 50%;text-align: center;}
+		.left .typeTxt{background:url(../shared/images/support/chs_bbSptBox.png) no-repeat scroll bottom;background-size: 66%;}
+		.right .typeTxt{background:url(../shared/images/support/chs_tvSptBox.png) no-repeat scroll bottom; background-size: 66%;}
+		.left .typeTxt,.right .typeTxt{text-align: center;padding-bottom: 64%;}
+		.bothConCenter{padding-right: 0;margin-top: 4%; margin-bottom: 1%;}
+		.bothConCenter > .left{border-right: 1px #c1c1c1 solid;padding-right: 3%;}
+		.bothConCenter > .right {padding-left: 3%;}
+		.bothConCenter .titleBox{width: 50%;margin: 0 auto;margin-bottom: 6%; padding: 1.5%;padding-bottom: .2%; border: 1px solid #ff7f00;color:#ff7f00 ; box-shadow: 10px 10px  #d9d9d9;}
+		.bothConCenter .titleBox p{line-height: 1;}
 
-	.me{color: #ff7f00; }
-	.write2{display: none;}
-	.menuBtn{width: 49%;}
-	.menuBtn:hover,.selected{color:white;box-shadow: inset 500px 0 0 #327fe8;}
-   
-    }	
+		@media  (min-width:768px) and (max-width:1000px){
+			.tableNote{padding: 0 5%;}
 
+			.bothConCenter{padding:0 5%}
+			.bothConCenter .titleBox{width: 70%;margin-bottom: 8%;box-shadow: 8px 8px  #d9d9d9;}
+			.left .typeTxt,.right .typeTxt{padding-bottom: 61%;}
+		}
+		@media (max-width:767px){
+			.tableNote{padding: 0 5%;}
 
+			.bothConCenter{padding:0 5.2%; padding-top: 2%;}
+			.bothConCenter .titleBox{width: 66%;margin-bottom: 8%;padding: 2.7%;padding-bottom: .5%;box-shadow: 8px 8px  #d9d9d9;}
+			.bothConCenter .titleBox p{line-height: .8;}
+			.left,.right{float: none; width: 100%;}
+			.left .typeTxt,.right .typeTxt{padding-bottom: 61%;}
+			.bothConCenter > .left{border-right: none;border-bottom: 1px #c1c1c1 solid;padding-right: 0%;padding-bottom: 5%;margin-bottom: 10%;}
+			.bothConCenter > .right {padding-left: 0;}
+
+		}
 	</style>
 </head>
 
 
 <body ng-app="">
-    <!--侯男制作-->    
+    <!-- Author: Amy --> 
+
 	<div ng-include="'header.html'"></div>
-    
-    <!--主体内容 start-->
-	<div class="container1920">
-	  <div class="mainLayout">
-       <section>
+
+    <!--main content begin-->
+	<div class="mainLayout">
+       <section class="sptTVbanner">
       	    <div ng-include="'sptBanner.html'"></div>	   
        </section>
        
        <section class="mainMgnTop">
-      	  <div class="mainLimited">
+      	  <div class="mainMgn200">
         	<div class="lineOrange"></div>       	        	 
-        	<div class="sptMenu">
-        	<div class="menuBox clearfix">
-			<p class="menuBtn title22 mTitle24 fwn use selected">产品使用</p>
-		    <p class="menuBtn title22 mTitle24 fwn wrong">故障查询</p>
-
+        	<div class="menuCon">
+        	<div class="menuBox menuBox2 clearfix">
+			<p class="menuBtn title24 mTitle32 use selected">产品使用</p>
+			<p class="menuBtn title24 mTitle32 fault">故障查询</p>
 			</div>	
 			</div>
 		  </div>           	      	
        </section>
        
-       <section class='shows'>
-       	<div class="write">
-			<div class="mainLimited bgMgn">
+       <section class="supportTV" id="howToInstallTV">
+       <div class="useCon">	    
+	    <div class="bgMgn noBgMgnbtm lineGray">
+		<div class="mainMgn200">
+		<div class="partAll imgConCenter">
+		    <p class="titleMgnBtm title30 mTitle38 fwb">電視盒子安裝</p>
+		    <p class="titleMgnBtm title24 mTitle32 fwb">安裝示意圖</p>		    
+		    <div class="imgCnt">
+		    	<p class="imgTitle title24 mTitle28"><a href="" class="tvBoxTitle01 button btnSel">蜻蜓電視盒子-黑色幻彩</a> | <a href="" class="tvBoxTitle02 button nobtnSel">蜻蜓電視盒子-銀色A5</a> </p>
+		    	<img class="tvBoxImg" src="../shared/images/support/chs_sptTVsketch01.png" alt="">
+		    </div>
+		</div>
+		</div>
+		</div>
 
-					<div class="partAll">
-		    		<p class="titFirst title36 mTitle36 fwn">电视盒子安装</p>
-		    		<p class="title30 mTitle32 fwn">安装示意图</p>		    
-		    		</div>
-		    		<div class="imgCnt lineGray">
-		    			<p class="imgTitle title22 mTitle28 fwn"><a href="" class="me black buttn">蜻蜓电视盒子-黑色幻彩</a> | <a href="" class="ag buttn">蜻蜓电视盒子-银色A5</a> </p>
-		    			<img class="tvboximg" src="../shared/images/support/tvbox01.png" alt="">
-		    		</div>
-	
-	    	</div>
-	    			
 		<div class="bgMgn gradient">
-			<div class="mainLimited">
-				<div class="partAll titMgnTop">
-	       			<p class="title30 mTitle32 fwn">iTalkBB蜻蜓电视安装步骤</p>
-		   			<ul class="listNom">
-		   				<li class="text18 mText28 fwn">连接电视 ( 推荐使用 HDMI 高清线，享受高清体验 )
-		   					<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon" >使用高清电视：请将 HDMI 高清线两端分别插入机顶盒及电视机的 HDMI 端口使用；</span></p>
-		   					<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon" style="margin-left: -1%;"> 使用传统电视：若您的电视机没有 HDMI 端口，请将 AV 复合视频线两端的三个插头按颜色插入电视机及机顶盒的 AV 埠；</span>
-		   					</p>
-		   				</li>
+		<div class="mainMgn200">
+		<div class="partAll">
+		    <p class="titleMgnBtm title24 mTitle32 fwb">iTalkBB蜻蜓電視安裝步驟</p> 
+		    <ul class="listNom text18 mText26">
+		   	<li>
+		   		<p>連接電視（推薦使用HDMI高清線，享受高清體驗）</p>
+		   		<div class="">
+		   		   <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		   <span class="textCon">使用高清電視：請將HDMI高清線兩端分別插入機頂盒及電視機的HDMI端口使用。</span>
+		   	       </p>
+		   	       <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		   <span class="textCon">使用傳統電視：若您的電視機沒有HDMI端口，請將AV複合視頻線兩端的三個插頭按顏色插入電視機及機頂盒的AV端口。</span>
+		   	       </p>
+		   	    </div>	   		 
+		   	</li>
+		   	<li>
+		   		<p>連接網絡</p>
+		   		<div class="">
+		   		   <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		   <span class="textCon">使用無線網絡：輸入密碼連接Wi-Fi。</span>
+		   	       </p>
+		   	       <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		   <span class="textCon">使用有線網絡：請將網線兩端分別插入機頂盒網絡口及路由器（Router）上。</span>
+		   	       </p>
+		   	    </div>
+		   	</li>
+		   	<li>
+		   		<p>連接電源</p>
+		   		<div class="">
+		   		   <p class="clearfix"><span class="Sharp">&gt;</span>
+		   		   <span class="textCon">請將電源配適器兩端分別插入機頂盒電源接口及插座。</span>
+		   	       </p>
+		   	    </div>
+		   	</li>
+		   	<li>
+		   		<p>設置網絡</p>
+		   		<div class="">
+		   		   <p class="clearfix">
+		   		   <span class="textCon">首次使用時，開機後請在首頁選擇“我的盒子”，點擊“網絡設置”，進行網絡設置。您可以選擇“有線網絡連接”、“無線網絡連接”或“快速連接無線網絡”。</span>
+		   	       </p>
+					<p class="clearfix"><span class="Sharp">&gt;</span>
+						<span class="textCon">如您選擇“無線網絡連接”，即會跳出無線網絡清單頁，請選擇您家的WiFi的名稱 (SSID)，並輸入相應密碼。密碼驗證正確後，選擇自動獲取IP，點擊完成，待機頂盒上的“link燈”由紅色轉為綠色，則連接成功。</span>
+					</p>
+					<p class="clearfix"><span class="Sharp">&gt;</span>
+						<span class="textCon">如您使用“有線網絡連接”，請選擇自動獲取IP，點擊完成，待機頂盒上的“link燈”由紅色轉為綠色，則連接成功。</span>
+					</p>
+					<p class="clearfix"><span class="Sharp">&gt;</span>
+						<span class="textCon">如您選擇“快速連接無線網絡”，即會跳出無線網絡清單頁，選擇您家的無線網絡，並輸入相應密碼，待機頂盒上的“link燈”由紅色轉為綠色，則連接成功。</span>
+					</p>
+
+		   	    </div>
+		   	</li>
+		   </ul>	    
+		</div>
+		</div>
+		</div>		
+		
+		
+		<div class="bgMgn gradient">
+		<div class="mainMgn200">
+		<div class="partAll">
+           <p class="titleMgnBtm title30 mTitle38 fwb">產品功能</p>
+	       <p class="titleMgnBtm title24 mTitle32 fwb">影視點播</p>
+		   <div class="text18 mText26">
+		   	  <p class="listTxtCon">隨時暢看兩岸三地熱門電影、電視劇、綜藝節目、少兒節目，超過10000小時任你無限免費點。</p>
+		   </div>		
+		</div>		
+		<div class="partAll titMgnTop">
+	       <p class="titleMgnBtm title24 mTitle32 fwb">實時直播</p>
+		   <div class="text18 mText26">
+		   	  <p class="listTxtCon">想與大洋彼岸同步觀看電視頻道直播，享受零時差的華語娛樂嗎？iTalkBB蜻蜓電視為您提供海內外數十個權威華語頻道實時直播。</p>
+		   </div>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="titleMgnBtm title24 mTitle32 fwb">72小時回看</p>
+		   <div class="text18 mText26">
+		   	  <p class="listTxtCon">iTalkBB蜻蜓電視為您提供72小時回看服務，記錄3天之內的所有內容，讓您不錯過任何精彩。請在首頁選擇 “電視服務” 板塊，然後根據您想要看的頻道選擇相應的頻道列表。將鼠標移動到你想觀看的頻道名稱上，就能看到該頻道72小時之內的節目列表。</p>
+		   </div>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="titleMgnBtm title24 mTitle32 fwb">最近瀏覽</p>
+		   <div class="onlyText text18 mText28">
+		   	  <p class="listTxtCon">請在首頁選擇"觀看記錄"，即可找到您最近觀看的點播節目。從左上至右下，按從新到舊的時間順序排放。iTalkBB蜻蜓電視還為您提供斷點續播功能，記錄您看此節目的進度。您再看的時候便可直接從上次停止觀看的地方開始觀看。</p>
+		   </div>			
+		</div>
+		<div class="partAll titMgnTop">
+	       <p class="titleMgnBtm title24 mTitle32 fwb">本地播放</p>
+		   <div class="onlyText text18 mText28">
+		   	  <p class="listTxtCon">任何本地的影片或圖片，都可以通過iTalkBB蜻蜓電視在電視螢幕上播放。將您的本地移動設備（如U盤、移動硬盤等）連接在機頂盒的 USB 插口上。選擇首頁 “我的盒子” 板塊 — 點擊 “本地播放”，即可瀏覽您移動設備中可播放的影片、音樂及圖片格式的文件，只要點擊便可輕鬆播放。</p>
+		   </div>			
+		</div>
+		</div>
+		</div>
+
+		   <div class="bgMgn gradient" id="ifDownloadShow">
+			   <div class="mainMgn200">
+				   <div class="partAll">
+					   <p class="titleMgnBtm title30 mTitle38 fwb">iTalkBB蜻蜓電視是否提供節目下載</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">我們暫時不提供節目下載的功能，但是所有頻道都提供72小時的節目回播功能，超過10000小時的電影、電視劇、綜藝節目點播。每週都有新內容上線，您隨時想點就點。</p>
+					   </div>
+				   </div>
+
+			   </div>
+		   </div>
+
+		   <div class="bgMgn gradient" id="regardingTVPlan">
+			   <div class="mainMgn200">
+				   <div class="partAll">
+					   <p class="titleMgnBtm title30 mTitle38 fwb">關於iTalkBB蜻蜓電視計劃</p>
+					   <p class="titleMgnBtm title24 mTitle32 fwb">iTalkBB蜻蜓電話的用戶可獲得1年優惠的蜻蜓電視服務，最多2台
+					   </p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">每個iTalkBB蜻蜓電話的用戶，購買蜻蜓電視時，可享受$49.99/台（折扣後年費）的優惠價格，沒有合約限制和任何其他費用。每個用戶限購2台iTalkBB蜻蜓電視。<a
+								   href="../chs/tvPlan.html" class="linkOrange">點此購買</a>高清iTalkBB蜻蜓電視服務。</p>
+					   </div>
+				   </div>
+				   <div class="partAll titMgnTop">
+					   <p class="titleMgnBtm title24 mTitle32 fwb">30天試用期</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">為了讓您放心購買，iTalkBB蜻蜓電視為您提供30天試用退款保證。購買後30天之內，您可以隨時取消服務，您被收取的費用將全額返還（除郵費之外）。</p>
+					   </div>
+				   </div>
+				   <div class="partAll titMgnTop">
+					   <p class="titleMgnBtm title24 mTitle32 fwb">取消計劃</p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">購買30天之內，您可以隨時取消服務，您被收取的費用將全額返還（除郵費之外）。
+						   </p>
+						   <p class="listTxtCon">購買30天之後，如果您還是iTalkBB蜻蜓電話的用戶，您的iTalkBB蜻蜓電視服務沒有合約限制，您可以隨時取消服務，不需要支付任何手續費用，但您已被收取的費用將不會被返還。
+						   </p>
+						   <p class="listTxtCon">如果您是單獨定購$14.99/月的iTalkBB蜻蜓電視計劃，30天之後，您已經過了試用期並且在合約期內。如果您在合約期內取消，需要支付$99手續費，以及合約計劃享受的優惠差額。
+						   </p>
+						   <p class="listTxtCon">請撥打iTalkBB蜻蜓電視24小時客戶服務熱線1-855-482-5588，我們專業的客服人員會幫助您取消服務。
+						   </p>
+					   </div>
+				   </div>
+
+			   </div>
+		   </div>
+
+		   <div class="bgMgn gradient" id="number699">
+			   <div class="mainMgn200">
+				   <div class="partAll">
+					   <p class="titleMgnBtm title30 mTitle38 fwb">iTalkBB蜻蜓電視699號碼
+					   </p>
+					   <div class="text18 mText26">
+						   <p class="listTxtCon">iTalkBB蜻蜓電視699號碼是用來對機頂盒及個人賬戶進行匹配的號碼。在iTalkBB蜻蜓電視盒上可找到以“699”開頭的號碼，如下圖所示：
+						   </p>
+						   <div class="partAll bothConCenter mainMgn200 titMgnTop clearfix">
+							   <div class="right clearfix" style="border-right:none;float:left;">
+								   <div class="titleBox">
+									   <p class="title24 mTitle32">蜻蜓電視699號碼示意圖</p>
+									   <p class="text16 mText24">Locate Your 699 Number</p>
+								   </div>
+								   <div class="typeTxt">
+									   <p class="text16 mText24">您可於iTalkBB蜻蜓電視盒子正面的貼紙上找到699號碼 </p>
+									   <p class="text16 mText24">The 699 number is located on a sticker on your iTalkBB TV Box</p>
+								   </div>
+								   <div>
+									   <p class="text16 mText24">iTalkBB蜻蜓電視盒子 </p>
+									   <p class="text16 mText24">iTalkBB TV Box</p>
+								   </div>
+							   </div>
+						   </div>
+						   <p class="listTxtCon"><br>699號碼用途如下：
+						   </p>
+						   <p class="listTxtCon">699號碼可用於您的網上賬戶的登錄名。登錄<a href="" class="linkOrange">網上賬戶</a>之後，您能輕鬆管理您的服務，增加服務、更改計劃，查看您的賬單、通話記錄，或是推薦朋友，管理積分等等。
+						   </p>
+					   </div>
+				   </div>
 
 
-		   				<li class="text18 mText28 fwn">连接网络
-		   					<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon" > 使用无线网络：请将天线杆安装在机顶盒的天线基座上；</span>
-		   					</p>
-		   					<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon" > 使用有线网络：请将网线两端分别插入机顶盒网络口及路由器（ Modem ）上;</span></p>
-		   				</li>
+			   </div>
+		   </div>
 
-		   				<li class="text18 mText28 fwn">连接电源
-		   					<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon" > 请将电源配适器两端分别插入机顶盒电源接口及插座;</span></p>
-		   				</li>
 
-		   				<li class="text18 mText28 fwn">设置网络
-		   					<p class="fwn clearfix"><span class="Sharp">&gt;</span>
-		   					<span class="textCon" style="margin-left: -1%;"> 使用有线网络：请在打开盒子开关前，连接好网线。开机后即可直接观看；</span></p>
-		   					<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon" > 使用无线网络：选择"快速连接无线网络"，按照盒子上的向导进行操作即可。</span></p>
-		   				</li>
 
-		  			</ul>			
-				</div>
-			</div>
+	   </div>
+	  
+	  <div class="faultCon" id="playError">
+	  	<div class="bgMgn gradient">
+		<div class="mainMgn200">
+		<div class="partAll">
+		    <p class="titleMgnBtm titleMgnBtm title30 mTitle38 fwb">播放問題 </p>
+		    <p class="title24 mTitle32 fwb">機頂盒啟動過程中無任何圖像顯示 </p> 
+		    <ul class="listNom text18 mText26">
+		   	<li>
+		   		<p>請檢查視頻線的連接，網絡連接，請在紅白黃三色線和HDMI高清接線中選擇一種連接，請勿同時連接兩條線。</p>
+		   	</li>
+		   	<li>
+		   		<p>請檢查機頂盒是否處於開機狀態，正常開機的狀態下，機頂盒上的電源燈（power）應呈綠色。</p>
+		   	</li>
+		   	<li>
+		   		<p>請檢查電視機“Input"鍵或“Source"鍵，查看是否切換到與輸入端相對應的視頻通道。</p>
+		   	</li>
+		   </ul>
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="titleMgnBtm title24 mTitle32 fwb">機頂盒正常安裝後，電視有畫面卻沒有聲音</p>
+	       <div class="text18 mText26">
+		   	  <p class="listTxtCon">如果機頂盒正常安裝後有畫面卻無聲音，請逐個檢查：</p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">如果您使用的是紅白黃視頻/音頻線，請確認是否連接正確的左右聲道，請將紅、白、黃三線按照對應顏色接入電視機和機頂盒。</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">請確認機頂盒是否處於靜音狀態，請將音量按鍵調至最大。</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">電視機是否處於影音狀態，電視機音量調至最大。</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">紅白顏色音訊線是否斷線或有問題，建議用戶使用家裡其他設備（如：DVD播放器）紅白黃三色線路連接測試。</span>
+		   	  </p>		
+		   </div>		   			
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="titleMgnBtm title24 mTitle32 fwb">電視畫面為黑白色</p>
+		   <div class="text18 mText26">
+		   	  <p class="listTxtCon">請使用電視機遙控器將電視機制式改為NTSC模式，電視制式為PAL模式時可能為黑白顏色，具體操作方法請參見您家電視機的使用說明書。</p>
+		   </div>			
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="titleMgnBtm title24 mTitle32 fwb">觀看時，畫面突然卡住不動</p>
+	       <div class="text18 mText26">
+		   	  <p class="listTxtCon">如果機頂盒在收看節目時，畫面突然卡住，只有畫面停留在那裡，也沒有聲音：</p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">請首先選擇退出重新進入，換一個節目嘗試觀看；如無問題，再退出觀看，重新選擇之前觀看的節目。</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">如果無法正常退出，請嘗試拔掉電源，等十秒鐘左右，重啟設備。</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">如果還存在同樣的問題，請檢查是否存在網絡故障。</span>
+		   	  </p>		
+		   </div>		   			
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="titleMgnBtm title24 mTitle32 fwb">收看過程中節目突然中斷</p>
+	       <div class="text18 mText26">
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">這種情況通常為網絡繁忙，請退出節目，稍後數分鐘後，再進行播放。</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">如仍無法正常播放，則可能為網絡故障，請到首頁“我的盒子"板塊中選擇“網絡設置"，重新連接網絡。</span>
+		   	  </p>		
+		   </div>		   			
+		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="titleMgnBtm title24 mTitle32 fwb">畫面播放正常過程中遙控器操作無反應</p>
+	       <div class="text18 mText26">
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">請更換遙控器電池，查看電池安裝的正負極安裝正確。</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">請檢查遙控上所有按鍵，有無凹進去無法彈起的按鍵。</span>
+		   	  </p>		
+		   </div>		   			
+		</div>
+		
+		</div>
 		</div>
 		
 		<div class="bgMgn gradient">
-			<div class="mainLimited">
-				<div class="partAll">
-           			<p class="titFirst title36 mTitle36 fwn">产品功能</p>
-	      			<p class="title30 mTitle32 fwn">影视点播 </p>
-	       			<div class="onlyText text18 mText28">
-		   	  			<p class="fwn clearfix"><span class="textCon">随时畅看两岸三地热门电影、电视剧、综艺节目、少儿节目，超过 10000 小时任你无限免费点；</span></p>
-		   			</div>
-				</div>
-
-				<div class="partAll titMgnTop">
-	       			<p class="title30 mTitle32 fwn">实时直播 </p>
-	       			<div class="onlyText text18 mText28">
-		   	 			<p class="fwn clearfix"><span class="textCon">想与大洋彼岸同步观看电视频道直播，享受零时差的华语娱乐吗？ iTalkBB 蜻蜓电视为您提供海内外数十个权威华语频道实时直播；</span></p>
-		   			</div>
-				</div>
-
-				<div class="partAll titMgnTop">
-	       			<p class="title30 mTitle32 fwn">72 小时回看 </p>
-	       			<div class="onlyText text18 mText28">
-		   	  			<p class="fwn clearfix"><span class="textCon">iTalkBB 蜻蜓电视为您提供 72 小时回看服务，记录 3 天之内的所有内容，让您不错过任何精彩。请在首页选择 “电视服务” 板块，然后根据您想要看的频道选择相应的频道列表。将鼠标移动到你想观看的频道名称上，就能看到该频道 72 小时之内的节目列表；</span></p>
-		   			</div>
-				</div>
-
-				<div class="partAll titMgnTop">
-	       			<p class="title30 mTitle32 fwn">最近浏览</p>
-	       			<div class="onlyText text18 mText28">
-		   	  		<p class="fwn clearfix"><span class="textCon">请在首页选择 “我的盒子” 板块，然后点击 “最近浏览” ，即可找到您之前观看 24 个节目的点播节目。从左上至右下，按从新到旧的时间顺序排放。iTalkBB 蜻蜓电视还为您提供断点续播功能，记录您看此节目的进度。您再看的时候便可直接从上次停止观看的地方开始；</span></p>
-		   			</div>
-				</div>
-
-				<div class="partAll titMgnTop">
-	       			<p class="title30 mTitle32 fwn">本地播放</p>
-	        		<div class="onlyText text18 mText28">
-		   	  			<p class="fwn clearfix"><span class="textCon">任何本地的影片或图片，都可以通过 iTalkBB 蜻蜓电视在电视萤幕上播放。将您的本地移动设备（如 U 盘、移动硬盘等）连接在机顶盒的 USB 插口上。选择首页 “我的盒子” 板块 — 点击 “本地播放”，即可浏览您移动设备中可播放的影片、音乐及图片格式的文件，只要点击便可轻松播放。</span></p>
-		   			</div>
-				</div>
-			</div>
+		<div class="mainMgn200">
+		<div class="partAll">
+		    <p class="titleMgnBtm title30 mTitle38 fwb">網絡連接問題</p>
+		    <p class="titleMgnBtm title24 mTitle32 fwb">電視顯示iTalkBB蜻蜓電視服務主頁面，但是無法進行線上視頻觀看</p>
+		    <div class="text18 mText26">
+		   	  <p class="listTxtCon">請查看您螢幕右上角的信號接收器是否為綠色，若顯示為紅叉，則表示您尚未連接網絡，請您在首頁選擇“我的盒子”板塊-點擊“網絡設置"，進行網絡設置，設置成功後再試一下，如仍無法觀看，請<a href="../chs/sptQuery.html#kefu" class="linkOrange">聯繫我們</a>。</p>
+		   </div>
 		</div>
+		
+		<div class="partAll titMgnTop">
+	       <p class="titleMgnBtm title24 mTitle32 fwb">屏幕上出現“網絡無法連接"或"網絡連接被斷開"的錯誤提示 </p>
+	       <div class="text18 mText26">
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">請檢查家裡有線和無線網絡是否正常，電腦能否正常上網。</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">請檢查與機頂盒相連的網線或者小天線是否正常連接，有否鬆動。</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">請使用網線連接機頂盒的方式，更換原本使用的網線，檢查是否是網線有問題。</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">請檢查遙控上所有按鍵，有無凹進去無法彈起的按鍵。</span>
+		   	  </p>		
+		   </div>		   			
 		</div>
-
-		<div class="write2">
-			<div class="mainLimited bgMgn">
-	
-					<div class="partAll">
-           				<p class="titFirst title36 mTitle36 fwn">播放问题</p>
-	       				<p class="title30 mTitle32 fwn">机顶盒启动过程中无任何图像显示 </p>
-		   				<ul class="listNom">
-		   					<li class="text18 mText28 fwn">请检查视频线的连接，网络连接，请在红白黄三色线和HDMI高清接线中选择一种连接，请勿同时连接两条线；</li>
-		   					<li class="text18 mText28 fwn">请检查机顶盒是否处于开机状态，正常开机的状态下，机顶盒上的电源灯（power）应呈绿色；</li>
-		   					<li class="text18 mText28 fwn">请检查电视机“Input"键或“Source"键，查看是否切换到与输入端相对应的视频通道；</li>
-		   				</ul>			
-					</div>
-				
-	    	</div> 
-		
-			<div class="bgMgn gradient">
-				<div class="mainLimited">
-					<div class="partAll">
-	       				<p class="title30 mTitle32 fwn">机顶盒正常安装后，电视有画面却没有声音</p>
-		   				<div class="onlyText text18 mText28">
-		   					<p class="fwn clearfix"><span class="textCon">如果机顶盒正常安装后有画面却无声音，请逐个检查：</span></p>
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">如果您使用的是红白黄视频/音频线，请确认是否连接正确的左右声道，请将红、白、黄三线按照对应颜色接入电视机和机顶盒；</span></p>
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">请确认机顶盒是否处于静音状态，请将音量按键调至最大；</span></p>
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">电视机是否处于影音状态，电视机音量调至最大</span></p>
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">红白颜色音讯线是否断线或有问题，建议用户使用家里其他设备（如：DVD播放器）红白黄三色线路连接测试；</span></p>
-		   				</div>		
-		   			</div>
-		   		</div>
-		
-				<div class="bgMgn ">
-					<div class="mainLimited">
-						<div class="partAll">
-	       					<p class="title30 mTitle32 fwn">电视画面为黑白色</p>
-		   					<div class="onlyText text18 mText28">
-		   					<p class="fwn clearfix"><span class="textCon">请使用电视机遥控器将电视机制式改为NTSC模式，电视制式为PAL模式时可能为黑白颜色，具体操作方法请参见您家电视机的使用说明书；</span></p>
-		   					</div>		
-						</div>
-					</div>
-				</div>
-		
-				<div class="mainLimited">
-					<div class="partAll">
-	       				<p class="title30 mTitle32 fwn">观看时，画面突然卡住不动</p>
-		   				<div class="onlyText text18 mText28">
-		   					<p class="fwn clearfix"><span class="textCon">如果机顶盒在收看节目时，画面突然卡住，只有画面停留在那里，也没有声音：</span></p>
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">请首先选择退出重新进入，换一个节目尝试观看；如无问题，再退出观看，重新选择之前观看的节目；</span></p>
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">如果无法正常退出，请尝试拔掉电源，等十秒钟左右，重启设备；</span></p>
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">如果还存在同样的问题，请检查是否存在网络故障；</span></p>
-		   				</div>		
-					</div>
-				</div>
-
-			<div class="bgMgn ">
-				<div class="mainLimited">
-					<div class="partAll">
-	       				<p class="title30 mTitle32 fwn">收看过程中节目突然中断</p>
-		   				<div class="onlyText text18 mText28">
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">这种情况通常为网络繁忙，请退出节目，稍后数分钟后，再进行播放；</span></p>
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">如仍无法正常播放，则可能为网络故障，请到首页“我的盒子"板块中选择“网络设置"，重新连接网络；</span></p>
-		   				</div>		
-					</div>
-				</div>
-			</div>
-
-
-			<div class="mainLimited">
-				<div class="partAll">
-	      			<p class="title30 mTitle32 fwn">画面播放正常过程中遥控器操作无反应</p>
-		   			<div class="onlyText text18 mText28">
-		   	  			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">请更换遥控器电池，查看电池安装的正负极安装正确；</span></p>
-		   	  			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">请检查遥控上所有按键，有无凹进去无法弹起的按键；</span>
-		   	  		</p>
-		   			</div>		
-				</div>
-			</div>
-			</div>
+		<div class="partAll titMgnTop">
+	       <p class="titleMgnBtm title24 mTitle32 fwb">設置無線網絡連接時，清單中無法找到您家的無線網絡名稱</p>
+		   <div class="text18 mText26">
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">請您確認您家的無線網絡是否設了隱藏。如果是，請選擇“手工設置無線網絡"-“手動輸入無線網絡名稱"。</span>
+		   	  </p>
+		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
+		   	  <span class="textCon">如果您家的網絡名稱含有除字母及數字外的特殊字符，有可能導致系統無法識別，建議您更換名稱。</span>
+		   	  </p>		
+		   </div>			
+		</div>		
+		</div>
+		</div>	
 			
-				<div class="bgMgn gradient">
-					<div class="mainLimited">
-						<div class="partAll">
-           					<p class="titFirst title36 mTitle36 fwn">网络连接问题</p>
-	       					<p class="title30 mTitle32 fwn">电视显示iTalkBB中文电视服务主页面，但是无法进行线上视频观看</p>
-	       					<div class="onlyText text18 mText28">
-		   	  					<p class="fwn clearfix"><span class="textCon">请查看您萤幕右上角的信号接收器是否为绿色，若显示为红叉，则表示您尚未连接网络，请您在首页选择“我的盒子”板块-点击“网络设置"，进行网络设置，设置成功后再试一下，如仍无法观看，请联系我们；</span></p>
-		   					</div>
-			
-						</div>
-
-					<div class="partAll titMgnTop">
-	      				<p class="title30 mTitle32 fwn">屏幕上出现“网络无法连接"或"网络连接被断开"的错误提示 </p>
-		  				<div class="onlyText text18 mText28">
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">请检查家里有线和无线网络是否正常，电脑能否正常上网；</span></p>
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">请检查与机顶盒相连的网线或者小天线是否正常连接，有否松动；</span></p>
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">请使用网线连接机顶盒的方式，更换原本使用的网线，检查是否是网线有问题；</span></p>
-		   	  				<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon"> 请检查遥控上所有按键，有无凹进去无法弹起的按键；</span></p>
-		   				</div>	
-					</div>
-
-				<div class="partAll titMgnTop">
-	       			<p class="title30 mTitle32 fwn">设置无线网络连接时，清单中无法找到您家的无线网络名称</p>
-		   			<div class="onlyText text18 mText28">
-		   	  			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">请您确认您家的无线网络是否设了隐藏。如果是，请选择“手工设置无线网络"-“手动输入无线网络名称"；</span></p>
-		   	  			<p class="fwn clearfix"><span class="Sharp">&gt;</span><span class="textCon">如果您家的网络名称含有除字母及数字外的特殊字符，有可能导致系统无法识别，建议您更换名称；</span></p>
-		  		 	</div>	
-				</div>
-			</div>
-		</div>
-		</div>
-	</section>
+	  </div>		
+	  </section>
    
-    <section class="partMgnTop">
-      <div ng-include="'sptSearch.html'"></div>
-    </section>
-    </div>
+      <!--help support search begin--> 
+      <section class="searchMgnBtm">
+        <div ng-include="'sptSearch.html'"></div>
+      </section>
+      <!--help support search end-->
+
 	</div>
-	<!--主体内容 end-->
+	<!--main content end-->
+
     
     <div class="lineBlue"></div>
 	<div ng-include="'footer.html'"></div>
 </body>
-
 <script>
-        $(".use").click(function(){
-    $(".shows").children().css("display", "none");
-    $(".write").css('display','block');
+$(".use").click(function(){
+    $(".supportTV").children().css("display", "none");
+    $(".useCon").css('display','block');
     $('.menuBox').children().removeClass('selected');
     $(this).addClass('selected');
-
-
 })
 
-    $(".wrong").click(function(){
-    $(".shows").children().css("display", "none");
-    $(".write2").css('display','block');
+$(".fault").click(function(){
+    $(".supportTV").children().css("display", "none");
+    $(".faultCon").css('display','block');
     $('.menuBox').children().removeClass('selected');
-    $(this).addClass('selected');
-  
+    $(this).addClass('selected');  
 })
 
-           $(".black").click(function(){
-            
-             $('.buttn').css({"color":"#222222","text-decoration":"none"});
-            $(this).css({"color":"#ff9200","text-decoration":"underline"});
-            $('.tvboximg').attr('src','../shared/images/support/tvbox01.png');
+
+            $(".tvBoxTitle01").click(function(){            
+            $('.button').css({"color":"#222222","text-decoration":"none"});
+			$('.nobtnSel').css({"color":"#222222","text-decoration":"underline"});
+            $(this).css({"color":"#ff9200","text-decoration":"none"});
+            $('.tvBoxImg').attr('src','../shared/images/support/chs_sptTVsketch01.png');
 
            })
 
 
-           $(".ag").click(function(){
-             $('.buttn').css({"color":"#222222","text-decoration":"none"});
-            $(this).css({"color":"#ff9200","text-decoration":"underline"});
-            $('.tvboximg').attr('src','../shared/images/support/tvbox02.png');
+           $(".tvBoxTitle02").click(function(){
+            $('.button').css({"color":"#222222","text-decoration":"none"});
+			$('.btnSel').css({"color":"#222222","text-decoration":"underline"});
+            $(this).css({"color":"#ff9200","text-decoration":"none"});
+            $('.tvBoxImg').attr('src','../shared/images/support/chs_sptTVsketch02.png');
         
            })
-
-
-
+	$(document).ready(function(){
+        if (window.location.href.indexOf("?palyError") > -1) {
+            $(".supportTV").children().css("display", "none");
+            $(".faultCon").css('display','block');
+            $('.menuBox').children().removeClass('selected');
+            $(this).addClass('selected');
+            $("p.fault").addClass('selected');
+            window.location.hash = '#playError';
+        }
+	})
 </script>
 </html>
