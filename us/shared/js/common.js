@@ -24,21 +24,23 @@ $(document).ready(function(){
     });
 
     /*主页下方联系我们和social icon的mouseover效果*/
-    /*$('img.contactIcon1').mouseover(function(){
-        $(this).attr('src','../shared/images/index/chs_contactIcon1Blue.png');
+    $('img.contactIcon1').mouseover(function(){
+        $(this).attr('src','../shared/images/index/contactIcon1Blue.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/chs_contactIcon1.png');
+        $(this).attr('src','../shared/images/index/contactIcon1.png');
     });
     $('img.contactIcon2').mouseover(function(){
-        $(this).attr('src','../shared/images/index/chs_contactIcon2Blue.png');
+        $(this).attr('src','../shared/images/index/contactIcon2Blue.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/chs_contactIcon2.png');
+        $(this).attr('src','../shared/images/index/contactIcon2.png');
     });
     $('img.contactIcon3').mouseover(function(){
-        $(this).attr('src','../shared/images/index/chs_contactIcon3Blue.png');
+        $(this).attr('src','../shared/images/index/contactIcon3Blue.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/chs_contactIcon3.png');
-    });*/
+        $(this).attr('src','../shared/images/index/contactIcon3.png');
+    });
+
+    /*英文版应该和上面的一样了！*/
     /*English version mouseover*/
     /*$('img.contactIcon1En').mouseover(function(){
         $(this).attr('src','../shared/images/index/en_contactIcon1Blue.png');
@@ -55,27 +57,34 @@ $(document).ready(function(){
     }).mouseleave(function(){
         $(this).attr('src','../shared/images/index/en_contactIcon3.png');
     });*/
+
+
     /*Social icons mouseover*/
-    /*$('.social1').mouseover(function(){
-        $(this).attr('src','../shared/images/index/iconWechatBlue.jpg');
+    $('.social1').mouseover(function(){
+        $(this).attr('src','../shared/images/index/iconWechatBlue.png');
     }).mouseleave(function(){
         $(this).attr('src','../shared/images/index/iconWechat.png');
     });
     $('.social2').mouseover(function(){
-        $(this).attr('src','../shared/images/index/iconWeiboBlue.jpg');
+        $(this).attr('src','../shared/images/index/iconWeiboBlue.png');
     }).mouseleave(function(){
         $(this).attr('src','../shared/images/index/iconWeibo.png');
     });
     $('.social3').mouseover(function(){
-        $(this).attr('src','../shared/images/index/iconFacebookBlue.jpg');
+        $(this).attr('src','../shared/images/index/iconFacebookBlue.png');
     }).mouseleave(function(){
         $(this).attr('src','../shared/images/index/iconFacebook.png');
     });
     $('.social4').mouseover(function(){
-        $(this).attr('src','../shared/images/index/iconInsBlue.jpg');
+        $(this).attr('src','../shared/images/index/iconGoogleBlue.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/iconIns.jpg');
-    });*/
+        $(this).attr('src','../shared/images/index/iconGoogle.png');
+    });
+    $('.social5').mouseover(function(){
+        $(this).attr('src','../shared/images/index/iconLinkedinBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/index/iconLinkedin.png');
+    });
 });
 
 
