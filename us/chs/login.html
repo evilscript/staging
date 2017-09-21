@@ -141,12 +141,42 @@
 		  		<div class="text18 mText28 bottomstit">如果您在登录账户遇到任何问题，请<a class="linkOrange" href="">联系我们</a>,我们专业的客服人员会帮您为您重新设置登录名和密码。</div>
 
                 <div class="logos">
-                    <div class="logo1"><img src="../shared/images/lognin/weixin.png" alt=""></div>
-                    <div class="logo2"><img src="../shared/images/lognin/facebook.png" alt=""></div>
-                    <div class="logo3"><img src="../shared/images/lognin/youtube.png" alt=""></div>
-                    <div class="logo4"><img src="../shared/images/lognin/don.png" alt=""></div>
+                    <div class="logo1">
+						<img src="../shared/images/index/iconWechat.png" alt="">
+					</div>
+                    <div class="logo2">
+						<a href="http://weibo.com/p/1006065041497758/home?from=page_100606&mod=TAB&is_all=1#place" target="_blank">
+							<img src="../shared/images/index/iconWeibo.png" alt="">
+						</a>
+					</div>
+                    <div class="logo3">
+						<a href="https://www.facebook.com/iTalkBBqingting/" target="_blank">
+							<img src="../shared/images/index/iconFacebook.png" alt="">
+						</a>
+					</div>
+                    <div class="logo4">
+						<a href="https://www.youtube.com/channel/UCGCxNSstqeecxd4unpObkNg" target="_blank">
+							<img src="../shared/images/index/iconGoogle.png" alt="">
+						</a>
+					</div>
+					<div class="logo5">
+						<a href="https://www.linkedin.com/company/italk-global-communications" target="_blank">
+							<img src="../shared/images/index/iconLinkedin.png" alt="">
+						</a>
+					</div>
                 </div>
-
+				<div class="wechatIconSocial" style="display:none;">
+					<p class="wechatIconSocialTitle pin">扫码关注微信公众号</p>
+					<img src="../shared/images/index/wechatSocialIcon.jpg" class="img w100">
+				</div>
+				<div class="clear clearfix"></div>
+				<script>
+                    $('.logo1').click(function(){
+                        $('.wechatIconSocial').slideDown(500);
+                    }).mouseleave(function(){
+                        $('.wechatIconSocial').slideUp(500);
+                    });
+				</script>
 
 		  	</div>
 		</div>
@@ -155,43 +185,78 @@
 
 <script>
         $('.logo1').mouseover(function(){
-                $('.logo1 img').attr("src","../shared/images/lognin/weixinH.png");
-    });
-
-        $('.logo1').mouseout (function(){
-                $('.logo1 img').attr("src","../shared/images/lognin/weixin.png");
+                $('.logo1 img').attr("src","../shared/images/index/iconWechatBlue.png");
+    }).mouseout (function(){
+                $('.logo1 img').attr("src","../shared/images/index/iconWechat.png");
     });
 
 
     $('.logo2').mouseover(function(){
-                $('.logo2 img').attr("src","../shared/images/lognin/facebookH.png");
-    });
-
-
-    $('.logo2').mouseout (function(){
-                $('.logo2 img').attr("src","../shared/images/lognin/facebook.png");
+                $('.logo2 img').attr("src","../shared/images/index/iconWeiboBlue.png");
+    }).mouseout (function(){
+                $('.logo2 img').attr("src","../shared/images/index/iconWeibo.png");
     });
 
 
     $('.logo3').mouseover(function(){
-                $('.logo3 img').attr("src","../shared/images/lognin/youtubeH.png");
-    });
-
-    $('.logo3').mouseout (function(){
-                $('.logo3 img').attr("src","../shared/images/lognin/youtube.png");
+                $('.logo3 img').attr("src","../shared/images/index/iconFacebookBlue.png");
+    }).mouseout (function(){
+                $('.logo3 img').attr("src","../shared/images/index/iconFacebook.png");
     });
 
 
 
     $('.logo4').mouseover(function(){
-                $('.logo4 img').attr("src","../shared/images/lognin/donH.png");
+                $('.logo4 img').attr("src","../shared/images/index/iconGoogleBlue.png");
+    }).mouseout (function(){
+                $('.logo4 img').attr("src","../shared/images/index/iconGoogle.png");
     });
 
-     $('.logo4').mouseout (function(){
-                $('.logo4 img').attr("src","../shared/images/lognin/don.png");
-    });
+        $('.logo5').mouseover(function(){
+            $('.logo5 img').attr("src","../shared/images/index/iconLinkedinBlue.png");
+        }).mouseout (function(){
+            $('.logo5 img').attr("src","../shared/images/index/iconLinkedin.png");
+        });
 
 
 </script>
+<style>
+	.wechatIconSocial{
+		max-width: 200px;
+		width: 20%;
+		margin-left: 40%;
+		padding: 10px;
+		border: 1px solid #dddddd;
+		margin-top: -3%;
+		margin-bottom: 3%;
+	}
+	.wechatIconSocialTitle{
+		font-size:15px;
+		text-align:center;
+		margin-bottom:0;
+	}
+	@media (max-width: 1000px) and (min-width:879px) {
+		.wechatIconSocial{
+			margin-top: -1%;
+		}
+		.overlayLayerTitle{
+			font-size:1.2vw;
+		}
+	}
+	@media (max-width:767px) {
+		.wechatIconSocial {
+			max-width: 200px;
+			width: 35%;
+			margin-left: 15%;
+			padding: 10px;
+			border: 1px solid #dddddd;
+			margin-top: -6%;
+			margin-bottom: 3%;
+		}
+		.wechatIconSocialTitle {
+			font-size: 3vw;
+		}
+	}
+</style>
 
 </html>
