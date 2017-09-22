@@ -1075,6 +1075,9 @@
     .bg3, .bg5{
         background: white;
     }
+    .bg6, .bg7{
+        background:white;
+    }
     .knowMore {
         background-size: 4%;
         background-position: 41% 55%;

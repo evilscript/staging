@@ -270,6 +270,7 @@ input:focus{ outline:none;}
 .headerLink{
     color:black;
     text-decoration:none;
+    cursor:pointer;
 }
 .headerLink:hover, .headerLink:active, .menuText:hover{
     color:#ff7f00;
