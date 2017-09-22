@@ -70,10 +70,11 @@
     padding-top: 3%;
 }
 .informationBar{
-    margin-left:5%;
+    margin-left: 5%;
     width: 30%;
-    border:3px solid white;
-    border-radius:10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background: #ff7800;
 }
 .informationBarLeft{
     width: 45%;

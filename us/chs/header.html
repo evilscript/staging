@@ -20,7 +20,9 @@
             </div>
             <div class="header1Icon">
                 <!--<img src="../shared/images/header/headerLogin.png" class="img" alt="">-->
-                <p class="headerTextLogin title20 mTitle28 pin">登录</p>
+                <a href="login.html">
+                    <p class="headerTextLogin title20 mTitle28 pin">登录</p>
+                </a>
             </div>
             <div class="header1Icon">
                 <a href="login.html">
@@ -322,13 +324,19 @@
     <div class="menu1" style="display:none;">
         <div class="container1920">
             <a href="">
-                <p class="menu1Block sans"><img src="../shared/images/header/menu21.png" class="img" alt="">Mobile+BB+TV</p>
+                <p class="menu1Block sans">
+                    <img src="../shared/images/header/menuBundleBBTVMobile.png" class="img menu101" alt="">Mobile+BB+TV
+                </p>
             </a>
             <a href="">
-                <p class="menu1Block sans"><img src="../shared/images/header/menu22.png" class="img" alt="">Mobile+BB</p>
+                <p class="menu1Block sans">
+                    <img src="../shared/images/header/menuMobileBB.png" class="img menu102" alt="">Mobile+BB
+                </p>
             </a>
             <a href="">
-                <p class="menu1Block sans"><img src="../shared/images/header/menu23.png" class="img" alt="">BB+TV</p>
+                <p class="menu1Block sans">
+                    <img src="../shared/images/header/menuBBTV.png" class="img menu103" alt="">BB+TV
+                </p>
             </a>
             <div class="clear clearfix"></div>
         </div>
@@ -336,10 +344,14 @@
     <div class="menu2" style="display:none;">
         <div class="container1920">
             <a href="">
-                <p class="menu2Block pin"><img src="../shared/images/header/menu21.png" class="img" alt="">产品计划</p>
+                <p class="menu2Block pin">
+                    <img src="../shared/images/header/menuMobilePlan.png" class="img menu201" alt="">产品计划
+                </p>
             </a>
             <a href="">
-                <p class="menu2Block pin"><img src="../shared/images/header/menu23.png" class="img" alt="">信号覆盖</p>
+                <p class="menu2Block pin">
+                    <img src="../shared/images/header/menuMobileSignalCoverage.png" class="img menu202" alt="">信号覆盖
+                </p>
             </a>
             <div class="clear clearfix"></div>
         </div>
@@ -347,21 +359,25 @@
     <div class="menu3" style="display:none;">
         <div class="container1920">
             <a href="tvPlan.html">
-                <p class="menu3Block pin"><img src="../shared/images/header/menu21.png" class="img" alt="">产品计划</p>
+                <p class="menu3Block pin">
+                    <img src="../shared/images/header/menuTVPlan.png" class="img menu301" alt="">产品计划</p>
             </a>
             <a href="tvGuide.html">
-                <p class="menu3Block pin"><img src="../shared/images/header/menu22.png" class="img" alt="">节目推荐</p>
+                <p class="menu3Block pin">
+                    <img src="../shared/images/header/menuShowRec.png" class="img menu302" alt="">节目推荐</p>
             </a>
             <div class="clear clearfix"></div>
         </div>
     </div>
     <div class="menu4" style="display:none;">
         <div class="container1920">
-            <a href="bbPlan.html">
-                <p class="menu4Block pin"><img src="../shared/images/header/menu21.png" class="img" alt="">产品计划</p>
+            <a href="">
+                <p class="menu4Block pin">
+                    <img src="../shared/images/header/menuBBPlan.png" class="img menu401" alt="">产品计划</p>
             </a>
-            <a href="bbRates.html">
-                <p class="menu4Block pin"><img src="../shared/images/header/menu22.png" class="img" alt="">费率查询</p>
+            <a href="">
+                <p class="menu4Block pin">
+                    <img src="../shared/images/header/menuBBRates.png" class="img menu402" alt="">费率查询</p>
             </a>
             <div class="clear clearfix"></div>
         </div>
@@ -369,16 +385,20 @@
     <div class="menu5" style="display:none;">
         <div class="container1920">
             <a href="support.html">
-                <p class="menu5Block pin"><img src="../shared/images/header/menu21.png" class="img" alt="">常见问题</p>
+                <p class="menu5Block pin">
+                    <img src="../shared/images/header/menuFaq.png" class="img menu501" alt="">常见问题</p>
             </a>
             <a href="sptQuery.html#kefu">
-                <p class="menu5Block pin"><img src="../shared/images/header/menu22.png" class="img" alt="">人工客服</p>
+                <p class="menu5Block pin">
+                    <img src="../shared/images/header/menuCustomerService.png" class="img menu502" alt="">人工客服</p>
             </a>
             <a href="sptQuery.html#chaxun">
-                <p class="menu5Block pin"><img src="../shared/images/header/menu23.png" class="img" alt="">店面查询</p>
+                <p class="menu5Block pin">
+                    <img src="../shared/images/header/menuStoreLocator.png" class="img menu503" alt="">店面查询</p>
             </a>
             <a href="login.html">
-                <p class="menu5Block pin"><img src="../shared/images/header/menu23.png" class="img" alt="">账户登录</p>
+                <p class="menu5Block pin">
+                    <img src="../shared/images/header/menuLogin.png" class="img menu504" alt="">账户登录</p>
             </a>
             <div class="clear clearfix"></div>
         </div>
@@ -558,4 +578,71 @@
         $('.headerBundle p, .headerMobile p, .headerPhone p, .headerTV p, .headerSupport p').removeClass('headerActive');
     });
     /*结束*/
+
+    /*二级菜单mouseover效果*/
+    $('.menu101').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuBundleBBTVMobileBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuBundleBBTVMobile.png');
+    });
+    $('.menu102').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuMobileBBBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuMobileBB.png');
+    });
+    $('.menu103').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuBBTVBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuBBTV.png');
+    });
+    $('.menu201').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuMobilePlanBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuMobilePlan.png');
+    });
+    $('.menu202').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuMobileSignalCoverageBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuMobileSignalCoverage.png');
+    });
+    $('.menu301').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuTVPlanBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuTVPlan.png');
+    });
+    $('.menu302').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuShowRecBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuShowRec.png');
+    });
+    $('.menu401').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuBBPlanBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuBBPlan.png');
+    });
+    $('.menu402').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuBBRatesBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuBBRates.png');
+    });
+    $('.menu501').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuFaqBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuFaq.png');
+    });
+    $('.menu502').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuCustomerServiceBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuCustomerService.png');
+    });
+    $('.menu503').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuStoreLocatorBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuStoreLocator.png');
+    });
+    $('.menu504').mouseover(function(){
+        $(this).attr('src','../shared/images/header/menuLoginBlue.png');
+    }).mouseleave(function(){
+        $(this).attr('src','../shared/images/header/menuLogin.png');
+    });
 </script>
