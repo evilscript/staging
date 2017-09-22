@@ -72,12 +72,12 @@
 
 <body ng-app="">
     <!-- Author: Amy --> 
-	<div ng-include="'header.html'"></div>
+	<div id="header"></div>
 
     <!--main content begin-->
 	<div class="mainLayout">
        <section class="sptATbanner">
-      	    <div ng-include="'sptBanner.html'"></div>	   
+      	    <div id="sptBanner"></div>	   
        </section>
        
        <section class="mainMgnTop">
@@ -479,9 +479,7 @@
 	  
    
       <!--help support search begin--> 
-      <div class="searchMgnBtm">
-        <div ng-include="'sptSearch.html'"></div>
-      </div>
+      <div id="sptSearch" class="searchMgnBtm"></div>
       <!--help support search end--> 
       
     </div>
@@ -489,7 +487,13 @@
 
     
     <div class="lineBlue"></div>    
-	<div ng-include="'footer.html'"></div>
+	<div id="footer"></div>
+    <script>
+	   $('#header').load('header.html');
+	   $('#sptBanner').load('sptBanner.html');
+	   $('#sptSearch').load('sptSearch.html');
+       $('#footer').load('footer.html');
+    </script>
 </body>
 <script>
 $(".account").click(function(){

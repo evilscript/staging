@@ -84,12 +84,12 @@
 <body ng-app="">
     <!-- Author: Amy --> 
 
-	<div ng-include="'header.html'"></div>
+	<div id="header"></div>
 
     <!--main content begin-->
 	<div class="mainLayout">
        <section class="sptTVbanner">
-      	    <div ng-include="'sptBanner.html'"></div>	   
+      	    <div id="sptBanner"></div>	   
        </section>
        
        <section class="mainMgnTop">
@@ -433,7 +433,7 @@
    
       <!--help support search begin--> 
       <section class="searchMgnBtm">
-        <div ng-include="'sptSearch.html'"></div>
+        <div id="sptSearch"></div>
       </section>
       <!--help support search end-->
 
@@ -442,7 +442,13 @@
 
     
     <div class="lineBlue"></div>
-	<div ng-include="'footer.html'"></div>
+	<div id="footer"></div>
+    <script>
+	   $('#header').load('header.html');
+	   $('#sptBanner').load('sptBanner.html');
+	   $('#sptSearch').load('sptSearch.html');
+       $('#footer').load('footer.html');
+    </script>
 </body>
 <script>
 $(".use").click(function(){
