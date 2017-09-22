@@ -81,7 +81,10 @@
     </style>
 </head>
 <body ng-app="">
-	   <div ng-include="'header.html'"></div>
+	    <div id="header"></div>
+        <script>
+            $('#header').load('header.html');
+        </script>
 
 		<div class="mainLayout">
 			<div class="bannerAll">
@@ -150,7 +153,10 @@
 
 		  	</div>
 		</div>
-  		<div ng-include="'footer.html'"></div>
+  		<div id="footer"></div>
+        <script>
+            $('#footer').load('footer.html');
+        </script>
 </body>
 
 <script>
