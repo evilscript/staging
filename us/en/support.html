@@ -2,7 +2,7 @@
 <html lang="zh-cmn-Hans">
 <head>
     <meta charset="UTF-8">
-    <title>iTalkBB蜻蜓 帮助支持</title>
+    <title>iTalkBB蜻蜓</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="copyright" content="">
@@ -18,62 +18,96 @@
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <!--这里继续添加子页面的Css引用文件-->  
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_support.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptSearch.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
 
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
     <script src="../shared/js/angular-1.6.4.min.js"></script>
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
-    <!--这里继续添加子页面的Js引用文件-->
+
+    <style>
+	/**/	
+	.sptHot{background: #f2f2f2;border-top: 1px solid #dedede; padding: 2% 0;}
+    .hotCon{margin-left: 9%;}
+    .hotCon .hotTitle{line-height: 2; padding-left: 2%;margin-left: -2%; background: url(../shared/images/icons/hotSpotBlue.png) no-repeat; background-size: 1%;background-position-y: 50%;}
+	.hotBox a,.hotBox a:link,.hotBox a:visited{color: #222;}
+    .hotBox p{float: left; width: 25%; line-height: 1.5;}
+	.hotBox p:hover{color: #ff7f00; text-decoration: underline;}
+@media  (min-width:768px) and (max-width:1000px){
+    .sptHot{margin-bottom: -6%; padding: 4% 0;}
+	.hotCon{margin-left: 7%;}
+}
+@media (max-width:767px){
+    .sptHot{margin-bottom: -17%; padding: 9% 5%;}
+	.hotCon{margin-left: 10%;}
+	.hotCon .hotTitle{background-size: 3%;padding-left: 5.5%;margin-left: -5.5%;background-position-y: 55%;}
+	.hotBox{width: 122%;}
+	.hotBox p{width: 50%; line-height: 2;}	
+}
+	</style>
 </head>
 
 <body ng-app="">
-    <!--Amy制作--> 
-    <div ng-include="'header.html'"></div>
+    <!-- Author: Amy -->
+    <div id="header"></div>
 
-    <!--主体内容 start-->
+    <!--main content begin-->
     <div class="container1920">
         <div class="mainLayout">
        <section>
-      	    <div ng-include="'sptBanner.html'"></div>	   
+     	    <div id="sptBanner"></div>	   
        </section>
        <section class="mainMgnTop">
-      	  <div class="mainLimited">
-        	<div class="lineOrange"></div>
-		  </div>           	      	
+      	  <div class="mainMgn200">
+        	<div class="lineOrange"></div>        	
+		  </div>
+          <!--help support search begin--> 
+          <div id="sptSearch" class="supportSearch"></div> 
+          <!--help support search end-->     	      	
        </section> 
-       <!--帮助支持搜索 start--> 
-       <section>
-           <div ng-include="'sptSearch.html'"></div>
-       </section>
-       <!--帮助支持搜索 end-->
-       <section class="mainLimited">
-            <div class="sptHot mNoboder">
-      	       <div class="hot1">
-      	       	  <p class="title22 mTitle32 fwb">常见问题</p>
-      	       	  <a href="#"><p class="text18 mText28">费率查询</p></a>
-      	       	  <a href="#"><p class="text18 mText28">订单查询</p></a>
-      	       	  <a href="#"><p class="text18 mText28">蜻蜓电话安装</p></a>
-      	       	  <a href="#"><p class="text18 mText28">蜻蜓电视安装</p></a>
+      
+       <section class="mainMgn200">
+           <div class="sptHot">
+            <div class="hotCon mNoboder clearfix">
+     	       <p class="hotTitle title20 mTitle28 fwb">FAQs</p>
+      	       <div class="hotBox clearfix">
+
+                   <a href="sptMobile.html#preserveNumber"><p class="text18 mText26">Transfer Your Mobile Number</p></a>
+      	       	  <a href="sptTV.html#howToInstallTV"><p class="text18 mText26">TV Box Installation</p></a>
+      	       	  <a href="sptBB.html#BBInstallation"><p class="text18 mText26">Home Phone Box Installation</p></a>
+      	       	  <a href="sptAccount.html#howToLogin"><p class="text18 mText26">How to Log in to Your Account?</p></a>
+
+                   <a href="sptMobile.html#regardingOrder"><p class="text18 mText26">Check Your Order</p></a>
+      	       	  <a href="sptTV.html#regardingTVPlan"><p class="text18 mText26">Change Your TV Plan</p></a>
+      	       	  <a href="bbRates.html#rates"><p class="text18 mText26">Rate Checker</p></a>
+      	       	  <a href="sptAccount.html#forgottenPassword"><p class="text18 mText26">Forget Your Password?</p></a>
+
+                   <a href="sptMobile.html#changePlan"><p class="text18 mText26">Change Your Mobile Plan</p></a>
+      	       	  <a href="sptTV.html?palyError"><p class="text18 mText26">TV Troubleshooting</p></a>
+      	       	  <a href="sptBB.html#howToDail"><p class="text18 mText26">Making International Calls with the iTalkBB App</p></a>
+      	       	  <a href="sptBB.html#number899"><p class="text18 mText26">What is 899 Number?</p></a>
+
+                   <a href="sptMobile.html?cellphoneError"><p class="text18 mText26">Mobile Troubleshooting</p></a>
+      	       	  <a href="sptTV.html#ifDownloadShow"><p class="text18 mText26">Download TV Programs</p></a>
+      	       	  <a href="sptBB.html#chinese950"><p class="text18 mText26">What is 950 Number?</p></a>
+      	       	  <a href="sptTV.html#number699"><p class="text18 mText26">What is 699 Number?</p></a>
       	       </div>
-      	       <div class="hot2">
-      	       	  <p class="title22 mTitle32 fwb">热点问题</p>
-      	       	  <a href="#"><p class="text18 mText28">费率查询</p></a>
-      	       	  <a href="#"><p class="text18 mText28">订单查询</p></a>
-      	       	  <a href="#"><p class="text18 mText28">蜻蜓电话安装</p></a>
-      	       	  <a href="#"><p class="text18 mText28">蜻蜓电视安装</p></a>
-      	       </div>   
-       	       <div class="clear clearfix"></div>    		
-        	</div>          	      	
+        	</div> 
+          </div>         	      	
        </section>
     </div>
     </div>
-    <!--主体内容 end-->
+    <!--main content end-->
+
 
     <div class="lineBlue"></div>
-    <div ng-include="'footer.html'"></div>
+    <div id="footer"></div>
+    <script>
+	   $('#header').load('header.html');
+	   $('#sptBanner').load('sptBanner.html');
+	   $('#sptSearch').load('sptSearch.html');
+       $('#footer').load('footer.html');
+    </script>
 </body>
 </html>
