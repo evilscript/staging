@@ -33,7 +33,7 @@
    <!--Amy制作--> 
    
    <!--头部文件引入 start--> 
-   <div ng-include="'header.html'"></div>
+   <div id="header" ng-include="'header.html'"></div>
    <!--头部文件引入 end-->
     
    <!--主体内容 start-->
@@ -67,8 +67,12 @@
   <!--蓝色装饰线，样式已放入common.css，直接引用即可-->
   <div class="lineBlue"></div>
     
-  <!--底部文件引入 start--> 
-  <div ng-include="'footer.html'"></div>
+  <!--底部文件引入 start-->
+  <div id="footer"></div>    
   <!--底部文件引入 end-->
+  <script>
+	   $('#header').load('header.html');
+       $('#footer').load('footer.html');
+    </script>
 </body>
 </html>

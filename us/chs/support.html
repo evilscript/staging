@@ -49,23 +49,21 @@
 </head>
 
 <body ng-app="">
-    <!-- Author: Amy --> 
-    <div ng-include="'header.html'"></div>
+    <!-- Author: Amy -->
+    <div id="header"></div>
 
     <!--main content begin-->
     <div class="container1920">
         <div class="mainLayout">
        <section>
-      	    <div ng-include="'sptBanner.html'"></div>	   
+     	    <div id="sptBanner"></div>	   
        </section>
        <section class="mainMgnTop">
       	  <div class="mainMgn200">
         	<div class="lineOrange"></div>        	
 		  </div>
           <!--help support search begin--> 
-          <div class="supportSearch">
-             <div ng-include="'sptSearch.html'"></div> 
-          </div> 
+          <div id="sptSearch" class="supportSearch"></div> 
           <!--help support search end-->     	      	
        </section> 
       
@@ -104,6 +102,12 @@
 
 
     <div class="lineBlue"></div>
-    <div ng-include="'footer.html'"></div>
+    <div id="footer"></div>
+    <script>
+	   $('#header').load('header.html');
+	   $('#sptBanner').load('sptBanner.html');
+	   $('#sptSearch').load('sptSearch.html');
+       $('#footer').load('footer.html');
+    </script>
 </body>
 </html>

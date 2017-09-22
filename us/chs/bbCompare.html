@@ -37,7 +37,7 @@
 
 <body ng-app="">
    <!-- Author: Amy --> 
-   <div ng-include="'header.html'"></div>
+   <div id="header"></div>
     
    <!--main content begin-->
    <div class="container1920">
@@ -47,7 +47,7 @@
        </section>
        
        <section class="mainMgnTop">
-      	  <div class="mainMgn200" ng-include="'bbFromCom.html'"></div>          	      	
+      	  <div id="bbFromCom" class="mainMgn200"></div>          	      	
        </section>
                    
     </div>
@@ -55,6 +55,11 @@
   <!--main content end-->  
     
   <div class="lineBlue"></div>
-  <div ng-include="'footer.html'"></div>
+  <div id="footer"></div>
+    <script>
+	   $('#header').load('header.html');
+	   $('#bbFromCom').load('bbFromCom.html');
+       $('#footer').load('footer.html');
+    </script>
 </body>
 </html>

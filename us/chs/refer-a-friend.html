@@ -29,7 +29,7 @@
 
 <body ng-app="">
    <!-- Author: Amy --> 
-   <div ng-include="'header.html'"></div>
+   <div id="header"></div>
    
    <!--main content begin-->
    <div class="mainLayout">
@@ -185,8 +185,13 @@
   <!--main content end--> 
     
   <div class="lineBlue"></div>
-  <div ng-include="'footer.html'"></div>
-  
+  <div id="footer"></div>
+  <script>
+	   $('#header').load('header.html');
+       $('#footer').load('footer.html');
+  </script>
+</body>
+
 <script>
 
 var h  =$('.referAfriend').height();
@@ -223,6 +228,4 @@ $('.changes1').click(function(){
 })
 
 </script>
-
-</body>
 </html>
