@@ -70,7 +70,10 @@
 
 </head>
 <body ng-app="">
-	<div ng-include="'header.html'"></div>
+	<div id="header"></div>
+        <script>
+            $('#header').load('header.html');
+        </script>
 	<div class="mainLayout">
 	    <section class="bannerAll bannerAll1">
      	    <div class="bannerText">
@@ -126,6 +129,9 @@
 
 	</div>
     <div class="lineBlue"></div>
-	<div ng-include="'footer.html'"></div>
+    <div id="footer"></div>
+         <script>
+            $('#footer').load('footer.html');
+        </script>
 </body>
 </html>

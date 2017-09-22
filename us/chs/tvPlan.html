@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>tvPlan</title>
 	<meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="copyright" content="">
@@ -61,7 +61,7 @@
 		.md2c{font-family: avenir;line-height: 1; margin-left: 2%; float: left;}
 		.md2d{line-height: 1; margin-left: 5%; float: left;}
 		.cir,.optxt{display: inline-block;vertical-align: top}
-		.cir{width: 4.5%;line-height: 1.5;border:1px solid black;border-radius: 100%;margin-top: 2.9% }
+		.cir{width: 4%;line-height: 1.5;border:1px solid black;border-radius: 100%;margin-top: 2.9% }
 		.cir:hover{cursor:pointer;}
 		.optxt{width: 92%;margin-left: 3%;line-height: 2}
 		.ciradd{border-color:#ff7f00;box-shadow: 0px 0px 0px 0.15vw #ff7f00;}
@@ -244,7 +244,10 @@
     </style>
 </head>
 <body ng-app="">
-	<div ng-include="'header.html'"></div>
+	<div id="header"></div>
+        <script>
+            $('#header').load('header.html');
+        </script>
     <div class="clear clearfix"></div>
 	<div class="mainLayout">
        <section class="bannerAll bannerAll1">
@@ -401,7 +404,10 @@
 
 	</div>
     <div class="clear clearfix"></div>
-	<div ng-include="'footer.html'"></div>
+	<div id="footer"></div>
+         <script>
+            $('#footer').load('footer.html');
+        </script>
 </body>
 <script>
 

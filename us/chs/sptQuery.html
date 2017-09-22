@@ -52,8 +52,10 @@ section.mainMgnTop{margin-bottom: 1.5%}
 </head>
 <body ng-app="" style="background-color:#ffffff" onhashchange="aa()">
 
-	<div ng-include="'header.html'"></div>
-    <div class="clear clearfix"></div>
+        <div id="header"></div>
+        <script>
+            $('#header').load('header.html');
+        </script>
 
 	<div class="mainLayout">
 		<div class="fixhead">
@@ -236,12 +238,13 @@ section.mainMgnTop{margin-bottom: 1.5%}
 
 
 	<section class='lineBlue'></section>
-    <div class="clear clearfix"></div>
-	<div ng-include="'footer.html'"></div>
+        <div id="footer"></div>
+        <script>
+            $('#footer').load('footer.html');
+        </script>
 </body>
 <script src="../shared/js/sptQuery.js"></script>
 <script>
-
 
 
 
@@ -259,9 +262,10 @@ section.mainMgnTop{margin-bottom: 1.5%}
 	
 	function aa(){
 		 var m =window.location.hash;
+		 console.log(m);
 
 
-		if(m=='#!#chaxun'){
+		if(m=='#chaxun'){
 
 			
 			$(".changeshow").children().css("display", "none");
@@ -273,7 +277,7 @@ section.mainMgnTop{margin-bottom: 1.5%}
 			$('.button2').addClass('selected');	
 			chaxun();
 		}
-			if(m=='#!#kefu'){
+			if(m=='#kefu'){
 				
 			$(".changeshow").children().css("display", "none");
 			$(".customer").css('display','block');
