@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>tvGuide</title>
 	<meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="copyright" content="">
@@ -153,7 +153,10 @@
 
 
 
-	<div ng-include="'header.html'"></div>
+	<div id="header"></div>
+        <script>
+            $('#header').load('header.html');
+        </script>
     <div class="clear clearfix"></div>
     <div class="mainLayout">
     	<div class="video part ">
@@ -224,8 +227,10 @@
             </section>
     	</div>
     </div>
-   <div class="clear clearfix"></div>
-	<div ng-include="'footer.html'"></div>
+    <div id="footer"></div>
+         <script>
+            $('#footer').load('footer.html');
+        </script>
 </body>
 <script>
 
