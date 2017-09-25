@@ -38,7 +38,7 @@
 <body ng-app="" style="background:white;">
     <!--Carson制作-->
 
-    <div ng-include="'header.html'"></div>
+    <div id="header"></div>    <script>        $('#header').load('header.html');    </script>
 
     <div class="container1920">
         <div class="mainLayout">
@@ -191,6 +191,6 @@
     
     <div class="lineBlue mt0"></div>
     
-    <div ng-include="'footer.html'"></div>
+    <div id="footer"></div>    <script>        $('#footer').load('footer.html');    </script>
 </body>
 </html>

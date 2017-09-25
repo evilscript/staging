@@ -55,7 +55,10 @@
 <body ng-app="">
     <section data-section-name="iTalkBB" class="scroll">
 
-        <div ng-include="'header.html'"></div>
+        <div id="header"></div>
+        <script>
+            $('#header').load('header.html');
+        </script>
 
         <div class="container1920">
             <!--桌面端banner开始-->
@@ -519,7 +522,7 @@
             });
         </script>
         <footer class="scroll">
-            <div ng-include="'footer.html'"></div>
+            <div id="footer"></div>    <script>        $('#footer').load('footer.html');    </script>
         </footer>
     </section>
 </body>
