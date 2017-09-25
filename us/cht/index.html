@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-Hans">
 <head>
     <meta charset="UTF-8">
     <title>iTalkBB蜻蜓</title>
@@ -51,9 +51,14 @@
 
 
 <body ng-app="">
+    <!--Carson制作-->
+
     <section data-section-name="iTalkBB" class="scroll">
 
-        <div ng-include="'header.html'"></div>
+        <div id="header"></div>
+        <script>
+            $('#header').load('header.html');
+        </script>
 
         <div class="container1920">
             <!--桌面端banner开始-->
@@ -81,6 +86,7 @@
                                     <p class="informationBarRight pin title36 mTitle44"><span class="sans">1</span>條線<span class="sans">1G</span>流量</p>
                                     <div class="clear clearfix"></div>
                                 </div>
+                                <p class="bannerButton pin title36 mTitle44">了解更多</p>
                             </div>
                         </div>
                     </div>
@@ -98,6 +104,7 @@
                                     <p class="informationBarRight pin title36 mTitle44"><span class="sans">1</span>條線<span class="sans">1G</span>流量</p>
                                     <div class="clear clearfix"></div>
                                 </div>
+                                <p class="bannerButton pin title36 mTitle44">了解更多</p>
                             </div>
                         </div>
                     </div>
@@ -115,6 +122,7 @@
                                     <p class="informationBarRight pin title36 mTitle44"><span class="sans">1</span>條線<span class="sans">1G</span>流量</p>
                                     <div class="clear clearfix"></div>
                                 </div>
+                                <p class="bannerButton pin title36 mTitle44">了解更多</p>
                             </div>
                         </div>
                     </div>
@@ -146,7 +154,6 @@
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
-
                     <div class="item active">
                         <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
                         <div class="carousel-caption">
@@ -160,6 +167,7 @@
                                     <p class="informationBarRight pin title36 mTitle36"><span class="sans">1</span>條線<span class="sans">1G</span>流量</p>
                                     <div class="clear clearfix"></div>
                                 </div>
+                                <p class="bannerButton pin title36 mTitle36">了解更多</p>
                             </div>
                         </div>
                     </div>
@@ -177,6 +185,7 @@
                                     <p class="informationBarRight pin title36 mTitle36"><span class="sans">1</span>條線<span class="sans">1G</span>流量</p>
                                     <div class="clear clearfix"></div>
                                 </div>
+                                <p class="bannerButton pin title36 mTitle36">了解更多</p>
                             </div>
                         </div>
                     </div>
@@ -194,6 +203,7 @@
                                     <p class="informationBarRight pin title36 mTitle36"><span class="sans">1</span>條線<span class="sans">1G</span>流量</p>
                                     <div class="clear clearfix"></div>
                                 </div>
+                                <p class="bannerButton pin title36 mTitle36">了解更多</p>
                             </div>
                         </div>
                     </div>
@@ -216,7 +226,6 @@
         </div>
     </section>
 
-
     <section data-section-name="iTalkMobile" id="iTalkMobile" class="scroll iTalkMobile">
         <div class="container1920 bg2">
             <div class="mobileLeft">
@@ -226,10 +235,10 @@
                 <div class="iconLeft">
                     <p class="s2IconText1 pin title24 mTitle32">美國卡&中國卡：<br class="showM">雙國雙號</p>
                     <div class="clear clearfix"></div>
-                    <p class="s2IconText2 pin title24 mTitle32">無限全球簡訊、通話</p>
+                    <p class="s2IconText2 pin title24 mTitle32">無限全球短信、通話</p>
                 </div>
                 <div class="iconRight">
-                    <p class="pin s2IconText3 title24 mTitle32">無線網路流量<br>&nbsp;</p>
+                    <p class="pin s2IconText3 title24 mTitle32">無限網絡流量<span class="showM">&nbsp;</span></p>
                     <div class="clear clearfix"></div>
                     <p class="pin s2IconText4 title24 mTitle32">無合約、隨時取消</p>
                 </div>
@@ -248,10 +257,10 @@
         <div class="orangeContainer">
             <div class="container1920 orangeBand">
                 <div class="bandLeft hideM">
-                    <img src="../shared/images/index/chs_band2Price.png" class="img" alt="">
+                    <img src="../shared/images/index/cht_band2Price.png" class="img" alt="">
                 </div>
                 <div class="bandLeft showM">
-                    <img src="../shared/images/index/chs_mobilePriceBand1.png" class="img" alt="">
+                    <img src="../shared/images/index/cht_mobilePriceBand1.png" class="img" alt="">
                 </div>
                 <div class="bandRight">
                     <p class="bandButton pin title36 mTitle36">立即訂購</p>
@@ -267,13 +276,6 @@
                 <p class="pin sectionTitle fwb title60 mTitle68">蜻蜓電視</p>
                 <p class="pin sectionText title30 mTitle38">海外華人首選中文電視<br>
                     網羅<span class="sans">2017</span>年度華語新片</p>
-                <!--<div class="">
-                    <p class="s3iconText1 pin">热门直播频道</p>
-                    <p class="s3iconText2 pin">高清院线新片</p>
-                    <div class="showM clear clearfix"></div>
-                    <p class="s3iconText3 pin">数万小时影视<br class="showM">综艺免费观看</p>
-                    <p class="s3iconText4 pin"><span class="sans">iTalkBB</span>蜻蜓电视<span class="sans">APP</span>：<br class="showM">随时随地观看海量节目</p>
-                </div>-->
                 <div class="iconLeft">
                     <p class="s3IconText1 pin title24 mTitle32">熱門直播頻道</p>
                     <div class="clear clearfix"></div>
@@ -286,7 +288,7 @@
                 </div>
                 <div class="clear clearfix"></div>
                 <div class="knowMore">
-                    <a class="knowMoreText pin" href="">
+                    <a class="knowMoreText pin" href="tvPlan.html">
                         <p>了解更多</p>
                     </a>
                 </div>
@@ -312,48 +314,48 @@
             </div>-->
             <div class="container1920 orangeBand4">
                 <div class="bandLeftS4 hideM">
-                    <img src="../shared/images/index/chs_band4Price.png" class="img" alt="">
+                    <img src="../shared/images/index/cht_band4Price.png" class="img" alt="">
                 </div>
                 <div class="bandLeftS4 showM">
-                    <img src="../shared/images/index/chs_mobilePriceBand4.png" class="img" alt="">
+                    <img src="../shared/images/index/cht_mobilePriceBand4.png" class="img" alt="">
                 </div>
                 <p class="textLeftBotton pin title30 mTitle32"><span class="sans">30</span>天免費</p>
                 <div class="bandRight bandRightS4">
-                    <p class="bandButton pin title36 mTitle36 bandButtonSpecialMobile">立即訂購</p>
+                    <a href="tvPlan.html">
+                        <p class="bandButton pin title36 mTitle36 bandButtonSpecialMobile">立即試用</p>
+                    </a>
                 </div>
                 <div class="clear clearfix"></div>
             </div>
         </div>
     </section>
 
-
-
     <section data-section-name="iTalkPhone" id="iTalkPhone" class="scroll iTalkMobile">
         <div class="container1920 bg4">
             <div class="mobileLeft">
                 <p class="pin sectionTitle fwb title60 mTitle68">蜻蜓電話</p>
-                <p class="pin sectionText title30 mTitle38">海外華人市場<span class="sans">NO. 1</span>家庭電話品牌<br>
-                    <span class="sans">14</span>年歷史承諾 <span class="sans">A</span>+產品服務</p>
+                <p class="pin sectionText title30 mTitle38">海外華人市場<span class="sans">No.1</span>家庭電話品牌<br>
+                    <span class="sans">14</span>年歷史承諾<span class="sans">A+</span>產品服務</p>
                 <!--<div class="">
-                    <p class="s3iconText1 pin">热门直播频道</p>
-                    <p class="s3iconText2 pin">高清院线新片</p>
+                    <p class="s3iconText1 pin">熱門直播頻道</p>
+                    <p class="s3iconText2 pin">高清院線新片</p>
                     <div class="showM clear clearfix"></div>
-                    <p class="s3iconText3 pin">数万小时影视<br class="showM">综艺免费观看</p>
-                    <p class="s3iconText4 pin"><span class="sans">iTalkBB</span>蜻蜓电视<span class="sans">APP</span>：<br class="showM">随时随地观看海量节目</p>
+                    <p class="s3iconText3 pin">數萬小時影視<br class="showM">綜藝免費觀看</p>
+                    <p class="s3iconText4 pin"><span class="sans">iTalkBB</span>蜻蜓電視<span class="sans">APP</span>：<br class="showM">隨時隨地觀看海量節目</p>
                 </div>-->
                 <div class="iconLeft">
-                    <p class="s4iconText1 pin title24 mTitle32">無限撥打全球<span class="sans">29</span>個<br class="showM"><br class="hideM">地區</p>
+                    <p class="s4iconText1 pin title24 mTitle32">無限撥打全球29個<br class="showM">國家和<br class="hideM">地區</p>
                     <div class="clear clearfix"></div>
                     <p class="s4iconText2 pin title24 mTitle32">接聽免費</p>
                 </div>
                 <div class="iconRight">
                     <p class="pin s4iconText3 title24 mTitle32">中國親友直撥美國<br>只收當地話費</p>
                     <div class="clear clearfix"></div>
-                    <p class="pin s4iconText4 title24 mTitle32"><span class="sans">iTalkBB</span>蜻蜓手機<span class="sans">App</span>: <br>用手機就可直撥國際電話</p>
+                    <p class="pin s4iconText4 title24 mTitle32"><span class="sans">iTalkBB</span>蜻蜓手機<span class="sans">App</span>:<br>用手機就可直撥國際電話</p>
                 </div>
                 <div class="clear clearfix"></div>
                 <div class="knowMore">
-                    <a class="knowMoreText pin" href="">
+                    <a class="knowMoreText pin" href="bbPlan.html">
                         <p>了解更多</p>
                     </a>
                 </div>
@@ -366,20 +368,21 @@
         <div class="orangeContainer">
             <div class="container1920 orangeBand4">
                 <div class="bandLeftS4 hideM">
-                    <img src="../shared/images/index/chs_band4Price.png" class="img" alt="">
+                    <img src="../shared/images/index/cht_band4Price.png" class="img" alt="">
                 </div>
                 <div class="bandLeftS4 showM">
-                    <img src="../shared/images/index/chs_mobilePriceBand4.png" class="img" alt="">
+                    <img src="../shared/images/index/cht_mobilePriceBand4.png" class="img" alt="">
                 </div>
-                <p class="textLeftBotton pin title30 mTitle32">30天免費</p>
+                <p class="textLeftBotton pin title30 mTitle32"><span class="sans">30</span>天免費</p>
                 <div class="bandRight bandRightS4">
-                    <p class="bandButton pin title36 mTitle36 bandButtonSpecialMobile">立即訂購</p>
+                    <a href="bbPlan.html">
+                        <p class="bandButton pin title36 mTitle36 bandButtonSpecialMobile">立即試用</p>
+                    </a>
                 </div>
                 <div class="clear clearfix"></div>
             </div>
         </div>
     </section>
-
 
     <section data-section-name="iTalkBBReferral" id="Referral" class="scroll iTalkMobile">
         <div class="container1920 bg5">
@@ -389,10 +392,11 @@
                 <div class="">
                     <p class="s5iconText1 pin title24 mTitle32">你和被推薦人，<br class="showM">雙方都可獲得<span class="sans">$10</span></p>
                     <p class="s5iconText2 pin title24 mTitle32">獲得<span class="sans">$10 OFF</span>，<br class="showM">只需簡單<span class="sans">3</span>步！</p>
+                    <div class="clear clearfix"></div>
                 </div>
                 <div class="clear clearfix"></div>
                 <div class="knowMore">
-                    <a class="knowMoreText knowMoreText5 pin" href="">
+                    <a class="knowMoreText knowMoreText5 pin" href="refer-a-friend.html">
                         <p>了解更多</p>
                     </a>
                 </div>
@@ -405,13 +409,14 @@
         <div class="orangeContainer">
             <div class="container1920 orangeBand5">
                 <div class="bandLeftS5 hideM">
-                    <img src="../shared/images/index/chs_band5Price.png" class="img" alt="">
+                    <img src="../shared/images/index/cht_band5Price.png" class="img" alt="">
                 </div>
                 <div class="bandLeftS4 showM">
-                    <img src="../shared/images/index/chs_mobilePriceBand5.png" class="img" alt="">
+                    <img src="../shared/images/index/cht_mobilePriceBand5.png" class="img" alt="">
                 </div>
                 <div class="bandRight bandRightS5">
-                    <p class="bandButton pin title36 mTitle36">立即訂購</p>
+                    <a href="refer-a-friend.html">
+                    <p class="bandButton pin title36 mTitle36">立即推薦</p></a>
                 </div>
                 <div class="clear clearfix"></div>
             </div>
@@ -419,7 +424,7 @@
     </section>
 
     <section data-section-name="iTalkBBContact" id="contact" class="scroll iTalkMobile">
-        <div class="container1920">
+        <div class="container1920 bg6" >
             <div>
                 <p class="contactTitle pin title60 mTitle68 fwb"><span class="sans">24</span>小時專人客服</p>
                 <p class="contactSubTitle pin title30 mTitle38"><span class="sans">365</span>天全年無休為海外華人服務</p>
@@ -430,30 +435,35 @@
                     <img src="../shared/images/index/wechatSocialIcon.jpg" class="img w100">
                 </div>
                 <div class="s5Left">
-                    <img src="../shared/images/index/contactIcon1.png" class="img contactIcon1" alt="">
-                    <p class="section5IconTitle pin title30 mTitle38 fwb" align="center">電話客服</p>
-                    <p class="s6IconText pin"><span class="sans">24</span>小時全天候</p>
-                    <p class="s6IconText pin">一站式咨詢服務</p>
-                    <p class="s6IconText pin">全天守候</p>
+                    <a href="sptQuery.html?kefu">
+                        <img src="../shared/images/index/contactIcon1.png" class="img contactIcon1" alt="">
+                        <p class="section5IconTitle pin title30 mTitle38 fwb" align="center">電話客服</p>
+                        <p class="s6IconText pin"><span class="sans">24</span>小時全天候</p>
+                        <p class="s6IconText pin">一站式咨詢服務</p>
+                        <p class="s6IconText pin">全天守候</p>
+                    </a>
                 </div>
                 <div class="s5Middle">
-                    <img src="../shared/images/index/contactIcon2.png" class="img contactIcon2" alt="">
-                    <p class="section5IconTitle pin title30 mTitle38 fwb" align="center">微信客服</p>
-                    <p class="s6IconText pin"><span class="sans">24</span>小時全天候</p>
-                    <p class="s6IconText pin"><span class="sans">3</span>秒內應答</p>
-                    <p class="s6IconText pin"><span class="sans">100%</span>應答率</p>
+                    <a href="sptQuery.html?kefu">
+                        <img src="../shared/images/index/contactIcon2.png" class="img contactIcon2" alt="">
+                        <p class="section5IconTitle pin title30 mTitle38 fwb" align="center">微信客服</p>
+                        <p class="s6IconText pin"><span class="sans">24</span>小時全天候</p>
+                        <p class="s6IconText pin"><span class="sans">3</span>秒內應答</p>
+                        <p class="s6IconText pin"><span class="sans">100%</span>應答率</p>
+                    </a>
                 </div>
                 <div class="s5Right">
-                    <img src="../shared/images/index/contactIcon3.png" class="img contactIcon3" alt="">
-                    <p class="section5IconTitle pin title30 mTitle38 fwb" align="center">體驗店</p>
-                    <p class="s6IconText pin">全美<span class="sans">23</span>家店面</p>
-                    <p class="s6IconText pin">店面地址查詢</p>
+                    <a href="sptQuery.html?chaxun">
+                        <img src="../shared/images/index/contactIcon3.png" class="img contactIcon3" alt="">
+                        <p class="section5IconTitle pin title30 mTitle38 fwb" align="center">體驗店</p>
+                        <p class="s6IconText pin">全美<span class="sans">23</span>家店面</p>
+                        <p class="s6IconText pin">店面地址查詢</p>
+                    </a>
                 </div>
                 <div class="clear clearfix"></div>
             </div>
         </div>
-
-        <div class="container1920">
+        <div class="container1920 bg7">
             <div>
                 <div>
                     <p class="contactTitle subscribeTitle pin title60 mTitle68 fwb">訂閱我們的郵件</p>
@@ -516,11 +526,11 @@
                         <div class="mc-field-group">
                             <input type="email" value="" name="EMAIL" class="fwb required email emailBar pin" id="mce-EMAIL" placeholder="請輸入您的郵箱地址">
                             <p class="submitButton pin">
-                                <span class="fwb">訂閱</span><!--
-                                <span class="showM fwb">&gt;</span>-->
+                                <span class="fwb">訂閱</span>
+                                <!--<span class="showM fwb">&gt;</span>-->
                             </p>
                         </div>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4f59bf9ff4784929f69f83cfe_f711242cef" tabindex="-1" value=""></div>
                         <div class="clear" style="position:absolute;width:0;top:0;left:0;">
                             <input style="position: absolute;width: 0;height: 0;" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
@@ -555,7 +565,7 @@
                 <div class="clear clearfix"></div>
             </div>
             <div class="wechatIconSocial" style="display:none;">
-                <p class="wechatIconSocialTitle pin">扫码关注微信公众号</p>
+                <p class="wechatIconSocialTitle pin">掃碼關注微信公眾號</p>
                 <img src="../shared/images/index/wechatSocialIcon.jpg" class="img w100">
             </div>
             <div class="clear clearfix"></div>
@@ -575,9 +585,13 @@
                 $(this).fadeOut(500);
             });
         </script>
-        <footer class="scroll">
-            <div ng-include="'footer.html'"></div>
-        </footer>
+
+        <div class="lineBlue" style="margin-top:0;"></div>
+        <div id="footer"></div>
+        <script>
+            $('#footer').load('footer.html');
+        </script>
+
     </section>
 </body>
 </html>
