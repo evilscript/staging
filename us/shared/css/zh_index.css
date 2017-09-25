@@ -116,9 +116,9 @@
     -moz-transition: all ease 0.8s;
     transition: all ease 0.8s;
 }
-.bannerButton:hover{
-    color:white;
-    box-shadow: inset 300px 0 0 #327fe8;
+.bannerButton:hover {
+    color: white;
+    box-shadow: inset 300px 0 20px #327fe8;
 }
 .bannerPriceDollarSign{
     font-size: 34px;

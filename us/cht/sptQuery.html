@@ -105,9 +105,9 @@ section.mainMgnTop{margin-bottom: 1.5%}
         	<div class="lineOrange"></div>       	        	 
         	<div class="menuCon">
         	   <div class="menuBox menuBox3 clearfix">
-			      <p class="menuBtn title24 mTitle32 button1 selected">人工客服</p>
-			      <p class="menuBtn title24 mTitle32 button2">店面查詢</p>
-			      <a href="#"><p class="menuBtn title24 mTitle32 button3">業務合作</p></a>
+			      <p class="menuBtn title24 mTitle32 button1 selected" id="customerServices">人工客服</p>
+			      <p class="menuBtn title24 mTitle32 button2" id="storeLocator">店面查詢</p>
+			      <a href="#"><p class="menuBtn title24 mTitle32 button3" id="coop">業務合作</p></a>
 			</div>	
 			</div>
 		  </div>           	      	
@@ -293,6 +293,20 @@ section.mainMgnTop{margin-bottom: 1.5%}
 	}
 
 
+</script>
+
+<script>
+    $(document).ready(function(){
+        if (window.location.href.indexOf("?coop") > -1) {
+            $("#coop").trigger("click");
+        }
+        else if (window.location.href.indexOf("?kefu") > -1) {
+            $("#customerServices").trigger("click");
+        }
+        else if (window.location.href.indexOf("?chaxun") > -1) {
+            $("#storeLocator").trigger("click");
+        }
+    })
 </script>
 
 </html>
