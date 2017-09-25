@@ -110,6 +110,7 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
 
 @media  (min-width:768px) and (max-width:1000px){
     /* support banner begin*/
+	.sptBanTitle{line-height: 1.4; padding: 0 5%;}
     .sptBanner{background: url(../images/support/ipadSptBannerBg.jpg) no-repeat; background-size: 100%;}	
 	.sptBanCon{padding-bottom: 3.2%; padding-top: -7%;}
 	.sptBanBox{width: 94%;}
@@ -150,7 +151,7 @@ ul.listDot li{float: left;width: 28%; list-style-type: disc;}
 @media (max-width:767px){
     /* support banner */
     .sptBanner{max-width: 767px;padding-top: 6.6%; background: url(../images/support/mSptBannerBg.jpg) no-repeat; background-size: 100%;}
-	.sptBanTitle{line-height: 1.2;}
+	.sptBanTitle{line-height: 1.2; padding: 0 5%;}
 	.sptBanArrow{background-size: 4%;margin-top: 3.2%;}
 	.sptBanCon{margin-top: -2%;padding-bottom: 5%;}
 	.sptBanBox{width: 84%;}
