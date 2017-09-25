@@ -276,6 +276,7 @@ input:focus{ outline:none;}
 .headerLink{
     color:black;
     text-decoration:none;
+    cursor:pointer;
 }
 .headerLink:hover, .headerLink:active, .menuText:hover{
     color:#ff7f00;
@@ -450,7 +451,7 @@ input:focus{ outline:none;}
     color: #2a2a2a;
     font-size:15px;
     padding-left: 3%;
-    width: 10%;
+    width: 12%;
     margin-left: -1%;
     text-align: center;
     margin-right: 2%;
@@ -465,8 +466,8 @@ input:focus{ outline:none;}
 .menu3Block img,
 .menu4Block img,
 .menu5Block img{
-    width: 60%;
-    margin-left: 20%;
+    width: 50%;
+    margin-left: 25%;
     padding-bottom: 10%;
 }
 .menu2Block:hover,
@@ -774,40 +775,88 @@ input:focus{ outline:none;}
     }
 }
 
-@media (max-width:1300px){	
-	/* fontSize start */
-	.title140{font-size: 7.3vw;}
-	.title70{font-size: 3.6vw;}
-	.title60{font-size: 3.2vw;}
-	.title50{font-size: 2.62vw;}
-	.title42{font-size: 2.15vw;}
-	.title36{font-size: 1.85vw;}
-	.title30{font-size: 1.5vw;}
-	.title24{font-size: 1.23vw;}
-	.title20{font-size: 1.1vw;}
+
+
+/*price position begin*/
+@media  (min-width:1801px) and (max-width:1880px){
+    .priceBox1{margin-left: 31.2%;}
+	.priceBox2{margin-left: 24.2%;}
+}
+@media  (min-width:1701px) and (max-width:1800px){
+    .priceBox1{margin-left: 30.2%;}
+	.priceBox2{margin-left: 22.6%;}
+}
+@media  (min-width:1601px) and (max-width:1700px){
+    .priceBox1{margin-left: 29.4%;}
+	.priceBox2{margin-left: 22%;}
+}
+@media  (min-width:1501px) and (max-width:1600px){
+    .priceBox1{margin-left: 31.4%;}
+	.priceBox2{margin-left: 25%;}
+}
+@media  (min-width:1401px) and (max-width:1500px){
+    .priceBox1{margin-left: 30.3%;}
+	.priceBox2{margin-left: 23%;}
+}
+@media (max-width:1500px){
+    .menu2Block, .menu1Block, .menu3Block, .menu4Block, .menu5Block{
+        width:13%;
+    }
+    .menu2Block img, .menu1Block img, .menu3Block img, .menu4Block img, .menu5Block img {
+        width: 48%;
+        margin-left: 26%;
+        padding-bottom: 10%;
+    }
+}
+@media  (min-width:1301px) and (max-width:1400px){
+    .priceBox1{margin-left: 31.9%;}
+	.priceBox2{margin-left: 25%;}
+}
+/*price position end*/
+@media (max-width:1400px){
+    .menu2Block, .menu1Block, .menu3Block, .menu4Block, .menu5Block{
+        width:15%;
+    }
+    .menu2Block img, .menu1Block img, .menu3Block img, .menu4Block img, .menu5Block img {
+        width: 40%;
+        margin-left: 30%;
+        padding-bottom: 10%;
+    }
+}
+@media (max-width:1300px){
+    /* fontSize start */
+    .title140{font-size: 7.3vw;}
+    .title70{font-size: 3.6vw;}
+    .title60{font-size: 3.2vw;}
+    .title50{font-size: 2.62vw;}
+    .title42{font-size: 2.15vw;}
+    .title36{font-size: 1.85vw;}
+    .title30{font-size: 1.5vw;}
+    .title24{font-size: 1.23vw;}
+    .title20{font-size: 1.1vw;}
     .title18{font-size: 1vw;}
     .title16{font-size: .9vw;}
-	
-	.text18{font-size: 1vw;}
+
+    .text18{font-size: 1vw;}
     .text16{font-size: .9vw;}
-	.text14{font-size: .85vw;}
-	
-	/*英文版字号 begin*/
-	.title34{font-size: 1.77vw;}
+    .text14{font-size: .85vw;}
+
+    /*英文版字号 begin*/
+    .title34{font-size: 1.77vw;}
     .title28{font-size: 1.46vw;}
     .title22{font-size: 1.15vw;}
     /*英文版字号 end*/
-	
-   /* .title80{font-size: 4.2vw;}    
-    .title48{font-size: 2.5vw;}	    
-    .title32{font-size: 1.7vw;}    
-    .title28{font-size: 1.46vw;}
-    .title26{font-size: 1.38vw;}    
-    .title22{font-size: 1.15vw;}
-    .text20{font-size: 1.1vw;}    
-    */
-	
-	/* fontSize end */
+
+    /* .title80{font-size: 4.2vw;}
+     .title48{font-size: 2.5vw;}
+     .title32{font-size: 1.7vw;}
+     .title28{font-size: 1.46vw;}
+     .title26{font-size: 1.38vw;}
+     .title22{font-size: 1.15vw;}
+     .text20{font-size: 1.1vw;}
+     */
+
+    /* fontSize end */
     .headerBackToTop {
         height:50px;
         width:50px;
@@ -846,34 +895,6 @@ input:focus{ outline:none;}
         font-size: 1.1vw;
     }
 }
-
-/*price position begin*/
-@media  (min-width:1801px) and (max-width:1880px){
-    .priceBox1{margin-left: 31.2%;}
-	.priceBox2{margin-left: 24.2%;}
-}
-@media  (min-width:1701px) and (max-width:1800px){
-    .priceBox1{margin-left: 30.2%;}
-	.priceBox2{margin-left: 22.6%;}
-}
-@media  (min-width:1601px) and (max-width:1700px){
-    .priceBox1{margin-left: 29.4%;}
-	.priceBox2{margin-left: 22%;}
-}
-@media  (min-width:1501px) and (max-width:1600px){
-    .priceBox1{margin-left: 31.4%;}
-	.priceBox2{margin-left: 25%;}
-}
-@media  (min-width:1401px) and (max-width:1500px){
-    .priceBox1{margin-left: 30.3%;}
-	.priceBox2{margin-left: 23%;}
-}
-@media  (min-width:1301px) and (max-width:1400px){
-    .priceBox1{margin-left: 31.9%;}
-	.priceBox2{margin-left: 25%;}
-}
-/*price position end*/
-
 @media  (min-width:1001px){
     .mainMgn320{margin: 0 auto;width: 66.7%;}
 	.mainMgn200{margin: 0 auto;width: 79.2%;}

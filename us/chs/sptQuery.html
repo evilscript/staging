@@ -104,9 +104,9 @@ section.mainMgnTop{margin-bottom: 1.5%}
         	<div class="lineOrange"></div>       	        	 
         	<div class="menuCon">
         	   <div class="menuBox menuBox3 clearfix">
-			      <p class="menuBtn title24 mTitle32 button1 selected">人工客服</p>
-			      <p class="menuBtn title24 mTitle32 button2">店面查询</p>
-			      <a href="#"><p class="menuBtn title24 mTitle32 button3">业务合作</p></a>
+			      <p class="menuBtn title24 mTitle32 button1 selected" id="customerServices">人工客服</p>
+			      <p class="menuBtn title24 mTitle32 button2" id="storeLocator">店面查询</p>
+			      <a href="#"><p class="menuBtn title24 mTitle32 button3" id="coop">业务合作</p></a>
 			</div>	
 			</div>
 		  </div>           	      	
@@ -115,7 +115,7 @@ section.mainMgnTop{margin-bottom: 1.5%}
 
 	<div class="changeshow">
 <!-- shop -->
-	<section class='shop'>
+	<section class='shop' id="shop">
 		<div class="title title30 mTitle38 shopy">请选择您要找的店面</div>
 		<div class="changeShop">
 			<select id="sel" class="title20" style="outline:none;">
@@ -144,7 +144,7 @@ section.mainMgnTop{margin-bottom: 1.5%}
 
 <!-- 客服 -->
 	
-	<section class='customer'>
+	<section class='customer' id="customer">
 		<div class='customes'>
 		<div class="tel24">
 			<img class="titimg" src="../shared/images/icons/callCenterIcon.png" alt="">
@@ -172,7 +172,7 @@ section.mainMgnTop{margin-bottom: 1.5%}
 	</section>
 
 <!-- 合作 -->
-	<section class='collaborate'>
+	<section class='collaborate' id="collaborate">
 		<div class='collaborates'>
 		<div class="collaborate1"><a href="http://www.italkbbmedia.com/" target="view_window">
 			<img class="collaboratePic" src="../shared/images/support/collaboratePic1.jpg" alt="">
@@ -291,6 +291,20 @@ section.mainMgnTop{margin-bottom: 1.5%}
 	}
 
 
+</script>
+
+<script>
+    $(document).ready(function(){
+        if (window.location.href.indexOf("?coop") > -1) {
+            $("#coop").trigger("click");
+        }
+        else if (window.location.href.indexOf("?kefu") > -1) {
+            $("#customerServices").trigger("click");
+        }
+        else if (window.location.href.indexOf("?chaxun") > -1) {
+            $("#storeLocator").trigger("click");
+        }
+    })
 </script>
 
 </html>
