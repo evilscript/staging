@@ -521,11 +521,21 @@ input:focus{ outline:none;}
     background-size:25%;
     padding-top: 2%;
 }
+.contentBg1Blue{
+    background:url("../images/header/sitemapIcon1Blue.png") no-repeat left top;
+    background-position-y:50%;
+    background-size:25%;
+}
 .contentBg2{
     background:url("../images/header/sitemapIcon2.png") no-repeat left top;
     background-position-y:50%;
     background-size:25%;
     padding-top: 2%;
+}
+.contentBg2Blue{
+    background:url("../images/header/sitemapIcon2Blue.png") no-repeat left top;
+    background-position-y:50%;
+    background-size:25%;
 }
 .contentBg3{
     background:url("../images/header/sitemapIcon3.png") no-repeat left top;
@@ -533,11 +543,21 @@ input:focus{ outline:none;}
     background-size:25%;
     padding-top: 2%;
 }
+.contentBg3Blue{
+    background:url("../images/header/sitemapIcon3Blue.png") no-repeat left top;
+    background-position-y:50%;
+    background-size:25%;
+}
 .contentBg4{
     background:url("../images/header/sitemapIcon4.png") no-repeat left top;
     background-position-y:50%;
     background-size:25%;
     padding-top: 2%;
+}
+.contentBg4Blue{
+    background:url("../images/header/sitemapIcon4Blue.png") no-repeat left top;
+    background-position-y:50%;
+    background-size:25%;
 }
 .contentBg5{
     background:url("../images/header/sitemapIcon5.png") no-repeat left top;
@@ -545,11 +565,21 @@ input:focus{ outline:none;}
     background-size:25%;
     padding-top: 2%;
 }
+.contentBg5Blue{
+    background:url("../images/header/sitemapIcon5Blue.png") no-repeat left top;
+    background-position-y:50%;
+    background-size:25%;
+}
 .contentBg6{
     background:url("../images/header/sitemapIcon6.png") no-repeat left top;
     background-position-y:70%;
     background-size:25%;
     padding-top: 2%;
+}
+.contentBg6Blue{
+    background:url("../images/header/sitemapIcon6Blue.png") no-repeat left top;
+    background-position-y:70%;
+    background-size:25%;
 }
 .footerSitemap {
     padding-left: 15%;
