@@ -34,7 +34,7 @@ select::-ms-expand { display: none; }
 .pics img{width: 100%; cursor:pointer;}          
 .shop{display: none}
 .d1{display: block;}
-.shopname{font-weight: 700}
+.shopname{font-weight: 500}
 
 
 
