@@ -51,7 +51,7 @@
 .planOtherBox{margin-bottom: 5%;}
 .planRefund{margin-bottom: 4.5%;}
 .planYear{}
-.planYearUp{background: #f8f8f8; padding-top: 8%; padding-bottom: 5.5%; padding-left: 18%;}
+.planYearUp{background: #f8f8f8; padding-top: 8%; padding-bottom: 5.5%; padding-left: 22%;}
 .planYearUp .yearText{float: left;}
 .planYearUp .yearTextCenter{margin-left: 3%; margin-right: 2%;}
 .planYearUp .yearTextRight{width: 36%; padding-right: 4%; text-align: left;}
@@ -151,31 +151,31 @@
 
 /*price position begin*/
 @media  (min-width:1801px) and (max-width:1880px){
-    .planYearUp{padding-left: 17%;}
+    .planYearUp{padding-left: 21.3%;}
     .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
 }
 @media  (min-width:1701px) and (max-width:1800px){
-    .planYearUp{padding-left: 15.5%;}
+    .planYearUp{padding-left: 20.5%;}
     .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
 }
 @media  (min-width:1601px) and (max-width:1700px){
-    .planYearUp{padding-left: 13.5%;}
+    .planYearUp{padding-left: 19.5%;}
     .planYearUp .yearTextRight{width: 32%; padding-right: 4%;}
 }
 @media  (min-width:1501px) and (max-width:1600px){
-    .planYearUp{padding-left: 18%;}
+    .planYearUp{padding-left: 21.5%;}
     .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
 }
 @media  (min-width:1401px) and (max-width:1500px){
-    .planYearUp{padding-left: 15.5%;}
+    .planYearUp{padding-left: 20.6%;}
     .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
 }  
 @media  (min-width:1301px) and (max-width:1400px){
-    .planYearUp{padding-left: 17%;}
+    .planYearUp{padding-left: 22%;}
     .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
 }
 @media  (min-width:1001px) and (max-width:1300px){
-    .planYearUp{padding-left: 19%;}
+    .planYearUp{padding-left: 23%;}
     .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
 }
 /*price position end*/
