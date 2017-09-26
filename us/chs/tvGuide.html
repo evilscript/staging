@@ -558,5 +558,11 @@ function k_touch2() {
            
         });
 
+        $('.maskVideo').click(function(){
+            $(this).fadeOut(500);
+            $('#video0').hide();
+            $('#frame0')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+        });
+
 </script>
 </html>
