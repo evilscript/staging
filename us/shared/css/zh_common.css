@@ -1303,6 +1303,20 @@ input:focus{ outline:none;}
         padding-toP: 2%;
         padding-bottom: 3%;
     }
+    .bbb {
+        width: 25%;
+        margin-left: 37.5%;
+        margin-top: 0;
+    }
+    .disclaimer {
+        padding-bottom: 0;
+    }
+    .specialDisclaimer{
+        padding-bottom: 30%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2%;
+    }
 }
 
 /*For cellphone horizontal mode*/

@@ -126,16 +126,26 @@
     background-size: 9.5%;
     background-position-x: 40%;
 }
-.mtSpecialEN{
-    margin-top:25%;
+.s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3{
+    background-size:8%;
 }
 
-
+@media (max-width:1800px) {
+    .bannerBgSection {
+        background-position-x: 48%;
+    }
+    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3{
+        padding-left:9%;
+    }
+}
 
 @media (max-width:1700px) {
     .bannerTitleCombine {
         background-size: 8%;
         background-position-x: 42%;
+    }
+    .bannerBgSection {
+        background-position-x: 52%;
     }
 }
 
@@ -144,21 +154,26 @@
         background-size: 9%;
         background-position-x: 40%;
     }
+    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3{
+        padding-top:3%;
+        padding-bottom:3%;
+    }
 }
 
 @media (max-width:1500px) {
-
 }
 
 @media (max-width:1400px) {
-
+    .bannerBgSection {
+        background-position-x: 47%;
+    }
 }
 
 @media (max-width:1300px){
 
 }
 
-@media (min-width:768px) and (max-width:992px) {
+@media (min-width:768px) and (max-width:1000px) {
     .bannerTitle1 {
         margin-top: 4%;
         line-height: 1.3;
@@ -187,6 +202,12 @@
         padding-left: 35%;
         background-position-x: 28%;
     }
+    .bannerBgSection {
+        background-position-x: 52%;
+    }
+    .title24 {
+        font-size: 2vw;
+    }
 }
 
 @media (max-width:767px) {
@@ -198,10 +219,32 @@
         line-height: 1;
     }
     .bannerButton {
-        margin-left: 25%;
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    .bannerTitle2 {
+        line-height: 1.3;
+        text-align: center;
     }
     .sectionTitle {
         padding-top: 7%;
+    }
+    .informationBar {
+        width: 75%;
+        margin-top: 5%;
+    }
+    .bannerBgSection {
+        background-position: 100% 100%;
+        background-size: 21%;
+    }
+    .mTitle68 {
+        font-size: 8.5vw;
+    }
+    .mTitle32 {
+        font-size: 3.8vw;
+    }
+    .mTitle28 {
+        font-size: 3.4vw;
     }
     .s2iconText1, .s2iconText3, .s2iconText2, .s2iconText4,
     .s3iconText1, .s3iconText3, .s3iconText2, .s3iconText4,
@@ -308,9 +351,17 @@
     .bandRightS3MobileEn{
         width:32%;
     }
-
-
-
+    .contactSubTitle{
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .s5Left .s6IconText, .s5Middle .s6IconText, .s5Right .s6IconText {
+        padding-left: 30%;
+        background-position-x: 20%;
+    }
+    .textLeftBottonEnglish {
+        font-size: 3vw;
+    }
 
 
 
