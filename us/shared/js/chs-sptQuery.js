@@ -60,7 +60,7 @@ $(".button3").click(function(){
 			   "shopaddress":"Address: <span class='pin'>亚凯迪亚市统领广场，99大华超市旁</span><br>  1232 S Golden West Ave., Arcadia, CA 91007",
 			   "shoptime":"Hours: Mon - Sun, 11:00am - 7:30pm",
 			   "shopnum":"Tel: (626) 513-0800",
-			   "mapd":"https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Golden+West+Ave+%23B+,Arcadia,+CA+91007&amp;aq=&amp;sll=34.131396,-118.06079&amp;sspn=0.015435,0.027874&amp;ie=UTF8&amp;hq=&amp;hnear=Golden+W+Ave,+Arcadia,+California+91007&amp;t=m&amp;ll=34.131416,-118.060799&amp;spn=0.024866,0.057507&amp;z=14&amp;iwloc=A&amp;output=embed",
+			   "mapd":"http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d3302.839541864705!2d-118.06226668457619!3d34.12485737134702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2dba60cd4c111%3A0xfba0cd50ec490229!2zMTIzMiBTIEdvbGRlbiBXIEF2ZSwgQXJjYWRpYSwgQ0EgOTEwMDfnvo7lm70!5e0!3m2!1szh-CN!2scn!4v1506488027209",
 				"pic":[{'str':"../shared/images/shoppic/CAA1.jpg"},{'str':"../shared/images/shoppic/CAA2.jpg"},{'str':"../shared/images/shoppic/CAA3.jpg"}]},
 
 				{"shopName":"Hacienda Heights",
@@ -131,7 +131,7 @@ $(".button3").click(function(){
 			   "shopaddress":"Address: <span class='pin'>苗必达市环球广场，99大华超市内</span> <br> 338 Barber Lane, Milpitas, CA 95035",
 			   "shoptime":"Hours: Mon - Sun, 11:00am - 7:00pm",
 			   "shopnum":"Tel: (408) 465-4777",
-			     "mapd":"https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1688+Hostetter+Rd+%23F,San+Jose,+CA+95131&aq=&sll=37.0625,-95.677068&sspn=52.020054,114.169922&ie=UTF8&hq=&hnear=1688+Hostetter+Rd,+San+Jose,+Santa+Clara,+California+95131&t=m&ll=37.394982,-121.881037&spn=0.023866,0.057507&z=14&iwloc=A&output=embed",
+			     "mapd":"http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d792.1528579288724!2d-121.9172165797063!3d37.4226582266858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc926c96f15df%3A0xffcae1247a9cc7da!2zMzM4IEJhcmJlciBMbiwgTWlscGl0YXMsIENBIDk1MDM1576O5Zu9!5e0!3m2!1szh-CN!2scn!4v1506487901499",
 			 	'pic':""},
 		
 			   
