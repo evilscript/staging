@@ -291,6 +291,39 @@
 .priceBox1 {
     margin-left: 26%;
 }
-
-
-
+.bbPlan {
+    background: url(../images/mobile/mobile_data_plan_select_background.jpg) no-repeat top center;
+    background-size:100%;
+}
+.chinaSimCard {
+    background: url(../images/mobile/china_sim_card_icon.png) no-repeat top left;
+    background-size: 10%;
+    padding-left: 22%;
+    padding-top: 2%;
+    margin-top: 3%;
+    text-align: left;
+    background-position-x: 10%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #656565;
+}
+#chinaSimCardCheckbox, .chinaSimCardCheckboxLabel2{
+    margin-toP: 0;
+    margin-left: 5%;
+}
+.chinaSimCardCheckboxLabel, .chinaSimCardCheckboxLabel2{
+    padding-left:2%;
+    cursor:pointer;
+}
+.chinaSimLastFeatures{
+    text-align: center;
+    margin-bottom: 0;
+    padding-toP: 4%;
+    padding-bottom: 5%;
+}
+.countryCheck3{
+    background: url(../images/icons/hookIconOrange.png) no-repeat top left;
+    background-size: 18%;
+    padding-left: 5%;
+    background-position-y: 43%;
+}
