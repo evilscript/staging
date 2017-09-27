@@ -6,7 +6,7 @@ app.controller('mobilePlanController', function($scope) {
     $scope.plan1_dec = '    ';
     $scope.plan2_int = '45';
     $scope.plan2_dec = '    ';
-    parent.location.hash = "?isUser=false?line=1?chinaSim1=false?chinaSim2=false";
+    parent.location.hash = "?isUser=false?line=1?chinaSimCard1=false?chinaSimCard2=false";
     $scope.isUser = function(){
         $scope.user = true;
         $('.ifCustomerLeftText').removeClass('ifCustomerSelected');
