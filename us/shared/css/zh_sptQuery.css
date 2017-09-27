@@ -34,7 +34,8 @@ select::-ms-expand { display: none; }
 .pics img{width: 100%; cursor:pointer;}          
 .shop{display: none}
 .d1{display: block;}
-.shopname{font-weight: 500}
+.shopname{font-weight: 700}
+.zhou{padding-left: 5.3%;background: #f8f9f9;padding-top: 1%;padding-bottom: 1%;}
 
 
 
@@ -174,6 +175,7 @@ select::-ms-expand { display: none; }
 
 
 .add{padding: 5% 0}
+.zhou{padding-left: 0;text-align: center;}
 
 
 /*人工客服*/
