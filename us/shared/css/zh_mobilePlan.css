@@ -327,3 +327,61 @@
     padding-left: 5%;
     background-position-y: 43%;
 }
+
+@media (max-width:1000px) and (min-width:768px){
+    .bannerAll{
+        padding-top:5%;
+        height:auto;
+        background-size: cover;
+    }
+    .bannerSubTitle{
+        margin-bottom: 0;
+        padding-bottom: 11%;
+    }
+    .priceBox1 {
+        margin-left: 20%;
+    }
+    .priceBox2 {
+        margin-left: 20%;
+    }
+    .dataComparisonLeft img {
+        width: 80%;
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+    .dataComparisonRight img {
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 15%;
+    }
+    .dataComparisonComments {
+        padding-right: 15%;
+    }
+    .twoCountriesPlanLeft {
+        padding-left: 5%;
+        padding-right: 2%;
+    }
+    .twoCountriesPlanRight {
+        padding-left: 2%;
+        padding-right: 5%;
+    }
+    .inUSTitleList {
+        background-size: 3.5%;
+        background-position-y: 5%;
+    }
+    .countryCheck {
+        background-size: 5%;
+        padding-left: 2%;
+        background-position-y: 40%;
+    }
+    .countryCheck2 {
+        background-size: 3%;
+        padding-left: 2%;
+        background-position-y: 40%;
+    }
+    .mobileDisclaimerText {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}
