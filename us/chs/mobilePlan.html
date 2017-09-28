@@ -206,6 +206,34 @@
         	<!-- bbPlan Phone begin-->   
         	<div class="bbPlan showM">
        	      <p class="planTitleBig title42 mTitle50 fwb">蜻蜓电话产品计划</p>
+
+				<div class="ifCustomerLeft">
+					<p class="ifCustomerLeftText ifCustomerSelected pin title24 mTitle32 fwb" ng-click="isNotUser();">非用户</p>
+				</div>
+				<div class="ifCustomerRight">
+					<p class="ifCustomerRightText pin title24 mTitle32 fwb" ng-click="isUser();">用户</p>
+				</div>
+				<div class="clear clearfix"></div>
+
+				<p class="lineSelectTitle title24 mTitle32">选择手机线数</p>
+
+				<div style="position:relative;">
+					<div class="lineSelect">
+						<p class="title18 pin mTitle26 lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
+						<p class="title18 pin mTitle26 lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
+						<p class="title18 pin mTitle26 lineSelectText line3" ng-click="line3()"><span class="sans">3</span>条线</p>
+						<p class="title18 pin mTitle26 lineSelectText line4" ng-click="line4()"><span class="sans">4</span>条线</p>
+						<p class="title18 pin mTitle26 lineSelectText line5" ng-click="line5()"><span class="sans">5</span>条线</p>
+						<p class="title18 pin mTitle26 lineSelectText line6" ng-click="line6()"><span class="sans">6</span>条线</p>
+						<div class="clear clearfix"></div>
+					</div>
+				</div>
+
+
+
+
+
+
        	      <div class="mSwiperBox mNewswiper2">
         	  <div class="planBox mSwiper-wrapper clearfix">
         	  	<div class="planCon plan1 mSwiper-slide" >
@@ -277,49 +305,11 @@
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list2">
         	  			<div class="listCon">
-        	  				<p class="title18 mTitle26"><span class="fwb">无限拨打</span>美/加/中/港/台等<a class="linkOrange" href="bbRates.html#countrys" target="_blank">全球29个国家和地区</a></p>
+        	  				<p class="title18 mTitle26"><span class="fwb">无限拨打</span>美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countrys" target="_blank">全球29个国家和地区</a></p>
         	  				<p class="title18 mTitle26">免费保留原号码</p>
         	  				<p class="title18 mTitle26">赠送手机App</p>
         	  				<p class="title18 mTitle26">赠送1年中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
         	  				<p class="title18 mTitle26" style="background: none;">&nbsp;</p>
-        	  			</div>
-						</div>
-        	  	   </div>
-        	  	</div>
-        	  	<div class="planCon plan3 mSwiper-slide">
-                   <div class="planUpper">
-        	  		  <div class="titleBox titleBox2 clearfix">
-        	  			 <p class="title36 mTitle44 fwb">全球包年计划</p>
-        	  		  </div>
-        	  		  <div class="planText">
-        	  			<p class="title30 mTitle38">无限拨打及接听</p>
-        	  			<div class="priceBox priceBox3 avenir clearfix">
-        	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">299</p>
-        	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom">&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        	  			     <span class="smallSub title36 mTitle44 pin">/年</span>
-        	  			   </p>       	  			 	
-        	  			</div>
-        	  			<div class="textBox">
-       	  			       <p class="textSpecial title18 mTitle26">
-        	  			    <span class="textHot">美国/加拿大/中国等<br><a class="linkOrange" href="bbRates.html#countrys" target="_blank" style="text-decoration: underline;">全球29个国家和地区</a>无合约限制</span>
-        	  			   </p>
-        	  			</div>
-        	  		  </div>
-                   </div>
-        	  	   <div class="planList planList3">
-        	  		    <div class="planBtn">
-						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
-       	  			    </div>
-       	  			    <div class="clear clearfix"></div>
-       	  			    <div class="list2">
-        	  			<div class="listCon">
-        	  				<p class="title18 mTitle26">每月赠送500分钟蜻蜓手机国际通话</p>
-        	  				<p class="title18 mTitle26">赠送来电显示，来电等待，来电转移，三方通话，语音信箱等多种功能</p>
-        	  				<p class="title18 mTitle26">赠送1年中国号码950，国内亲友直拨美国无需再付国际长途费</p>
-        	  				<p class="title18 mTitle26">无合约，取消时返还剩余月份月费</p>
-        	  				<p class="title18 mTitle26">免费保留原有号码</p>
         	  			</div>
 						</div>
         	  	   </div>
@@ -339,7 +329,7 @@
        	            <div class="mPlanCompare showM">
                         <p class="title24 mTitle32 fwb"><a class="linkOrange" href="bbcompare.html" target="_blank"><span class="sans">iTalkBB</span>蜻蜓电话计划比较</a></p>
 		            </div>
-                     <p class="title36 mTitle44 fwb">北美最大最可靠的<span class="sans">4G LTE</span>网络</p>
+                     <p class="title36 mTitle44 fwb">北美最大最可靠的<br class="showM"><span class="sans">4G LTE</span>网络</p>
 			     </div>
        	      </div>
        	      <div class="planIcons">
@@ -389,7 +379,7 @@
     </section>
 
        <section class="twoCountriesPlan">
-           <p class="title36 mTitle44 pin twoCountriesPlanTitle fwb">美国卡&中国卡*：一个手机计划 美国中国都能用</p>
+		   <p class="title36 mTitle44 pin twoCountriesPlanTitle fwb">美国卡&中国卡<sup>*</sup>：<br class="showM">一个手机计划 美国中国都能用</p>
            <p class="title18 mTitle26 pin twoCountriesPlanSubTitle">蜻蜓移动为您提供美国卡和中国卡。美国卡供您在美国境内使用，中国卡供您在中国境内使用，两张<span class="sans">SIM</span>卡共用一个手机计划。</p>
            <div class="twoCountriesPlanLeft">
                <img src="../shared/images/mobile/US_sim_card_features.jpg" class="img w100" alt="">
@@ -409,20 +399,20 @@
        </section>
 
        <section class="multipleCountries">
-           <p class="title36 mTitle44 pin twoCountriesPlanTitle fwb">国际通话，免费畅打全球<span class="sans">29</span>个国家和地区</p>
+           <p class="title36 mTitle44 pin twoCountriesPlanTitle fwb">国际通话，免费<br class="showM">畅打全球<span class="sans">29</span>个国家和地区</p>
            <p class="title18 mTitle26 pin multipleCountriesSubTitle">想要畅打<a href="bbRates.html#countrys" class="linkOrange">全球<span class="sans">29</span>个国家和地区</a>？<br>
                <span class="countryCheck">蜻蜓老用户将享受免费的国际通话功能。</span>
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <span class="hideM">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                <span class="countryCheck2">新用户只需购买或升级到带有国际通话功能的套餐，也可以轻松畅打全球。</span>
            </p>
-           <p class="title24 mTitle32 pin multipleCountriesPhone">拨打<span class="sans">1-855-482-5566</span>，立刻升级</p>
+           <p class="title24 mTitle32 pin multipleCountriesPhone">拨打<span class="sans">1-855-482-5566</span>，<br class="showM">立刻升级</p>
            <img src="../shared/images/mobile/countries_available_map.jpg" class="img countriesImgMap" alt="">
 
        </section>
 
         <section class="unlimitedTextTalkBanner">
             <p class="title36 mTitle44 pin unlimitedTextTalkTitle fwb">无限短信、通话</p>
-            <p class="title18 mTitle26 pin unlimitedTextTalkSubTitle fwb">免费无限拨打美国国内电话，免费无限收发美国国内短信。</p>
+            <p class="title18 mTitle26 pin unlimitedTextTalkSubTitle fwb">免费无限拨打美国国内电话，免费无限收发<br class="showM">美国国内短信。</p>
         </section>
 
        <section class="mobileDisclaimer">
