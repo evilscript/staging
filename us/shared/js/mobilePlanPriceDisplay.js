@@ -125,30 +125,33 @@ app.controller('mobilePlanController', function($scope) {
         }
     };
     var checkChinaSim = function(currentHash) {
-        if( $('#chinaSimCardCheckbox').is(':checked') && $('#chinaSimCardCheckbox2').is(':checked') ){
-            parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=true';
-        }
-        else if( $('#chinaSimCardCheckbox').is(':checked') && !$('#chinaSimCardCheckbox2').is(':checked') ){
-            parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=false';
-        }
-        else if( !$('#chinaSimCardCheckbox').is(':checked') && $('#chinaSimCardCheckbox2').is(':checked') ){
-            parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=true';
-        }
-        else{
-            parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=false';
-        }
-
-        if( $('#chinaSimCardCheckbox3').is(':checked') && $('#chinaSimCardCheckbox4').is(':checked') ){
-            parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=true';
-        }
-        else if( $('#chinaSimCardCheckbox3').is(':checked') && !$('#chinaSimCardCheckbox4').is(':checked') ){
-            parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=false';
-        }
-        else if( !$('#chinaSimCardCheckbox3').is(':checked') && $('#chinaSimCardCheckbox4').is(':checked') ){
-            parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=true';
+        if( $(window).width() > 767 ){
+            if( $('#chinaSimCardCheckbox').is(':checked') && $('#chinaSimCardCheckbox2').is(':checked') ){
+                parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=true';
+            }
+            else if( $('#chinaSimCardCheckbox').is(':checked') && !$('#chinaSimCardCheckbox2').is(':checked') ){
+                parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=false';
+            }
+            else if( !$('#chinaSimCardCheckbox').is(':checked') && $('#chinaSimCardCheckbox2').is(':checked') ){
+                parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=true';
+            }
+            else{
+                parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=false';
+            }
         }
         else{
-            parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=false';
+            if( $('#chinaSimCardCheckbox3').is(':checked') && $('#chinaSimCardCheckbox4').is(':checked') ){
+                parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=true';
+            }
+            else if( $('#chinaSimCardCheckbox3').is(':checked') && !$('#chinaSimCardCheckbox4').is(':checked') ){
+                parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=false';
+            }
+            else if( !$('#chinaSimCardCheckbox3').is(':checked') && $('#chinaSimCardCheckbox4').is(':checked') ){
+                parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=true';
+            }
+            else{
+                parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=false';
+            }
         }
     };
 });
