@@ -137,5 +137,18 @@ app.controller('mobilePlanController', function($scope) {
         else{
             parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=false';
         }
+
+        if( $('#chinaSimCardCheckbox3').is(':checked') && $('#chinaSimCardCheckbox4').is(':checked') ){
+            parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=true';
+        }
+        else if( $('#chinaSimCardCheckbox3').is(':checked') && !$('#chinaSimCardCheckbox4').is(':checked') ){
+            parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=false';
+        }
+        else if( !$('#chinaSimCardCheckbox3').is(':checked') && $('#chinaSimCardCheckbox4').is(':checked') ){
+            parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=true';
+        }
+        else{
+            parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=false';
+        }
     };
 });

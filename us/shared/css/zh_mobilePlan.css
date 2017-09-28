@@ -307,11 +307,11 @@
     padding-bottom: 3%;
     border-bottom: 1px solid #656565;
 }
-#chinaSimCardCheckbox, .chinaSimCardCheckboxLabel2{
+#chinaSimCardCheckbox, #chinaSimCardCheckbox2, #chinaSimCardCheckbox3, #chinaSimCardCheckbox4{
     margin-toP: 0;
     margin-left: 5%;
 }
-.chinaSimCardCheckboxLabel, .chinaSimCardCheckboxLabel2{
+.chinaSimCardCheckboxLabel, .chinaSimCardCheckboxLabel2, .chinaSimCardCheckboxLabel3, .chinaSimCardCheckboxLabel4{
     padding-left:2%;
     cursor:pointer;
 }
@@ -511,18 +511,25 @@
         margin-right:5%;
         padding: 4%;
         border-radius:5px;
+        margin-bottom:3%;
     }
     .line3, .line6{
         margin-right:0;
     }
-    .line1, .line2, .line3{
-        margin-bottom:3%;
+    .planNameSubtitle {
+        padding-left: 14%;
     }
-
-
-
-
-
+    .priceBox1, .priceBox2 {
+        margin-left: 24%;
+    }
+    .chinaSimLastFeatures {
+        padding-toP: 5%;
+        padding-bottom: 6%;
+    }
+    .chinaSimCard {
+        margin-top: 5%;
+        padding-bottom: 5%;
+    }
 
 
 

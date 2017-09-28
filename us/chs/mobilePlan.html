@@ -186,7 +186,7 @@
        	  			    <div class="list2 chinaSimCard">
                                 <p class="title22 fwb pin">蜻蜓移动中国卡<sup>*</sup>
                                     <input type="checkbox" id="chinaSimCardCheckbox2" ng-click="checkChinaSimEx()">
-                                    <label for="chinaSimCardCheckbox2" class="org title18 chinaSimCardCheckboxLabel" ng-click="checkChinaSimEx()">$1.00/线/月</label>
+                                    <label for="chinaSimCardCheckbox2" class="org title18 chinaSimCardCheckboxLabel2" ng-click="checkChinaSimEx()">$1.00/线/月</label>
                                 </p>
                                 <p class="title16 ">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
 
@@ -239,16 +239,16 @@
         	  	<div class="planCon plan1 mSwiper-slide" >
                    <div class="planUpper">
         	  		  <div class="titleBox clearfix">
-        	  			 <p class="title36 mTitle44 fwb">家庭经济计划</p>
+        	  			 <p class="mTitle44 fwb">超值计划</p>
         	  		  </div>
         	  		  <div class="planText">
-        	  			<p class="title30 mTitle38">直拨全球，接听免费</p>
+						  <p class="mTitle30 sans org planNameSubtitle">1G @ 4G LTE</p>
         	  			<div class="priceBox priceBox1 avenir clearfix">
         	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">4</p>
+        	  			   <p class="priceBig title140 mTitle162">{{plan1_int}}</p>
         	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom">.99</span>
-        	  			     <span class="smallSub title36 mTitle44 pin">/月</span>
+        	  			     <span class="smallNom"><span class="trans">.00</span>{{plan1_dec}}</span>
+        	  			     <span class="smallSub title36 mTitle44 pin">/月<sup>*</sup></span>
         	  			   </p>       	  			 	
         	  			</div>
         	  			<div class="textBox">
@@ -264,30 +264,34 @@
 						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
-       	  			    <div class="list1">
-        	  			<div class="listCon">
-        	  				<p class="title18 mTitle26">拨打美/加/中/港/台低至$0.02/分钟，超低费率拨打<a class="linkOrange" href="bbRates.html#countrys" target="_blank">全球29个国家和地区</a></p>
-        	  				<p class="title18 mTitle26">免费保留原号码</p>
-        	  				<p class="title18 mTitle26">赠送手机App</p>
-        	  				<p class="title18 mTitle26">赠送6个月中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
-        	  				<p class="title18 mTitle26" style="background: none;">&nbsp;</p>
-        	  			</div>
-        	  			</div>   	  			
+					   <div class="list1 chinaSimCard">
+						   <p class="mTitle30 fwb pin">蜻蜓移动中国卡<sup>*</sup>
+							   <input type="checkbox" id="chinaSimCardCheckbox3" ng-click="checkChinaSimEx()">
+							   <label for="chinaSimCardCheckbox3" class="org mTitle26 chinaSimCardCheckboxLabel3" ng-click="checkChinaSimEx()">$1.00/线/月</label>
+						   </p>
+						   <p class="mTitle24">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
+
+					   </div>
+					   <p class="chinaSimLastFeatures mTitle26 pin">
+						   <span class="countryCheck3">无限流量<sup>*</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						   <span class="countryCheck3">无限通话<sup>&nbsp;</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						   <span class="countryCheck3">无限短信<sup>&nbsp;</sup></span>
+					   </p>
         	  	   </div>
         	  	</div>
         	  	<div class="planCon plan2 mSwiper-slide">
                    <div class="planUpper">
         	  		  <div class="titleBox titleBox2 clearfix">
-        	  			 <p class="title36 mTitle44 fwb">全球包月计划</p>
+        	  			 <p class="title36 mTitle44 fwb">畅享计划</p>
         	  		  </div>
         	  		  <div class="planText">
-        	  			<p class="title30 mTitle38">无限拨打全球</p>
+						  <p class="mTitle30 sans org planNameSubtitle2">5G @ 4G LTE</p>
         	  			<div class="priceBox priceBox2 avenir clearfix">
         	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">24</p>
+        	  			   <p class="priceBig title140 mTitle162">{{plan2_int}}</p>
         	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom">.99</span>
-        	  			     <span class="smallSub title36 mTitle44 pin">/月</span>
+        	  			     <span class="smallNom"><span class="trans">.00</span>{{plan2_dec}}</span>
+        	  			     <span class="smallSub title36 mTitle44 pin">/月<sup>*</sup></span>
         	  			   </p>       	  			 	
         	  			</div>
         	  			<div class="textBox">
@@ -303,15 +307,19 @@
 						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
-       	  			    <div class="list2">
-        	  			<div class="listCon">
-        	  				<p class="title18 mTitle26"><span class="fwb">无限拨打</span>美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countrys" target="_blank">全球29个国家和地区</a></p>
-        	  				<p class="title18 mTitle26">免费保留原号码</p>
-        	  				<p class="title18 mTitle26">赠送手机App</p>
-        	  				<p class="title18 mTitle26">赠送1年中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
-        	  				<p class="title18 mTitle26" style="background: none;">&nbsp;</p>
-        	  			</div>
-						</div>
+					   <div class="list2 chinaSimCard">
+						   <p class="mTitle30 fwb pin">蜻蜓移动中国卡<sup>*</sup>
+							   <input type="checkbox" id="chinaSimCardCheckbox4" ng-click="checkChinaSimEx()">
+							   <label for="chinaSimCardCheckbox4" class="org mTitle26 chinaSimCardCheckboxLabel4" ng-click="checkChinaSimEx()">$1.00/线/月</label>
+						   </p>
+						   <p class="mTitle24">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
+
+					   </div>
+					   <p class="chinaSimLastFeatures mTitle26 pin">
+						   <span class="countryCheck3">无限流量<sup>*</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						   <span class="countryCheck3">无限通话<sup>&nbsp;</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						   <span class="countryCheck3">无限短信<sup>&nbsp;</sup></span>
+					   </p>
         	  	   </div>
         	  	</div>
         	  </div>
@@ -326,9 +334,6 @@
         	<div class="bbPlanOther" style="">
        	      <div class="planOtherBox">
         	     <div class="planRefund">
-       	            <div class="mPlanCompare showM">
-                        <p class="title24 mTitle32 fwb"><a class="linkOrange" href="bbcompare.html" target="_blank"><span class="sans">iTalkBB</span>蜻蜓电话计划比较</a></p>
-		            </div>
                      <p class="title36 mTitle44 fwb">北美最大最可靠的<br class="showM"><span class="sans">4G LTE</span>网络</p>
 			     </div>
        	      </div>
