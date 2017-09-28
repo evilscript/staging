@@ -1,136 +1,121 @@
 .carousel-caption .bandRight {
     margin-left: 3%;
 }
+.bannerTitle2 {
+    padding-left: 4%;
+}
 .sectionTitle {
-    font-size: 48px;
-    padding-top: 13%;
+    padding-top: 10%;
     color: #222222;
     line-height: 1.5;
-    font-weight: 800;
+}
+.informationBar {
+    margin-left: 4%;
+}
+.bannerButton{
+    margin-left:4%;
+}
+.bannerBgSection {
+    background: url(../images/index/chs_bannerPriceImg.png) no-repeat top left;
+    background-size: 11%;
+    background-position-x: 45%;
+}
+.textLeftBottonEnglish{
+    color:white;
+    position: absolute;
+    left: -10%;
 }
 .sectionText {
-    font-size: 24px;
     line-height: 1.3;
     color: #333333;
-    font-weight: 500;
     border-bottom:1px solid #d2d2d2;
 }
 .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4,
 .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4,
 .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4,
 .s5iconText1, .s5iconText2, .s5iconText3{
-    font-size: 20px;
     color: #333333;
-    font-weight: 500;
-    padding-left: 7%;
+    padding-left: 8%;
     margin-bottom: 0;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
 .s2iconText1{
     background: url(../images/index/s2icon1.png) no-repeat top left;
-    background-size: 5.5%;
     background-position-y: 53%;
 }
 .s2iconText2{
-    background: url(../images/index/s2icon2.png) no-repeat top left;
-    background-size: 5.5%;
+    background: url(../images/index/s2icon3.png) no-repeat top left;
     background-position-y: 53%;
 }
 .s2iconText3{
-    background: url(../images/index/s2icon3.png) no-repeat top left;
-    background-size: 5.5%;
+    background: url(../images/index/s2icon2.png) no-repeat top left;
     background-position-y: 53%;
 }
 .s2iconText4{
     background: url(../images/index/s2icon4.png) no-repeat top left;
-    background-size: 5.5%;
     background-position-y: 53%;
 }
 .s3iconText1{
     background: url(../images/index/s3icon1.png) no-repeat top left;
-    background-size: 5.5%;
     background-position-y: 53%;
 }
 .s3iconText2{
-    background: url(../images/index/s3icon2.png) no-repeat top left;
-    background-size: 5.5%;
+    background: url(../images/index/s3icon3.png) no-repeat top left;
     background-position-y: 53%;
 }
 .s3iconText3{
-    background: url(../images/index/s3icon3.png) no-repeat top left;
-    background-size: 5.5%;
+    background: url(../images/index/s3icon2.png) no-repeat top left;
     background-position-y: 53%;
 }
 .s3iconText4{
     background: url(../images/index/s3icon4.png) no-repeat top left;
-    background-size: 5.5%;
     background-position-y: 53%;
 }
 .s4iconText1{
     background: url(../images/index/chs_s4icon1.png) no-repeat top left;
-    background-size: 5.5%;
     background-position-y: 53%;
 }
 .s4iconText2{
     background: url(../images/index/s4icon2.png) no-repeat top left;
-    background-size: 5.5%;
     background-position-y: 53%;
 }
 .s4iconText3{
     background: url(../images/index/chs_s4icon3.png) no-repeat top left;
-    background-size: 5.5%;
     background-position-y: 53%;
 }
 .s4iconText4{
     background: url(../images/index/s4icon4.png) no-repeat top left;
-    background-size: 5.5%;
     background-position-y: 53%;
 }
 .knowMoreText p {
     margin-bottom: 13%;
 }
 .bandButton {
-    font-size: 28px;
     margin-top:28%;
 }
-.bandLeftS3 {
-    width: 59%;
-}
 .knowMoreText5 p{
-    margin-bottom:21%;
+    margin-bottom: 24%;
 }
 .contactTitle {
-    font-size: 48px;
-    font-weight: 300;
     color: #222222;
-    padding-top: 6%;
 }
 .contactSubTitle {
-    font-size: 24px;
     text-align: center;
-    font-weight: 300;
     color: #333333;
 }
 .s6IconText {
-    font-size: 17px;
     color: #333333;
     padding-left: 37%;
     background-position-x: 32%;
 }
 .subscribeTitle {
-    font-size: 48px;
-    font-weight: 300;
     color: #222222;
-}
-.subscribeSubTitle {
-    font-size: 24px;
 }
 .bannerButton{
     margin-left:4%;
 }
 .bannerTitle1 {
-    font-size: 56px;
     padding-left: 4%;
     margin-top: 5%;
     line-height: 1.1;
@@ -141,174 +126,55 @@
     background-size: 9.5%;
     background-position-x: 40%;
 }
+.s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3{
+    background-size:8%;
+}
+
+@media (max-width:1800px) {
+    .bannerBgSection {
+        background-position-x: 48%;
+    }
+    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3{
+        padding-left:9%;
+    }
+}
 
 @media (max-width:1700px) {
     .bannerTitleCombine {
         background-size: 8%;
         background-position-x: 42%;
     }
+    .bannerBgSection {
+        background-position-x: 52%;
+    }
 }
 
 @media (max-width:1600px) {
-    .bannerTitle1 {
-        font-size: 50px;
-    }
-    .bannerTitle2 {
-        font-size: 26px;
-    }
-    .bannerButton {
-        font-size: 24px;
-    }
     .bannerTitleCombine {
         background-size: 9%;
         background-position-x: 40%;
     }
-    .sectionTitle {
-        font-size: 44px;
-    }
-    .sectionText {
-        font-size: 20px;
-    }
-    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
-        font-size: 18px;
-    }
-    .knowMoreText {
-        font-size: 18px;
-    }
-    .contactTitle, .subscribeTitle {
-        font-size: 44px;
-    }
-    .contactSubTitle, .subscribeSubTitle {
-        font-size: 20px;
-    }
-    .s6IconText {
-        font-size: 14px;
-    }
-    .emailBar, .submitButton {
-        font-size: 16px;
+    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3{
+        padding-top:3%;
+        padding-bottom:3%;
     }
 }
 
 @media (max-width:1500px) {
-    .bannerTitle1 {
-        font-size: 48px;
-    }
-    .s6IconText {
-        font-size: 14px;
-    }
-    .contactTitle {
-        font-size: 44px;
-    }
-    .contactSubTitle {
-        font-size: 20px;
-    }
-    .subscribeTitle {
-        font-size: 44px;
-    }
-    .subscribeSubTitle {
-        font-size: 20px;
-    }
 }
 
 @media (max-width:1400px) {
-    .bannerTitle1 {
-        font-size: 42px;
-    }
-    .bannerTitle2 {
-        font-size: 22px;
-    }
-    .bannerButton {
-        font-size: 20px;
-    }
-    .bandButton {
-        font-size: 22px;
-    }
-    .sectionTitle {
-        font-size: 40px;
-    }
-    .sectionText {
-        font-size: 18px;
-    }
-    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
-        font-size: 16px;
-    }
-    .knowMoreText {
-        font-size: 16px;
-    }
-    .contactTitle {
-        font-size: 40px;
-    }
-    .contactSubTitle {
-        font-size: 20px;
-    }
-    .s6IconText {
-        font-size: 12px;
-    }
-    .subscribeTitle {
-        font-size: 40px;
-    }
-    .subscribeSubTitle {
-        font-size: 20px;
-    }
-    .emailBar {
-        font-size: 16px;
-    }
-    .submitButton {
-        font-size: 16px;
+    .bannerBgSection {
+        background-position-x: 47%;
     }
 }
 
 @media (max-width:1300px){
-    .bannerTitle1 {
-        font-size: 3vw;
-    }
-    .bannerTitle2 {
-        font-size: 1.6vw;
-    }
-    .bannerButton {
-        font-size: 1.3vw;
-    }
-    .sectionTitle {
-        font-size: 3.2vw;
-    }
-    .sectionText {
-        font-size: 1.3vw;
-    }
-    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
-        font-size: 1.2vw;
-    }
-    .knowMoreText {
-        font-size: 1.2vw;
-    }
-    .bandButton {
-        font-size: 1.7vw;
-    }
-    .contactTitle {
-        font-size: 3.2vw;
-    }
-    .contactSubTitle {
-        font-size: 1.6vw;
-    }
-    .s6IconText {
-        font-size: 0.9vw;
-    }
-    .subscribeTitle {
-        font-size: 3.2vw;
-    }
-    .subscribeSubTitle {
-        font-size: 1.6vw;
-    }
-    .emailBar {
-        font-size: 1.2vw;
-    }
-    .submitButton {
-        font-size: 1.2vw;
-    }
+
 }
 
-@media (min-width:768px) and (max-width:992px) {
+@media (min-width:768px) and (max-width:1000px) {
     .bannerTitle1 {
-        font-size: 3vw;
         margin-top: 4%;
         line-height: 1.3;
     }
@@ -316,75 +182,69 @@
         background-size: 10%;
     }
     .bannerButton {
-        font-size: 2vw;
         padding: 0.5% 1%;
     }
     .sectionTitle {
-        font-size: 4vw;
         margin-bottom: 0;
         padding-top: 7%;
     }
     .sectionText {
-        font-size: 2vw;
         width:95%;
     }
-    .s2iconText1, .s2iconText2, .s2iconText3, .s2iconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
-        font-size: 1.6vw;
-    }
-    .knowMoreText {
-        font-size: 1.5vw;
-    }
     .bandButton {
-        font-size: 2vw;
         width: 100%;
         margin-top: 27%;
     }
     .contactTitle, .subscribeTitle {
-        font-size: 4vw;
         padding-top: 4%;
     }
-    .contactSubTitle, .subscribeSubTitle {
-        font-size: 2vw;
-    }
     .s6IconText {
-        font-size: 1.5vw;
         padding-left: 35%;
         background-position-x: 28%;
     }
-    .emailBar {
+    .bannerBgSection {
+        background-position-x: 52%;
+    }
+    .title24 {
         font-size: 2vw;
     }
-    .submitButton {
-        font-size: 2vw;
-    }
-
-
-
-
-
-
 }
 
 @media (max-width:767px) {
     .bannerTitle1 {
-        font-size: 6.2vw;
         line-height: 1.2;
         margin-top: 1%;
     }
     .bannerTitle2 {
-        font-size: 3.4vw;
         line-height: 1;
     }
     .bannerButton {
-        font-size: 3.2vw;
-        margin-left: 25%;
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    .bannerTitle2 {
+        line-height: 1.3;
+        text-align: center;
     }
     .sectionTitle {
-        font-size: 7vw;
         padding-top: 7%;
     }
-    .sectionText {
-        font-size: 4vw;
+    .informationBar {
+        width: 75%;
+        margin-top: 5%;
+    }
+    .bannerBgSection {
+        background-position: 100% 100%;
+        background-size: 21%;
+    }
+    .mTitle68 {
+        font-size: 8.5vw;
+    }
+    .mTitle32 {
+        font-size: 3.8vw;
+    }
+    .mTitle28 {
+        font-size: 3.4vw;
     }
     .s2iconText1, .s2iconText3, .s2iconText2, .s2iconText4,
     .s3iconText1, .s3iconText3, .s3iconText2, .s3iconText4,
@@ -397,8 +257,6 @@
     .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4,
     .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4,
     .s5iconText1, .s5iconText2, .s5iconText3{
-        font-size: 3.2vw;
-        font-weight: 300;
         padding-left: 0;
         margin-bottom: 0;
         padding-top: 17%;
@@ -474,28 +332,8 @@
         padding-left: 7%;
         margin-bottom:5%;
     }
-    .contactTitle {
-        font-size: 7vw;
-    }
-    .subscribeTitle {
-        font-size: 7vw;
-    }
-    .contactSubTitle {
-        font-size: 3.6vw;
-    }
-    .subscribeSubTitle {
-        font-size: 3.6vw;
-    }
-    .emailBar {
-        font-size: 3vw;
-    }
-    .submitButton {
-        font-size: 3vw;
-    }
     .bandButton {
-        font-size: 3.6vw;
         width: 70%;
-        font-weight: 500;
         color: #ff7f00;
         background: white;
         padding: 2% 4%;
@@ -513,9 +351,17 @@
     .bandRightS3MobileEn{
         width:32%;
     }
-
-
-
+    .contactSubTitle{
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .s5Left .s6IconText, .s5Middle .s6IconText, .s5Right .s6IconText {
+        padding-left: 30%;
+        background-position-x: 20%;
+    }
+    .textLeftBottonEnglish {
+        font-size: 3vw;
+    }
 
 
 

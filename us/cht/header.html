@@ -23,7 +23,7 @@
                 <img src="../shared/images/header/headerSearch.png" class="img searchFunctionIcon" id="searchFunctionIcon" alt="">
             </div>
             <div class="header1Icon">
-                <a href="http://localhost:63342/CDT/staging/us/chs/sptQuery.html#kefu">
+                <a href="sptQuery.html?kefu">
                     <img src="../shared/images/header/headerTelephone.png" class="img" alt="">
                 </a>
             </div>
@@ -162,8 +162,8 @@
                 <div class="sitemapTextColumn contentBg2">
                     <p class="bgTitle pin">蜻蜓移動</p>
                     <p class="bgText pin">
-                        <a href="">產品計劃</a> <br>
-                        <a href="">信號覆蓋</a> <br>
+                        <a href="mobilePlan.html">產品計劃</a> <br>
+                        <a href="coverage.html">信號覆蓋</a> <br>
                         &nbsp;
                     </p>
                 </div>
@@ -205,12 +205,12 @@
                 <div class="footerSitemap">
                     <div class="footerColumn">
                         <p class="footerTitle pin"><span class="sans">iTalkBB</span>蜻蜓全球</p>
-                        <a href=""><p class="footerText pin">美國</p></a>
-                        <a href=""><p class="footerText pin">加拿大</p></a>
-                        <a href=""><p class="footerText pin">澳大利亞</p></a>
-                        <a href=""><p class="footerText pin">新加坡</p></a>
-                        <a href=""><p class="footerText pin">미국/한국어</p></a>
-                        <a href=""><p class="footerText pin">캐나다/한국어</p></a>
+                        <a href="index.html"><p class="footerText pin">美國</p></a>
+                        <a href="http://www.italkbb.com/ca/cht/index.html" target="_blank"><p class="footerText pin">加拿大</p></a>
+                        <a href="http://www.italkbb.com/au/cht/index.html" target="_blank"><p class="footerText pin">澳大利亞</p></a>
+                        <a href="http://www.italkbb.com/sg/chs/index.html" target="_blank"><p class="footerText pin">新加坡</p></a>
+                        <a href="http://www.italkbb.com/bb/koru/koru_service_Plans.asp" target="_blank"><p class="footerText pin">미국/한국어</p></a>
+                        <a href="http://www.italkbb.com/bb/korc/korc_service_Plans.asp" target="_blank"><p class="footerText pin">캐나다/한국어</p></a>
                     </div>
                     <div class="footerColumn">
                         <p class="footerTitle pin">關於我們</p>
@@ -268,8 +268,8 @@
             <div class="mobileHeader1"></div>
             <div class="mobileHeaderBlank"></div>
             <p class="closebtn closeMobileNav">&times;</p>
-            <a href=""><p class="mobileHeaderText2 pin">產品計劃</p></a>
-            <a href=""><p class="mobileHeaderText2 pin">信號覆蓋</p></a>
+            <a href="mobilePlan.html"><p class="mobileHeaderText2 pin">產品計劃</p></a>
+            <a href="coverage.html"><p class="mobileHeaderText2 pin">信號覆蓋</p></a>
         </div>
         <p class="mobileHeaderText pin">> &nbsp;&nbsp; 蜻蜓電視</p>
         <div class="mySidenav2 sidenav2" style="opacity:0;">
@@ -338,12 +338,12 @@
     </div>
     <div class="menu2" style="display:none;">
         <div class="container1920">
-            <a href="">
+            <a href="mobilePlan.html">
                 <p class="menu2Block pin menu201">
                     <img src="../shared/images/header/menuMobilePlan.png" class="img menu201img" alt="">產品計劃
                 </p>
             </a>
-            <a href="">
+            <a href="coverage.html">
                 <p class="menu2Block pin menu202">
                     <img src="../shared/images/header/menuMobileSignalCoverage.png" class="img menu202img" alt="">信號覆蓋
                 </p>
@@ -639,5 +639,35 @@
         $('.menu504img').attr('src','../shared/images/header/menuLoginBlue.png');
     }).mouseleave(function(){
         $('.menu504img').attr('src','../shared/images/header/menuLogin.png');
+    });
+    $('.contentBg1').mouseover(function(){
+        $(this).addClass('contentBg1Blue');
+    }).mouseleave(function(){
+        $(this).removeClass('contentBg1Blue');
+    });
+    $('.contentBg2').mouseover(function(){
+        $(this).addClass('contentBg2Blue');
+    }).mouseleave(function(){
+        $(this).removeClass('contentBg2Blue');
+    });
+    $('.contentBg3').mouseover(function(){
+        $(this).addClass('contentBg3Blue');
+    }).mouseleave(function(){
+        $(this).removeClass('contentBg3Blue');
+    });
+    $('.contentBg4').mouseover(function(){
+        $(this).addClass('contentBg4Blue');
+    }).mouseleave(function(){
+        $(this).removeClass('contentBg4Blue');
+    });
+    $('.contentBg5').mouseover(function(){
+        $(this).addClass('contentBg5Blue');
+    }).mouseleave(function(){
+        $(this).removeClass('contentBg5Blue');
+    });
+    $('.contentBg6').mouseover(function(){
+        $(this).addClass('contentBg6Blue');
+    }).mouseleave(function(){
+        $(this).removeClass('contentBg6Blue');
     });
 </script>

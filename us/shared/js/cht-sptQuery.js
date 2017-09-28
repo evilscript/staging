@@ -72,7 +72,7 @@ $(".button3").click(function(){
 
 
 			 	{"shopName":"Irvine",
-			   "shopaddress":"Address: <span class='pin'>爾灣市99大華超市廣場（老字號旁）</span> <br> 5414 Walnut Ave, Irvine, CA 92604",
+			   "shopaddress":"Address: <span class='pin'>爾灣市99大華超市廣場（老字號旁）</span> <br> 5414-D Walnut Ave, Irvine, CA 92604",
 			   "shoptime":"Hours: Mon - Sun, 11:00am - 7:00pm",
 			   "shopnum":"Tel: (949) 207-6825",
 			     "mapd":"https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=5414-D+Walnut+Ave.,+Irvine,+CA++92604&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=52.020054,114.169922&amp;ie=UTF8&amp;hq=&amp;hnear=5414+Walnut+Ave,+Irvine,+Orange,+California+92604&amp;t=m&amp;ll=33.697922,-117.767429&amp;spn=0.024993,0.057507&amp;z=14&amp;iwloc=A&amp;output=embed",
@@ -88,7 +88,7 @@ $(".button3").click(function(){
 
 
 			 	{"shopName":"Rowland Heights",
-			   "shopaddress":"Address: <span class='pin'>羅蘭崗99大華超市廣場內</span><br>  #113 1015 Nogales St. #113, Rowland Heights, CA 91748",
+			   "shopaddress":"Address: <span class='pin'>羅蘭崗99大華超市廣場內</span><br>1015 Nogales St. #113, Rowland Heights, CA 91748",
 			   "shoptime":"Hours: Mon - Sun, 11:00am - 7:30pm",
 			   "shopnum":"Tel: (626) 593-5866",
 			     "mapd":"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1015+Nogales+St.+%23113B,+Rowland+Heights,+CA+91748&amp;aq=&amp;sll=34.123873,-118.059262&amp;sspn=0.007327,0.013937&amp;ie=UTF8&amp;hq=&amp;hnear=1015+Nogales+St,+Rowland+Heights,+Los+Angeles,+California+91748&amp;t=m&amp;ll=34.015388,-117.878323&amp;spn=0.049801,0.115013&amp;z=13&amp;iwloc=A&amp;output=embed",
@@ -157,7 +157,7 @@ $(".button3").click(function(){
 
 
 				{"shopName":"NY Flagship Store",
-			   "shopaddress":"Address: <span class='pin'>法拉盛緬街（中國銀行旁）</span><br>  42–35 Main Street, Unit 1E, Flushing, NY 11355",
+			   "shopaddress":"Address: <span class='pin'>法拉盛緬街（中國銀行旁）</span><br>  42-35 Main Street, Unit 1E, Flushing, NY 11355",
 			   "shoptime":"Hours: Mon - Sun, 9:30am - 8:30pm",
 			   "shopnum":"Tel: (718) 888-0068",
 			     "mapd":"http://ditu.google.cn/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=42%E2%80%9335+Main+Street,+Unit+1E,+Flushing,+NY+11355&amp;aq=&amp;sll=40.695215,-73.912102&amp;sspn=1.734618,3.56781&amp;brcurrent=3,0x0:0x0,0%3B5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=42-35+Main+St,+Flushing,+New+York+11355%E7%BE%8E%E5%9B%BD&amp;t=m&amp;ll=40.754409,-73.827868&amp;spn=0.022756,0.057507&amp;z=14&amp;iwloc=A&amp;output=embed",
@@ -171,7 +171,7 @@ $(".button3").click(function(){
 			 	"pic":[{'str':"../shared/images/shoppic/NYS1.jpg"},{'str':"../shared/images/shoppic/NYS2.jpg"}]},
 			   
 			   	{"shopName":"Main St, Flushing",
-			   "shopaddress":"Address: <span class='pin'>法拉盛緬街昌發超市內</span> <br> 4182 Main St, Flushing, NY 11355",
+			   "shopaddress":"Address: <span class='pin'>法拉盛緬街昌發超市內</span> <br> 41-82 Main St, Flushing, NY 11355",
 			   "shoptime":"Hours: Mon - Sun, 9:30am - 6:30pm",
 			   "shopnum":"Tel: (718) 888-0168",
 			     "mapd":"http://ditu.google.cn/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4182+Main+Street,+Flushing,+NY+11355&amp;aq=&amp;sll=39.90403,116.407526&amp;sspn=0.875426,1.783905&amp;brcurrent=3,0x0:0x0,0%3B5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=41-82+Main+St,+Queens,+New+York+11355%E7%BE%8E%E5%9B%BD&amp;t=m&amp;ll=40.761691,-73.825035&amp;spn=0.022754,0.057507&amp;z=14&amp;iwloc=A&amp;output=embed",

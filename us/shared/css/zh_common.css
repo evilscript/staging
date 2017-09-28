@@ -108,7 +108,15 @@ input:focus{ outline:none;}
     font-family: 'avenir';
     src: url('../fonts/Avenir/Avenir-Medium.woff') format('woff'),
          url('../fonts/Avenir/Avenir-Medium.ttf') format('truetype');
-    font-weight: 300;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avenir';
+    src: url('../fonts/Avenir/Avenir-Bold.woff') format('woff'),
+    url('../fonts/Avenir/Avenir-Bold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
 .avenir{font-family: 'avenir', Arial, sans-serif;}
@@ -521,11 +529,21 @@ input:focus{ outline:none;}
     background-size:25%;
     padding-top: 2%;
 }
+.contentBg1Blue{
+    background:url("../images/header/sitemapIcon1Blue.png") no-repeat left top;
+    background-position-y:50%;
+    background-size:25%;
+}
 .contentBg2{
     background:url("../images/header/sitemapIcon2.png") no-repeat left top;
     background-position-y:50%;
     background-size:25%;
     padding-top: 2%;
+}
+.contentBg2Blue{
+    background:url("../images/header/sitemapIcon2Blue.png") no-repeat left top;
+    background-position-y:50%;
+    background-size:25%;
 }
 .contentBg3{
     background:url("../images/header/sitemapIcon3.png") no-repeat left top;
@@ -533,11 +551,21 @@ input:focus{ outline:none;}
     background-size:25%;
     padding-top: 2%;
 }
+.contentBg3Blue{
+    background:url("../images/header/sitemapIcon3Blue.png") no-repeat left top;
+    background-position-y:50%;
+    background-size:25%;
+}
 .contentBg4{
     background:url("../images/header/sitemapIcon4.png") no-repeat left top;
     background-position-y:50%;
     background-size:25%;
     padding-top: 2%;
+}
+.contentBg4Blue{
+    background:url("../images/header/sitemapIcon4Blue.png") no-repeat left top;
+    background-position-y:50%;
+    background-size:25%;
 }
 .contentBg5{
     background:url("../images/header/sitemapIcon5.png") no-repeat left top;
@@ -545,11 +573,21 @@ input:focus{ outline:none;}
     background-size:25%;
     padding-top: 2%;
 }
+.contentBg5Blue{
+    background:url("../images/header/sitemapIcon5Blue.png") no-repeat left top;
+    background-position-y:50%;
+    background-size:25%;
+}
 .contentBg6{
     background:url("../images/header/sitemapIcon6.png") no-repeat left top;
     background-position-y:70%;
     background-size:25%;
     padding-top: 2%;
+}
+.contentBg6Blue{
+    background:url("../images/header/sitemapIcon6Blue.png") no-repeat left top;
+    background-position-y:70%;
+    background-size:25%;
 }
 .footerSitemap {
     padding-left: 15%;
@@ -648,7 +686,7 @@ input:focus{ outline:none;}
 .bbb {
     width: 6%;
     margin-left: 47%;
-    margin-top: 1%;
+    margin-top: 0%;
 }
 
 
@@ -1302,6 +1340,20 @@ input:focus{ outline:none;}
         margin-right: 5%;
         padding-toP: 2%;
         padding-bottom: 3%;
+    }
+    .bbb {
+        width: 25%;
+        margin-left: 37.5%;
+        margin-top: 0;
+    }
+    .disclaimer {
+        padding-bottom: 0;
+    }
+    .specialDisclaimer{
+        padding-bottom: 30%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2%;
     }
 }
 
