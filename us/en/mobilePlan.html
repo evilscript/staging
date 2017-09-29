@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="UTF-8">
+	<title>iTalkBB蜻蜓移動-產品計劃</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="copyright" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+	<meta name="apple-itunes-app" content="app-id=514896649">
+
+	<link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+	<link rel="stylesheet" type="text/css"  href="../shared/css/zh_bbPlan.css">
+	<link rel="stylesheet" type="text/css"  href="../shared/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css"  href="../shared/css/reveal.css">
+	<link rel="stylesheet" type="text/css"  href="../shared/css/en_common.css">
+	<link rel="stylesheet" type="text/css"  href="../shared/css/zh_mobilePlan.css">
+	<link rel="stylesheet" type="text/css"  href="../shared/css/en_mobilePlan.css">
+	<style>
+		.body, .pin{font-family:'open sans',sans-serif;}
+	</style>
+
+	<script src="../shared/js/jquery-1.12.4.min.js"></script>
+	<script src="../shared/js/jquery-1.7.2.min.js"></script>
+	<script src="../shared/js/jquery.reveal.js"></script>
+	<script src="../shared/js/angular-1.6.4.min.js"></script>
+	<script src="../shared/js/bootstrap.min.js"></script>
+	<script src="../shared/js/imageMapResizer.js"></script>
+	<script src="../shared/js/common.js"></script>
+	<script src="../shared/js/AmyInterim.js"></script>
+	<!-- 電話查詢 -->
+	<script src="../shared/js/italkbb.tools.js"></script>
+	<script src="../shared/js/colorbox.js"></script>
+	<script src="../shared/js/mobilePlanPriceDisplay.js"></script>
+	<style>
+		.content_search_box_tel_none{display: none}
+		.orange a{color: #ff7f00}
+		.input_small{text-align: center;}
+		@media (max-width:767px){
+
+		}
+	</style>
+</head>
+
+
+<body  ng-app="mobilePlanApp" ng-controller="mobilePlanController" >
+<!-- Author: Carson, Partially copied from Amy -->
+<div id="header"></div>
+
+<!--main content begin-->
+<div class="mainLayout">
+	<section class="bannerAll">
+		<div class="bannerText">
+			<p class="title60 mTitle60 pin fwb bannerTitle">iTalkBB Mobile</p>
+			<p class="title28 mTitle36 pin bannerSubTitle">
+				<span>The Best Value National/International Mobile Plans</span>
+				<span>Premium Quality At the Lowest Price</span>
+			</p>
+		</div>
+	</section>
+
+	<section class="mainMgnTop">
+		<div class="mainMgn100">
+			<div class="lineOrange"></div>
+		</div>
+		<div class="mainMgn100">
+			<!-- bbPlan PC begin-->
+			<div class="bbPlan hideM" id="planPoint">
+				<p class="planTitleBig title42 fwb pin" id="tit">Choose Your Mobile Plan</p>
+
+
+
+				<div class="ifCustomerLeft">
+					<p class="ifCustomerLeftText ifCustomerSelected pin title24 mTitle32 fwb" ng-click="isNotUser();">New Users</p>
+				</div>
+				<div class="ifCustomerRight">
+					<p class="ifCustomerRightText pin title24 mTitle32 fwb" ng-click="isUser();">Current Users</p>
+				</div>
+				<div class="clear clearfix"></div>
+
+				<p class="lineSelectTitle title24 mTitle32 pin">Chosse Lines</p>
+
+				<div style="position:relative;">
+					<div class="lineSelect">
+						<p class="title18 pin mTitle26 lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span> Line</p>
+						<p class="title18 pin mTitle26 lineSelectText line2" ng-click="line2()"><span class="sans">2</span> Lines</p>
+						<p class="title18 pin mTitle26 lineSelectText line3" ng-click="line3()"><span class="sans">3</span> Lines</p>
+						<p class="title18 pin mTitle26 lineSelectText line4" ng-click="line4()"><span class="sans">4</span> Lines</p>
+						<p class="title18 pin mTitle26 lineSelectText line5" ng-click="line5()"><span class="sans">5</span> Lines</p>
+						<p class="title18 pin mTitle26 lineSelectText line6" ng-click="line6()"><span class="sans">6</span> Lines</p>
+						<div class="clear clearfix"></div>
+					</div>
+				</div>
+
+				<div class="planBox clearfix">
+					<div class="planCon">
+						<div class="planUpper" id="up1">
+							<div class="titleBox clearfix">
+								<p class="title36 fwb pin">Best Value</p>
+							</div>
+							<div class="planText">
+								<p class="title24 sans org planNameSubtitle">1G @ 4G LTE</p>
+								<div class="priceBox priceBox1 avenir clearfix">
+									<p class="dollar title60">$</p>
+									<p class="priceBig title140">{{plan1_int}}</p>
+									<p class="priceSmall title70 pin">
+										<span class="smallNom"><span class="trans">.00</span>{{plan1_dec}}</span>
+										<span class="smallSub title36 pin">/mo<sup><sup class="sans">1</sup></sup></span>
+									</p>
+								</div>
+								<div class="textBox">
+									<p class="title18 pin">
+										<span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
+										<span class="textHot">Join Free for 30 Days, Free Shipping</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="planList" id="down1">
+							<div class="planBtn">
+								<a href=""><p class="button title30 pin">Select Plan</p></a>
+							</div>
+							<div class="clear clearfix"></div>
+							<div class="list1 chinaSimCard">
+								<p class="title22 fwb pin">China SIM Card<sup class="sans">2</sup>
+									<input type="checkbox" id="chinaSimCardCheckbox" ng-click="checkChinaSimEx()">
+									<label for="chinaSimCardCheckbox" class="org title18 chinaSimCardCheckboxLabel" ng-click="checkChinaSimEx()">$1.00/line/mo</label>
+								</p>
+								<p class="title16 pin">It comes activated ready for use without activation once you arrive in China. It also provides unlimited local calls and data in China.
+                                </p>
+
+							</div>
+							<p class="chinaSimLastFeatures title18 pin">
+								<span class="countryCheck3">Unlimited Data<sup class="sans">3</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="countryCheck3">Unlimited Call<sup>&nbsp;</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="countryCheck3">Unlimited Text<sup>&nbsp;</sup></span>
+							</p>
+						</div>
+					</div>
+					<div class="planSpace hideM">
+						<a href="#" class="big-link" data-reveal-id="planFormCompare">
+							<div class="planCompare">
+								<img src="../shared/images/mobile/transparent_placeholder.png"/>
+							</div>
+						</a>
+					</div>
+					<!--from begin-->
+					<div class="planForm">
+						<div id="planFormCompare" class="reveal-modal ccclose">
+							<div class="planFormCon">
+								<div id="bbFromCom"></div>
+							</div>
+							<a class="close-reveal-modal" style="text-decoration:none">&#215;</a>
+						</div>
+					</div>
+					<!--from end-->
+					<div class="planCon plan2">
+						<div class="planUpper" id="up2">
+							<div class="titleBox titleBox2 clearfix">
+								<p class="title36 fwb pin">Extreme Value</p>
+							</div>
+							<div class="planText">
+								<p class="title24 sans org planNameSubtitle2">5G @ 4G LTE</p>
+								<div class="priceBox priceBox2 avenir clearfix">
+									<p class="dollar title60">$</p>
+									<p class="priceBig title140">{{plan2_int}}</p>
+									<p class="priceSmall title70">
+										<span class="smallNom"><span class="trans">.00</span>{{plan2_dec}}</span>
+										<span class="smallSub title36 pin">/mo<sup><sup class="sans">1</sup></sup></span>
+									</p>
+								</div>
+								<div class="textBox">
+									<p class="title18">
+										<span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
+										<span class="textHot pin">Join Free for 30 Days, Free Shipping</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="planList planList2" id="down2">
+							<div class="planBtn">
+								<a href=""><p class="button title30 pin">Select Plan</p></a>
+							</div>
+							<div class="clear clearfix"></div>
+							<div class="list2 chinaSimCard">
+								<p class="title22 fwb pin">China SIM Card<sup class="sans">2</sup>
+									<input type="checkbox" id="chinaSimCardCheckbox2" ng-click="checkChinaSimEx()">
+									<label for="chinaSimCardCheckbox2" class="org title18 chinaSimCardCheckboxLabel2" ng-click="checkChinaSimEx()">$1.00/line/mo</label>
+								</p>
+								<p class="title16 pin">It comes activated ready for use without activation once you arrive in China. It also provides unlimited local calls and data in China.</p>
+
+							</div>
+							<p class="chinaSimLastFeatures title18 pin">
+								<span class="countryCheck3">Unlimited Data<sup class="sans">3</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="countryCheck3">Unlimited Call<sup>&nbsp;</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="countryCheck3">Unlimited Text<sup>&nbsp;</sup></span>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- bbPlan PC End-->
+
+			<!-- bbPlan Phone begin-->
+			<div class="bbPlan showM">
+				<p class="planTitleBig title42 mTitle50 fwb pin">Choose Your Mobile Plan</p>
+
+				<div class="ifCustomerLeft">
+					<p class="ifCustomerLeftText ifCustomerSelected pin title24 mTitle32 fwb" ng-click="isNotUser();">New Users</p>
+				</div>
+				<div class="ifCustomerRight">
+					<p class="ifCustomerRightText pin title24 mTitle32 fwb" ng-click="isUser();">Current Users</p>
+				</div>
+				<div class="clear clearfix"></div>
+
+				<p class="lineSelectTitle title24 mTitle32 pin">Choose Lines</p>
+
+				<div style="position:relative;">
+					<div class="lineSelect">
+						<p class="title18 pin mTitle26 lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span> line</p>
+						<p class="title18 pin mTitle26 lineSelectText line2" ng-click="line2()"><span class="sans">2</span> lines</p>
+						<p class="title18 pin mTitle26 lineSelectText line3" ng-click="line3()"><span class="sans">3</span> lines</p>
+						<p class="title18 pin mTitle26 lineSelectText line4" ng-click="line4()"><span class="sans">4</span> lines</p>
+						<p class="title18 pin mTitle26 lineSelectText line5" ng-click="line5()"><span class="sans">5</span> lines</p>
+						<p class="title18 pin mTitle26 lineSelectText line6" ng-click="line6()"><span class="sans">6</span> lines</p>
+						<div class="clear clearfix"></div>
+					</div>
+				</div>
+
+
+
+
+
+
+				<div class="mSwiperBox mNewswiper2">
+					<div class="planBox mSwiper-wrapper clearfix">
+						<div class="planCon plan1 mSwiper-slide" >
+							<div class="planUpper">
+								<div class="titleBox clearfix">
+									<p class="mTitle44 fwb pin">Best Value</p>
+								</div>
+								<div class="planText">
+									<p class="mTitle30 sans org planNameSubtitle">1G @ 4G LTE</p>
+									<div class="priceBox priceBox1 avenir clearfix">
+										<p class="dollar title60 mTitle68">$</p>
+										<p class="priceBig title140 mTitle162">{{plan1_int}}</p>
+										<p class="priceSmall title70 mTitle78">
+											<span class="smallNom"><span class="trans">.00</span>{{plan1_dec}}</span>
+											<span class="smallSub title36 mTitle44 pin">/mo<sup><sup class="sans">1</sup></sup></span>
+										</p>
+									</div>
+									<div class="textBox">
+										<p class="title18 mTitle26">
+											<span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
+											<span class="textHot pin">Join Free for 30 Days, Free Shipping</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="planList">
+								<div class="planBtn">
+									<a href=""><p class="button title30 mTitle38 pin">Select Plan</p></a>
+								</div>
+								<div class="clear clearfix"></div>
+								<div class="list1 chinaSimCard">
+									<p class="mTitle30 fwb pin">China Sim Card<sup class="sans">2</sup>
+                                        <br>
+										<input type="checkbox" id="chinaSimCardCheckbox3" ng-click="checkChinaSimEx()">
+										<label for="chinaSimCardCheckbox3" class="org mTitle26 chinaSimCardCheckboxLabel3" ng-click="checkChinaSimEx()">$1.00/line/mo</label>
+									</p>
+									<p class="mTitle24 pin">It comes activated ready for use without activation once you arrive in China. It also provides unlimited local calls and data in China.</p>
+
+								</div>
+								<p class="chinaSimLastFeatures mTitle26 pin">
+									<span class="countryCheck3">Unlimited Data<sup class="sans">3</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="countryCheck3">Unlimited Call<sup>&nbsp;</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="countryCheck3">Unlimited Text<sup>&nbsp;</sup></span>
+								</p>
+							</div>
+						</div>
+						<div class="planCon plan2 mSwiper-slide">
+							<div class="planUpper">
+								<div class="titleBox titleBox2 clearfix">
+									<p class="title36 mTitle44 fwb pin">Extreme Value</p>
+								</div>
+								<div class="planText">
+									<p class="mTitle30 sans org planNameSubtitle2">5G @ 4G LTE</p>
+									<div class="priceBox priceBox2 avenir clearfix">
+										<p class="dollar title60 mTitle68">$</p>
+										<p class="priceBig title140 mTitle162">{{plan2_int}}</p>
+										<p class="priceSmall title70 mTitle78">
+											<span class="smallNom"><span class="trans">.00</span>{{plan2_dec}}</span>
+											<span class="smallSub title36 mTitle44 pin">/mo<sup><sup class="sans">1</sup></sup></span>
+										</p>
+									</div>
+									<div class="textBox">
+										<p class="title18 mTitle26">
+											<span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
+											<span class="textHot pin">Join Free for 30 Days, Free Shipping</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="planList planList2">
+								<div class="planBtn">
+									<a href=""><p class="button title30 mTitle38 pin">Select Plan</p></a>
+								</div>
+								<div class="clear clearfix"></div>
+								<div class="list2 chinaSimCard">
+									<p class="mTitle30 fwb pin">China Sim Card<sup class="sans">2</sup>
+                                        <br>
+                                        <input type="checkbox" id="chinaSimCardCheckbox4" ng-click="checkChinaSimEx()">
+										<label for="chinaSimCardCheckbox4" class="org mTitle26 chinaSimCardCheckboxLabel4" ng-click="checkChinaSimEx()">$1.00/line/mo</label>
+									</p>
+									<p class="mTitle24 pin">It comes activated ready for use without activation once you arrive in China. It also provides unlimited local calls and data in China.</p>
+
+								</div>
+								<p class="chinaSimLastFeatures mTitle26 pin">
+									<span class="countryCheck3">Unlimited Data<sup class="sans">3</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="countryCheck3">Unlimited Call<sup>&nbsp;</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<span class="countryCheck3">Unlimited Text<sup>&nbsp;</sup></span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- Add Arrows -->
+					<div class="mSwiper-button-next mSwiper-button-next2"></div>
+					<div class="mSwiper-button-prev mSwiper-button-prev2"></div>
+				</div>
+			</div>
+			<!--  bbPlan Phone End-->
+
+			<!--  bbPlan Others Begin-->
+			<div class="bbPlanOther" style="">
+				<div class="planOtherBox">
+					<div class="planRefund">
+						<p class="title36 mTitle44 fwb pin">The Largest 4G LTE Cell Network in the U.S.</p>
+					</div>
+				</div>
+				<div class="planIcons">
+					<div class="iconsBox clearfix">
+						<div class="iconCon iconCon1">
+							<p class="titleMgnBtm text16 mText22"></p>
+						</div>
+						<div class="iconCon iconCon2">
+							<p class="titleMgnBtm text16 mText22"></p>
+						</div>
+						<div class="iconCon iconCon3">
+							<p class="titleMgnBtm text16 mText22 pin">Unlimited Data<sup class="sans">3</sup></p>
+						</div>
+						<div class="iconCon iconCon4">
+							<p class="titleMgnBtm text16 mText22 pin">Unlimited Call/Text</p>
+						</div>
+						<div class="iconCon iconCon5">
+							<p class="titleMgnBtm text16 mText22 pin">U.S./China Sim Cards</p>
+						</div>
+						<div class="iconCon iconCon6">
+							<p class="titleMgnBtm text16 mText22 pin">International Calls</p>
+						</div>
+						<div class="iconCon iconCon7">
+							<p class="titleMgnBtm text16 mText22"></p>
+						</div>
+						<div class="iconCon iconCon8">
+							<p class="titleMgnBtm text16 mText22"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- bbPlan Others End-->
+		</div>
+	</section>
+
+	<section class="dataComparison">
+		<p class="title36 mTitle44 pin dataComparisonTitle fwb">Life is Good Everywhere</p>
+		<p class="title18 mTitle26 pin dataComparisonSubTitle">iTalkBB Mobile provides data at very high speeds, up to 5G @ LTE.</p>
+		<div class="dataComparisonLeft">
+			<img src="../shared/images/mobile/what_to_do_1G_data.png" class="img" alt="">
+		</div>
+		<div class="dataComparisonRight">
+			<img src="../shared/images/mobile/what_to_do_5G_data.png" class="img" alt="">
+		</div>
+		<div class="clear clearfix"></div>
+		<p class="title16 mTitle24 pin dataComparisonComments">Source: Xinhua News Agent</p>
+	</section>
+
+	<section class="twoCountriesPlan">
+        <p class="title36 mTitle44 pin twoCountriesPlanTitle fwb">U.S. SIM Card & China SIM Card<sup><sup class="sans">4</sup></sup>: One Plan Covers Two Countries</p>
+		<p class="title18 mTitle26 pin twoCountriesPlanSubTitle">iTalkBB Mobile offers you both a local U.S. and a local China SIM card on one plan. The U.S. SIM card is for you to use while in the United States, and the China SIM card is for you to use while in China. The two SIM cards share one mobile phone plan, so you can enjoy unlimited local calls, text and data whether you are in the U.S. or in China.</p>
+		<div class="twoCountriesPlanLeft">
+			<img src="../shared/images/mobile/US_sim_card_features.jpg" class="img w100" alt="">
+			<p class="title24 mTitle32 pin fwb inUSTitle">When Using the U.S. SIM Card in the U.S.</p>
+			<p class="title18 mTitle26 pin inUSTitleList">You can enjoy unlimited local calls, text and high-speed data<sup class="sans">3</sup>.</p>
+			<p class="title18 mTitle26 pin inUSTitleList">When friends and relatives in China call your Chinese mobile phone number, the calls will automatically be transferred to your U.S. mobile phone, and your families and friends in China only pay local call fees.</p>
+			<p class="title18 mTitle26 pin inUSTitleList">When you use the U.S. SIM card in the U.S., you can also receive text messages and verification codes from China! Even if you are in the U.S., you can conveniently and easily handle any business from China!</p>
+		</div>
+		<div class="twoCountriesPlanRight">
+			<img src="../shared/images/mobile/China_sim_card_features.jpg" class="img w100" alt="">
+			<p class="title24 mTitle32 pin fwb inUSTitle">When Using the China SIM Card in China</p>
+			<p class="title18 mTitle26 pin inUSTitleList">You can enjoy unlimited local calls, text and high-speed data.</p>
+			<p class="title18 mTitle26 pin inUSTitleList">When you use the China SIM card in China, you can also receive calls from your U.S. SIM card. Friends and families in the U.S. calling your U.S. mobile phone number will automatically be transferred to your Chinese mobile phone number at no additional cost.</p>
+		</div>
+		<div class="clear clearfix"></div>
+
+	</section>
+
+	<section class="multipleCountries">
+		<p class="title36 mTitle44 pin twoCountriesPlanTitle fwb">國際通話，免費<br class="showM">暢打全球<span class="sans">29</span>個國家和地區</p>
+		<p class="title18 mTitle26 pin multipleCountriesSubTitle">想要暢打<a href="bbRates.html#countrys" class="linkOrange">全球<span class="sans">29</span>個國家和地區</a>？<br>
+			<span class="countryCheck">iTalkBB蜻蜓電話用戶將享受免費的國際通話功能<sup class="sans">5</sup>。</span>
+			<span class="hideM">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			<span class="countryCheck2">新用戶只需購買或升級到帶有國際通話功能的套餐，也可以輕松暢打全球。</span>
+		</p>
+		<p class="title24 mTitle32 pin multipleCountriesPhone">撥打<span class="sans">1-855-482-5566</span>，<br class="showM">立刻升級</p>
+		<img src="../shared/images/mobile/countries_available_map.jpg" class="img countriesImgMap" alt="">
+
+	</section>
+
+	<section class="unlimitedTextTalkBanner">
+		<p class="title36 mTitle44 pin unlimitedTextTalkTitle fwb">無限短信、通話</p>
+		<p class="title18 mTitle26 pin unlimitedTextTalkSubTitle fwb">免費無限撥打美國國內電話，免費無限收發<br class="showM">美國國內短信。</p>
+	</section>
+
+	<section class="mobileDisclaimer">
+		<p class="pin title16 mTitle24 mobileDisclaimerText">
+			1. 價格不包括開通費，稅費和附加費。<br>
+			2. 中國卡由iTalk Global Communications, Inc.出售，您可在之後的注冊過程中額外購買。在中國：享受美國卡上的套餐計劃而無需支付任何額外費用；在美國：免費接收來自中國的電話/短信/驗證碼。中國卡服務費$1.00/線/月，一次性卡費$10/卡。<br>
+			3. 本月高速流量用完後用戶將被降速至月賬單結束，僅限美國市場。<br>
+			4. 美國手機卡服務由iTalk Mobile Corporation提供；中國手機卡服務由iTalk Global Communication, Inc.提供。<br>
+			5. 根據您現有iTalkBB蜻蜓電話服務的不同，我們會贈送您不同的國際通話分鐘數：現$4.99套餐用戶獲得100分鐘/線/月國際通話分鐘數，現$24.99套餐用戶獲得無限國際通話分鐘數/線/月。</p>
+	</section>
+</div>
+<!--main content end-->
+
+
+<div class="lineBlue mt0"></div>
+<div id="footer"></div>
+<script>
+    $('#header').load('header.html');
+    $('#footer').load('footer.html');
+</script>
+
+<!-- Swiper JS begin-->
+<script src="../shared/js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.mNewswiper2', {
+        pagination: '.mSwiper-pagination2',
+        paginationClickable: '.mSwiper-pagination2',
+        nextButton: '.mSwiper-button-next2',
+        prevButton: '.mSwiper-button-prev2',
+        spaceBetween: 0
+    });
+</script>
+<!-- Swiper JS end-->
+
+</body>
+<script>
+    $(window).resize(function(){
+        var screenWidth = $(window).width();
+        if(screenWidth<767){
+
+
+        }
+        if(screenWidth>=767){
+            var a = $("#up1").height();
+            var c = $("#tit").width();
+            var d = $("#tit").height();
+
+            var b = c*0.035;
+            var e = c*0.025;
+
+            var p = d+b+e;
+            var k = p+a;
+
+
+
+            $(".bbPlan").css({"background-size":"100% "+k+'px'});
+
+            $(".planSpace").css({"height":k});
+
+            var i = $("#up1").height();
+            $("#up2").css({"height":i});
+            var o = $("#down1").height();
+            $("#down2").css({"height":o});
+
+        }
+    });
+
+    $(window).load(function(){
+        var screenWidth = $(window).width();
+        if(screenWidth<767){
+
+
+        }
+        if(screenWidth>=767){
+            var a = $("#up1").height();
+            var c = $("#tit").width();
+            var d = $("#tit").height();
+
+            var b = c*0.035;
+            var e = c*0.025;
+
+            var p = d+b+e;
+            var k = p+a;
+
+
+
+            $(".bbPlan").css({"background-size":"100% "+k+'px'});
+
+
+            $(".planSpace").css({"height":a});
+
+            var i = $("#up1").height();
+            $("#up2").css({"height":i});
+            var o = $("#down1").height();
+            $("#down2").css({"height":o});
+
+        }
+    });
+
+
+
+</script>
+</html>
