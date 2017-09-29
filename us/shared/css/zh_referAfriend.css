@@ -47,12 +47,12 @@
 .stepTitle,.searchText{margin-left: 12%;}
 .stepBox2Con{margin-top: -3%; margin-bottom: -2%;}
 .email{margin-bottom: 2%;}
-.stepQRcode{margin-left: 5%; width: 19.5%;}
+.stepQRcode{margin-left: 3%; width: 19%;}
 .stepQRcode,.foldBox,.searchText,.searchBar,.searchButton{float: left;}
 .searchText,.searchBar,.searchButton{line-height: 1.5; padding-top: 1.6%; padding-bottom: 1.6%;}
 .searchBar,.searchButton{border: 1px solid #b1b1b1;}
-.searchBar{width: 54%; margin-left: 1%; padding-left: 2.5%; color: #999;border-top-left-radius: 10px;border-bottom-left-radius: 10px; border-top-right-radius: 0;border-bottom-right-radius: 0; border-right:none;}
-.searchButton {width: 15.5%; text-align: center; color: #ff7f00; cursor: pointer;font-weight: bold; background: #fff;
+.searchBar{width: 50%; margin-left: 3%; padding-left: 2.5%; color: #999;border-top-left-radius: 10px;border-bottom-left-radius: 10px; border-top-right-radius: 0;border-bottom-right-radius: 0; border-right:none;}
+.searchButton {width: 14.5%; text-align: center; color: #ff7f00; cursor: pointer;font-weight: bold; background: #fff;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: inset 0 0 0 0 #ff7f00;
@@ -60,7 +60,7 @@
     -moz-transition: all ease .8s;
     transition: all ease .8s;}
 .searchButton:hover{color: #fff; box-shadow: inset 200px 0 0 0 #ff7f00;}
-.foldBox{margin-left: 4%; margin-top: .2%; width: 46%;}
+.foldBox{margin-left: 4%; margin-top: .2%; width: 41.5%;}
 .foldText{padding: 8% 8%; border-radius: 3px; border: #c2c2c2 1px solid;}
 .bubbleAngle{float: left; transform:rotate(45deg);width:.8vw; height:.8vw; border-color:#c2c2c2; margin-left: -1.8%; margin-top: 18%; background: #f2f2f2;}
 .foldText,.searchBar,.searchButton{background: none;}
@@ -145,15 +145,15 @@
 	.referAfriend{background-size: 40%; background-position-x: 7%;}
 	.referStepTitle{margin-top: 3%; margin-bottom: 3%;}
 	.referStepCon{padding-left: 50%; margin-right: 5%; padding-bottom: 1%;}
-	.searchBar{width: 45%;}
-	.searchButton{width: 13%;}
-	.stepQRcode{margin-left: 7%; width: 19.5%;}
+	.searchBar{width: 41%;}
+	.searchButton{width: 12%;}
+	.stepQRcode{margin-left: 3%; width: 19%;}
 	.stepTitle,.searchText{margin-left: 16%; padding-top: 1.6%;}
 	.stepTitle{font-size: 1.8vw;}
 	.searchText{font-size: 1.6vw;}	
 	.referStepBox{border-left: .3vw solid #ff7f00;}
 	.stepBox{margin-left: -7.2%; background-size: 13%;background-position-y: 50%;}		
-	.foldBox{margin-left: 3%; width: 36.2%;}
+	.foldBox{margin-left: 3%; width: 31%;}
 	.foldText{padding: 5% 8%;}
 	.foldText p{font-size: 1.6vw;}
 	/* refer main end */
@@ -187,15 +187,15 @@
 	.referAfriend{background: #f2f2f2;}
 	.referStepTitle{padding: 0 5.2%; margin-top: 8%; margin-bottom: 4%;}
     .referStepCon{padding-left:11.5%; margin-right: 5%; padding-bottom: 5%;}
-	.searchBar{width: 43%;}
-	.searchButton{width: 14.5%;}
-	.stepQRcode{margin-left: 7%; width: 19.5%;}
+	.searchBar{width: 40%;}
+	.searchButton{width: 12%;}
+	.stepQRcode{margin-left: 3%; width: 19%;}
 	.stepTitle,.searchText{margin-left: 18%; padding-top: 1.2%;}	
 	.referStepBox{border-left: .6vw solid #ff7f00;}
 	.stepBox{padding: 3.2% 0; margin-left: -7.8%; background-size: 14%;background-position-y: 50%;}	
-	.foldBox{margin-left: 3%; width: 35.4%;}
+	.foldBox{margin-left: 3%; width: 30%;}
 	.foldText{padding: 5% 8%;}
-	.bubbleAngle{width:1.5vw; height:1.5vw;margin-left: -2%; margin-top: 25%;}
+	.bubbleAngle{width:1.5vw; height:1.5vw;margin-left: -3%; margin-top: 25%;}
 	/* refer main end */
 	
 	/* login begin */
