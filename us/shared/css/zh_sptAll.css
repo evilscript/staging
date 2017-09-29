@@ -88,7 +88,7 @@ ul.listNom,ul.listDot{margin-left: 1.75%; padding: 0;}
 ul.listNom li{list-style-type:decimal;}
 ul.listNom li div.pMgn{margin-bottom: 1.2%;}
 ul.listDot{margin-left: 1.65%;}
-ul.listDot li{float: left;width: 28%; list-style-type: disc;}
+ul.listDot li{float: left; width: 28%; list-style-type: disc;}
 .Sharp,.textCon{float: left; display: block;}
 .Sharp{vertical-align: top;width: 2%;}
 .textCon{ width: 95%;}
