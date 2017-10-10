@@ -35,22 +35,37 @@
 .textBox p img{display: inline-block; width: 12.2%; padding-bottom: 4.5%;}
 .planList{background: #f2f2f2;}
 .listCon{padding: 10% 10% 8% 11%; text-align: left;}
-.listCon .hook{margin-bottom: 5%; padding-left: 7%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 4%; background-position-y: .2vw;}
+.listCon .hook{margin-bottom: 5%; padding-left: 6.5%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 4%; background-position-y: .2vw;}
 .planBtn{float: left; width: 44%; background: #327fe8; margin-left: 28%; margin-top: -5%; padding-bottom: .2%; border-radius: 10px; cursor: pointer;}
 .planBtn p{line-height: 1.8;}
 .planBtn a{color: #fff;}
-
 .planOtherBox{margin-bottom: 5%;}
 .planRefund{margin-bottom: 4.5%;}
 .planYearUp{background: #f8f8f8;  padding-bottom: 5.5%;}
-.planYearUp .yearTextCenter{margin: 6% 0 0 36.5%;}
+.planYearUp .yearTextCenter{margin: 6% 0 0 37%;}
 .planYearDown .planBtn{width: 22%; margin-left: 39%; margin-top: -2.5%;}
 .planYearDown .listCon{padding: 5% 2% 0 5.1%;}
 .planYearDown .listCon .hook{float: left; width: 46%; margin-bottom: 3%; margin-right: 4%; padding-left: 2.9%; background-size: 3.5%;}
 .planYearDown .listCon .conRight{margin-right: 0;}
 /*plan end*/
 
-
+.bundlesTV,.bundlesBB{text-align: center;}
+.bundlesTV{margin-bottom: 5%;}
+.bundlesText{height: 39.6vw; margin-bottom: 1%;}
+.bundlesTV .bundlesText{background: url(../images/bundles/bundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 5vw;}
+.bundlesBB .bundlesText{background: url(../images/bundles/bundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 6vw;}
+.iconsBox{float: left; width: 30%;}
+.iconsSpace{width: 5%;}
+.iconsTitle{padding: 0 5.2%; padding-top: 42%; margin-bottom: 5%;}
+.iconsTitle1{background:url(../images/bundles/bundlesIcons1.png)  no-repeat top; background-size: 33%;}
+.iconsTitle2{background:url(../images/bundles/bundlesIcons2.png)  no-repeat top; background-size: 33%;}
+.iconsTitle3{background:url(../images/bundles/bundlesIcons3.png)  no-repeat top; background-size: 33%;}
+.iconsTitle4{background:url(../images/bundles/bundlesIcons4.png)  no-repeat top; background-size: 33%;}
+.iconsTitle5{background:url(../images/bundles/bundlesIcons5.png)  no-repeat top; background-size: 33%;}
+.iconsTitle6{background:url(../images/bundles/bundlesIcons6.png)  no-repeat top; background-size: 33%;}
+.iconsList{text-align: left;}
+.iconsList p{margin-bottom: 4.2%; padding-left: 6.2%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 3.6%; background-position-y: .16vw;}
+.iconsList p:last-child{margin-bottom: 0;}
 @media  (min-width:768px) and (max-width:1000px){
     /* bannerAll begin */
     .bannerAll{background: url(../images/bb/ipadBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
