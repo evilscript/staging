@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_bundle.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/swiper.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/reveal.css">
 
@@ -37,8 +38,28 @@
   .content_search_box_tel_none{display: none}
   .orange a{color: #ff7f00}
   .input_small{text-align: center;}
-  @media (max-width:767px){
-    
+  
+  ul{padding-left: 0;}
+  ul.bundlesCon li{float: left; width: 50%; padding-right: 3%;}
+  ul.bundlesCon li.double{width: 100%;}
+  .double .Sharp{width: 4.4%;}
+  .double .textCon{ width: 95%;}
+  .Sharp,.textCon{float: left; display: block;}
+  .Sharp{vertical-align: top;width: 9%;}
+  .textCon{ width: 91%;}
+  
+  
+@media (min-width:768px) and (max-width:1000px){
+  .listCon .hook{background-position-y: .45vw;background-size: 4.5%;}
+  .hook p{padding-left: 0;}
+  .double .Sharp{width: 4.4%;}
+  .double .textCon{ width: 95.6%;}
+	}
+@media (max-width:767px){
+  .listCon .hook{background-position-y: 1vw;background-size: 4.5%;padding-left: 0;}
+  .double .Sharp{width: 4%;}
+  .double .textCon{ width: 96%;} 
+  ul.bundlesCon li.double p{padding-left: 4%;}
 	}
     </style>
 </head>
@@ -50,7 +71,8 @@
      
    <!--main content begin-->  
    <div class="mainLayout">      
-       <section>     	    	   
+       <section> 
+         <div id="supportBanner"></div>    	    	   
        </section>
        
        <section class="mainMgnTop">
@@ -58,15 +80,15 @@
       	  	<div class="lineOrange"></div>
       	  </div>
       	  <div class="mainMgn100"> 
-      	    <!-- bbPlan PC begin-->       	         	      	        	 
-        	<div class="bbPlan hideM" id="planPoint">
-       	      <p class="planTitleBig title42 fwb" id="tit">蜻蜓电话产品计划</p>
+      	    <!-- bundlesTVBB PC begin-->       	         	      	        	 
+        	<div class="bundlesTVBB hideM" id="planPoint">
+       	      <p class="planTitleBig title42 fwb" id="tit">&nbsp;</p>
        	      
         	  <div class="planBox clearfix">
         	  	<div class="planCon">
                    <div class="planUpper" id="up1">
         	  		  <div class="titleBox clearfix">
-        	  		     <p class="title36 fwb">家庭经济计划</p>
+        	  		     <p class="title36 fwb">电视+电话</p>
         	  		  </div>
         	  		  <div class="planText">
         	  			<p class="title30">直拨全球，接听免费</p>
@@ -93,35 +115,93 @@
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list1">
         	  			<div class="listCon">
-        	  				<p class="title18">拨打美/加/中/港/台低至$0.02/分钟，超低费率拨打<a class="linkOrange" href="bbRates.html#countrys" target="_blank">全球29个国家和地区</a></p>
-        	  				<p class="title18">免费保留原号码</p>
-        	  				<p class="title18">赠送手机App</p>
-        	  				<p class="title18">赠送6个月中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
+        	  			   <div class="hook">
+        	  				<p class="title18">蜻蜓电视</p>
+       	  			        <ul class="bundlesCon text14 mText22 clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">2017年独家正版院线大片</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">最新综艺，电视剧</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">高清中港台直播频道</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">支持72小时回放</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">海量影视剧点播</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无合约,无设备费</span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>  
+        	  			   </div>
+        	  			   <div class="hook">
+        	  				<p class="title18">蜻蜓电话</p>
+       	  			        <ul class="bundlesCon text14 clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">接听免费</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">免费保留原号码</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送手机App</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送6个月中美双号</span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">拨打<a class="linkOrange" href="home-phone-rates.html#countrys" target="_blank">全球29个国家和地区</a>美/加/中/港/台仅需$0.02/分钟，其他地区<a class="linkOrange" href="home-phone-rates.html#rates" target="_blank">超低费率</a> </span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>  
+        	  			   </div>
         	  			</div>
         	  			</div>   	  			
         	  	   </div>
         	  	</div>
         	  	<div class="planSpace hideM">
-  	  	           <a href="#" class="big-link" data-reveal-id="planFormCompare">
-    	  	       <div class="planCompare">
-				     <img src="../shared/images/bb/chs_bbPlanIconCompare.png"/>
-    	  	       </div>
-     	  	       </a>     	  	       
+    	  	       <div class="planCompare"></div>  	  	       
        	  	    </div>
-       	  	    <!--from begin-->
-       	  	    <div class="planForm">
-                      <div id="planFormCompare" class="reveal-modal ccclose">
-                         <div class="planFormCon">
-                            <div id="bbFromCom"></div>
-                         </div>
-                         <a class="close-reveal-modal" style="text-decoration:none">&#215;</a>
-                      </div>                 
-                </div>
-                <!--from end-->
         	  	<div class="planCon plan2">
                    <div class="planUpper" id="up2">
 					  <div class="titleBox titleBox2 clearfix">
-        	  			<p class="title36 fwb">全球包月计划</p>
+        	  			<p class="title36 fwb">电视+电话</p>
         	  		  </div>
         	  		  <div class="planText">
         	  		     <p class="title30">无限拨打全球</p>
@@ -148,10 +228,88 @@
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list2">
         	  			<div class="listCon">
-        	  				<p class="title18"><span class="fwb">无限拨打</span>美/加/中/港/台等<a class="linkOrange" href="bbRates.html#countrys" target="_blank">全球29个国家和地区</a></p>
-        	  				<p class="title18">免费保留原号码</p>
-        	  				<p class="title18">赠送手机App</p>
-        	  				<p class="title18">赠送1年中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
+        	  			   <div class="hook">
+        	  				<p class="title18">蜻蜓电视</p>
+       	  			        <ul class="bundlesCon text14 clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">2017年独家正版院线大片</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">最新综艺，电视剧</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">高清中港台直播频道</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">支持72小时回放</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">海量影视剧点播</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无合约,无设备费</span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>  
+        	  			   </div>
+       	  			    <div class="hook">
+        	  				<p class="title18">蜻蜓电话</p>
+       	  			        <ul class="bundlesCon text14 clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">接听免费</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">免费保留原号码</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送手机App</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送1年中美双号</span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">座机：无限拨打美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countrys" target="_blank">全球29个国家和地区</a></span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">手机：无限拨打国际长途</span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>  
+        	  			   </div>
         	  			</div>
 						</div>
         	  	   </div>
@@ -159,17 +317,17 @@
         	  </div>
              
         	</div>
-        	<!-- bbPlan PC End-->  
+        	<!-- bundlesTVBB PC End-->  
         	 
-        	<!-- bbPlan Phone begin-->   
-        	<div class="bbPlan showM">
-       	      <p class="planTitleBig title42 mTitle50 fwb">蜻蜓电话产品计划</p>
+        	<!-- bundlesTVBB Phone begin-->   
+        	<div class="bundlesTVBB showM">
+       	      <p class="planTitleBig title42 mTitle50 fwb">&nbsp;</p>
        	      <div class="mSwiperBox mNewswiper2">
         	  <div class="planBox mSwiper-wrapper clearfix">
         	  	<div class="planCon plan1 mSwiper-slide" >
                    <div class="planUpper">
         	  		  <div class="titleBox clearfix">
-        	  			 <p class="title36 mTitle44 fwb">家庭经济计划</p>
+        	  			 <p class="title36 mTitle44 fwb">电视+电话</p>
         	  		  </div>
         	  		  <div class="planText">
         	  			<p class="title30 mTitle38">直拨全球，接听免费</p>
@@ -196,11 +354,82 @@
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list1">
         	  			<div class="listCon">
-        	  				<p class="title18 mTitle26">拨打美/加/中/港/台低至$0.02/分钟，超低费率拨打<a class="linkOrange" href="bbRates.html#countrys" target="_blank">全球29个国家和地区</a></p>
-        	  				<p class="title18 mTitle26">免费保留原号码</p>
-        	  				<p class="title18 mTitle26">赠送手机App</p>
-        	  				<p class="title18 mTitle26">赠送6个月中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
-        	  				<p class="title18 mTitle26" style="background: none;">&nbsp;</p>
+        	  			   <div class="hook">
+        	  				<p class="mTitle26">蜻蜓电视</p>
+       	  			        <ul class="bundlesCon mText18 clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">2017年独家正版院线大片</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">最新综艺，电视剧</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">高清中港台直播频道</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">支持72小时回放</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">海量影视剧点播</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无合约,无设备费</span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>  
+        	  			   </div>
+        	  			   <div class="hook">
+        	  				<p class="mTitle26">蜻蜓电话</p>
+       	  			        <ul class="bundlesCon mText18 clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">接听免费</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">免费保留原号码</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送手机App</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送6个月中美双号</span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">拨打<a class="linkOrange" href="home-phone-rates.html#countrys" target="_blank">全球29个国家和地区</a>美/加/中/港/台仅需$0.02/分钟，其他地区<a class="linkOrange" href="home-phone-rates.html#rates" target="_blank">超低费率</a></span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>  
+        	  			   </div>
         	  			</div>
         	  			</div>   	  			
         	  	   </div>
@@ -208,7 +437,7 @@
         	  	<div class="planCon plan2 mSwiper-slide">
                    <div class="planUpper">
         	  		  <div class="titleBox titleBox2 clearfix">
-        	  			 <p class="title36 mTitle44 fwb">全球包月计划</p>
+        	  			 <p class="title36 mTitle44 fwb">电视+电话</p>
         	  		  </div>
         	  		  <div class="planText">
         	  			<p class="title30 mTitle38">无限拨打全球</p>
@@ -235,11 +464,88 @@
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list2">
         	  			<div class="listCon">
-        	  				<p class="title18 mTitle26"><span class="fwb">无限拨打</span>美/加/中/港/台等<a class="linkOrange" href="bbRates.html#countrys" target="_blank">全球29个国家和地区</a></p>
-        	  				<p class="title18 mTitle26">免费保留原号码</p>
-        	  				<p class="title18 mTitle26">赠送手机App</p>
-        	  				<p class="title18 mTitle26">赠送1年中美双号<br>(国内亲友直拨美国无需再付国际长途费)</p>
-        	  				<p class="title18 mTitle26" style="background: none;">&nbsp;</p>
+        	  			   <div class="hook">
+        	  				<p class="mTitle26">蜻蜓电视</p>
+       	  			        <ul class="bundlesCon mText18 clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">2017年独家正版院线大片</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">最新综艺，电视剧</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">高清中港台直播频道</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">支持72小时回放</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">海量影视剧点播</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无合约,无设备费</span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>  
+        	  			   </div>
+       	  			    <div class="hook">
+        	  				<p class="mTitle26">蜻蜓电话</p>
+       	  			        <ul class="bundlesCon mText18 clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">接听免费</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">免费保留原号码</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送手机App</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送1年中美双号</span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">座机：无限拨打美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countrys" target="_blank">全球29个国家和地区</a></span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">手机：无限拨打国际长途</span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>  
+        	  			   </div>
         	  			</div>
 						</div>
         	  	   </div>
@@ -247,7 +553,7 @@
         	  	<div class="planCon plan3 mSwiper-slide">
                    <div class="planUpper">
         	  		  <div class="titleBox titleBox2 clearfix">
-        	  			 <p class="title36 mTitle44 fwb">全球包年计划</p>
+        	  			 <p class="title36 mTitle44 fwb">无合约套餐</p>
         	  		  </div>
         	  		  <div class="planText">
         	  			<p class="title30 mTitle38">无限拨打及接听</p>
@@ -261,7 +567,7 @@
         	  			</div>
         	  			<div class="textBox">
        	  			       <p class="textSpecial title18 mTitle26">
-        	  			    <span class="textHot">美国/加拿大/中国等<br><a class="linkOrange" href="bbRates.html#countrys" target="_blank" style="text-decoration: underline;">全球29个国家和地区</a>无合约限制</span>
+        	  			    <span class="textHot">美国/加拿大/中国等<br><a class="linkOrange" href="home-phone-rates.html#countrys" target="_blank" style="text-decoration: underline;">全球29个国家和地区</a>无合约限制</span>
         	  			   </p>
         	  			</div>
         	  		  </div>
@@ -273,11 +579,94 @@
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list2">
         	  			<div class="listCon">
-        	  				<p class="title18 mTitle26">每月赠送500分钟蜻蜓手机国际通话</p>
-        	  				<p class="title18 mTitle26">赠送来电显示，来电等待，来电转移，三方通话，语音信箱等多种功能</p>
-        	  				<p class="title18 mTitle26">赠送1年中国号码950，国内亲友直拨美国无需再付国际长途费</p>
-        	  				<p class="title18 mTitle26">无合约，取消时返还剩余月份月费</p>
-        	  				<p class="title18 mTitle26">免费保留原有号码</p>
+        	  			   <div class="hook">
+        	  				<p class="mTitle26">蜻蜓电视</p>
+       	  			        <ul class="bundlesCon mText18 clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">2017年独家正版院线大片</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">最新综艺，电视剧</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">高清中港台直播频道</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">支持72小时回放</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">海量影视剧点播</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无合约,无设备费</span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>  
+        	  			   </div>
+       	  			    <div class="hook">
+        	  				<p class="mTitle26">蜻蜓电话</p>
+       	  			        <ul class="bundlesCon mText18  clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无合约</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">接听免费</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">免费保留原号码</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送手机App</span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送1年中美双号</span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">座机：无限拨打美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countrys" target="_blank">全球29个国家和地区</a></span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">每月500分钟免费拨打国际长途拨打<a class="linkOrange" href="home-phone-rates.html#countrys" target="_blank">29个国家和地区</a>！</span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>   
+        	  			   </div>
         	  			</div>
 						</div>
         	  	   </div>
@@ -288,27 +677,24 @@
               <div class="mSwiper-button-prev mSwiper-button-prev2"></div>
              </div>
         	</div>
-        	<!--  bbPlan Phone End-->  
+        	<!--  bundlesTVBB Phone End-->  
         	 
-        	<!--  bbPlan Others Begin-->  
-        	<div class="bbPlanOther" style="">
+        	<!--  bundlesTVBB Others Begin-->  
+        	<div class="bundlesTVBBOther" style="">
        	      <div class="planOtherBox">
         	     <div class="planRefund">
-       	            <div class="mPlanCompare showM">
-        	           <p class="title24 mTitle32 fwb"><a class="linkOrange" href="home-phone-compare.html" target="_blank">iTalkBB蜻蜓电话计划比较</a></p>
-		            </div>
         	        <p class="title36 mTitle44 fwb">30天试用承诺，无理由全额退款！ <a href="" class="linkOrange">如何申请退款？</a></p>
         	        <div class="hideM">
         	           <div class="btnImgN title24 mTitle32" onclick="show('fold01','img01')">不想要合约？iTalkBB蜻蜓还有<strong>无合约计划</strong><img id="img01" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
                        
 		            </div>
 			     </div>
-       	         <div id="fold01" class="planYear hideM" style="display: none;">
+       	         <div id="fold01" class="planYear hideM">      	       	    
        	       	    <div class="planYearUp clearfix">
-       	       	    	<div class="yearText">
-       	       	    		<p class="title30">无合约限制</p>
-       	       	    	</div>
-       	       	    	<div class="yearText yearTextCenter">
+       	       	       <div class="titleBox titleBox3 clearfix">
+        	  			 <p class="title36 mTitle44 fwb">无合约套餐</p>
+        	  		   </div>
+       	       	    	<div class="yearTextCenter">
        	       	    		<div class="priceBox priceBox3 avenir clearfix">
         	  			       <p class="dollar title60">$</p>
         	  			       <p class="priceBig title140">299</p>
@@ -318,9 +704,6 @@
         	  			       </p>       	  			 	
         	  			    </div>
        	       	    	</div>
-       	       	    	<div class="yearText yearTextRight">
-       	       	    		<p class="title18">无限拨打及接听美国 / 加拿大 / 中国等<a class="linkOrange" href="bbRates.html#countrys" target="_blank">全球29个国家和地区</a></p>
-       	       	    	</div>
        	       	    </div>
        	       	    <div class="planYearDown planList">
         	  		    <div class="planBtn">
@@ -328,101 +711,103 @@
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
         	  			<div class="listCon clearfix">
-        	  				<p class="title18 mTitle26">每月赠送500分钟iTalkBB蜻蜓手机国际通话</p>
-        	  				<p class="title18 mTitle26 conRight">赠送来电显示、来电等待、来电转移、三方通话、语音信箱等多种功能</p>
-        	  				<p class="title18 mTitle26">赠送1年中国号码950，国内亲友直拨美国无需再付国际长途费</p>
-        	  				<p class="title18 mTitle26 conRight">无合约，取消时返还剩余月份月费</p>
-        	  				<p class="title18 mTitle26">免费保留原有号码</p>
+        	  			   <div class="hook">
+        	  				<p class="title18">蜻蜓电视</p>
+       	  			        <ul class="bundlesCon text14 mText22 clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">2017年独家正版院线大片</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">最新综艺，电视剧</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">高清中港台直播频道</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">支持72小时回放</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">海量影视剧点播</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无合约,无设备费</span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>  
+        	  			   </div>
+       	  			    <div class="hook conRight">
+        	  				<p class="title18">蜻蜓电话</p>
+       	  			        <ul class="bundlesCon text14  clearfix">
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无合约</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">接听免费</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">免费保留原号码</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送手机App</span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">赠送1年中美双号</span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">座机：无限拨打美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countrys" target="_blank">全球29个国家和地区</a></span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">每月500分钟免费拨打国际长途拨打<a class="linkOrange" href="home-phone-rates.html#countrys" target="_blank">29个国家和地区</a>！</span>
+								  </p>
+      	  			           </li>
+       	  			        </ul>  
+        	  			   </div>
         	  			</div>
         	  	   </div>
        	         </div>       	         
        	      </div>
-       	      <div class="planIcons">
-       	       	   <div class="iconsBox clearfix">
-             	      <div class="iconCon iconCon1">
-             		     <p class="titleMgnBtm text16 mText22">30天免费试用</p>
-             	      </div>
-             	      <div class="iconCon iconCon2">
-             		     <p class="titleMgnBtm text16 mText22">免费保留原号码</p>
-             	      </div>
-             	      <div class="iconCon iconCon3">
-             		     <p class="titleMgnBtm text16 mText22">手机App</p>
-             	      </div>
-             	      <div class="iconCon iconCon4">
-             		     <p class="titleMgnBtm text16 mText22">中美双号</p>
-             	      </div>
-             	      <div class="iconCon iconCon5">
-             		     <p class="titleMgnBtm text16 mText22">E911</p>
-             	      </div>
-             	      <div class="iconCon iconCon6">
-             		     <p class="titleMgnBtm text16 mText22">网内免费通话</p>
-             	      </div>
-             	      <div class="iconCon iconCon7">
-             		     <p class="titleMgnBtm text16 mText22">台湾通用号码</p>
-             	      </div>
-             	      <div class="iconCon iconCon8">
-             		     <p class="titleMgnBtm text16 mText22">其他功能</p>
-             	      </div>
-				   </div>
-      	        </div>
+       	      
         	</div> 
-        	<!-- bbPlan Others End-->    	
+        	<!-- bundlesTVBB Others End-->    	
 		  </div>           	      	
-       </section>
-       
-       <section class="bbTryout">
-      	  <div class="tryoutCon mainMgn200 clearfix">
-      	  	<div class="left clearfix">
-      	  	   <p class="titleMgnBtm title36 mTitle44 fwb">30天免费试用</p>
-     	  	   <div class="tryoutTxt">
-      	  	   	 <p class="text18 mText26">iTalkBB蜻蜓为您提供30天试用退款保证。购买后30天之内您可以随时取消服务。您被收取的激活费、月费和邮费将全额返还。</p>
-      	  	   	 <p class="text18 mText26">请拨打iTalkBB蜻蜓24小时客户服务热线1-877-482-5503。<br><a class="linkOrange" href="#">如何申请退款？</a></p>
-      	  	   </div>
-      	  	</div>
-      	  	<div class="right clearfix">
-      	  	   <p class="titleMgnBtm title36 mTitle44 fwb">免费保留原号码</p>
-     	  	   <div class="tryoutTxt">
-      	  	   	 <p class="text18 mText26">iTalkBB蜻蜓电话为您提供免费保留原号码的服务。绝大多数电话号码都能成功转到您的iTalkBB蜻蜓电话上。输入您的号码，看是否符合转号需求。</p>
-      	  	   	 <div class="numberSearch">
-      	  	   	 	<p class="searchImg text18 mText26">&nbsp;</p>
-      	  	   	 	<input class="input_small searchBar text18 mText26" name="txtnpa" id="txtnpa" type="text" maxlength="3" onkeyup="autotab(txtnpa, txtnxx, 3);" onfocus="inputFocus(this);" onblur="inputUnfocus(this);">
-      	  	   	 	<p class="searchBarLine text18 mText26">—</p> 
-        	        <input class="input_small searchBar text18 mText26" name="txtnxx" id="txtnxx" type="text" maxlength="3" onkeyup="autotab(txtnxx, txtlast, 3);" onfocus="inputFocus(this);" onblur="inputUnfocus(this);" > 
-        	        <p class="searchBarLine text18 mText26">—</p>
-        	        <input class="input_small searchBar text18 mText26" name="txtlast" id="txtlast" maxlength="4" type="text" onfocus="inputFocus(this);" onblur="inputUnfocus(this);">  
-        	        
-        	        <a class="big-link" data-reveal-id="reservationNom"> 
-        	        <p class="searchButton text18 mText26"  id="js_rates_sch_btn"  onclick="CheckPhoneNumber(this,'US')" value="">
-                    <span>保留号码</span>
-                    </p>
-                    </a>
-      	  	   	 </div>
-      	  	   	 
-      	  	   	 <!-- reservation number from begin -->
-       	  	     <div class="planForm">
-                    <div id="reservationNom" class="reveal-modal reveal-modal2">
-                       <div class="nomberCon">
-                       <!--可以转显示下面的 CheckPhoneNumberB--> 
-                       <div id="CheckPhoneNumberB" class="content_search_box_tel_none">
-					      <p class="text18 mText26">恭喜！您现有的电话号码可以被保留！</p>
-                          <p class="text18 mText26"><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">试试另一个号码</span></a> ; <!--回到检查号码是否可以转的页面--><a href="../chs/bbPlan.html#planPoint" class="linkOrange"><span>看看有哪些计划</span></a><!--链接是多语言的，要替换enu为chs和chs--></p>
-                       </div>
-                       <!--不能转显示下面的 CheckPhoneNumberC-->
-                       <div id="CheckPhoneNumberC" class="content_search_box_tel_none">
-					      <p class="text18 mText26">很遗憾，您现有的电话号码不能被保留。选一个新号码吧！</p> 
-                          <p  class="text18 mText26"><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">试试另一个号码</span></a><!--回到检查号码是否可以转的页面--> ; <a href="https://www2.iTalkBB.com/USBBSignup/US_zh-CHS.aspx" target="_blank" class="linkOrange"> <span>选择计划和一个新号码</span></a><!--根据语言参数显示3个语言的注册链接--></p>
-					   </div>
-                      <a class="close-reveal-modal ccclose" style="text-decoration:none">&#215;</a>
-                      </div>																												
-                   </div>                                   
-                </div>
-                <!-- reservation number from end -->
-            
-      	  	   </div>
-      	  	</div>
-      	  </div>       	      	
-       </section>        
-       
+       </section>      
                    
   </div>
   <!--main content end-->  
@@ -432,7 +817,7 @@
   <div id="footer"></div>
     <script>
 	   $('#header').load('header.html');
-	   $('#bbFromCom').load('bbFromCom.html');
+	   $('#supportBanner').load('supportBanner.html');
        $('#footer').load('footer.html');
     </script>
   
@@ -454,8 +839,7 @@
 <script> 
 $(window).resize(function(){
 var screenWidth = $(window).width();
-    if(screenWidth<767){
-              
+    if(screenWidth<767){              
 
         }
     if(screenWidth>=767){
@@ -469,9 +853,7 @@ var screenWidth = $(window).width();
                   var p = d+b+e;
                   var k = p+a;
 
-
-
-            $(".bbPlan").css({"background-size":"100% "+k+'px'});
+            $(".bundlesTVBB").css({"background-size":"100% "+k+'px'});
 
       $(".planSpace").css({"height":k});
       
@@ -485,8 +867,7 @@ var screenWidth = $(window).width();
 
 $(window).load(function(){
 var screenWidth = $(window).width();
-    if(screenWidth<767){
-              
+    if(screenWidth<767){              
 
         }
     if(screenWidth>=767){
@@ -500,11 +881,7 @@ var screenWidth = $(window).width();
                   var p = d+b+e;
                   var k = p+a;
 
-
-
-            $(".bbPlan").css({"background-size":"100% "+k+'px'});
-
-
+            $(".bundlesTVBB").css({"background-size":"100% "+k+'px'});
 			$(".planSpace").css({"height":a});
 			
 		var i = $("#up1").height();
@@ -514,8 +891,5 @@ var screenWidth = $(window).width();
 		
         }
 });
-
-
-
 </script>
 </html>

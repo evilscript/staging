@@ -1,22 +1,22 @@
 /* Version:1.0  Author: Amy
-  Create Date:2017-09-05 
-  Update Date:2017-09-14 
-  Desc : bbPlan CSS */ 
+  Create Date:2017-10-09 
+  Update Date:2017-10-10
+  Desc : bundles-tv-phone CSS */ 
   
 /* bannerAll begin */
-.bannerAll{background: url(../images/bb/bbPlanBannerBg.jpg) no-repeat; background-size: 100%;}
+
 /* bannerAll end */
 
 
 /*plan begin*/
 .left{float: left;}
 .right{float: right;}
-.titleMgnBtm,.bbPlan,.bbPlanOther,.bbTryout,.bbApp,.otherFuncBox{text-align: center;}
+.titleMgnBtm,.bundlesTVBB,.bundlesTVBBOther,.bbTryout,.bbApp,.otherFuncBox{text-align: center;}
 .tryoutCon > .left,.tryoutCon > .right{width: 50%;}
 .textBox p,.planBtn p{margin-bottom: 0;}
-.bbPlan,.bbPlanOther{margin: 0 auto;padding: 0 12.8%;}
-.bbPlanOther{margin-top: 4%;}
-.bbPlan{background: url(../images/bb/bbPlanBg01.jpg) no-repeat;}
+.bundlesTVBB,.bundlesTVBBOther{margin: 0 auto;padding: 0 12.8%;}
+.bundlesTVBBOther{margin-top: 4%;}
+.bundlesTVBB{background: url(../images/bb/bbPlanBg01.jpg) no-repeat;}
 .planTitleBig{ color: #fff; margin-bottom: 2.5%; padding-top: 3.5%}
 .planBox .planCon,.planBox .planSpace{float: left;}
 .planSpace{ width: 6.9%;position: relative;}
@@ -27,173 +27,42 @@
 .titleBox{border-bottom:1px solid #222; padding: 0 21%;}
 .titleBox p{padding:8% 0% 2% 24%; margin-bottom:-9.5%; background: #fcfcfc url(../images/bb/chs_bbPlanIconHot.png) no-repeat; background-size: 19%; background-position-x: 10%;background-position-y: 50%;}
 .titleBox2 p{background: #fcfcfc;padding-left: 0;}
+.titleBox3{padding: 0 36%;}
+.titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}
 .planText{margin-top: 9.5%;}
 .textBox{margin-top: 4%; padding-bottom: 7%; padding-right: 1%;}
 .textBox p{color: #ff7f00;}
 .textBox p img{display: inline-block; width: 12.2%; padding-bottom: 4.5%;}
-/*.priceBox{margin-top: 5%;}
-.priceBox1{margin-left: 32.2%;}
-.priceBox2{margin-left: 26%;}
-.priceBox p{float: left; line-height: .8; margin-bottom:0;}
-.priceBox p.subScript{margin-left: -22.5%; margin-top: 17%;}
-.priceBox p.priceSmall{text-align: left;}
-.priceSmall span{display: block;}
-.priceSmall .smallNom{margin-bottom: 15%;}
-.priceSmall .smallSub{margin-left: 5.8%;}*/
 .planList{background: #f2f2f2;}
 .listCon{padding: 10% 10% 8% 11%; text-align: left;}
-.listCon p{margin-bottom: 5%; padding-left: 7%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 4%; background-position-y: .2vw;}
+.listCon .hook{margin-bottom: 5%; padding-left: 7%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 4%; background-position-y: .2vw;}
 .planBtn{float: left; width: 44%; background: #327fe8; margin-left: 28%; margin-top: -5%; padding-bottom: .2%; border-radius: 10px; cursor: pointer;}
 .planBtn p{line-height: 1.8;}
 .planBtn a{color: #fff;}
 
-
 .planOtherBox{margin-bottom: 5%;}
 .planRefund{margin-bottom: 4.5%;}
-.planYear{}
-.planYearUp{background: #f8f8f8; padding-top: 8%; padding-bottom: 5.5%; padding-left: 22%;}
-.planYearUp .yearText{float: left;}
-.planYearUp .yearTextCenter{margin-left: 3%; margin-right: 2%;}
-.planYearUp .yearTextRight{width: 36%; padding-right: 4%; text-align: left;}
-.planYearUp .priceBox3 {margin-top: -10%;}
+.planYearUp{background: #f8f8f8;  padding-bottom: 5.5%;}
+.planYearUp .yearTextCenter{margin: 6% 0 0 36.5%;}
 .planYearDown .planBtn{width: 22%; margin-left: 39%; margin-top: -2.5%;}
-.planYearDown .listCon{padding: 5% 2% 3.5% 5.1%;}
-.planYearDown .listCon p{float: left; width: 46%; margin-bottom: 2%; margin-right: 5%; padding-left: 2.9%; background-size: 3.7%;}
-.planYearDown .listCon p.conRight{margin-right: 0;}
-.planIcons{margin-bottom: 6%;}
-.iconsBox .iconCon{float: left; padding: 8.8% .5%  0 .5%; width: 12.5%;}
-.iconsBox .iconCon p{margin-bottom: 0;}
-.iconsBox .iconCon1{ background:url(../images/bb/bbPlanIcon01.png)  no-repeat top; background-size: 60%;}
-.iconsBox .iconCon2{ background:url(../images/bb/bbPlanIcon02.png)  no-repeat top; background-size: 60%;}
-.iconsBox .iconCon3{ background:url(../images/bb/bbPlanIcon03.png)  no-repeat top; background-size: 60%;}
-.iconsBox .iconCon4{ background:url(../images/bb/bbPlanIcon04.png)  no-repeat top; background-size: 60%;}
-.iconsBox .iconCon5{ background:url(../images/bb/bbPlanIcon05.png)  no-repeat top; background-size: 60%;}
-.iconsBox .iconCon6{ background:url(../images/bb/bbPlanIcon06.png)  no-repeat top; background-size: 60%;}
-.iconsBox .iconCon7{ background:url(../images/bb/bbPlanIcon07.png)  no-repeat top; background-size: 60%;}
-.iconsBox .iconCon8{ background:url(../images/bb/bbPlanIcon08.png)  no-repeat top; background-size: 60%;}
+.planYearDown .listCon{padding: 5% 2% 0 5.1%;}
+.planYearDown .listCon .hook{float: left; width: 46%; margin-bottom: 3%; margin-right: 4%; padding-left: 2.9%; background-size: 3.5%;}
+.planYearDown .listCon .conRight{margin-right: 0;}
 /*plan end*/
 
 
-.bbTryout{background: #f2f2f2;}
-.tryoutCon{padding: 3.5% 0 4% 0;}
-.tryoutCon > .left{padding-right: 4.2%;padding-left:5.2%; padding-bottom: 29.5%; border-right: 1px #c1c1c1 solid;background:url(../images/bb/bbPlanPic01.png) no-repeat scroll bottom;background-size: 77%;}
-.tryoutCon > .right{padding-right: 4.4%; padding-left: 4.5%; padding-bottom: 27%; background:url(../images/bb/bbPlanPic02.png) no-repeat scroll bottom; background-size: 79%;}
-.tryoutTxt{text-align: left;}
-.numberSearch{margin-top: 4%;}
-.searchImg,.searchBar,.searchBarLine,.searchButton{float: left; padding-top: 1.8%; padding-bottom: 1.8%; border: 1px solid #b1b1b1; line-height: 1.5; text-align: center;}
-.searchImg{
-	margin-left: 0%;
-    width: 8%;
-	font-weight: bold;
-	border-right: none;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-	background: #fff url(../images/icons/phoneIconSmall.png) no-repeat scroll center center;
-	background-size: 48%;
-    background-position-x: 60%;
-}
-.searchBar,.searchBarLine{
-    padding-left: 1%;    
-    margin-bottom: 0.5%;
-    width: 21%;
-	color: #aaa;
-	border-radius:0;
-	border-left: none;
-	border-right: none;    
-}
-.searchBarLine{
-    width: 3%;
-	padding-left: 0%;
-	color: #b1b1b1;
-	background: #fff;
-}
-.searchButton {   
-    width: 21%;	
-    font-weight: bold;
-	color: #ff7f00;
-    cursor: pointer;
-	background: #fff;
-	border-left-color: #ccc;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: inset 0 0 0 0 #ff7f00;
-    -webkit-transition: all ease .8s;
-    -moz-transition: all ease .8s;
-    transition: all ease .8s;
-}
-.searchButton:hover{color: white; box-shadow: inset 200px 0 0 0 #ff7f00;}
-.searchImg,.searchBar,.searchBarLine,.searchButton{line-height: 1.5}
-
-.bbApp{margin-bottom: 5%; padding: 3.5% 7.5%; padding-bottom: 2.5%; background:url(../images/bb/bbPlanBg02.jpg) no-repeat scroll top; color: #f2f2f2;}
-.appAPK{float: left;  margin-left: 78.5%; cursor: pointer; margin-top: .6%;margin-bottom: 1.8%;}
-.appAPK img{width: 70%;}
-.appNote{text-align: center;}
-.appQRcode{margin-top: 2.5%;}
-.QRcode p{float: left; width: 20%;margin-left: 9.5%; cursor: pointer;}
-.QRcode p:first-child{margin-top: 0;}
-.QRcode p img{width: 100%; display: block;}
-.QRcode p img:first-child{margin-bottom: 8%;}
-
-.bbFunction{}
-.function{width: 50%; padding: 0 5.2%; padding-top: 16%; margin-bottom: 5%;}
-.function1{background:url(../images/bb/bbPlanBigIcon01.png)  no-repeat top; background-size: 26.2%;}
-.function2{background:url(../images/bb/bbPlanBigIcon02.png)  no-repeat top; background-size: 26.2%;}
-.function3{background:url(../images/bb/bbPlanBigIcon03.png)  no-repeat top; background-size: 26.2%;}
-.function4{background:url(../images/bb/bbPlanBigIcon04.png)  no-repeat top; background-size: 26.2%;}
-.otherFunction .otherTitle{margin-bottom: 3%;}
-.otherFuncBox{padding: 0 3.5%;margin-bottom: -1%;}
-.otherFuncBox .Func{float: left; padding: 8% .5%  0 .5%; width: 16.6%;}
-.otherFuncBox .Func1{ background:url(../images/bb/bbPlanIcon09.png)  no-repeat top; background-size: 42%;}
-.Func .btnImgN img{width: 6.8%; margin-left: 4%; margin-bottom: 1%;}
-.otherIconBox{margin-top: -3%;}
-.otherIconBox .foldText{text-align: left; padding-left: 6%; padding-right: 4%;}
-.otherIconBox p{margin-top: 2%;}
-
-/*price position begin*/
-@media  (min-width:1801px) and (max-width:1880px){
-    .planYearUp{padding-left: 21.3%;}
-    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
-}
-@media  (min-width:1701px) and (max-width:1800px){
-    .planYearUp{padding-left: 20.5%;}
-    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
-}
-@media  (min-width:1601px) and (max-width:1700px){
-    .planYearUp{padding-left: 19.5%;}
-    .planYearUp .yearTextRight{width: 32%; padding-right: 4%;}
-}
-@media  (min-width:1501px) and (max-width:1600px){
-    .planYearUp{padding-left: 21.5%;}
-    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
-}
-@media  (min-width:1401px) and (max-width:1500px){
-    .planYearUp{padding-left: 20.6%;}
-    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
-}  
-@media  (min-width:1301px) and (max-width:1400px){
-    .planYearUp{padding-left: 22%;}
-    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
-}
-@media  (min-width:1001px) and (max-width:1300px){
-    .planYearUp{padding-left: 23%;}
-    .planYearUp .yearTextRight{width: 34%; padding-right: 4%;}
-}
-/*price position end*/
-
-/*@media  (min-width:1001px){
-	.bbPlanLimited{margin: 0 auto;width: 79%;}	
-	.bbPlanLimitedBig,.planLimitedBig{margin: 0 auto;width: 89.5%;}
-}  */
 @media  (min-width:768px) and (max-width:1000px){
     /* bannerAll begin */
     .bannerAll{background: url(../images/bb/ipadBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
 	/* bannerAll end */
 
     /*plan begin*/	
-	.bbPlan,.bbPlanOther{padding: 0 5%;} 
-	.bbPlanOther{margin-top: 6%;}
+	.bundlesTVBB,.bundlesTVBBOther{padding: 0 5%;} 
+	.bundlesTVBBOther{margin-top: 6%;}
     .titleBox{padding: 0 15%;}
 	.titleBox p{padding:8% 0% 2% 21%; margin-bottom:-9.5%; background-size: 18%; background-position-x: 9.5%;background-position-y: 50%;}
+	.titleBox3{padding: 0 35%;}
+	.titleBox3 p{padding-left: 0;}
 	.planText{margin-top: 10%;}
 	.priceBox{margin-top: 7.5%;}
 	.priceBox1{margin-left: 28%;}
@@ -205,23 +74,11 @@
 	.planBtn p{margin-bottom: 1.2%;line-height: 1.5;}
 	
     .planOtherBox{margin-bottom: 5.5%;}
-    .planYearUp{padding-left: 9.5%;}
-	.planYearUp .yearTextCenter{margin-left: 4%; margin-right: 2.5%;}
-	.planYearUp .yearTextRight{padding-right: 4%; width: 29%;}
-	.planYearUp .priceBox3 {margin-top: -10%;}
+	.planYearUp .yearTextCenter{margin: 7% 0 2% 35%;}
 	.planYearDown .planBtn{width: 24%; margin-left: 38%;}
 	.planYearDown .listCon{padding: 5% 1% 3.5% 4.1%;}
-	.planYearDown .listCon p{width: 46.2%; padding-left: 3.5%; background-size: 4.75%; background-position-y: .2vw;}
-	.planIcons{margin-bottom: 7.1%;}
-	.tryoutCon{padding: 6% 0 7% 0;}
-	/*plan End*/
-	
-    .bbApp{padding: 6% 5%; padding-bottom: 3.8%; text-align: left;margin-bottom: 7%;}
-	.appAPK img{width: 60%;}
-    .appNote{text-align: center;}
-    .function{padding: 0 5%;padding-top: 16%; margin-bottom: 5%;}
-	.otherFuncBox{margin-bottom: 6%}
-	.Func .btnImgN img{width: 8%;}
+	.planYearDown .listCon .hook{width: 46.2%; padding-left: 3.5%; background-size: 4.1%; background-position-y: .4vw;}
+	/*plan End*/    
 }
 @media (max-width:767px){
     /* bannerAll begin */
@@ -230,9 +87,9 @@
 	
     /*plan begin*/
 	.bbTryout,.bbApp,.otherFuncBox{text-align: left;}
-	.bbPlan,.bbPlanOther{padding: 0;}
-	.bbPlanOther{margin-top:7%;}
-	.bbPlan{background: url(../images/bb/mBBPlanBg01.jpg) no-repeat;background-size: 100%;}
+	.bundlesTVBB,.bundlesTVBBOther{padding: 0;}
+	.bundlesTVBBOther{margin-top:7%;}
+	.bundlesTVBB{background: url(../images/bb/mBBPlanBg01.jpg) no-repeat;background-size: 100%;}
 	.planTitleBig{line-height: 2.2;}
 	.planCon .titleBox{padding: 0 15%;}
 	.planBox .planCon{background: none;}
@@ -240,10 +97,6 @@
 	.titleBox p{padding:8% 0% 2% 21%; margin-bottom:-9.5%; background-size: 18.5%; background-position-x: 9.5%;background-position-y: 50%;}
 	.titleBox2 p{background: #fcfcfc;padding-left: 0;}
 	.planText{margin-top: 11%;}
-	/*.priceBox{margin-top: 5%;}
-	.priceBox1{margin-left: 30.5%;}
-	.priceBox2{margin-left: 23.4%;}
-	.priceBox3{margin-left: 19%;}*/
 	.textBox p.textSpecial{margin: 8.4% 0;}
 	.textBox p img{width: 17%;}
 	.planList .listCon{ padding: 10% 6% 5% 8%;}
@@ -251,36 +104,12 @@
 	.planBtn{width: 56%;  margin-left: 22%;  margin-top: -6%; padding-top: 1.1%; padding-bottom: 1.1%;}
 	.planBtn p{margin-bottom: 1.2%;line-height: 1.5;}
 	
-	.planOtherBox{margin-bottom: 6%;}
+	.planOtherBox{margin-bottom: 6%;padding: 0 6%;}
 	
-	.mSwiper-wrapper{}
     .mSwiper-slide {padding: 0 10%;}
-    .mSwiper-button-disabled {display:none;}
-	
-	.planOtherBox{padding: 0 6%;}
-	.mPlanCompare{margin-bottom: 6%;}
-	.planIcons{margin-bottom: 8%;}
-	.iconsBox .iconCon{ width: 25%;padding: 0 2%;padding-top: 18%;margin-bottom: 6%;}
-	/*plan End*/
-	
-   	.tryoutCon{padding-top: 13%; padding-bottom: 12.5%;}
-    .tryoutCon > .left,.tryoutCon > .right,.bbFunction .function,.QRcode p,.appAPK{float: none; width: 100%;}	
-	.tryoutCon > .left{border-right:none; border-right: 1px #c1c1c1 solid; padding-bottom: 50%; margin-bottom: 11.5%;}
-	.tryoutCon > .right{padding-bottom: 52%;}
-	.bbApp{margin-bottom: 17%; padding: 14% 5%; padding-bottom: 12%;background: #000 url(../images/bb/mBBPlanBg02.png) no-repeat scroll bottom;}
-	.appAPK{margin-left: 48.5%;margin-bottom: 5%;}
-	.appAPK img{width: 3.2%;}
-	.QRcode{margin: 2% 0;}
-	.QRcode p{margin-left: 0; padding: 3% 20%;}
-	.QRcode span{display: none;}
-	.apkNote{margin-right: 0; text-align: center;}
-	
-    .function{padding-top: 36%; margin-bottom: 15%;background-size: 30%;}
-	.otherFunction{margin-top: -1%;}
-	.otherFunction .otherTitle{margin-bottom: 5%;}
-	.otherFuncBox{margin-bottom: -4%;}	
-	.otherFuncBox .Func{width: 25%; padding: 0 2%;padding-top: 18%; margin-bottom: 6%;background-size: 60%;}
-	.planIcons,.otherFuncBox{padding: 0 .6%;}	
+    .mSwiper-button-disabled {display:none;}	
+	/*plan End*/	
+   		
 }
 
 @media (max-width:511px){	
