@@ -809,6 +809,7 @@
 		  </div>           	      	
        </section> 
        
+       <!-- bundlesTV & bundlesBB Begin-->  
 	   <section class="mainMgn100">
 	   	  <div class="bundlesTV">
 	   	     <div class="bundlesText">
@@ -854,6 +855,19 @@
 	   	        		<p>轻松将您原本电话号码转到您的iTalkBB蜻蜓电话上。</p>
 	   	        		<p>输入您的号码，查看是否符合转号需要。</p>
 	   	        	</div>
+	   	        	<div class="numberSearch">
+      	  	   	 	   <p class="numsearchImg text18 mText26">&nbsp;</p>
+      	  	   	 	   <input class="numsearchBar input_small text18 mText26" name="txtnpa" id="txtnpa" type="text" maxlength="3" onkeyup="autotab(txtnpa, txtnxx, 3);" onfocus="inputFocus(this);" onblur="inputUnfocus(this);">
+      	  	   	 	   <p class="numsearchBarLine text18 mText26">—</p> 
+        	           <input class="numsearchBar input_small text18 mText26" name="txtnxx" id="txtnxx" type="text" maxlength="3" onkeyup="autotab(txtnxx, txtlast, 3);" onfocus="inputFocus(this);" onblur="inputUnfocus(this);" > 
+        	           <p class="numsearchBarLine text18 mText26">—</p>
+        	           <input class="numsearchBar input_small text18 mText26" name="txtlast" id="txtlast" maxlength="4" type="text" onfocus="inputFocus(this);" onblur="inputUnfocus(this);">         	        
+        	           <a class="big-link" data-reveal-id="reservationNom"> 
+        	           <p class="numsearchButton text18 mText26"  id="js_rates_sch_btn"  onclick="CheckPhoneNumber(this,'US')" value="">
+                         <span>保留号码</span>
+                       </p>
+                       </a>
+      	  	   	    </div>
 	   	        </div>
 	   	        <div class="iconsBox iconsSpace">&nbsp;</div>
 	   	        <div class="iconsBox">
@@ -873,6 +887,7 @@
 	   	     </div>
 	   	  </div>
 	   </section>
+       <!-- bundlesTV & bundlesBB End-->  
                    
   </div>
   <!--main content end-->  

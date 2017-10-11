@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy
   Create Date:2017-10-09 
-  Update Date:2017-10-10
+  Update Date:2017-10-11
   Desc : bundles-tv-phone CSS */ 
   
 /* bannerAll begin */
@@ -66,6 +66,7 @@
 .iconsList{text-align: left;}
 .iconsList p{margin-bottom: 4.2%; padding-left: 6.2%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 3.6%; background-position-y: .16vw;}
 .iconsList p:last-child{margin-bottom: 0;}
+
 @media  (min-width:768px) and (max-width:1000px){
     /* bannerAll begin */
     .bannerAll{background: url(../images/bb/ipadBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
@@ -86,18 +87,23 @@
 	.listCon{ padding: 9% 8% 6% 9%;}
 	.listCon p{padding-left: 8%; background-size: 5%;background-position-y: .34vw;}
 	.planBtn{width: 56%;  margin-left: 22%;  margin-top: -6%; padding-top: .1%;}
-	.planBtn p{margin-bottom: 1.2%;line-height: 1.5;}
-	
+	.planBtn p{margin-bottom: 1.2%;line-height: 1.5;}	
     .planOtherBox{margin-bottom: 5.5%;}
 	.planYearUp .yearTextCenter{margin: 7% 0 2% 35%;}
 	.planYearDown .planBtn{width: 24%; margin-left: 38%;}
 	.planYearDown .listCon{padding: 5% 1% 3.5% 4.1%;}
 	.planYearDown .listCon .hook{width: 46.2%; padding-left: 3.5%; background-size: 4.1%; background-position-y: .4vw;}
-	/*plan End*/    
+	/*plan End*/ 
+	
+	.bundlesText{height: 50vw; margin-bottom: 1%;}
+	.bundlesTV .bundlesText{background-size: 100%; background-position-y: 10vw;}
+    .bundlesBB .bundlesText{background-size: 100%; background-position-y: 11vw;}
+	.iconsCon{padding: 0 5%;}
+	.iconsList p{padding-left: 9%; background-size: 6%; background-position-y: .32vw;}
 }
 @media (max-width:767px){
     /* bannerAll begin */
-    .bannerAll{background: url(../images/bb/mBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
+    
 	/* bannerAll end */
 	
     /*plan begin*/
