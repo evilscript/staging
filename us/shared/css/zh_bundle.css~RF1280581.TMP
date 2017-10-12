@@ -175,7 +175,7 @@
 	/*plan End*/
 	
 	.bundlesTV,.bundlesBB{text-align: center;}
-	.bundlesTV{margin-top: 6%; margin-bottom: 20%;}
+	.bundlesTV{margin-top: 6%; margin-bottom: 15%;}
     .bundlesText{margin-bottom: 10%;}
     .bundlesTV .bundlesText{height: 60vw;padding-top: 45%;background: url(../images/bundles/mBundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 0vw;}
     .bundlesBB .bundlesText{height: 66vw;padding-top: 51%;background: url(../images/bundles/mBundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 0vw;}

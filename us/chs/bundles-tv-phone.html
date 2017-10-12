@@ -56,7 +56,7 @@
   .double .textCon{ width: 95.6%;}
 	}
 @media (max-width:767px){
-  .listCon .hook{background-position-y: 1vw;background-size: 4.5%;padding-left: 0;}
+  .listCon .hook{background-position-y: .6vw;background-size: 5.2%;padding-left: 0;}
   .double .Sharp{width: 4%;}
   .double .textCon{ width: 96%;} 
   ul.bundlesCon li.double p{padding-left: 4%;}
@@ -811,7 +811,7 @@
        
        <!-- bundlesTV & bundlesBB Begin-->  
 	   <section class="mainMgn100">
-	   	  <div class="bundlesTV">
+	   	  <div class="bundlesTV clearfix">
 	   	     <div class="bundlesText">
 	   	     	<p class="title36 mTitle44 fwb">蜻蜓电视</p>
 	   	     	<p class="title30 mTitle38">海外华人首选中文电视</p>
@@ -849,7 +849,7 @@
 	   	     	<p class="title30 mTitle38">海外华人市场NO.1家庭电话品牌</p>
 	   	     </div>	
 	   	     <div class="iconsCon clearfix">
-	   	        <div class="iconsBox">
+	   	        <div class="iconsBox clearfix">
 	   	        	<p class="titleMgnBtm iconsTitle iconsTitle4 title30 mTitle38 fwb">免费保留原号码</p>
 	   	        	<div class="iconsList text18 mText26">
 	   	        		<p>轻松将您原本电话号码转到您的iTalkBB蜻蜓电话上。</p>
@@ -868,9 +868,30 @@
                        </p>
                        </a>
       	  	   	    </div>
+      	  	   	    
+      	  	   	    <!-- reservation number from begin -->
+       	  	     <div class="planForm">
+                    <div id="reservationNom" class="reveal-modal reveal-modal2">
+                       <div class="nomberCon">
+                       <!--可以转显示下面的 CheckPhoneNumberB--> 
+                       <div id="CheckPhoneNumberB" class="content_search_box_tel_none">
+					      <p class="text18 mText26">恭喜！您现有的电话号码可以被保留！</p>
+                          <p class="text18 mText26"><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">试试另一个号码</span></a> ; <!--回到检查号码是否可以转的页面--><a href="../chs/bbPlan.html#planPoint" class="linkOrange"><span>看看有哪些计划</span></a><!--链接是多语言的，要替换enu为chs和chs--></p>
+                       </div>
+                       <!--不能转显示下面的 CheckPhoneNumberC-->
+                       <div id="CheckPhoneNumberC" class="content_search_box_tel_none">
+					      <p class="text18 mText26">很遗憾，您现有的电话号码不能被保留。选一个新号码吧！</p> 
+                          <p  class="text18 mText26"><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">试试另一个号码</span></a><!--回到检查号码是否可以转的页面--> ; <a href="https://www2.iTalkBB.com/USBBSignup/US_zh-CHS.aspx" target="_blank" class="linkOrange"> <span>选择计划和一个新号码</span></a><!--根据语言参数显示3个语言的注册链接--></p>
+					   </div>
+                      <a class="close-reveal-modal ccclose" style="text-decoration:none">&#215;</a>
+                      </div>																												
+                   </div>                                   
+                </div>
+                <!-- reservation number from end -->
+      	  	   	    
 	   	        </div>
 	   	        <div class="iconsBox iconsSpace">&nbsp;</div>
-	   	        <div class="iconsBox">
+	   	        <div class="iconsBox clearfix">
 	   	        	<p class="titleMgnBtm iconsTitle iconsTitle5 title30 mTitle38 fwb">接听免费</p>
 	   	        	<div class="iconsList text18 mText26">
 	   	        		<p>免费接听美国本地电话。</p>
@@ -878,7 +899,7 @@
 	   	        	</div>
 	   	        </div>
 	   	        <div class="iconsBox iconsSpace">&nbsp;</div>
-	   	        <div class="iconsBox">
+	   	        <div class="iconsBox clearfix">
 	   	        	<p class="titleMgnBtm iconsTitle iconsTitle6 title30 mTitle38 fwb">高清中/港/台直播</p>
 	   	        	<div class="iconsList text18 mText26">
 	   	        		<p>如果您的好友也是我们蜻蜓电话的用户，那么您直拨他们的899号码就能免费通话。</p>
