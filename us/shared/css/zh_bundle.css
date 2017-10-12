@@ -169,7 +169,6 @@
 	.bdBanBox .bdBanA{float: left; width: 45%;padding-top:4%; margin-right: 0%;}
 	.bdBanBox .bdBanA1{margin-left: 22.5%;}
 	.bdBanBox .bdBanA:hover,.bdBBTVMbanner .bdBanA1,.bdBBMbanner .bdBanA2,.bdBBTVbanner .bdBanA3{background-size: 76%; background-position-x: 50%;background-position-y: 2%;}
-
 	.bdBanBox .mSptIconRight{margin-right: 9.8%;}
 	.bdBanA img{width: 60%;}	
 	/* bundles banner end*/
@@ -198,14 +197,13 @@
 	/*plan End*/
 	
 	.bundlesTV,.bundlesBB{text-align: center;}
-	.bundlesTV{margin-top: 6%; margin-bottom: 20%;}
-    .bundlesText{margin-bottom: 10%;}
-    .bundlesTV .bundlesText{height: 62vw;padding-top: 47%;background: url(../images/bundles/mBundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 0vw;}
-    .bundlesBB .bundlesText{height: 68vw;padding-top: 53%;background: url(../images/bundles/mBundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 0vw;}
+	.bundlesTV{margin-top: 10%; margin-bottom: 16%;}
+    .bundlesTV .bundlesText{height: 69vw; background: url(../images/bundles/mBundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 22vw;}
+    .bundlesBB .bundlesText{height: 80vw; background: url(../images/bundles/mBundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 24vw;}
 	
 	.iconsCon{padding: 0 10%;}
 	.iconsBox{float: none; width: 100%; padding-top: 5%;}
-	.iconsTitle{padding-top: 38%; margin-bottom: 4%;}
+	.iconsTitle{padding-top: 40%; margin-bottom: 4%;}
 	.iconsList p{padding-left: 6.5%; background-size: 4%; background-position-y: .5vw;}
 	.numsearchImg{width: 10%;}
 	.numsearchBar{width: 18%;}
