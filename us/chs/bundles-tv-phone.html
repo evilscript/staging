@@ -18,7 +18,6 @@
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_bundle.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/swiper.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/reveal.css">
 
@@ -47,8 +46,6 @@
   .Sharp,.textCon{float: left; display: block;}
   .Sharp{vertical-align: top;width: 9%;}
   .textCon{ width: 91%;}
-  
-  
 @media (min-width:768px) and (max-width:1000px){
   .listCon .hook{background-position-y: .45vw;background-size: 4.5%;}
   .hook p{padding-left: 0;}
@@ -56,10 +53,11 @@
   .double .textCon{ width: 95.6%;}
 	}
 @media (max-width:767px){
-  .listCon .hook{background-position-y: .6vw;background-size: 5.2%;padding-left: 0;}
+  .listCon .hook{background-position-y: .45vw;background-size: 5.2%;padding-left: 0;}
   .double .Sharp{width: 4%;}
   .double .textCon{ width: 96%;} 
   ul.bundlesCon li.double p{padding-left: 4%;}
+  ul.bundlesCon li{padding-right: 1%;}
 	}
     </style>
 </head>
@@ -71,8 +69,8 @@
      
    <!--main content begin-->  
    <div class="mainLayout">      
-       <section> 
-         <div id="supportBanner"></div>    	    	   
+       <section class="bdBBTVMbanner"> 
+         <div id="bundlesBanner"></div>    	    	   
        </section>
        
        <section class="mainMgnTop">
@@ -918,7 +916,7 @@
   <div id="footer"></div>
     <script>
 	   $('#header').load('header.html');
-	   $('#supportBanner').load('supportBanner.html');
+	   $('#bundlesBanner').load('bundlesBanner.html');
        $('#footer').load('footer.html');
     </script>
   

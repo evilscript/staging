@@ -1,11 +1,20 @@
 /* Version:1.0  Author: Amy
   Create Date:2017-10-09 
-  Update Date:2017-10-11
+  Update Date:2017-10-12
   Desc : bundles-tv-phone CSS */ 
   
-/* bannerAll begin */
-
-/* bannerAll end */
+/* bundles banner begin */
+.bdBanBox a,.bdBanBox a:link,.bdBanBox a:hover,.bdBanBox a:visited{color: #fff;}
+.bdBannerCon{max-width: 1920px; text-align: center;padding-top: 4.5%;color: #fff; background: url(../images/support/sptBannerBg.jpg) no-repeat; background-size: 100%;}
+.bdBanTitle{margin-bottom: .75%;}
+.bdBanArrow{margin-top: 1.6%; background: url(../images/support/sptBannerArrow.png) no-repeat scroll center center; background-size: 1.8%;}
+.bdBanCon{padding-bottom: 2.4%;}
+.bdBanBox{margin: 0 auto; width: 76%;}
+.bdBanBox .bdBanA{float: left; width: 33.3%; cursor: pointer; padding-top: 2.7%;}
+.bdBanBox .bdBanA:hover,.bdBBTVMbanner .bdBanA1,.bdBBMbanner .bdBanA2,.bdBBTVbanner .bdBanA3{background: url(../images/support/sptBannerIconLight.png) no-repeat; background-size: 72%; background-position-x: 50%;background-position-y: -4%;}
+.bdBanBox p{padding-top: 8%;}
+.bdBanBox img{margin: 0 auto; width: 56%;}
+/* bundles banner end*/
 
 
 /*plan begin*/
@@ -108,9 +117,13 @@
 .numsearchImg,.numsearchBar,.numsearchBarLine,.numsearchButton{line-height: 1.5}
 
 @media  (min-width:768px) and (max-width:1000px){
-    /* bannerAll begin */
-    .bannerAll{background: url(../images/bb/ipadBBPlanBannerBg.jpg) no-repeat; background-size: 100%;}
-	/* bannerAll end */
+    /* bundles banner begin*/
+	.bdBanTitle{line-height: 1.4; padding: 0 5%;}
+    .bdBannerCon{background: url(../images/support/ipadSptBannerBg.jpg) no-repeat; background-size: 100%;}	
+	.bdBanCon{padding-bottom: 3.2%; padding-top: -7%;}
+	.bdBanBox{width: 94%;}
+	.sptHot{border-top: 1px solid #dedede; padding: 4.6% 0 3.8% 4%; width: 100%;}
+	/* bundles banner end*/
 
     /*plan begin*/	
 	.bundlesTVBB,.bundlesTVBBOther{padding: 0 5%;} 
@@ -147,9 +160,19 @@
 	.numsearchButton{width: 30%;}
 }
 @media (max-width:767px){
-    /* bannerAll begin */
-    
-	/* bannerAll end */
+    /* bundles banner */
+    .bdBannerCon{max-width: 767px;padding-top: 6.6%; background: url(../images/support/mSptBannerBg.jpg) no-repeat; background-size: 100%;}
+	.bdBanTitle{line-height: 1.2; padding:0 5%;margin-bottom: 4%;}
+	.bdBanArrow{background-size: 4%;margin-top: 3.2%;}
+	.bdBanCon{margin-top: -2%;padding-bottom: 5%;}
+	.bdBanBox{width: 100%;padding-left: 9%;}
+	.bdBanBox .bdBanA{float: left; width: 45%;padding-top:4%; margin-right: 0%;}
+	.bdBanBox .bdBanA1{margin-left: 22.5%;}
+	.bdBanBox .bdBanA:hover,.bdBBTVMbanner .bdBanA1,.bdBBMbanner .bdBanA2,.bdBBTVbanner .bdBanA3{background-size: 76%; background-position-x: 50%;background-position-y: 2%;}
+
+	.bdBanBox .mSptIconRight{margin-right: 9.8%;}
+	.bdBanA img{width: 60%;}	
+	/* bundles banner end*/
 	
     /*plan begin*/
 	.bbTryout,.bbApp,.otherFuncBox{text-align: left;}
@@ -177,13 +200,17 @@
 	.bundlesTV,.bundlesBB{text-align: center;}
 	.bundlesTV{margin-top: 6%; margin-bottom: 20%;}
     .bundlesText{margin-bottom: 10%;}
-    .bundlesTV .bundlesText{height: 60vw;padding-top: 45%;background: url(../images/bundles/mBundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 0vw;}
-    .bundlesBB .bundlesText{height: 66vw;padding-top: 51%;background: url(../images/bundles/mBundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 0vw;}
+    .bundlesTV .bundlesText{height: 62vw;padding-top: 47%;background: url(../images/bundles/mBundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 0vw;}
+    .bundlesBB .bundlesText{height: 68vw;padding-top: 53%;background: url(../images/bundles/mBundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 0vw;}
 	
-	.iconsCon{padding: 0 5.2%;}
+	.iconsCon{padding: 0 10%;}
 	.iconsBox{float: none; width: 100%; padding-top: 5%;}
 	.iconsTitle{padding-top: 38%; margin-bottom: 4%;}
-	.iconsList p{padding-left: 6.5%; background-size: 4%; background-position-y: .7vw;}
+	.iconsList p{padding-left: 6.5%; background-size: 4%; background-position-y: .5vw;}
+	.numsearchImg{width: 10%;}
+	.numsearchBar{width: 18%;}
+	.numsearchBarLine{width: 3%;}
+	.numsearchButton{width: 30%;}
    		
 }
 
