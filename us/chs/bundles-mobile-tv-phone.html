@@ -35,8 +35,7 @@
     <style>
   .content_search_box_tel_none{display: none}
   .orange a{color: #ff7f00}
-  .input_small{text-align: center;}
-  
+  .input_small{text-align: center;}  
   ul{padding-left: 0;}
   ul.bundlesCon li{float: left; width: 50%; padding-right: 3%;}
   ul.bundlesCon li.double{width: 100%;}
@@ -45,11 +44,19 @@
   .Sharp,.textCon{float: left; display: block;}
   .Sharp{vertical-align: top;width: 9%;}
   .textCon{ width: 91%;}
+  
+  .titleBox{padding: 0 16%;}
+  .titleBox p{padding:8% 0% 2% 22%; margin-bottom:-8%; background-size: 18%; background-position-x: 7%;}
+  .titleBox4 p{background: #fcfcfc;padding-left: 0;}
 @media (min-width:768px) and (max-width:1000px){
   .listCon .hook{background-position-y: .45vw;background-size: 4.5%;}
   .hook p{padding-left: 0;}
   .double .Sharp{width: 4.4%;}
   .double .textCon{ width: 95.6%;}
+  
+  .titleBox{padding: 0 12%;}
+  .titleBox p{padding:8% 0% 2% 18%; margin-bottom:-8%; background-size: 16%; background-position-x: 5%;}
+  .titleBox4 p{background: #fcfcfc;padding-left: 0;}
 	}
 @media (max-width:767px){
   .listCon .hook{background-position-y: .45vw;background-size: 5.2%;padding-left: 0;}
@@ -57,6 +64,10 @@
   .double .textCon{ width: 96%;} 
   ul.bundlesCon li.double p{padding-left: 4%;}
   ul.bundlesCon li{padding-right: 1%;}
+  
+  .titleBox{padding: 0 6%;}
+  .titleBox p{padding:8% 0% 2% 18%; margin-bottom:-8%; background-size: 16%; background-position-x: 3%;}
+  .titleBox4 p{background: #fcfcfc;padding-left: 0;}
 	}
     </style>
 </head>
@@ -98,10 +109,10 @@
         	  	<div class="planCon">
                    <div class="planUpper" id="up1">
         	  		  <div class="titleBox clearfix">
-        	  		     <p class="title36 fwb">电视+电话</p>
+        	  		     <p class="title36 fwb">移动+电视+电话</p>
         	  		  </div>
         	  		  <div class="planText">
-        	  			<p class="title30">1G @ 4G LTE</p>
+        	  			<p class="title24 org fwb">1G @ 4G LTE</p>
         	  			<div class="priceBox priceBox2 avenir clearfix">
                      <p class="dollar title60">$</p>
                      <p class="priceBig title140">{{plan1_int}}</p>
@@ -217,11 +228,11 @@
        	  	    </div>
         	  	<div class="planCon plan2">
                    <div class="planUpper" id="up2">
-					  <div class="titleBox titleBox2 clearfix">
-        	  			<p class="title36 fwb">电视+电话</p>
+					  <div class="titleBox titleBox4 clearfix">
+        	  			<p class="title36 fwb">移动+电视+电话</p>
         	  		  </div>
         	  		  <div class="planText">
-        	  		     <p class="title30">5G @ 4G LTE</p>
+        	  		     <p class="title24 org fwb">5G @ 4G LTE</p>
         	  			 <div class="priceBox priceBox2 avenir clearfix">
                      <p class="dollar title60">$</p>
                      <p class="priceBig title140">{{plan2_int}}</p>
@@ -356,11 +367,11 @@
         	  	<div class="planCon plan1 mSwiper-slide" >
                    <div class="planUpper">
         	  		  <div class="titleBox clearfix">
-        	  			 <p class="title36 mTitle44 fwb">电视+电话</p>
+        	  			 <p class="title36 mTitle44 fwb">移动+电视+电话</p>
         	  		  </div>
         	  		  <div class="planText">
-        	  			<p class="title30 mTitle38">1G @ 4G LTE</p>
-        	  			<div class="priceBox priceBox1 avenir clearfix">
+        	  			<p class="title24 mTitle32 org fwb">1G @ 4G LTE</p>
+        	  			<div class="priceBox priceBox2 avenir clearfix">
                      <p class="dollar title60 mTitle68">$</p>
                      <p class="priceBig title140 mTitle162">{{plan1_int}}</p>
                      <p class="priceSmall title70 mTitle78">
@@ -465,11 +476,11 @@
         	  	</div>
         	  	<div class="planCon plan2 mSwiper-slide">
                    <div class="planUpper">
-        	  		  <div class="titleBox titleBox2 clearfix">
-        	  			 <p class="title36 mTitle44 fwb">电视+电话</p>
+        	  		  <div class="titleBox titleBox4 clearfix">
+        	  			 <p class="title36 mTitle44 fwb">移动+电视+电话</p>
         	  		  </div>
         	  		  <div class="planText">
-        	  			<p class="title30 mTitle38">5G @ 4G LTE</p>
+        	  			<p class="title24 mTitle32 org fwb">5G @ 4G LTE</p>
         	  			<div class="priceBox priceBox2 avenir clearfix">
                      <p class="dollar title60 mTitle68">$</p>
                      <p class="priceBig title140 mTitle162">{{plan2_int}}</p>
