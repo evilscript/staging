@@ -67,6 +67,8 @@
 
   .titleBox p{padding:8% 0% 2% 18%; margin-bottom:-8%; background-size: 16%; background-position-x: 5%;}
   .titleBox4 p{background: #fcfcfc;padding-left: 0;}
+
+
 	}
     </style>
 </head>
@@ -348,7 +350,7 @@
         	 
         	<!-- bundlesBBTVM Phone begin-->   
         	<div class="bundlesBox showM">
-      	      <div class="planLine">
+      	      <div class="planLine" id="titphone">
        	         <p class="planTitleBig title30 mTitle38">选择手机线数</p>
        	         <div id="choselinephone" style="position:relative;">
                     <div class="lineSelect clearfix">
@@ -364,7 +366,7 @@
        	      <div class="mSwiperBox mNewswiper2">
         	  <div class="planBox mSwiper-wrapper clearfix">
         	  	<div class="planCon plan1 mSwiper-slide" >
-                   <div class="planUpper">
+                   <div class="planUpper" id="up1phone">
         	  		  <div class="titleBox clearfix">
         	  			 <p class="title36 mTitle42 fwb">移动+电视+电话</p>
         	  		  </div>
@@ -731,19 +733,19 @@
 $(window).resize(function(){
 var screenWidth = $(window).width();
     if(screenWidth<767){              
-
+      var u = $("#titphone").height();
+       var f =$('#choselinephone').width()*0.03; 
+        var a = $("#up1phone").height();  
+         var k = u+f+a;
+          $(".bundlesBox").css({"background-size":"100% "+k+'px'});    
+          
         }
     if(screenWidth>=767){
           var a = $("#up1").height();
-                  var c = $("#tit").width();
-                  var d = $("#tit").height();
-
-                  var b = c*0.035;
-                  var e = c*0.025;
-
-                  var p = d+b+e;
-                  var k = p+a;
-
+                  var u = $("#tit").height();                   
+                  // 标题高
+                  var f =$('#choseline').width()*0.03;
+                  var k = u+f+a;
             $(".bundlesBox").css({"background-size":"100% "+k+'px'});
 
       $(".planSpace").css({"height":k});
@@ -758,21 +760,21 @@ var screenWidth = $(window).width();
 
 $(function(){
 var screenWidth = $(window).width();
-    if(screenWidth<767){              
+    if(screenWidth<767){       
+      var u = $("#titphone").height();
+       var f =$('#choselinephone').width()*0.03; 
+        var a = $("#up1phone").height();  
+         var k = u+f+a;
+          $(".bundlesBox").css({"background-size":"100% "+k+'px'});       
 
         }
     if(screenWidth>=767){
           var a = $("#up1").height();
-                  var c = $("#tit").width();
-                  var d = $("#tit").height();
-
-                  var b = c*0.035;
-                  var e = c*0.025;
-
-                  var p = d+b+e;
-                  var k = p+a;
-
-            $(".bundlesBox").css({"background-size":"100% "+k+'px'});
+                  var u = $("#tit").height();                   
+                  // 标题高
+                  var f =$('#choseline').width()*0.03;
+                  var k = u+f+a;
+      $(".bundlesBox").css({"background-size":"100% "+k+'px'});
 			$(".planSpace").css({"height":a});
 			
 		var i = $("#up1").height();
