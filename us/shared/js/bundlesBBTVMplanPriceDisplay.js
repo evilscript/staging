@@ -3,10 +3,9 @@ app.controller('mobilePlanController', function($scope) {
     $scope.user = false;
     $scope.line = 1;
     $scope.plan1_int = '30';
-    $scope.plan1_dec = '    ';
+    $scope.plan1_dec = '';
     $scope.plan2_int = '45';
-    $scope.plan2_dec = '    ';
-    parent.location.hash = "?isUser=false?line=1?chinaSimCard1=false?chinaSimCard2=false";
+    $scope.plan2_dec = '';
     $scope.isUser = function(){
         $scope.user = true;
         $('.ifCustomerLeftText').removeClass('ifCustomerSelected');
@@ -59,123 +58,73 @@ app.controller('mobilePlanController', function($scope) {
         updatePrice($scope.user, $scope.line);
     };
     var updatePrice = function(isUser, lineNumber){
-        if ( isUser == true ){
-            if ( lineNumber == 1) {
-                $scope.plan1_int = '20';
-                $scope.plan2_int = '35';
-                checkChinaSim(parent.location.hash = "?isUser=true?line=1");
-                $('.down1x').attr('href','http://www.keleyi.com');   
-                $('.down2x').attr('href','http://www.keleyia.com');   
-            }
-            else if ( lineNumber == 2) {
-                $scope.plan1_int = '40';
-                $scope.plan2_int = '70';
-                checkChinaSim(parent.location.hash = "?isUser=true?line=2");
-                  $('.down1x').attr('href','http://www.keleyi2.com'); 
-                  $('.down2x').attr('href','http://www.keleyia2.com');    
-            }
-            else if ( lineNumber == 3) {
-                $scope.plan1_int = '55';
-                $scope.plan2_int = '105';
-                checkChinaSim(parent.location.hash = "?isUser=true?line=3");
-                  $('.down1x').attr('href','http://www.keleyi3.com'); 
-                  $('.down2x').attr('href','http://www.keleyia3.com');    
-            }
-            else if ( lineNumber == 4) {
-                $scope.plan1_int = '70';
-                $scope.plan2_int = '140';
-                checkChinaSim(parent.location.hash = "?isUser=true?line=4");
-                  $('.down1x').attr('href','http://www.keleyi4.com'); 
-                  $('.down2x').attr('href','http://www.keleyia4.com');    
-            }
-            else if ( lineNumber == 5) {
-                $scope.plan1_int = '85';
-                $scope.plan2_int = '175';
-                checkChinaSim(parent.location.hash = "?isUser=true?line=5");
-                  $('.down1x').attr('href','http://www.keleyi5.com'); 
-                  $('.down2x').attr('href','http://www.keleyia5.com');    
-            }
-            else if ( lineNumber == 6) {
-                $scope.plan1_int = '100';
-                $scope.plan2_int = '210';
-                checkChinaSim(parent.location.hash = "?isUser=true?line=6");
-                  $('.down1x').attr('href','http://www.keleyi6.com');  
-                  $('.down2x').attr('href','http://www.keleyia6.com');   
-            }
-        }
-        else if ( isUser == false ){
+         if ( isUser == false ){
             if ( lineNumber == 1) {
                 $scope.plan1_int = '30';
                 $scope.plan2_int = '45';
-                checkChinaSim(parent.location.hash = "?isUser=false?line=1");
-                $('.down1x').attr('href','http://www.nkeleyi.com'); 
-                $('.down2x').attr('href','http://www.nkeleyia.com');     
+                // checkChinaSim(parent.location.hash = "?isUser=false?line=1");
+    
             }
             else if ( lineNumber == 2) {
                 $scope.plan1_int = '60';
                 $scope.plan2_int = '90';
-                checkChinaSim(parent.location.hash = "?isUser=false?line=2");
-                $('.down1x').attr('href','http://www.nkeleyi2.com');
-                $('.down2x').attr('href','http://www.nkeleyia2.com');   
+                // checkChinaSim(parent.location.hash = "?isUser=false?line=2");
+
             }
             else if ( lineNumber == 3) {
                 $scope.plan1_int = '80';
                 $scope.plan2_int = '135';
-                checkChinaSim(parent.location.hash = "?isUser=false?line=3");
-                $('.down1x').attr('href','http://www.nkeleyi3.com');
-                $('.down2x').attr('href','http://www.nkeleyia3.com');   
+                // checkChinaSim(parent.location.hash = "?isUser=false?line=3");
+  
             }
             else if ( lineNumber == 4) {
                 $scope.plan1_int = '100';
                 $scope.plan2_int = '180';
-                checkChinaSim(parent.location.hash = "?isUser=false?line=4");
-                $('.down1x').attr('href','http://www.nkeleyi4.com');
-                $('.down2x').attr('href','http://www.nkeleyia4.com');   
+                // checkChinaSim(parent.location.hash = "?isUser=false?line=4");
+
             }
             else if ( lineNumber == 5) {
                 $scope.plan1_int = '120';
                 $scope.plan2_int = '225';
-                checkChinaSim(parent.location.hash = "?isUser=false?line=5");
-                $('.down1x').attr('href','http://www.nkeleyi5.com');
-                $('.down2x').attr('href','http://www.nkeleyia5.com');   
+                // checkChinaSim(parent.location.hash = "?isUser=false?line=5");
+ 
             }
             else if ( lineNumber == 6) {
                 $scope.plan1_int = '140';
                 $scope.plan2_int = '270';
-                checkChinaSim(parent.location.hash = "?isUser=false?line=6");
-                $('.down1x').attr('href','http://www.nkeleyi6.com');
-                $('.down2x').attr('href','http://www.nkeleyia6.com');   
+                // checkChinaSim(parent.location.hash = "?isUser=false?line=6");
+
             }
         }
     };
-    var checkChinaSim = function(currentHash) {
-        if( $(window).width() > 767 ){
-            if( $('#chinaSimCardCheckbox').is(':checked') && $('#chinaSimCardCheckbox2').is(':checked') ){
-                parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=true';
-            }
-            else if( $('#chinaSimCardCheckbox').is(':checked') && !$('#chinaSimCardCheckbox2').is(':checked') ){
-                parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=false';
-            }
-            else if( !$('#chinaSimCardCheckbox').is(':checked') && $('#chinaSimCardCheckbox2').is(':checked') ){
-                parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=true';
-            }
-            else{
-                parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=false';
-            }
-        }
-        else{
-            if( $('#chinaSimCardCheckbox3').is(':checked') && $('#chinaSimCardCheckbox4').is(':checked') ){
-                parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=true';
-            }
-            else if( $('#chinaSimCardCheckbox3').is(':checked') && !$('#chinaSimCardCheckbox4').is(':checked') ){
-                parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=false';
-            }
-            else if( !$('#chinaSimCardCheckbox3').is(':checked') && $('#chinaSimCardCheckbox4').is(':checked') ){
-                parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=true';
-            }
-            else{
-                parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=false';
-            }
-        }
-    };
+    // var checkChinaSim = function(currentHash) {
+    //     if( $(window).width() > 767 ){
+    //         if( $('#chinaSimCardCheckbox').is(':checked') && $('#chinaSimCardCheckbox2').is(':checked') ){
+    //             parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=true';
+    //         }
+    //         else if( $('#chinaSimCardCheckbox').is(':checked') && !$('#chinaSimCardCheckbox2').is(':checked') ){
+    //             parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=false';
+    //         }
+    //         else if( !$('#chinaSimCardCheckbox').is(':checked') && $('#chinaSimCardCheckbox2').is(':checked') ){
+    //             parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=true';
+    //         }
+    //         else{
+    //             parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=false';
+    //         }
+    //     }
+    //     else{
+    //         if( $('#chinaSimCardCheckbox3').is(':checked') && $('#chinaSimCardCheckbox4').is(':checked') ){
+    //             parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=true';
+    //         }
+    //         else if( $('#chinaSimCardCheckbox3').is(':checked') && !$('#chinaSimCardCheckbox4').is(':checked') ){
+    //             parent.location.hash = currentHash + '?chinaSimCard1=true?chinaSimCard2=false';
+    //         }
+    //         else if( !$('#chinaSimCardCheckbox3').is(':checked') && $('#chinaSimCardCheckbox4').is(':checked') ){
+    //             parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=true';
+    //         }
+    //         else{
+    //             parent.location.hash = currentHash + '?chinaSimCard1=false?chinaSimCard2=false';
+    //         }
+    //     }
+    // };
 });

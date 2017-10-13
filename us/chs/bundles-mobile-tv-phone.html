@@ -28,11 +28,9 @@
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
-    <script src="../shared/js/AmyInterim.js"></script> 
     <script src="../shared/js/bundlesBBTVMplanPriceDisplay.js"></script> 
-    <!-- 电话查询 -->
-    <script src="../shared/js/italkbb.tools.js"></script>
-    <script src="../shared/js/colorbox.js"></script>
+
+
       
     <style>
   .content_search_box_tel_none{display: none}
@@ -64,7 +62,7 @@
 </head>
 
 
-<body ng-app="">
+<body  ng-app="mobilePlanApp" ng-controller="mobilePlanController">
    <!-- Author: Amy --> 
    <div id="header"></div>
      
@@ -83,6 +81,7 @@
         	<div class="bundlesBox hideM" id="planPoint">
       	      <div class="planLine" id="tit">
        	      <p class="planTitleBig title30">选择手机线数</p>
+              
        	       <div id="choseline" style="position:relative;">
                     <div class="lineSelect clearfix">
                         <p class="title18 pin mTitle26 lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
@@ -104,12 +103,12 @@
         	  		  <div class="planText">
         	  			<p class="title30">1G @ 4G LTE</p>
         	  			<div class="priceBox priceBox2 avenir clearfix">
-        	  			   <p class="dollar title60">$</p>
-        	  			   <p class="priceBig title140">24</p>
-        	  			   <p class="priceSmall title70">
-        	  			     <span class="smallNom">.99</span>
-        	  			     <span class="smallSub title36 pin">/月</span>
-        	  			   </p>       	  			 	
+                     <p class="dollar title60">$</p>
+                     <p class="priceBig title140">{{plan1_int}}</p>
+                     <p class="priceSmall title70">
+                       <span class="smallNom"><span class="trans">.00</span>{{plan1_dec}}</span>
+                       <span class="smallSub title36 pin">/月<sup><sup class="sans">1</sup></sup></span>
+                     </p>        	  			 	
         	  			</div>
         	  			<div class="textBox">
        	  			       <p class="title18">
@@ -224,12 +223,12 @@
         	  		  <div class="planText">
         	  		     <p class="title30">5G @ 4G LTE</p>
         	  			 <div class="priceBox priceBox2 avenir clearfix">
-        	  			   <p class="dollar title60">$</p>
-        	  			   <p class="priceBig title140">39</p>
-        	  			   <p class="priceSmall title70">
-        	  			     <span class="smallNom">.99</span>
-        	  			     <span class="smallSub title36 pin">/月</span>
-        	  			   </p>       	  			 	
+                     <p class="dollar title60">$</p>
+                     <p class="priceBig title140">{{plan2_int}}</p>
+                     <p class="priceSmall title70">
+                       <span class="smallNom"><span class="trans">.00</span>{{plan2_dec}}</span>
+                               <span class="smallSub title36 pin">/月<sup><sup class="sans">1</sup></sup></span>
+                     </p>         	  			 	
         	  			 </div>
         	  			 <div class="textBox">
        	  			       <p class="title18">
@@ -362,12 +361,12 @@
         	  		  <div class="planText">
         	  			<p class="title30 mTitle38">1G @ 4G LTE</p>
         	  			<div class="priceBox priceBox1 avenir clearfix">
-        	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">4</p>
-        	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom">.99</span>
-        	  			     <span class="smallSub title36 mTitle44 pin">/月</span>
-        	  			   </p>       	  			 	
+                     <p class="dollar title60 mTitle68">$</p>
+                     <p class="priceBig title140 mTitle162">{{plan1_int}}</p>
+                     <p class="priceSmall title70 mTitle78">
+                       <span class="smallNom"><span class="trans">.00</span>{{plan1_dec}}</span>
+                       <span class="smallSub title36 mTitle44 pin">/月<sup><sup class="sans">1</sup></sup></span>
+                     </p>       	  			 	
         	  			</div>
         	  			<div class="textBox">
        	  			       <p class="title18 mTitle26">
@@ -472,12 +471,12 @@
         	  		  <div class="planText">
         	  			<p class="title30 mTitle38">5G @ 4G LTE</p>
         	  			<div class="priceBox priceBox2 avenir clearfix">
-        	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">24</p>
-        	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom">.99</span>
-        	  			     <span class="smallSub title36 mTitle44 pin">/月</span>
-        	  			   </p>       	  			 	
+                     <p class="dollar title60 mTitle68">$</p>
+                     <p class="priceBig title140 mTitle162">{{plan2_int}}</p>
+                     <p class="priceSmall title70 mTitle78">
+                       <span class="smallNom"><span class="trans">.00</span>{{plan2_dec}}</span>
+                       <span class="smallSub title36 mTitle44 pin">/月<sup><sup class="sans">1</sup></sup></span>
+                     </p>       	  			 	
         	  			</div>
         	  			<div class="textBox">
        	  			       <p class="title18 mTitle26">
