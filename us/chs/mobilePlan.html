@@ -29,10 +29,6 @@
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
-    <script src="../shared/js/AmyInterim.js"></script>
-    <!-- 电话查询 -->
-    <script src="../shared/js/italkbb.tools.js"></script>
-    <script src="../shared/js/colorbox.js"></script>
     <script src="../shared/js/mobilePlanPriceDisplay.js"></script>
     <style>
   .content_search_box_tel_none{display: none}
@@ -71,18 +67,19 @@
        	      <p class="planTitleBig title42 fwb" id="tit">蜻蜓移动产品计划</p>
 
 
-
+                <div class="linex">
                 <div class="ifCustomerLeft">
                     <p class="ifCustomerLeftText ifCustomerSelected pin title24 mTitle32 fwb" ng-click="isNotUser();">非用户</p>
                 </div>
                 <div class="ifCustomerRight">
                     <p class="ifCustomerRightText pin title24 mTitle32 fwb" ng-click="isUser();">用户</p>
                 </div>
+                
                 <div class="clear clearfix"></div>
 
                 <p class="lineSelectTitle title24 mTitle32">选择手机线数</p>
 
-                <div style="position:relative;">
+                <div id="choseline" style="position:relative;">
                     <div class="lineSelect">
                         <p class="title18 pin mTitle26 lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
                         <p class="title18 pin mTitle26 lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
@@ -92,6 +89,7 @@
                         <p class="title18 pin mTitle26 lineSelectText line6" ng-click="line6()"><span class="sans">6</span>条线</p>
                         <div class="clear clearfix"></div>
                     </div>
+                </div>
                 </div>
        	      
         	  <div class="planBox clearfix">
@@ -146,14 +144,7 @@
      	  	       </a>
        	  	    </div>
        	  	    <!--from begin-->
-       	  	    <div class="planForm">
-                      <div id="planFormCompare" class="reveal-modal ccclose">
-                         <div class="planFormCon">
-                            <div id="bbFromCom"></div>
-                         </div>
-                         <a class="close-reveal-modal" style="text-decoration:none">&#215;</a>
-                      </div>                 
-                </div>
+ 
                 <!--from end-->
         	  	<div class="planCon plan2">
                    <div class="planUpper" id="up2">
@@ -204,9 +195,10 @@
         	<!-- bbPlan PC End-->  
         	 
         	<!-- bbPlan Phone begin-->   
-        	<div class="bbPlan showM">
-       	      <p class="planTitleBig title42 mTitle50 fwb">蜻蜓电话产品计划</p>
+        <div class="bbPlan showM " id="planPointphone">
+       	      <p class="planTitleBig title42 mTitle50 fwb " id="titphone">蜻蜓电话产品计划</p>
 
+        <div class="linexphone">
 				<div class="ifCustomerLeft">
 					<p class="ifCustomerLeftText ifCustomerSelected pin title24 mTitle32 fwb" ng-click="isNotUser();">非用户</p>
 				</div>
@@ -217,7 +209,7 @@
 
 				<p class="lineSelectTitle title24 mTitle32">选择手机线数</p>
 
-				<div style="position:relative;">
+				<div  id="choselinephone" style="position:relative;">
 					<div class="lineSelect">
 						<p class="title18 pin mTitle26 lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
 						<p class="title18 pin mTitle26 lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
@@ -228,6 +220,7 @@
 						<div class="clear clearfix"></div>
 					</div>
 				</div>
+        </div>
 
 
 
@@ -237,7 +230,7 @@
        	      <div class="mSwiperBox mNewswiper2">
         	  <div class="planBox mSwiper-wrapper clearfix">
         	  	<div class="planCon plan1 mSwiper-slide" >
-                   <div class="planUpper">
+                   <div class="planUpper" id="up1phone">
         	  		  <div class="titleBox clearfix">
         	  			 <p class="mTitle44 fwb">超值计划</p>
         	  		  </div>
@@ -453,27 +446,38 @@
   </script>
 <!-- Swiper JS end-->
   
+
+
+
 </body>
 <script> 
 $(window).resize(function(){
 var screenWidth = $(window).width();
+console.log(screenWidth);
     if(screenWidth<767){
               
+                  var a = $("#up1phone").height();
+                  var c = $("#planPointphone").width();
+                  var d = $("#titphone").height();
+                  var u = $(".linexphone").height();                    
+                  var b = c*0.035;
+                  // 标题高
+                  var p = d+b;
+                  var f =$('#choselinephone').width()*0.03;
+                  var k = p+a+u+f;
+            $(".bbPlan").css({"background-size":"100% "+k+'px'}); 
 
         }
     if(screenWidth>=767){
           var a = $("#up1").height();
-                  var c = $("#tit").width();
+                  var c = $("#planPoint").width();
                   var d = $("#tit").height();
-
+                  var u = $(".linex").height();                    
                   var b = c*0.035;
-                  var e = c*0.025;
-
-                  var p = d+b+e;
-                  var k = p+a;
-
-
-
+                  // 标题高
+                  var p = d+b;
+                  var f =$('#choseline').width()*0.03;
+                  var k = p+a+u+f;
             $(".bbPlan").css({"background-size":"100% "+k+'px'});
 
       $(".planSpace").css({"height":k});
@@ -486,25 +490,36 @@ var screenWidth = $(window).width();
         }
 });
 
-$(window).load(function(){
+$(function(){
 var screenWidth = $(window).width();
+
+
+
     if(screenWidth<767){
-              
+          
+                  var a = $("#up1phone").height();
+                  var c = $("#planPointphone").width();
+                  var d = $("#titphone").height();
+                  var u = $(".linexphone").height();                    
+                  var b = c*0.035;
+                  // 标题高
+                  var p = d+b;
+                  var f =$('#choselinephone').width()*0.03;
+                  var k = p+a+u+f;
+            $(".bbPlan").css({"background-size":"100% "+k+'px'}); 
+
 
         }
     if(screenWidth>=767){
           var a = $("#up1").height();
-                  var c = $("#tit").width();
+                  var c = $("#planPoint").width();
                   var d = $("#tit").height();
-
+                  var u = $(".linex").height();                    
                   var b = c*0.035;
-                  var e = c*0.025;
-
-                  var p = d+b+e;
-                  var k = p+a;
-
-
-
+                  // 标题高
+                  var p = d+b;
+                  var f =$('#choseline').width()*0.03;
+                  var k = p+a+u+f;
             $(".bbPlan").css({"background-size":"100% "+k+'px'});
 
 
