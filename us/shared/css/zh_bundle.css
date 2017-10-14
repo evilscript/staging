@@ -33,17 +33,26 @@
 .planCompare img{display: inline-block; width: 100%;}
 .planFormCon{padding-bottom: 1.8%;}
 .planCon{width: 46.55%; background: #fcfcfc;}
-.titleBox{border-bottom:1px solid #222; padding: 0 21%;}
-.titleBox p{padding:8% 0% 2% 24%; margin-bottom:-9.5%; background: #fcfcfc url(../images/bb/chs_bbPlanIconHot.png) no-repeat; background-size: 19%; background-position-x: 10%;background-position-y: 50%;}
+.titleBox{border-bottom:1px solid #222; padding: 0 16%;}
+.titleBox p{padding:8% 0% 2% 22%; margin-bottom:-8%; background: #fcfcfc url(../images/bb/chs_bbPlanIconHot.png) no-repeat; background-size: 18%; background-position-x: 7%;background-position-y: 50%;}
 .titleBox2 p{background: #fcfcfc;padding-left: 0;}
 .titleBox3{padding: 0 36%;}
 .titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}
+.titleBox4 p{background: #fcfcfc;padding-left: 0;}
 .planText{margin-top: 9.5%;}
 .textBox{margin-top: 4%; padding-bottom: 7%; padding-right: 1%;}
 .textBox p{color: #ff7f00;}
 .textBox p img{display: inline-block; width: 12.2%; padding-bottom: 4.5%;}
 .planList{background: #f2f2f2;}
-.listCon{padding: 10% 10% 8% 11%; text-align: left;}
+ul{padding-left: 0;}
+ul.bundlesCon li{float: left; width: 50%; padding-right: 3%;}
+ul.bundlesCon li.double{width: 100%;}
+.double .Sharp{width: 3.4%;}
+.double .textCon{ width: 96.5%;}
+.Sharp,.textCon{float: left; display: block;}
+.Sharp{vertical-align: top;width: 7%;}
+.textCon{ width: 93%;}
+.listCon{padding: 10% 6.5% 8% 10.5%; text-align: left;}
 .listCon .hook{margin-bottom: 5%; padding-left: 6.5%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 4%; background-position-y: .2vw;}
 .planBtn{float: left; width: 44%; background: #327fe8; margin-left: 28%; margin-top: -5%; padding-bottom: .2%; border-radius: 10px; cursor: pointer;}
 .planBtn p{line-height: 1.8;}
@@ -56,10 +65,8 @@
 .planYearDown .listCon{padding: 5% 2% 0 5.1%;}
 .planYearDown .listCon .hook{float: left; width: 46%; margin-bottom: 3%; margin-right: 4%; padding-left: 2.9%; background-size: 3.5%;}
 .planYearDown .listCon .conRight{margin-right: 0;}
-/*plan end*/
 
-/**/
-.lineSelectTitle{color:white; padding-top:1%; padding-bottom:2%; margin-bottom:0;}
+/*.lineSelectTitle{color:white; padding-top:1%; padding-bottom:2%; margin-bottom:0;}*/
 .lineSelectText{
     text-align: center;
     color: white;
@@ -68,7 +75,7 @@
     padding-top: 1%;
     padding-bottom: 1%;
     margin-bottom: 0;
-    border-radius: 7px;
+    border-radius: 6px;
     float: left;
     margin-right: 3.2%;
     z-index: 10;
@@ -79,69 +86,73 @@
     transition: box-shadow ease 0.8s, padding-top 0s, padding-bottom 0s, margin-top 0s;
 }
 .lineSelectText:before{
-     border-top: 3px solid #00afff;
+     border-top: .25vw solid #00afff;
      content:"";
      margin: 0 auto; /* this centers the line to the full width specified */
      position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
      top: 50%; left: 0; right: 0; bottom: 0;
-    padding-left:12.5%;
-    padding-right:12.5%;
+     padding-left:12.5%;
+     padding-right:12.5%;
+	 margin-top: -.7%;
      width: 95%;
      z-index: -1;
 }
 .line6 {margin-right: 0;}
 .lineSelect{position: relative; text-align: center; margin-bottom: 3%; z-index: 0; width: 75%; margin-left: 12.5%;}
-.crossBorder{border-top: 4px solid #00afff; width: 75%; margin-left: 12.5%; position: absolute; top: 50%;}
+/*.crossBorder{border-top: 4px solid #00afff; width: 75%; margin-left: 12.5%; position: absolute; top: 50%;}*/
 .lineSelectText:hover{color: white;
     box-shadow: inset 200px 0 10px #00afff;
     transition: box-shadow ease 0.8s, padding-top 0s, padding-bottom 0s, margin-top 0s;
 }
-.lineSelectSelected{background:#ff7f00; color:white; padding-top:2%; padding-bottom:2%; margin-toP:-1%;}
+.lineSelectSelected{background:#ff7f00; color:white; padding-top:2%; padding-bottom:2%; margin-top:-1%;}
 .lineSelectSelected:hover{color: white;
     box-shadow: inset 200px 0 10px #ff7f00;
     transition: box-shadow ease 0.8s, padding-top 0s, padding-bottom 0s, margin-top 0s;
 }
-.planNameSubtitle{
-    padding-left: 13%;
-    padding-bottom: 5%;
-}
-.planNameSubtitle2{
-    padding-bottom: 5%;
-}
 .chinaSimCard {
-    background: url(../images/mobile/china_sim_card_icon.png) no-repeat top left;
-    background-size: 10%;
-    padding-left: 22%;
-    padding-top: 2%;
-    margin-top: 3%;
+    background: url(../images/bundles/chinaCardIcon.png) no-repeat;
+    background-size: 15%;
+    padding-left: 23%;
+    padding-top: 3%;
+	padding-bottom: 3%;
     text-align: left;
-    background-position-x: 10%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    border-bottom: 1px solid #656565;
+    background-position-x: 5%;
+	background-position-y: 50%;
 }
-#chinaSimCardCheckbox, #chinaSimCardCheckbox2, #chinaSimCardCheckbox3, #chinaSimCardCheckbox4{margin-top: 0;margin-left: 5%;}
+.chinaSimCard p{margin-bottom: 0;}
+#chinaSimCardCheckbox, #chinaSimCardCheckbox2, #chinaSimCardCheckbox3, #chinaSimCardCheckbox4{margin-top: 0;margin-left: 0%;}
 .chinaSimCardCheckboxLabel, .chinaSimCardCheckboxLabel2, .chinaSimCardCheckboxLabel3, .chinaSimCardCheckboxLabel4{padding-left:2%;cursor:pointer;}
-.chinaSimLastFeatures{text-align: center; margin-bottom: 0; padding-top: 4%; padding-bottom: 5%;}
-/**/
+/*plan end*/
 
-.bundlesTV,.bundlesBB{text-align: center;}
-.bundlesTV{margin-bottom: 5%;}
+.bundlesTV,.bundlesBB,.bundlesMobile{text-align: center;}
+.bundlesTV,.bundlesMobile{margin-bottom: 7%;}
+.bundlesMobile{margin-top: 5%;}
 .bundlesText{height: 39.6vw; margin-bottom: 1%;}
 .bundlesTV .bundlesText{background: url(../images/bundles/bundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 5vw;}
 .bundlesBB .bundlesText{background: url(../images/bundles/bundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 6vw;}
-.iconsBox{float: left; width: 30%;}
+.bundlesMobile .bundlesText{background: url(../images/bundles/bundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 6vw;}
+.iconsBox{float: left; width: 30%; text-align: left;}
 .iconsSpace{width: 5%;}
-.iconsTitle{padding: 0 5.2%; padding-top: 42%; margin-bottom: 5%;}
-.iconsTitle1{background:url(../images/bundles/bundlesIcons1.png)  no-repeat top; background-size: 33%;}
-.iconsTitle2{background:url(../images/bundles/bundlesIcons2.png)  no-repeat top; background-size: 33%;}
-.iconsTitle3{background:url(../images/bundles/bundlesIcons3.png)  no-repeat top; background-size: 33%;}
-.iconsTitle4{background:url(../images/bundles/bundlesIcons4.png)  no-repeat top; background-size: 33%;}
-.iconsTitle5{background:url(../images/bundles/bundlesIcons5.png)  no-repeat top; background-size: 33%;}
-.iconsTitle6{background:url(../images/bundles/bundlesIcons6.png)  no-repeat top; background-size: 33%;}
+.iconsTitle{padding: 0 5.2%; padding-top: 39%; margin-bottom: 4%;text-align: center;}
+.iconsTitle1{background:url(../images/bundles/bundlesIcons1.png)  no-repeat top; background-size: 31%;}
+.iconsTitle2{background:url(../images/bundles/bundlesIcons2.png)  no-repeat top; background-size: 31%;}
+.iconsTitle3{background:url(../images/bundles/bundlesIcons3.png)  no-repeat top; background-size: 31%;}
+.iconsTitle4{background:url(../images/bundles/bundlesIcons4.png)  no-repeat top; background-size: 31%;}
+.iconsTitle5{background:url(../images/bundles/bundlesIcons5.png)  no-repeat top; background-size: 31%;}
+.iconsTitle6{background:url(../images/bundles/bundlesIcons6.png)  no-repeat top; background-size: 31%;}
 .iconsList{text-align: left;}
-.iconsList p{margin-bottom: 4.2%; padding-left: 6.2%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 3.6%; background-position-y: .16vw;}
+.iconsList p{padding-left: 6.2%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 3.6%; background-position-y: .16vw;}
 .iconsList p:last-child{margin-bottom: 0;}
+.iconsCon2 .titleMgnBtm{text-align: left;}
+.iconsCon2 .iconsBox{width: 46%;}
+.iconsCon2 .iconsSpace{width: 8%;}
+.iconsCon2 .iconsTitle{padding: 0 5.2%; padding-top: 28.8%; margin-bottom: 3%;text-align: center;}
+.iconsCon2 .iconsTitle7{background:url(../images/bundles/bundlesIcons7.png)  no-repeat top; background-size: 23%;}
+.iconsCon2 .iconsTitle8{background:url(../images/bundles/bundlesIcons8.png)  no-repeat top; background-size: 23%;}
+.iconsCon2 .iconsTitle9{background:url(../images/bundles/bundlesIcons9.png)  no-repeat top; background-size: 23%;}
+.iconsCon2 .iconsTitle10{background:url(../images/bundles/bundlesIcons10.png)  no-repeat top; background-size: 23%;}
+.iconsCon2 .iconsList p{padding-left: 4.6%; background-size: 2.8%;}
+.iconTop{margin-top: 3%;}
 
 .numberSearch{margin-top: 4%;}
 .numsearchImg,.numsearchBar,.numsearchBarLine,.numsearchButton{float: left; padding-top: 1.8%; padding-bottom: 1.8%; border: 1px solid #b1b1b1; line-height: 1.5; text-align: center;}
@@ -195,17 +206,20 @@
     /*plan begin*/	
 	.bundlesBox,.bundlesBoxOther{padding: 0 5%;} 
 	.bundlesBoxOther{margin-top: 6%;}
-    .titleBox{padding: 0 15%;}
-	.titleBox p{padding:8% 0% 2% 21%; margin-bottom:-9.5%; background-size: 18%; background-position-x: 9.5%;background-position-y: 50%;}
+    .titleBox{padding: 0 12%;}
+	.titleBox p{padding:8% 0% 2% 18%; margin-bottom:-8%; background-size: 16%; background-position-x: 5%;background-position-y: 50%;}
 	.titleBox3{padding: 0 35%;}
 	.titleBox3 p{padding-left: 0;}
+	.titleBox4 p{background: #fcfcfc;padding-left: 0;}
 	.planText{margin-top: 10%;}
 	.priceBox{margin-top: 7.5%;}
 	.priceBox1{margin-left: 28%;}
 	.priceBox2{margin-left: 20.4%;}
 	.textBox p img{width: 17%;}
-	.listCon{ padding: 9% 8% 6% 9%;}
+	.listCon{ padding: 9% 4% 6% 9%;}
 	.listCon p{padding-left: 8%; background-size: 5%;background-position-y: .34vw;}
+	.listCon .hook{background-position-y: .45vw;background-size: 4.5%;}
+    .hook p{padding-left: 0;}
 	.planBtn{width: 56%;  margin-left: 22%;  margin-top: -6%; padding-top: .1%;}
 	.planBtn p{margin-bottom: 1.2%;line-height: 1.5;}	
     .planOtherBox{margin-bottom: 5.5%;}
@@ -213,18 +227,27 @@
 	.planYearDown .planBtn{width: 24%; margin-left: 38%;}
 	.planYearDown .listCon{padding: 5% 1% 3.5% 4.1%;}
 	.planYearDown .listCon .hook{width: 46.2%; padding-left: 3.5%; background-size: 4.1%; background-position-y: .4vw;}
-	/*plan End*/ 	
 	
+	.lineSelectText:before{border-top: .35vw solid #00afff;}
+	.chinaSimCard{background-size: 17%;padding-left: 25.5%; margin: 2% 0;}
+	/*plan End*/ 
+	
+	
+	.bundlesMobile{margin-top: 7.2%;}
 	.bundlesText{height: 50vw; margin-bottom: 1%;}
 	.bundlesTV .bundlesText{background-size: 100%; background-position-y: 10vw;}
     .bundlesBB .bundlesText{background-size: 100%; background-position-y: 11vw;}
+	.bundlesMobile .bundlesText{height: 47vw; background-size: 100%; background-position-y: 11.7vw;}
 	.iconsCon{padding: 0 5%;}
 	.iconsList p{padding-left: 9%; background-size: 6%; background-position-y: .32vw;}
+	.iconsCon2 .iconsList p{padding-left: 6%; background-size: 4%; background-position-y: .26vw;}
+	.iconTop{margin-top: 5%;}
 	
 	.numsearchImg{width: 12%;}
 	.numsearchBar{width: 18%;}
 	.numsearchBarLine{width: 2%;}
-	.numsearchButton{width: 30%;}
+	.numsearchButton{width: 30%;}	
+	
 }
 @media (max-width:767px){
     /* bundles banner */
@@ -248,41 +271,50 @@
 	.planTitleBig{line-height: 2.2;}
 	.planCon .titleBox{padding: 0 15%;}
 	.planBox .planCon{background: none;}
-	.planBox .planUpper{background: #fcfcfc;}
-	.titleBox p{padding:8% 0% 2% 21%; margin-bottom:-9.5%; background-size: 18.5%; background-position-x: 9.5%;background-position-y: 50%;}
+	.planBox .planUpper{background: #fcfcfc;}	
+	.titleBox p{padding:8% 0% 2% 18%; margin-bottom:-8%; background-size: 16%; background-position-x: 5%;background-position-y: 50%;}
 	.titleBox2 p{background: #fcfcfc;padding-left: 0;}
+	.titleBox4 p{background: #fcfcfc;padding-left: 0;}
 	.planText{margin-top: 11%;}
 	.textBox p.textSpecial{margin: 8.4% 0;}
 	.textBox p img{width: 17%;}
 	.planList .listCon{ padding: 10% 6% 5% 8%;}
 	.planList .listCon p{padding-left: 8%; background-size: 4.6%;background-position-y: 1vw;}
+	.listCon .hook{background-position-y: .45vw;background-size: 5.2%;padding-left: 0;}
+    ul.bundlesCon li.double p{padding-left: 4%;}
+    ul.bundlesCon li{padding-right: 1%;} 
 	.planBtn{width: 56%;  margin-left: 22%;  margin-top: -6%; padding-top: 1.1%; padding-bottom: 1.1%;}
 	.planBtn p{margin-bottom: 1.2%;line-height: 1.5;}	
 	.planOtherBox{margin-bottom: 6%;padding: 0 6%;}	
     .mSwiper-slide {padding: 0 10%;}
-    .mSwiper-button-disabled {display:none;}	
-	/*plan End*/
+    .mSwiper-button-disabled {display:none;}
 	
-	/**/
 	.lineSelectTitle {padding-top: 3%; padding-bottom: 3%;}
     .lineSelectSelected {padding-top: 1%; padding-bottom: 1%; margin-toP: 0;}
     .lineSelectText:before{border-top: none;}
     .lineSelectText{width:30%; margin-right:5%; padding: 4%; border-radius:5px; margin-bottom:3%;}
-    .line3, .line6{margin-right:0;}
-    .planNameSubtitle {padding-left: 14%;}
-    .chinaSimLastFeatures {padding-toP: 5%; padding-bottom: 6%;}
-    .chinaSimCard {margin-top: 5%; padding-bottom: 5%;}
-	/**/
+    .line3,.line6{margin-right:0;}
+	.chinaSimCard{margin:2% 0; background-position-y: 50%;}
+	.checkboxText{margin-left: -3.5%;}
+	/*plan End*/
 	
+	.bundlesMobile {margin-top: 12%;}
 	.bundlesTV,.bundlesBB{text-align: center;}
-	.bundlesTV{margin-top: 10%; margin-bottom: 16%;}
+	.bundlesTV{margin-top: 18%; margin-bottom: 20%;}
     .bundlesTV .bundlesText{height: 69vw; background: url(../images/bundles/mBundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 22vw;}
     .bundlesBB .bundlesText{height: 80vw; background: url(../images/bundles/mBundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 24vw;}
+	.bundlesMobile .bundlesText{height: 59vw; background-size: 100%; background-position-y: 21vw;}
 	
 	.iconsCon{padding: 0 10%;}
-	.iconsBox{float: none; width: 100%; padding-top: 5%;}
-	.iconsTitle{padding-top: 40%; margin-bottom: 4%;}
-	.iconsList p{padding-left: 6.5%; background-size: 4%; background-position-y: .5vw;}
+	.iconsBox{float: none; width: 100%; padding-top: 3%;}
+	.iconsTitle{ margin-bottom: 4%;}
+	.iconsCon2 .iconsBox{width: 100%;}
+    .iconsCon2 .iconsSpace{width: 8%;}
+    .iconsCon2 .iconsTitle{padding: 0 5.2%; margin-bottom: 3%;text-align: center;}
+    .iconsCon2 .iconsList p{padding-left: 4.8%; background-size: 2.8%;}
+	.iconsTitle,.iconsCon2 .iconsTitle{background-size: 30%;padding-top: 35.5%;}
+	.iconsList p,.iconsCon2 .iconsList p{padding-left: 6.5%;background-size: 4%;background-position-y: .6vw;}
+	.iconTop{margin-top: 6.5%;}
 	.numsearchImg{width: 10%;}
 	.numsearchBar{width: 18%;}
 	.numsearchBarLine{width: 3%;}

@@ -27,6 +27,7 @@ img[usemap], map area{ outline: none;}
 .opacity {filter: alpha(opacity=75); -moz-opacity: .75; -khtml-opacity: .75; opacity: .75;}
 input:focus{ outline:none;}
 .org{color:#ff972f;}
+.bule{color:#327fe8;}
 .scroll{height:auto!important;}
 .w100{width:100%;}
 /*Initialization settings end*/ 
