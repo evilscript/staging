@@ -303,7 +303,7 @@ ul.bundlesCon li.double{width: 100%;}
 	.bundlesTV{margin-top: 18%; margin-bottom: 20%;}
     .bundlesTV .bundlesText{height: 69vw; background: url(../images/bundles/mBundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 22vw;}
     .bundlesBB .bundlesText{height: 80vw; background: url(../images/bundles/mBundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 24vw;}
-	.bundlesMobile .bundlesText{height: 62vw; background: url(../images/bundles/mBundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 21vw;}
+	.bundlesMobile .bundlesText{height: 132vw; background: url(../images/bundles/mBundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 21vw;}
 	
 	.iconsCon{padding: 0 10%;}
 	.iconsBox{float: none; width: 100%; padding-top: 3%;}
