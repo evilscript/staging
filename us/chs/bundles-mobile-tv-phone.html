@@ -28,10 +28,12 @@
     <script src="../shared/js/bootstrap.min.js"></script>
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
-    <script src="../shared/js/bundlesBBTVMplanPriceDisplay.js"></script> 
+    <script src="../shared/js/bundlesBBTVMplanPriceDisplay.js"></script>
+	<!-- 电话查询 -->
+    <script src="../shared/js/italkbb.tools.js"></script>
+    <script src="../shared/js/colorbox.js"></script>
     <style>
   .content_search_box_tel_none{display: none}
-  .orange a{color: #ff7f00}
   .input_small{text-align: center;}
 @media (min-width:768px) and (max-width:1000px){ 
   
@@ -89,7 +91,7 @@
                      </p>                                	  			 	
         	  			</div>
         	  			<div class="lineNotes">
-        	  			   <p class="text14 mText22">1条手机线+1个电视+1个电话</p>
+        	  			   <p class="text14">1条手机线+1个电视+1个电话</p>
         	  			</div>
         	  			<div class="textBox">      	  			       
        	  			       <p class="title18">
@@ -234,7 +236,7 @@
                      </p>         	  			 	
         	  			 </div>
         	  			 <div class="lineNotes">
-        	  			    <p class="text14 mText22">1条手机线+1个电视+1个电话</p>
+        	  			    <p class="text14">1条手机线+1个电视+1个电话</p>
         	  			 </div>
         	  			 <div class="textBox">
        	  			       <p class="title18">
@@ -704,7 +706,7 @@
 	   	        	<div class="iconsList">
 	   	        		<p>享受美国本地无限通话、无限短信、高速流量。</p>
 	   	        		<p>接收来自中国卡的电话：中国亲友拨打您中国的手机号，将自动转接到您美国的手机上，而您中国的亲友只需支付中国本地话费。</p>
-	   	        		<p><span class="fwb">独家功能：</span>接收来自中国的短信和验证码！注册银行账号、 网上账户、淘宝购物轻松搞定！</p>
+	   	        		<p><span class="fwb bl">独家功能：</span>接收来自中国的短信和验证码！注册银行账号、 网上账户、淘宝购物轻松搞定！</p>
 	   	        	</div>
 	   	        </div>
 	   	        <div class="iconsBox iconsSpace">&nbsp;</div>
@@ -778,9 +780,9 @@
 	   	     	<p class="title30 mTitle38">海外华人市场NO.1家庭电话品牌</p>
 	   	     </div>	
 	   	     <div class="iconsCon clearfix">
-	   	        <div class="iconsBox text18 mText26 clearfix">
+	   	        <div class="iconsBox clearfix">
 	   	        	<p class="titleMgnBtm iconsTitle iconsTitle4 title30 mTitle38 fwb">免费保留原号码</p>
-	   	        	<div class="iconsList">
+	   	        	<div class="iconsList text18 mText26">
 	   	        		<p>轻松将您原本电话号码转到您的iTalkBB蜻蜓电话上。</p>
 	   	        		<p>输入您的号码，查看是否符合转号需要。</p>
 	   	        	</div>
@@ -805,7 +807,7 @@
                        <!--可以转显示下面的 CheckPhoneNumberB--> 
                        <div id="CheckPhoneNumberB" class="content_search_box_tel_none">
 					      <p class="text18 mText26">恭喜！您现有的电话号码可以被保留！</p>
-                          <p class="text18 mText26"><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">试试另一个号码</span></a> ; <!--回到检查号码是否可以转的页面--><a href="../chs/bbPlan.html#planPoint" class="linkOrange"><span>看看有哪些计划</span></a><!--链接是多语言的，要替换enu为chs和chs--></p>
+                          <p class="text18 mText26"><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">试试另一个号码</span></a> ; <!--回到检查号码是否可以转的页面--><a href="../chs/bundles-tv-phone.html#planPoint" class="linkOrange"><span>看看有哪些计划</span></a><!--链接是多语言的，要替换enu为chs和chs--></p>
                        </div>
                        <!--不能转显示下面的 CheckPhoneNumberC-->
                        <div id="CheckPhoneNumberC" class="content_search_box_tel_none">
@@ -820,17 +822,17 @@
       	  	   	    
 	   	        </div>
 	   	        <div class="iconsBox iconsSpace">&nbsp;</div>
-	   	        <div class="iconsBox text18 mText26 clearfix">
+	   	        <div class="iconsBox clearfix">
 	   	        	<p class="titleMgnBtm iconsTitle iconsTitle5 title30 mTitle38 fwb">接听免费</p>
-	   	        	<div class="iconsList">
+	   	        	<div class="iconsList text18 mText26">
 	   	        		<p>免费接听美国本地电话。</p>
 	   	        		<p>免费接听国际电话。</p>
 	   	        	</div>
 	   	        </div>
 	   	        <div class="iconsBox iconsSpace">&nbsp;</div>
-	   	        <div class="iconsBox text18 mText26 clearfix">
+	   	        <div class="iconsBox clearfix">
 	   	        	<p class="titleMgnBtm iconsTitle iconsTitle6 title30 mTitle38 fwb">网内免费通话</p>
-	   	        	<div class="iconsList">
+	   	        	<div class="iconsList text18 mText26">
 	   	        		<p>如果您的好友也是我们蜻蜓电话的用户，那么您直拨他们的899号码就能免费通话。</p>
 	   	        	</div>
 	   	        </div>
