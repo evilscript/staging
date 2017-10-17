@@ -2,10 +2,11 @@ var app = angular.module('mobilePlanApp', []);
 app.controller('mobilePlanController', function($scope) {
     $scope.user = false;
     $scope.line = 1;
-    $scope.plan1_int = '30';
-    $scope.plan1_dec = '';
-    $scope.plan2_int = '45';
-    $scope.plan2_dec = '';
+    $scope.plan1_int = '24';
+    $scope.plan1_dec = '.99';
+    $scope.plan2_int = '39';
+    $scope.plan2_dec = '.99';
+    $scope.plan1_tex = '1条手机线+1个电视+1个电话';
     $scope.isUser = function(){
         $scope.user = true;
         $('.ifCustomerLeftText').removeClass('ifCustomerSelected');
@@ -60,38 +61,44 @@ app.controller('mobilePlanController', function($scope) {
     var updatePrice = function(isUser, lineNumber){
          if ( isUser == false ){
             if ( lineNumber == 1) {
-                $scope.plan1_int = '30';
-                $scope.plan2_int = '45';
+                $scope.plan1_int = '24';
+                $scope.plan2_int = '39';
+                $scope.plan1_tex = '1条手机线+1个电视+1个电话';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=1");
     
             }
             else if ( lineNumber == 2) {
-                $scope.plan1_int = '60';
-                $scope.plan2_int = '90';
+                $scope.plan1_int = '44';
+                $scope.plan2_int = '74';
+                $scope.plan1_tex = '2条手机线+2个电视+2个电话';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=2");
 
             }
             else if ( lineNumber == 3) {
-                $scope.plan1_int = '80';
-                $scope.plan2_int = '135';
+                $scope.plan1_int = '59';
+                $scope.plan2_int = '109';
+                $scope.plan1_tex = '3条手机线+3个电视+3个电话';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=3");
   
             }
             else if ( lineNumber == 4) {
-                $scope.plan1_int = '100';
-                $scope.plan2_int = '180';
+                $scope.plan1_int = '74';
+                $scope.plan2_int = '144';
+                $scope.plan1_tex = '4条手机线+4个电视+4个电话';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=4");
 
             }
             else if ( lineNumber == 5) {
-                $scope.plan1_int = '120';
-                $scope.plan2_int = '225';
+                $scope.plan1_int = '89';
+                $scope.plan2_int = '179';
+                $scope.plan1_tex = '5条手机线+5个电视+5个电话';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=5");
  
             }
             else if ( lineNumber == 6) {
-                $scope.plan1_int = '140';
-                $scope.plan2_int = '270';
+                $scope.plan1_int = '104';
+                $scope.plan2_int = '214';
+                $scope.plan1_tex = '6条手机线+6个电视+6个电话';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=6");
 
             }
