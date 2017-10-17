@@ -1,9 +1,10 @@
 /* Version:1.0  Author: Amy
   Create Date:2017-10-09 
-  Update Date:2017-10-14
+  Update Date:2017-10-17
   Desc : bundles-tv-phone CSS */ 
   
 /* bundles banner begin */
+.bdBanBox{font-family: Microsoft Yahei, sans-serif;}
 .bdBanBox a,.bdBanBox a:link,.bdBanBox a:hover,.bdBanBox a:visited{color: #fff;}
 .bdBannerCon{max-width: 1920px; text-align: center;padding-top: 4.5%;color: #fff; background: url(../images/support/sptBannerBg.jpg) no-repeat; background-size: 100%;}
 .bdBanTitle{margin-bottom: .75%;}
@@ -40,7 +41,8 @@
 .titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}
 .titleBox4 p{background: #fcfcfc;padding-left: 0;}
 .planText{margin-top: 15%;}
-.textBox{margin-top: 4%; padding-bottom: 7%; padding-right: 1%;}
+.lineNotes{color: #888;}
+.textBox{margin-top: 4%; padding-top: 2%; padding-bottom: 7%; padding-right: 1%;}
 .textBox p{color: #ff7f00;}
 .textBox p img{display: inline-block; width: 12.2%; padding-bottom: 4.5%;}
 .planList{background: #f2f2f2;}
@@ -52,7 +54,7 @@ ul.bundlesCon li.double{width: 100%;}
 .Sharp,.textCon{float: left; display: block;}
 .Sharp{vertical-align: top;width: 7%;}
 .textCon{ width: 93%;}
-.listCon{padding: 10% 6.5% 8% 10.5%; text-align: left;}
+.listCon{padding: 10% 6.5% 8% 10.5%; text-align: left; font-family: Microsoft Yahei, sans-serif;}
 .listCon .hook{margin-bottom: 5%; padding-left: 6.5%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 4%; background-position-y: .2vw;}
 .planBtn{float: left; width: 44%; background: #327fe8; margin-left: 28%; margin-top: -5%; padding-bottom: .2%; border-radius: 10px; cursor: pointer;}
 .planBtn p{line-height: 1.8;}
@@ -215,6 +217,7 @@ ul.bundlesCon li.double{width: 100%;}
 	.priceBox{margin-top: 7.5%;}
 	.priceBox1{margin-left: 28%;}
 	.priceBox2{margin-left: 20.4%;}
+	.textBox{padding-top: 4%;}
 	.textBox p img{width: 17%;}
 	.listCon{ padding: 9% 4% 6% 9%;}
 	.listCon p{padding-left: 8%; background-size: 5%;background-position-y: .34vw;}
@@ -276,6 +279,7 @@ ul.bundlesCon li.double{width: 100%;}
 	.titleBox2 p{background: #fcfcfc;padding-left: 0;}
 	.titleBox4 p{background: #fcfcfc;padding-left: 0;}
 	.planText{margin-top: 20%;}
+	.textBox{padding-top: 4%;}
 	.textBox p.textSpecial{margin: 8.4% 0;}
 	.textBox p img{width: 17%;}
 	.planList .listCon{ padding: 10% 6% 5% 8%;}

@@ -26,7 +26,7 @@ img[usemap], map area{ outline: none;}
 .opacity {filter: alpha(opacity=75); -moz-opacity: .75; -khtml-opacity: .75; opacity: .75;}
 input:focus{ outline:none;}
 .org{color:#ff972f;}
-.bule{color:#327fe8;}
+.bl{color:#327fe8;}
 .scroll{height:auto!important;}
 .w100{width:100%;}
 /*Initialization settings end*/ 
@@ -68,7 +68,7 @@ input:focus{ outline:none;}
 /* from css end */
 
 /* price css begin */
-.priceBox{margin-top: 5%;}
+.priceBox{margin-top: 5%; padding-bottom: 2%;}
 .priceBox1{margin-left: 32.2%;}
 .priceBox2{margin-left: 26%;}
 .priceBox p{float: left; line-height: .8; margin-bottom:0;}
