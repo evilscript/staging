@@ -55,7 +55,7 @@
     .imgm{display: none}
 
 
-    .container2{ width: 100%;margin: 0 auto;background: url(../shared/images/tv/bg.jpg);padding-left: 15px;padding-right: 15px}
+    .container2{ width: 100%;margin: 0 auto;background: url(../shared/images/tv/bg.jpg);padding-left: 15px;padding-right: 15px;position: relative;}
     .slide2{width: 90%;margin: 0 auto; overflow: hidden;position: relative; perspective: 800px}
     .slide2 .img{ overflow: hidden;position: absolute;transition: width 1s,height 1s,bottom 1s,left 1s,transform 1s,z-index 0.4s; cursor:pointer}
     .slide2 .img img{ width: 100%;height:95%; -webkit-box-reflect: below 0 -webkit-linear-gradient(top,rgba(250,250,250,0),rgba(250,250,250,.0) 30%,rgba(250,250,250,0.4)); }
@@ -72,6 +72,9 @@
 
     .wei{color: white;position: absolute;left: 10.41%;top: 10%;z-index: 99}
     .videom{display: none}
+    .next, .up {position: absolute;line-height: 1;top: 38%;cursor: pointer;width: 5%;z-index: 999}
+    .up{left: 90%}
+    .next{left: 5%}
 
 
     .bannerAll1{background: url(../shared/images/tv/video.jpg) no-repeat; background-size: 100%;height: 36.4vw}
@@ -130,6 +133,8 @@
         .dy30{    transform: none;}
         .text1{top: 3%;width: 100%;text-align: center;left: 0}
         .text2{text-align: center;width: 100%;top: 12%;left: 0}
+        .next,.up{width: 15%;display: none}
+        .up{left: 80%}
      
         
 
@@ -191,7 +196,8 @@
                     <div class="img"><img class="imgc" src="../shared/images/tv/pc5.jpg"/><img class="imgm" src="../shared/images/tv/pm5.jpg"/><div class="black"></div></div>
 
                 </div>
-    
+                <div class="up"><img style="width:100%" src="../shared/images/bb/mSwiperNext.png" alt=""></div>
+                <div class="next"><img style="width:100%" src="../shared/images/bb/mSwiperPrev.png" alt=""></div>
             </div>
     	</div>
     	<div class="part look2">
@@ -314,6 +320,13 @@ $(function(){
     imgClickFy();
 })
 
+$('.up').click(function(){
+    left();
+})
+
+$('.next').click(function(){
+    right();
+})
 
 //右滑动
 function right(){
