@@ -31,9 +31,9 @@
 	.faultCon{display: none;}
 	.imgConCenter{padding-right: 0;}
 	.imgTitle a.btnSel:hover,.imgTitle a.btnSel:focus{color: #ff7f00;}
-	.imgTitle a.nobtnSel,.imgTitle a.nobtnSel:hover,.imgTitle a.nobtnSel:focus{color: #222;text-decoration: underline;}
-	.btnSel{color: #ff7f00; text-decoration: none;}
-	.nobtnSel{text-decoration: underline;}
+	.imgTitle a.nobtnSel,.imgTitle a.nobtnSel:hover,.imgTitle a.nobtnSel:focus{color: #222;}
+	.btnSel{color: #ff7f00; text-decoration: underline;}
+	
 	@media (max-width:1000px){ 
 	     .imgConCenter{padding:0 5%}
 	}
@@ -467,8 +467,8 @@ $(".fault").click(function(){
 
             $(".tvBoxTitle01").click(function(){            
             $('.button').css({"color":"#222222","text-decoration":"none"});
-			$('.nobtnSel').css({"color":"#222222","text-decoration":"underline"});
-            $(this).css({"color":"#ff9200","text-decoration":"none"});
+			
+            $(this).css({"color":"#ff9200","text-decoration":"underline"});
             $('.tvBoxImg').attr('src','../shared/images/support/chs_sptTVsketch01.png');
 
            })
@@ -476,8 +476,8 @@ $(".fault").click(function(){
 
            $(".tvBoxTitle02").click(function(){
             $('.button').css({"color":"#222222","text-decoration":"none"});
-			$('.btnSel').css({"color":"#222222","text-decoration":"underline"});
-            $(this).css({"color":"#ff9200","text-decoration":"none"});
+			
+            $(this).css({"color":"#ff9200","text-decoration":"underline"});
             $('.tvBoxImg').attr('src','../shared/images/support/chs_sptTVsketch02.png');
         
            })
