@@ -49,10 +49,11 @@
   .titleBox3 p{padding-left: 0;}
   .planText{margin-top: 18%;}
 	}
-@media (max-width:767px){
-  .titleBox p{padding:8% 0% 2% 24%; margin-bottom:-20%;background-size: 18%; background-position-x: 15%;background-position-y: 10%;}
+@media (max-width:767px){   
+  .titleBox{padding: 0 32%;}
+  .titleBox p{padding:8% 0% 2% 24%; margin-bottom:-10%;background-size: 18%; background-position-x: 15%;background-position-y: 50%;}
   .titleBox2 p{background: #fcfcfc;padding-left: 0;}
-  .planText{margin-top: 19%;}
+  .planText{margin-top: 12%;}
 	}
     </style>
 </head>
@@ -231,9 +232,10 @@
         	  	<div class="planCon plan1 mSwiper-slide" >
                    <div class="planUpper" id="up1phone">
         	  		  <div class="titleBox clearfix">
-        	  			 <p class="mTitle44 fwb">超值计划<span class="mTitle32 org fwb" style="display: block">1G @ 4G LTE</span></p>
+        	  			 <p class="mTitle44 fwb">超值计划</p>
         	  		  </div>
         	  		  <div class="planText">
+						  <p class="mTitle30 sans org planNameSubtitle">1G @ 4G LTE</p>
         	  			<div class="priceBox priceBox1 avenir clearfix">
         	  			   <p class="dollar title60 mTitle68">$</p>
         	  			   <p class="priceBig title140 mTitle162">{{plan1_int}}</p>
@@ -273,9 +275,10 @@
         	  	<div class="planCon plan2 mSwiper-slide">
                    <div class="planUpper">
         	  		  <div class="titleBox titleBox2 clearfix">
-        	  			 <p class="title36 mTitle44 fwb">畅享计划<span class="mTitle32 org fwb" style="display: block">5G @ 4G LTE</span></p>
+        	  			 <p class="title36 mTitle44 fwb">畅享计划</p>
         	  		  </div>
         	  		  <div class="planText">
+						  <p class="mTitle30 sans org planNameSubtitle2">5G @ 4G LTE</p>
         	  			<div class="priceBox priceBox2 avenir clearfix">
         	  			   <p class="dollar title60 mTitle68">$</p>
         	  			   <p class="priceBig title140 mTitle162">{{plan2_int}}</p>
@@ -361,8 +364,8 @@
        </section>
        
     <section class="dataComparison">
-        <p class="titleMgnBtm title36 mTitle44 fwb">移动生活，处处精彩</p>
-        <p class="title18 mTitle26">蜻蜓移动为您提供高速流量，最多高达<span class="sans">5G</span>高速流量！</p>
+        <p class="title36 mTitle44 pin dataComparisonTitle fwb">移动生活，处处精彩</p>
+        <p class="title18 mTitle26 pin dataComparisonSubTitle">蜻蜓移动为您提供高速流量，最多高达<span class="sans">5G</span>高速流量！</p>
         <div class="dataComparisonLeft">
             <img src="../shared/images/mobile/what_to_do_1G_data.png" class="img" alt="">
         </div>
