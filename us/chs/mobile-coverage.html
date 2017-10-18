@@ -26,50 +26,47 @@
     <script src="../shared/js/common.js"></script>
     <style>
     .bannerAll1{background: url(../shared/images/4g/banner4g.jpg) no-repeat; background-size: 100%;}
-    .top{width: 79.74%;margin: 0 auto;padding-top: 4.5%;padding-bottom: 3.5%}
+    .top{padding-top: 4%;padding-bottom: 3.5%}
     p{padding: 0;margin: 0}
     .top .p2{margin-top: 1%}
-    .maps{width: 89.5%;height: 45vw;margin: 0 auto}
-    .Sharp {vertical-align: top;width: 2%;}
+    .maps{height: 45vw;}
+    .Sharp {vertical-align: top;width: 3.5%;}
     .Sharp, .textCon {float: left;display: block;}
-    .textCon {   width: 95%;}
+    .textCon {width: 95%;}
     .bottom{width: 89.5%;margin:0 auto;padding-top: 2%}
     .left,.right{display: inline-block;width: 50%;vertical-align: top;padding: 0% 5%}
     .txt{line-height: 1.8}
     .lineBlue {margin-top: 5%}
-
-    @media (max-width:1000px){
+@media (min-width:768px) and (max-width:1000px){
        .bannerAll1{background: url(../shared/images/4g/ipadbanner4g.jpg) no-repeat; background-size: 100%;}
+	
+	   .mapBox{padding: 0 5.2%;}
        .maps{width: 100%;height: 65vw}
        .left,.right{padding: 0%}
        .Sharp{width: 4%}
        .textCon{width: 90%}
-
     }
-
-    @media (max-width:767px){
+@media (max-width:767px){
        .bannerAll1{background: url(../shared/images/4g/banner4gM.jpg) no-repeat; background-size: 100%;}
-       .top{width: 90%;padding-top: 12%; padding-bottom: 9%}
+	   .mapBox{padding: 0 5.2%;}
+       .top{width: 100%;padding-top: 8%; padding-bottom: 9%}
        .top .p2{margin-top: 2%}
        .left,.right{display: block;width: 100%;vertical-align: top;}
-        .bottom{width: 90%;margin:0 auto;padding-top: 6%}
-         .txt{line-height: 1.5}
-        .txt p{padding-bottom: 1%}
-        .titleMgnBtm {margin-bottom: 1vw;}
-        .right{padding-top: 8%}
-         .lineBlue {margin-top: 9%}
-         .maps{height: 110vw;}
-
-
-
+       .bottom{width: 100%;margin:0 auto;padding-top: 6%}
+	   .Sharp{width: 4%}
+       .textCon{width: 95%}
+       .txt{line-height: 1.5}
+       .txt p{padding-bottom: 1%}
+       .right{padding-top: 8%}
+       .lineBlue {margin-top: 9%}
+       .maps{height: 110vw;}
+	   
     }
-
-
-
-    </style>
+</style>
 
 </head>
 <body ng-app="">
+<!-- Author: Hounan -->
 	<div id="header"></div>
         <script>
             $('#header').load('header.html');
@@ -83,28 +80,23 @@
         </section>
 
       <section class="mainMgnTop">	
-			      <div class="mainMgn100">
+			<div class="mainMgn200 mapBox">
       	  		<div class="lineOrange"></div>
-      	  	</div>
+      	  		<div class="top title18 mTitle26">
+      	  		   <p class="p1"> 在美国，iTalkBB蜻蜓移动网络覆盖了美国绝大多数地区，您无需担心信号问题。</p>
+      	  		   <p class="p2"> 在中国，iTalkBB蜻蜓移动信号覆盖率高达99%。您无论是探亲访友，还是出差旅行，iTalkBB蜻蜓都是您最佳的选择。</p>
+      	  	    </div>
+      	  	    <div class="maps">        
+                   <iframe runat="server" src="https://maps.t-mobile.com/pcc.html?map=mvno-noroam-34l&search=10001" width="100%" height="100%" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes">
+                   </iframe>        
+                </div>      	  		
+      	  	</div>      	  	
     	</section>
-
-     <div class="top title20 mTitle28">
-              <p class="p1"> 在美国，iTalkBB蜻蜓移动网络覆盖了美国绝大多数地区，您无需担心信号问题。</p>
-
-              <p class="p2"> 在中国，iTalkBB蜻蜓移动信号覆盖率高达99%。您无论是探亲访友，还是出差旅行，iTalkBB蜻蜓都是您最佳的选择。</p>
-      </div>
-
-      <div class="maps">
-        
-          <iframe runat="server" src="https://maps.t-mobile.com/pcc.html?map=mvno-noroam-34l&search=10001" width="100%" height="100%" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes">
-          </iframe>
-        
-      </div>
 
       <div class="bottom">
         <div class="left">
-           <p class="titleMgnBtm title42 mTitle36 fwb">如何定位覆盖范围？</p>
-           <div class="title20 mTitle28 txt">
+           <p class="titleMgnBtm title36 mTitle44 fwb">如何定位覆盖范围？</p>
+           <div class="title18 mTitle26 txt">
             <p class="clearfix"><span class="Sharp">&gt;</span>
             <span class="textCon">在搜索栏里输入您的完整地址、邮编，或者双击地图某一点可直接定位</span>
             </p>
@@ -116,16 +108,12 @@
             </p>
           </div> 
         </div><div class="right">
-          <p class="titleMgnBtm title42 mTitle36 fwb">什么是4G LTE流量？</p>
-           <div class="title20 mTitle28 txt">
+          <p class="titleMgnBtm title36 mTitle44 fwb">什么是4G LTE流量？</p>
+           <div class="title18 mTitle26 txt">
             4G代表第四代移动通信技术，相比于之前的3G网络，拥有更高的数据吞吐量，更低的时延。简言之，就是能为用户提供更快的速度并满足更多需求。在iTalkBB蜻蜓移动的全美4GLTE网络下，您无论是在线看视频，听音乐，使用GPS导航，还是收发微信，处理邮件都能轻松完成。
           </div> 
         </div>
       </div>
-
-
-
-
 
 	</div>
     <div class="lineBlue"></div>

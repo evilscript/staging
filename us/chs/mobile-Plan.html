@@ -60,13 +60,12 @@
 <body  ng-app="mobilePlanApp" ng-controller="mobilePlanController" >
    <!-- Author: Carson, Partially copied from Amy -->
    <div id="header"></div>
-
    <!--main content begin-->  
    <div class="mainLayout">      
        <section class="bannerAll">
      	    <div class="bannerText">
-     	    	<p class="title60 mTitle60 pin fwb bannerTitle">蜻蜓移动</p>
-     	    	<p class="title30 mTitle30 pin bannerSubTitle">
+     	    	<p class="title60 mTitle60 bannerTitle fwb">蜻蜓移动</p>
+     	    	<p class="title30 mTitle30 bannerSubTitle">
      	    	   <span>属于海外华人的手机计划</span>
      	    	   <span>为您打造无限 • 精彩 • 双国生活</span>
      	    	</p>
@@ -78,20 +77,20 @@
                <div class="lineOrange"></div>
            </div>
       	  <div class="mainMgn100"> 
-      	    <!-- bbPlan PC begin-->       	         	      	        	 
+      	    <!-- mobile plan PC begin-->       	         	      	        	 
         	<div class="bbPlan hideM" id="planPoint">
-       	      <p class="planTitleBig title42 fwb" id="tit">蜻蜓移动产品计划</p>
+       	      <p class="planTitleBig title42 mTitle50 fwb" id="tit">蜻蜓移动产品计划</p>
                 <div class="linex">
                 <div class="ifCustomerLeft">
-                    <p class="ifCustomerLeftText ifCustomerSelected pin title24 mTitle32 fwb" ng-click="isNotUser();">非用户</p>
+                    <p class="ifCustomerLeftText ifCustomerSelected title24 mTitle32 fwb" ng-click="isNotUser();">非用户</p>
                 </div>
                 <div class="ifCustomerRight">
-                    <p class="ifCustomerRightText pin title24 mTitle32 fwb" ng-click="isUser();">用户</p>
+                    <p class="ifCustomerRightText title24 mTitle32 fwb" ng-click="isUser();">用户</p>
                 </div>
                 <div class="clear clearfix"></div>
                 <p class="lineSelectTitle title24 mTitle32">选择手机线数</p>
                 <div id="choseline" style="position:relative;">
-                    <div class="lineSelect title18 pin mTitle26">
+                    <div class="lineSelect title18 mTitle26">
                         <p class="lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
                         <p class="lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
                         <p class="lineSelectText line3" ng-click="line3()"><span class="sans">3</span>条线</p>
@@ -107,19 +106,19 @@
         	  	<div class="planCon">
                    <div class="planUpper" id="up1">
         	  		  <div class="titleBox clearfix">
-        	  		     <p class="title36 fwb">超值计划<span class="title24 org fwb" style="display: block">1G @ 4G LTE</span></p>
+        	  		     <p class="title36 mTitle44 mTitle">超值计划<span class="title24 mTitle32 org" style="display: block">1G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
         	  			<div class="priceBox priceBox1 avenir clearfix">
-        	  			   <p class="dollar title60">$</p>
-        	  			   <p class="priceBig title140">{{plan1_int}}</p>
-        	  			   <p class="priceSmall title70">
-        	  			     <span class="smallNom"><span class="trans">.00</span>{{plan1_dec}}</span>
-        	  			     <span class="smallSub title36 pin">/月<sup><sup class="sans">1</sup></sup></span>
+        	  			   <p class="dollar title60 mTitle68">$</p>
+        	  			   <p class="priceBig title140 mTitle162">{{plan1_int}}</p>
+        	  			   <p class="priceSmall title70 mTitle78">
+        	  			     <span class="smallNom">&nbsp;{{plan1_dec}}</span>
+        	  			     <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
         	  			   </p>       	  			 	
         	  			</div>
         	  			<div class="textBox">
-       	  			       <p class="title18">
+       	  			       <p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
         	  			    <span class="textHot">首月免费，返月费</span>
         	  			   </p>
@@ -128,18 +127,18 @@
                    </div>
         	  	   <div class="planList" id="down1">
         	  		    <div class="planBtn">
-						   <a class="down1x" href=""><p class="button title30">立即订购</p></a>
+						   <a class="down1x" href=""><p class="button title30 mTitle38">立即订购</p></a>
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list1 chinaSimCard">
-                            <p class="title22 fwb">蜻蜓移动中国卡<sup class="sans">2</sup>
+                            <p class="titleMgnbtm title20 mTitle28 fwb">蜻蜓移动中国卡<sup class="sans">2</sup>
                                 <input type="checkbox" id="chinaSimCardCheckbox" ng-click="checkChinaSimEx()">
-                                <label for="chinaSimCardCheckbox" class="org title18 chinaSimCardCheckboxLabel" ng-click="checkChinaSimEx()">$1.00/线/月</label>
+                                <label for="chinaSimCardCheckbox" class="org title16 mTitle24 chinaSimCardCheckboxLabel" ng-click="checkChinaSimEx()">$1.00/线/月</label>
                             </p>
-                            <p class="title16 ">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
+                            <p class="title16 mTitle24">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
 
         	  			</div>
-                       <p class="chinaSimLastFeatures title18">
+                       <p class="chinaSimLastFeatures title16 mTitle24">
                            <span class="countryCheck3">无限流量<sup class="sans">3</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                            <span class="countryCheck3">无限通话<sup>&nbsp;</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                            <span class="countryCheck3">无限短信<sup>&nbsp;</sup></span>
@@ -150,19 +149,19 @@
         	  	<div class="planCon plan2">
                    <div class="planUpper" id="up2">
 					  <div class="titleBox titleBox2 clearfix">
-        	  			<p class="title36 fwb">畅享计划<span class="title24 org fwb" style="display: block">5G @ 4G LTE</span></p>
+        	  			<p class="title36 mTitle44">畅享计划<span class="title24 org" style="display: block">5G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
         	  			 <div class="priceBox priceBox2 avenir clearfix">
-        	  			   <p class="dollar title60">$</p>
-        	  			   <p class="priceBig title140">{{plan2_int}}</p>
-        	  			   <p class="priceSmall title70">
-        	  			     <span class="smallNom"><span class="trans">.00</span>{{plan2_dec}}</span>
-                               <span class="smallSub title36 pin">/月<sup><sup class="sans">1</sup></sup></span>
+        	  			   <p class="dollar title60 mTitle68">$</p>
+        	  			   <p class="priceBig title140 mTitle162">{{plan2_int}}</p>
+        	  			   <p class="priceSmall title70 mTitle78">
+        	  			     <span class="smallNom">&nbsp;{{plan2_dec}}</span>
+                               <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
         	  			   </p>       	  			 	
         	  			 </div>
         	  			 <div class="textBox">
-       	  			       <p class="title18">
+       	  			       <p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
         	  			    <span class="textHot">首月免费，返月费</span>
         	  			   </p>
@@ -171,18 +170,18 @@
                    </div>
         	  	   <div class="planList planList2" id="down2">
         	  		    <div class="planBtn">
-						   <a class="down2x" href=""><p class="button title30">立即订购</p></a>
+						   <a class="down2x" href=""><p class="button title30 mTitle38">立即订购</p></a>
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list2 chinaSimCard">
-                                <p class="title22 fwb pin">蜻蜓移动中国卡<sup class="sans">2</sup>
+                                <p class="title20 mTitle28 fwb pin">蜻蜓移动中国卡<sup class="sans">2</sup>
                                     <input type="checkbox" id="chinaSimCardCheckbox2" ng-click="checkChinaSimEx()">
-                                    <label for="chinaSimCardCheckbox2" class="org title18 chinaSimCardCheckboxLabel2" ng-click="checkChinaSimEx()">$1.00/线/月</label>
+                                    <label for="chinaSimCardCheckbox2" class="org title16 mTitle24 chinaSimCardCheckboxLabel2" ng-click="checkChinaSimEx()">$1.00/线/月</label>
                                 </p>
-                                <p class="title16 ">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
+                                <p class="title16 mTitle24">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
 
                             </div>
-                            <p class="chinaSimLastFeatures title18 pin">
+                            <p class="chinaSimLastFeatures title16 mTitle24">
                                 <span class="countryCheck3">无限流量<sup class="sans">3</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <span class="countryCheck3">无限通话<sup>&nbsp;</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <span class="countryCheck3">无限短信<sup>&nbsp;</sup></span>
@@ -192,38 +191,34 @@
         	  </div>
              
         	</div>
-        	<!-- bbPlan PC End-->  
+        	<!-- mobile plan PC End-->  
         	 
-        	<!-- bbPlan Phone begin-->   
+        	<!-- mobile plan Phone begin-->   
         <div class="bbPlan showM" id="planPointphone">
        	      <p class="planTitleBig title42 mTitle50 fwb" id="titphone">蜻蜓电话产品计划</p>
               <div class="linexphone">
 				<div class="ifCustomerLeft">
-					<p class="ifCustomerLeftText ifCustomerSelected pin title24 mTitle32 fwb" ng-click="isNotUser();">非用户</p>
+					<p class="ifCustomerLeftText ifCustomerSelected title24 mTitle32 fwb" ng-click="isNotUser();">非用户</p>
 				</div>
 				<div class="ifCustomerRight">
-					<p class="ifCustomerRightText pin title24 mTitle32 fwb" ng-click="isUser();">用户</p>
+					<p class="ifCustomerRightText title24 mTitle32 fwb" ng-click="isUser();">用户</p>
 				</div>
 				<div class="clear clearfix"></div>
 
 				<p class="lineSelectTitle title24 mTitle32">选择手机线数</p>
 
 				<div  id="choselinephone" style="position:relative;">
-					<div class="lineSelect">
-						<p class="title18 pin mTitle26 lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
-						<p class="title18 pin mTitle26 lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
-						<p class="title18 pin mTitle26 lineSelectText line3" ng-click="line3()"><span class="sans">3</span>条线</p>
-						<p class="title18 pin mTitle26 lineSelectText line4" ng-click="line4()"><span class="sans">4</span>条线</p>
-						<p class="title18 pin mTitle26 lineSelectText line5" ng-click="line5()"><span class="sans">5</span>条线</p>
-						<p class="title18 pin mTitle26 lineSelectText line6" ng-click="line6()"><span class="sans">6</span>条线</p>
+					<div class="lineSelect title18 mTitle26">
+						<p class="lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
+						<p class="lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
+						<p class="lineSelectText line3" ng-click="line3()"><span class="sans">3</span>条线</p>
+						<p class="lineSelectText line4" ng-click="line4()"><span class="sans">4</span>条线</p>
+						<p class="lineSelectText line5" ng-click="line5()"><span class="sans">5</span>条线</p>
+						<p class="lineSelectText line6" ng-click="line6()"><span class="sans">6</span>条线</p>
 						<div class="clear clearfix"></div>
 					</div>
 				</div>
         </div>
-
-
-
-
 
 
        	      <div class="mSwiperBox mNewswiper2">
@@ -231,15 +226,15 @@
         	  	<div class="planCon plan1 mSwiper-slide" >
                    <div class="planUpper" id="up1phone">
         	  		  <div class="titleBox clearfix">
-        	  			 <p class="mTitle44 fwb">超值计划<span class="mTitle32 org fwb" style="display: block">1G @ 4G LTE</span></p>
+        	  			 <p class="title36 mTitle44">超值计划<span class="title24 mTitle32 org" style="display: block">1G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
         	  			<div class="priceBox priceBox1 avenir clearfix">
         	  			   <p class="dollar title60 mTitle68">$</p>
         	  			   <p class="priceBig title140 mTitle162">{{plan1_int}}</p>
         	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom"><span class="trans">.00</span>{{plan1_dec}}</span>
-        	  			     <span class="smallSub title36 mTitle44 pin">/月<sup><sup class="sans">1</sup></sup></span>
+        	  			     <span class="smallNom">&nbsp;{{plan1_dec}}</span>
+        	  			     <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
         	  			   </p>       	  			 	
         	  			</div>
         	  			<div class="textBox">
@@ -256,14 +251,14 @@
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
 					   <div class="list1 chinaSimCard">
-						   <p class="mTitle30 fwb pin">蜻蜓移动中国卡<sup class="sans">2</sup>
+						   <p class="title20 mTitle28 fwb">蜻蜓移动中国卡<sup class="sans">2</sup>
 							   <input type="checkbox" id="chinaSimCardCheckbox3" ng-click="checkChinaSimEx()">
-							   <label for="chinaSimCardCheckbox3" class="org mTitle26 chinaSimCardCheckboxLabel3" ng-click="checkChinaSimEx()">$1.00/线/月</label>
+							   <label for="chinaSimCardCheckbox3" class="org title16 mTitle24 chinaSimCardCheckboxLabel3" ng-click="checkChinaSimEx()">$1.00/线/月</label>
 						   </p>
-						   <p class="mTitle24">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
+						   <p class="title16 mTitle24">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
 
 					   </div>
-					   <p class="chinaSimLastFeatures mTitle26 pin">
+					   <p class="chinaSimLastFeatures title16 mTitle24">
 						   <span class="countryCheck3">无限流量<sup class="sans">3</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						   <span class="countryCheck3">无限通话<sup>&nbsp;</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						   <span class="countryCheck3">无限短信<sup>&nbsp;</sup></span>
@@ -273,15 +268,15 @@
         	  	<div class="planCon plan2 mSwiper-slide">
                    <div class="planUpper">
         	  		  <div class="titleBox titleBox2 clearfix">
-        	  			 <p class="title36 mTitle44 fwb">畅享计划<span class="mTitle32 org fwb" style="display: block">5G @ 4G LTE</span></p>
+        	  			 <p class="title36 mTitle44">畅享计划<span class="title24 mTitle32 org" style="display: block">5G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
         	  			<div class="priceBox priceBox2 avenir clearfix">
         	  			   <p class="dollar title60 mTitle68">$</p>
         	  			   <p class="priceBig title140 mTitle162">{{plan2_int}}</p>
         	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom"><span class="trans">.00</span>{{plan2_dec}}</span>
-        	  			     <span class="smallSub title36 mTitle44 pin">/月<sup><sup class="sans">1</sup></sup></span>
+        	  			     <span class="smallNom">&nbsp;{{plan2_dec}}</span>
+        	  			     <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
         	  			   </p>       	  			 	
         	  			</div>
         	  			<div class="textBox">
@@ -298,14 +293,14 @@
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
 					   <div class="list2 chinaSimCard">
-						   <p class="mTitle30 fwb pin">蜻蜓移动中国卡<sup class="sans">2</sup>
+						   <p class="title20 mTitle28 fwb">蜻蜓移动中国卡<sup class="sans">2</sup>
 							   <input type="checkbox" id="chinaSimCardCheckbox4" ng-click="checkChinaSimEx()">
-							   <label for="chinaSimCardCheckbox4" class="org mTitle26 chinaSimCardCheckboxLabel4" ng-click="checkChinaSimEx()">$1.00/线/月</label>
+							   <label for="chinaSimCardCheckbox4" class="org title16 mTitle24 chinaSimCardCheckboxLabel4" ng-click="checkChinaSimEx()">$1.00/线/月</label>
 						   </p>
-						   <p class="mTitle24">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
+						   <p class="title16 mTitle24">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
 
 					   </div>
-					   <p class="chinaSimLastFeatures mTitle26 pin">
+					   <p class="chinaSimLastFeatures title16 mTitle24">
 						   <span class="countryCheck3">无限流量<sup class="sans">3</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						   <span class="countryCheck3">无限通话<sup>&nbsp;</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						   <span class="countryCheck3">无限短信<sup>&nbsp;</sup></span>
@@ -318,9 +313,9 @@
               <div class="mSwiper-button-prev mSwiper-button-prev2"></div>
              </div>
         	</div>
-        	<!--  bbPlan Phone End-->  
+        	<!-- mobile plan Phone End-->  
         	 
-        	<!--  bbPlan Others Begin-->  
+        	<!-- mobile plan Others Begin-->  
         	<div class="bbPlanOther" style="">
        	      <div class="planOtherBox">
         	     <div class="planRefund">
@@ -356,7 +351,7 @@
 				   </div>
       	        </div>
         	</div> 
-        	<!-- bbPlan Others End-->    	
+        	<!-- mobile plan Others End-->    	
 		  </div>           	      	
        </section>
        
@@ -425,7 +420,7 @@
         </section>
 
        <section class="mobileDisclaimer mainMgn200">
-          <ul class="listNom text14 mText22">
+          <ul class="listNom text14 mText18">
 		   	<li>
 		   		<p>价格不包括开通费，税费和附加费。</p>
 		   	</li>
