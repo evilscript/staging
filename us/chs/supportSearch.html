@@ -10,8 +10,25 @@
        	    <div class="left clearfix">
         	    <p class="searchTitle title30 mTitle38">有问题？我们将为您竭诚解答。</p>
         	    <p class="searchImg text18 mText26">&nbsp;</p>
-        	    <input class="searchBar text18 mText26" type="search" placeholder="" value="输入需要帮助的关键字" onfocus="if (value =='输入需要帮助的关键字'){value =''}" onblur="if (value ==''){value='输入需要帮助的关键字'}" >        	    
-        	    <p class="searchButton text18 mText26">
+              
+          <script>
+            (function() {
+                var cx = '002779763613872999730:zbqcpv-o-la';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+            })();
+        </script>
+        <div style="height: 0; visibility: hidden;">
+            <gcse:search></gcse:search>
+        </div>
+
+
+        	    <input id="sousuo" class="searchBar text18 mText26" type="search" placeholder="" value="输入需要帮助的关键字" onfocus="if (value =='输入需要帮助的关键字'){value =''}" onblur="if (value ==''){value='输入需要帮助的关键字'}" >        	    
+        	    <p class="searchButton text18 mText26" id="ssbtn">
                     <span>&gt;</span>
                 </p>      		
         	</div>
@@ -26,3 +43,17 @@
         	</div>
 		  </div>           	      	
       </section>
+
+      <script>
+
+   /*Google 镜像*/
+    $('#sousuo').keyup(function(){
+        $('#gsc-i-id1').val($(this).val());
+    });
+    $('#ssbtn').click(function(){
+        $(".gsc-search-button").trigger("click");
+  
+    });
+    /*结束*/
+
+      </script>
