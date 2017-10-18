@@ -4,7 +4,7 @@
   Desc : bundles-tv-phone CSS */ 
   
 /* bundles banner begin */
-.bdBanBox{font-family: Microsoft Yahei, sans-serif;}
+.bdBanBox{/*font-family: Microsoft Yahei, sans-serif;*/}
 .bdBanBox a,.bdBanBox a:link,.bdBanBox a:hover,.bdBanBox a:visited{color: #fff;}
 .bdBannerCon{max-width: 1920px; text-align: center;padding-top: 4.5%;color: #fff; background: url(../images/support/sptBannerBg.jpg) no-repeat; background-size: 100%;}
 .bdBanTitle{margin-bottom: .75%;}

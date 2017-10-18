@@ -6,7 +6,7 @@
 /*Initialization settings begin*/ 
 *{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;/*盒模型定义高度和宽度*/}
 html{overflow-y:scroll;/*提供滚动机制*/-webkit-text-size-adjust: none;/*取消浏览器最小字体限制*/}
-body {font-family: 'pingfang', 微软雅黑, sans-serif; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
+body {font-family: 微软雅黑, sans-serif; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
 ul,ol,li{list-style-type:none;}
 input[type="text"]{-webkit-appearance: none;}
 textarea{-webkit-appearance: none;}
@@ -82,7 +82,7 @@ input:focus{ outline:none;}
 /*字体部分*/
 .fwb{font-weight: 700;}
 
-@font-face {
+/*@font-face {
     font-family: 'pingfang';
     src: url('../fonts/pingfang/PingFang-Regular.woff') format('woff'),
          url('../fonts/pingfang/PingFang-Regular.ttf') format('truetype');
@@ -102,7 +102,7 @@ input:focus{ outline:none;}
          url('../fonts/pingfang/PingFang-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-}
+}*/
 
 @font-face {
     font-family: 'avenir';
@@ -121,7 +121,7 @@ input:focus{ outline:none;}
 }
 .avenir{font-family: 'avenir', Arial, sans-serif;}
 .sans{font-family: 'open sans', Arial, sans-serif;}
-.pin{font-family: 'pingfang', 微软雅黑, sans-serif;}
+/*.pin{font-family: 'pingfang', 微软雅黑, sans-serif;}*/
 /*字体部分结束*/
 
 /* fontSize start */
