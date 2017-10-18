@@ -304,20 +304,21 @@ ul.bundlesCon li.double{width: 100%;}
 	.bundlesMobile {margin-top: 12%;}
 	.bundlesTV,.bundlesBB{text-align: center;}
 	.bundlesTV{margin-top: 18%; margin-bottom: 20%;}
-    .bundlesTV .bundlesText{height: 69vw; background: url(../images/bundles/mBundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 22vw;}
-    .bundlesBB .bundlesText{height: 80vw; background: url(../images/bundles/mBundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 24vw;}
-	.bundlesMobile .bundlesText{height: 132vw; background: url(../images/bundles/mBundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 21vw;}
+	.bundlesTV .iconsCon{margin-top: -5%;}
+    .bundlesTV .bundlesText{height: 67vw; background: url(../images/bundles/mBundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 22vw;}
+    .bundlesBB .bundlesText{height: 72vw; background: url(../images/bundles/mBundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 24vw;}
+	.bundlesMobile .bundlesText{height: 125vw; background: url(../images/bundles/mBundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 21vw;}
 	
 	.iconsCon{padding: 0 10%;}
-	.iconsBox{float: none; width: 100%; padding-top: 3%;}
+	.iconsBox{float: none; width: 100%; padding-top: 11%;}
 	.iconsTitle{ margin-bottom: 4%;}
 	.iconsCon2 .iconsBox{width: 100%;}
     .iconsCon2 .iconsSpace{width: 8%;}
     .iconsCon2 .iconsTitle{padding: 0 5.2%; margin-bottom: 3%;text-align: center;}
     .iconsCon2 .iconsList p{padding-left: 4.8%; background-size: 2.8%;}
-	.iconsTitle,.iconsCon2 .iconsTitle{background-size: 30%;padding-top: 35.5%;}
+	.iconsTitle,.iconsCon2 .iconsTitle{background-size: 30%;padding-top: 35%;}
 	.iconsList p,.iconsCon2 .iconsList p{padding-left: 6.5%;background-size: 4%;background-position-y: .6vw;}
-	.iconTop{margin-top: 6.5%;}
+	.iconTop{margin-top: 0;}
 	.numsearchImg{width: 10%;}
 	.numsearchBar{width: 18%;}
 	.numsearchBarLine{width: 3%;}
