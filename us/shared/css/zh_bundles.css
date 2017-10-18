@@ -128,10 +128,10 @@ ul.bundlesCon li.double{width: 100%;}
 .bundlesTV,.bundlesBB,.bundlesMobile{text-align: center;}
 .bundlesTV,.bundlesMobile{margin-bottom: 7%;}
 .bundlesMobile{margin-top: 5%;}
-.bundlesText{height: 39.6vw; margin-bottom: 1%;}
-.bundlesTV .bundlesText{background: url(../images/bundles/bundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 5vw;}
-.bundlesBB .bundlesText{background: url(../images/bundles/bundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 6vw;}
-.bundlesMobile .bundlesText{background: url(../images/bundles/bundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 6vw;}
+.bundlesText{height: 40.6vw; margin-bottom: 1%;}
+.bundlesTV .bundlesText{background: url(../images/bundles/bundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 6vw;}
+.bundlesBB .bundlesText{background: url(../images/bundles/bundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 7vw;}
+.bundlesMobile .bundlesText{background: url(../images/bundles/bundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 7vw;}
 .iconsBox{float: left; width: 30%; text-align: left;}
 .iconsSpace{width: 5%;}
 .iconsTitle{padding: 0 5.2%; padding-top: 39%; margin-bottom: 4%;text-align: center;}
