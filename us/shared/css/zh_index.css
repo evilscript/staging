@@ -641,9 +641,9 @@
     margin-bottom:0;
     color:#222;
 }
-.s6IconText:hover{
+/*.s6IconText:hover{
     color:#327fe8;
-}
+}*/
 .social1,.social2,.social3,.social4{
     cursor:pointer;
 }
@@ -872,9 +872,9 @@
 /*    .s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
         font-size: 18px;
     }*/
-    .s6IconText {
+    /*.s6IconText {
         font-size: 14px;
-    }
+    }*/
 }
 
 @media (max-width:1300px){
@@ -904,9 +904,9 @@
     /*.s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
         font-size: 1.2vw;
     }*/
-    .s6IconText {
+    /*.s6IconText {
         font-size: 1vw;
-    }
+    }*/
     .emailBar, .submitButton {
         font-size: 1.2vw;
     }
