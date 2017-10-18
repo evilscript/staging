@@ -1,11 +1,11 @@
 /* Version:1.0  Author: Amy,Carson 
   Create Date:2017-07-27 
-  Update Date:2017-10-14 
+  Update Date:2017-10-18
   Desc : Support Common CSS */  
  
 /*Initialization settings begin*/ 
 *{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;/*盒模型定义高度和宽度*/}
-html{overflow-y:scroll;/*提供滚动机制*/-webkit-text-size-adjust: none;/*取消浏览器最小字体限制*/}
+html{overflow-y:scroll; -webkit-text-size-adjust: none;}
 body {font-family: 微软雅黑, sans-serif; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
 ul,ol,li{list-style-type:none;}
 input[type="text"]{-webkit-appearance: none;}
@@ -76,7 +76,7 @@ input:focus{ outline:none;}
 .priceBox p.priceSmall{text-align: left;}
 .priceSmall span{display: block;}
 .priceSmall .smallNom{margin-bottom: 15%;}
-.priceSmall .smallSub{margin-left: 5.8%;}
+.priceSmall .smallSub{margin-left: 5.8%;font-family: 微软雅黑, sans-serif;}
 /* price css end */
 
 /*字体部分*/

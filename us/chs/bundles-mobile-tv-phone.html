@@ -45,14 +45,12 @@
 </head>
 <body  ng-app="mobilePlanApp" ng-controller="mobilePlanController">
    <!-- Author: Amy --> 
-   <div id="header"></div>
-     
+   <div id="header"></div>     
    <!--main content begin-->  
    <div class="mainLayout">      
        <section class="bdBBTVMbanner"> 
          <div id="bundlesBanner"></div>    	    	   
-       </section>
-       
+       </section>       
        <section class="mainMgnTop">
       	  <div class="mainMgn100">
       	  	<div class="lineOrange"></div>
@@ -61,16 +59,16 @@
       	    <!-- bundlesBBTVM PC begin-->       	         	      	        	 
         	<div class="bundlesBox hideM" id="planPoint">
       	      <div class="planLine" id="tit">
-       	      <p class="planTitleBig title30">选择手机线数</p>
+       	      <p class="planTitleBig title30 mTitle38">选择手机线数</p>
               
        	       <div id="choseline">
-                    <div class="lineSelect clearfix">
-                        <p class="title18 pin mTitle26 lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
-                        <p class="title18 pin mTitle26 lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
-                        <p class="title18 pin mTitle26 lineSelectText line3" ng-click="line3()"><span class="sans">3</span>条线</p>
-                        <p class="title18 pin mTitle26 lineSelectText line4" ng-click="line4()"><span class="sans">4</span>条线</p>
-                        <p class="title18 pin mTitle26 lineSelectText line5" ng-click="line5()"><span class="sans">5</span>条线</p>
-                        <p class="title18 pin mTitle26 lineSelectText line6" ng-click="line6()"><span class="sans">6</span>条线</p>          
+                    <div class="lineSelect title18 mTitle26 clearfix">
+                        <p class="lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
+                        <p class="lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
+                        <p class="lineSelectText line3" ng-click="line3()"><span class="sans">3</span>条线</p>
+                        <p class="lineSelectText line4" ng-click="line4()"><span class="sans">4</span>条线</p>
+                        <p class="lineSelectText line5" ng-click="line5()"><span class="sans">5</span>条线</p>
+                        <p class="lineSelectText line6" ng-click="line6()"><span class="sans">6</span>条线</p>          
                     </div>
                 </div>
                </div>
@@ -79,22 +77,22 @@
         	  	<div class="planCon">
                    <div class="planUpper" id="up1">
         	  		  <div class="titleBox clearfix">
-        	  		     <p class="title36 fwb">移动+电视+电话<span class="title24 org fwb" style="display: block">1G @ 4G LTE</span></p>
+        	  		     <p class="title36 mTitle44">移动+电视+电话<span class="title24 org" style="display: block">1G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
         	  			<div class="priceBox priceBox2 avenir clearfix">
-                     <p class="dollar title60">$</p>
-                     <p class="priceBig title140">{{plan1_int}}</p>
-                     <p class="priceSmall title70">
-                       <span class="smallNom"><!-- <span class="trans">.00</span> -->{{plan1_dec}}</span>
-                       <span class="smallSub title36 pin">/月<sup><sup class="sans">1</sup></sup></span>
+                     <p class="dollar title60 mTitle68">$</p>
+                     <p class="priceBig title140 mTitle162">{{plan1_int}}</p>
+                     <p class="priceSmall title70 mTitle78">
+                       <span class="smallNom">{{plan1_dec}}</span>
+                       <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
                      </p>                                	  			 	
         	  			</div>
         	  			<div class="lineNotes">
-        	  			   <p class="text14">{{plan1_tex}}</p>
+        	  			   <p class="text14 mText18">{{plan1_tex}}</p>
         	  			</div>
         	  			<div class="textBox">      	  			       
-       	  			       <p class="title18">
+       	  			       <p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
         	  			    <span class="textHot">首月免费，返月费</span>
         	  			   </p>
@@ -103,14 +101,14 @@
                    </div>
         	  	   <div class="planList" id="down1">
         	  		    <div class="planBtn">
-						   <a href=""><p class="button title30">立即订购</p></a>
+						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list1">
         	  			<div class="listCon">
         	  			   <div class="hook">
-        	  				<p class="title18">蜻蜓移动（1G@4G LTE）</p>
-       	  			        <ul class="bundlesCon text14 mText22 clearfix">
+        	  				<p class="title18 mTitle26">蜻蜓移动（1G@4G LTE）</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
      	  			           <li class="double">
      	  			           	<div class="chinaSimCard">
                                   <input type="checkbox" id="chinaSimCardCheckbox" ng-click="checkChinaSimEx()">
@@ -139,8 +137,8 @@
        	  			        </ul>  
         	  			   </div>
         	  			   <div class="hook">
-        	  				<p class="title18">蜻蜓电视</p>
-       	  			        <ul class="bundlesCon text14 mText22 clearfix">
+        	  				<p class="title18 mTitle26">蜻蜓电视</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
@@ -180,8 +178,8 @@
        	  			        </ul>  
         	  			   </div>
         	  			   <div class="hook">
-        	  				<p class="title18">蜻蜓电话</p>
-       	  			        <ul class="bundlesCon text14 clearfix">
+        	  				<p class="title18 mTitile26">蜻蜓电话</p>
+       	  			        <ul class="bundlesCon text14 mTitle22 clearfix">
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
@@ -224,22 +222,22 @@
         	  	<div class="planCon plan2">
                    <div class="planUpper" id="up2">
 					  <div class="titleBox titleBox4 clearfix">
-        	  			<p class="title36 fwb">移动+电视+电话<span class="title24 org fwb" style="display: block">5G @ 4G LTE</span></p>
+        	  			<p class="title36 mTitle44">移动+电视+电话<span class="title24 org" style="display: block">5G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
         	  			 <div class="priceBox priceBox2 avenir clearfix">
-                     <p class="dollar title60">$</p>
-                     <p class="priceBig title140">{{plan2_int}}</p>
-                     <p class="priceSmall title70">
-                       <span class="smallNom"><!-- <span class="trans">.00</span> -->{{plan2_dec}}</span>
-                               <span class="smallSub title36 pin">/月<sup><sup class="sans">1</sup></sup></span>
+                     <p class="dollar title60 mTitle68">$</p>
+                     <p class="priceBig title140 mTitle162">{{plan2_int}}</p>
+                     <p class="priceSmall title70 mTitle78">
+                       <span class="smallNom">{{plan2_dec}}</span>
+                       <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
                      </p>         	  			 	
         	  			 </div>
         	  			 <div class="lineNotes">
-        	  			    <p class="text14">{{plan1_tex}}</p>
+        	  			    <p class="text14 mTitle22">{{plan1_tex}}</p>
         	  			 </div>
         	  			 <div class="textBox">
-       	  			       <p class="title18">
+       	  			       <p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/bb/chs_bbPlanIconSale.png"/></span>
         	  			    <span class="textHot">首月免费，返月费</span>
         	  			   </p>
@@ -248,14 +246,14 @@
                    </div>
         	  	   <div class="planList planList2" id="down2">
         	  		    <div class="planBtn">
-						   <a href=""><p class="button title30">立即订购</p></a>
+						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list2">
         	  			<div class="listCon">
        	  			       <div class="hook">
-        	  				<p class="title18">蜻蜓移动（5G@4G LTE）</p>
-       	  			        <ul class="bundlesCon text14 mText22 clearfix">
+        	  				<p class="title18 mTitle26">蜻蜓移动（5G@4G LTE）</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
      	  			           <li class="double">
      	  			           	<div class="chinaSimCard">
                                   <input type="checkbox" id="chinaSimCardCheckbox2" ng-click="checkChinaSimEx()">
@@ -284,8 +282,8 @@
        	  			        </ul>  
         	  			   </div>
         	  			   <div class="hook">
-        	  				<p class="title18">蜻蜓电视</p>
-       	  			        <ul class="bundlesCon text14 clearfix">     	  			           
+        	  				<p class="title18 mTitle26">蜻蜓电视</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">     	  			           
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
@@ -325,8 +323,8 @@
        	  			        </ul>  
         	  			   </div>
        	  			    <div class="hook">
-        	  				<p class="title18">蜻蜓电话</p>
-       	  			        <ul class="bundlesCon text14 clearfix">
+        	  				<p class="title18 mTitle26">蜻蜓电话</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
@@ -379,13 +377,13 @@
       	      <div class="planLine" id="titphone">
        	         <p class="planTitleBig title30 mTitle38">选择手机线数</p>
        	         <div id="choselinephone">
-                    <div class="lineSelect clearfix">
-                        <p class="title18 pin mTitle26 lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
-                        <p class="title18 pin mTitle26 lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
-                        <p class="title18 pin mTitle26 lineSelectText line3" ng-click="line3()"><span class="sans">3</span>条线</p>
-                        <p class="title18 pin mTitle26 lineSelectText line4" ng-click="line4()"><span class="sans">4</span>条线</p>
-                        <p class="title18 pin mTitle26 lineSelectText line5" ng-click="line5()"><span class="sans">5</span>条线</p>
-                        <p class="title18 pin mTitle26 lineSelectText line6" ng-click="line6()"><span class="sans">6</span>条线</p>          
+                    <div class="lineSelect title18 mTitle26 clearfix">
+                        <p class="lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
+                        <p class="lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
+                        <p class="lineSelectText line3" ng-click="line3()"><span class="sans">3</span>条线</p>
+                        <p class="lineSelectText line4" ng-click="line4()"><span class="sans">4</span>条线</p>
+                        <p class="lineSelectText line5" ng-click="line5()"><span class="sans">5</span>条线</p>
+                        <p class="lineSelectText line6" ng-click="line6()"><span class="sans">6</span>条线</p>          
                     </div>
                 </div>
        	      </div>
@@ -394,15 +392,15 @@
         	  	<div class="planCon plan1 mSwiper-slide" >
                    <div class="planUpper" id="up1phone">
         	  		  <div class="titleBox clearfix">
-        	  			 <p class="title36 mTitle42 fwb">移动+电视+电话<span class="title24 mTitle32 org fwb" style="display: block">1G @ 4G LTE</span></p>
+        	  			 <p class="title36 mTitle44">移动+电视+电话<span class="title24 mTitle32 org" style="display: block">1G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
         	  			<div class="priceBox priceBox2 avenir clearfix">
                      <p class="dollar title60 mTitle68">$</p>
                      <p class="priceBig title140 mTitle162">{{plan1_int}}</p>
                      <p class="priceSmall title70 mTitle78">
-                       <span class="smallNom"><!-- <span class="trans">.00</span> -->{{plan1_dec}}</span>
-                       <span class="smallSub title36 mTitle44 pin">/月<sup><sup class="sans">1</sup></sup></span>
+                       <span class="smallNom">{{plan1_dec}}</span>
+                       <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
                      </p>       	  			 	
         	  			</div>
         	  			<div class="lineNotes">
@@ -454,8 +452,8 @@
        	  			        </ul>  
         	  			   </div>
         	  			   <div class="hook">
-        	  				<p class="mTitle26">蜻蜓电视</p>
-       	  			        <ul class="bundlesCon mText18 clearfix">
+        	  				<p class="title18 mTitle26">蜻蜓电视</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
@@ -495,8 +493,8 @@
        	  			        </ul>  
         	  			   </div>
         	  			   <div class="hook">
-        	  				<p class="mTitle26">蜻蜓电话</p>
-       	  			        <ul class="bundlesCon mText18 clearfix">
+        	  				<p class="title18 mTitle26">蜻蜓电话</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
@@ -536,16 +534,16 @@
         	  	<div class="planCon plan2 mSwiper-slide">
                    <div class="planUpper">
         	  		  <div class="titleBox titleBox4 clearfix">
-        	  			 <p class="title36 mTitle42 fwb">移动+电视+电话<span class="title24 mTitle32 org fwb" style="display: block">5G @ 4G LTE</span></p>
+        	  			 <p class="title36 mTitle44">移动+电视+电话<span class="title24 mTitle32 org" style="display: block">5G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
         	  			<div class="priceBox priceBox2 avenir clearfix">
-                     <p class="dollar title60 mTitle68">$</p>
-                     <p class="priceBig title140 mTitle162">{{plan2_int}}</p>
-                     <p class="priceSmall title70 mTitle78">
-                       <span class="smallNom"><!-- <span class="trans">.00</span> -->{{plan2_dec}}</span>
-                       <span class="smallSub title36 mTitle44 pin">/月<sup><sup class="sans">1</sup></sup></span>
-                     </p>       	  			 	
+                           <p class="dollar title60 mTitle68">$</p>
+                           <p class="priceBig title140 mTitle162">{{plan2_int}}</p>
+                           <p class="priceSmall title70 mTitle78">
+                              <span class="smallNom">{{plan2_dec}}</span>
+                              <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
+                           </p>       	  			 	
         	  			</div>
         	  			<div class="lineNotes">
         	  			   <p class="text14 mText18">{{plan1_tex}}</p>
@@ -596,8 +594,8 @@
        	  			        </ul>  
         	  			   </div>
         	  			   <div class="hook">
-        	  				<p class="mTitle26">蜻蜓电视</p>
-       	  			        <ul class="bundlesCon mText18 clearfix">
+        	  				<p class="title18 mTitle26">蜻蜓电视</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
@@ -637,8 +635,8 @@
        	  			        </ul>  
         	  			   </div>
        	  			    <div class="hook">
-        	  				<p class="mTitle26">蜻蜓电话</p>
-       	  			        <ul class="bundlesCon mText18 clearfix">
+        	  				<p class="title18 mTitle26">蜻蜓电话</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
@@ -839,7 +837,7 @@
 	   	     </div>
 	   	  </div>
 	   </section>
-       <!-- bundlesTV & bundlesBB End-->  
+       <!-- bundlesTV & bundlesBB & bundlesMobile End-->  
                    
   </div>
   <!--main content end--> 
