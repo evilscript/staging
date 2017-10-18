@@ -25,12 +25,12 @@
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
     <style>
-    .bannerAll1{background: url(../shared/images/bb/bbRateBannerBg.jpg) no-repeat; background-size: 100%;}
-    .top{width: 79.74%;margin: 0 auto;padding-top: 4.5%;padding-bottom: 3.5%}
+    .bannerAll1{background: url(../shared/images/4g/banner4g.jpg) no-repeat; background-size: 100%;}
+    .top{padding-top: 4%;padding-bottom: 3.5%}
     p{padding: 0;margin: 0}
     .top .p2{margin-top: 1%}
-    .maps{height: 45vw;}
-    .Sharp {vertical-align: top;width: 3.5%;}
+    .maps{height: 45vw;} 
+    .Sharp {vertical-align: top;width: 3.5%;} 
     .Sharp, .textCon {float: left;display: block;}
     .textCon {width: 95%;}
     .bottom{width: 89.5%;margin:0 auto;padding-top: 2%}
@@ -38,27 +38,29 @@
     .txt{line-height: 1.8}
     .lineBlue {margin-top: 5%}
 
-    @media (max-width:1000px){
-       .bannerAll1{background: url(../shared/images/bb/ipadBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
-       .maps{width: 100%;height: 65vw}
+ @media (min-width:768px) and (max-width:1000px){
+       .bannerAll1{background: url(../shared/images/4g/ipadbanner4g.jpg) no-repeat; background-size: 100%;}
+       .mapBox{padding: 0 5.2%;}
        .left,.right{padding: 0%}
        .Sharp{width: 4%}
        .textCon{width: 90%}
     }
 
-    @media (max-width:767px){
-       .bannerAll1{background: url(../shared/images/bb/mBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
-       .top{width: 90%;padding-top: 12%; padding-bottom: 9%}
+@media (max-width:767px){
+       .bannerAll1{background: url(../shared/images/4g/banner4gM.jpg) no-repeat; background-size: 100%;}
+       .mapBox{padding: 0 5.2%;} 
+       .top{width: 100%;padding-top: 8%; padding-bottom: 9%} 
        .top .p2{margin-top: 2%}
        .left,.right{display: block;width: 100%;vertical-align: top;}
-       .bottom{width: 100%;margin:0 auto;padding-top: 6%}
-	   .Sharp{width: 4%}
-       .textCon{width: 95%}
-       .txt{line-height: 1.5}
-       .txt p{padding-bottom: 1%}
-       .right{padding-top: 8%}
-       .lineBlue {margin-top: 9%}
+       .bottom{width: 100%;margin:0 auto;padding-top: 6%} 
+       .Sharp{width: 4%} 
+       .textCon{width: 95%} 
+       .txt{line-height: 1.5} 
+       .txt p{padding-bottom: 1%} 
+       .right{padding-top: 8%} 
+       .lineBlue {margin-top: 9%} 
        .maps{height: 110vw;}
+ 
 	   
     }
 </style>
@@ -73,7 +75,7 @@
 	<div class="mainLayout">
 	    <section class="bannerAll bannerAll1">
      	    <div class="bannerText">
-     	    	<p class="title60 mTitle60 fwb bannerTitle">全美最大的4G LTE手机网络</p>
+     	    	<p class="title60 mTitle60 fwb bannerTitle">全美最大的4G <br class="showM">LTE手机网络</p>
      	    	<p class="title30 mTitle30">iTalkBB蜻蜓移动，让您在哪里都无需担心信号问题</p>
      	    </div>      	    	   
         </section>
