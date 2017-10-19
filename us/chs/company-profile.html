@@ -46,24 +46,21 @@
 
     @media (max-width: 767px){
                     .year{width: 13%}
-                    .aboutTextTitle {padding-top: 5%;}
                     .yue{width: 85%}
+					.textBg{margin-top: 5%; margin-bottom: 10%;}
       }
-    </style>
-    <!--这里继续添加子页面的Js引用文件-->
+    </style>  
 </head>
 
 
 <body ng-app="" style="background:white;">
     <!--Carson制作-->
-
     <div id="header"></div>
     <script>
         $('#header').load('header.html');
     </script>
 
-    <div class="container1920">
-        <div class="mainLayout">
+    <div class="mainLayout">
            <section class="bannerAll">
      	    <div class="bannerText">
      	    	<p class="title60 mTitle60 fwb bannerTitle">移动生活，处处精彩</p>
@@ -78,30 +75,25 @@
       	  	<div class="lineOrange"></div>
       	  </div>
       	  </div>
-            <!--<section class="aboutBanner">
-                <div class="mainMgn200">
-                    <p class="aboutTitle pin title60 mTitle60">移动生活，处处精彩。</p>
-                    <p class="aboutSubtitle pin title36 mTitle36"><span class="sans">iTalkBB</span>蜻蜓蜻蜓为移民而生，<br>
-                        为海外华人打造更美好的生活。</p>
-                </div>
-                <div class="clear clearfix"></div>
-            </section>-->
 
             <!--关于我们系列页面 tab 公共部分，每页的active不同-->
-            <div ng-include="'aboutTab.html'"></div>
+            <div id="aboutTab"></div>
+            <script>
+               $('#aboutTab').load('aboutTab.html');
+            </script>
             <!--结束-->
 
             <section class="aboutCompanyContent">
                 <section class="mainMgn200">
-                    <p class="aboutTextTitle pin title36 mTitle44 fwb">关于<span class="sans">iTalkBB</span>蜻蜓</p>
-                    <p class="aboutTextText pin title18 mTitle26"><span class="sans">iTalkBB</span>蜻蜓是提供为海外华人提供国际通话业务和中文电视产品的电信通讯公司。公司总部位于华盛顿特区，并于加拿大、澳大利亚、新加坡、中国等国家设有分支机构。</p>
+                    <p class="titleMgnBtm mainMgnTop title30 mTitle38 fwb">关于iTalkBB蜻蜓</p>
+                    <p class="title18 mText26">iTalkBB蜻蜓是提供为海外华人提供国际通话业务和中文电视产品的电信通讯公司。公司总部位于华盛顿特区，并于加拿大、澳大利亚、新加坡、中国等国家设有分支机构。</p>
 
-                    <p class="aboutTextTitle pin title36 mTitle44 fwb">我们的<span class="org">企业理念</span></p>
-                    <p class="aboutTextText pin title18 mTitle26">“移动生活，处处精彩” 是<span class="sans">iTalkBB</span>蜻蜓的理念，正因为有这样的理念，<span class="sans">iTalkBB</span>蜻蜓努力打造更多适合海外华人的产品和服务，为海外华人打造更精彩的生活。<br><br>
-                        <span class="sans">iTalkBB</span>蜻蜓为移民而生，从成立开始，我们就致力于为海外华人打造更美好的生活。理解移民的需求，打造真正适合移民的产品，是所有<span class="sans">iTalkBB</span>蜻蜓产品和服务的宗旨。我们深深懂得移民的需求，<span class="sans">iTalkBB</span>蜻蜓的每一个产品和功能都是为海外移民量身打造的，让我们的用户能够时刻与亲友保持联系，真正享受海外生活的精彩。</p>
+                    <p class="titleMgnBtm mainMgnTop title30 mTitle38 fwb">我们的<span class="org">企业理念</span></p>
+                    <p class="title18 mText26">“移动生活，处处精彩” 是iTalkBB蜻蜓的理念，正因为有这样的理念，iTalkBB蜻蜓努力打造更多适合海外华人的产品和服务，为海外华人打造更精彩的生活。</p>
+                    <p class="titleMgnBtm title18 mText26">iTalkBB蜻蜓为移民而生，从成立开始，我们就致力于为海外华人打造更美好的生活。理解移民的需求，打造真正适合移民的产品，是所有iTalkBB蜻蜓产品和服务的宗旨。我们深深懂得移民的需求，iTalkBB蜻蜓的每一个产品和功能都是为海外移民量身打造的，让我们的用户能够时刻与亲友保持联系，真正享受海外生活的精彩。</p>
 
-                    <p class="aboutTextTitle pin title36 mTitle44 fwb">我们的<span class="org">规模</span></p>
-                    <p class="aboutTextText pin title18 mTitle26">目前，<span class="sans">iTalkBB</span>蜻蜓已成为全球第一大华裔和韩裔电信运营商，在美国、加拿大、澳大利亚、新加坡等国开设超过<span class="sans">30</span>家体验店，全球用户超过<span class="sans">120</span>万。在美国，<span class="sans">iTalkBB</span>蜻蜓品牌知名度超过<span class="sans">80%</span>。</p>
+                    <p class="titleMgnBtm mainMgnTop title30 mTitle38 fwb">我们的<span class="org">规模</span></p>
+                    <p class="title18 mText26">目前，iTalkBB蜻蜓已成为全球第一大华裔和韩裔电信运营商，在美国、加拿大、澳大利亚、新加坡等国开设超过30家体验店，全球用户超过120万。在美国，iTalkBB蜻蜓品牌知名度超过80%。</p>
 
                     <div class="hideM">
                         <img src="../shared/images/about/chs_aboutGlobalAll.jpg" class="img w100 globalImg" usemap="#global" alt="">
@@ -129,10 +121,10 @@
                         </map>
                     </div>
                     <div class="textBg showM">
-                        <p class="aboutTextText pin title18 mTitle26">全球第一大华裔、韩裔电信运营商</p>
-                        <p class="aboutTextText pin title18 mTitle26 special02">超过120万用户</p>
-                        <p class="aboutTextText pin title18 mTitle26 special03">每5位华人就有一位使用者</p>
-                        <p class="aboutTextText pin title18 mTitle26 special04">超过80%的品牌认知</p>
+                        <p class="title18 mText26">全球第一大华裔、韩裔电信运营商</p>
+                        <p class="title18 mText26 special02">超过120万用户</p>
+                        <p class="title18 mText26 special03">每5位华人就有一位使用者</p>
+                        <p class="title18 mText26 special04">超过80%的品牌认知</p>
                     </div>
 <script>
     $('.hoverUSA').click(function(){
@@ -152,7 +144,7 @@
     });
 </script>
 
-                    <p class="aboutTextTitle pin title36 mTitle44 fwb">我们的<span class="org">服务</span></p>
+                    <p class="titleMgnBtm title30 mTitle38 fwb">我们的<span class="org">服务</span></p>
 
                     <div class="showM">
                         <div class="serviceIcon1">
@@ -186,8 +178,8 @@
                         </div>-->
                     </div>
                     <div class="aboutTextRightText right1">
-                        <p class="rightTextTitle pin title30 mTitle32 fwb"><span class="sans">iTalkBB</span>蜻蜓移动</p>
-                        <p class="rightTextSubTitle pin title18 mTitle26">为海外华人打造的专属的手机计划。<span class="sans">iTalkBB</span>蜻蜓独家推出最适合海外华人的手机计划，让用户可以在美国和中国享受无限通话/无限短信/无限流量和<span class="sans">4G LTE</span>高速流量。</p>
+                        <p class="titleMgnBtm rightTextTitle title24 mTitle32 fwb">iTalkBB蜻蜓移动</p>
+                        <p class="rightTextSubTitle title18 mText26">为海外华人打造的专属的手机计划。iTalkBB蜻蜓独家推出最适合海外华人的手机计划，让用户可以在美国和中国享受无限通话/无限短信/无限流量和4G LTE高速流量。</p>
                     </div>
                     <div class="clear clearfix"></div>
                     <div class="aboutTextLeftImg">
@@ -196,8 +188,8 @@
                         </div>
                     </div>
                     <div class="aboutTextRightText right2">
-                        <p class="rightTextTitle pin title30 mTitle32 fwb"><span class="sans">iTalkBB</span>蜻蜓电视</p>
-                        <p class="rightTextSubTitle pin title18 mTitle26">海外华人首选中文电视。搭载最精品、最主流的正版华语节目，提供超过<span class="sans">60</span>个正版频道的实时直播和回看，以及最热门的高清华语电影、电视剧和综艺节目的点播。除此之外，<span class="sans">iTalkBB</span>蜻蜓电视还配备专业内容编辑团队，专门根据海外华人的关注热点，搜罗编辑移民最感兴趣的电视节目，让用户身在海外也能尽享最高质的华语资讯和娱乐。</p>
+                        <p class="titleMgnBtm rightTextTitle title24 mTitle32 fwb">iTalkBB蜻蜓电视</p>
+                        <p class="rightTextSubTitle title18 mText26">海外华人首选中文电视。搭载最精品、最主流的正版华语节目，提供超过60个正版频道的实时直播和回看，以及最热门的高清华语电影、电视剧和综艺节目的点播。除此之外，iTalkBB蜻蜓电视还配备专业内容编辑团队，专门根据海外华人的关注热点，搜罗编辑移民最感兴趣的电视节目，让用户身在海外也能尽享最高质的华语资讯和娱乐。</p>
                     </div>
                     <div class="clear clearfix"></div>
                     <div class="aboutTextLeftImg left3">
@@ -213,8 +205,8 @@
     })
 </script>-->
                     <div class="aboutTextRightText right3">
-                        <p class="rightTextTitle pin title30 mTitle32 fwb"><span class="sans">iTalkBB</span>蜻蜓电话</p>
-                        <p class="rightTextSubTitle pin title18 mTitle26">为海外华人打造的专属的手机计划。<span class="sans">iTalkBB</span>蜻蜓独家推出最适合海外华人的手机计划，让用户可以在美国和中国享受无限通话/无限短信/无限流量和<span class="sans">4G LTE</span>高速流量。</p>
+                        <p class="titleMgnBtm rightTextTitle title24 mTitle32 fwb">iTalkBB蜻蜓电话</p>
+                        <p class="rightTextSubTitle title18 mText26">为海外华人打造的专属的手机计划。iTalkBB蜻蜓独家推出最适合海外华人的手机计划，让用户可以在美国和中国享受无限通话/无限短信/无限流量和4G LTE高速流量。</p>
                     </div>
                     <div class="clear clearfix"></div>
 
@@ -266,12 +258,11 @@
 </script>
 
 
-                    <p class="aboutTextTitle pin title36 mTitle44 fwb"><span class="sans">iTalkBB</span>蜻蜓名字的由来</p>
+                    <p class="titleMgnBtm mainMgnTop title24 mTitle32 fwb">iTalkBB蜻蜓名字的由来</p>
 
-                    <p class="aboutTextText pin title18 mTitle26">
-                        <span class="sans">2016</span>年<span class="sans">7</span>月，<span class="sans">iTalkBB</span>在保留英文名称的同时，正式宣布全新中文名称和<span class="sans">Logo</span>，以期更好地服务于全球海外华人客户。蜻蜓的谐音是“倾听”，代表 <span class="sans">iTalkBB</span>尊重每一个用户，倾听用户的心声，兢兢业业地为海外华人用户提供贴心的产品和服务。<span class="sans">Logo</span>上两只蜻蜓翩然飞舞，象征着移民的传统文化和所在国家的文化相互沟通融合。蜻蜓环绕成圆形，也表达了<span class="sans">iTalkBB</span>蜻蜓对沟通全球的一种美好寄寓。<br><br>
-                        我们希望通过全新的和<span class="sans">Logo</span>，让更多的海外华人了解<span class="sans">iTalkBB</span>蜻蜓的理念：
+                    <p class="title18 mText26">2016年7月，iTalkBB在保留英文名称的同时，正式宣布全新中文名称和Logo，以期更好地服务于全球海外华人客户。蜻蜓的谐音是“倾听”，代表 iTalkBB尊重每一个用户，倾听用户的心声，兢兢业业地为海外华人用户提供贴心的产品和服务。Logo上两只蜻蜓翩然飞舞，象征着移民的传统文化和所在国家的文化相互沟通融合。蜻蜓环绕成圆形，也表达了iTalkBB蜻蜓对沟通全球的一种美好寄寓。
                     </p>
+                    <p class="mainMgnTop title18 mText26">我们希望通过全新的和Logo，让更多的海外华人了解iTalkBB蜻蜓的理念：</p>
                 </section>
 
                 <div class="mainMgn200 mobileContainerSpecialDiv">
@@ -283,140 +274,75 @@
                 <div class="mainMgn200">
 
                     <div  class="lastBg">
-                        <p class="aboutTextTitle pin title36 mTitle44 fwb">蜻蜓<span class="org">大事件</span></p>
-                            <div class="aboutTextText pin title18 mTitle26">
+                        <p class="titleMgnBtm mainMgnTop title30 mTitle38 fwb">蜻蜓<span class="org">大事件</span></p>
+                            <div class="aboutTextText title18 mText26">
                                 <div class='year'><span class="sans">2003</span> - </div>
                                 <div class="yue">
-                                    <span class='yues'>在美国德州，<span class="sans">iTalkBB</span>家庭电话开始销售</span>
+                                    <span class='yues'>在美国德州，iTalkBB家庭电话开始销售</span>
                                 </div> 
                             </div>
 
 
-                            <div class="aboutTextText pin title18 mTitle26">
+                            <div class="aboutTextText title18 mText26">
                                 <div class='year'><span class="sans">2005</span> - </div>
                                 <div class="yue">
-                                    <span class='yues'><span class="sans">iTalkBB</span>家庭电话业务扩大到全美</span>
+                                    <span class='yues'>iTalkBB家庭电话业务扩大到全美</span>
                                 </div> 
                             </div>
 
-                            <div class="aboutTextText pin title18 mTitle26">
+                            <div class="aboutTextText title18 mText26">
                                 <div class='year'><span class="sans">2006</span> - </div>
                                 <div class="yue">
-                                    <span class='yues'><span class="sans">iTalkBB</span>正式进军加拿大市场</span>
+                                    <span class='yues'>iTalkBB正式进军加拿大市场</span>
                                 </div> 
                             </div>
 
-                            <div class="aboutTextText pin title18 mTitle26">
+                            <div class="aboutTextText title18 mText26">
                                 <div class='year'><span class="sans">2008</span> - </div>
                                 <div class="yue">
-                                    <span class='yues'><span class="sans">iTalkBB</span>成功打入北美韩桥市场</span>
-                                    <span class='yues aboutTextTitle'><span class="sans">iTalkBB</span>与姚明基金会展开合作</span>
+                                    <span class='yues'>iTalkBB成功打入北美韩桥市场</span>
+                                    <span class='yues'>iTalkBB与姚明基金会展开合作</span>
                                 </div> 
                             </div>
 
 
-                            <div class="aboutTextText pin title18 mTitle26">
+                            <div class="aboutTextText title18 mText26">
                                 <div class='year'><span class="sans">2009</span> - </div>
                                 <div class="yue">
-                                    <span class='yues'><span class="sans">iTalkBB</span>正式进军澳大利亚和新加坡市场</span>
+                                    <span class='yues'>iTalkBB正式进军澳大利亚和新加坡市场</span>
                                 </div> 
                             </div>
 
-                            <div class="aboutTextText pin title18 mTitle26">
+                            <div class="aboutTextText title18 mText26">
                                 <div class='year'><span class="sans">2012</span> - </div>
                                 <div class="yue">
-                                       <span class='yues'><span class="sans">奥运击剑冠雷声正式成为<span class="sans">iTalkBB</span>蜻蜓形象大使</span>
-                                       <span class='yues aboutTextTitle'><span class="sans"><span class="sans">iTalkBB</span>中文电视业务启动</span>
+                                       <span class='yues'>奥运击剑冠雷声正式成为iTalkBB蜻蜓形象大使</span>
+                                       <span class='yues'>iTalkBB中文电视业务启动</span>
                                 </div> 
                             </div>
 
-                            <div class="aboutTextText pin title18 mTitle26">
+                            <div class="aboutTextText title18 mText26">
                                 <div class='year'><span class="sans">2016</span> - </div>
                                 <div class="yue">
-                                       <span class='yues'><span class="sans">4</span>月，<span class="sans">iTalkBB</span>与未来电视有限公司正式签署战略合作协议，携手共建正版海外中文电视播出平台</span>
-                                       <span class='yues aboutTextTitle'><span class="sans">5</span>月，<span class="sans">iTalkBB</span>与海信集团在智能电视技术领域，中文电视内容，电视终端销售战略等多层面达成正式合作</span>
-                                       <span class='yues aboutTextTitle'><span class="sans">4</span>月，<span class="sans">iTalkBB</span>全新中文名称"蜻蜓"和正式揭晓 </span>
-                                       <span class='yues aboutTextTitle'><span class="sans">10</span>月，<span class="sans">iTalkBB</span>iTalkBB蜻蜓正式与NBA布鲁克林篮网队 (Brooklyn Nets) 签约，成为其球队第一家为海外华人服务的电信企业官方合作伙伴 </span>
+                                       <span class='yues'>4月，iTalkBB与未来电视有限公司正式签署战略合作协议，携手共建正版海外中文电视播出平台</span>
+                                       <span class='yues'>5月，iTalkBB与海信集团在智能电视技术领域，中文电视内容，电视终端销售战略等多层面达成正式合作</span>
+                                       <span class='yues'>4月，iTalkBB全新中文名称"蜻蜓"和正式揭晓</span>
+                                       <span class='yues'>10月，iTalkBBiTalkBB蜻蜓正式与NBA布鲁克林篮网队 (Brooklyn Nets) 签约，成为其球队第一家为海外华人服务的电信企业官方合作伙伴</span>
                                 </div> 
                             </div>
 
-                            <div class="aboutTextText pin title18 mTitle26">
+                            <div class="aboutTextText title18 mText26">
                                 <div class='year'><span class="sans">2017</span> - </div>
                                 <div class="yue">
-                                       <span class='yues'><span class="sans">1</span>月，<span class="sans">iTalk Global Communication, Inc.</span>成功收购<span class="sans">iTalkBB Media, Inc.</span>，完善<span class="sans">iTalkBB</span>蜻蜓中文电视产品盈利模式</span>
-                                       <span class='yues aboutTextTitle'><span class="sans">3</span>月，<span class="sans">iTalkBB</span>蜻蜓移动业务在美国启动 </span>
-                                       <span class='yues aboutTextTitle'><span class="sans">6</span>月，蜻蜓获得《逆时营救》、《侠盗联盟》、《闺蜜2》最新华语电影在北美独家版权，iTalkBB蜻蜓电视内容全面升级 </span>        
+                                       <span class='yues'>1月，iTalk Global Communication, Inc.成功收购iTalkBB Media, Inc.，完善iTalkBB蜻蜓中文电视产品盈利模式</span>
+                                       <span class='yues'>3月，iTalkBB蜻蜓移动业务在美国启动</span>
+                                       <span class='yues'>6月，蜻蜓获得《逆时营救》、《侠盗联盟》、《闺蜜2》最新华语电影在北美独家版权，iTalkBB蜻蜓电视内容全面升级</span>        
                                 </div> 
-                            </div>
-                 
+                            </div>                 
                     </div>
-
-
-
-
-<!--                     <div class="lastBg hideM" >
-                        <p class="aboutTextTitle pin title36 mTitle44 fwb">蜻蜓<span class="org">大事件</span></p>
-                        <p class="aboutTextText pin title18 mTitle26">
-                            <span class="sans">2003</span> - 在美国德州，<span class="sans">iTalkBB</span>家庭电话开始销售 <br><br>
-                            <span class="sans">2005</span> - <span class="sans">iTalkBB</span>家庭电话业务扩大到全美 <br><br>
-                            <span class="sans">2006</span> - <span class="sans">iTalkBB</span>正式进军加拿大市场 <br><br>
-                            <span class="sans">2008</span> - <span class="sans">iTalkBB</span>成功打入北美韩桥市场 <br><br>
-                            <span class="trans"><span class="sans">2008</span> - </span><span class="sans">iTalkBB</span>与姚明基金会展开合作 <br><br>
-                            <span class="sans">2009</span> - <span class="sans">iTalkBB</span>正式进军澳大利亚和新加坡市场 <br><br>
-                            <span class="sans">2012</span> - 奥运击剑冠雷声正式成为<span class="sans">iTalkBB</span>蜻蜓形象大使 <br><br>
-                            <span class="trans"><span class="sans">2012</span> - </span><span class="sans">iTalkBB</span>中文电视业务启动 <br><br>
-
-                            <span class="sans">2016</span> -
-                            <span class="sans">4</span>月，<span class="sans">iTalkBB</span>与未来电视有限公司正式签署战略合作协议，携手共建正版海外中文电视播出平台<br><br>
-                            <span class="trans"><span class="sans">2016</span> - </span><span class="sans">5</span>月，<span class="sans">iTalkBB</span>与海信集团在智能电视技术领域，中文电视内容，电视终端销售战略等多层面达成正式合作 <br><br>
-                            <span class="trans"><span class="sans">2016</span> - </span><span class="sans">7</span>月，<span class="sans">iTalkBB</span>全新中文名称"蜻蜓"和<span class="sans"Logo></span>正式揭晓 <br><br>
-                            <span class="trans"><span class="sans">2016</span> - </span><span class="sans">10</span>月，<span class="sans">iTalkBB</span>蜻蜓正式与<span class="sans">NBA</span>布鲁克林篮网队 <span class="sans">(Brooklyn Nets)</span> 签约，成为其球队第一家为海外华人服务的电信企业<br class="tabletOnly"><span class="tabletOnly">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>官方合作伙伴 <br><br>
-
-                            <span class="sans">2017</span> - <span class="sans">1</span>月，<span class="sans">iTalk Global Communication, Inc.</span>成功收购<span class="sans">iTalkBB Media, Inc.</span>，完善<span class="sans">iTalkBB</span>蜻蜓中文电视产品盈利模式 <br><br>
-                            <span class="trans"><span class="sans">2017</span> - </span><span class="sans">3</span>月，<span class="sans">iTalkBB</span>蜻蜓移动业务在美国启动 <br><br>
-                            <span class="trans"><span class="sans">2017</span> - </span><span class="sans">6</span>月，<span class="sans">iTalkBB</span>蜻蜓获得《逆时营救》、《侠盗联盟》、《闺蜜<span class="sans">2</span>》最新华语电影在北美独家版权，<span class="sans">iTalkBB</span>蜻蜓电视内容<br class="tabletOnly"><span class="tabletOnly"></span>全面升级 <br><br>
-                        </p>
-                    </div> -->
-
-
-<!-- 
-                    <div class="lastBg showM" >
-                        <p class="aboutTextTitle pin title36 mTitle44 fwb">蜻蜓<span class="org">大事件</span></p>
-                        <p class="aboutTextText pin title18 mTitle26">
-                            <span class="sans">2003</span> - 在美国德州，<span class="sans">iTalkBB</span>家庭电话开始销售 <br><br>
-                            <span class="sans">2005</span> - <span class="sans">iTalkBB</span>家庭电话业务扩大到全美 <br><br>
-                            <span class="sans">2006</span> - <span class="sans">iTalkBB</span>正式进军加拿大市场 <br><br>
-                            <span class="sans">2008</span> - <span class="sans">iTalkBB</span>成功打入北美韩桥市场 <br><br>
-                            <span class="trans"><span class="sans">2008</span> - </span><span class="sans">iTalkBB</span>与姚明基金会展开合作 <br><br>
-                            <span class="sans">2009</span> - <span class="sans">iTalkBB</span>正式进军澳大利亚和新加坡市场 <br><br>
-                            <span class="sans">2012</span> - 奥运击剑冠雷声正式成为<span class="sans">iTalkBB</span>蜻蜓形象大使 <br><br>
-                            <span class="trans"><span class="sans">2012</span> - </span><span class="sans">iTalkBB</span>中文电视业务启动 <br><br>
-
-                            <span class="sans">2016</span> -
-                            <span class="sans">4</span>月，<span class="sans">iTalkBB</span>与未来电视有限公司正式签署战略合
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作协议，携手共建正版海外中文电视播出平台<br><br>
-                            <span class="trans"><span class="sans">2016</span> - </span><span class="sans">5</span>月，<span class="sans">iTalkBB</span>与海信集团在智能电视技术领域，中
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文电视内容，电视终端销售战略等多层面达成正式
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;合作 <br><br>
-                            <span class="trans"><span class="sans">2016</span> - </span><span class="sans">7</span>月，<span class="sans">iTalkBB</span>全新中文名称"蜻蜓"和<span class="sans"Logo></span>正式揭晓 <br><br>
-                            <span class="trans"><span class="sans">2016</span> - </span><span class="sans">10</span>月，<span class="sans">iTalkBB</span>蜻蜓正式与<span class="sans">NBA</span>布鲁克林篮网队
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="sans">(Brooklyn Nets)</span> 签约，成为其球队第一家为海外华
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人服务的电信企业官方合作伙伴 <br><br>
-
-                            <span class="sans">2017</span> - <span class="sans">1</span>月，<span class="sans">iTalk Global Communication, Inc.</span>成功收购
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="sans">iTalkBB Media, Inc.</span>，完善<span class="sans">iTalkBB</span>蜻蜓中文电视产
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品盈利模式 <br><br>
-                            <span class="trans"><span class="sans">2017</span> - </span><span class="sans">3</span>月，<span class="sans">iTalkBB</span>蜻蜓移动业务在美国启动 <br><br>
-                            <span class="trans"><span class="sans">2017</span> - </span><span class="sans">6</span>月，<span class="sans">iTalkBB</span>蜻蜓获得《逆时营救》、《侠盗联
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;盟》、《闺蜜<span class="sans">2</span>》最新华语电影在北美独家版权，
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="sans">iTalkBB</span>蜻蜓电视内容全面升级 <br><br>
-                        </p>
-                    </div> -->
-
-
                 </div>
             </section>
-        </div>
+
     </div>
     
     <div class="lineBlue"></div>

@@ -2,6 +2,7 @@
 .bannerAll{background: url(../images/about/companyBannerBg.jpg) no-repeat; background-size: 100%;}
 /* bannerAll end */
 .aboutCompanyContent{margin-top: 2%;}
+.titleMgnBtm span{display: inline-block;}
 /*.aboutBanner{
     background:url("../../shared/images/about/companyBannerBg.jpg") top center no-repeat;
     background-size:cover;
@@ -37,15 +38,15 @@
     display:none;
 }
 .aboutTextTitle{
-    padding-top: 2%;
+   /* padding-top: 2%;
     color: #222222;
-    margin-bottom: 0;
+    margin-bottom: 0;*/
 }
 .aboutTextText{
-    color: #444344;
     padding-bottom: 1%;
     padding-top:1%;
     margin-bottom: 0;
+	line-height: 1.5;
 }
 @keyframes rot {
     0%   { transform: rotate(0deg); }
@@ -653,7 +654,7 @@ table.templateText td{
     .bannerAll{background: url(../images/about/mCompanyBannerBg.jpg) no-repeat; background-size: 100%;}
 	/* bannerAll end */
 	
-	.aboutCompanyContent{padding: 0 5%; margin-top: 3%;}
+	.aboutCompanyContent{padding: 0 5%; margin-top: 7%;}
     .aboutSectionTab1 {
         margin-left: 5%;
     }
@@ -661,7 +662,7 @@ table.templateText td{
         width: 29.5%;
         margin-right: 0;
     }
-    .aboutTextText {
+   .aboutTextText {
         padding-bottom: 2%;
         padding-top: 2%;
         line-height: 1.5;
@@ -820,7 +821,7 @@ table.templateText td{
         margin-top:15%;
     }
     .aboutTextTitle {
-        padding-top: 10%;
+        /*padding-top: 10%;*/
     }
     .aboutTextText{
         padding-top:3%;
