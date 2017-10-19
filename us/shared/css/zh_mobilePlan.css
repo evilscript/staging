@@ -305,7 +305,7 @@ ul.listNom li{list-style-type:decimal;}
     padding-left: 5%;
     background-position-y: 43%;
 }
-.mobileDisclaimer{margin-top: 4%; margin-bottom: 4%;}
+.mobileDisclaimer{margin-top: 4%; margin-bottom: 4%; color: #888;}
 
 @media (max-width:1000px) and (min-width:768px){
     .bannerAll{
