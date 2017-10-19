@@ -27,6 +27,7 @@ img[usemap], map area{ outline: none;}
 input:focus{ outline:none;}
 .org{color:#ff972f;}
 .bl{color:#327fe8;}
+.black {color: #222;}
 .scroll{height:auto!important;}
 .w100{width:100%;}
 /*Initialization settings end*/ 
