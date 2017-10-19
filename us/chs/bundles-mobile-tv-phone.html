@@ -798,29 +798,8 @@
                        </a>
       	  	   	    </div>
       	  	   	    
-      	  	   	    <!-- reservation number from begin -->
-       	  	     <div class="planForm">
-                    <div id="reservationNom" class="reveal-modal reveal-modal2">
-                       <div class="nomberCon">
-                       <!--CheckPhoneNumberA--> 
-                       <div id="CheckPhoneNumberA" class="content_search_box_tel_none text18 mText26">
-					      <p>很抱歉，电话号码不能为空！</p>
-                          <p><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">请输入您的电话号码</span></a></p>
-                       </div>
-                       <!--可以转显示下面的 CheckPhoneNumberB--> 
-                       <div id="CheckPhoneNumberB" class="content_search_box_tel_none">
-					      <p class="text18 mText26">恭喜！您现有的电话号码可以被保留！</p>
-                          <p class="text18 mText26"><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">试试另一个号码</span></a> ; <!--回到检查号码是否可以转的页面--><a href="../chs/bundles-mobile-tv-phone.html#planPoint" class="linkOrange"><span class="ccclose">看看有哪些计划</span></a><!--链接是多语言的，要替换enu为chs和chs--></p>
-                       </div>
-                       <!--不能转显示下面的 CheckPhoneNumberC-->
-                       <div id="CheckPhoneNumberC" class="content_search_box_tel_none">
-					      <p class="text18 mText26">很遗憾，您现有的电话号码不能被保留。选一个新号码吧！</p> 
-                          <p  class="text18 mText26"><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">试试另一个号码</span></a><!--回到检查号码是否可以转的页面--> ; <a href="https://www2.iTalkBB.com/USBBSignup/US_zh-CHS.aspx" target="_blank" class="linkOrange"> <span>选择计划和一个新号码</span></a><!--根据语言参数显示3个语言的注册链接--></p>
-					   </div>
-                      <a class="close-reveal-modal ccclose" style="text-decoration:none">&#215;</a>
-                      </div>																												
-                   </div>                                   
-                </div>
+      	  	   	<!-- reservation number from begin -->
+      	  	   	<div id="homePhoneNumber"></div>       	  	     
                 <!-- reservation number from end -->      	  	   	    
 	   	        </div>
 	   	        <div class="iconsBox iconsSpace hideM">&nbsp;</div>
@@ -868,8 +847,9 @@
   <div class="lineBlue"></div>
   <div id="footer"></div>
     <script>
-	   $('#header').load('header.html');
+	   $('#header').load('header.html');	   
 	   $('#bundlesBanner').load('bundlesBanner.html');
+	   $('#homePhoneNumber').load('homePhoneNumber.html');
        $('#footer').load('footer.html');
     </script>
   
