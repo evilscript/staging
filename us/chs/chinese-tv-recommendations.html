@@ -72,9 +72,10 @@
 
     .wei{color: white;position: absolute;left: 10.41%;top: 10%;z-index: 99}
     .videom{display: none}
-    .next, .up {position: absolute;line-height: 1;top: 43%;cursor: pointer;width: 3%;z-index: 999}
+    .next, .up {position: absolute;line-height: 1;top: 43%;cursor: pointer;width: 3%;z-index: 999;display: none}
     .up{left: 90%}
     .next{left: 5%}
+    .next1{  position: absolute;line-height: 1;top: 43%;cursor: pointer;width: 3%;z-index: 999;display: none}
 
 
     .bannerAll1{background: url(../shared/images/tv/video.jpg) no-repeat; background-size: 100%;height: 36.4vw}
@@ -214,6 +215,7 @@
                     <div class="img"><img class="imgc" src="../shared/images/tv/pc3.jpg"/><img class="imgm" src="../shared/images/tv/pm3.jpg"/><div class="black"></div></div>
                     <div class="img"><img class="imgc" src="../shared/images/tv/pc4.jpg"/><img class="imgm" src="../shared/images/tv/pm4.jpg"/><div class="black"></div></div>
                     <div class="img dy30"><img class="imgc" src="../shared/images/tv/pc5.jpg"/><img class="imgm" src="../shared/images/tv/pm5.jpg"/><div class="black"></div></div>
+                    <div class="next1"><img style="width:100%" src="../shared/images/bb/mSwiperPrev.png" alt=""></div>
 
                 </div>
             </div>
@@ -239,6 +241,16 @@
         </script>
 </body>
 <script>
+
+$('.look1').mouseover(function(){
+    $('.next,.up').css('display','block')
+})
+
+$('.look1').mouseout(function(){
+    $('.next,.up').css('display','none')
+})
+
+
 
 var touch = true;           //touch=true为开启触摸滑动
 var slideNub;               //轮播图片数量
@@ -321,11 +333,11 @@ $(function(){
 })
 
 $('.up').click(function(){
-    left();
+    right();
 })
 
 $('.next').click(function(){
-    right();
+    left();
 })
 
 //右滑动
@@ -406,6 +418,14 @@ function k_touch() {
 </script>
 
 <script>
+
+$('.look2').mouseover(function(){
+    $('.next1').css('display','block')
+})
+
+$('.look2').mouseout(function(){
+    $('.next1').css('display','none')
+})
     
 var touch2 = true;           //touch=true为开启触摸滑动
 var slideNub2;               //轮播图片数量
@@ -477,6 +497,10 @@ $(function(){
     }
 
     imgClickFy2();
+})
+
+$('.next1').click(function(){
+    left2();
 })
 
 
