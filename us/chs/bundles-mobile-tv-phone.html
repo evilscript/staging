@@ -29,10 +29,10 @@
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
     <script src="../shared/js/bundlesBBTVMplanPriceDisplay.js"></script>
-	<!-- 电话查询 -->
     <script src="../shared/js/italkbb.tools.js"></script>
     <script src="../shared/js/colorbox.js"></script>
     <style>
+  #CheckPhoneNumberA{display: block;}
   .content_search_box_tel_none{display: none}
   .input_small{text-align: center;}
 @media (min-width:768px) and (max-width:1000px){ 
@@ -802,6 +802,11 @@
        	  	     <div class="planForm">
                     <div id="reservationNom" class="reveal-modal reveal-modal2">
                        <div class="nomberCon">
+                       <!--CheckPhoneNumberA--> 
+                       <div id="CheckPhoneNumberA" class="content_search_box_tel_none text18 mText26">
+					      <p>很抱歉，电话号码不能为空！</p>
+                          <p><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">请输入您的电话号码</span></a></p>
+                       </div>
                        <!--可以转显示下面的 CheckPhoneNumberB--> 
                        <div id="CheckPhoneNumberB" class="content_search_box_tel_none">
 					      <p class="text18 mText26">恭喜！您现有的电话号码可以被保留！</p>
