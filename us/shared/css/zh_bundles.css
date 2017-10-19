@@ -18,6 +18,9 @@
 /* bundles banner end*/
 
 /*plan begin*/
+ul.listNom{padding-left: 1%;}
+ul.listNom li{list-style-type:decimal;}
+.bdDisclaimer{margin-top: 5%; color: #888;}
 .left{float: left;}
 .right{float: right;}
 .titleMgnBtm,.bundlesBox,.bundlesBoxOther,.bbTryout,.bbApp,.otherFuncBox{text-align: center;}
@@ -204,7 +207,9 @@ ul.bundlesCon li.double{width: 100%;}
 	.sptHot{border-top: 1px solid #dedede; padding: 4.6% 0 3.8% 4%; width: 100%;}
 	/* bundles banner end*/
 
-    /*plan begin*/	
+    /*plan begin*/
+	ul.listNom{padding-left: 2%;}
+	.bdDisclaimer{margin-top: 4.5%; padding: 0 5%;}
 	.bundlesBox,.bundlesBoxOther{padding: 0 5%;} 
 	.bundlesBoxOther{margin-top: 6%;}
     .titleBox{padding: 0 12%;}
@@ -266,6 +271,8 @@ ul.bundlesCon li.double{width: 100%;}
 	/* bundles banner end*/
 	
     /*plan begin*/
+	ul.listNom{padding-left: 4%;}
+	.bdDisclaimer{margin-top: 10.5%; padding: 0 5%;}
 	.bbTryout,.bbApp,.otherFuncBox{text-align: left;}
 	.bundlesBox,.bundlesBoxOther{padding: 0;}
 	.bundlesBoxOther{margin-top:7%;}
