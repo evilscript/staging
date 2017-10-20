@@ -20,7 +20,7 @@
 /*plan begin*/
 ul.listNom{padding-left: 1%;}
 ul.listNom li{list-style-type:decimal;}
-.bdDisclaimer{margin-top: 5%; color: #888;}
+.bdDisclaimer{margin-top: 5%;}
 .left{float: left;}
 .right{float: right;}
 .titleMgnBtm,.bundlesBox,.bundlesBoxOther,.bbTryout,.bbApp,.otherFuncBox{text-align: center;}
