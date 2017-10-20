@@ -17,7 +17,7 @@
 
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../shared/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_about.css">    
 
@@ -34,21 +34,34 @@
 
 
 <body ng-app="aboutNewsApp" ng-controller="aboutNewsController" style="background:white;">
-    <!--Carson制作-->
-    <div id="header"></div>    <script>        $('#header').load('header.html');    </script>
+<!--Carson制作-->
+   <div id="header"></div>    
+    <script>        
+	$('#header').load('header.html');    
+	</script>
 
-    <div class="container1920">
-        <div class="mainLayout">
-            <div id="aboutNewsBanner"></div>
+   <div class="mainLayout">
+      <div id="aboutNewsBanner"></div>
             <script>
                 $('#aboutNewsBanner').load('aboutNewsBanner.html')
             </script>
 
-            <!--关于我们系列页面 tab 公共部分，每页的active不同-->
-            <div ng-include="'aboutTab.html'"></div>
-            <!--结束-->
+      <!--menu begin-->
+      <section class="mainMgnTop">
+         <div class="mainMgn200">
+        	<div class="lineOrange"></div>       	        	 
+        	<div class="menuCon">
+        	<div class="menuBox menuBox3 clearfix">
+			<a href="company-profile.html"><p class="menuBtn title24 mTitle32 use">公司简介</p></a>
+			<a href="iTalkBB-news.html"><p class="menuBtn title24 mTitle32 fault selected">蜻蜓新闻</p></a>
+			<a href="iTalkBB-videos.html"><p class="menuBtn title24 mTitle32">蜻蜓视频</p></a>
+			</div>	
+			</div>
+	     </div>           	      	
+      </section>
+      <!--menu end-->
 
-            <div class="container1520">
+      <div class="mainMgn200">
                 <div class="newsContentBlock">
                     <div class="yearContainer">
                         <div class="yearSelect">
@@ -1832,7 +1845,7 @@
 
                 </div>
             </div>
-        </div>
+
     </div>
     
     <div class="lineBlue mt0"></div>
