@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy,Carson 
   Create Date:2017-07-27 
-  Update Date:2017-10-19
+  Update Date:2017-10-20
   Desc : Support Common CSS */  
  
 /*Initialization settings begin*/ 
@@ -10,6 +10,12 @@ body {font-family: 微软雅黑, sans-serif; background-color: #fff; color: #222
 ul,ol,li{list-style-type:none;}
 input[type="text"]{-webkit-appearance: none;}
 textarea{-webkit-appearance: none;}
+img{border:none; display:block;}
+img[usemap], map area{ outline: none;}
+.trans{opacity:0;}
+.opacity {filter: alpha(opacity=75); -moz-opacity: .75; -khtml-opacity: .75; opacity: .75;}
+input:focus{ outline:none;}
+.scroll{height:auto!important;}
 /* Clear Fix */  
 .clearfix::before,.clearfix::after { display: table;line-height: 0; content:"";}
 .clearfix::after{clear:both;}
@@ -20,16 +26,10 @@ a, a:hover, a:focus{ text-decoration:none;}
 a.linkOrange, a.linkOrange:hover, a.linkOrange:focus{color: #ff7f00;} 
 a.linkOrange:hover, a.linkOrange:focus{text-decoration: underline;} 
 a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;} 
-img{border:none; display:block;}
-img[usemap], map area{ outline: none;}
-.trans{opacity:0;}
-.opacity {filter: alpha(opacity=75); -moz-opacity: .75; -khtml-opacity: .75; opacity: .75;}
-input:focus{ outline:none;}
 .org{color:#ff972f;}
 .bl{color:#327fe8;}
 .black {color: #222;}
-.scroll{height:auto!important;}
-.w100{width:100%;}
+.gray{color: #888;}
 /*Initialization settings end*/ 
 
 /* mainLayout begin */
@@ -83,7 +83,7 @@ input:focus{ outline:none;}
 /*字体部分*/
 .fwb{font-weight: 700;}
 
-/*@font-face {
+@font-face {
     font-family: 'pingfang';
     src: url('../fonts/pingfang/PingFang-Regular.woff') format('woff'),
          url('../fonts/pingfang/PingFang-Regular.ttf') format('truetype');
@@ -103,7 +103,7 @@ input:focus{ outline:none;}
          url('../fonts/pingfang/PingFang-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-}*/
+}
 
 @font-face {
     font-family: 'avenir';
@@ -122,7 +122,7 @@ input:focus{ outline:none;}
 }
 .avenir{font-family: 'avenir', Arial, sans-serif;}
 .sans{font-family: 'open sans', Arial, sans-serif;}
-/*.pin{font-family: 'pingfang', 微软雅黑, sans-serif;}*/
+.pin{font-family: 'pingfang', 微软雅黑, sans-serif;}
 /*字体部分结束*/
 
 /* fontSize start */
