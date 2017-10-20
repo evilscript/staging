@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../shared/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_about.css">
-    <link rel="stylesheet" href="../shared/css/social-share-in-news-template.css">
+
     <style>
         .pin{font-family: open sans, pingfang, sans-serif;}
     </style>
@@ -32,6 +32,10 @@
     <script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
     <script src="../shared/js/aboutNews.js"></script>
+    <!-- 分享 -->
+    <link rel="stylesheet" href="../shared/css/share.min.css">
+    <script src="../shared/js/jquery-1.7.2.min.js"></script>  
+    <script src="../shared/js/jquery.share.min.js"></script> 
 </head>
 
 
@@ -56,9 +60,9 @@
                 </div>
                 <div class="templateTextLeft">
                     <div class="shareLeft">
-                        <div id="aboutShareDiv"></div>
+                        <div id="share-2"></div>
                         <script>
-                            $('#aboutShareDiv').load('aboutShareDiv.html')
+                            $('#share-2').share({sites: ['facebook','twitter', 'weibo','wechat','google','linkedin']});
                         </script>
                     </div>
                     <div class="shareRight">
@@ -125,4 +129,5 @@
     
     <div id="footer"></div>    <script>        $('#footer').load('footer.html');    </script>
 </body>
+
 </html>
