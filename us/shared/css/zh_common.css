@@ -346,8 +346,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .footerTitle{padding-bottom: 2.5%;}
 .footerText{padding-bottom: 1%;}
 .footerText:hover{color: #ff7f00;}
-.disclaimer {
-    font-size: 12px;
+.disclaimer {  
     color: #d4d4d4;
     padding-top: 0;
     padding-bottom: 1%;
@@ -586,9 +585,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     border-bottom:none;
 }
 .footerSitemap .footerTitle,
-.footerSitemap .footerText{
-    color:black;
-}
+.footerSitemap .footerText{color: #222;}
 .footerSitemap .footerText:hover {
     color: #ff7f00;
 }
@@ -648,7 +645,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     padding-top:10%;
 }
 .bgText{
-    font-weight: 300;
     line-height: 1.8;
 }
 .bgText a{
@@ -667,11 +663,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     margin-left: 47%;
     margin-top: 0%;
 }
-
-
-
-
-
 
 
 @media (max-width:1700px){
@@ -716,9 +707,9 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	/* fontSize end */
 	
     
-    .bgTitle {
+    /*.bgTitle {
         font-size: 20px;
-    }
+    }*/
     .hotText{
         font-size:14px;
     }
@@ -770,9 +761,9 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .menu2Block, .menu3Block, .menu1Block, .menu5Block, .menu4Block{
         font-size:14px;
     }
-    .bgTitle {
+    /*.bgTitle {
         font-size: 17px;
-    }
+    }*/
 }
 
 
@@ -876,9 +867,9 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .menu2Block, .menu3Block, .menu1Block, .menu5Block, .menu4Block {
         font-size: 1vw;
     }
-    .bgTitle {
+    /*.bgTitle {
         font-size: 1.3vw;
-    }
+    }*/
 }
 @media  (min-width:1001px){
     .mainMgn320{margin: 0 auto;width: 66.7%;}
@@ -954,9 +945,9 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .sitemapText {
         width: 70%;
     }
-    .bgTitle {
+    /*.bgTitle {
         font-size: 1.5vw;
-    }
+    }*/
     .footer1 {
         padding-left: 0;
         padding-right: 0;
@@ -1103,9 +1094,9 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .headerBackToTop {
         display:none!important;
     }
-    .bgTitle{
+    /*.bgTitle{
         font-size:1.4vw;
-    }
+    }*/
     .orangeBandHeader{
         background:#ff7f00;
         height:1.5vw;
@@ -1203,9 +1194,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
         padding-left: 12%;
     }
     .disclaimer {
-        font-size: 3vw;
-        text-align: center;
-        color: #d4d4d4;
         padding-top: 1%;
         padding-bottom: 20%;
     }
