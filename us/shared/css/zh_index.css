@@ -23,6 +23,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
         text-align:left!important;
     }
 }
+.contactBox{padding-bottom: 4.5%;}
 .overlayLayer{
     position: absolute;
     max-width: 12%;
@@ -487,7 +488,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
 }
 .contactTitle {
     text-align: center;
-    padding-top: 4%;
+    padding-top: 4.5%;
 }
 .contactSubTitle{
     text-align:center;
@@ -531,11 +532,12 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom:0;
 }
 .social1,.social2,.social3,.social4{cursor:pointer;}
+
 .subscribeTitle {
     margin-left: 5%;
     margin-right: 5%;
     border-top: 1px solid #cfcfcf;
-    margin-top: 3%;
+    /*margin-top: 3%;*/
 }
 .subscribeSubTitle{
     padding-bottom:2%;
