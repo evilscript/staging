@@ -134,7 +134,8 @@ ul.bundlesCon li.double{width: 100%;}
 .bundlesText{height: 40.6vw; margin-bottom: 1%;}
 .bundlesTV .bundlesText{background: url(../images/bundles/bundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 6vw;}
 .bundlesBB .bundlesText{background: url(../images/bundles/bundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 7vw;}
-.bundlesMobile .bundlesText{background: url(../images/bundles/bundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 7vw;}
+.bundlesMobile .bundlesText{height: 42vw; background: url(../images/bundles/bundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 7.5vw;}
+.dataSources{color: #fff; position: absolute; right: 10%; margin-top: 30vw;}
 .iconsBox{float: left; width: 30%; text-align: left;}
 .iconsSpace{width: 5%;}
 .iconsTitle{padding: 0 5.2%; padding-top: 39%; margin-bottom: 4%;text-align: center;}
@@ -211,7 +212,7 @@ ul.bundlesCon li.double{width: 100%;}
 	ul.listNom{padding-left: 2%;}
 	.bdDisclaimer{margin-top: 4.5%; padding: 0 5%;}
 	.bundlesBox,.bundlesBoxOther{padding: 0 5%;} 
-	.bundlesBoxOther{margin-top: 6%;}
+	.bundlesBoxOther{margin-top: 6%;}	
     .titleBox{padding: 0 12%;}
 	.titleBox p{padding:8% 0% 2% 18%; margin-bottom:-19%; background-size: 16%; background-position-x: 5%;background-position-y: 20%;}
 	.titleBox3{padding: 0 35%;}
@@ -245,6 +246,7 @@ ul.bundlesCon li.double{width: 100%;}
 	.bundlesTV .bundlesText{background-size: 100%; background-position-y: 10vw;}
     .bundlesBB .bundlesText{background-size: 100%; background-position-y: 11vw;}
 	.bundlesMobile .bundlesText{height: 47vw; background-size: 100%; background-position-y: 11.7vw;}
+	.dataSources{right: 5%; margin-top: 29.2vw;}
 	.iconsCon{padding: 0 5%;}
 	.iconsList p{padding-left: 9%; background-size: 6%; background-position-y: .32vw;}
 	.iconsCon2 .iconsList p{padding-left: 6%; background-size: 4%; background-position-y: .26vw;}
@@ -314,7 +316,8 @@ ul.bundlesCon li.double{width: 100%;}
 	.bundlesTV .iconsCon{margin-top: -5%;}
     .bundlesTV .bundlesText{height: 67vw; background: url(../images/bundles/mBundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 22vw;}
     .bundlesBB .bundlesText{height: 72vw; background: url(../images/bundles/mBundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 24vw;}
-	.bundlesMobile .bundlesText{height: 125vw; background: url(../images/bundles/mBundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 21vw;}
+	.bundlesMobile .bundlesText{height: 189vw; background: url(../images/bundles/mBundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 24vw;}
+	.dataSources{right: 6%; margin-top: 155vw;}
 	
 	.iconsCon{padding: 0 10%;}
 	.iconsBox{float: none; width: 100%; padding-top: 11%;}
