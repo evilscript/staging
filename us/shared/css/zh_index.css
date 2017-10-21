@@ -23,7 +23,6 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
         text-align:left!important;
     }
 }
-.contactBox{padding-bottom: 4.5%;}
 .overlayLayer{
     position: absolute;
     max-width: 12%;
@@ -486,10 +485,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
 .s5Title{
     padding-top:15%;
 }
-.contactTitle {
-    text-align: center;
-    padding-top: 4.5%;
-}
+.contactTitle{text-align: center; padding-top: 4.5%;}
 .contactSubTitle{
     text-align:center;
     padding-top:0;
@@ -533,9 +529,10 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
 }
 .social1,.social2,.social3,.social4{cursor:pointer;}
 
-.subscribeTitle {
+.contactTitle2 {
     margin-left: 5%;
     margin-right: 5%;
+	margin-top: 4.5%;
     border-top: 1px solid #cfcfcf;
     /*margin-top: 3%;*/
 }
@@ -813,10 +810,8 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     .knowMoreText5 p{
         margin-bottom:20%;
     }
-    .contactTitle, .subscribeTitle {
-        padding-top: 5%;
-        margin-bottom: 0;
-    }
+    .contactTitle{padding-top: 6%;}
+	.contactTitle2{margin-top: 6%;}
     .s5Left {
         float: left;
         width: 30%;
@@ -1118,9 +1113,8 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
         background-size: cover;
         margin-top: 0;
     }
-    .contactTitle, .subscribeTitle {
-        margin-top:3%;
-    }
+    .contactTitle{padding-top: 10%;}
+	.contactTitle2{margin-top: 10%;}
     .bandLeftS4 {
         width: 62%;
         float: left;
@@ -1205,9 +1199,6 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     }
     .social1 {
         margin-left: 18%;
-    }
-    .subscribeTitle{
-        padding-top:5%;
     }
     #myCarouseM{
         padding-top:18%;
