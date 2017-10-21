@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>iTalkBB-Carrer</title>
 	<meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="copyright" content="">
@@ -27,18 +27,22 @@
 	<script src="../shared/js/imageMapResizer.js"></script>
     <script src="../shared/js/common.js"></script>
     <style>
-		body{background-color:#f6f6f6 }
+		body{}
 		a{color: black;}
 
 
-		.boss{width: 85%;margin: 0 auto}
-		.tit{margin-left: 1.5%}
+		.boss{width: 84%;margin: 0 auto}
+		.tit{margin-left: 2.5%}
 		.lv1{display: inline-block;width: 25%}
+        .titchose{margin-top: 1%}
 		ul,li{padding: 0px}
 		.menu{width: 33%;}
 		.menu li{line-height: 1;margin-top: 1.5%}
 		.menu2x{margin-left: 1.5%;margin-top: 2%}
 		.lv1{width: 25%;text-align: center;border-right:2px solid black }
+        .lv1:hover{color: #ff7f00}
+        .org{color: #ff7f00}
+        .sg{border-right:none }
 		.lv2{width: 37%; }
 		.subNav{margin:1.5%;padding: 1%;}
 		.lvb,.lvc,.lvd{display: none}
@@ -56,8 +60,63 @@
 		.subNav:hover{background:#ff7f00 }
 		.navContent{margin-left: 6%}
 		.navContent a:hover{color:#ff7f00  }
-		.mainMgnTop{background:url(../shared/images/ceer/Careerbg.png) no-repeat scroll bottom;background-size:100%;}
+        .mbg{display: none}
+		.mainMgnTop{background:url(../shared/images/carrer/Careerbg.png) no-repeat scroll bottom;background-size:100%;padding-bottom: 1%;height: 40vw}
 
+        .icons{width: 8.5%;display: inline-block;vertical-align: top;text-align: center;margin-right: 5%}
+        .icons img{width: 100%}
+        .icontxt{margin-top: 15%}
+        .icon{margin-top: 3%}
+        .titicon{margin-top: 3.5%}
+        .left,.right{width: 50%;display: inline-block;vertical-align: top}
+        .right img{margin-left: 10%;width: 108%;}
+        .bottomstit{text-align: center;margin-top: 2.5%}
+        .tit{line-height: 1.3}
+        .vod{margin-top: 15%}
+        .logos{margin-top: 2%;}
+        .logos div{display: inline-block;width: 4.5%;margin:0 0.5%;cursor: pointer;}
+        .logos div img{width: 100%}
+
+   @media  (min-width:768px) and (max-width:1000px){
+     .boss{width: 90%}
+     .tit{margin-left: 1.5%}
+     .mainMgnTop{height: 65vw}
+     .icons{width: 13%;margin-right: 2%}
+     .right img{margin-left: 5%}
+     .menu{width: 60%}
+     .us{margin-left: -5%}
+     .lvb{margin-left: 16%}
+     .lvc{margin-left: 32%}
+     .lvd{margin-left: 47%}
+
+}
+
+   @media  (max-width:767px){
+     .boss{width: 100%}
+     .tit{margin-left: 5%;margin-right: 5%}
+     .menu{width: 100%}
+     .lv1{background: #555555;border-right-color:white;color: white }
+     .mainMgnTop{background: none;height: 110vw}
+     .lv2{width: 95%}
+     .lv1:hover{color:white;background:#ff7f00 }
+     .lva,.lvb,.lvc,.lvd{margin-left: 1.5%}
+     .mbg{display: block}
+     .mbg img{width: 100%}
+     .tit1 span{color: #ff7f00 }
+     .icons{display: block;width: 100%;margin-top: 3%}
+     .icons img{width: 15%;display: inline-block;}
+     .icontxt{width: 80%;display: inline-block;text-align: left;font-weight: 500;vertical-align: middle;margin-top: 0px;margin-left: 3%}
+     .titicon{margin-top:10% }
+     .left,.right{display: block;width: 100%}
+     .right{display: none}
+     .titvod{margin-left: 0;margin-right: 0}
+     .share{margin-top:12% }
+     .logos div{width: 12%;margin:0 3%;}
+     .logos{margin-top: 8%}
+     .org{color: white;background:#ff7f00 }
+
+
+}
 
 
 
@@ -73,12 +132,12 @@
         </script>
         <div class="clear clearfix"></div>
 
-        <section class="mainMgnTop">
+        <section class="mainMgnTop mainLayout">
     	     <div class="boss">
     	     	<div class="tit title42 mTitle50 fwb">Apply Here!</div>
     	     	<div class="titchose">
     	     	<ul class="menu title42 mTitle50">
-    	     		<li class="lv1 us">US</li><li class="lv1 ca">CA</li><li class="lv1 au">AU</li><li class="lv1 sg">SG</li>	
+    	     		<li class="lv1 us org">US</li><li class="lv1 ca">CA</li><li class="lv1 au">AU</li><li class="lv1 sg">SG</li>	
     	     	</ul>
     	     	<ul class="menu2x">
     	     		<li class="lv2 lva ">
@@ -154,20 +213,104 @@
 
     	     	</div>
     	     </div>
-       </section class='icon'>
+       </section>
+    <section class='mbg'>
+           <img src="../shared/images/carrer/mCareerbg.jpg" alt="">
+       </section>
+    <section class='icon'>
+
+            <div class="boss">
 				<div class="tit ">
-					<p class="title42 mTitle50">This is the place where you Shine</p>
+					<p class="title42 mTitle68 tit1">This is the place where you <span>Shine</span></p>
 					<p class="text18 mText26">At iTalk Global Communications, Inc., we look for great people who want to create better lives for oversea Chinese, to connect them with the people they love, and to enrich them with entertainments they adore. Join us and we have you covered with generous benefits, supportive culture and performance based rewards! Come make a life with us, the brightest minds and the most meaningful career. </p>
 					<p class="text18 mText26">Together, we make a difference!</p>
 				</div>
-       <section>
+                <div class="tit titicon">
+                   <div class="icons">   
+                        <img src="../shared/images/carrer/Careericon2.png" alt="">
+                        <div class="text16 mText26 fwb icontxt">15 PTO days & 10 paidholidays</div>
+                    </div>
+                    <div class="icons">   
+                        <img src="../shared/images/carrer/Careericon1.png" alt="">
+                        <div class="text16 mText26 fwb icontxt">Full coverage for medical, dental, & vision insurance</div>
+                    </div>
+                    <div class="icons">   
+                        <img src="../shared/images/carrer/Careericon3.png" alt="">
+                        <div class="text16 mText26 fwb icontxt">Competitive salaries</div>
+                    </div>
+                    <div class="icons">   
+                        <img src="../shared/images/carrer/Careericon4.png" alt="">
+                        <div class="text16 mText26 fwb icontxt">Company sponsored term life insurance</div>
+                    </div>
+                    <div class="icons">   
+                        <img src="../shared/images/carrer/Careericon5.png" alt="">
+                        <div class="text16 mText26 fwb icontxt">401k & flexible spending accounts</div>
+                    </div>
+                    <div class="icons">   
+                        <img src="../shared/images/carrer/Careericon6.png" alt="">
+                        <div class="text16 mText26 fwb icontxt">Company cell phone plan</div>
+                    </div>
+                </div>
+            </div>
+
        	
 
+       </section>
+       <section class='videos'>
+
+            <div class="boss">
+                <div class="tit titvod">
+                    <div class="left">
+                        <div class="vod">
+                            <video width="100%"  height="100%" controls="">
+                                <source src="http://www.italkbb.com/BB/0_mail/images/ITALK_TVC_FINAL~1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div><div class="right">
+                        <img src="../shared/images/carrer/Careerus.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+       </section>
+       <section class='share'>
+        <div class="boss">
+            <div class="tit">
+               <div class="sharetit title34 mTitle42 fwb">Follow us on LinkedIn</div>
+               <div class="logos">
+                    <div class="logo1">
+                        <img src="../shared/images/index/iconWechat.png" alt="">
+                    </div>
+<!--                     <div class="logo2">
+                        <a href="http://weibo.com/p/1006065041497758/home?from=page_100606&mod=TAB&is_all=1#place" target="_blank">
+                            <img src="../shared/images/index/iconWeibo.png" alt="">
+                        </a>
+                    </div> -->
+<!--                     <div class="logo3">
+                        <a href="https://www.facebook.com/iTalkBBqingting/" target="_blank">
+                            <img src="../shared/images/index/iconFacebook.png" alt="">
+                        </a>
+                    </div> -->
+                    <div class="logo4">
+                        <a href="https://www.youtube.com/channel/UCGCxNSstqeecxd4unpObkNg" target="_blank">
+                            <img src="../shared/images/index/iconGoogle.png" alt="">
+                        </a>
+                    </div>
+                    <div class="logo5">
+                        <a href="https://www.linkedin.com/company/italk-global-communications" target="_blank">
+                            <img src="../shared/images/index/iconLinkedin.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
        </section>
 
 
 
         <div class="clear clearfix"></div>
+        <div class="lineBlue"></div>
 		<div id="footer"></div>
          <script>
             $('#footer').load('footer.html');
@@ -181,6 +324,11 @@
 	// $('.subNavx').mouseout(function(){
 	// 	$(this).removeClass('bgc').children().removeClass('wt');
 	// })
+    // 
+   $('.lv1').click(function(){
+        $('.menu').children().removeClass('org')
+        $(this).addClass('org')
+    }) 
 
 	$('.us').click(function(){
 		$('.menu2x').children().css('display','none')
@@ -211,6 +359,41 @@
 
 
 		})
+
+
+            $('.logo1').mouseover(function(){
+                $('.logo1 img').attr("src","../shared/images/index/iconWechatBlue.png");
+    }).mouseout (function(){
+                $('.logo1 img').attr("src","../shared/images/index/iconWechat.png");
+    });
+
+
+    $('.logo2').mouseover(function(){
+                $('.logo2 img').attr("src","../shared/images/index/iconWeiboBlue.png");
+    }).mouseout (function(){
+                $('.logo2 img').attr("src","../shared/images/index/iconWeibo.png");
+    });
+
+
+    $('.logo3').mouseover(function(){
+                $('.logo3 img').attr("src","../shared/images/index/iconFacebookBlue.png");
+    }).mouseout (function(){
+                $('.logo3 img').attr("src","../shared/images/index/iconFacebook.png");
+    });
+
+
+
+    $('.logo4').mouseover(function(){
+                $('.logo4 img').attr("src","../shared/images/index/iconGoogleBlue.png");
+    }).mouseout (function(){
+                $('.logo4 img').attr("src","../shared/images/index/iconGoogle.png");
+    });
+
+        $('.logo5').mouseover(function(){
+            $('.logo5 img').attr("src","../shared/images/index/iconLinkedinBlue.png");
+        }).mouseout (function(){
+            $('.logo5 img').attr("src","../shared/images/index/iconLinkedin.png");
+        });
 
 
 </script>
