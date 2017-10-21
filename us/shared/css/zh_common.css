@@ -1002,7 +1002,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
         padding-top: 4%;
         padding-left: 10%;
         padding-bottom: 4%;
-        font-size: 2vw;
+        /*font-size: 2vw;*/
         font-weight: 500;
         transition: 0.5s;
         margin-bottom: 0;
@@ -1226,7 +1226,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
         padding-top: 8%;
         padding-left: 10%;
         padding-bottom: 8%;
-        font-size: 4vw;
+        /*font-size: 4vw;*/
         font-weight: 500;
         transition: 0.5s;
         margin-bottom:0;
@@ -1287,12 +1287,12 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
         padding-top: 2%;
     }
     .mobileHeaderBlank {
-        height: 5vw;
+        height: 10vw;
     }
     .mobileHeaderText, .mobileHeaderTextBack, .mobileHeaderText2 {
         padding-top: 2%;
         padding-bottom: 2%;
-        font-size: 2.2vw;
+        /*font-size: 2.2vw;*/
     }
     .sidenav .closebtn {
         top: 0;
