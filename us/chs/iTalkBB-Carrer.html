@@ -28,17 +28,17 @@
     <script src="../shared/js/common.js"></script>
     <style>
 		body{}
-		a{color: black;}
+		a{color: #222;}
 
 
-		.boss{width: 84%;margin: 0 auto}
-		.tit{margin-left: 2.5%}
+		.boss{width: 79.2%;margin: 0 auto}
+/*		.tit{margin-left: 2.5%}*/
 		.lv1{display: inline-block;width: 25%}
-        .titchose{margin-top: 1%}
+     
 		ul,li{padding: 0px}
 		.menu{width: 33%;}
 		.menu li{line-height: 1;margin-top: 1.5%}
-		.menu2x{margin-left: 1.5%;margin-top: 2%}
+		.menu2x{margin-top: 2%}
 		.lv1{width: 25%;text-align: center;border-right:2px solid black }
         .lv1:hover{color: #ff7f00}
         .org{color: #ff7f00}
@@ -46,27 +46,30 @@
 		.lv2{width: 37%; }
 		.subNav{margin:1.5%;padding: 1%;}
 		.lvb,.lvc,.lvd{display: none}
-		.lva{margin-left: 1.5%}
-		.lvb{margin-left: 10%}
-		.lvc{margin-left: 18%}
-		.lvd{margin-left: 26%}
+		.lva{margin-left: -0.5%}
+		.lvb{margin-left: 7.5%}
+		.lvc{margin-left: 15.5%}
+		.lvd{margin-left: 24%}
+        .us{margin-left: -7%}
 		.menu3x li:hover{cursor: pointer;}
 		.lv1:hover{cursor: pointer;}
 		.navContent{display: none}
 		.bg{background: transparent;}
-		.bgc{background:#ff7f00 }
+		.bgc{background:#ff7f00;color: white }
 		.bk{color: black}
 		.wt{color: white}
-		.subNav:hover{background:#ff7f00 }
-		.navContent{margin-left: 6%}
+		.subNav:hover{background:#ff7f00;color: white }
+		.navContent{margin-left: 3%}
 		.navContent a:hover{color:#ff7f00  }
         .mbg{display: none}
-		.mainMgnTop{background:url(../shared/images/carrer/careerBg.png) no-repeat scroll bottom;background-size:100%;padding-bottom: 1%;height: 40vw}
+		.mainMgnTop{background:url(../shared/images/carrer/careerBg.png) no-repeat scroll ;background-size:100%;padding-bottom: 1%;height: 30vw}
+        .titleMgnBtm span{display: inline}
+        
 
         .icons{width: 8.5%;display: inline-block;vertical-align: top;text-align: center;margin-right: 5%}
         .icons img{width: 100%}
         .icontxt{margin-top: 15%}
-        .icon{margin-top: 3%}
+        .icon{margin-top: 2%}
         .titicon{margin-top: 3.5%}
         .left,.right{width: 50%;display: inline-block;vertical-align: top}
         .right img{margin-left: 10%;width: 108%;}
@@ -80,14 +83,17 @@
    @media  (min-width:768px) and (max-width:1000px){
      .boss{width: 90%}
      .tit{margin-left: 1.5%}
-     .mainMgnTop{height: 65vw}
+     .mainMgnTop{height: 48vw;background-position: 0 75%}
      .icons{width: 13%;margin-right: 2%}
      .right img{margin-left: 5%}
      .menu{width: 60%}
-     .us{margin-left: -5%}
+     .us{margin-left: -6%}
+     .lva{margin-left: 1%}
      .lvb{margin-left: 16%}
-     .lvc{margin-left: 32%}
-     .lvd{margin-left: 47%}
+     .lvc{margin-left: 30%}
+     .lvd{margin-left: 46%}
+     .lv2{width: 45%}
+     
 
 }
 
@@ -96,7 +102,8 @@
      .tit{margin-left: 5%;margin-right: 5%}
      .menu{width: 100%}
      .lv1{background: #555555;border-right-color:white;color: white }
-     .mainMgnTop{background: none;height: 110vw}
+     .us{margin-left: 0%}
+     .mainMgnTop{background: none;height: 93vw}
      .lv2{width: 95%}
      .lv1:hover{color:white;background:#ff7f00 }
      .lva,.lvb,.lvc,.lvd{margin-left: 1.5%}
@@ -131,83 +138,83 @@
             $('#header').load('header.html');
         </script>
         <div class="clear clearfix"></div>
-
-        <section class="mainMgnTop mainLayout">
+        <section class='mainLayout'>
+        <section class="mainMgnTop">
     	     <div class="boss">
-    	     	<div class="tit title42 mTitle50 fwb">Apply Here!</div>
+    	     	<div class="tit title36 mTitle44 fwb titleMgnBtm">Apply Here!</div>
     	     	<div class="titchose">
-    	     	<ul class="menu title42 mTitle50">
+    	     	<ul class="menu title36 mTitle44">
     	     		<li class="lv1 us org">US</li><li class="lv1 ca">CA</li><li class="lv1 au">AU</li><li class="lv1 sg">SG</li>	
     	     	</ul>
     	     	<ul class="menu2x">
     	     		<li class="lv2 lva ">
-    	     			<ul class="title24 mTitle32 menu3x ">
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Accounting & Finance</a></li>
-    	     					<div class="navContent title20 mTitle28"><li ><a href="">Accountant (Chinese Mandarin Bilingual)</a></li></div>
+    	     			<ul class="title22 mTitle30 menu3x ">
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Accounting & Finance  &nbsp;&nbsp;&or;</li></a>
+    	     					<div class="navContent title20 mTitle28" href=""><a href="javascript:void(0)"><li >Accountant (Chinese Mandarin Bilingual)</li></a></div>
     	     					
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Computer & Technology</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Customer Experience & Call Center</a></li>
-    	     					<div class="navContent title20 mTitle28"><li ><a href="javascript:void(0)">Call Center Manager (Chinese Mandarin Bilingual)</a></li></div>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Computer & Technology</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Customer Experience & Call Center &nbsp;&nbsp;&or;</li></a>
+    	     					<div class="navContent title20 mTitle28"><li >Call Center Manager (Chinese Mandarin Bilingual)</a></li></div>
     	     					
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Legal</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Logistics & Warehouse</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Marketing & Branding</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Retail & Sales</a></li>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Legal</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Logistics & Warehouse</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Marketing & Branding</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Retail & Sales</li></a>
     	     			</ul>
     	     		</li>
     	     		<li class="lv2 lvb">
-    	     			<ul class="title24 mTitle32 menu3x ">
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Accounting & Finance</a></li>
+    	     			<ul class="title22 mTitle30 menu3x ">
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Accounting & Finance</li></a>
     	     					
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Computer & Technology</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Customer Experience & Call Center</a></li>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Computer & Technology</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Customer Experience & Call Center</li></a>
     	     					
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Legal</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Logistics & Warehouse</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Marketing & Branding</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Retail & Sales</a></li>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Legal</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Logistics & Warehouse</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Marketing & Branding</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Retail & Sales &nbsp;&nbsp;&or;</li></a>
     	     					<div class="navContent title20 mTitle28">
-    	     						<li ><a href="javascript:void(0)">Store Manager</a></li>
-    	     						<li ><a href="javascript:void(0)">Store Representative</a></li>
+    	     						<a href="javascript:void(0)"><li >Store Manager</li></a>
+    	     						<a href="javascript:void(0)"><li >Store Representative</li></a>
     	     					</div>
 
     	     			</ul>
     	     		</li>
     	     		<li class="lv2 lvc">
-    	     			<ul class="title24 mTitle32 menu3x ">
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Accounting & Finance</a></li>
-    	     					
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Computer & Technology</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Customer Experience & Call Center</a></li>
-    	     					
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Legal</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Logistics & Warehouse</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Marketing & Branding</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Retail & Sales</a></li>
-    	     					<div class="navContent title20 mTitle28">
-    	     						<li ><a href="javascript:void(0)">Store Manager</a></li>
-    	     						<li ><a href="javascript:void(0)">Store Representative</a></li>
-    	     					</div>
+                        <ul class="title22 mTitle30 menu3x ">
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Accounting & Finance</li></a>
+                                
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Computer & Technology</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Customer Experience & Call Center</li></a>
+                                
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Legal</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Logistics & Warehouse</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Marketing & Branding</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Retail & Sales &nbsp;&nbsp;&or;</li></a>
+                                <div class="navContent title20 mTitle28">
+                                    <a href="javascript:void(0)"><li >Store Manager</li></a>
+                                    <a href="javascript:void(0)"><li >Store Representative</li></a>
+                                </div>
 
-    	     			</ul>
+                        </ul>
     	     		</li>
     	     		<li class="lv2 lvd">
-    	     			<ul class="title24 mTitle32 menu3x ">
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Accounting & Finance</a></li>
-    	     					
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Computer & Technology</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Customer Experience & Call Center</a></li>
-    	     					
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Legal</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Logistics & Warehouse</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Marketing & Branding</a></li>
-    	     				<li class="subNav subNavx"><a href="javascript:void(0)">Retail & Sales</a></li>
-    	     					<div class="navContent title20 mTitle28">
-    	     						<li ><a href="javascript:void(0)">Store Manager</a></li>
-    	     						<li ><a href="javascript:void(0)">Store Representative</a></li>
-    	     					</div>
+                        <ul class="title24 mTitle32 menu3x ">
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Accounting & Finance</li></a>
+                                
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Computer & Technology</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Customer Experience & Call Center</li></a>
+                                
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Legal</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Logistics & Warehouse</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Marketing & Branding</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Retail & Sales &nbsp;&nbsp;&or;</li></a>
+                                <div class="navContent title20 mTitle28">
+                                    <a href="javascript:void(0)"><li >Store Manager</li></a>
+                                    <a href="javascript:void(0)"><li >Store Representative</li></a>
+                                </div>
 
-    	     			</ul>
+                        </ul>
     	     		</li>
     	     	</ul>
 
@@ -215,13 +222,13 @@
     	     </div>
        </section>
     <section class='mbg'>
-           <img src="../shared/images/carrer/mCareerBg.jpg" alt="">
+           <img src="../shared/images/carrer/mCareerBg.png" alt="">
        </section>
     <section class='icon'>
 
             <div class="boss">
 				<div class="tit ">
-					<p class="title42 mTitle68 tit1">This is the place where you <span>Shine</span></p>
+					<p class="title36 mTitle68 tit1 titleMgnBtm">This is the place where you <span>Shine</span></p>
 					<p class="text18 mText26">At iTalk Global Communications, Inc., we look for great people who want to create better lives for oversea Chinese, to connect them with the people they love, and to enrich them with entertainments they adore. Join us and we have you covered with generous benefits, supportive culture and performance based rewards! Come make a life with us, the brightest minds and the most meaningful career. </p>
 					<p class="text18 mText26">Together, we make a difference!</p>
 				</div>
@@ -279,7 +286,7 @@
                <div class="sharetit title34 mTitle42 fwb">Follow us on LinkedIn</div>
                <div class="logos">
                     <div class="logo1">
-                        <img src="../shared/images/index/iconWechat.png" alt="">
+                        <img src="../shared/images/icons/iconWechat.png" alt="">
                     </div>
 <!--                     <div class="logo2">
                         <a href="http://weibo.com/p/1006065041497758/home?from=page_100606&mod=TAB&is_all=1#place" target="_blank">
@@ -293,18 +300,19 @@
                     </div> -->
                     <div class="logo4">
                         <a href="https://www.youtube.com/channel/UCGCxNSstqeecxd4unpObkNg" target="_blank">
-                            <img src="../shared/images/index/iconGoogle.png" alt="">
+                            <img src="../shared/images/icons/iconGoogle.png" alt="">
                         </a>
                     </div>
                     <div class="logo5">
                         <a href="https://www.linkedin.com/company/italk-global-communications" target="_blank">
-                            <img src="../shared/images/index/iconLinkedin.png" alt="">
+                            <img src="../shared/images/icons/iconLinkedin.png" alt="">
                         </a>
                     </div>
                 </div>
 
             </div>
         </div>
+       </section>
        </section>
 
 
@@ -351,10 +359,10 @@
 	})
 
 	$(".subNav").click(function(){
-			$('.subNav').removeClass('bgc').children().css('color','black');
-			$(this).addClass('bgc').children().css('color','white');
+			$('.subNav').removeClass('bgc');
+			$(this).addClass('bgc');
 			// 修改数字控制速度， slideUp(500)控制卷起速度
-			$(this).next('.navContent').slideToggle(500).siblings(".navContent").slideUp(500);
+			$(this).parent().next('.navContent').slideToggle(500).siblings(".navContent").slideUp(500);
 
 
 
@@ -362,37 +370,37 @@
 
 
             $('.logo1').mouseover(function(){
-                $('.logo1 img').attr("src","../shared/images/index/iconWechatBlue.png");
+                $('.logo1 img').attr("src","../shared/images/icons/iconWechatBlue.png");
     }).mouseout (function(){
-                $('.logo1 img').attr("src","../shared/images/index/iconWechat.png");
+                $('.logo1 img').attr("src","../shared/images/icons/iconWechat.png");
     });
 
 
     $('.logo2').mouseover(function(){
-                $('.logo2 img').attr("src","../shared/images/index/iconWeiboBlue.png");
+                $('.logo2 img').attr("src","../shared/images/icons/iconWeiboBlue.png");
     }).mouseout (function(){
-                $('.logo2 img').attr("src","../shared/images/index/iconWeibo.png");
+                $('.logo2 img').attr("src","../shared/images/icons/iconWeibo.png");
     });
 
 
     $('.logo3').mouseover(function(){
-                $('.logo3 img').attr("src","../shared/images/index/iconFacebookBlue.png");
+                $('.logo3 img').attr("src","../shared/images/icons/iconFacebookBlue.png");
     }).mouseout (function(){
-                $('.logo3 img').attr("src","../shared/images/index/iconFacebook.png");
+                $('.logo3 img').attr("src","../shared/images/iconsiconFacebook.png");
     });
 
 
 
     $('.logo4').mouseover(function(){
-                $('.logo4 img').attr("src","../shared/images/index/iconGoogleBlue.png");
+                $('.logo4 img').attr("src","../shared/images/icons/iconGoogleBlue.png");
     }).mouseout (function(){
-                $('.logo4 img').attr("src","../shared/images/index/iconGoogle.png");
+                $('.logo4 img').attr("src","../shared/images/icons/iconGoogle.png");
     });
 
         $('.logo5').mouseover(function(){
-            $('.logo5 img').attr("src","../shared/images/index/iconLinkedinBlue.png");
+            $('.logo5 img').attr("src","../shared/images/icons/iconLinkedinBlue.png");
         }).mouseout (function(){
-            $('.logo5 img').attr("src","../shared/images/index/iconLinkedin.png");
+            $('.logo5 img').attr("src","../shared/images/icons/iconLinkedin.png");
         });
 
 
