@@ -30,10 +30,11 @@
     <script src="../shared/js/common.js"></script>
     <script src="../shared/js/swiper.minhn.js"></script>
     <style>
+
     a:hover{text-decoration:none;}
 	.carousel-caption{text-shadow:none}
-    .swiper-pagination-bullet-active{ width: 80px;height: 5px;background-color: #fff;opacity:0.85;background-color: #ff7f00 !important;border: none !important;}
-    .swiper-pagination-bullet{width: 80px;height: 5px;background-color: white;opacity: 0.85;display: inline-block;margin: 1px;text-indent: -999px;cursor: pointer;background-color:white;border: 1px solid #fff;border-radius: 10px;}
+    .pswiper-pagination .swiper-pagination-bullet-active{ width: 80px;height: 5px;background-color: #fff;opacity:0.85;background-color: #ff7f00 !important;border: none !important;}
+    .pswiper-pagination .swiper-pagination-bullet{width: 80px;height: 5px;background-color: white;opacity: 0.85;display: inline-block;margin: 1px;text-indent: -999px;cursor: pointer;background-color:white;border: 1px solid #fff;border-radius: 10px;}
 
     .mSwiper-button-prev,.mSwiperBox-rtl .mSwiper-button-next{
      background: url(../shared/images/index/leftArrow.png) no-repeat; background-size: 100%; background-position-x: 0%;background-position-y: 50%;
@@ -48,6 +49,9 @@
 
     @media (max-width:767px){
             .carousel-caption{right: 0;left: 0}
+            .mswiper-pagination .swiper-pagination-bullet-active{background-color: #fff;}
+            .mSwiper-button-prev,.mSwiperBox-rtl .mSwiper-button-next{width: 10%}
+            .mSwiper-button-next,.mSwiperBox-rtl .mSwiper-button-prev{width: 10%}
     }
 
 	</style>
@@ -155,7 +159,7 @@
 
             </div>
 
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination pswiper-pagination"></div>
             <div class="swiper-button-prev mSwiper-button-prev"></div>
             <div class="swiper-button-next mSwiper-button-next"></div>
         </div>
@@ -231,9 +235,9 @@
 
             </div>
 
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev swiper-button-white"></div>
-            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-pagination mswiper-pagination"></div>
+            <div class="swiper-button-prev mSwiper-button-prev"></div>
+            <div class="swiper-button-next mSwiper-button-next"></div>
         </div>
 
 
@@ -622,6 +626,8 @@
                     paginationClickable: true,  
                     prevButton:'.swiper-button-prev',
                     nextButton:'.swiper-button-next',
+                     autoplayDisableOnInteraction : false,
+
 
                     });
         </script>
