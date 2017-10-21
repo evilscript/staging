@@ -61,29 +61,29 @@ $(document).ready(function(){
 
     /*Social icons mouseover*/
     $('.social1').mouseover(function(){
-        $(this).attr('src','../shared/images/index/iconWechatBlue.png');
+        $(this).attr('src','../shared/images/icons/iconWechatBlue.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/iconWechat.png');
+        $(this).attr('src','../shared/images/icons/iconWechat.png');
     });
     $('.social2').mouseover(function(){
-        $(this).attr('src','../shared/images/index/iconWeiboBlue.png');
+        $(this).attr('src','../shared/images/icons/iconWeiboBlue.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/iconWeibo.png');
+        $(this).attr('src','../shared/images/icons/iconWeibo.png');
     });
     $('.social3').mouseover(function(){
-        $(this).attr('src','../shared/images/index/iconFacebookBlue.png');
+        $(this).attr('src','../shared/images/icons/iconFacebookBlue.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/iconFacebook.png');
+        $(this).attr('src','../shared/images/icons/iconFacebook.png');
     });
     $('.social4').mouseover(function(){
-        $(this).attr('src','../shared/images/index/iconGoogleBlue.png');
+        $(this).attr('src','../shared/images/icons/iconGoogleBlue.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/iconGoogle.png');
+        $(this).attr('src','../shared/images/icons/iconGoogle.png');
     });
     $('.social5').mouseover(function(){
-        $(this).attr('src','../shared/images/index/iconLinkedinBlue.png');
+        $(this).attr('src','../shared/images/icons/iconLinkedinBlue.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/iconLinkedin.png');
+        $(this).attr('src','../shared/images/icons/iconLinkedin.png');
     });
 
 });
