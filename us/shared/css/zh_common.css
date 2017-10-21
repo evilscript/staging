@@ -252,11 +252,8 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     width: 100%;
 }
 .menuText {
-    font-size: 20px;
     line-height: 1.5;
     padding-top: 5%;
-    font-weight: 500;
-    color: #333;
     text-align: center;
 }
 .subMenuDiv{
@@ -278,11 +275,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .subMenuDivRight{
     width:33.3%;
     float:left;
-}
-.teleText {
-    font-size: 18px;
-	color: #444;
-    font-weight:500;
 }
 .headerLink{
     color:black;
@@ -337,9 +329,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .menuText:active{
     text-decoration:none;
 }
-.footerBg{
-    background: #404040;
-}
+.footerBg{background: #404040;}
 .footerColumn{
     width:20%;
     float:left;
@@ -352,21 +342,10 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     padding-bottom: 2%;
     border-bottom: 1px solid #6a6a6a;
 }
-.footerTitle {
-    color: #d4d4d4;
-    font-size: 20px;
-    font-weight: 500;
-    padding-bottom: 1%;
-}
-.footerText{
-    color: #d4d4d4;
-    font-size:16px;
-    font-weight: 300;
-    padding-bottom:1%;
-}
-.footerText:hover{
-    color: #ff7f00;
-}
+.footerTitle,.footerText {color: #d4d4d4;}
+.footerTitle{padding-bottom: 2.5%;}
+.footerText{padding-bottom: 1%;}
+.footerText:hover{color: #ff7f00;}
 .disclaimer {
     font-size: 12px;
     color: #d4d4d4;
@@ -378,13 +357,12 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     padding-bottom: 8%;
 }
 .specialService{
+    color: #d4d4d4;
     padding-bottom:0;
     padding-top:2%;
     cursor:pointer;
 }
-.specialService:hover{
-    color: #ff7f00;
-}
+.specialService:hover{color: #ff7f00;}
 .hide{
     display:none;
 }
@@ -446,6 +424,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     color: #327fe8;
 }
 .menu1,.menu2,.menu3,.menu4,.menu5 {
+    display: none;
     background: white;
     opacity: 0.85;
     z-index: 200;
@@ -661,8 +640,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     color: #ff7f00;
 }
 .bgTitle{
-    font-size: 22px;
-    font-weight: 500;
     border-bottom: 2px solid #ff7f00;
     padding-bottom:4%;
     width:55%;
@@ -671,7 +648,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     padding-top:10%;
 }
 .bgText{
-    font-size: 16px;
     font-weight: 300;
     line-height: 1.8;
 }
@@ -739,9 +715,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	
 	/* fontSize end */
 	
-    .teleText{
-        font-size:14px;
-    }
+    
     .bgTitle {
         font-size: 20px;
     }
@@ -790,29 +764,14 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .headerMirrorSearchPart{
         padding-top: 1.5%;
     }
-    .teleText {
-        font-size: 14px;
-    }
-    .menuText {
-        font-size: 16px;
-    }
     .revisedHeader {
         padding-top: 0.9%;
-    }
-    .footerTitle {
-         font-size:14px;
-     }
-    .footerText{
-        font-size:12px;
     }
     .menu2Block, .menu3Block, .menu1Block, .menu5Block, .menu4Block{
         font-size:14px;
     }
     .bgTitle {
         font-size: 17px;
-    }
-    .bgText {
-        font-size: 14px;
     }
 }
 
@@ -914,26 +873,11 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .headerMirrorSearch{
         padding-top:2%;
     }
-    .menuText, .teleText {
-        font-size: 1vw;
-    }
-    .footerTitle {
-        font-size: 1.3vw;
-    }
-    .footerText, .disclaimer {
-        font-size: 0.85vw;
-    }
     .menu2Block, .menu3Block, .menu1Block, .menu5Block, .menu4Block {
-        font-size: 1vw;
-    }
-    .footerSitemap .footerTitle {
         font-size: 1vw;
     }
     .bgTitle {
         font-size: 1.3vw;
-    }
-    .bgText {
-        font-size: 1.1vw;
     }
 }
 @media  (min-width:1001px){
@@ -1001,20 +945,8 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .toggle{
         padding-left:0;
     }
-    .footerTitle {
-        font-size: 1.7vw;
-    }
-    .footerText, .disclaimer {
-        font-size: 1.4vw;
-    }
     .headerBackToTop {
         display:none!important;
-    }
-    .menuText{
-        font-size: 1.4vw;
-    }
-    .teleText {
-        font-size: 1.4vw;
     }
     .hugeLogo {
         width: 30%;
@@ -1024,15 +956,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     }
     .bgTitle {
         font-size: 1.5vw;
-    }
-    .bgText {
-        font-size: 1.5vw;
-    }
-    .footerSitemap .footerTitle {
-        font-size: 1.1vw;
-    }
-    .footerText, .disclaimer {
-        font-size: 1.4vw;
     }
     .footer1 {
         padding-left: 0;
@@ -1063,6 +986,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .telephone {
         width: 20%;
         float: left;
+		font-size: 1.5vw;
         padding-top: 6%;
     }
     .header1Icon {
@@ -1081,8 +1005,8 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
         padding-top: 2%;
     }
     .mobileHeaderText, .mobileHeaderTextBack, .mobileHeaderText2 {
+	    color: #222;
         border-bottom: 1px solid #2a2a2a;
-        color: #444444;
         text-align: left;
         padding-top: 4%;
         padding-left: 10%;
@@ -1105,6 +1029,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .revisedHeader3 {
         padding-top: 2%;
     }
+	.footerText{padding-bottom: .6%;}
     .bbb {
         width: 12%;
         margin-left: 44%;
@@ -1265,11 +1190,9 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
         padding-left: 0;
         border-bottom: 1px solid #888888;
         margin-bottom: 5%;
+		padding-bottom: 2%;
     }
     .footerTitle {
-        color: #d4d4d4;
-        font-size: 4vw;
-        font-weight: 500;
         padding-bottom: 1%;
         background: url(../images/footer/footerPlus.png) no-repeat top left;
         background-size: 5%;
@@ -1277,10 +1200,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
         background-position: 5% 30%;
     }
     .footerText {
-        color: white;
-        font-size: 3.4vw;
-        font-weight: 300;
-        padding-bottom: 1%;
         padding-left: 12%;
     }
     .disclaimer {
@@ -1313,8 +1232,8 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
         border-bottom: 1px solid #ff7f00;
     }
     .mobileHeaderText, .mobileHeaderTextBack, .mobileHeaderText2{
+	    color: #222;
         border-bottom: 1px solid #2a2a2a;
-        color: #444444;
         text-align: left;
         padding-top: 8%;
         padding-left: 10%;
