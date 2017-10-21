@@ -1,254 +1,226 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
 <head>
-    <meta charset="UTF-8">
-    <title>iTalkBB蜻蜓 - 美国卡 & 中国卡 | 美国手机套餐 | 中文电视 | 国际通话</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="copyright" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+<meta charset="UTF-8">
+<title>iTalkBB蜻蜓 - 美国卡 & 中国卡 | 美国手机套餐 | 中文电视 | 国际通话</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="copyright" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+<meta name="apple-itunes-app" content="app-id=514896649">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_index.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/swiper.min2.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+<script src="../shared/js/jquery-1.12.4.min.js"></script>
+<script src="../shared/js/angular-1.6.4.min.js"></script>
+<script src="../shared/js/imageMapResizer.js"></script>
+<script src="../shared/js/common.js"></script>
+<script src="../shared/js/swiper.min2.js"></script>
 
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
-    <meta name="apple-itunes-app" content="app-id=514896649">
-
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_index.css">
-
-    <script src="../shared/js/jquery-1.12.4.min.js"></script>
-    <script src="../shared/js/angular-1.6.4.min.js"></script>
-    <script src="../shared/js/bootstrap.min.js"></script>
-    <script src="../shared/js/imageMapResizer.js"></script>
-    <!--<script src="../shared/js/scrollify.min.js"></script>-->
-    <script src="../shared/js/common.js"></script>
-    <style>
-	.carousel-caption{text-shadow:none}
-	</style>
-    <!--<script>
-        /*整屏滚动功能*/
-        $(function() {
-            $.scrollify({
-                section : ".scroll",
-                sectionName : "section-name",
-                interstitialSection : "iTalkBB",
-                easing: "easeOutExpo",
-                scrollSpeed: 800,
-                scrollbars: true
-            });
-        });
-        /*如果是移动设备，初始化时直接禁用整屏滚动*/
-        function isMobile() {
-            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        }
-        if (isMobile()) {
-            $.scrollify.disable();
-        }
-        /*整屏滚动功能结束*/
-    </script>-->
+<style type="text/css">
+a:hover{text-decoration:none;}
+.carousel-caption{text-shadow:none}
+.pswiper-pagination .swiper-pagination-bullet-active{ width: 80px;height: 5px;background-color: #fff;opacity:0.85;background-color: #ff7f00 !important;border: none !important;}
+.pswiper-pagination .swiper-pagination-bullet{width: 80px;height: 5px;background-color: white;opacity: 0.85;display: inline-block;margin: 1px;text-indent: -999px;cursor: pointer;background-color:white;border: 1px solid #fff;border-radius: 10px;}
+.mSwiper-button-prev,.mSwiperBox-rtl .mSwiper-button-next{background: url(../shared/images/index/leftArrow.png) no-repeat; background-size: 100%; background-position-x: 0%;background-position-y: 50%; left:2%; right:auto}
+.mSwiper-button-next,.mSwiperBox-rtl .mSwiper-button-prev{background: url(../shared/images/index/rightArrow.png) no-repeat; background-size: 100%; background-position-x: 0%;background-position-y: 50%; right:1.5%; left:auto}
+.swiper-button-prev, .swiper-button-next {width: 6%;height: 15%;}
+@media  (min-width:768px) and (max-width:1000px){    
+    .bandButton{font-size: 2.4vw; width: 100%;}
+	.bannerTitle1{margin-top: -1.2%;}
+	.bannerButton2{font-size: 2.6vw;}
+	.bannerTitle2{font-size: 2vw; margin-top: .5%;}
+	.informationBarLeft{font-size: 2vw; border-right-radius:0px!important;}
+	.informationBarRight{font-size: 2vw;}
+    }
+@media (max-width:767px){
+     .carousel-caption{right: 0;left: 0}
+     .mswiper-pagination .swiper-pagination-bullet-active{background-color: #fff;}
+     .mSwiper-button-prev,.mSwiperBox-rtl .mSwiper-button-next{width: 10%}
+     .mSwiper-button-next,.mSwiperBox-rtl .mSwiper-button-prev{width: 10%}
+    }
+</style>
 </head>
 
-
 <body ng-app="">
-    <!--Carson制作-->
-
+<!-- Author: Carson & Amy & hounan -->
     <section data-section-name="iTalkBB" class="scroll">
-
-        <div id="header"></div>
-        <script>
-            $('#header').load('header.html');
-        </script>
-
-        <div class="container1920">
-            <!--桌面端banner开始-->
-            <div id="myCarousel" class="carousel slide hideM" data-ride="carousel" data-interval="8000">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-
-                    <div class="item active">
+    <div id="header"></div>
+        <div class="mainLayout container1920">
+        <!--index banner pc begin-->  
+        <div class="carousel slide hideM swiper-container">
+            <div class=" swiper-wrapper">
+                <div class="carousel-inner swiper-slide blue-slide">
+                    <div class="item active activeBanner">
                         <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
+
                         <div class="carousel-caption">
                             <p class="bannerTitle1 pin title60 mTitle60 fwb">蜻蜓移动<br>属于海外华人的手机计划</p>
                             <div class="clear clearfix"></div>
                             <div class="bannerBgSection">
-                                <p class="bannerTitle2 pin title42 mTitle50">美国卡&中国卡<br>
+                                <p class="bannerTitle2 title42 mTitle50">美国卡&中国卡<br>
                                     让你无缝连接两个国家</p>
                                 <div class="informationBar">
-                                    <p class="informationBarLeft pin title36 mTitle44">经济计划</p>
-                                    <p class="informationBarRight pin title36 mTitle44"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
+                                    <p class="informationBarLeft title36 mTitle44">经济计划</p>
+                                    <p class="informationBarRight title36 mTitle44"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
                                     <div class="clear clearfix"></div>
                                 </div>
-                                <a href="mobile-plan.html"><p class="bannerButton pin title36 mTitle44">了解更多</p></a>
+                                <a href="mobile-plan.html"><p class="bannerButton bannerButton2 title36 mTitle44">了解更多</p></a>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="item">
-                        <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
-                        <div class="carousel-caption">
-                            <p class="bannerTitle1 pin title60 mTitle60 fwb">蜻蜓移动<br>属于海外华人的手机计划</p>
-                            <div class="clear clearfix"></div>
-                            <div class="bannerBgSection">
-                                <p class="bannerTitle2 pin title42 mTitle50">美国卡&中国卡<br>
-                                    让你无缝连接两个国家</p>
-                                <div class="informationBar">
-                                    <p class="informationBarLeft pin title36 mTitle44">经济计划</p>
-                                    <p class="informationBarRight pin title36 mTitle44"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
-                                    <div class="clear clearfix"></div>
-                                </div>
-                                <a href="mobile-plan.html"><p class="bannerButton pin title36 mTitle44">了解更多</p></a>
-                            </div>
-                        </div>
                     </div>
-
-                    <div class="item">
-                        <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
-                        <div class="carousel-caption">
-                            <p class="bannerTitle1 pin title60 mTitle60 fwb">蜻蜓移动<br>属于海外华人的手机计划</p>
-                            <div class="clear clearfix"></div>
-                            <div class="bannerBgSection">
-                                <p class="bannerTitle2 pin title42 mTitle50">美国卡&中国卡<br>
-                                    让你无缝连接两个国家</p>
-                                <div class="informationBar">
-                                    <p class="informationBarLeft pin title36 mTitle44">经济计划</p>
-                                    <p class="informationBarRight pin title36 mTitle44"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
-                                    <div class="clear clearfix"></div>
-                                </div>
-                                <a href="mobile-plan.html"><p class="bannerButton pin title36 mTitle44">了解更多</p></a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
-                    <img src="../shared/images/index/leftArrow.png" class="leftArrow" alt="">
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <!--<span class="glyphicon"></span>-->
-                    <img src="../shared/images/index/rightArrow.png" class="rightArrow" alt="">
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-            <!--桌面端banner结束-->
-            <div class="clear clearfix"></div>
-            <!--移动端banner开始-->
-            <div id="myCarouseM" class="carousel slide showM" data-ride="carousel" data-interval="8000">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarouseM" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarouseM" data-slide-to="1"></li>
-                    <li data-target="#myCarouseM" data-slide-to="2"></li>
-                </ol>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="bannerTitle1 pin title60 mTitle60 fwb">蜻蜓移动<br>属于海外华人的手机计划</p>
+                            <div class="clear clearfix"></div>
+                            <div class="bannerBgSection">
+                                <p class="bannerTitle2 title42 mTitle50">美国卡&中国卡<br>
+                                    让你无缝连接两个国家</p>
+                                <div class="informationBar">
+                                    <p class="informationBarLeft title36 mTitle44">经济计划</p>
+                                    <p class="informationBarRight title36 mTitle44"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
+                                    <div class="clear clearfix"></div>
+                                </div>
+                                <a href="mobile-plan.html"><p class="bannerButton bannerButton2 title36 mTitle44">了解更多</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
+                <div class="swiper-slide">
+                    <div class="item">
+                        <img src="../shared/images/index/chs_mainBanner.jpg" alt="" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="bannerTitle1 pin title60 mTitle60 fwb">蜻蜓移动<br>属于海外华人的手机计划</p>
+                            <div class="clear clearfix"></div>
+                            <div class="bannerBgSection">
+                                <p class="bannerTitle2 title42 mTitle50">美国卡&中国卡<br>
+                                    让你无缝连接两个国家</p>
+                                <div class="informationBar">
+                                    <p class="informationBarLeft title36 mTitle44">经济计划</p>
+                                    <p class="informationBarRight title36 mTitle44"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
+                                    <div class="clear clearfix"></div>
+                                </div>
+                                <a href="mobile-plan.html"><p class="bannerButton bannerButton2 title36 mTitle44">了解更多</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination pswiper-pagination"></div>
+            <div class="swiper-button-prev mSwiper-button-prev"></div>
+            <div class="swiper-button-next mSwiper-button-next"></div>
+      </div>
+      <div class="clear clearfix"></div>
+      <!--index banner pc end-->      
+        
+      <!--index banner m begin-->
+       <div class="carousel slide showM swiper-container">
+            <div class=" swiper-wrapper">
+                <div class="carousel-inner swiper-slide blue-slide">
                     <div class="item active">
                         <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
                         <div class="carousel-caption">
                             <p class="bannerTitle1 pin title60 mTitle60 fwb">蜻蜓移动<br>属于海外华人的手机计划</p>
                             <div class="clear clearfix"></div>
                             <div class="bannerBgSection">
-                                <p class="bannerTitle2 pin title42 mTitle38">美国卡&中国卡<br>
+                                <p class="bannerTitle2 title42 mTitle38">美国卡&中国卡<br>
                                     让你无缝连接两个国家</p>
                                 <div class="informationBar">
-                                    <p class="informationBarLeft pin title36 mTitle36">经济计划</p>
-                                    <p class="informationBarRight pin title36 mTitle36"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
+                                    <p class="informationBarLeft title36 mTitle44">经济计划</p>
+                                    <p class="informationBarRight title36 mTitle44"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
                                     <div class="clear clearfix"></div>
                                 </div>
-                                <a href="mobile-plan.html"><p class="bannerButton pin title36 mTitle44">了解更多</p></a>
+                                <a href="mobile-plan.html"><p class="bannerButton title36 mTitle44">了解更多</p></a>
                             </div>
                         </div>
                     </div>
-
-                    <div class="item">
-                        <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
-                        <div class="carousel-caption">
-                            <p class="bannerTitle1 pin title60 mTitle60 fwb">蜻蜓移动<br>属于海外华人的手机计划</p>
-                            <div class="clear clearfix"></div>
-                            <div class="bannerBgSection">
-                                <p class="bannerTitle2 pin title42 mTitle38">美国卡&中国卡<br>
-                                    让你无缝连接两个国家</p>
-                                <div class="informationBar">
-                                    <p class="informationBarLeft pin title36 mTitle36">经济计划</p>
-                                    <p class="informationBarRight pin title36 mTitle36"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
-                                    <div class="clear clearfix"></div>
-                                </div>
-                                <a href="mobile-plan.html"><p class="bannerButton pin title36 mTitle44">了解更多</p></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
-                        <div class="carousel-caption">
-                            <p class="bannerTitle1 pin title60 mTitle60 fwb">蜻蜓移动<br>属于海外华人的手机计划</p>
-                            <div class="clear clearfix"></div>
-                            <div class="bannerBgSection">
-                                <p class="bannerTitle2 pin title42 mTitle38">美国卡&中国卡<br>
-                                    让你无缝连接两个国家</p>
-                                <div class="informationBar">
-                                    <p class="informationBarLeft pin title36 mTitle36">经济计划</p>
-                                    <p class="informationBarRight pin title36 mTitle36"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
-                                    <div class="clear clearfix"></div>
-                                </div>
-                                <a href="mobile-plan.html"><p class="bannerButton pin title36 mTitle44">了解更多</p></a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
-                <a class="left carousel-control" href="#myCarouseM" data-slide="prev">
-                    <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
-                    <img src="../shared/images/index/leftArrow.png" class="leftArrow" alt="">
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarouseM" data-slide="next">
-                    <!--<span class="glyphicon"></span>-->
-                    <img src="../shared/images/index/rightArrow.png" class="rightArrow" alt="">
-                    <span class="sr-only">Next</span>
-                </a>
+                <div class="swiper-slide">
+                    <div class="item ">
+                        <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="bannerTitle1 pin title60 mTitle60 fwb">蜻蜓移动<br>属于海外华人的手机计划</p>
+                            <div class="clear clearfix"></div>
+                            <div class="bannerBgSection">
+                                <p class="bannerTitle2 title42 mTitle38">美国卡&中国卡<br>
+                                    让你无缝连接两个国家</p>
+                                <div class="informationBar">
+                                    <p class="informationBarLeft title36 mTitle44">经济计划</p>
+                                    <p class="informationBarRight title36 mTitle44"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
+                                    <div class="clear clearfix"></div>
+                                </div>
+                                <a href="mobile-plan.html"><p class="bannerButton title36 mTitle44">了解更多</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="item ">
+                        <img src="../shared/images/index/chs_mobileBanner.jpg" alt="" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="bannerTitle1 pin title60 mTitle60 fwb">蜻蜓移动<br>属于海外华人的手机计划</p>
+                            <div class="clear clearfix"></div>
+                            <div class="bannerBgSection">
+                                <p class="bannerTitle2 title42 mTitle38">美国卡&中国卡<br>
+                                    让你无缝连接两个国家</p>
+                                <div class="informationBar">
+                                    <p class="informationBarLeft title36 mTitle44">经济计划</p>
+                                    <p class="informationBarRight title36 mTitle44"><span class="sans">1</span>条线<span class="sans">1G</span>流量</p>
+                                    <div class="clear clearfix"></div>
+                                </div>
+                                <a href="mobile-plan.html"><p class="bannerButton title36 mTitle44">了解更多</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <!--移动端banner结束-->
-            <div class="clear clearfix"></div>
+
+            <div class="swiper-pagination mswiper-pagination"></div>
+            <div class="swiper-button-prev mSwiper-button-prev"></div>
+            <div class="swiper-button-next mSwiper-button-next"></div>
+        </div>
+        <div class="clear clearfix"></div>
+        <!--index banner m end-->            
         </div>
     </section>
-
+    
+    <!--iTalkBB mobile begin--> 
     <section data-section-name="iTalkMobile" id="iTalkMobile" class="scroll iTalkMobile">
         <div class="container1920 bg2">
             <div class="mobileLeft">
-                <p class="pin sectionTitle fwb title60 mTitle68">蜻蜓移动</p>
-                <p class="pin sectionText title30 mTitle38">为海外华人打造的专属手机服务 <br>
+                <p class="sectionTitle pin title60 mTitle68 fwb">蜻蜓移动</p>
+                <p class="sectionText title30 mTitle38">为海外华人打造的专属手机服务 <br>
                     一个计划覆盖中美两个国家</p>
-                <div class="iconLeft">
-                    <p class="s2IconText1 pin title24 mTitle32">美国卡&中国卡：<br class="showM">双国双号</p>
-                    <div class="clear clearfix"></div>
-                    <p class="s2IconText2 pin title24 mTitle32">无限全球短信、通话</p>
+                <div class="iconLeft title24 mTitle30 clearfix">
+                    <p class="s2IconText1">美国卡&中国卡：<br class="showM">双国双号</p>
+                    <p class="s2IconText2">无限全球短信、通话</p>
                 </div>
-                <div class="iconRight">
-                    <p class="pin s2IconText3 title24 mTitle32">无限网络流量<span class="showM">&nbsp;</span></p>
-                    <div class="clear clearfix"></div>
-                    <p class="pin s2IconText4 title24 mTitle32">无合约、随时取消</p>
+                <div class="iconRight title24 mTitle30 clearfix">
+                    <p class="s2IconText3">无限网络流量<span class="showM">&nbsp;</span></p>
+                    <p class="s2IconText4">无合约、随时取消</p>
                 </div>
                 <div class="clear clearfix"></div>
                 <div class="knowMore">
-                    <a class="knowMoreText pin" href="mobile-plan.html">
-                        <p>了解更多</p>
+                    <a class="knowMoreText" href="mobile-plan.html">
+                        <p class="title18 mTitle26">了解更多</p>
                     </a>
                 </div>
             </div>
@@ -266,33 +238,37 @@
                     <img src="../shared/images/index/chs_mobilePriceBand1.png" class="img" alt="">
                 </div>
                 <div class="bandRight">
-                    <a href="https://webaccount.italkbb.com/MvnoSignup/index_USCN_MVNO_CHS.html?act=USCN_USSIM_Online"><p class="bandButton pin title36 mTitle36">立即订购</p></a>
+                    <a href="https://webaccount.italkbb.com/MvnoSignup/index_USCN_MVNO_CHS.html?act=USCN_USSIM_Online">
+                       <p class="bandButton title36 mTitle38">立即订购</p>
+                    </a>
                 </div>
                 <div class="clear clearfix"></div>
             </div>
         </div>
     </section>
-
+    <!--iTalkBB mobile end--> 
+    
+    <!--iTalkBB TV begin--> 
     <section data-section-name="iTalkTV" id="iTalkTV" class="scroll iTalkMobile">
         <div class="container1920 bg3">
             <div class="mobileLeft">
-                <p class="pin sectionTitle fwb title60 mTitle68">蜻蜓电视</p>
-                <p class="pin sectionText title30 mTitle38">海外华人首选中文电视<br>
+                <p class="sectionTitle pin title60 mTitle68 fwb">蜻蜓电视</p>
+                <p class="sectionText title30 mTitle38">海外华人首选中文电视<br>
                     网罗<span class="sans">2017</span>年度华语新片</p>
-                <div class="iconLeft">
-                    <p class="s3IconText1 pin title24 mTitle32">热门直播频道</p>
+                <div class="iconLeft title24 mTitle30">
+                    <p class="s3IconText1">热门直播频道</p>
                     <div class="clear clearfix"></div>
-                    <p class="s3IconText2 pin title24 mTitle32">数万小时影视综艺<br class="showM">免费观看</p>
+                    <p class="s3IconText2">数万小时影视综艺<br class="showM">免费观看</p>
                 </div>
-                <div class="iconRight">
-                    <p class="pin s3IconText3 title24 mTitle32">高清院线新片</p>
+                <div class="iconRight title24 mTitle30">
+                    <p class="s3IconText3">高清院线新片</p>
                     <div class="clear clearfix"></div>
-                    <p class="pin s3IconText4 title24 mTitle32">正版授权品质保证</p>
+                    <p class="s3IconText4">正版授权品质保证</p>
                 </div>
                 <div class="clear clearfix"></div>
                 <div class="knowMore">
-                    <a class="knowMoreText pin" href="chinese-tv-plans.html">
-                        <p>了解更多</p>
+                    <a class="knowMoreText" href="chinese-tv-plans.html">
+                        <p class="title18 mTitle26">了解更多</p>
                     </a>
                 </div>
             </div>
@@ -302,19 +278,6 @@
             </div>
         </div>
         <div class="orangeContainer">
-            <!--<div class="container1920 orangeBand3">
-                <div class="bandLeftS3 hideM">
-                    <img src="../shared/images/index/chs_band3Price.png" class="img" alt="">
-                </div>
-                <div class="bandLeftS3 showM">
-                    <img src="../shared/images/index/chs_mobilePriceBand2.png" class="img" alt="">
-                </div>
-                <div class="bandRight">
-                    <p class="bandButton bandButtonWithText pin title36 mTitle44">立即订购</p>
-                    <p class="textUnderBotton pin title30 mTitle38">30天免费</p>
-                </div>
-                <div class="clear clearfix"></div>
-            </div>-->
             <div class="container1920 orangeBand4">
                 <div class="bandLeftS4 hideM">
                     <img src="../shared/images/index/chs_band4Price.png" class="img" alt="">
@@ -322,44 +285,40 @@
                 <div class="bandLeftS4 showM">
                     <img src="../shared/images/index/chs_mobilePriceBand4.png" class="img" alt="">
                 </div>
-                <p class="textLeftBotton pin title30 mTitle32"><span class="sans">30</span>天免费</p>
+                <p class="textLeftBotton title30 mTitle38"><span class="sans">30</span>天免费</p>
                 <div class="bandRight bandRightS4">
                     <a href="https://webaccount.italkbb.com/BBSignUp/index_USCN_CHS.html?act=USCN_BB_Online&cid=200004&opc=USCN2017V30ALL+USCN17JV19&cob=1">
-                      <p class="bandButton pin title36 mTitle36 bandButtonSpecialMobile">立即试用</p>
+                      <p class="bandButton bandButtonSpecialMobile title36 mTitle38">立即试用</p>
                     </a>
                 </div>
                 <div class="clear clearfix"></div>
             </div>
         </div>
     </section>
-
+    <!--iTalkBB TV end--> 
+    
+    <!--iTalkBB phone begin--> 
     <section data-section-name="iTalkPhone" id="iTalkPhone" class="scroll iTalkMobile">
         <div class="container1920 bg4">
             <div class="mobileLeft">
-                <p class="pin sectionTitle fwb title60 mTitle68">蜻蜓电话</p>
-                <p class="pin sectionText title30 mTitle38">海外华人市场<span class="sans">No.1</span>家庭电话品牌<br>
-                    <span class="sans">14</span>年历史承诺<span class="sans">A+</span>产品服务</p>
-                <!--<div class="">
-                    <p class="s3iconText1 pin">热门直播频道</p>
-                    <p class="s3iconText2 pin">高清院线新片</p>
-                    <div class="showM clear clearfix"></div>
-                    <p class="s3iconText3 pin">数万小时影视<br class="showM">综艺免费观看</p>
-                    <p class="s3iconText4 pin"><span class="sans">iTalkBB</span>蜻蜓电视<span class="sans">APP</span>：<br class="showM">随时随地观看海量节目</p>
-                </div>-->
-                <div class="iconLeft">
-                    <p class="s4iconText1 pin title24 mTitle32">无限拨打全球29个<br class="showM">国家和<br class="hideM">地区</p>
+                <p class="sectionTitle pin title60 mTitle68 fwb">蜻蜓电话</p>
+                <p class="sectionText title30 mTitle38">海外华人市场<span class="sans">No.1</span>家庭电话品牌<br>
+                    <span class="sans">14</span>年历史承诺<span class="sans">A+</span>产品服务
+                </p>
+                <div class="iconLeft title24 mTitle30">
+                    <p class="s4iconText1">无限拨打全球<span class="sans">29</span>个<br class="showM">国家和地区</p>
                     <div class="clear clearfix"></div>
-                    <p class="s4iconText2 pin title24 mTitle32">接听免费</p>
+                    <p class="s4iconText2">接听免费</p>
                 </div>
-                <div class="iconRight">
-                    <p class="pin s4iconText3 title24 mTitle32">中国亲友直拨美国<br>只收当地话费</p>
+                <div class="iconRight title24 mTitle30">
+                    <p class="s4iconText3">中国亲友直拨美国<br>只收当地话费</p>
                     <div class="clear clearfix"></div>
-                    <p class="pin s4iconText4 title24 mTitle32"><span class="sans">iTalkBB</span>蜻蜓手机<span class="sans">App</span>:<br>用手机就可直拨国际电话</p>
+                    <p class="s4iconText4"><span class="sans">iTalkBB</span>蜻蜓手机<span class="sans">App</span>:<br>用手机就可直拨国际电话</p>
                 </div>
                 <div class="clear clearfix"></div>
                 <div class="knowMore">
-                    <a class="knowMoreText pin" href="home-phone-plans.html">
-                        <p>了解更多</p>
+                    <a class="knowMoreText" href="home-phone-plans.html">
+                        <p class="title18 mTitle26">了解更多</p>
                     </a>
                 </div>
             </div>
@@ -376,31 +335,33 @@
                 <div class="bandLeftS4 showM">
                     <img src="../shared/images/index/chs_mobilePriceBand4.png" class="img" alt="">
                 </div>
-                <p class="textLeftBotton pin title30 mTitle32"><span class="sans">30</span>天免费</p>
+                <p class="textLeftBotton title30 mTitle38"><span class="sans">30</span>天免费</p>
                 <div class="bandRight bandRightS4">
                     <a href="https://webaccount.italkbb.com/BBSignUp/index_USCN_CHS.html?act=USCN_BB_Online&cid=200004&opc=USCN2017V30ALL+USCN17JV19&cob=1">
-                        <p class="bandButton pin title36 mTitle36 bandButtonSpecialMobile">立即试用</p>
+                        <p class="bandButton bandButtonSpecialMobile title36 mTitle38">立即试用</p>
                     </a>
                 </div>
                 <div class="clear clearfix"></div>
             </div>
         </div>
     </section>
-
+    <!--iTalkBB phone end--> 
+    
+    <!--iTalkBB refer a friend begin--> 
     <section data-section-name="iTalkBBReferral" id="Referral" class="scroll iTalkMobile">
         <div class="container1920 bg5">
             <div class="mobileLeft">
-                <p class="pin sectionTitle fwb title60 mTitle68">推荐优惠</p>
-                <p class="pin sectionText title30 mTitle38">邀请亲友加入<span class="sans">iTalkBB</span>蜻蜓，<br class="showM">立即获得<span class="sans">$10</span></p>
-                <div class="">
-                    <p class="s5iconText1 pin title24 mTitle32">你和被推荐人，<br class="showM">双方都可获得<span class="sans">$10</span></p>
-                    <p class="s5iconText2 pin title24 mTitle32">获得<span class="sans">$10 OFF</span>，<br class="showM">只需简单<span class="sans">3</span>步！</p>
+                <p class="sectionTitle pin title60 mTitle68 fwb">推荐优惠</p>
+                <p class="sectionText title30 mTitle38">邀请亲友加入<span class="sans">iTalkBB</span>蜻蜓，<br class="showM">立即获得<span class="sans">$10</span></p>
+                <div class="title24 mTitle30">
+                    <p class="s5iconText1">你和被推荐人，<br class="showM">双方都可获得<span class="sans">$10</span></p>
+                    <p class="s5iconText2">获得<span class="sans">$10 OFF</span>，<br class="showM">只需简单<span class="sans">3</span>步！</p>
                     <div class="clear clearfix"></div>
                 </div>
                 <div class="clear clearfix"></div>
                 <div class="knowMore">
-                    <a class="knowMoreText knowMoreText5 pin" href="refer-a-friend.html">
-                        <p>了解更多</p>
+                    <a class="knowMoreText knowMoreText5" href="refer-a-friend.html">
+                        <p class="title18 mTitle26">了解更多</p>
                     </a>
                 </div>
             </div>
@@ -410,7 +371,7 @@
             </div>
         </div>
         <div class="orangeContainer">
-            <div class="container1920 orangeBand5">
+            <div class="container1920 orangeBand5 clearfix">
                 <div class="bandLeftS5 hideM">
                     <img src="../shared/images/index/chs_band5Price.png" class="img" alt="">
                 </div>
@@ -419,48 +380,50 @@
                 </div>
                 <div class="bandRight bandRightS5">
                     <a href="refer-a-friend.html">
-                    <p class="bandButton pin title36 mTitle36">立即推荐</p></a>
+                       <p class="bandButton title36 mTitle38">立即推荐</p>
+                    </a>
                 </div>
-                <div class="clear clearfix"></div>
             </div>
         </div>
     </section>
-
+    <!--iTalkBB refer a friend end--> 
+    
+    <!--iTalkBB contact us begin--> 
     <section data-section-name="iTalkBBContact" id="contact" class="scroll iTalkMobile">
         <div class="container1920 bg6" >
             <div>
                 <p class="contactTitle pin title60 mTitle68 fwb"><span class="sans">24</span>小时专人客服</p>
-                <p class="contactSubTitle pin title30 mTitle38"><span class="sans">365</span>天全年无休为海外华人服务</p>
+                <p class="contactSubTitle title30 mTitle38"><span class="sans">365</span>天全年无休为海外华人服务</p>
             </div>
             <div style="position:relative;">
                 <div class="overlayLayer" style="display:none;">
-                    <p class="overlayLayerTitle pin">扫码关注微信公众号</p>
+                    <p class="overlayLayerTitle text14 mText22">扫码关注微信公众号</p>
                     <img src="../shared/images/index/wechatSocialIcon.jpg" class="img w100">
                 </div>
-                <div class="s5Left">
-                    <a href="contact-us.html?kefu">
+                <div class="s5Left title16 mTitle24">
+                    <a href="contact-us.html?kefu" class="contactA">
                         <img src="../shared/images/index/contactIcon1.png" class="img contactIcon1" alt="">
                         <p class="section5IconTitle pin title30 mTitle38 fwb" align="center">电话客服</p>
-                        <p class="s6IconText pin"><span class="sans">24</span>小时全天候</p>
-                        <p class="s6IconText pin">一站式咨询服务</p>
-                        <p class="s6IconText pin">全天守候</p>
+                        <p class="s6IconText"><span class="sans">24</span>小时全天候</p>
+                        <p class="s6IconText">一站式咨询服务</p>
+                        <p class="s6IconText">全天守候</p>
                     </a>
                 </div>
-                <div class="s5Middle">
-                    <a href="contact-us.html?kefu">
+                <div class="s5Middle title16 mTitle24">
+                    <a href="contact-us.html?kefu" class="contactA">
                         <img src="../shared/images/index/contactIcon2.png" class="img contactIcon2" alt="">
                         <p class="section5IconTitle pin title30 mTitle38 fwb" align="center">微信客服</p>
-                        <p class="s6IconText pin"><span class="sans">24</span>小时全天候</p>
-                        <p class="s6IconText pin"><span class="sans">3</span>秒内应答</p>
-                        <p class="s6IconText pin"><span class="sans">100%</span>应答率</p>
+                        <p class="s6IconText"><span class="sans">24</span>小时全天候</p>
+                        <p class="s6IconText"><span class="sans">3</span>秒内应答</p>
+                        <p class="s6IconText"><span class="sans">100%</span>应答率</p>
                     </a>
                 </div>
-                <div class="s5Right">
-                    <a href="contact-us.html?chaxun">
+                <div class="s5Right title16 mTitle24">
+                    <a href="contact-us.html?chaxun" class="contactA">
                         <img src="../shared/images/index/contactIcon3.png" class="img contactIcon3" alt="">
                         <p class="section5IconTitle pin title30 mTitle38 fwb" align="center">体验店</p>
-                        <p class="s6IconText pin">全美<span class="sans">23</span>家店面</p>
-                        <p class="s6IconText pin">店面地址查询</p>
+                        <p class="s6IconText">全美<span class="sans">23</span>家店面</p>
+                        <p class="s6IconText">店面地址查询</p>
                     </a>
                 </div>
                 <div class="clear clearfix"></div>
@@ -470,16 +433,9 @@
             <div>
                 <div>
                     <p class="contactTitle subscribeTitle pin title60 mTitle68 fwb">订阅我们的邮件</p>
-                    <p class="contactSubTitle subscribeSubTitle pin title30 mTitle38">获得最新折扣信息</p>
+                    <p class="contactSubTitle subscribeSubTitle title30 mTitle38">获得最新折扣信息</p>
                 </div>
             </div>
-            <!--<div>
-                <input type="email" placeholder="请输入您的邮箱地址" class="emailBar pin">
-                <p class="submitButton pin">
-                    <span class="hideM">订阅</span>
-                    <span class="showM">&gt;</span>
-                </p>
-            </div>-->
             <div class="clear clearfix"></div>
 
 
@@ -527,8 +483,8 @@
                             <div class="response" id="mce-success-response" style="display:none"></div>
                         </div>
                         <div class="mc-field-group">
-                            <input type="email" value="" name="EMAIL" class="fwb required email emailBar pin" id="mce-EMAIL" placeholder="请输入您的邮箱地址">
-                            <p class="submitButton pin">
+                            <input type="email" value="" name="EMAIL" class="fwb required email emailBar title18 mTitle26" id="mce-EMAIL" placeholder="请输入您的邮箱地址">
+                            <p class="submitButton title18 mTitle26">
                                 <span class="fwb">订阅</span>
                                 <!--<span class="showM fwb">&gt;</span>-->
                             </p>
@@ -541,12 +497,8 @@
                     </div>
                 </form>
             </div>
-            <script>
-                $('.submitButton').click(function(){
-                    $("#mc-embedded-subscribe").trigger("click");
-                });
-            </script>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+   
+ 
             <!--End mc_embed_signup-->
 
 
@@ -568,7 +520,7 @@
                 <div class="clear clearfix"></div>
             </div>
             <div class="wechatIconSocial" style="display:none;">
-                <p class="wechatIconSocialTitle pin">扫码关注微信公众号</p>
+                <p class="wechatIconSocialTitle">扫码关注微信公众号</p>
                 <img src="../shared/images/index/wechatSocialIcon.jpg" class="img w100">
             </div>
             <div class="clear clearfix"></div>
@@ -589,12 +541,28 @@
             });
         </script>
 
-        <div class="lineBlue" style="margin-top:0;"></div>
-        <div id="footer"></div>
-        <script>
-            $('#footer').load('footer.html');
-        </script>
-
+        
     </section>
+    <!--iTalkBB contact us begin--> 
+    
+   <div class="lineBlue" style="margin-top:0;"></div>
+   <div id="footer"></div>
+   <script>
+      $('#header').load('header.html');
+      $('#footer').load('footer.html');
+   </script>
 </body>
+
+   <script type="text/javascript">
+        var mySwiper = new Swiper('.swiper-container',{
+        loop: true,
+        autoplay: 5000,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,  
+        prevButton:'.swiper-button-prev',
+        nextButton:'.swiper-button-next',
+        autoplayDisableOnInteraction : false,
+     });
+   </script>
+
 </html>
