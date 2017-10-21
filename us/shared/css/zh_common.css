@@ -6,7 +6,7 @@
 /*Initialization settings begin*/ 
 *{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;/*盒模型定义高度和宽度*/}
 html{overflow-y:scroll; -webkit-text-size-adjust: none;}
-body {font-family: 微软雅黑, sans-serif; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
+body {font-family: Microsoft Yahei, sans-serif; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
 ul,ol,li{list-style-type:none;}
 input[type="text"]{-webkit-appearance: none;}
 textarea{-webkit-appearance: none;}
@@ -123,7 +123,8 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 }
 .avenir{font-family: 'avenir', Arial, sans-serif;}
 .sans{font-family: 'open sans', Arial, sans-serif;}
-.pin{font-family: 'pingfang', 微软雅黑, sans-serif;}
+.pin{font-family: 'pingfang', Microsoft Yahei, sans-serif;}
+.mic{font-family: Microsoft Yahei, sans-serif;}
 /*字体部分结束*/
 
 /* fontSize start */
