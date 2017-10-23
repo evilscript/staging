@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy
   Create Date:2017-09-05 
-  Update Date:2017-09-11 
+  Update Date:2017-10-23
   Desc : bbPlan Swiper CSS */ 
   
 .mSwiperBox{margin:0 auto;position:relative;overflow:hidden;z-index:1}
@@ -50,11 +50,11 @@
 	 pointer-events:none
 	 }
 .mSwiper-button-prev,.mSwiperBox-rtl .mSwiper-button-next{
-     background: url(../images/bb/mSwiperPrev.png) no-repeat; background-size: 100%; background-position-x: 0%;background-position-y: 50%;
+     background: url(../images/icons/mSwiperPrev.png) no-repeat; background-size: 100%; background-position-x: 0%;background-position-y: 50%;
 	 left:2%;
 	 right:auto}
 .mSwiper-button-next,.mSwiperBox-rtl .mSwiper-button-prev{
-	 background: url(../images/bb/mSwiperNext.png) no-repeat; background-size: 100%; background-position-x: 0%;background-position-y: 50%;
+	 background: url(../images/icons/mSwiperNext.png) no-repeat; background-size: 100%; background-position-x: 0%;background-position-y: 50%;
 	 right:1.5%;
 	 left:auto
 	 }

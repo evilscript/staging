@@ -4,7 +4,7 @@
   Desc : bbRates CSS */ 
 
 /* bbRates banner begin */
-.bannerAll{background: url(../images/bb/bbRateBannerBg.jpg) no-repeat; background-size: 100%;}
+.bannerAll{background: url(../images/phone/bbRateBannerBg.jpg) no-repeat; background-size: 100%;}
 /* bbRates banner end */
 
 /* bbRegion begin */
@@ -17,35 +17,35 @@
 .conTelephone{background: url(../images/icons/homePhoneIconSmall.png) no-repeat; background-size: 32%; background-position-x: 2%;background-position-y: 30%; padding-left: 15%;}
 .conPhone{background: url(../images/icons/mobilePhoneIconSmall.png) no-repeat; background-size: 23%; background-position-y: 30%; padding-left: 10.5%; margin-left: 1%;}
 .countryBox{float: left; width: 20%; padding: 1.6% 0;}
-.Country01{background: url(../images/bb/bbRateIconCa.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country02{background: url(../images/bb/bbRateIconChina.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country03{background: url(../images/bb/bbRateIconHK.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country04{background: url(../images/bb/bbRateIconSin.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country05{background: url(../images/bb/bbRateIconUS.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country06{background: url(../images/bb/bbRateIconJapan.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country07{background: url(../images/bb/bbRateIconMalaysia.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country08{background: url(../images/bb/bbRateIconKR.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country09{background: url(../images/bb/bbRateIconTW.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country10{background: url(../images/bb/bbRateIconAustralia.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country11{background: url(../images/bb/bbRateIconNZ.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country12{background: url(../images/bb/bbRateIconAustria.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country13{background: url(../images/bb/bbRateIconBel.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country14{background: url(../images/bb/bbRateIconDenmark.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country15{background: url(../images/bb/bbRateIconFrance.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country16{background: url(../images/bb/bbRateIconGermany.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country17{background: url(../images/bb/bbRateIconGreece.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country18{background: url(../images/bb/bbRateIconIreland.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country19{background: url(../images/bb/bbRateIconItaly.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country20{background: url(../images/bb/bbRateIconLux.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country21{background: url(../images/bb/bbRateIconNL.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country22{background: url(../images/bb/bbRateIconNorway.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country23{background: url(../images/bb/bbRateIconPortugal.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country24{background: url(../images/bb/bbRateIconSpain.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country25{background: url(../images/bb/bbRateIconSweden.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country26{background: url(../images/bb/bbRateIconSZ.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country27{background: url(../images/bb/bbRateIconUK.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country28{background: url(../images/bb/bbRateIconVatican.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-.Country29{background: url(../images/bb/bbRateIconChile.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country01{background: url(../images/phone/bbRateIconCa.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country02{background: url(../images/phone/bbRateIconChina.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country03{background: url(../images/phone/bbRateIconHK.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country04{background: url(../images/phone/bbRateIconSin.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country05{background: url(../images/phone/bbRateIconUS.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country06{background: url(../images/phone/bbRateIconJapan.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country07{background: url(../images/phone/bbRateIconMalaysia.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country08{background: url(../images/phone/bbRateIconKR.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country09{background: url(../images/phone/bbRateIconTW.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country10{background: url(../images/phone/bbRateIconAustralia.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country11{background: url(../images/phone/bbRateIconNZ.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country12{background: url(../images/phone/bbRateIconAustria.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country13{background: url(../images/phone/bbRateIconBel.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country14{background: url(../images/phone/bbRateIconDenmark.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country15{background: url(../images/phone/bbRateIconFrance.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country16{background: url(../images/phone/bbRateIconGermany.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country17{background: url(../images/phone/bbRateIconGreece.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country18{background: url(../images/phone/bbRateIconIreland.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country19{background: url(../images/phone/bbRateIconItaly.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country20{background: url(../images/phone/bbRateIconLux.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country21{background: url(../images/phone/bbRateIconNL.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country22{background: url(../images/phone/bbRateIconNorway.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country23{background: url(../images/phone/bbRateIconPortugal.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country24{background: url(../images/phone/bbRateIconSpain.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country25{background: url(../images/phone/bbRateIconSweden.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country26{background: url(../images/phone/bbRateIconSZ.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country27{background: url(../images/phone/bbRateIconUK.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country28{background: url(../images/phone/bbRateIconVatican.png) no-repeat; background-size: 23%;background-position-y: 50%;}
+.Country29{background: url(../images/phone/bbRateIconChile.png) no-repeat; background-size: 23%;background-position-y: 50%;}
 /* bbRegion end */
 
 /* bbRates begin */
@@ -130,7 +130,7 @@ a.alphaButton{text-decoration: none; color: #222;}
 @media  (min-width:768px) and (max-width:1000px){
     .regionPart2,.regionNameSearch,.alphaCon,.ratesNote{padding: 0 5.2%;}	
     /* bannerAll begin */
-    .bannerAll{padding-top: 10.3%;  background: url(../images/bb/ipadBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
+    .bannerAll{padding-top: 10.3%;  background: url(../images/phone/ipadBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
 	/* bannerAll end */
 	
     /* bbRegion begin */
@@ -161,7 +161,7 @@ a.alphaButton{text-decoration: none; color: #222;}
     .regionPart2,.regionNameSearch,.alphaCon,.ratesNote{padding: 0 5%;}	
 	.ratesText{padding: 0 3%;}
     /* bannerAll begin */
-    .bannerAll{padding-top: 10%; background: url(../images/bb/mBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
+    .bannerAll{padding-top: 10%; background: url(../images/phone/mBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
 	.bannerTitle{line-height: 1.5; margin-bottom: 3.5%;}
 	/* bannerAll end */
 	

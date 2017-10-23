@@ -28,7 +28,7 @@ ul.listNom li{list-style-type:decimal;}
 .textBox p,.planBtn p{margin-bottom: 0;}
 .bundlesBox,.bundlesBoxOther{margin: 0 auto;padding: 0 12.8%;}
 .bundlesBoxOther{margin-top: 4%;}
-.bundlesBox{background: url(../images/bb/bbPlanBg01.jpg) no-repeat;}
+.bundlesBox{background: url(../images/phone/bbPlanBg01.jpg) no-repeat;}
 .planTitleBig{ color: #fff; margin-bottom: 2.5%; padding-top: 3.5%}
 .planBox .planCon,.planBox .planSpace{float: left;}
 .planSpace{ width: 6.9%;position: relative;}
@@ -37,7 +37,7 @@ ul.listNom li{list-style-type:decimal;}
 .planFormCon{padding-bottom: 1.8%;}
 .planCon{width: 46.55%; background: #fcfcfc;}
 .titleBox{border-bottom:1px solid #222; padding: 0 15%;}
-.titleBox p{padding:8% 0% 2% 22%; margin-bottom:-16.5%; background: #fcfcfc url(../images/bb/chs_bbPlanIconHot.png) no-repeat; background-size: 18%; background-position-x: 7%;background-position-y: 5%;}
+.titleBox p{padding:8% 0% 2% 22%; margin-bottom:-16.5%; background: #fcfcfc url(../images/phone/chs_bbPlanIconHot.png) no-repeat; background-size: 18%; background-position-x: 7%;background-position-y: 5%;}
 .titleBox2 p{background: #fcfcfc;padding-left: 0;}
 .titleBox3{padding: 0 36%;}
 .titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}
@@ -278,7 +278,7 @@ ul.bundlesCon li.double{width: 100%;}
 	.bbTryout,.bbApp,.otherFuncBox{text-align: left;}
 	.bundlesBox,.bundlesBoxOther{padding: 0;}
 	.bundlesBoxOther{margin-top:7%;}
-	.bundlesBox{background: url(../images/bb/mBBPlanBg01.jpg) no-repeat;background-size: 100%;}
+	.bundlesBox{background: url(../images/phone/mBBPlanBg01.jpg) no-repeat;background-size: 100%;}
 	.planTitleBig{line-height: 2.2;}
 	.planCon .titleBox{padding: 0 15%;}
 	.planBox .planCon{background: none;}

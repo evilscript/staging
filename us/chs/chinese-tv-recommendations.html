@@ -84,7 +84,7 @@
     .bannerAll4{background: url(../shared/images/tv/pic3.jpg) no-repeat; background-size: 100%;height: 36.4vw}
     .bannerAll{padding-top: 4.5%}
 
-    @media (max-width: 1000px) and (min-width: 786px){
+    @media (max-width: 1000px) and (min-width: 768px){
           .wei{top: 6%;left: 6%}
 
         #video0{width: 90%;margin-left: 5%;margin-top: 20%;}\
@@ -98,7 +98,7 @@
 
 
 
-	  @media (max-width:785px){
+	  @media (max-width:767px){
         
         .bannerAll1{background: url(../shared/images/tv/videoM.jpg) no-repeat; background-size: 100%;height: 111.1vw}
         .bannerAll2{background: url(../shared/images/tv/pic1M.jpg) no-repeat; background-size: 100%;height: 111.1vw}
@@ -160,9 +160,6 @@
 
 
 	<div id="header"></div>
-        <script>
-            $('#header').load('header.html');
-        </script>
     <div class="clear clearfix"></div>
     <div class="mainLayout">
     	<div class="video part ">
@@ -197,8 +194,8 @@
                     <div class="img"><img class="imgc" src="../shared/images/tv/pc5.jpg"/><img class="imgm" src="../shared/images/tv/pm5.jpg"/><div class="black"></div></div>
 
                 </div>
-                <div class="up"><img style="width:100%" src="../shared/images/bb/mSwiperNext.png" alt=""></div>
-                <div class="next"><img style="width:100%" src="../shared/images/bb/mSwiperPrev.png" alt=""></div>
+                <div class="up"><img style="width:100%" src="../shared/images/icons/mSwiperNext.png" alt=""></div>
+                <div class="next"><img style="width:100%" src="../shared/images/icons/mSwiperPrev.png" alt=""></div>
             </div>
     	</div>
     	<div class="part look2">
@@ -215,7 +212,7 @@
                     <div class="img"><img class="imgc" src="../shared/images/tv/pc3.jpg"/><img class="imgm" src="../shared/images/tv/pm3.jpg"/><div class="black"></div></div>
                     <div class="img"><img class="imgc" src="../shared/images/tv/pc4.jpg"/><img class="imgm" src="../shared/images/tv/pm4.jpg"/><div class="black"></div></div>
                     <div class="img dy30"><img class="imgc" src="../shared/images/tv/pc5.jpg"/><img class="imgm" src="../shared/images/tv/pm5.jpg"/><div class="black"></div></div>
-                    <div class="next1"><img style="width:100%" src="../shared/images/bb/mSwiperPrev.png" alt=""></div>
+                    <div class="next1"><img style="width:100%" src="../shared/images/icons/mSwiperPrev.png" alt=""></div>
 
                 </div>
             </div>
@@ -237,6 +234,7 @@
     </div>
     <div id="footer"></div>
          <script>
+		    $('#header').load('header.html');
             $('#footer').load('footer.html');
         </script>
 </body>
@@ -259,7 +257,7 @@ var slideNub;               //轮播图片数量
   
     
     $(window).resize(function(){
-   var wi = $(window).width();
+   var wi = window.innerWidth;
      if(wi<767){
             $(".slide").height($(".slide").width()*1);
             // document.getElementById('myVideo').pause();
@@ -272,7 +270,7 @@ var slideNub;               //轮播图片数量
 
 $(function(){
 
-    var wb = $(window).width();
+    var wb = window.innerWidth;
     console.log(wb);
 
     if(wb<767){
@@ -432,7 +430,7 @@ var slideNub2;               //轮播图片数量
 
      
     $(window).resize(function(){
-   var wi = $(window).width();
+   var wi = window.innerWidth;
      if(wi<767){
             $(".slide2").height($(".slide2").width()*1);
         }
@@ -443,7 +441,7 @@ var slideNub2;               //轮播图片数量
 
 $(function(){
 
-    var wb2 = $(window).width();
+    var wb2 = window.innerWidth;
 
     if(wb2<767){
                  $(".slide2").height($(".slide2").width()*1);

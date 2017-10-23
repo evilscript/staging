@@ -1,4 +1,4 @@
-// hooyes 2017-09-14
+// hooyes & Amy 2017-10-23
 function show(foldTxt,imgP){
 	 $(document).unbind("mouseup");
      var img1 = '../shared/images/icons/doubleArrowOrangeUp.png';
