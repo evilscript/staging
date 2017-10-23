@@ -2,7 +2,7 @@
   Version:1.0
   Author: Amy
   Create Date:2017-07-27
-  Update Date:2017-09-08
+  Update Date:2017-10-23
   Desc : Support Common CSS
   */  
 	
@@ -78,6 +78,7 @@
           background: -ms-linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
           background: linear-gradient(to bottom, #ffffff 0%,#f5f5f5 100%);}
 .partAll{width: 100%; padding-right: 17.2%;}
+.titleMgnBtm span{display: inline-block;}
 .titMgnTop,.imgTitle{margin-top: 3%;}
 .imgCnt{margin: 0 auto; width: 66%;}
 .imgCnt img{width: 100%; margin-top: 3% 0;}	

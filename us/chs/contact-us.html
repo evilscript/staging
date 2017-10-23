@@ -9,16 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
-
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
 	<meta name="apple-itunes-app" content="app-id=514896649">
-
-<!-- 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptQuery.css">
+    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_contact-us.css">
 
     <script src="../shared/js/jquery-1.12.4.min.js"></script>
     <script src="../shared/js/angular-1.6.4.min.js"></script>
@@ -31,38 +28,28 @@ select {width: 100%;padding: 2%;font-size:18px;border:1px solid #333333; border-
 /*将默认的select选择框样式清除*/
 appearance:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;
 /*在选择框的最右侧中间显示小箭头图片*/
-background: url(../shared/images/support/jiantou.jpg) no-repeat scroll 96% center transparent;        }
+background: url(../shared/images/contact/downArrowBlack.jpg) no-repeat scroll 96% center transparent;}
+.customes{margin-bottom: 5%;}
 .shopname span{display: inline-block;margin-right: 5%;font-weight: 700}
-
-
-
 section.mainMgnTop{margin-bottom: 1.5%}
 @media (max-width:767px){
 	section.mainMgnTop{margin-bottom: 4.5%}
 }
-
 @media (min-width:1000px) and (max-width:1200px) {
 	.optextName{font-size: 30px}
 	.optexts,.quartersName,.quartersAddress,.quartersNum{font-size: 18px}
 }
-
 </style>
-
     
 </head>
 <body ng-app="" style="background-color:#ffffff" onhashchange="aa()">
-
-        <div id="header"></div>
-        <script>
-            $('#header').load('header.html');
-        </script>
-
+    <div id="header"></div>
 	<div class="mainLayout">
 		<div class="fixhead">
 		   <div class="d1">
 					<section class="bannerAll bannerAll1">
      	    			<div class="bannerText">
-     	    				<p class="title60 mTitle50 pin fwb bannerTitle">24小时人工客服</p>
+     	    				<p class="title60 mTitle60 pin fwb bannerTitle">24小时人工客服</p>
      	    				<p class="title30 mTitle30">
      	    	   			<span>中粤英三语  专人为您服务</span>
      	    	   			<span>365天全年无休为海外华人服务</span>
@@ -70,7 +57,7 @@ section.mainMgnTop{margin-bottom: 1.5%}
      	    			</div>      	    	   
        				</section>
 				</div>
-		   	<div class="d3 ">
+		   	    <div class="d3">
 					<section class="bannerAll bannerAll2">
      	    			<div class="bannerText">
      	    				<p class="title60 mTitle50 fwb bannerTitle">不论您身在美国何处</p>
@@ -80,10 +67,10 @@ section.mainMgnTop{margin-bottom: 1.5%}
      	    				</p>
      	    			</div>      	    	   
        				</section>
-       	     </div>
+       	         </div>
 			
 			
-		    <div class="d5 ">
+		    <div class="d5">
 				<section class="bannerAll bannerAll3">
      	    			<div class="bannerText">
      	    				<p class="title60 mTitle50 pin fwb bannerTitle">iTalkBB蜻蜓</p>
@@ -95,9 +82,6 @@ section.mainMgnTop{margin-bottom: 1.5%}
        				</section>
        				</div>
 		</div>
-
-		
-
 
 	<section class="mainMgnTop">
       	  <div class="mainMgn100">
@@ -114,10 +98,10 @@ section.mainMgnTop{margin-bottom: 1.5%}
 
 
 	<div class="changeshow">
-<!-- shop -->
+<!-- Storefront query -->
 	<section class="shop" id="shop">
 		<div class="title title30 mTitle38 shopy">请选择您要找的店面</div>
-		<div class="changeShop">
+		<div class="changeShop sans">
 			<select id="sel" class="title20" style="outline:none;">
 					<option value="all">All</option>
   					<option value="DC Maryland and Virginia">DC Maryland and Virginia</option>
@@ -142,82 +126,77 @@ section.mainMgnTop{margin-bottom: 1.5%}
     </div>
 	</section>
 
-<!-- 客服 -->
-	
-	<section class='customer' id="customer">
-		<div class='customes'>
+<!-- Manual customer service -->	
+	<section class="customer" id="customer">
+		<div class="customes">
 		<div class="tel24">
 			<img class="titimg" src="../shared/images/icons/callCenterIcon.png" alt="">
 			<div class="custitle title30 mTitle38">电话客服</div>
-			<div class="telnums text18 mText26">售后客服：<span class='sans'>1-877-482-5503</span>  </div>
-			<div class="telnums text18 mText26 ">销售客服：<span class='sans'>1-877-482-5522</span></div>
-			<div class="telnums text18 mText26 ">中国大陆客户服务热线：<span class='sans'>950-4030-0000</span></div>
-			<div class="telnums text18 aline mTitle26 teladd"><br><span class='sans'>iTalkBB</span>蜻蜓电话客服，随时随地陪伴常在，欢迎您随时联系我们。</div>
+			<div class="telnums text18 mText26">售后客服：<span class="sans">1-877-482-5503</span>  </div>
+			<div class="telnums text18 mText26 ">销售客服：<span class="sans">1-877-482-5522</span></div>
+			<div class="telnums text18 mText26 ">中国大陆客户服务热线：<span class="sans">950-4030-0000</span></div>
+			<div class="telnums text18 aline mTitle26 teladd"><br><span class="sans">iTalkBB</span>蜻蜓电话客服，随时随地陪伴常在，欢迎您随时联系我们。</div>
 		</div><div class="weixin">
 			<img  class="titimg titimg2" src="../shared/images/icons/weChatIcon.png" alt="">
 			<div class="custitle title30 mTitle38">微信客服</div>
-			<div class="telnums text18  mTitle26  weixinadd"><span class='sans'>iTalkBB</span>蜻蜓微信客服提供24小时365天无休服务！您可以通过文字、图片、语音、视频等任意形式提出您的问题和需求，微信客服都会为您解决。</div>
-			<img class="wma" src="../shared/images/index/wechatSocialIcon.jpg" alt="">
+			<div class="telnums text18  mTitle26  weixinadd"><span class="sans">iTalkBB</span>蜻蜓微信客服提供<span class="sans">24</span>小时<span class="sans">365</span>天无休服务！您可以通过文字、图片、语音、视频等任意形式提出您的问题和需求，微信客服都会为您解决。</div>
+			<img class="wma" src="../shared/images/icons/wechatQRcodeIcon.jpg" alt="">
 			
-			<div class="telnums text12  mTitle22  weixinxadd">打开微信扫一扫，或者在微信中搜索“<span class='sans'>iTalkBB</span>”即可关注<span class='sans'>iTalkBB</span>蜻蜓微信号。</div>
+			<div class="telnums text12  mTitle22  weixinxadd">打开微信扫一扫，或者在微信中搜索“<span class="sans">iTalkBB</span>”即可关注<span class="sans">iTalkBB</span>蜻蜓微信号。</div>
 
 		</div><div class="email">
-			<img class="titimg titimg3" src="../shared/images/support/email.png" alt="">
-			<div class="custitle title30 mTitle38"><span class='sans'>Email</span>支持</div>
-			<div class=" sans text18 mText26 "><a class="linkOrange" href="mailto:support@italkbb.com">support@italkbb.com</a> </div>
-			<div class="emails  text18 mText26 emailadd"><br>您还可以选择发邮件联系我们，<span class='sans'>iTalkBB</span>蜻蜓专业的客服人员会在第一时间回复您，为您解决问题。</div>
+			<img class="titimg titimg3" src="../shared/images/icons/emailIcon.png" alt="">
+			<div class="custitle title30 mTitle38">Email支持</div>
+			<div class=" sans text18 mText26 "><a class="linkOrange sans" href="mailto:support@italkbb.com">support@italkbb.com</a> </div>
+			<div class="emails  text18 mText26 emailadd"><br>您还可以选择发邮件联系我们，<span class="sans">iTalkBB</span>蜻蜓专业的客服人员会在第一时间回复您，为您解决问题。</div>
 		</div>
 		</div>
 
 	</section>
 
-<!-- 合作 -->
-	<section class='collaborate' id="collaborate">
-		<div class='collaborates'>
+<!-- business cooperation -->
+	<section class="collaborate" id="collaborate">
+		<div class="collaborates">
 		<div class="collaborate1"><a href="http://www.italkbbmedia.com/" target="view_window">
-			<img class="collaboratePic" src="../shared/images/support/collaboratePic1.jpg" alt="">
-			<img class="mcollaboratePic" src="../shared/images/support/mcollaboratePic1.jpg" alt="">
+			<img class="collaboratePic" src="../shared/images/contact/collaboratePic1.jpg" alt="">
+			<img class="mcollaboratePic" src="../shared/images/contact/mcollaboratePic1.jpg" alt="">
 			<div class="opt">
-				<div class="optext">
+				<div class="optext text18 mText26">
 					<div class="optextName title30 mTitle38 pin fwb titleMgnBtm">广告业务合作</div>
-					<div class="optexts text18 mText26">iTalkBB蜻蜓中文电视平台投放广告业务</div>
-					<div class="optexts text18 mText26">请访问：www.iTalkBBMedia.com </div>
-					<div class="optexts text18 mText26">联系电话: 1-888-670-6626</div>
-					<div class="optexts text18 mText26">Email: info@italkbbmedia.com</div>
+					<div class="optexts"><span class="sans">iTalkBB</span>蜻蜓中文电视平台投放广告业务</div>
+					<div class="optexts">请访问：<span class="sans">www.iTalkBBMedia.com</span></div>
+					<div class="optexts">联系电话: <span class="sans">1-888-670-6626</span></div>
+					<div class="optexts"><span class="sans">Email: info@italkbbmedia.com</span></div>
 				</div>
 			</div></a>
 		</div><div class="collaborate2"><a href="http://dealer.italkbb.com/" target="view_window">
-			<img class="collaboratePic" src="../shared/images/support/collaboratePic2.jpg" alt="">
-			<img class="mcollaboratePic" src="../shared/images/support/mcollaboratePic2.jpg" alt="">
+			<img class="collaboratePic" src="../shared/images/contact/collaboratePic2.jpg" alt="">
+			<img class="mcollaboratePic" src="../shared/images/contact/mcollaboratePic2.jpg" alt="">
 			<div class="opt">
-				<div class="optext">
+				<div class="optext text18 mText26">
 					<div class="optextName title30 mTitle38 pin fwb titleMgnBtm">代理商加盟</div>
-					<div class="optexts optexts2 text18 mText26">成为iTalkBB蜻蜓代理商</div>
-					<div class="optexts optexts2 text18 mText26">请访问：www.iTalkBBdealer.com</div>
-					<div class="optexts optexts2 text18 mText26">联系电话：1-877-482-5551</div>
-					<div class="optexts optexts2 text18 mText26">Email: info@italkbb.com</div>
+					<div class="optexts optexts2">成为<span class="sans">iTalkBB</span>蜻蜓代理商</div>
+					<div class="optexts optexts2">请访问：<span class="sans">www.iTalkBBdealer.com</span></div>
+					<div class="optexts optexts2">联系电话：<span class="sans">1-877-482-5551</span></div>
+					<div class="optexts optexts2"><span class="sans">Email: info@italkbb.com</span></div>
 				</div>
 			</div></a>
 		</div><div class="collaborate3" >
-			<img class="collaboratePic" src="../shared/images/support/collaboratePic3.jpg" alt="">
-			<img class="mcollaboratePic mcollaboratePic3" src="../shared/images/support/mcollaboratePic3.jpg" alt="">
+			<img class="collaboratePic" src="../shared/images/contact/collaboratePic3.jpg" alt="">
+			<img class="mcollaboratePic mcollaboratePic3" src="../shared/images/contact/mcollaboratePic3.jpg" alt="">
 			<div class="opt2 opt3">
 				<div class="boptext">
-					<div class="boptextL">
-						<div class=" optextName title30 mTitle38 pin fwb quarters titleMgnBtm">美国总部</div>
-					
-						<div class="quartersName text18 mText26 fwb">DC Office</div>
-						<div class="quartersAddress text18 mText26">Address: 7926 Jones Branch Drive, Ste 1100, Mclean VA 22102 USA</div>
-						<div class="quartersNum text18 mText26">Fax: 703-848-1669 <br> Email: info@italkbb.com</div>
+					<div class="boptextL sans text18 mText26">
+						<div class=" optextName title30 mTitle38 pin fwb quarters titleMgnBtm">美国总部</div>					
+						<div class="quartersName fwb">DC Office</div>
+						<div class="quartersAddress">Address: 7926 Jones Branch Drive, Ste 1100, Mclean VA 22102 USA</div>
+						<div class="quartersNum">Fax: 703-848-1669 <br> Email: info@italkbb.com</div>
 					
 					</div><div class="boptextR">
-					
-
-
-						<div>
-							<div class="quartersName text18 fwb mTitle26">Austin Office</div>
-							<div class="quartersAddress text18 mText26">Address: 1122 S. Capital of Texas Highway, Suite 375, Austin TX 78746 USA</div>
-							<div class="quartersNum text18 mText26">Fax: 512-637-1451 <br> Email: info@italkbb.com</div>
+						<div class=" sans text18 mText26">
+							<div class="quartersName fwb">Austin Office</div>
+							<div class="quartersAddress">Address: 1122 S. Capital of Texas Highway, Suite 375, Austin TX 78746 USA</div>
+							<div class="quartersNum">Fax: 512-637-1451 <br> Email: info@italkbb.com</div>
 						</div>
 
 					</div>
@@ -228,30 +207,18 @@ section.mainMgnTop{margin-bottom: 1.5%}
 	</section>
 	</div>
 
+   </div>
 
 
-
-	</div>
-	
-
-
-
-
-	<section class='lineBlue'></section>
-        <div id="footer"></div>
-        <script>
-            $('#footer').load('footer.html');
-        </script>
+   <section class="lineBlue"></section>
+   <div id="footer"></div>
+   <script>
+      $('#header').load('header.html');
+      $('#footer').load('footer.html');
+   </script>
 </body>
-<script src="../shared/js/chs-sptQuery.js"></script>
-<script>
-
-
-
-
-
-
- 
+<script src="../shared/js/chs-contact.js"></script>
+<script> 
 
 // ***********************************************
 
