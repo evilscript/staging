@@ -4,7 +4,7 @@ $(document).ready(function(){
         $(window).scroll(function(){
             if($(this).scrollTop() > 300) {
                 $('.header1').slideUp(300);
-                $('img.bigLogo').attr('src','../shared/images/header/smallLogo.jpg');
+                $('img.bigLogo').attr('src','../shared/images/header/smallLogo.png');
                 $('.menuLeft, .menuRight, .teleText').addClass('revisedHeader');
                 $('.toggle').addClass('revisedHeader2');
                 $('.telephone').addClass('revisedHeader3');
