@@ -25,19 +25,19 @@ $(document).ready(function(){
 
     /*主页下方联系我们和social icon的mouseover效果*/
     $('img.contactIcon1').mouseover(function(){
-        $(this).attr('src','../shared/images/index/contactIcon1Blue.png');
+        $(this).attr('src','../shared/images/icons/callCenterIconH.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/contactIcon1.png');
+        $(this).attr('src','../shared/images/icons/callCenterIcon.png');
     });
     $('img.contactIcon2').mouseover(function(){
-        $(this).attr('src','../shared/images/index/contactIcon2Blue.png');
+        $(this).attr('src','../shared/images/icons/weChatIconH.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/contactIcon2.png');
+        $(this).attr('src','../shared/images/icons/weChatIcon.png');
     });
     $('img.contactIcon3').mouseover(function(){
-        $(this).attr('src','../shared/images/index/contactIcon3Blue.png');
+        $(this).attr('src','../shared/images/icons/storeIconH.png');
     }).mouseleave(function(){
-        $(this).attr('src','../shared/images/index/contactIcon3.png');
+        $(this).attr('src','../shared/images/icons/storeIcon.png');
     });
 
     /*英文版应该和上面的一样了！*/
