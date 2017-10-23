@@ -170,11 +170,11 @@
         	 
         	<!-- bbPlan Phone begin-->   
         	<div class="bbPlan showM">
-       	      <p class="planTitleBig title42 mTitle50 pin fwb">蜻蜓电话产品计划</p>
+       	      <p class="planTitleBig title42 mTitle50 pin fwb " id="titphone">蜻蜓电话产品计划</p>
        	      <div class="mSwiperBox mNewswiper2">
         	  <div class="planBox mSwiper-wrapper clearfix">
         	  	<div class="planCon plan1 mSwiper-slide" >
-                   <div class="planUpper">
+                   <div class="planUpper" id="up3">
         	  		  <div class="titleBox clearfix">
         	  			 <p class="title36 mTitle44">家庭经济计划</p>
         	  		  </div>
@@ -616,6 +616,19 @@ $(window).resize(function(){
 var screenWidth = window.innerWidth;
     if(screenWidth<767){
               
+                        var a = $("#up3").height();
+                  var c = $("#titphone").width();
+                  var d = $("#titphone").height();
+
+                  var b = c*0.035;
+                  var e = c*0.025;
+
+                  var p = d+b+e;
+                  var k = p+a;
+
+
+
+            $(".bbPlan").css({"background-size":"100% "+k+'px'});
 
         }
     if(screenWidth>=767){
@@ -647,6 +660,20 @@ $(function(){
 var screenWidth = window.innerWidth;
     if(screenWidth<767){
               
+          var a = $("#up3").height();
+                  var c = $("#titphone").width();
+                  var d = $("#titphone").height();
+
+                  var b = c*0.035;
+                  var e = c*0.025;
+
+                  var p = d+b+e;
+                  var k = p+a;
+
+
+
+            $(".bbPlan").css({"background-size":"100% "+k+'px'});
+
 
         }
     if(screenWidth>=767){
