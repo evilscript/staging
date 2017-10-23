@@ -22,7 +22,7 @@
 .login{width: 65%;margin: 0 auto;background: #327fe8;border-radius: 10px;text-align: center;line-height: 1.5;margin-top: 6%;cursor: pointer;}
 .www a{color: #ffffff;text-decoration:underline;}
 .www{margin-top: 2%;text-align: center;}
-.card{background: url(../images/login/loginbg4.png) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;width: 89%;height: 31vw;margin-left: 14%;padding: 13%;color: #222222}
+.card{background: url(../images/login/loginBgSmall.png) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;width: 89%;height: 31vw;margin-left: 14%;padding: 13%;color: #222222}
 .txtleft,.txtright{width: 50%;float: left;margin-top: 4%}
 .txtleft{padding-right: 5%}
 .dollar,.yuan{float: left;}
