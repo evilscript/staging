@@ -314,11 +314,11 @@
         	 
         	<!-- bundlesBox Phone begin-->   
         	<div class="bundlesBox showM">
-       	      <p class="planTitleBig title42 mTitle20">&nbsp;</p>
+       	      <p class="planTitleBig title42 mTitle20 " id="titphone">&nbsp;</p>
        	      <div class="mSwiperBox mNewswiper2">
         	  <div class="planBox mSwiper-wrapper clearfix">
         	  	<div class="planCon plan1 mSwiper-slide" >
-                   <div class="planUpper">
+                   <div class="planUpper" id="up3">
         	  		  <div class="titleBox clearfix">
         	  			 <p class="title36 mTitle44">电视+电话</p>
         	  		  </div>
@@ -939,6 +939,19 @@ $(window).resize(function(){
 var screenWidth = window.innerWidth;
     if(screenWidth<767){              
 
+ var a = $("#up3").height();
+                  var c = $("#titphone").width();
+                  var d = $("#titphone").height();
+
+                  var b = c*0.035;
+                  var e = c*0.025;
+
+                  var p = d+b+e;
+                  var k = p+a;
+
+            $(".bundlesBox").css({"background-size":"100% "+k+'px'});
+
+
         }
     if(screenWidth>=767){
           var a = $("#up1").height();
@@ -966,6 +979,18 @@ var screenWidth = window.innerWidth;
 $(function(){
 var screenWidth = window.innerWidth;
     if(screenWidth<767){              
+
+ var a = $("#up3").height();
+                  var c = $("#titphone").width();
+                  var d = $("#titphone").height();
+
+                  var b = c*0.035;
+                  var e = c*0.025;
+
+                  var p = d+b+e;
+                  var k = p+a;
+
+            $(".bundlesBox").css({"background-size":"100% "+k+'px'});
 
         }
     if(screenWidth>=767){
