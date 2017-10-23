@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy & Carson 
   Create Date:2017-07-27 
-  Update Date:2017-10-19
+  Update Date:2017-10-23
   Desc : Support Common CSS */  
  
 /*Initialization settings begin*/ 
@@ -30,6 +30,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .org{color:#ff972f;}
 .bl{color:#327fe8;}
 .black {color: #222;}
+.black2 {color: #555;}
 .gray{color: #888;}
 /*Initialization settings end*/ 
 

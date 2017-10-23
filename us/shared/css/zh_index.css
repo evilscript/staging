@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Carson & Amy
   Create Date:2017-07-06
-  Update Date:2017-10-21
+  Update Date:2017-10-23
   Desc : index main CSS */  
 a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;} 
 .mainSlider{
@@ -297,7 +297,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background: url(../images/index/s2icon1.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature1.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -306,7 +306,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background: url(../images/index/s2icon2.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature2.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -315,7 +315,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background: url(../images/index/s2icon3.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature3.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -324,7 +324,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background: url(../images/index/s2icon4.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature4.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -343,7 +343,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background: url(../images/index/s3icon1.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature5.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -352,7 +352,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background: url(../images/index/s3icon2.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature6.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -361,7 +361,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background: url(../images/index/s3icon3.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature7.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -370,7 +370,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background: url(../images/index/s3icon4.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature8.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -414,7 +414,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background: url(../images/index/chs_s4icon1.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature9.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -423,7 +423,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background: url(../images/index/s4icon2.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature10.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -432,7 +432,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 4%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background: url(../images/index/chs_s4icon3.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature11.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -441,7 +441,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     margin-bottom: 5%;
     padding-top: 0;
     padding-bottom: 0;
-    background: url(../images/index/s4icon4.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature12.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
 }
@@ -459,7 +459,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 5%;
-    background: url(../images/index/s5icon1.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature13.png) no-repeat;
     background-size: 6.5%;
     background-position-y: 50%;
 }
@@ -469,7 +469,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     padding-bottom: 2%;
     padding-top: 2%;
     margin-top:2%;
-    background: url(../images/index/s5icon2.png) no-repeat;
+    background: url(../images/index/iconsIndexFeature14.png) no-repeat;
     background-size: 6.5%;
     background-position-y: 50%;
 }
