@@ -73,9 +73,12 @@
     .wei{color: white;position: absolute;left: 10.41%;top: 10%;z-index: 99}
     .videom{display: none}
     .next, .up {position: absolute;line-height: 1;top: 43%;cursor: pointer;width: 3%;z-index: 999;display: none}
-    .up{left: 90%}
+    .up{left: 92%}
     .next{left: 5%}
     .next1{  position: absolute;line-height: 1;top: 43%;cursor: pointer;width: 3%;z-index: 999;display: none}
+    .up1{  position: absolute;line-height: 1;top: 43%;cursor: pointer;width: 3%;z-index: 999;display: none}
+    .up1{left: 92%}
+
 
 
     .bannerAll1{background: url(../shared/images/tv/video.jpg) no-repeat; background-size: 100%;height: 36.4vw}
@@ -134,8 +137,12 @@
         .dy30{    transform: none;}
         .text1{top: 3%;width: 100%;text-align: center;left: 0}
         .text2{text-align: center;width: 100%;top: 12%;left: 0}
-        .next,.up{width: 15%;display: none}
-        .up{left: 80%}
+        .next,.up{width: 8%;display: none}
+        .next1,.up1{width: 8%;display: none}
+        .up{left: 90%}
+        .next{left: 2%}
+        .up1{left: 92%}
+
      
         
 
@@ -213,6 +220,7 @@
                     <div class="img"><img class="imgc" src="../shared/images/tv/pc4.jpg"/><img class="imgm" src="../shared/images/tv/pm4.jpg"/><div class="black"></div></div>
                     <div class="img dy30"><img class="imgc" src="../shared/images/tv/pc5.jpg"/><img class="imgm" src="../shared/images/tv/pm5.jpg"/><div class="black"></div></div>
                     <div class="next1"><img style="width:100%" src="../shared/images/icons/mSwiperPrev.png" alt=""></div>
+                    <div class="up1"><img style="width:100%" src="../shared/images/icons/mSwiperNext.png" alt=""></div>
 
                 </div>
             </div>
@@ -432,6 +440,17 @@ var slideNub2;               //轮播图片数量
     $(window).resize(function(){
    var wi = window.innerWidth;
      if(wi<767){
+
+
+           $('.look2').mouseover(function(){
+            $('.up1').css('display','block')
+                })
+
+            $('.look2').mouseout(function(){
+                $('.up1').css('display','none')
+                })
+
+
             $(".slide2").height($(".slide2").width()*1);
         }
         if(wi>=767){
@@ -444,7 +463,19 @@ $(function(){
     var wb2 = window.innerWidth;
 
     if(wb2<767){
+
+                $('.look2').mouseover(function(){
+            $('.up1').css('display','block')
+                })
+
+            $('.look2').mouseout(function(){
+                $('.up1').css('display','none')
+                })
+
+
+
                  $(".slide2").height($(".slide2").width()*1);
+
         }
     if(wb2>=767){
 
@@ -500,6 +531,12 @@ $(function(){
 $('.next1').click(function(){
     left2();
 })
+
+
+$('.up1').click(function(){
+    right2();
+})
+
 
 
 //右滑动
