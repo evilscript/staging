@@ -1,19 +1,45 @@
+$(window).resize(function(){
+var screenWidth = window.innerWidth;
+var a = $('.bannerAll').width();
+    if(screenWidth<767){       
+        $('.bannerAll').css('height',a*1+'px');
+      }else if(767<=screenWidth<1000){
+        $('.bannerAll').css('height',a*0.49+'px')
+    }  
+
+    if(screenWidth>=1000){
+        $('.bannerAll').css('height',a*0.37+'px')
+      }
+
+
+});
+
+
+$(function(){
+var screenWidth = window.innerWidth;
+var a = $('.bannerAll').width();
+
+
+    if(screenWidth<767){       
+        $('.bannerAll').css('height',a*1+'px');
+      }else if(767<=screenWidth<1000){
+        $('.bannerAll').css('height',a*0.49+'px')
+    }
+
+    if(screenWidth>=1000){
+        $('.bannerAll').css('height',a*0.37+'px')
+      }
+
+});
+
+
 $(document).ready(function(){
     /*Header部分形状变化功能*/
-
-    // window.onresize = function(){
-//            var headerHeight =  $('.headerTotal').height();
-//                $('.mainLayout').css('padding-top',headerHeight+'px');
-//            }
-
     $(function(){
-            //var headerHeight =  $('.headerTotal').height();
-//                $('.mainLayout').css('padding-top',headerHeight+'px')
-        
         $(window).scroll(function(){
             if($(this).scrollTop() > 300) {
                 $('.header1').slideUp(300);
-                $('img.bigLogo').attr('src','../shared/images/header/smallLogo.jpg');
+                $('img.bigLogo').attr('src','../shared/images/header/smallLogo.png');
                 $('.menuLeft, .menuRight, .teleText').addClass('revisedHeader');
                 $('.toggle').addClass('revisedHeader2');
                 $('.telephone').addClass('revisedHeader3');
