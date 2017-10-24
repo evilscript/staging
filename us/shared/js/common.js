@@ -1,10 +1,19 @@
 $(document).ready(function(){
     /*Header部分形状变化功能*/
+
+     window.onresize = function(){
+            var headerHeight =  $('.headerTotal').height();
+                $('.mainLayout').css('padding-top',headerHeight+'px');
+            }
+
     $(function(){
+            var headerHeight =  $('.headerTotal').height();
+                $('.mainLayout').css('padding-top',headerHeight+'px')
+        
         $(window).scroll(function(){
             if($(this).scrollTop() > 300) {
                 $('.header1').slideUp(300);
-                $('img.bigLogo').attr('src','../shared/images/header/smallLogo.png');
+                $('img.bigLogo').attr('src','../shared/images/header/smallLogo.jpg');
                 $('.menuLeft, .menuRight, .teleText').addClass('revisedHeader');
                 $('.toggle').addClass('revisedHeader2');
                 $('.telephone').addClass('revisedHeader3');

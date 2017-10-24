@@ -2,18 +2,11 @@
     background: url(../images/mobile/mobile_product_banner.jpg) no-repeat;
     background-size: 100%;
 }
-.iconsBox .iconCon1 {
-    background:none;
-}
-.iconsBox .iconCon2 {
-    background:none;
-}
-.iconsBox .iconCon7 {
-    background:none;
-}
-.iconsBox .iconCon8 {
-    background:none;
-}
+.iconsBox .iconCon1,.iconsBox .iconCon2,.iconsBox .iconCon7,.iconsBox .iconCon8 {background:none;}
+.iconsBox .iconCon3{ background:url(../images/mobile/mobilePlanIcon1.png)  no-repeat top; background-size: 60%;}
+.iconsBox .iconCon4{ background:url(../images/mobile/mobilePlanIcon2.png)  no-repeat top; background-size: 60%;}
+.iconsBox .iconCon5{ background:url(../images/mobile/mobilePlanIcon3.png)  no-repeat top; background-size: 60%;}
+.iconsBox .iconCon6{ background:url(../images/mobile/mobilePlanIcon4.png)  no-repeat top; background-size: 60%;}
 ul.listNom{padding-left: 1%;}
 ul.listNom li{list-style-type:decimal;}
 .cardList{text-align: left;}
