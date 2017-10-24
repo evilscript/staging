@@ -144,6 +144,11 @@
 .otherFuncBox{padding: 0 3.5%;margin-bottom: -1%;}
 .otherFuncBox .Func{float: left; padding: 8% .5%  0 .5%; width: 16.6%;}
 .otherFuncBox .Func1{ background:url(../images/phone/bbPlanIcon09.png)  no-repeat top; background-size: 42%;}
+.otherFuncBox .Func2{ background:url(../images/phone/bbPlanIcon10.png)  no-repeat top; background-size: 42%;}
+.otherFuncBox .Func3{ background:url(../images/phone/bbPlanIcon11.png)  no-repeat top; background-size: 42%;}
+.otherFuncBox .Func4{ background:url(../images/phone/bbPlanIcon12.png)  no-repeat top; background-size: 42%;}
+.otherFuncBox .Func5{ background:url(../images/phone/bbPlanIcon13.png)  no-repeat top; background-size: 42%;}
+.otherFuncBox .Func6{ background:url(../images/phone/bbPlanIcon14.png)  no-repeat top; background-size: 42%;}
 .Func .btnImgN img{width: 6.8%; margin-left: 4%; margin-bottom: 1%;}
 .otherIconBox{margin-top: -3%;}
 .otherIconBox .foldText{text-align: left; padding-left: 6%; padding-right: 4%;}
