@@ -1,3 +1,4 @@
+//bannerAll height begin
 $(window).resize(function(){
 var screenWidth = window.innerWidth;
 var a = $('.bannerAll').width();
@@ -31,7 +32,7 @@ var a = $('.bannerAll').width();
       }
 
 });
-
+//bannerAll height end
 
 $(document).ready(function(){
     /*Header部分形状变化功能*/
