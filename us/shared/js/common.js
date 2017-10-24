@@ -1,14 +1,14 @@
 $(document).ready(function(){
     /*Header部分形状变化功能*/
 
-     window.onresize = function(){
-            var headerHeight =  $('.headerTotal').height();
-                $('.mainLayout').css('padding-top',headerHeight+'px');
-            }
+    // window.onresize = function(){
+//            var headerHeight =  $('.headerTotal').height();
+//                $('.mainLayout').css('padding-top',headerHeight+'px');
+//            }
 
     $(function(){
-            var headerHeight =  $('.headerTotal').height();
-                $('.mainLayout').css('padding-top',headerHeight+'px')
+            //var headerHeight =  $('.headerTotal').height();
+//                $('.mainLayout').css('padding-top',headerHeight+'px')
         
         $(window).scroll(function(){
             if($(this).scrollTop() > 300) {

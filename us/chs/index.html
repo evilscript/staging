@@ -564,5 +564,17 @@ a:hover{text-decoration:none;}
         autoplayDisableOnInteraction : false,
      });
    </script>
+   <script>
+   $(document).ready(function(){
+window.onresize = function(){
+var b = $('.headerTotal').height();
+$('.mainLayout').css('padding-top',b+'px');
+}
+$(function(){
+var b = $('.headerTotal').height();
+$('.mainLayout').css('padding-top',b+'px')
+})
+})
+   </script>
 
 </html>

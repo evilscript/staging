@@ -35,7 +35,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 /*Initialization settings end*/ 
 
 /* mainLayout begin */
-.mainLayout{max-width:1920px; width:100%; margin:0 auto;/*padding-top: 9%;*/}
+.mainLayout{max-width:1920px; width:100%; margin:0 auto; padding-top: 9%;}
 .mainMgnTop{margin-top: 3%;}
 .titleMgnBtm{margin-bottom: 1vw;}
 /*.titleMgnBtm span{display: block;}*/
@@ -79,11 +79,12 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .priceBox p.priceSmall{text-align: left;}
 .priceSmall span{display: block;}
 .priceSmall .smallNom{margin-bottom: 15%;}
-.priceSmall .smallSub{margin-left: 5.8%;font-family: 微软雅黑, sans-serif;}
+.priceSmall .smallSub{margin-left: 5.8%;font-family: Microsoft Yahei, sans-serif;}
 /* price css end */
 
 /*字体部分*/
 .fwb{font-weight: 700;}
+.fwn{font-weight: normal;}
 
 @font-face {
     font-family: 'pingfang';
@@ -879,7 +880,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 
 @media (min-width:768px) and (max-width:1000px) {    
     /* mainLayout start */	
-	.mainLayout{max-width:1000px; /*padding-top: 14%;*/margin-bottom: 0;}
+	.mainLayout{max-width:1000px; padding-top: 14%; margin-bottom: 0;}
 	.mainMgnTop{margin-top: 3.5%;}
 	.titleMgnBtm{margin-bottom: 1.6vw;}
 	.lineOrange{height:0; border-bottom: .6vw solid #ff7f00;}
@@ -1030,7 +1031,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 
 @media (max-width:767px) {
 	/* mainLayout start */	
-	.mainLayout{max-width:767px; /*padding-top: 14%;*/margin-bottom: 0;}
+	.mainLayout{max-width:767px; padding-top: 14%; margin-bottom: 0;}
 	.mainMgnTop{margin-top: 5%;}
 	.titleMgnBtm{margin-bottom: 3vw;}
 	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
