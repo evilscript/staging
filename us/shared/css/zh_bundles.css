@@ -131,11 +131,14 @@ ul.bundlesCon li.double{width: 100%;}
 .bundlesTV,.bundlesBB,.bundlesMobile{text-align: center;}
 .bundlesTV,.bundlesMobile{margin-bottom: 7%;}
 .bundlesMobile{margin-top: 5%;}
-.bundlesText{height: 40.6vw; margin-bottom: 1%;}
-.bundlesTV .bundlesText{background: url(../images/bundles/bundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 6vw;}
-.bundlesBB .bundlesText{background: url(../images/bundles/bundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 7vw;}
-.bundlesMobile .bundlesText{height: 42vw; background: url(../images/bundles/bundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 7.5vw;}
-.dataSources{color: #fff; position: absolute; right: 10%; margin-top: 30vw;}
+.bundlesText{margin-bottom: 1%;}
+.mobileBanner{background: url(../images/bundles/bundlesMobilepic.png) no-repeat; background-size: 100%;}
+.mBannerPic{max-width:1920px; margin: 0 auto; width: 83%; padding-top: 4.2%;}
+.mBannerPic img,.tvBannerPic img,.bbBannerPic img{width: 100%;}
+.tvBannerPic{margin-bottom: 2%;}
+.bbBannerPic{margin-bottom: 4%;}
+.dataSources{color: #fff; margin-bottom: 2.5%; padding-bottom: 3%; padding-right: 10%; text-align: right;}
+
 .iconsBox{float: left; width: 30%; text-align: left;}
 .iconsSpace{width: 5%;}
 .iconsTitle{padding: 0 5.2%; padding-top: 39%; margin-bottom: 4%;text-align: center;}
@@ -238,15 +241,16 @@ ul.bundlesCon li.double{width: 100%;}
 	
 	.lineSelectText:before{border-top: .35vw solid #00afff;}
 	.chinaSimCard{background-size: 17%;padding-left: 25.5%; margin: 2% 0;}
-	/*plan End*/ 
-	
+	/*plan End*/ 	
 	
 	.bundlesMobile{margin-top: 7.2%;}
-	.bundlesText{height: 50vw; margin-bottom: 1%;}
-	.bundlesTV .bundlesText{background-size: 100%; background-position-y: 10vw;}
-    .bundlesBB .bundlesText{background-size: 100%; background-position-y: 11vw;}
-	.bundlesMobile .bundlesText{height: 47vw; background-size: 100%; background-position-y: 11.7vw;}
-	.dataSources{right: 5%; margin-top: 29.2vw;}
+	.bundlesTV{margin-top: 10%; margin-bottom: 10%;}
+	.bundlesText{margin-bottom: 2%;}
+	.mobileBanner{background: url(../images/bundles/ipadBundlesMobilepic.png) no-repeat; background-size: 100%;}
+    .mBannerPic{max-width:1000px; margin: 0 auto; width: 92%; padding-top: 5.2%; padding-bottom: 1%;}
+    .mBannerPic img,.tvBannerPic img,.bbBannerPic img{width: 100%;}
+    .dataSources{margin-bottom: 2.5%; padding-bottom: 6%; padding-right: 10%;}
+	
 	.iconsCon{padding: 0 5%;}
 	.iconsList p{padding-left: 9%; background-size: 6%; background-position-y: .32vw;}
 	.iconsCon2 .iconsList p{padding-left: 6%; background-size: 4%; background-position-y: .26vw;}
@@ -308,16 +312,17 @@ ul.bundlesCon li.double{width: 100%;}
     .line3,.line6{margin-right:0;}
 	.chinaSimCard{margin:2% 0; background-position-y: 50%;}
 	.checkboxText{margin-left: -3.5%;}
-	/*plan End*/
+	/*plan End*/	
 	
 	.bundlesMobile {margin-top: 12%;}
-	.bundlesTV,.bundlesBB{text-align: center;}
 	.bundlesTV{margin-top: 18%; margin-bottom: 20%;}
+	.bundlesText{margin-bottom: 6%;}
+	.mobileBanner{background: url(../images/bundles/mBundlesMobilepic.png) no-repeat; background-size: 100%;}
+    .mBannerPic{max-width:1000px; margin: 0 auto; width: 78%; padding-top: 9%; padding-bottom: 1%;}
+    .mBannerPic img,.tvBannerPic img,.bbBannerPic img{width: 100%;}
+	.bbBannerPic{margin-bottom: 0%;}
+    .dataSources{margin-bottom: 2%; padding-bottom: 6%; padding-right: 10%;}	
 	.bundlesTV .iconsCon{margin-top: -5%;}
-    .bundlesTV .bundlesText{height: 67vw; background: url(../images/bundles/mBundlesTVpic.jpg) no-repeat; background-size: 100%; background-position-y: 22vw;}
-    .bundlesBB .bundlesText{height: 72vw; background: url(../images/bundles/mBundlesBBpic.jpg) no-repeat; background-size: 100%; background-position-y: 24vw;}
-	.bundlesMobile .bundlesText{height: 189vw; background: url(../images/bundles/mBundlesMobilepic.png) no-repeat; background-size: 100%; background-position-y: 24vw;}
-	.dataSources{right: 6%; margin-top: 156vw;}
 	
 	.iconsCon{padding: 0 10%;}
 	.iconsBox{float: none; width: 100%; padding-top: 11%;}
