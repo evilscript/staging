@@ -246,7 +246,7 @@ var x = $('.loginf').width();
 var a = $('.bannerAll').width();
     if(screenWidth<=767){       
         $('.bannerAll').css('height',a*1.6+'px');
-        $('.loginf').css('height',x*0.55+'px')
+        $('.loginf').css('height',x*0.65+'px')
     }
     else if(screenWidth<=1000&&screenWidth>767){
         $('.bannerAll').css('height',a*0.49+'px')
@@ -272,11 +272,12 @@ var a = $('.bannerAll').width();
 $(function(){
 var screenWidth = window.innerWidth;
 var x = $('.loginf').width();
+console.log(x);
 
 var a = $('.bannerAll').width();
     if(screenWidth<=767){       
         $('.bannerAll').css('height',a*1.6+'px');
-        $('.loginf').css('height',x*0.55+'px')
+        $('.loginf').css('height',x*0.65+'px')
     }
     else if(screenWidth>767&&screenWidth<=1000){
         $('.bannerAll').css('height',a*0.49+'px')
