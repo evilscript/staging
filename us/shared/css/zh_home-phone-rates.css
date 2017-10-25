@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy
   Create Date:2017-09-01 
-  Update Date:2017-09-12 
+  Update Date:2017-10-25 
   Desc : bbRates CSS */ 
 
 /* bbRates banner begin */
@@ -49,7 +49,7 @@
 /* bbRegion end */
 
 /* bbRates begin */
-.bbRates{text-align: center;}		   
+.bbRates{text-align: center; margin-bottom: 7%;}		   
 .ratesPart1{padding: 3.6% 0 3% 0;}
 a.alphaButton{text-decoration: none; color: #222;}
 .alphaCon{width: 55%; float: left;margin-bottom: -1.5%;}
@@ -140,7 +140,7 @@ a.alphaButton{text-decoration: none; color: #222;}
 	
 	/* bbRates begin */
 	.ratesPart1{padding: 6% 0 3% 0;}
-	.bbRates{margin-bottom: 7%;}
+	.bbRates{margin-bottom: 6.5%;}
 	.searchImg,.searchBar,.searchButton{line-height: 1.5}
 	.searchImg{width: 12%;margin-left: 0;}
 	.searchBar{width: 70%;}
@@ -179,7 +179,7 @@ a.alphaButton{text-decoration: none; color: #222;}
 	.alphabetBox{width: 105.2%;margin-left: 1%;}
 	.regionNameSearch{width: 100%;margin-bottom: 7.2%;}
 	.regionNameSearch .searchTitle{margin-left: 0;}
-	.bbRates{margin-bottom: 13%;}
+	.bbRates{margin-bottom: 12%;}
 	.alphaButton{width: 12%;}
 	.searchImg,.searchBar,.searchButton{line-height: 1.5}
 	.searchImg{margin-left: 1%; width: 8.6%;}

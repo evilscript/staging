@@ -250,4 +250,56 @@ $('.changes1').click(function(){
 })
 
 </script>
+
+<script>
+$(window).resize(function(){
+var screenWidth = window.innerWidth;
+var x = $('.loginf').width();
+
+
+var a = $('.bannerAll').width();
+    if(screenWidth<=767){       
+
+        $('.loginf').css('height',x*0.65+'px')
+    }
+    else if(screenWidth<=1000&&screenWidth>767){
+    
+        $('.loginf').css('height',x*0.75+'px')
+    }
+
+
+
+    else if(screenWidth<=1250&&screenWidth>1000){
+        $('.loginf').css('height',x*0.7+'px')
+
+    }
+
+    else if(screenWidth>1250){
+        $('.loginf').css('height',x*0.8+'px')
+
+    }
+
+
+});
+
+
+$(function(){
+var screenWidth = window.innerWidth;
+var x = $('.loginf').width();
+var a = $('.bannerAll').width();
+    if(screenWidth<=767){ 
+        $('.loginf').css('height',x*0.65+'px')
+    }
+    else if(screenWidth>767&&screenWidth<=1000){       
+        $('.loginf').css('height',x*0.75+'px')
+    }
+    else if(screenWidth<=1250&&screenWidth>1000){
+        $('.loginf').css('height',x*0.7+'px')
+    }
+    else if(screenWidth>1250){
+        $('.loginf').css('height',x*0.8+'px')    
+    }
+});
+</script>
+
 </html>

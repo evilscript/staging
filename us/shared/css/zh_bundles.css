@@ -20,7 +20,7 @@
 /*plan begin*/
 ul.listNom{padding-left: 1%;}
 ul.listNom li{list-style-type:decimal;}
-.bdDisclaimer{margin-top: 5%;}
+.bdDisclaimer{margin-top: 5%; margin-bottom: 7%;}
 .left{float: left;}
 .right{float: right;}
 .titleMgnBtm,.bundlesBox,.bundlesBoxOther,.bbTryout,.bbApp,.otherFuncBox{text-align: center;}
@@ -213,7 +213,7 @@ ul.bundlesCon li.double{width: 100%;}
 
     /*plan begin*/
 	ul.listNom{padding-left: 2%;}
-	.bdDisclaimer{margin-top: 4.5%; padding: 0 5%;}
+	.bdDisclaimer{margin-top: 4.5%; padding: 0 5%; margin-bottom: 6%;}
 	.bundlesBox,.bundlesBoxOther{padding: 0 5%;} 
 	.bundlesBoxOther{margin-top: 6%;}	
     .titleBox{padding: 0 12%;}
@@ -278,7 +278,7 @@ ul.bundlesCon li.double{width: 100%;}
 	
     /*plan begin*/
 	ul.listNom{padding-left: 4%;}
-	.bdDisclaimer{margin-top: 10.5%; padding: 0 5%;}
+	.bdDisclaimer{margin-top: 10.5%; padding: 0 5%; margin-bottom: 12%;}
 	.bbTryout,.bbApp,.otherFuncBox{text-align: left;}
 	.bundlesBox,.bundlesBoxOther{padding: 0;}
 	.bundlesBoxOther{margin-top:7%;}

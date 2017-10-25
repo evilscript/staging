@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy
   Create Date:2017-09-05 
-  Update Date:2017-09-14 
+  Update Date:2017-10-25
   Desc : bbPlan CSS */ 
   
 /* bannerAll begin */
@@ -140,6 +140,7 @@
 .function2{background:url(../images/phone/bbPlanBigIcon02.png)  no-repeat top; background-size: 26.2%;}
 .function3{background:url(../images/phone/bbPlanBigIcon03.png)  no-repeat top; background-size: 26.2%;}
 .function4{background:url(../images/phone/bbPlanBigIcon04.png)  no-repeat top; background-size: 26.2%;}
+.otherFunction {margin-bottom: 7%;}
 .otherFunction .otherTitle{margin-bottom: 3%;}
 .otherFuncBox{padding: 0 3.5%;margin-bottom: -1%;}
 .otherFuncBox .Func{float: left; padding: 8% .5%  0 .5%; width: 16.6%;}
@@ -225,6 +226,7 @@
 	.appAPK img{width: 60%;}
     .appNote{text-align: center;}
     .function{padding: 0 5%;padding-top: 16%; margin-bottom: 5%;}
+	.otherFunction {margin-bottom: 6%;}
 	.otherFuncBox{margin-bottom: 6%}
 	.Func .btnImgN img{width: 8%;}
 }
@@ -281,7 +283,7 @@
 	.apkNote{margin-right: 0; text-align: center;}
 	
     .function{padding-top: 36%; margin-bottom: 15%;background-size: 30%;}
-	.otherFunction{margin-top: -1%;}
+	.otherFunction{margin-top: -1%; margin-bottom: 12%;}
 	.otherFunction .otherTitle{margin-bottom: 5%;}
 	.otherFuncBox{margin-bottom: -4%;}	
 	.otherFuncBox .Func{width: 25%; padding: 0 2%;padding-top: 18%; margin-bottom: 6%;background-size: 60%;}
