@@ -47,9 +47,9 @@
 		.subNav{margin:1.5%;padding: 1% 1% 1% 3%;}
 		.lvb,.lvc,.lvd{display: none}
 		.lva{margin-left: -0.5%}
-		.lvb{margin-left: 7.5%}
-		.lvc{margin-left: 15.5%}
-		.lvd{margin-left: 24%}
+		.lvb{margin-left: -0.5%}
+		.lvc{margin-left: -0.5%}
+		.lvd{margin-left: -0.5%}
         .us{margin-left: -7%}
 		.menu3x li:hover{cursor: pointer;}
 		.lv1:hover{cursor: pointer;}
@@ -89,9 +89,9 @@
      .menu{width: 60%}
      .us{margin-left: -6%}
      .lva{margin-left: 1%}
-     .lvb{margin-left: 16%}
-     .lvc{margin-left: 30%}
-     .lvd{margin-left: 46%}
+     .lvb{margin-left: 1%}
+     .lvc{margin-left: 1%}
+     .lvd{margin-left: 1%}
      .lv2{width: 45%}
      
 
@@ -200,7 +200,7 @@
                         </ul>
     	     		</li>
     	     		<li class="lv2 lvd">
-                        <ul class="title24 mTitle32 menu3x ">
+                        <ul class="title22 mTitle30 menu3x ">
                             <a href="javascript:void(0)"><li class="subNav subNavx">Accounting & Finance</li></a>
                                 
                             <a href="javascript:void(0)"><li class="subNav subNavx">Computer & Technology</li></a>
@@ -405,5 +405,22 @@
         });
 
 
+</script>
+
+<script>
+    $(document).ready(function(){
+        if (window.location.href.indexOf("#us") > -1) {
+            $(".us").trigger("click");
+        }
+        else if (window.location.href.indexOf("#ca") > -1) {
+            $(".ca").trigger("click");
+        }
+        else if (window.location.href.indexOf("#au") > -1) {
+            $(".au").trigger("click");
+        }
+        else if (window.location.href.indexOf("#sg") > -1) {
+            $(".sg").trigger("click");
+        }
+    })
 </script>
 </html>
