@@ -37,7 +37,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 /* mainLayout begin */
 .mainLayout{max-width:1920px; width:100%; margin:0 auto; padding-top: 9%;}
 .mainMgnTop{margin-top: 3%;}
-.titleMgnBtm{margin-bottom: 1vw;}
+.titleMgnBtm{margin-bottom: 1%;}
 /*.titleMgnBtm span{display: block;}*/
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00; -khtml-border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8; -khtml-border-bottom: .4vw solid #327fe8; margin-top: 7%;}

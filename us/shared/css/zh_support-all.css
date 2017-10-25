@@ -99,6 +99,9 @@ ul.listDot li{float: left; width: 28%; list-style-type: disc;}
 .QRcode p:first-child{margin-top: 0;}
 .QRcode p img{width: 100%; display: block;}
 .QRcode p img:first-child{margin-bottom: 6%;}
+.appAPK{float: left;  margin-left: 58%; cursor: pointer; margin-top: .6%;margin-bottom: 1.8%;}
+.appAPK img{width: 70%;}
+.appNote{margin-bottom: 2%; width: 90%;}
 @media  (min-width:1651px) and (max-width:1800px){ul.listNom,ul.listDot{margin-left: 1.85%;}}
 @media  (min-width:1501px) and (max-width:1650px){ul.listNom,ul.listDot{margin-left: 1.86%;}}
 @media  (min-width:1351px) and (max-width:1500px){ul.listNom,ul.listDot{margin-left: 1.88%;}}
@@ -142,6 +145,7 @@ ul.listDot li{float: left; width: 28%; list-style-type: disc;}
 	.partAll,.imgCnt{padding:0 5%; padding-right: 4.8%;} 
 	.Sharp{width: 2.5%;}
 	.searchMgnBtm{margin-bottom:-6%;}
+	.appAPK img{width: 60%;}
 	.imgAppExplain img{width: 65%;} 
 	.textNote{padding-left: 2.5%; background-size: 1.5%;background-position-y: 2.8%;}
 	ul.listNom,ul.listDot{margin-left: 2.15%;}
@@ -207,6 +211,9 @@ ul.listDot li{float: left; width: 28%; list-style-type: disc;}
 	.QRcode p:last-child{margin-bottom: 8%;}
 	.QRcode p img:first-child{margin-bottom: 12%;}
 	.QRcode p span{text-align: center; margin-top: 2%;}
+	.appAPK{margin-left: 48.5%;margin-bottom: 5%;float: none; width: 100%;}
+	.appAPK img{width: 3.2%;}
+	.appNote{margin-bottom: 6%; width: 90%;}
 	.sptSearch .left{background: none;
 	background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
     background: -webkit-gradient(linear, top, bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5));
