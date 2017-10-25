@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy & Carson 
   Create Date:2017-07-27 
-  Update Date:2017-10-23
+  Update Date:2017-10-25
   Desc : Support Common CSS */  
  
 /*Initialization settings begin*/ 
@@ -658,12 +658,13 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     display:block;
 
 }
-.bbb {
+/*.bbb {
     width: 6%;
     margin-left: 47%;
     margin-top: 0%;
-}
-
+}*/
+.bbbimg{width: 6%; margin: 0 auto; line-height: 3.4; background: url(../images/footer/bbb.png) no-repeat scroll center center; background-size: 100%;}
+.bbbimg p{margin-top: 26%; margin-bottom: 38%;}
 
 @media (max-width:1700px){
     .headerMirrorSearchPart{
@@ -1021,11 +1022,13 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
         padding-top: 2%;
     }
 	.footerText{padding-bottom: .6%;}
-    .bbb {
+    /*.bbb {
         width: 12%;
         margin-left: 44%;
         margin-top: 1%;
-    }
+    }*/
+	.bbbimg{width: 12%; line-height: 3.9;}
+    .bbbimg p{margin-top: 18%; margin-bottom: 30%;}
 }
 
 @media (max-width:767px) {
@@ -1252,11 +1255,13 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
         padding-toP: 2%;
         padding-bottom: 3%;
     }
-    .bbb {
+    /*.bbb {
         width: 25%;
         margin-left: 37.5%;
         margin-top: 0;
-    }
+    }*/
+	.bbbimg{width: 25%; line-height: 3.6;}
+    .bbbimg p{margin-top: 28%; margin-bottom: 38%;}
     .disclaimer {
         padding-bottom: 0;
     }
