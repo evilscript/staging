@@ -8,8 +8,8 @@ label{font-weight: 500}
 		a:hover{color:#333333;}
 		.bodyy{margin-top: 9%;background-color: white}
 		.bannerAll1{background: url(../images/tv/tvPlanBannerBg.jpg) no-repeat; background-size: 100%;}
-		.bannerAll2{background: url(../images/tv/tvgoodAd2.jpg) no-repeat; background-size: 100%;height: 41vw}
-		.bannerAll3{background: url(../images/tv/tvgoodAd3.jpg) no-repeat; background-size: 100%;height: 35vw}
+		.bannerAll2{background: url(../images/tv/newInterfaceBg.jpg) no-repeat; background-size: 100%;height: 41vw}
+		.bannerAll3{background: url(../images/tv/installBg.jpg) no-repeat; background-size: 100%;height: 35vw}
 		.bannerAll2{color: #444444;padding-top: 4%}
 		.bannerAll3{color: #444444;padding-top: 4%}
 		.banner2txt{width: 35%}
@@ -57,7 +57,7 @@ label{font-weight: 500}
 		.icontit{text-align: center;margin-top: 5%;}
 		.icons1 img,.icons2 img,.icons3 img,.icons4 img{width: 26.2%;margin:0 auto;}
 		.icontext{width: 81%;margin: 0 auto;}
-		.bannerAd1Pic{background:url(../images/tv/tvgoodAd1.jpg) center center  no-repeat;background-size: 100% 100% }
+		.bannerAd1Pic{background:url(../images/tv/exclusivePic.jpg) center center  no-repeat;background-size: 100% 100% }
 		.bg{background:url(../images/phone/bbPlanBg01.jpg ) center center  no-repeat;background-size: cover}
 		.listBox{padding-top: 5.2%; padding-left: 8%; padding-bottom: 3.5%;width: 74.2%;margin: 0 auto;background-color: #f2f2f2;}
 		.listBox p{float: left; width:25%; padding-left: 2.5%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 6%; background-position-y: 50%;}
@@ -118,8 +118,8 @@ label{font-weight: 500}
    		.icons4,.icons3{margin-top:4% }
    		.showtit2{ width: 89.6%;margin: 0 auto;margin-bottom: 3%; text-align: left;}
    		.bannerAll1{background: url(../images/tv/ipadTVPlanBannerBg.jpg) no-repeat; background-size: 100%;}
-		.bannerAll2{background: url(../images/tv/ipadTVgoodAd2.jpg) no-repeat; background-size: 100%;height: 53vw}
-		.bannerAll3{background: url(../images/tv/ipadGoodAd3.jpg) no-repeat; background-size: 100%;height: 50vw}
+		.bannerAll2{background: url(../images/tv/ipadNewInterfaceBg.jpg) no-repeat; background-size: 100%;height: 53vw}
+		.bannerAll3{background: url(../images/tv/ipadInstallBg.jpg) no-repeat; background-size: 100%;height: 50vw}
 		.compare{width: 90%}
 		}
 
@@ -130,8 +130,8 @@ label{font-weight: 500}
 @media (max-width:767px){
 	.icontext{width:100% }
 	.bannerAll1{background: url(../images/tv/mTVPlanBannerBg.jpg) no-repeat; background-size: 100%;}
-	.bannerAll2{background: url(../images/tv/tvgoodAd2M.jpg) no-repeat; background-size: 100%;height: 106vw; padding-top: 6%;}
-	.bannerAll3{background: url(../images/tv/tvgoodAd3M.jpg) no-repeat; background-size: 100%;height: 91vw; padding-top: 6%;}
+	.bannerAll2{background: url(../images/tv/mNewInterfaceBg.jpg) no-repeat; background-size: 100%;height: 106vw; padding-top: 6%;}
+	.bannerAll3{background: url(../images/tv/mInstallBg.jpg) no-repeat; background-size: 100%;height: 91vw; padding-top: 6%;}
 	.banner2txt{width: 100%; text-align: left}
 	.bg{background: url(../images/phone/mBBPlanBg01.jpg) no-repeat;background-size: 100%;}
 	.compare{width: 100%}
