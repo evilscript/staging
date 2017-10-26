@@ -88,6 +88,8 @@
         .ula li{list-style-type:circle;margin-left: 1%}
         .button{width: 20%;background: #327fe8;text-align: center;border-radius: 10px;color: white;margin: 0 auto;margin-top: 5%;}
         .button a{color: white}
+                .wechatIconSocial {max-width: 200px;width: 20%;padding: 10px;border: 1px solid #dddddd;margin-top: 3%;margin-bottom: 3%;display: none}
+        .w100{width: 100%}
 
    @media  (min-width:768px) and (max-width:1000px){
      .applyMainTop{margin-top: 6%;background-position: 0 75%}
@@ -426,6 +428,19 @@
                         </a>
                     </div>
                 </div>
+
+             <div class="wechatIconSocial">
+                <p class="wechatIconSocialTitle">扫码关注微信公众号</p>
+                <img src="../shared/images/icons/wechatQRcodeIcon.jpg" class="img w100">
+            </div>
+
+             <script>
+                    $('.logo1').click(function(){
+                        $('.wechatIconSocial').slideDown(500);
+                    }).mouseleave(function(){
+                        $('.wechatIconSocial').slideUp(500);
+                    });
+            </script>
 
             </div>
         </div>
