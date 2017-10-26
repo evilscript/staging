@@ -61,7 +61,7 @@ $(".button3").click(function(){
 			   "shoptime":"Hours: Mon - Sun, 11:00am - 7:30pm",
 			   "shopnum":"Tel: (626) 513-0800",
 			   "mapd":"http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d3302.839541864705!2d-118.06226668457619!3d34.12485737134702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2dba60cd4c111%3A0xfba0cd50ec490229!2zMTIzMiBTIEdvbGRlbiBXIEF2ZSwgQXJjYWRpYSwgQ0EgOTEwMDfnvo7lm70!5e0!3m2!1szh-CN!2scn!4v1506488027209",
-				"pic":[{'str':"../shared/images/contact/CAA1.jpg"},{'str':"../shared/images/contact/CAA2.jpg"},{'str':"../shared/images/contact/CAA3.jpg"}]},
+				"pic":[{'str':"../shared/images/contact/ArcadiaStores1.jpg"},{'str':"../shared/images/contact/ArcadiaStores2.jpg"},{'str':"../shared/images/contact/ArcadiaStores3.jpg"}]},
 
 				{"shopName":"Hacienda Heights",
 			   "shopaddress":"Address: <span class='pin'>哈岗99大华超市内</span> <br> 1625 S Azusa Ave, Hacienda Heights, CA 91745",
@@ -76,7 +76,7 @@ $(".button3").click(function(){
 			   "shoptime":"Hours: Mon - Sun, 11:00am - 7:00pm",
 			   "shopnum":"Tel: (949) 207-6825",
 			     "mapd":"https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=5414-D+Walnut+Ave.,+Irvine,+CA++92604&aq=&sll=37.0625,-95.677068&sspn=52.020054,114.169922&ie=UTF8&hq=&hnear=5414+Walnut+Ave,+Irvine,+Orange,+California+92604&t=m&ll=33.697922,-117.767429&spn=0.024993,0.057507&z=14&iwloc=A&output=embed",
-			 	"pic":[{'str':"../shared/images/contact/CAL1.jpg"},{'str':"../shared/images/contact/CAL2.jpg"},{'str':"../shared/images/contact/CAL3.jpg"}]},
+			 	"pic":[{'str':"../shared/images/contact/IrvineStores1.jpg"},{'str':"../shared/images/contact/IrvineStores2.jpg"},{'str':"../shared/images/contact/IrvineStores3.jpg"}]},
 
 
 			    {"shopName":"Monterey Park",
@@ -84,7 +84,7 @@ $(".button3").click(function(){
 			   "shoptime":"Hours: Mon - Sun, 11:00am - 7:00pm",
 			   "shopnum":"Tel: (626) 500-1886",
 			     "mapd":"http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d3305.001456357596!2d-118.13615178446753!3d34.0694769242686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c54221b58e8b%3A0xe5bd465fb23d485e!2s500+N+Atlantic+Blvd+%23163%2C+Monterey+Park%2C+CA+91754%E7%BE%8E%E5%9B%BD!5e0!3m2!1shl=en!2scn!4v1484122416976",
-			 	"pic":[{'str':"../shared/images/contact/CAM1.jpg"},{'str':"../shared/images/contact/CAM2.jpg"},{'str':"../shared/images/contact/CAM3.jpg"}]},
+			 	"pic":[{'str':"../shared/images/contact/MontereyParkStores1.jpg"},{'str':"../shared/images/contact/MontereyParkStores2.jpg"},{'str':"../shared/images/contact/MontereyParkStores3.jpg"}]},
 
 
 			 	{"shopName":"Rowland Heights",
@@ -92,7 +92,7 @@ $(".button3").click(function(){
 			   "shoptime":"Hours: Mon - Sun, 11:00am - 7:30pm",
 			   "shopnum":"Tel: (626) 593-5866",
 			     "mapd":"http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1015+Nogales+St.+%23113B,+Rowland+Heights,+CA+91748&aq=&sll=34.123873,-118.059262&sspn=0.007327,0.013937&ie=UTF8&hq=&hnear=1015+Nogales+St,+Rowland+Heights,+Los+Angeles,+California+91748&t=m&ll=34.015388,-117.878323&spn=0.049801,0.115013&z=13&iwloc=A&output=embed",
-			 	"pic":[{'str':"../shared/images/contact/CAR1.jpg"},{'str':"../shared/images/contact/CAR2.jpg"},{'str':"../shared/images/contact/CAR3.jpg"}]},
+			 	"pic":[{'str':"../shared/images/contact/RowlandHeightsStores1.jpg"},{'str':"../shared/images/contact/RowlandHeightsStores2.jpg"},{'str':"../shared/images/contact/RowlandHeightsStores3.jpg"}]},
 			   
 
 			 	{"shopName":"San Diego",
@@ -108,7 +108,7 @@ $(".button3").click(function(){
 				"shoptime":"Hours: Mon - Sun, 11:00am - 7:30pm",
 				"shopnum":"Tel: (626) 288-9088",
 				"mapd":"http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=ITalkBB+San+Gabriel+Store&aq=&sll=37.0625,-95.677068&sspn=54.269804,114.169922&ie=UTF8&hq=ITalkBB+San+Gabriel+Store&hnear=&t=m&cid=1269294396470645711&ll=34.099154,-118.087749&spn=0.049752,0.115013&z=13&iwloc=A&output=embed",
-				'pic':[{'str':"../shared/images/contact/CAS1.jpg"},{'str':"../shared/images/contact/CAS2.jpg"},{'str':"../shared/images/contact/CAS3.jpg"}]},
+				'pic':[{'str':"../shared/images/contact/SanGabrielStores1.jpg"},{'str':"../shared/images/contact/SanGabrielStores2.jpg"},{'str':"../shared/images/contact/SanGabrielStores3.jpg"}]},
 
 
 
@@ -153,7 +153,7 @@ $(".button3").click(function(){
 			   "shoptime":"Hours: Mon - Sun, 9:30am - 8:30pm",
 			   "shopnum":"Tel: (718) 888-2122",
 			     "mapd":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.740098046677!2d-74.01141704892692!3d40.635613350120536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2454a38a8e8c1%3A0xd0a74008ea54e6f6!2siTalkBB!5e0!3m2!1sen!2sus!4v1506441624265",
-			 	"pic":[{'str':"../shared/images/contact/NYB1.jpg"},{'str':"../shared/images/contact/NYB2.jpg"},{'str':"../shared/images/contact/NYB3.jpg"}]},
+			 	"pic":[{'str':"../shared/images/contact/BrooklynStores1.jpg"},{'str':"../shared/images/contact/BrooklynStores2.jpg"},{'str':"../shared/images/contact/BrooklynStores3.jpg"}]},
 
 
 				{"shopName":"NY Flagship Store",
@@ -161,21 +161,21 @@ $(".button3").click(function(){
 			   "shoptime":"Hours: Mon - Sun, 9:30am - 8:30pm",
 			   "shopnum":"Tel: (718) 888-0068",
 			     "mapd":"http://ditu.google.cn/maps?f=q&source=s_q&hl=en&geocode=&q=42%E2%80%9335+Main+Street,+Unit+1E,+Flushing,+NY+11355&aq=&sll=40.695215,-73.912102&sspn=1.734618,3.56781&brcurrent=3,0x0:0x0,0%3B5,0,0&ie=UTF8&hq=&hnear=42-35+Main+St,+Flushing,+New+York+11355%E7%BE%8E%E5%9B%BD&t=m&ll=40.754409,-73.827868&spn=0.022756,0.057507&z=14&iwloc=A&output=embed",
-			 	"pic":[{'str':"../shared/images/contact/NYF1.jpg"},{'str':"../shared/images/contact/NYF2.jpg"},{'str':"../shared/images/contact/NYF3.jpg"}]},
+			 	"pic":[{'str':"../shared/images/contact/NYFlagshipStore1.jpg"},{'str':"../shared/images/contact/NYFlagshipStore2.jpg"},{'str':"../shared/images/contact/NYFlagshipStore3.jpg"}]},
 			   
 			   	{"shopName":"Sky View",
 			   "shopaddress":"Address: <span class='pin'>Sky View 地下一层昌发超市内</span> <br> 40-24 College Point Blvd, level B, Flushing NY 11354",
 			   "shoptime":"Hours: Mon - Sun, 10:30am - 7:30pm",
 			   "shopnum":"Tel: (718) 888-2515",
 			     "mapd":"http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=4024+College+Point+Boulevard+Flushing,+NY+11354&aq=&sll=34.07862,-118.101893&sspn=0.007011,0.013937&ie=UTF8&hq=&hnear=40-24+College+Point+Blvd,+Queens,+New+York+11354&t=m&ll=40.764031,-73.830957&spn=0.022753,0.057507&z=14&iwloc=A&output=embed",
-			 	"pic":[{'str':"../shared/images/contact/NYS1.jpg"},{'str':"../shared/images/contact/NYS2.jpg"}]},
+			 	"pic":[{'str':"../shared/images/contact/SkyViewStores1.jpg"},{'str':"../shared/images/contact/SkyViewStores2.jpg"}]},
 			   
 			   	{"shopName":"Main St, Flushing",
 			   "shopaddress":"Address: <span class='pin'>法拉盛缅街昌发超市内</span> <br> 41-82 Main St, Flushing, NY 11355",
 			   "shoptime":"Hours: Mon - Sun, 9:30am - 6:30pm",
 			   "shopnum":"Tel: (718) 888-0168",
 			     "mapd":"http://ditu.google.cn/maps?f=q&source=s_q&hl=en&geocode=&q=4182+Main+Street,+Flushing,+NY+11355&aq=&sll=39.90403,116.407526&sspn=0.875426,1.783905&brcurrent=3,0x0:0x0,0%3B5,0,0&ie=UTF8&hq=&hnear=41-82+Main+St,+Queens,+New+York+11355%E7%BE%8E%E5%9B%BD&t=m&ll=40.761691,-73.825035&spn=0.022754,0.057507&z=14&iwloc=A&output=embed",
-			 	"pic":[{'str':"../shared/images/contact/NYM1.jpg"},{'str':"../shared/images/contact/NYM2.jpg"}]},
+			 	"pic":[{'str':"../shared/images/contact/MainStFlushingStores1.jpg"},{'str':"../shared/images/contact/MainStFlushingStores2.jpg"}]},
 
 
 			   ],
@@ -231,7 +231,7 @@ $(".button3").click(function(){
 			   "shoptime":"Hours: Mon - Sun, 10:30am - 7:30pm",
 			   "shopnum":"Tel: (617) 301-5118",
 			     "mapd":"http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d2953.788846866718!2d-70.99434468429929!3d42.24032385064684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e36330b9493a75%3A0x2054502e1bc4a796!2sPresident+Plaza!5e0!3m2!1szh-tw!2scn!4v1469168238944",
-			 	"pic":[{'str':"../shared/images/contact/B1.jpg"}]},
+			 	"pic":[{'str':"../shared/images/contact/BostonStores.jpg"}]},
 			   
 			   ],
 

@@ -4,7 +4,7 @@
 .d1 img,.d3 img,.d5 img{width: 100%;}
 .textBanner{position: absolute;top: 25%;color:#ffffff;left:10.4% }
 
-.bannerAll1{background: url(../images/contact/whereBanner.jpg) no-repeat; background-size: 100%;}
+.bannerAll1{background: url(../images/contact/serviceBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll2{background: url(../images/contact/customerBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll3{background: url(../images/contact/collaborateBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll3 .bannerText .bannerTitle,.bannerAll2 .bannerText .bannerTitle{margin-bottom: 0px}
@@ -103,11 +103,6 @@ select::-ms-expand { display: none; }
 		.title30 {font-size: 25px;}
 }
 
-
-
-
-
-
 @media  (min-width:768px) and (max-width:1200px){
 .collaborates{width: 100%}
 .collaborate1,.collaborate2{display: inline-block;}
@@ -121,7 +116,7 @@ select::-ms-expand { display: none; }
 .map{height: 21vw}
 
 .pic{text-align: left;}
-.bannerAll1{background: url(../images/contact/ipadWhereBanner.jpg) no-repeat; background-size: 100%;}
+.bannerAll1{background: url(../images/contact/ipadServiceBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll2{background: url(../images/contact/ipadCustomerBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll3{background: url(../images/contact/ipadCollaborateBanner.jpg) no-repeat; background-size: 100%;}
 }
@@ -136,9 +131,9 @@ select::-ms-expand { display: none; }
 
 @media (max-width:767px){
 
-.bannerAll1{background: url(../images/contact/mwhereBanner.jpg) no-repeat; background-size: 100%;}
-.bannerAll2{background: url(../images/contact/mcustomerBanner.jpg) no-repeat; background-size: 100%;}
-.bannerAll3{background: url(../images/contact/mcollaborateBanner.jpg) no-repeat; background-size: 100%;}
+.bannerAll1{background: url(../images/contact/mServiceBanner.jpg) no-repeat; background-size: 100%;}
+.bannerAll2{background: url(../images/contact/mCustomerBanner.jpg) no-repeat; background-size: 100%;}
+.bannerAll3{background: url(../images/contact/mCollaborateBanner.jpg) no-repeat; background-size: 100%;}
 
 .mainMgnTop{margin-bottom: 4.5%;}
 
@@ -191,12 +186,6 @@ select::-ms-expand { display: none; }
 .emails{padding-bottom: 12%}
 
 
-
-
-
-
-
-
 /*合作*/
 .collaborate{width: 100%}
 .collaborates{width: 100%}
@@ -218,7 +207,6 @@ select::-ms-expand { display: none; }
 .bigshow{width: 70vw;height: 40vw;margin-top: -20vw;margin-left: -35vw}
 .up{right: -15%}
 .next{left: -15%}
-
 
 }
 
