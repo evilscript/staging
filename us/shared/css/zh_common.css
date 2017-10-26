@@ -476,14 +476,20 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     z-index: 5000;
     width: 90%;
     text-align: left;
-    position: relative;
+    /*position: relative;*/
     border-bottom: 1px solid #aaaaaa;
     border-top: 1px solid #aaaaaa;
     padding-top: 1%;
     padding-bottom: 0.5%;
-    margin-left: 5%;
-    margin-top: 1.5%;
-    max-width: 1920px;
+    /*margin-left: 5%;
+    margin-top: 1.5%;*/
+    max-width: 1920px;	
+	margin-left: 0%;
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    margin-top: 5%;
 }
 .hugeLogo{
     float:left;
