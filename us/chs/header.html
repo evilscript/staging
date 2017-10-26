@@ -671,14 +671,20 @@
     });
 	
 	// height All
-	var a =  $('.headerTotal').height();
+	var screenWidth = window.innerWidth;
+   if(screenWidth>=1000){
+        var a =  $('.headerTotal').height();
 $('#header').css('height',a+'px')
+      }
 </script>
 
 <script>
 
 $(window).resize(function(){
-var a = $('.headerTotal').height();
+var screenWidth = window.innerWidth;
+   if(screenWidth>=1000){
+        var a =  $('.headerTotal').height();
 $('#header').css('height',a+'px')
+      }
 });
 </script>

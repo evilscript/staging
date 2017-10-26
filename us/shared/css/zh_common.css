@@ -886,7 +886,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 
 @media (min-width:768px) and (max-width:1000px) {    
     /* mainLayout start */	
-	.mainLayout{max-width:1000px;/* padding-top: 14%;margin-bottom: 0;*/ }
+	.mainLayout{max-width:1000px; padding-top: 14%;/* margin-bottom: 0;*/ }
 	.mainMgnTop{margin-top: 3.5%;}
 	.titleMgnBtm{margin-bottom: 1.6vw;}
 	.lineOrange{height:0; border-bottom: .6vw solid #ff7f00;}
@@ -1039,7 +1039,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 
 @media (max-width:767px) {
 	/* mainLayout start */	
-	.mainLayout{max-width:767px; /*padding-top: 14%; margin-bottom: 0;*/}
+	.mainLayout{max-width:767px; padding-top: 14%; /* margin-bottom: 0;*/}
 	.mainMgnTop{margin-top: 5%;}
 	.titleMgnBtm{margin-bottom: 3vw;}
 	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
@@ -1314,7 +1314,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 
 @media (max-width:511px){
 	/* mainLayout start */
-    .mainLayout{/*padding-top: 19%;*/}
+    .mainLayout{padding-top: 19%;/**/}
 	/* mainLayout end */
 	
 }
