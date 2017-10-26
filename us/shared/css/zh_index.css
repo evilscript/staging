@@ -1,180 +1,32 @@
 /* Version:1.0  Author: Carson & Amy
   Create Date:2017-07-06
-  Update Date:2017-10-25
+  Update Date:2017-10-26
   Desc : index main CSS */  
 a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;} 
-.mainSlider{
-    margin-top:0.5%;
-}
-/*.carousel-control.left,
-.carousel-control.right{
-    background-image:none!important;
-    width:5%!important;
-}
-.carousel-indicators .active{
-    background-color: #ff7f00!important;
-    border:none!important;
-}*/
-@media screen and (min-width: 768px){
-    .carousel-caption {
-        right: 5%!important;
-        left: 5%!important;
-        top:5%!important;
-        text-align:left!important;
-    }
-}
-.overlayLayer{
-    position: absolute;
-    max-width: 12%;
-    width: 100%;
-    margin-left: 44%;
-	margin-top: 1%;
-    border: 1px solid #aaaaaa;
-    background: white;
-    opacity: 0.95;
-	cursor: pointer;
-}
-.overlayLayerTitle{
-    /*font-size: 15px;*/
-    text-align: center;
-    margin-bottom: 0;
-}
-.overlayLayer img{
-    width: 88%;
-    margin-left: 6%;
-}
-.bannerTitle1 {
-    padding-left: 5%;
-    margin-top: 4%;
-    letter-spacing: 0;
-    line-height: 1.3;
-}
-.bannerBgSection{
-    background: url(../images/index/chs_bannerPriceImg.png) no-repeat top left;
-    background-size: 12%;
-    background-position-x: 36%;
-}
-.carousel-caption .bandRight{
-    width: 21%;
-    float: left;
-    padding-right: 5%;
-    margin-left: 4%;
-}
-.carousel-caption .bandButton:hover {
-    color: white;
-    box-shadow: inset 250px 0 0 0 #327fe8;
-}
-.carousel-caption .bandButton {
-    margin-top: 9%;
-    padding: 3.5% 4%;
-}
-.bannerTitle2 {
-    padding-left: 5%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    letter-spacing: 1px;
-    padding-top: 3%;
-}
-.informationBar{
-    margin-left: 5%;
-    width: 30%;
-    border: 3px solid white;
-    border-radius: 10px;
-    background: #ff7800;
-}
-.informationBarLeft{
-    width: 45%;
-    float: left;
-    margin-bottom: 0;
-    text-align: center;
-    background: white;
-    color: #ff7f00;
-    border-radius: 6px;
-	border-top-right-radius: 0px;
-	border-bottom-right-radius: 0px;
-    padding-top: 0.3%;
-    padding-bottom: 0.3%;
-    text-shadow:none;
-}
-.informationBarRight{
-    width:55%;
-    float:left;
-    margin-bottom:0;
-    text-align: center;
-}
-.priceImg {
-    display: block;
-    margin-top: 1%;
-    padding-left: 5%;
-    width: 13.5%;
-}
-.bannerButton {
-    width: 15%;
-    color: #ff7f00;
-    background: white;
-    padding: 0.5% 0;
-    border-radius: 10px;
-    text-align: center;
-    margin-left: 5%;
-    margin-top: 2%;
-    cursor: pointer;
-    text-shadow: none;
-    box-shadow: inset 0 0 0 0 #327fe8;
-    -webkit-transition: all ease 0.8s;
-    -moz-transition: all ease 0.8s;
-    transition: all ease 0.8s;
-}
-.bannerButton:hover {
-    color: white;
-    box-shadow: inset 300px 0 20px #327fe8;
-}
-.bannerPriceDollarSign{
-    /*font-size: 34px;*/
-    float: left;
-    padding-left: 24%;
-    padding-top: 17%;
-    font-weight: 800;
-}
-.bannerPriceDecimal {
-    /*font-size: 34px;*/
-    float: left;
-    line-height: 1;
-    padding-top: 19%;
-}
-.bannerPriceInteger{
-    /*font-size: 90px;*/
-    float: left;
-    padding-top: 7%;
-    padding-bottom: 8%;
-}
-#myCarousel{
-    padding-top: 9%;
-}
-.mobileLeft{
-    float:left;
-    width:50%;
-    padding-left:5%;
-}
-.mobileRight{
-    float:left;
-    width:50%;
-}
-.mobileRight img{
-    width:100%;
-}
-.iTalkMobile{
-    background:#f6f6f6;
-}
-.sectionTitle{
-    padding-top: 10%;
-    line-height: 1.5;
-}
-.sectionText{
-    line-height: 1.5;
-    border-bottom: 1px solid #888888;
-    padding-bottom: 3%;
-    margin-right: 30%;
-}
+/*button begin*/
+.bannerButton {width: 15%; color: #ff7f00; background: white; padding: 0.5% 0; border-radius: 10px; text-align: center; margin-left: 5%; margin-top: 2%; text-shadow: none;  box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease 0.8s; -moz-transition: all ease 0.8s; transition: all ease 0.8s;}
+.bannerButton:hover {color: white; box-shadow: inset 300px 0 20px #327fe8;}
+.planButton {width: 90%; color: #ff7f00; background: white; padding: 2% 4%; padding-bottom: 2.5%; border-radius: 10px; text-align: center; margin-left: 5%; margin-top: 30%; text-shadow: none; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease 0.8s; -moz-transition: all ease 0.8s; transition: all ease 0.8s;}
+.planButton:hover{color:white; box-shadow: inset 300px 0 0 0 #327fe8;}
+/*button end*/
+
+.overlayLayer{ position: absolute; max-width: 12%; width: 100%; margin-left: 44%; margin-top: 1%; border: 1px solid #aaaaaa; background: white; opacity: 0.95; cursor: pointer;}
+.overlayLayerTitle{text-align: center; margin-bottom: 0;}
+.overlayLayer img{width: 88%; margin-left: 6%;}
+.bannerTitle1 {padding-left: 5%; margin-top: 4%; letter-spacing: 0; line-height: 1.3;}
+.bannerBgSection{background: url(../images/index/chs_bannerPriceImg.png) no-repeat top left; background-size: 12%; background-position-x: 36%;}
+.carousel-caption .bandRight{width: 21%; float: left; padding-right: 5%; margin-left: 4%;}
+.bannerTitle2 {padding-left: 5%; margin-top: 1%; margin-bottom: 1%; letter-spacing: 1px; padding-top: 3%;}
+.informationBar{margin-left: 5%; width: 30%; border: 3px solid white; border-radius: 10px; background: #ff7800;}
+.informationBarLeft{ width: 45%; float: left; margin-bottom: 0; text-align: center; background: white; color: #ff7f00; border-radius: 6px;border-top-right-radius: 0px;	border-bottom-right-radius: 0px; padding-top: 0.3%; padding-bottom: 0.3%; text-shadow:none;}
+.informationBarRight{width:55%; float:left; margin-bottom:0; text-align: center;}
+.priceImg {display: block; margin-top: 1%; padding-left: 5%; width: 13.5%;}
+.mobileLeft{float:left; width:50%; padding-left:5%;}
+.mobileRight{float:left; width:50%;}
+.mobileRight img{width:100%;}
+.iTalkMobile{background:#f6f6f6;}
+.sectionTitle{padding-top: 10%; line-height: 1.5;}
+.sectionText{line-height: 1.5; border-bottom: 1px solid #888888; padding-bottom: 3%; margin-right: 30%;}
 .planIcon{width: 100%; padding-top: 3%; margin-bottom: 2%;}
 .iconBox p{float: left; width: 47%; padding: 1.3% 3% 1.5% 8%; margin-bottom: 0;}
 .iconBox p.right{ padding-right: 5%;}
@@ -190,130 +42,75 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
 .iconBox .iconCon10{background: url(../images/index/iconsIndexFeature10.png) no-repeat; background-size: 14%; background-position-y: 0%;}
 .iconBox .iconCon11{background: url(../images/index/iconsIndexFeature11.png) no-repeat; background-size: 14%; background-position-y: 0%;}
 .iconBox .iconCon12{background: url(../images/index/iconsIndexFeature12.png) no-repeat; background-size: 14%; background-position-y: 0%;}
+.iconBox .iconCon13{background: url(../images/index/iconsIndexFeature13.png) no-repeat; background-size: 7.4%; background-position-y: 0%;}
+.iconBox .iconCon14{background: url(../images/index/iconsIndexFeature14.png) no-repeat; background-size: 7.4%; background-position-y: 0%;}
 .iconBoxBtm{margin-bottom: 2.5%;}
+.iconBox2 p{float: none; width: 90%; margin-bottom: 2.5%;}
 
+.bg2{background:url("../images/index/bg2.jpg") no-repeat top center; background-size:cover;}
+.bg3{background:url("../images/index/bg3.jpg") no-repeat top center; background-size:cover;}
+.bg4{background:url("../images/index/bg4.jpg") no-repeat top center; background-size:cover;}
+.bg5{background:url("../images/index/bg5.jpg") no-repeat top center; background-size:cover;}
+.knowMore{background: url(../images/icons/arrowIconOrange.png) top left no-repeat; background-size: 2%; background-position-y: 60%;}
+.knowMore img{float:left; width:2%;}
+.knowMoreText p{padding-left: 3%; margin-top: 4%; margin-bottom: 24%;}
+.orangeBand {background: url(../images/index/bgPrice.jpg) no-repeat top center; background-size: cover;}
+.orangeBand3 {background: url(../images/index/bgPrice.jpg) no-repeat top center; background-size: cover;}
+.orangeBand4 {background: url(../images/index/bgPrice.jpg) no-repeat top center; background-size: cover;}
+.orangeBand5 {background: url(../images/index/bgPrice.jpg) no-repeat top center; background-size: cover;}
+.bandText {color: white; padding-left: 5%; padding-right: 5%; padding-toP: 5.2%; padding-bottom: 4%;}
+.bandBg{width:100%;}
+.upper{vertical-align: top; line-height: 2;}
+.bandLeft {width: 72%; margin-left:0; float: left; padding-left: 0; padding-top: 0; padding-bottom: 0;}
+.bandLeft img{width:100%;}
+.bandRight {width: 18.2%; float: left; padding-right: 5%;}
+
+
+
+.bandLeftS4 {width: 62%; float: left; padding-left: 0; padding-top: 0; padding-bottom: 0; margin-left: 0;}
+.bandLeftS4 img{width:100%;}
+.bandLeftS5 {width: 72%; float: left; padding-left: 0; padding-top: 0; padding-bottom: 0; margin-left: 0;}
+.bandLeftS5 img{width:100%;}
+
+.contactTitle{text-align: center; padding-top: 4.5%;}
+.contactSubTitle{text-align:center; padding-top:0;}
+.s5Left{float:left; width:25%; margin-left:12.5%; padding-top:3%;}
+.s5Left img, .s5Middle img, .s5Right img{width: 36%; margin-left: 32%; margin-bottom: 0%;}
+.s5Middle, .s5Right{float:left; width:25%; padding-top:3%;}
+.s6IconText {padding-bottom: 1%; margin-top: 1%; background: url(../images/icons/arrowIconOrange.png) no-repeat; padding-left: 41%; background-size: 3.5%; background-position-y: 20%; background-position-x: 37%;}
+.section5IconTitle{padding-top:2%; padding-bottom:2%; margin-bottom:0;}
+.social1,.social2,.social3,.social4{cursor:pointer;}
+.contactIcon{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;}
+.contactTitle2 {margin-left: 5%; margin-right: 5%; margin-top: 4.5%; border-top: 1px solid #cfcfcf;}
+.subscribeSubTitle{padding-bottom:2%;}
+.emailBar,.submitButton{float:left; line-height: 1.8;}
+.emailBar{padding-left: 1%!important; padding-top: 0.5%!important; padding-bottom: 0.5%!important; margin-bottom: 2%; margin-left: 37%; width: 23%!important; border-top-left-radius: 10px!important; border-bottom-left-radius: 10px!important; border: 1px solid #cfcfcf!important;}
+.submitButton {color: #ff7f00; width: 7.5%; border: 1px solid #cfcfcf; text-align: center; padding-top: 0.5%; padding-bottom: 0.5%; cursor: pointer; border-top-right-radius: 10px; border-bottom-right-radius: 10px; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease 0.8s; -moz-transition: all ease 0.8s; transition: all ease 0.8s;}
+.submitButton:hover{color: white; box-shadow: inset 200px 0 0 0 #327fe8;}
+.socialIcon{text-align:center; padding-top: 5%; margin-bottom:8%;}
+.socialIcon img{float: left; width: 2.5%; margin-right: 1%;}
+.social1{margin-left: 42%;}
+.wechatIconSocial{max-width: 200px; width: 20%; margin-left: 40%; padding: 10px; border: 1px solid #dddddd; margin-top: -6%; margin-bottom: 3%;}
+.wechatIconSocialTitle{text-align:center; margin-bottom:0;}
+.bandLeftS3 img{width:100%;}
+.textLeftBotton{text-align: center; color: white; float: left; width: 10%; margin-bottom: 0; margin-toP: 4.25%;}
+
+/*
 .s5iconText1,.s5iconText2{padding-left: 8%; margin-bottom: 0; padding-top: 2%; padding-bottom: 2%;}
 .s5iconText1 {margin-top: 5%; background: url(../images/index/iconsIndexFeature13.png) no-repeat; background-size: 6.5%; background-position-y: 50%;}
 .s5iconText2 {margin-top:2%; background: url(../images/index/iconsIndexFeature14.png) no-repeat; background-size: 6.5%; background-position-y: 50%;}
 .s5Title{padding-top:15%;}
-
-.iconLeft{
-    float:left;
-    width:45%;
-    padding-top: 3%;
-}
-.bg2{
-    background:url("../images/index/bg2.jpg") no-repeat top center;
-    background-size:cover;
-}
-.bg3{
-    background:url("../images/index/bg3.jpg") no-repeat top center;
-    background-size:cover;
-}
-.bg4{
-    background:url("../images/index/bg4.jpg") no-repeat top center;
-    background-size:cover;
-}
-.bg5{
-    background:url("../images/index/bg5.jpg") no-repeat top center;
-    background-size:cover;
-}
-.knowMore{
-    background: url(../images/icons/arrowIconOrange.png) top left no-repeat;
-    background-size: 2%;
-    background-position-y: 60%;
-}
-.iconRight{
-    float: left;
-    width: 45%;
-    padding-top: 3%;
-    margin-left: 2%;
-}
-.iconLeft img, .iconRight img{
-    width:20%;
-    float:left;
-}
-.iconText{
-    /*font-size: 22px;*/
-    font-weight: 300;
-    padding-left: 25%;
-    padding-top: 4%;
-    padding-bottom: 15%;
-}
-.knowMore img{
-   float:left;
-    width:2%;
-}
-/*.knowMoreText{
-    color:#ff7f00;
-    text-decoration:underline;
-}
-.knowMoreText:hover{
-    color:#ff7f00;
-    text-decoration:underline;
-}*/
-.knowMoreText p{
-    padding-left: 3%;
-    margin-top: 4%;
-    margin-bottom: 24%;
-}
-.orangeBand {
-    background: url(../images/index/bgPrice.jpg) no-repeat top center;
-    background-size: cover;
-}
-.bandText {
-    /*font-size: 50px;*/
-    color: white;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-toP: 5.2%;
-    padding-bottom: 4%;
-    font-weight:300;
-}
-.bandBg{
-    width:100%;
-}
-.upper{
-   /* font-size: 30px;*/
-    vertical-align: top;
-    line-height: 2;
-}
-.bandLeft {
-    width: 72%;
-    margin-left:0;
-    float: left;
-    padding-left: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-.bandLeft img{
-    width:100%;
-}
-.bandRight {
-    width: 18.2%;
-    float: left;
-    padding-right: 5%;
-}
-.bandButton {
-    width: 90%;
-    color: #ff7f00;
-    background: white;
-    padding: 2% 4%;
-    border-radius: 10px;
-    text-align: center;
-    margin-left: 5%;
-    margin-top: 30%;
-    cursor: pointer;
-    text-shadow: none;
-    box-shadow: inset 0 0 0 0 #327fe8;
-    -webkit-transition: all ease 0.8s;
-    -moz-transition: all ease 0.8s;
-    transition: all ease 0.8s;
-}
-.bandButton:hover{
-    color:white;
-    box-shadow: inset 300px 0 0 0 #327fe8;
-}
+.mainSlider{margin-top:0.5%;}
+.carousel-caption .planButton{margin-top: 9%; padding: 3.5% 4%;}
+.carousel-caption .planButton:hover {color: white; box-shadow: inset 250px 0 0 0 #327fe8;}
+.bannerPriceDollarSign{float: left; padding-left: 24%; padding-top: 17%; font-weight: 800;}
+.bannerPriceDecimal {float: left; line-height: 1; padding-top: 19%;}
+.bannerPriceInteger{float: left;padding-top: 7%;padding-bottom: 8%;}
+#myCarousel{padding-top: 9%;}
+.iconLeft{float:left; width:45%; padding-top: 3%;}
+.iconRight{float: left; width: 45%; padding-top: 3%; margin-left: 2%;}
+.iconLeft img, .iconRight img{width:20%; float:left;}
+.iconText{padding-left: 25%; padding-top: 4%; padding-bottom: 15%;}
 .s2IconText1{
     padding-left: 17%;
     margin-bottom: 5%;
@@ -395,43 +192,11 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     background: url(../images/index/iconsIndexFeature8.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
-}
-.orangeBand3 {
-    background: url(../images/index/bgPrice.jpg) no-repeat top center;
-    background-size: cover;
-}
-.bandLeftS3 {
-    width: 72%;
-    margin-left: 0;
-    float: left;
-    padding-left: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-.bandLeftS4 {
-    width: 62%;
-    float: left;
-    padding-left: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-left: 0;
-}
-.bandLeftS4 img{
-    width:100%;
-}
-.bandLeftS5 {
-    width: 72%;
-    float: left;
-    padding-left: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-left: 0;
-}
-.bandLeftS5 img{
-    width:100%;
-}
+}*/
 
-.s4iconText1{
+/*.bandLeftS3 {width: 72%; margin-left: 0; float: left; padding-left: 0; padding-top: 0; padding-bottom: 0;}*/
+
+/*.s4iconText1{
     padding-left: 17%;
     margin-bottom: 5%;
     padding-top: 3%;
@@ -466,151 +231,11 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     background: url(../images/index/iconsIndexFeature12.png) no-repeat;
     background-size: 14%;
     background-position-y: 55%;
-}
-.orangeBand4 {
-    background: url(../images/index/bgPrice.jpg) no-repeat top center;
-    background-size: cover;
-}
-.orangeBand5 {
-    background: url(../images/index/bgPrice.jpg) no-repeat top center;
-    background-size: cover;
-}
+}*/
 
-.contactTitle{text-align: center; padding-top: 4.5%;}
-.contactSubTitle{
-    text-align:center;
-    padding-top:0;
-}
-.s5Left{
-    float:left;
-    width:25%;
-    margin-left:12.5%;
-    padding-top:3%;
-    cursor:pointer;
-}
-.s5Middle, .s5Right{
-    float:left;
-    width:25%;
-    padding-top:3%;
-    cursor:pointer;
-}
-.contactIcon{
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
-}
-.s5Left img, .s5Middle img, .s5Right img{
-    width: 36%;
-    margin-left: 32%;
-    margin-bottom: 0%;
-}
-.s6IconText {
-    padding-bottom: 1%;
-    margin-top: 1%;
-    background: url(../images/icons/arrowIconOrange.png) no-repeat;
-    padding-left: 41%;
-    background-size: 3.5%;
-    background-position-y: 20%;
-    background-position-x: 37%;
-}
-.section5IconTitle{
-    padding-top:2%;
-    padding-bottom:2%;
-    margin-bottom:0;
-}
-.social1,.social2,.social3,.social4{cursor:pointer;}
-
-.contactTitle2 {
-    margin-left: 5%;
-    margin-right: 5%;
-	margin-top: 4.5%;
-    border-top: 1px solid #cfcfcf;
-    /*margin-top: 3%;*/
-}
-.subscribeSubTitle{
-    padding-bottom:2%;
-}
-.emailBar{
-    line-height: 1.8;
-    padding-left: 1%!important;
-    padding-top: 0.5%!important;
-    padding-bottom: 0.5%!important;
-    margin-bottom: 2%;
-    margin-left: 37%;
-    width: 23%!important;
-    border-top-left-radius: 10px!important;
-    border-bottom-left-radius: 10px!important;
-    border: 1px solid #cfcfcf!important;
-    float:left;
-}
-
-.submitButton {
-    color: #ff7f00;
-    width: 7.5%;
-    float: left;
-	line-height: 1.8;
-    cursor: pointer;
-    border: 1px solid #cfcfcf;
-    text-align: center;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: inset 0 0 0 0 #327fe8;
-    -webkit-transition: all ease 0.8s;
-    -moz-transition: all ease 0.8s;
-    transition: all ease 0.8s;
-}
-.submitButton:hover{
-    color: white;
-    box-shadow: inset 200px 0 0 0 #327fe8;
-}
-.socialIcon{
-    text-align:center;
-    margin-bottom:8%;
-}
-.socialIcon img{
-    float: left;
-    width: 2.5%;
-    margin-right: 1%;
-}
-.social1{
-    margin-left: 42%;
-}
-.wechatIconSocial{
-    max-width: 200px;
-    width: 20%;
-    margin-left: 40%;
-    padding: 10px;
-    border: 1px solid #dddddd;
-    margin-top: -6%;
-    margin-bottom: 3%;
-}
-.wechatIconSocialTitle{
-    /*font-size:15px;*/
-    text-align:center;
-    margin-bottom:0;
-}
-.bandLeftS3 img{
-    width:100%;
-}
-.leftArrow{
-    position: absolute;
-    left: 25%;
-    top: 52%;
-    width: 100%;
-    opacity:0.5;
-    transition: opacity, 0.3s;
-}
-.rightArrow{
-    position: absolute;
-    right: 25%;
-    top: 52%;
-    width: 100%;
-    opacity:0.5;
-    transition: opacity, 0.3s;
-}
-/*.carousel-indicators li {
+/*.leftArrow{position: absolute; left: 25%; top: 52%; width: 100%; opacity:0.5; transition: opacity, 0.3s;}
+.rightArrow{position: absolute; right: 25%; top: 52%; width: 100%; opacity:0.5; transition: opacity, 0.3s;}
+.carousel-indicators li {
     width: 80px;
     height: 5px;
     background-color: white;
@@ -621,7 +246,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     height: 5px;
     background-color: #fff;
     opacity:0.85;
-}*/
+}
 .arrow-left{
     position:absolute;
     transition: all, 0.5s;
@@ -633,55 +258,23 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     text-align:center;
     color:white;
 }
-.textLeftBotton{
-    text-align: center;
-    color: white;
-    float: left;
-    width: 10%;
-    margin-bottom: 0;
-    margin-toP: 4.25%;
-}
-.bandButtonWithText{
-    margin-top:25%;
-}
+.planButtonWithText{margin-top:25%;}*/
 
 
 @media (max-width:1700px){
-    .bannerTitle1 {
-         background-position-x: 40%;
-     }
-    .bannerBgSection {
-        background-position-x: 40%;
-    }
+    .bannerTitle1 {background-position-x: 40%;}
+    .bannerBgSection {background-position-x: 40%;}
 }
-
 @media (max-width:1600px){
-    .bannerPriceDollarSign {
-       /* font-size: 28px;*/
-        padding-top: 21%;
-    }
-    .bannerPriceDecimal {
-        /*font-size: 28px;*/
-        padding-top: 22%;
-    }
-    .bannerPriceInteger {
-        /*font-size: 74px;*/
-        padding-bottom: 17%;
-        padding-top: 10%;
-    }
-    .bannerPrice{
-        margin-top:4%;
-    }
-    .bannerTitle1{
-        margin-top:3%;
-    }
-    .sectionTitle{
-        padding-top:14%;
-    }
-    .knowMoreText p {
-        margin-bottom: 20%;
-    }
-    .iconLeft, .iconRight{
+    .bannerPriceDollarSign {padding-top: 21%;}
+    .bannerPriceDecimal {padding-top: 22%;}
+    .bannerPriceInteger {padding-bottom: 17%; padding-top: 10%;}
+    .bannerPrice{margin-top:4%;}
+    .bannerTitle1{margin-top:3%;}
+    .sectionTitle{padding-top:14%;}
+    .knowMoreText p {margin-bottom: 20%;}
+	.knowMoreText5 p {margin-bottom: 26%;}
+    /*.iconLeft, .iconRight{
         width:40%;
     }
     .iconLeft img, .iconRight img {
@@ -692,45 +285,21 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
         padding-left: 20%;
         padding-top: 2%;
         padding-bottom: 10%;
-    }
+    }*/
     /*.title24 {
         font-size: 18px;
-    }*/
-    .knowMoreText5 p {
-        margin-bottom: 26%;
-    }
-}
-
-@media (max-width:1500px) {
-    /*.title24 {
-        font-size: 17px;
-    }*/
+    }*/    
 }
 
 @media (max-width:1400px){
-    .bannerPrice {
-        margin-top: 2%;
-    }
-    .bannerPriceDollarSign {
-        /*font-size: 24px;*/
-        padding-top: 23%;
-    }
-    .bannerPriceDecimal {
-        /*font-size: 23px;*/
-        padding-top: 26%;
-    }
-    .bannerPriceInteger {
-        /*font-size: 60px;*/
-        padding-bottom: 22%;
-        padding-top: 15%;
-    }
-    .bannerButton {
-        width: 13%;
-    }
-    .bannerTitle1 {
-        margin-top: 2%;
-    }
-    /* .iconText {
+    .bannerButton {width: 13%;}
+    .bannerTitle1 {margin-top: 2%;}
+    /*.bannerPrice {margin-top: 2%;}
+    .bannerPriceDollarSign {padding-top: 23%;}
+    .bannerPriceDecimal {padding-top: 26%;}
+    .bannerPriceInteger {padding-bottom: 22%; padding-top: 15%;}
+    
+    .iconText {
         font-size: 20px;
     }
    .s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4, .s3iconText1, .s3iconText2, .s3iconText3, .s3iconText4, .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4, .s5iconText1, .s5iconText2, .s5iconText3 {
@@ -745,21 +314,21 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     /*.carousel-indicators li, .carousel-indicators .active {
         width: 6vw;
         height: 0.3vw;
-    }*/
+    }
     .bannerPriceDecimal {
-        /*font-size: 1.7vw;*/
+        font-size: 1.7vw;
         padding-top: 25%;
         padding-left: 2%;
     }
     .bannerPriceDollarSign {
-        /*font-size: 1.7vw;*/
+        font-size: 1.7vw;
         padding-top: 23%;
     }
     .bannerPriceInteger {
-        /*font-size: 4.3vw;*/
+        font-size: 4.3vw;
         padding-top: 14.5%;
     }
-    /*.iconText {
+    .iconText {
         font-size: 1.2vw;
     }
     .knowMoreText {
@@ -775,79 +344,36 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
 
 @media (min-width:768px) and (max-width:1000px) {
 	.title30{font-size: 2.1vw}
-	.title24{font-size: 1.5vw}
-	
-	.overlayLayer{max-width: 16%;margin-left: 42%;}
-    #myCarousel {
-        padding-top: 14%;
-    }
-    .bannerTitle1 {
-        margin-bottom:0;
-    }
-    .bannerButton {
-        width: 20%;
-        padding: 0.5% 1%;
-    }
-    .sectionTitle {
-        padding-top: 15%;
-        margin-bottom:0;
-    }
-    /*.knowMoreText {
-        font-size: 1.4vw;
-    }*/
-    .knowMoreText p {
-        margin-bottom: 15%;
-    }
-    .knowMoreText5 p{
-        margin-bottom:20%;
-    }
+	.title24{font-size: 1.5vw}	
+	.planButton{width: 100%; }
+	.overlayLayer{max-width: 16%;margin-left: 42%;}    
+    .bannerTitle1 {margin-bottom:0;}
+    .bannerButton {width: 16%; padding: 0.3% 1%;}
+    .sectionTitle {padding-top: 15%; margin-bottom:0;}
+	.knowMore{background-size: 4%; padding-left: 2.5%; background-position-y: 50%;}
+    .knowMoreText p {margin-bottom: 15%;}
+    .knowMoreText5 p{margin-bottom:20%;}
     .contactTitle{padding-top: 6%;}
 	.contactTitle2{margin-top: 6%;}
-    .s5Left {
-        float: left;
-        width: 30%;
-        margin-left:5%;
+    .s5Left {float: left; width: 30%; margin-left:5%;}
+    .s5Middle, .s5Right {float: left; width: 30%;}
+    .s5Left img, .s5Middle img, .s5Right img {width: 40%; margin-left: 30%; margin-bottom: 5%;}
+    .s6IconText {padding-left: 37%; background-size: 5%; background-position-x: 31.5%;}
+    .emailBar{width: 45%!important; margin-left: 22.5%;}
+    .submitButton{width:16%;}
+    .social1 {margin-left: 0;margin-left: 38%;}
+	.socialIcon {padding-top: 7%;}
+    .socialIcon img {float: left; width: 4%; margin-right: 1%;}
+    .wechatIconSocial{margin-top: -1%;}
+    /*
+	#myCarousel {padding-top: 14%;}
+	.knowMoreText {
+        font-size: 1.4vw;
     }
-    .s5Middle, .s5Right {
-        float: left;
-        width: 30%;
-    }
-    .s5Left img, .s5Middle img, .s5Right img {
-        width: 40%;
-        margin-left: 30%;
-        margin-bottom: 5%;
-    }
-    .s6IconText {
-        /*font-size: 1.6vw;*/
-        padding-left: 37%;
-        background-size: 5%;
-        background-position-x: 31.5%;
-    }/*
     .emailBar, .submitButton {
         font-size: 2vw;
-    }*/
-    .emailBar{
-        width: 45%!important;
-        margin-left: 22.5%;
     }
-    .submitButton{
-        width:16%;
-    }
-    .social1 {
-        margin-left: 0;
-    }
-    .socialIcon img {
-        float: left;
-        width: 4%;
-        margin-right: 1%;
-    }
-    .social1 {
-        margin-left: 38%;
-    }
-    .wechatIconSocial{
-        margin-top: -1%;
-    }
-    /*.overlayLayerTitle{
+	.overlayLayerTitle{
         font-size:1.2vw;
     }
     .title60 {
@@ -868,110 +394,44 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
 }
 
 @media (max-width:767px) {
-    .overlayLayer {
-        position: absolute;
-        max-width: 35%;
-        width: 100%;
-        margin-left: 6%;
-        border: 1px solid #aaaaaa;
-        background: white;
-        opacity: 0.95;
-        margin-top: 51%;
-    }
+    .overlayLayer {position: absolute; max-width: 35%; width: 100%; margin-left: 6%; border: 1px solid #aaaaaa; background: white; opacity: 0.95; margin-top: 51%;}
+    .carousel-control.left, .carousel-control.right {background-image: none!important; width: 10%!important;}
+    .bannerTitle1 {text-align: center; margin-left: 0; margin-right: 0; width: 100%; background: none; margin-bottom: 0; line-height: 1.3;}
+    .bannerTitle2 {text-align: left; padding-left: 15%; margin-top: 2vw; margin-bottom: 2vw;}
+    .bannerPriceImgClass{width: 30%; margin-left: 35%; margin-bottom: 2%;}
+    .bannerButton {width: 40%; color: #ff7f00; background: white; padding: 1%; border-radius: 10px; text-align: center; margin-left: 30%; margin-top: 4%; border: 1px solid white; box-shadow: none; text-shadow: none;}
+    .bg2,.bg4,.bg3,.bg5,.bg6,.bg7{background: white;}
+    
+    .mobileImg2 img{width:100%;}
+    .carousel-caption{top:2%;}
+    .mobileLeft {float: left; width: 100%; padding-left: 5%; padding-right: 5%;}
+    .mobileRight {float: left;width: 100%; padding-left: 30%; padding-right: 0%;}
+    .sectionTitle{color: #505050; line-height: 1.5; margin-bottom: 0; text-align: center; padding-top: 10%;}
+    .sectionText{line-height: 1.8; color: #505050; border-bottom: 1px solid #505050; padding-bottom: 4%; margin-right: 0; text-align: center;}	
+	.planIcon{width: 100%; padding-top: 3%; margin-bottom: 2%;}
+	.iconBox .iconCon1,.iconBox .iconCon2,.iconBox .iconCon3,.iconBox .iconCon4,.iconBox .iconCon5,.iconBox .iconCon6,.iconBox .iconCon7,.iconBox .iconCon8,.iconBox .iconCon9,.iconBox .iconCon10,.iconBox .iconCon11,.iconBox .iconCon12,.iconBox .iconCon13,.iconBox .iconCon14{background-size: 20%; background-position-x: 50%;}
+    .iconBox p{float: left; width: 50%; text-align: center; padding: 12% 1% 1.5% 1%; margin-top: 2%; margin-bottom: 2%;}
+	.iconBox p.right{ padding-right: 1%;}
+	.iconBoxBtm{margin-bottom: 0%;}
+	
+	.s5iconText1,.s5iconText2{ float: left; width: 48%; padding-left: 0%; margin-bottom: 0; padding-top: 2%; padding-bottom: 2%;}
+    .s5iconText1 {margin-top: 5%; background: url(../images/index/iconsIndexFeature13.png) no-repeat; background-size: 6.5%; background-position-y: 50%;}
+    .s5iconText2 {margin-top:2%; background: url(../images/index/iconsIndexFeature14.png) no-repeat; background-size: 6.5%; background-position-y: 50%;}
+    .s5Title{padding-top:15%;}
+	
+	.knowMore {background-size: 3.8%; background-position: 41% 60%;}
+	.knowMore img {float: left; width: 4%; padding-top: 0.5%; margin-left: 41%; padding-bottom: 5%;}
+	.knowMoreText p {padding-left: 5%;margin-bottom: 5%; text-align: center;}
+    .orangeBand {background: url(../images/index/mobilePriceBand1Bg.jpg) no-repeat top center; background-size: cover; margin-top: 0;}
+    .bandLeft {width: 56%; float: left; padding-left: 0; padding-top: 0; padding-bottom: 0; margin-left:0;}
+    .bandRight {width: 40%; float: left; padding-right: 0;}
+    .bandRightS5{width:38%;}
+    .planButton {width: 70%; color: #ff7f00; background: white; padding: 2% 4%; border-radius: 10px; text-align: center; margin-left: 5%; margin-top: 15%; box-shadow: none; text-shadow: none;}
+	.planButton2{margin-top: 2%;}
     /*.overlayLayerTitle {
         font-size: 3.2vw;
-    }*/
-    .carousel-control.left, .carousel-control.right {
-        background-image: none!important;
-        width: 10%!important;
     }
-    .bannerTitle1 {
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        background: none;
-        margin-bottom: 0;
-        line-height: 1.3;
-    }
-    .bannerTitle2 {
-        text-align: left;
-        padding-left: 15%;
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-    }
-    .bannerPriceImgClass{
-        width: 30%;
-        margin-left: 35%;
-        margin-bottom: 2%;
-    }
-    .bannerButton {
-        width: 40%;
-        color: #ff7f00;
-        background: white;
-        padding: 1%;
-        border-radius: 10px;
-        text-align: center;
-        margin-left: 30%;
-        margin-top: 4%;
-        cursor: pointer;
-        border: 1px solid white;
-        box-shadow: none;
-        text-shadow: none;
-    }
-    .bg2, .bg4{
-        background: white;
-    }
-    .bg3, .bg5{
-        background: white;
-    }
-    .bg6, .bg7{
-        background:white;
-    }
-    .knowMore {
-        background-size: 4%;
-        background-position: 41% 55%;
-    }
-    .mobileImg2 img{
-        width:100%;
-    }
-    .carousel-caption{
-        top:2%;
-    }
-    .knowMoreText p {
-        padding-left: 5%;
-        /*font-size: 3.5vw;*/
-        text-align: center;
-        margin-bottom: 5%;
-    }
-    .mobileLeft {
-        float: left;
-        width: 100%;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    .mobileRight {
-        float: left;
-        width: 100%;
-        padding-left: 30%;
-        padding-right: 0%;
-    }
-    .sectionTitle{
-        color: #505050;
-        line-height: 1.5;
-        margin-bottom: 0;
-        text-align: center;
-        padding-top: 10%;
-    }
-    .sectionText{
-        line-height: 1.8;
-        color: #505050;
-        border-bottom: 1px solid #505050;
-        padding-bottom: 4%;
-        margin-right: 0;
-        text-align: center;
-    }
-    .iconLeft, .iconRight {
+	.iconLeft, .iconRight {
         width: 50%;
         margin-left: 0;
     }
@@ -981,61 +441,16 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
         margin-left: 35%;
     }
     .iconText {
-        font-weight: 300;
         padding-left: 0;
         padding-top: 5%;
         padding-bottom: 10%;
-        /*font-size: 4vw;*/
+        font-size: 4vw;
         text-align: center;
     }
-    .knowMoreText p {
-        padding-left: 5%;
-    }
-    /*.knowMoreText {
+	.knowMoreText {
         font-size: 3vw;
-    }*/
-    .knowMore img {
-        float: left;
-        width: 4%;
-        padding-top: 0.5%;
-        margin-left: 41%;
-        padding-bottom: 5%;
     }
-    .orangeBand {
-        background: url(../images/index/mobilePriceBand1Bg.jpg) no-repeat top center;
-        background-size: cover;
-        margin-top: 0;
-    }
-    .bandLeft {
-        width: 56%;
-        float: left;
-        padding-left: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-left:0;
-    }
-    .bandRight {
-        width: 40%;
-        float: left;
-        padding-right: 0;
-    }
-    .bandRightS5{
-        width:38%;
-    }
-    .bandButton {
-        width: 70%;
-        color: #ff7f00;
-        background: white;
-        padding: 2% 4%;
-        border-radius: 10px;
-        text-align: center;
-        margin-left: 5%;
-        margin-top: 15%;
-        cursor: pointer;
-        box-shadow: none;
-        text-shadow: none;
-    }
-    .s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4,
+	.s2IconText1, .s2IconText2, .s2IconText3, .s2IconText4,
     .s3IconText1, .s3IconText2, .s3IconText3, .s3IconText4,
     .s4iconText1, .s4iconText2, .s4iconText3, .s4iconText4,
     .s5iconText1, .s5iconText2
@@ -1098,102 +513,31 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
         background-size: 32%;
         width: 49%;
         display: inline-block;
-    }
-    .orangeBand5 {
-        background: url(../images/index/mobilePriceBand1Bg.jpg) no-repeat;
-        background-size: cover;
-        margin-top: 0;
-    }
+    }*/
+    .orangeBand5 {background: url(../images/index/mobilePriceBand1Bg.jpg) no-repeat; background-size: cover; margin-top: 0;}
     .contactTitle{padding-top: 10%;}
 	.contactTitle2{margin-top: 10%;}
-    .bandLeftS4 {
-        width: 62%;
-        float: left;
-        padding-left: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-left: 0%;
-    }
-    .bandRightS4 {
-        width: 38%;
-        float: left;
-        padding-right: 0;
-    }
-    .s5Left {
-        float: none;
-        width: 50%;
-        margin-left: 25%;
-        padding-top: 3%;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .s5Middle, .s5Right {
-        float: left;
-        width: 50%;
-        padding-top: 5%;
-    }
-    .s5Left img, .s5Middle img, .s5Right img {
-        width: 42%;
-        margin-left: 29%;
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
-    .s5Left .s6IconText, .s5Middle .s6IconText, .s5Right .s6IconText {
-        margin-bottom: 2%;
-       /* font-size: 3vw;*/
-        font-weight: 500;
-        padding-bottom: 0%;
-        margin-top: 2%;
-        background: url(../images/index/contactArrow.jpg) no-repeat;
-        padding-left: 36%;
-        background-size: 6%;
-        background-position-y: 45%;
-        background-position-x: 28%;
-    }
-    .emailBar {
-        /*font-size: 3.5vw!important;*/
-        padding-left: 3%!important;
-        padding-top: 2%!important;
-        padding-bottom: 2%!important;
-        margin-bottom: 2%;
-        margin-left: 10%;
-        margin-top: 3%;
-        width: 65%!important;
-        border-top-left-radius: 10px!important;
-        border-bottom-left-radius: 10px!important;
-		border-top-right-radius: 0px!important;
-		border-bottom-right-radius: 0px!important;
-        border: 1px solid #cfcfcf!important;
-        float: left;
-    }
-    .submitButton {
-        /*font-size: 3.5vw;*/
-        color: #ff7f00;
-        width: 20%;
-        float: left;
-        font-weight: 800;
-        cursor: pointer;
-        border: 1px solid #cfcfcf;
-        text-align: center;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        margin-top: 3%;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-    .socialIcon img {
-        float: left;
-        width: 10%;
-        margin-right: 3%;
-        margin-bottom: 6%;
-        margin-top: 2%;
-    }
-    .social1 {
-        margin-left: 18%;
-    }
-    #myCarouseM{
-        padding-top:18%;
-    }
+    .bandLeftS4 {width: 62%;float: left; padding-left: 0; padding-top: 0; padding-bottom: 0; margin-left: 0%;}
+    .bandRightS4 {width: 38%; float: left; padding-right: 0;}
+    .s5Left {float: none; width: 50%; margin-left: 25%; padding-top: 3%; padding-left: 0; padding-right: 0;}
+    .s5Middle, .s5Right {float: left; width: 50%; padding-top: 5%;}
+    .s5Left img, .s5Middle img, .s5Right img {width: 42%; margin-left: 29%; margin-bottom: 5%; margin-top: 5%;}
+    .s5Left .s6IconText, .s5Middle .s6IconText, .s5Right .s6IconText {margin-bottom: 2%; padding-bottom: 0%; margin-top: 2%; padding-left: 36%; background-size: 6%; background-position-y: 45%; background-position-x: 28%;}
+    .emailBar,.submitButton {line-height: 1.5;}
+	.emailBar {padding-left: 3%!important; padding-top: 2%!important; padding-bottom: 2%!important; margin-bottom: 2%; margin-left: 10%; margin-top: 3%; width: 65%!important; border-top-left-radius: 10px!important; border-bottom-left-radius: 10px!important; border-top-right-radius: 0px!important; border-bottom-right-radius: 0px!important; border: 1px solid #cfcfcf!important;}
+    .submitButton {color: #ff7f00; width: 20%; border: 1px solid #cfcfcf; padding-top: 2%; padding-bottom: 2%; margin-top: 3%; border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+	.socialIcon {padding-top: 17%;}
+    .socialIcon img {width: 10%; margin-right: 3%; margin-bottom: 6%; margin-top: 2%;}
+    .social1 {margin-left: 18%;}
+    #myCarouseM{padding-top:18%;}
+	.wechatIconSocial {max-width: 200px; width: 35%; margin-left: 15%; padding: 10px; border: 1px solid #dddddd; margin-top: -6%; margin-bottom: 3%;}
+	.carousel-caption {right: 3%; left: 3%;}
+    .bannerTitle1 {margin-top: 0;}
+    .bannerBgSection {background-size: 21%; background-position-x: 90%;}
+    .informationBar {margin-left: 15%; width: 70%;}
+    .textLeftBotton {text-align: left; color: white; float: left; width: 38%; margin-bottom: 0; margin-toP: 2%; padding-left: 6.5%;}
+    .iTalkMobile {background: white;}
+    
     /*.carousel-indicators .active {
         width: 3.5vw;
         height: 3.5vw;
@@ -1204,59 +548,16 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
         height: 3.5vw;
         background-color: white;
     }*/
-    .wechatIconSocial {
-        max-width: 200px;
-        width: 35%;
-        margin-left: 15%;
-        padding: 10px;
-        border: 1px solid #dddddd;
-        margin-top: -6%;
-        margin-bottom: 3%;
-    }
+    
     /*.wechatIconSocialTitle {
         font-size: 3vw;
-    }*/
-    .carousel-caption {
-        right: 3%;
-        left: 3%;
     }
-    .bannerTitle1 {
-        margin-top: 0;
-    }
-    .bannerBgSection {
-        background-size: 21%;
-        background-position-x: 90%;
-    }
-    .informationBar {
-        margin-left: 15%;
-        width: 70%;
-    }
-    /*.carousel-indicators .active {
+	.carousel-indicators .active {
         background-color: #327fe8!important;
-    }*/
-    .textLeftBotton {
-        text-align: left;
-        color: white;
-        float: left;
-        width: 38%;
-        margin-bottom: 0;
-        margin-toP: 2%;
-        padding-left: 6.5%;
-    }
-    .bandButtonSpecialMobile{
-        margin-top:2%;
-    }
-    .iTalkMobile {
-        background: white;
-    }
-    .socialIcon {
-        margin-top: 5%;
-    }
+    }*/    
 }
 /*For cellphone horizontal mode*/
-@media (max-width:767px) and (min-width:511px){
-    #myCarouseM {
-        padding-top: 14%;
-    }
+/*@media (max-width:767px) and (min-width:511px){
+    #myCarouseM {padding-top: 14%;}
 }
-
+*/
