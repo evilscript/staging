@@ -128,6 +128,7 @@ ul.bundlesCon li.double{width: 100%;}
 .chinaSimCardCheckboxLabel, .chinaSimCardCheckboxLabel2, .chinaSimCardCheckboxLabel3, .chinaSimCardCheckboxLabel4{padding-left:2%;cursor:pointer;}
 /*plan end*/
 
+.bundlesBBMgnBtm{padding-bottom: 7%;}
 .bundlesTV,.bundlesBB,.bundlesMobile{text-align: center;}
 .bundlesTV,.bundlesMobile{margin-bottom: 7%;}
 .bundlesMobile{margin-top: 5%;}
@@ -242,7 +243,7 @@ ul.bundlesCon li.double{width: 100%;}
 	.lineSelectText:before{border-top: .35vw solid #00afff;}
 	.chinaSimCard{background-size: 17%;padding-left: 25.5%; margin: 2% 0;}
 	/*plan End*/ 	
-	
+	.bundlesBBMgnBtm{padding-bottom: 6%;}
 	.bundlesMobile{margin-top: 7.2%;}
 	.bundlesTV{margin-top: 10%; margin-bottom: 10%;}
 	.bundlesText{margin-bottom: 2%;}
@@ -313,7 +314,7 @@ ul.bundlesCon li.double{width: 100%;}
 	.chinaSimCard{margin:2% 0; background-position-y: 50%;}
 	.checkboxText{margin-left: -3.5%;}
 	/*plan End*/	
-	
+	.bundlesBBMgnBtm{padding-bottom: 12%;}
 	.bundlesMobile {margin-top: 12%;}
 	.bundlesTV{margin-top: 18%; margin-bottom: 20%;}
 	.bundlesText{margin-bottom: 6%;}

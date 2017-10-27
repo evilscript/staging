@@ -1,0 +1,110 @@
+<style>
+.mSwiper-button-prev,.mSwiperBox-rtl .mSwiper-button-next{
+     background: url(../shared/images/icons/mSwiperPrev.png) no-repeat; background-size: 50%; background-position-x: 50%;background-position-y: 50%;
+     left:2%;
+     right:auto}
+.mSwiper-button-next,.mSwiperBox-rtl .mSwiper-button-prev{
+     background: url(../shared/images/icons/mSwiperNext.png) no-repeat; background-size: 50%; background-position-x: 50%;background-position-y: 50%;
+     right:1.5%;
+     left:auto
+     }
+  .swiper-button-prev, .swiper-button-next {height: 15%;}
+ @media (max-width:767px){
+
+            .mSwiper-button-prev,.mSwiperBox-rtl .mSwiper-button-next{width: 12%}
+            .mSwiper-button-next,.mSwiperBox-rtl .mSwiper-button-prev{width: 12%}
+    }
+</style>
+
+<section class="aboutNewsBanner hideM">
+    <div class="container1920">
+        <a href="aboutNews20170113.html">
+            <div class="aboutNewsBanner1">
+                <img src="../shared/images/about/thumbnail22.png" class="img w100" alt="">
+                <div class="aboutNewsBannerText title24 mTitle32 pin" style="display:none;">
+                    <span class="sans">iTalkBB</span>蜻蜓强势登陆NBA顶级赛事
+                </div>
+            </div>
+        </a>
+        <a href="aboutNews20160719.html">
+            <div class="aboutNewsBanner2">
+                <img src="../shared/images/about/thumbnail11.png" class="img w100" alt="">
+                <div class="aboutNewsBannerText title24 mTitle32 pin" style="display:none;">
+                    <span class="sans">iTalkBB</span>化蜻蜓，沟通全球华人显决心
+                </div>
+            </div>
+        </a>
+        <a href="aboutNews20160503.html">
+            <div class="aboutNewsBanner3">
+                <img src="../shared/images/about/thumbnailBanner1.jpg" class="img w100" alt="">
+                <div class="aboutNewsBannerText title24 mTitle32 pin" style="display:none;">
+                    未来电视<span class="sans">CEO</span>携管理团队访问<span class="sans">iTalkBB</span>
+                </div>
+            </div>
+        </a>
+        <div class="clear clearfix"></div>
+    </div>
+    <div class="clear clearfix"></div>
+</section>
+
+<section class="aboutNewsBanner showM swiper-container">
+    <div id="myCarouseM" class="carousel slide showM swiper-wrapper" data-ride="carousel" data-interval="5000">
+
+            <div class="item active swiper-slide">
+                <img src="../shared/images/about/thumbnail22.png" alt="" style="width:100%;">
+                <div class="carousel-caption">
+                    <p class="aboutNewsBannerTextMobile title24 mTitle32 pin" style="padding-top:5%;padding-bottom:5%;border-bottom:0.9vw solid #327fe8;">
+                        <span class="sans">iTalkBB</span>蜻蜓强势登陆NBA顶级赛事
+                    </p>
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <img src="../shared/images/about/thumbnail11.png" alt="" style="width:100%;">
+                <div class="carousel-caption">
+                    <p class="aboutNewsBannerTextMobile title24 mTitle32 pin" style="padding-top:5%;padding-bottom:5%;border-bottom:0.9vw solid #327fe8;">
+                        <span class="sans">iTalkBB</span>化蜻蜓，沟通全球华人显决心
+                    </p>
+                </div>
+            </div>
+
+            <div class="item swiper-slide">
+                <img src="../shared/images/about/thumbnailBanner1.jpg" alt="" style="width:100%;">
+                <div class="carousel-caption">
+                    <p class="aboutNewsBannerTextMobile title24 mTitle32 pin" style="padding-top:5%;padding-bottom:5%;border-bottom:0.9vw solid #327fe8;">
+                        未来电视<span class="sans">CEO</span>携管理团队访问<span class="sans">iTalkBB</span>
+                    </p>
+                </div>
+            </div>
+
+    
+
+
+    </div>
+ 
+     <div class="swiper-button-prev mSwiper-button-prev"></div>
+     <div class="swiper-button-next mSwiper-button-next"></div>
+    <div class="clear clearfix"></div>
+       <!--移动端banner结束-->
+</section>
+
+<script>
+    $('.aboutNewsBanner1, .aboutNewsBanner2, .aboutNewsBanner3').mouseover(function(){
+        $(this).children('.aboutNewsBannerText').fadeIn(500);
+    }).mouseleave(function(){
+        $(this).children('.aboutNewsBannerText').fadeOut(500);
+    });
+</script>
+
+        <script type="text/javascript">
+                var mySwiper = new Swiper('.swiper-container',{
+                    loop: true,
+                    autoplay: 5000,
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,  
+                    prevButton:'.swiper-button-prev',
+                    nextButton:'.swiper-button-next',
+                    autoplayDisableOnInteraction : false,
+
+                    });
+        </script>

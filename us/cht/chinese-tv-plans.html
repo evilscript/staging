@@ -1,267 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cmn-Hans">
 <head>
-	<meta charset="UTF-8">
-	<title>iTalkBB蜻蜓電視-產品計劃</title>
-	<meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="copyright" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+<meta charset="UTF-8">
+<title>iTalkBB蜻蜓电视-产品计划</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="copyright" content="iTalkBB">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+<meta name="apple-itunes-app" content="app-id=514896649">
+<link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_chinese-tv-plans.css">
+<script src="../shared/js/jquery-1.12.4.min.js"></script>
+<script src="../shared/js/angular-1.6.4.min.js"></script>
+<script src="../shared/js/bootstrap.min.js"></script>
+<script src="../shared/js/imageMapResizer.js"></script>
+<script src="../shared/js/common.js"></script>
 
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
-	<meta name="apple-itunes-app" content="app-id=514896649">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42957008-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-42957008-1');
+</script>
 
-
-    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-
-
-    <script src="../shared/js/jquery-1.12.4.min.js"></script>
-    <script src="../shared/js/angular-1.6.4.min.js"></script>
-    <script src="../shared/js/bootstrap.min.js"></script>
-	<script src="../shared/js/imageMapResizer.js"></script>
-    <script src="../shared/js/common.js"></script>
-    <style>
-/* bannerAll begin */
-
-/* bannerAll end */
-
-/* bannerAll end */
-
-		
-
-		label{font-weight: 500}
-		a{color:#333333;}
-		a:hover{color:#333333;}
-		.bodyy{margin-top: 9%;background-color: white}
-		.bannerAll1{background: url(../shared/images/tv/tvPlanBannerBg.jpg) no-repeat; background-size: 100%;}
-		.bannerAll2{background: url(../shared/images/tv/tvgoodAd2.jpg) no-repeat; background-size: 100%;height: 41vw}
-		.bannerAll3{background: url(../shared/images/tv/tvgoodAd3.jpg) no-repeat; background-size: 100%;height: 35vw}
-		.bannerAll2{color: #444444;padding-top: 4%}
-		.bannerAll3{color: #444444;padding-top: 4%}
-		.banner2txt{width: 35%}
-
-		
-		.plan{margin-top: 3% }
-		.bbPlanLimitedBig, .planLimitedBig { margin: 0 auto;width: 89.5%;}
-		.planTitleBig {color: #fff;margin-bottom: 1.8%;padding-top: 2.6%;text-align: center;}
-		.use{width: 74.1%;margin: 0 auto;background-color: white;}
-		.user{display: inline-block;width: 50%;text-align: center;margin-top: 0.8%;color:#b4b4b4;border-bottom: 1px solid #b4b4b4;}
-		.useradd{color:#ff7f00;border-bottom: 1px solid #ff7f00;font-weight: 800}
-		.picmb{display: none;}
-		.picpaid{display: none}
-		.md1,.md3{display: inline-block;width: 37%;vertical-align: top}
-		.md2{display: inline-block;width: 25%;padding-left: 5%}	
-		.md2a{font-family: avenir;line-height: 1;float: left;}
-		.md2b{font-family: avenir;line-height: 0.9;float: left;letter-spacing: -5px;}
-		.md2c{font-family: avenir;line-height: 1; margin-left: 2%; float: left;}
-		.md2d{line-height: 1; margin-left: 5%; float: left;}
-		.cir,.optxt{display: inline-block;vertical-align: top}
-		.cir{width: 4.5%;line-height: 1.5;border:1px solid black;border-radius: 100%;margin-top: 2.9% }
-		.cir:hover{cursor:pointer;}
-		.optxt{width: 92%;margin-left: 3%;line-height: 2}
-		.ciradd{border-color:#ff7f00;box-shadow: 0px 0px 0px 0.15vw #ff7f00;}
-		.opt2{margin-top: 2%}
-		.md1tit{color:#ff7f00;}
-		.cont1{margin-left: 39%;}
-		.cont2{width: 75%;margin-left:12%;}
-		.middle{padding-top: 6.5%;padding-bottom: 6%}
-		.midButton{position: absolute;width: 12.5%;background-color: #327fe8;color: white;left: 44%;margin-top: -1.3%;text-align: center;line-height: 2;border-radius: 5px;}
-		.bannerAd1{margin-bottom: 3.8%;}
-		.tvshow{background-color: black; padding-bottom: 1%;}
-		.showtit1{color: white;text-align: center;padding-top:3.2%;font-weight: 800}
-		.showtit2{color: white;text-align: center;margin-top:1% ;margin-bottom:3.5%;}
-		.bannerAd1tit{text-align: center;font-weight: 800;    padding-top: 4%; }
-		.textAd1{text-align: center;margin: 0 auto;width: 63%;margin-top: 1%;line-height: 1.8}
-
-		.icons{width: 78.5%;margin: 0 auto}
-		.icons{margin-top: 4.8%;margin-bottom: 4.8%}
-		.icons1{width: 50%;float: left;}
-		.icons2{width: 50%;float: right;}
-		.icons3{ width: 50%;float: right;margin-top: 10%}
-		.icons4{ width: 50%;float: left;margin-top: 10%;}
-		.icontit{font-weight: 800;text-align: center;margin-top: 8%;}
-		.icons1 img,.icons2 img,.icons3 img,.icons4 img{width: 26.2%;margin:0 auto;}
-		.icontext{width: 81%;margin: 0 auto;margin-top: 3%;line-height: 1.8}
-		.bannerAd1Pic{background:url(../shared/images/tv/tvgoodAd1.jpg) center center  no-repeat;background-size: 100% 100% }
-		.bg{background:url(../shared/images/bb/bbPlanBg01.jpg ) center center  no-repeat;background-size: cover}
-		.bottom{width: 74.2%;margin: 0 auto;background-color: #f2f2f2;padding-left: 8%}
-		.bottom ul li{display: inline-block;width: 25%} 
-		.bottom ul{padding:8% 0;}
-		.bimg,.btxt{display: inline-block;vertical-align: top}
-		.bimg{margin-right: 5%;width: 8%;}
-		.bimg img{width: 100%}
-		.btxt{width: 87%}
-		.lia{margin-bottom: 4.5%}
-		#wrap{ position: relative;width: 100%;overflow: hidden;}
-		#roll{position: absolute;left: 0;width: 9999px;}
-		#roll img{float: left;}
-		.old{text-decoration: line-through;margin-top: 15%;display:none;color: red}
-		.try{text-align: center;}
-		.balance{margin-bottom: 6%}
-		.compare{width: 83.8%;margin:0 auto;}
-		.putong,.gaoqing{width: 49.5%;display: inline-block;}
-		.putong img,.gaoqing img{width: 100%;-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, transparent) , to(rgba(250, 250, 250, 0.2)));}
-		.putong{margin-right: 0.5%}
-		.bannerAd1tit2{text-align: center;font-weight: 800; }
-	
-		.textAd2{text-align: center;margin: 0 auto;width: 63%;margin-top: 1%;margin-bottom: 1.5%;line-height: 1.8}
-		.textLink{color:#ff7f00}
-
-
-		@media screen and (min-width: 1600px) and (max-width: 1700px) {
-    .title140{font-size: 130px}
-}
-
-
-
-		@media (max-width:1000px){
-			.banner2txt{width: 50%}
-			.planLimitedBig,.bbPlanLimitedBig{width: 100%}
-   			.md2{width: 29%}
-   			.use{width: 89.6%}
-   			.bottom{width: 90%}
-   			.cont2,.cont1{width: 100%}
-   			.cont1{margin-left: 20%}
-   			.cont2{margin-left: 0}
-   			.md1, .md3{width: 35%}
-   			.midButton{margin-top: -2%;width: 24%;left: 38%}
-   			.ciradd{border-color:#ff7f00;box-shadow: 0px 0px 0px 0.15vw #ff7f00;}
-   			.middle{padding-top:4% }
-   			.bottom{padding-left:3% }
-   			.btxt{line-height: 1}
-   			.bannerAd3 .text1{top: 17%}
-   			.old{margin-top: 20%}
-   			.cont1{font-size:2.3vw }
-   			.bottom ul li .btxt{line-height: 1.8}
-   			.textAd1{width: 89.6%}
-   			.bimg{margin-top: 2%}
-   			.icons{width: 100%}
-   			.icontext{width: 80%}
-   			.icons4,.icons3{margin-top:6.5% }
-   			.showtit2{ width: 89.6%;margin: 0 auto;margin-bottom: 1%}
-   		.bannerAll1{background: url(../shared/images/tv/ipadTVPlanBannerBg.jpg) no-repeat; background-size: 100%;}
-		.bannerAll2{background: url(../shared/images/tv/ipadTVgoodAd2.jpg) no-repeat; background-size: 100%;height: 53vw}
-		.bannerAll3{background: url(../shared/images/tv/tvgoodAd3.jpg) no-repeat; background-size: 100%;height: 30vw}
-		.compare{width: 90%}
-
-		}
-
-
-		@media screen and (min-width: 767px) and (max-width: 785px) {
-   .bannerAd1Pic{background-size: cover}
-}
-
-
-
-@media (max-width:767px){
-	.icontext{width:100% }
-	.bannerAll1{background: url(../shared/images/tv/mTVPlanBannerBg.jpg) no-repeat; background-size: 100%;}
-	.bannerAll2{background: url(../shared/images/tv/tvgoodAd2M.jpg) no-repeat; background-size: 100%;height: 106vw}
-	.bannerAll3{background: url(../shared/images/tv/tvgoodAd3M.jpg) no-repeat; background-size: 100%;height: 91vw}
-	.banner2txt{width: 100%}
-	.compare{width: 100%}
-	.putong img,.gaoqing img{-webkit-box-reflect: none}
-	.putong,.gaoqing{width: 100%;display: block;}
-	.textAd2{width: 88%;margin-bottom: 4%}
-
-	.bodyy{margin-top: 14%}
-	.picpc{display: none;}
-	.picmb{display: block;}
-	.plan{width: 100%}
-	.use{width: 80%;}
-	a.left{border: 2px}
-	a.right{border:2px;}
-	.md1,.md2,.md3{display: block;width: 100%}
-	.md1{text-align: center;}
-	.cont1{width: 100%;font-weight: 800;margin-left: 0}
-	.cont2{width:80%;margin: 0 auto}
-	.md1tit,.mid1txt{display: inline-block;}
-	.text{padding-top: 6%}
-	.bannertext1{margin-top: 2%}
-	.plan{margin-top: 5%}
-	.planTitleBig{padding-top: 5.6%;margin-bottom: 5.5%}
-
-
-	.middle{padding-top: 7%;padding-bottom: 10%}
-	.md2{width: 45%;margin: 0 auto;margin-top: 5%}
-	.text{padding-bottom: 1%}
-	.md2a{font-size: 7vw}
-	.md2b{font-size: 18vw}
-	.md2c{font-size: 8vw;margin-top: 2%}
-	.md2d{font-size: 5vw;margin-top:3% }
-	.md3{margin-top: 30%}
-	.ciradd{border-color:#ff7f00;box-shadow: 0px 0px 0px 0.3vw #ff7f00;}
-	.cir{margin-top: 2%}
-	.bottom{width: 80%}
-	.bottom ul li{display:block;width: 100%} 
-	.bimg{width: 4%;margin-top: 2%}
-	.bimg img{width: 100%}
-	.bottom ul{padding: 10% 0}
-	.bottom ul li{margin-bottom:2.7% }
-	.bottom{padding-left: 8%}
-	.bottom ul {padding: 10% 0 5% 0;}
-	.midButton{width: 40%;left: 30%;margin-top: -3.5%}
-	.lia{margin-top: 3%}
-	.textAd1{width: 88%}
-	.bannerAd1{margin-top: 3%}
-	.bannerAd1tit{font-weight: 500}
-	.textAd1{text-align: center;line-height: 1.8}
-	.bannerAd2,.bannerAd1Pic,.bannerAd3{background-size:cover;}
-	.bannerAd3{background-size: 170%;    background-position: 85% 90%;}
-	.showtit1{padding-top: 7%;font-weight: 800}
-	.showtit2{    margin-bottom: 6%;line-height: 1.8;padding-left: 5%;padding-right: 5%}
-	.icons1,.icons2,.icons3,.icons4{float: none;width: 89.4%;border-bottom:1px solid #aaaaaa;margin:0 auto;padding: 7% 0}
-	.icons4{border-bottom:none;padding-bottom: 0}
-	
-	.icons1 img,.icons2 img,.icons3 img,.icons4 img{width: 36%}
-	.icons{padding-top: 5%}
-	.icontit{margin-top:6% }
-
-	.wei,.wei2,.wei3{width: 100%;left: 0}
-	.wei2{top: 7%}
-	.wei{top: 9.5%}
-	.wei3{top: 9%}
-	.bannerAdtit{text-align: center;width: 100%;left:0 }
-	.wei2 .text1 {line-height: 1.8;width: 89.6%; margin: 0 auto;text-align: center;margin-top: 1%}
-	.wei3 .text1 {line-height: 1.8;width: 89.6%; margin: 0 auto;text-align: center;margin-top: 1%}
-
-	.bannertit{width: 100%;text-align: center;left: 0;top: 8%;}
-	.bannertext{width: 100%;text-align: center;left: 0}
-	.bannertext {top: 20%;}
-	.bannertex2 {top: 25%;}
-	.old{text-align: center;margin-top: 0}
-	.cont1{font-size:4.17vw }
-	.try{width: 80%;margin: 0 auto;margin-top:4% }
-}
-
-
-		
-    </style>
 </head>
 <body ng-app="">
 	<div id="header"></div>
-        <script>
-            $('#header').load('header.html');
-        </script>
-   
+    <div class="clear clearfix"></div>
 	<div class="mainLayout">
        <section class="bannerAll bannerAll1">
      	    <div class="bannerText">
-     	    	<p class="title60 mTitle60 fwb bannerTitle">iTalkBB蜻蜓電視</p>
+     	    	<p class="title60 mTitle60 pin fwb bannerTitle">iTalkBB蜻蜓电视</p>
      	    	<p class="title30 mTitle30">
-     	    	   <span>海外華人首選中文電視</span>
-     	    	   <span>2017華語新片, 盡在蜻蜓電視</span>
+     	    	   <span>海外华人首选中文电视</span>
+     	    	   <span>2017华语新片, 尽在蜻蜓电视</span>
      	    	</p>
      	    </div>      	    	   
        </section>
-
-
-
 
 		<div class="plan">
 		    <div class="bbPlanLimitedBig">
@@ -269,80 +52,74 @@
       	    </div>
 			<div class="planLimitedBig">
 				<div class="bg">
-					<p class="planTitleBig title42 mTitle50 fwb" id="tit">蜻蜓電視產品計劃</p>
+					<p class="planTitleBig title42 mTitle50 pin fwb" id="tit">蜻蜓电视产品计划</p>
 					<div class="use">
-						<div class="top">
-							<a href=""><div class=" user title30 mTitle38 useradd" use='no'>非用戶</div></a><a href=""><div class="  user  title30 mTitle38" use='yes'>用戶</div></a>
+						<div class="useBtnBox title30 mTitle38 pin fwb">
+							<a><div class="user useradd"  use="no">非用户</div></a><a><div class="user" use="yes">用户</div></a>
 						</div>
 						<div class="middle">
 							<div class="md1">
 								<div class="cont1 title30 mTitle38">
-								<div class="md1tit">訂購</div>
-								<div class="mid1txt">iTalkBB蜻蜓電視</div>
+								<div class="md1tit">订购</div>
+								<div class="mid1txt">iTalkBB蜻蜓电视</div>
 								</div>
 							</div><div class="md2">
 							
-								<div class="md2a title60">$</div>
-								<div class="md2b title140">4</div>
+								<div class="md2a title60 mTitle68">$</div>
+								<div class="md2b title140 mTitle162">4</div>
 								<div class="fen">
-								<div class="md2c title70">.99</div>
-								<div class="md2d title36">/月</div>
+								<div class="md2c title70 mTitle78">.99</div>
+								<div class="md2d title36 mTitle44">/月</div>
 								</div>
 							</div><div class="md3">
-								<div class="cont2 title18 mText24">
+								<div class="cont2 title18 mTitle26">
 								<form >
 								    <div class="opt">
-        									<div class="ciradd cir cir1" buy='cheap'></div><div class="optxt">領取$10/月優惠，原價 $14.99 /月，享受電話+電視兩個服務</div>
+        									<div class="ciradd cir cir1" buy="cheap"></div><div class="optxt">领取$10/月优惠，原价 $14.99 /月，享受电话+电视两个服务</div>
     								</div>
     								<div class="opt opt2">
-        									<div class="cir cir2" buy='exp'></div><div class="optxt">不領取優惠，$14.99/月</div>
+        									<div class="cir cir2" buy="exp"></div><div class="optxt">不领取优惠，$14.99/月</div>
     								</div>
 								</form>
-								<div class="old">原價14.99/月</div>
+								<div class="old">原价14.99/月</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<a class="buy" href="www.4a99.com"><div class="midButton title24 mTitle30">
-						立即訂購
-					</div></a>
+					<a class="buy" href="https://webaccount.italkbb.com/BBSignUp/index_USCN_CHS.html?act=USCN_BB_Online&cid=200004&opc=USCN2017V30ALL+USCN17JV19&cob=1">
+					   <div class="midButton title30 mTitle38">立即订购</div>
+					</a>
 				</div>
-					<div class="bottom">
-						<ul class="title18 mTitle26">
-							<li class="lia "><div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">最新獨家正版院線大片</div></li><li>
-							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">2017最新電視劇</div></li><li>
-							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">支持72小時回放</div></li><li>
-							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">全新設備升級</div></li><li>
-							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">海量影視劇點播</div></li><li>
-							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">高清中港臺直播頻道</div></li><li>
-							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">本地視頻播放</div></li><li>
-							<div class="bimg"><img src="../shared/images/tv/litit.png" alt=""></div><div class="btxt">5分鐘簡易安裝</div></li>
-						</ul>
-
-
+					<div class="bottom listBox title18 mTitle26 clearfix">
+					    <p>最新独家正版院线大片</p>
+					    <p>2017最新电视剧</p>
+					    <p>支持72小时回放</p>
+					    <p>全新设备升级</p>
+					    <p>海量影视剧点播</p>
+					    <p>高清中港台直播频道</p>
+					    <p>本地视频播放</p>
+					    <p>5分钟简易安装</p>	
 					</div>
 				
 			</div>
 		</div>
 
-		<div class="try"><p class="title30 mTitle30">30天試用承諾，無理由全額退款！ <a href="" class="textLink">如何申請退款？</a></p></div>
+		<div class="refund"><p class="title36 mTitle44 pin fwb">30天试用承诺，无理由全额退款！ <a href="support-chinese-tv.html#refund" class="linkOrange" target="_blank">如何申请退款？</a></p></div>
 
 		<div class="bannerAd1">
-			<div class="bannerAd1tit title36 mTitle50 fwb">獨家院線新片</div>
-			<div class="textAd1 text18 mText24">iTalkBB蜻蜓電視提供最新的正版院線大片，讓您在家就可以看到壹級棒的華語電影，免費點播，高清畫質。同時， 我們采用最尖端的圖像處理技術，為您呈現高清畫質的視聽享受，無論是武打片還是都市劇，您都可以享受到完美的畫質和音效，在家看大片。</div>
-			<div class="bannerAd1Pic">
-				
-			</div>
+			<p class="titleMgnBtm bannerAd1tit title36 mTitle44 pin fwb">独家院线新片</p>
+			<p class="textAd1 text18 mText26">iTalkBB蜻蜓电视提供最新的正版院线大片，让您在家就可以看到一级棒的华语电影，免费点播，高清画质。同时， 我们采用最尖端的图像处理技术，为您呈现高清画质的视听享受，无论是武打片还是都市剧，您都可以享受到完美的画质和音效，在家看大片。</p>
+			<div class="bannerAd1Pic"></div>
 		</div>
 
 		<div class="tvshow">
-			<div class="showtit1 title36 mTitle50 fwb">海量影视点播</div>
-			<div class="showtit2 text18 mText24">iTalkBB蜻蜓電視提供六十多個熱門頻道的實時直播，讓您和家人觀看內地、香港、臺灣和海外頻道的即時節目，新聞、綜藝、訪談、電視劇應用盡有。</div>
+			<p class="titleMgnBtm showtit1 title36 mTitle44 pin fwb">海量影视点播</p>
+			<p class="showtit2 text18 mText26">iTalkBB蜻蜓电视提供六十多个热门频道的实时直播，让您和家人观看内地、香港、台湾和海外频道的即时节目，新闻、综艺、访谈、电视剧应用尽有。</p>
 
 			<div id="wrap">
 				<div id="roll">
-					<img src="../shared/images/tv/tvgoodGopic.jpg" alt="">
-					<img src="../shared/images/tv/tvgoodGopic.jpg" alt="">
+					<img src="../shared/images/tv/tvMassGopic.jpg" alt="iTalkBB蜻蜓电视-海量影视点播">
+					<img src="../shared/images/tv/tvMassGopic.jpg" alt="iTalkBB蜻蜓电视-海量影视点播">
 				</div>
 			</div>
 		</div>
@@ -350,52 +127,53 @@
 
 		<div class="icons">
 			<div class="icons1">
-				<img src="../shared/images/tv/tvgoodIcon6.png" alt="">
-				<div class="icontit title36 mTitle44">高清中港臺直播</div>
-				<div class="icontext text18 mText24">iTalkBB蜻蜓電視提供六十多個熱門頻道的實時直播，讓您和家人觀看內地、香港、臺灣和海外頻道的即時節目，新聞、綜藝、訪談、電視劇應用盡有。</div>
+				<img src="../shared/images/tv/tvIcon1.png" alt="iTalkBB蜻蜓电视-高清中港台直播">
+				<p class="titleMgnBtm icontit title30 mTitle38 pin fwb">高清中港台直播</p>
+				<p class="icontext text18 mText26">iTalkBB蜻蜓电视提供六十多个热门频道的实时直播，让您和家人观看内地、香港、台湾和海外频道的即时节目，新闻、综艺、访谈、电视剧应用尽有。</p>
 			</div><div class="icons2">
-				<img src="../shared/images/tv/tvgoodIcon5.png" alt="">
-				<div class="icontit title36 mTitle44">72小時回放</div>
-				<div class="icontext text18 mText24">支持72小時熱門頻道回看功能，讓您不會錯過任何精彩節目，無論是新聞訪談還是春晚跨年，您都可以隨時觀看。</div>
+				<img src="../shared/images/tv/tvIcon2.png" alt="iTalkBB蜻蜓电视-72小时回放">
+				<p class="titleMgnBtm icontit title30 mTitle38 pin fwb">72小时回放</p>
+				<p class="icontext text18 mText26">支持72小时热门频道回看功能，让您不会错过任何精彩节目，无论是新闻访谈还是春晚跨年，您都可以随时观看。</p>
 			</div>
 
-			<div class="clear clearfix"></div>
+			<!--<div class="clear clearfix"></div>-->
 			<div class="icons3">
-				<img src="../shared/images/tv/tvgoodIcon7.png" alt="">
-				<div class="icontit title36 mTitle44">本地播放</div>
-				<div class="icontext text18 mText24">任何本地的影片或圖片，都可以通過iTalkBB蜻蜓電視在電視熒幕上播放。將您的本地移動設備（如U盤、移動硬盤等）連接在機頂盒的USB插口上，點擊首頁下方的“本地播放”，即可瀏覽您移動設備中可播放的影片、音樂及圖片文件，方便實用。</div>
+				<img src="../shared/images/tv/tvIcon4.png" alt="iTalkBB蜻蜓电视-本地播放">
+				<p class="titleMgnBtm icontit title30 mTitle38 pin fwb">本地播放</p>
+				<p class="icontext text18 mText26">任何本地的影片或图片，都可以通过iTalkBB蜻蜓电视在电视荧幕上播放。将您的本地移动设备（如U盘、移动硬盘等）连接在机顶盒的USB插口上，点击首页下方的“本地播放”，即可浏览您移动设备中可播放的影片、音乐及图片文件，方便实用。</p>
 			</div>
 			<div class="icons4">
-				<img src="../shared/images/tv/tvgoodIcon8.png" alt="">
-				<div class="icontit title36 mTitle44">正版授權</div>
-				<div class="icontext text18 mText24">iTalkBB蜻蜓電視擁有播出頻道的正版授權，為您帶來可靠、穩定的正版中文電視節目，不用擔心節目中斷、電視黑屏、直播卡頓等故障問題，您的服務由我們保障。</div>
+				<img src="../shared/images/tv/tvIcon3.png" alt="iTalkBB蜻蜓电视-正版授权">
+				<p class="titleMgnBtm icontit title30 mTitle38 pin fwb">正版授权</p>
+				<p class="icontext text18 mText26">iTalkBB蜻蜓电视拥有播出频道的正版授权，为您带来可靠、稳定的正版中文电视节目，不用担心节目中断、电视黑屏、直播卡顿等故障问题，您的服务由我们保障。</p>
 			</div>
 			<div class="clear clearfix"></div>
 		</div>
 		
 		<div class="balance">
-			<div class="bannerAd1tit2 title36 mTitle50 fwb">1080p畫質, 打造視覺盛宴</div>
-			<div class="textAd2 text18 mText24">iTalkBB蜻蜓采用最尖端的圖像處理技術，無論是最新影視劇，熱門綜藝節目和精彩賽事都能讓您擁有最極致的視覺享受。</div>
+			<p class="titleMgnBtm bannerAd1tit2 title36 mTitle44 pin fwb">1080p画质, 打造视觉盛宴</p>
+			<p class="textAd2 text18 mText26">iTalkBB蜻蜓采用最尖端的图像处理技术，无论是最新影视剧，热门综艺节目和精彩赛事都能让您拥有最极致的视觉享受。</p>
 			<div class="compare">
-				<div class="putong"><img class="pupic" src="../shared/images/tv/putong.jpg" alt=""></div><div class="gaoqing"><img class="gaopic" src="../shared/images/tv/gaoqing.jpg" alt=""></div>
+				<div class="putong"><img class="pupic" src="../shared/images/tv/ordinaryDefinition.jpg" alt="iTalkBB蜻蜓电视-1080p画质"></div>
+				<div class="gaoqing"><img class="gaopic" src="../shared/images/tv/highDefinition.jpg" alt="iTalkBB蜻蜓电视-1080p画质"></div>
 			</div>
 		</div>
 
 
 		<section class="bannerAll bannerAll2">
      	    <div class="bannerText">
-     	    	<p class="title36 mTitle44 fwb bannerTitle">全新界面</p>
+     	    	<p class="titleMgnBtm title36 mTitle44 pin fwb">全新界面</p>
      	    	<p class="text18 mText28 banner2txt">
-     	    	   <span>全新升級的蜻蜓電視設備，擁有更友好的界面和更智能的操作系統，方便您的使用和觀看，老人孩子都能輕松學會使用，是您全家的好伴侶。</span>
+     	    	   <span>全新升级的蜻蜓电视设备，拥有更友好的界面和更智能的操作系统，方便您的使用和观看，老人孩子都能轻松学会使用，是您全家的好伴侣。</span>
      	    	</p>
      	    </div>      	    	   
         </section>
 
 		<section class="bannerAll bannerAll3">
      	    <div class="bannerText">
-     	    	<p class="title36 mTitle44 fwb bannerTitle">安裝便捷</p>
+     	    	<p class="titleMgnBtm title36 mTitle44 pin fwb">安装便捷</p>
      	    	<p class="text18 mText28 banner2txt">
-     	    	   <span>安裝簡單，只需插好電源，使用HDMI線連接到電視即可，5分鐘內搞定，輕松無負擔。</span>
+     	    	   <span>安装简单，只需插好电源，使用HDMI线连接到电视即可，5分钟内搞定，轻松无负担。</span>
      	    	</p>
      	    </div>      	    	   
         </section>
@@ -403,8 +181,10 @@
 		  
 
 	</div>
-    <div id="footer"></div>
-        <script>
+    <div class="clear clearfix"></div>
+	<div id="footer"></div>
+         <script>
+		    $('#header').load('header.html');
             $('#footer').load('footer.html');
         </script>
 </body>
@@ -417,8 +197,8 @@ $(window).resize(function(){
                $(".cir1").height($(".cir1").width()*1);
                $(".cir2").height($(".cir2").width()*1);
                $(".bannerAd1Pic").height($(".bannerAd1Pic").width()*0.56);
-               $(".pupic").attr("src","../shared/images/tv/gaoqingM.jpg");
-               $(".gaopic").attr("src","../shared/images/tv/putongM.jpg");
+               $(".pupic").attr("src","../shared/images/tv/mHighDefinition.jpg");
+               $(".gaopic").attr("src","../shared/images/tv/mOrdinaryDefinition.jpg");
 
                 $("#wrap").height($("#wrap").width()*0.56);
                $("#roll img").width($("#wrap").width()*1.7);
@@ -433,7 +213,7 @@ $(window).resize(function(){
                $(".cir1").height($(".cir1").width()*1);
                $(".cir2").height($(".cir2").width()*1);
                $(".pupic").attr("src","../shared/images/tv/putong.jpg");
-               $(".gaopic").attr("src","../shared/images/tv/gaoqing.jpg");
+               $(".gaopic").attr("src","../shared/images/tv/highDefinition.jpg");
                
                // $(".md2").height($(".md2").width()*0.8);
         }
@@ -452,7 +232,7 @@ $(window).resize(function(){
 
                $("#wrap").height($("#wrap").width()*0.56);
                $("#roll img").width($("#wrap").width()*1.7);
-               $(".pupic").attr("src","../shared/images/tv/gaoqingM.jpg");
+               $(".pupic").attr("src","../shared/images/tv/mHighDefinition.jpg");
                $(".gaopic").attr("src","../shared/images/tv/putongM.jpg");
                rollFn(1);
 
@@ -510,7 +290,7 @@ $(window).resize(function(){
 
 					$('.md2b').html(14);
 					$('.md2').css('padding-left','0%');
-					$(".buy").attr("href","www.14a99.com"); 
+					// $(".buy").attr("href","www.14a99.com"); 
 
 			}if(b=='cheap'){
 
@@ -519,7 +299,7 @@ $(window).resize(function(){
 					$('.md2c').css('margin-left','2%');
 					$('.md2d').css('margin-left','5%');
 					
-					$(".buy").attr("href","www.4a99.com"); 
+					// $(".buy").attr("href","www.4a99.com"); 
 			}
 	
 		});
@@ -536,7 +316,7 @@ $(window).resize(function(){
 					$('.md2').css('padding-left','5%');
 					$('.md2c').css('margin-left','2%');
 					$('.md2d').css('margin-left','5%');
-					$(".buy").attr("href","www.4a99.com"); 
+					$(".buy").attr("href","https://webaccount.italkbb.com/BBSignUp/index_USCN_CHS.html?act=USCN_BB_Online&cid=200004&opc=USCN2017V30ALL+USCN17JV19&cob=1"); 
 					$('.cir').removeClass('ciradd');
 					$('.cir1').addClass('ciradd');
 
@@ -551,7 +331,7 @@ $(window).resize(function(){
 					$('.md2b').css('margin-left','0%');
 					$('.old').css('display','block');
 					$('.ng-valid').css('display','none');
-					$(".buy").attr("href","www.49a99.com"); 
+					$(".buy").attr("href","https://webaccount.italkbb.com/CPSignUp/index_USCN_CP_CHS.html?act=USCN_CP_Online_NEW"); 
 
 			}
 

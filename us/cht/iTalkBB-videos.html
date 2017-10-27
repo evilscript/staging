@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
 <head>
-    <meta charset="UTF-8">
-    <title>iTalkBB蜻蜓-關於我們</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="copyright" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
-
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
-    <meta name="apple-itunes-app" content="app-id=514896649">
-
-	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_about.css">
-    <style>
+<meta charset="UTF-8">
+<title>iTalkBB蜻蜓-关于我们-蜻蜓视频</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="copyright" content="iTalkBB">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+<meta name="apple-itunes-app" content="app-id=514896649">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_about.css">   
+<script src="../shared/js/jquery-1.12.4.min.js"></script>
+<script src="../shared/js/angular-1.6.4.min.js"></script>
+<script src="../shared/js/bootstrap.min.js"></script>
+<script src="../shared/js/imageMapResizer.js"></script>
+<script src="../shared/js/common.js"></script>
+<style>
         .fancybox-skin{
             background:transparent!important;
         }
     </style>
-    <!--这里继续添加子页面的Css引用文件-->
 
-    <script src="../shared/js/jquery-1.12.4.min.js"></script>
-    <script src="../shared/js/angular-1.6.4.min.js"></script>
-    <script src="../shared/js/bootstrap.min.js"></script>
-    <script src="../shared/js/imageMapResizer.js"></script>
-    <script src="../shared/js/common.js"></script>
-    <!--这里继续添加子页面的Js引用文件-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42957008-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-42957008-1');
+</script>
+
 </head>
 
 
 <body ng-app="" style="background:white;">
-    <!--Carson制作-->
+    <!-- Author: carson -->
     <div class="container1920">
         <div id="video0" style="display:none;">
             <div class="videoWrapper">
@@ -107,13 +112,13 @@
                         <img src="../shared/images/about/aboutVideoBanner.jpg" class="hideM img w100" alt="">
                         <img src="../shared/images/about/aboutVIdeoMobileBanner.jpg" class="showM img w100" alt="">
 
-                        <div class="aboutNewsBannerText title30 mTitle38 pin hideM" style="display:none;padding-top:1.2%;padding-bottom:1.2%;cursor:pointer;">
-                            <span class="sans">iTalkBB</span>蜻蜓電影《俠盜聯盟》北美首映
+                        <div class="aboutNewsBannerText title30 mTitle38 hideM" style="display:none;padding-top:1.2%;padding-bottom:1.2%;cursor:pointer;">
+                            iTalkBB蜻蜓电影《侠盗联盟》北美首映
                             <span><img src="../shared/images/about/aboutVideoBannerFloat.png" alt="" class="floatImg"></span>
                         </div>
 
-                        <div class="aboutNewsBannerTextMobile title30 mTitle32 pin showM" style="padding-top:3%;padding-bottom:3%;border-bottom:0.9vw solid #327fe8;">
-                            <span class="sans">iTalkBB</span>蜻蜓電影《俠盜聯盟》北美首映
+                        <div class="aboutNewsBannerTextMobile title24 mTitle24 showM" style="padding-top:3%;padding-bottom:3%;border-bottom:0.9vw solid #327fe8;">
+                            iTalkBB蜻蜓电影《侠盗联盟》北美首映
                             <span><img src="../shared/images/about/aboutVideoBannerFloat.png" alt="" class="floatImg"></span>
                         </div>
                     </div>
@@ -121,9 +126,20 @@
                 <div class="clear clearfix"></div>
             </section>
 
-            <!--关于我们系列页面 tab 公共部分，每页的active不同-->
-            <div ng-include="'aboutTab.html'"></div>
-            <!--结束-->
+      <!--menu begin-->
+      <section class="mainMgnTop">
+         <div class="mainMgn200">
+        	<div class="lineOrange"></div>       	        	 
+        	<div class="menuCon">
+        	<div class="menuBox menuBox3 clearfix">
+			<a href="company-profile.html"><p class="menuBtn title24 mTitle24 use">公司简介</p></a>
+			<a href="iTalkBB-news.html"><p class="menuBtn title24 mTitle24 fault">蜻蜓新闻</p></a>
+			<a href="iTalkBB-videos.html"><p class="menuBtn title24 mTitle24 selected">蜻蜓视频</p></a>
+			</div>	
+			</div>
+	     </div>           	      	
+      </section>
+      <!--menu end-->
         </div>
     </div>
 
@@ -133,31 +149,31 @@
             <div class="container1920">
                 <div class="aboutNewsBanner1 video1">
                     <img src="../shared/images/about/thumbnail2.png" class="img w100" alt="">
-                    <div class="aboutNewsBannerText title30 mTitle32 pin hideM" style="display:none;">
-                        <span class="sans">iTalkBB</span>蜻蜓比賽夜宣傳片-籃網 <span class="sans">vs.</span> 騎士
+                    <div class="aboutNewsBannerText title24 mTitle24 hideM" style="display:none;">
+                        iTalkBB蜻蜓比赛夜宣传片—篮网 vs. 骑士
                     </div>
-                    <div class="aboutNewsBannerTextMobile title30 mTitle32 pin showM">
-                        <span class="sans">iTalkBB</span>蜻蜓比賽夜宣傳片-籃網 <span class="sans">vs.</span> 騎士
+                    <div class="aboutNewsBannerTextMobile title24 mTitle24 showM">
+                        iTalkBB蜻蜓比赛夜宣传片—篮网 vs. 骑士
                     </div>
                 </div>
 
                 <div class="aboutNewsBanner2 video2">
                     <img src="../shared/images/about/thumbnail1.png" class="img w100" alt="">
-                    <div class="aboutNewsBannerText title30 mTitle32 pin hideM" style="display:none;">
-                        <span class="sans">iTalkBB</span>蜻蜓-海外第一大華裔電信運營商，揭曉全新中文名稱及<span class="sans">LOGO</span>
+                    <div class="aboutNewsBannerText title24 mTitle24 hideM" style="display:none;">
+                        iTalkBB蜻蜓-海外第一大华裔电信运营商，揭晓全新中文名称及LOGO
                     </div>
-                    <div class="aboutNewsBannerTextMobile title30 mTitle32 pin showM">
-                        <span class="sans">iTalkBB</span>蜻蜓-海外第一大華裔電信運營商，揭曉全新中文名稱及<span class="sans">LOGO</span>
+                    <div class="aboutNewsBannerTextMobile title24 mTitle24 showM">
+                        iTalkBB蜻蜓-海外第一大华裔电信运营商，揭晓全新中文名称及LOGO
                     </div>
                 </div>
 
                 <div class="aboutNewsBanner3 video3">
                     <img src="../shared/images/about/thumbnail3.png" class="img w100" alt="">
-                    <div class="aboutNewsBannerText title30 mTitle32 hideM pin" style="display:none;">
-                        <span class="sans">This is a place where you shine<br>- Join iTalkBB</span>蜻蜓
+                    <div class="aboutNewsBannerText title24 mTitle24 hideM" style="display:none;">
+                        This is a place where you shine - Join iTalkBB蜻蜓
                     </div>
-                    <div class="aboutNewsBannerTextMobile title30 mTitle32 showM pin">
-                        <span class="sans">This is a place where you shine - Join iTalkBB</span>蜻蜓
+                    <div class="aboutNewsBannerTextMobile title24 mTitle24 showM">
+                        This is a place where you shine - Join iTalkBB蜻蜓
                     </div>
                 </div>
 
@@ -170,31 +186,31 @@
             <div class="container1920">
                 <div class="aboutNewsBanner1 video4">
                     <img src="../shared/images/about/thumbnail4.png" class="img w100" alt="">
-                    <div class="aboutNewsBannerText title30 mTitle32 hideM pin" style="display:none;">
-                        <span class="sans">iTalkBB</span>蜻蜓<span class="sans">NBA</span>比賽夜廣告片
+                    <div class="aboutNewsBannerText title24 mTitle24 hideM" style="display:none;">
+                        iTalkBB蜻蜓NBA比赛夜广告片
                     </div>
-                    <div class="aboutNewsBannerTextMobile title30 mTitle32 showM pin">
-                        <span class="sans">iTalkBB</span>蜻蜓<span class="sans">NBA</span>比賽夜廣告片
+                    <div class="aboutNewsBannerTextMobile title24 mTitle24 showM">
+                        iTalkBB蜻蜓NBA比赛夜广告片
                     </div>
                 </div>
 
                 <div class="aboutNewsBanner2 video5">
                     <img src="../shared/images/about/thumbnail5.png" class="img w100" alt="">
-                    <div class="aboutNewsBannerText title30 mTitle32 hideM pin" style="display:none;">
-                        <span class="sans">iTalkBB</span>蜻蜓強勢登陸<span class="sans">NBA</span>
+                    <div class="aboutNewsBannerText title24 mTitle24 hideM" style="display:none;">
+                        iTalkBB蜻蜓强势登陆NBA
                     </div>
-                    <div class="aboutNewsBannerTextMobile title30 mTitle32 showM pin">
-                        <span class="sans">iTalkBB</span>蜻蜓強勢登陸<span class="sans">NBA</span>
+                    <div class="aboutNewsBannerTextMobile title24 mTitle24 showM">
+                        iTalkBB蜻蜓强势登陆NBA
                     </div>
                 </div>
 
                 <div class="aboutNewsBanner3 video6">
                     <img src="../shared/images/about/thumbnail6.png" class="img w100" alt="">
-                    <div class="aboutNewsBannerText title30 mTitle32 hideM pin" style="display:none;">
-                        <span class="sans">iTalkBB</span>第<span class="sans">29</span>家門店 – 法拉盛旗艦店盛大開幕
+                    <div class="aboutNewsBannerText title24 mTitle24 hideM" style="display:none;">
+                        iTalkBB第29家门店 – 法拉盛旗舰店盛大开幕
                     </div>
-                    <div class="aboutNewsBannerTextMobile title30 mTitle32 showM pin">
-                        <span class="sans">iTalkBB</span>第<span class="sans">29</span>家门店 – 法拉盛旗艦店盛大開幕
+                    <div class="aboutNewsBannerTextMobile title24 mTitle24 showM">
+                        iTalkBB第29家门店 – 法拉盛旗舰店盛大开幕
                     </div>
                 </div>
                 <div class="clear clearfix"></div>
@@ -206,29 +222,29 @@
             <div class="container1920">
                 <div class="aboutNewsBanner1 video7">
                     <img src="../shared/images/about/thumbnail7.png" class="img w100" alt="">
-                    <div class="aboutNewsBannerText title30 mTitle32 hideM pin" style="display:none;">
-                        姚明與<span class="sans">iTalkBB CEO</span>趙捷的專訪(鳳凰衛視)
+                    <div class="aboutNewsBannerText title24 mTitle24 hideM" style="display:none;">
+                        姚明与iTalkBB CEO赵捷的专访(凤凰卫视)
                     </div>
-                    <div class="aboutNewsBannerTextMobile title30 mTitle32 showM pin">
-                        姚明與<span class="sans">iTalkBB CEO</span>趙捷的專訪(鳳凰衛視)
+                    <div class="aboutNewsBannerTextMobile title24 mTitle24 showM">
+                        姚明与iTalkBB CEO赵捷的专访(凤凰卫视)
                     </div>
                 </div>
                 <div class="aboutNewsBanner2 video8">
                     <img src="../shared/images/about/thumbnail8.png" class="img w100" alt="">
-                    <div class="aboutNewsBannerText title30 mTitle32 hideM pin" style="display:none;">
-                        姚明有約：<span class="sans">iTalkBB</span>歲末大抽獎
+                    <div class="aboutNewsBannerText title24 mTitle24 hideM" style="display:none;">
+                        姚明有约：iTalkBB岁末大抽奖
                     </div>
-                    <div class="aboutNewsBannerTextMobile title30 mTitle32 showM pin">
-                        姚明有約：<span class="sans">iTalkBB</span>歲末大抽獎
+                    <div class="aboutNewsBannerTextMobile title24 mTitle24 showM">
+                        姚明有约：iTalkBB岁末大抽奖
                     </div>
                 </div>
                 <div class="aboutNewsBanner3 video9">
                     <img src="../shared/images/about/thumbnail9.png" class="img w100" alt="">
-                    <div class="aboutNewsBannerText title30 mTitle32 hideM pin" style="display:none;">
-                        <span class="sans">Sina</span>專訪<span class="sans">iTalkBB CEO</span>特輯
+                    <div class="aboutNewsBannerText title24 mTitle24 hideM" style="display:none;">
+                        Sina专访iTalkBB CEO特辑
                     </div>
-                    <div class="aboutNewsBannerTextMobile title30 mTitle32 showM pin">
-                        <span class="sans">Sina</span>專訪<span class="sans">iTalkBB CEO</span>特輯
+                    <div class="aboutNewsBannerTextMobile title24 mTitle24 showM">
+                        Sina专访iTalkBB CEO特辑
                     </div>
                 </div>
                 <div class="clear clearfix"></div>
@@ -240,11 +256,11 @@
             <div class="container1920">
                 <div class="aboutNewsBanner1 video10">
                     <img src="../shared/images/about/thumbnail10.png" class="img w100" alt="">
-                    <div class="aboutNewsBannerText title30 mTitle32 hideM pin" style="display:none;">
-                        <span class="sans">iTalkBB</span>加州旗艦店正式啟航
+                    <div class="aboutNewsBannerText title24 mTitle24 hideM" style="display:none;">
+                        iTalkBB加州旗舰店正式启航
                     </div>
-                    <div class="aboutNewsBannerTextMobile title30 mTitle32 showM pin">
-                        <span class="sans">iTalkBB</span>加州旗艦店正式啟航
+                    <div class="aboutNewsBannerTextMobile title24 mTitle24 showM">
+                        iTalkBB加州旗舰店正式启航
                     </div>
                 </div>
                 <div class="clear clearfix"></div>

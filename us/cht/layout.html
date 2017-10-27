@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="UTF-8">
+<title>iTalkBB蜻蜓</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="copyright" content="iTalkBB">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+<meta name="apple-itunes-app" content="app-id=514896649">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+<!--这里继续添加子页面的Css引用文件-->
+<script src="../shared/js/jquery-1.12.4.min.js"></script>
+<script src="../shared/js/angular-1.6.4.min.js"></script>
+<script src="../shared/js/bootstrap.min.js"></script>
+<script src="../shared/js/imageMapResizer.js"></script>
+<script src="../shared/js/common.js"></script>
+<!--这里继续添加子页面的Js引用文件-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42957008-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-42957008-1');
+</script>
+</head>
+
+
+<body ng-app="">
+   <!--Amy制作--> 
+   
+   <!--头部文件引入 start--> 
+    <div id="header"></div> 
+   <!--头部文件引入 end-->
+    
+   <!--主体内容 start-->
+   <div class="mainLayout">
+       <section>
+      	    <!--这里书写banner，或外部引用--> 	   
+       </section>
+       
+       <section class="mainMgnTop"><!--mainMgnTop 为主体内容距bannner的距离，如果有特殊页面这里可以单独定义。-->
+      	  <div class="mainMgn200"><!--mainMgn200 是 仅1001px到1920px时，限制宽度，左右边距为200px; 在1000px以内的分辨率为通栏效果。-->
+      	    
+       	    <!--橙色装饰线，样式已放入common.css，直接引用即可-->
+        	<div class="lineOrange"></div> 
+        	      	        	 
+        	<!--如果左右边距为固定200px，将内容写在这里-->         	
+		  </div>           	      	
+       </section>
+       
+       <section>
+      	  <!--如果需要全屏显示，那么将内容写在这里-->        	      	
+       </section>
+        
+       <section>
+      	  <div class="mainMgn200"><!--还可以添加 “全屏” 和 “不全屏” 交错显示的布局-->
+		  </div>        	      	
+       </section>
+
+  </div>
+  <!--主体内容 end-->  
+    
+  <!--蓝色装饰线，样式已放入common.css，直接引用即可-->
+  <div class="lineBlue"></div>
+    
+  <!--底部文件引入 start-->
+  <div id="footer"></div>    
+  <!--底部文件引入 end-->
+  <script>
+	   $('#header').load('header.html');
+       $('#footer').load('footer.html');
+    </script>
+</body>
+</html>

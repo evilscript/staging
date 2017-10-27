@@ -2,7 +2,7 @@
 <html lang="zh-cmn-Hans">
 <head>
 <meta charset="UTF-8">
-<title>iTalkBB蜻蜓-套餐优惠-电视+电话</title>
+<title>iTalkBB蜻蜓-套餐优惠-移动+电视+电话</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="copyright" content="iTalkBB">
@@ -26,32 +26,18 @@
 <script src="../shared/js/imageMapResizer.js"></script>
 <script src="../shared/js/common.js"></script>
 <script src="../shared/js/all-height.js"></script>
-<script src="../shared/js/fold-pictures.js"></script>  
+<script src="../shared/js/bundlesPlanPriceDisplay.js"></script>
 <script src="../shared/js/italkbb.tools.js"></script>
 <script src="../shared/js/colorbox.js"></script>
-      
     <style>
-  #CheckPhoneNumberA{display: block;}
+#CheckPhoneNumberA{display: block;}
   .content_search_box_tel_none{display: none}
   .input_small{text-align: center;}
-  .planText{margin-top: 10%;}
-  .textBox{padding-top: 0%;}  
-  .titleBox{padding: 0 24%;}
-  .titleBox p{padding:8% 0% 2% 26%; margin-bottom:-9%;background-size: 22%; background-position-x: 11%;background-position-y: 50%;}
-  .titleBox2 p{background: #fcfcfc;padding-left: 0;}
-  .titleBox3 {padding: 0 36%;}
-  .titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}
-@media (min-width:768px) and (max-width:1000px){
-  .titleBox{padding: 0 19%;}
-  .titleBox p{padding:8% 0% 2% 26%; margin-bottom:-10%;background-size: 22%; background-position-x: 11%;background-position-y: 50%;}
-  .titleBox2 p{background: #fcfcfc;padding-left: 0;}
-  .titleBox3{padding: 0 35%;}
-  .titleBox3 p{padding-left: 0;}
+@media (min-width:768px) and (max-width:1000px){ 
+  
 	}
 @media (max-width:767px){ 
-  .planText{margin-top: 12%;}
-  .titleBox p{padding:8% 0% 2% 24%; margin-bottom:-10%;background-size: 19%; background-position-x: 15%;background-position-y: 50%;}
-  .titleBox2 p{background: #fcfcfc;padding-left: 0;}
+   .mSwiper-button-next,.mSwiper-button-prev{top:15%;}
 	}
     </style>
 
@@ -61,48 +47,59 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-42957008-1');
 </script>
 
 </head>
-
-
-<body ng-app="">
+<body  ng-app="mobilePlanApp" ng-controller="mobilePlanController">
    <!-- Author: Amy --> 
    <div id="header"></div>     
    <!--main content begin-->  
    <div class="mainLayout">      
-       <section class="bdBBTVbanner"> 
+       <section class="bdBBTVMbanner"> 
          <div id="bundles-banner"></div>    	    	   
-       </section>
-       
+       </section>       
        <section class="mainMgnTop">
       	  <div class="mainMgn100">
       	  	<div class="lineOrange"></div>
       	  </div>
       	  <div class="mainMgn100"> 
-      	    <!-- bundlesBox PC begin-->       	         	      	        	 
+      	    <!-- bundlesBBTVM PC begin-->       	         	      	        	 
         	<div class="bundlesBox hideM" id="planPoint">
-       	      <p class="planTitleBig title42 mTitle50" id="tit"></p>
+      	      <div class="planLine" id="tit">
+       	      <p class="planTitleBig title30 mTitle38">选择手机线数</p>
+              
+       	       <div id="choseline">
+                    <div class="lineSelect title18 mTitle26 clearfix">
+                        <p class="lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
+                        <p class="lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
+                        <p class="lineSelectText line3" ng-click="line3()"><span class="sans">3</span>条线</p>
+                        <p class="lineSelectText line4" ng-click="line4()"><span class="sans">4</span>条线</p>
+                        <p class="lineSelectText line5" ng-click="line5()"><span class="sans">5</span>条线</p>
+                        <p class="lineSelectText line6" ng-click="line6()"><span class="sans">6</span>条线</p>          
+                    </div>
+                </div>
+               </div>
        	      
         	  <div class="planBox clearfix">
         	  	<div class="planCon">
                    <div class="planUpper" id="up1">
         	  		  <div class="titleBox clearfix">
-        	  		     <p class="title36 mTitle44">电视+电话</p>
+        	  		     <p class="title36 mTitle44">移动+电视+电话<span class="title24 org" style="display: block">1G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
-        	  			<p class="title30 mTitle38">直拨全球，接听免费</p>
-        	  			<div class="priceBox priceBox1 avenir clearfix">
-        	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">4</p>
-        	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom">.99</span>
-        	  			     <span class="smallSub title36 mTitle44">/月</span>
-        	  			   </p>       	  			 	
+        	  			<div class="priceBox priceBox2 avenir clearfix">
+                     <p class="dollar title60 mTitle68">$</p>
+                     <p class="priceBig title140 mTitle162">{{plan1_int}}</p>
+                     <p class="priceSmall title70 mTitle78">
+                       <span class="smallNom">{{plan1_dec}}</span>
+                       <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
+                     </p>                                	  			 	
         	  			</div>
-        	  			<div class="textBox">
+        	  			<div class="lineNotes">
+        	  			   <p class="text14 mText18">{{plan1_tex}}</p>
+        	  			</div>
+        	  			<div class="textBox">      	  			       
        	  			       <p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/phone/chs_bbPlanIconSale.png" alt="iTalkBB蜻蜓-当月优惠" ></span>
         	  			    <span class="textHot">首月免费，返月费</span>
@@ -112,11 +109,41 @@
                    </div>
         	  	   <div class="planList" id="down1">
         	  		    <div class="planBtn">
-						   <a href="https://webaccount.italkbb.com/BBSignUp/index_USCN_CHS.html?act=USCN_BB_Online&cid=200004&opc=USCN2017V30ALL+USCN17JV19&cob=1"><p class="button title30 mTitle38">立即订购</p></a>
+						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list1">
         	  			<div class="listCon">
+        	  			   <div class="hook">
+        	  				<p class="title18 mTitle26">蜻蜓移动（1G@4G LTE）</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
+     	  			           <li class="double">
+     	  			           	<div class="chinaSimCard">
+                                  <input type="checkbox" id="chinaSimCardCheckbox" ng-click="checkChinaSimEx()">
+                                  <label for="chinaSimCardCheckbox" class="chinaSimCardCheckboxLabel" ng-click="checkChinaSimEx()">中国卡<sup class="sans">2</sup><span class="org">&nbsp;&nbsp;$1.00/线/月</span></label>
+                                  <p>落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
+        	  			        </div>
+     	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无限流量<sup class="sans">3</sup>, 短信和通话</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">高速流量：<span class="bl">1G@4G LTE</span></span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">送免费100分钟国际通话</span>
+								  </p>
+      	  			           </li>      	  			           
+       	  			        </ul>  
+        	  			   </div>
         	  			   <div class="hook">
         	  				<p class="title18 mTitle26">蜻蜓电视</p>
        	  			        <ul class="bundlesCon text14 mText18 clearfix">
@@ -159,8 +186,8 @@
        	  			        </ul>  
         	  			   </div>
         	  			   <div class="hook">
-        	  				<p class="title18 mTitle26">蜻蜓电话</p>
-       	  			        <ul class="bundlesCon text14 mText18 clearfix">
+        	  				<p class="title18 mTitile26">蜻蜓电话</p>
+       	  			        <ul class="bundlesCon text14 mTitle22 clearfix">
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
@@ -182,7 +209,7 @@
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">赠送<span class="bl"><span class="bl">6个月</span></span>中美双号</span>
+									 <span class="textCon">赠送<span class="bl">6个月</span>中美双号</span>
 								  </p>
       	  			           </li>
       	  			           <li class="double">
@@ -202,37 +229,69 @@
        	  	    </div>
         	  	<div class="planCon plan2">
                    <div class="planUpper" id="up2">
-					  <div class="titleBox titleBox2 clearfix">
-        	  			<p class="title36 mTitle44">电视+电话</p>
+					  <div class="titleBox titleBox4 clearfix">
+        	  			<p class="title36 mTitle44">移动+电视+电话<span class="title24 org" style="display: block">5G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
-        	  		     <p class="title30 mTitle38">无限拨打全球</p>
         	  			 <div class="priceBox priceBox2 avenir clearfix">
-        	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">24</p>
-        	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom">.99</span>
-        	  			     <span class="smallSub title36 mTitle44">/月</span>
-        	  			   </p>       	  			 	
+                     <p class="dollar title60 mTitle68">$</p>
+                     <p class="priceBig title140 mTitle162">{{plan2_int}}</p>
+                     <p class="priceSmall title70 mTitle78">
+                       <span class="smallNom">{{plan2_dec}}</span>
+                       <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
+                     </p>         	  			 	
+        	  			 </div>
+        	  			 <div class="lineNotes">
+        	  			    <p class="text14 mTitle22">{{plan1_tex}}</p>
         	  			 </div>
         	  			 <div class="textBox">
        	  			       <p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/phone/chs_bbPlanIconSale.png" alt="iTalkBB蜻蜓-当月优惠" ></span>
-        	  			    <span class="textHot">前三个月免费，免开通费</span>
+        	  			    <span class="textHot">首月免费，返月费</span>
         	  			   </p>
         	  			 </div>
         	  		  </div>
                    </div>
         	  	   <div class="planList planList2" id="down2">
         	  		    <div class="planBtn">
-						   <a href="https://webaccount.italkbb.com/BBSignUp/index_USCN_CHS.html?act=USCN_BB_Online&cid=202103&opc=USCNMRRV29+USCN2017V10&cob=1"><p class="button title30 mTitle38">立即订购</p></a>
+						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list2">
         	  			<div class="listCon">
+       	  			       <div class="hook">
+        	  				<p class="title18 mTitle26">蜻蜓移动（5G@4G LTE）</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
+     	  			           <li class="double">
+     	  			           	<div class="chinaSimCard">
+                                  <input type="checkbox" id="chinaSimCardCheckbox2" ng-click="checkChinaSimEx()">
+                                  <label for="chinaSimCardCheckbox2" class=" chinaSimCardCheckboxLabel2" ng-click="checkChinaSimEx()">中国卡<sup class="sans">2</sup><span class="org">&nbsp;&nbsp;$1.00/线/月</span></label>
+                                  <p>落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
+        	  			        </div>
+     	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无限流量<sup class="sans">3</sup>, 短信和通话</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">高速流量：<span class="bl">5G@4G LTE</span></span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">送免费100分钟国际通话</span>
+								  </p>
+      	  			           </li>      	  			           
+       	  			        </ul>  
+        	  			   </div>
         	  			   <div class="hook">
         	  				<p class="title18 mTitle26">蜻蜓电视</p>
-       	  			        <ul class="bundlesCon text14 mText18 clearfix">
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">     	  			           
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
@@ -301,13 +360,13 @@
       	  			           <li class="double">
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">座机：无限拨打美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29个国家和地区</a></span>
+									 <span class="textCon">座机：<span class="bl">免费无限拨打</span>美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29个国家和地区</a></span>
 								  </p>
       	  			           </li>
       	  			           <li class="double">
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">手机：无限拨打国际长途</span>
+									 <span class="textCon">手机：<span class="bl">免费无限拨打</span>国际长途</span>
 								  </p>
       	  			           </li>
        	  			        </ul>  
@@ -319,27 +378,41 @@
         	  </div>
              
         	</div>
-        	<!-- bundlesBox PC End-->  
+        	<!-- bundlesBBTVM PC End-->  
         	 
-        	<!-- bundlesBox Phone begin-->   
+        	<!-- bundlesBBTVM Phone begin-->   
         	<div class="bundlesBox showM">
-       	      <p class="planTitleBig title42 mTitle20 " id="titphone">&nbsp;</p>
+      	      <div class="planLine" id="titphone">
+       	         <p class="planTitleBig title30 mTitle38">选择手机线数</p>
+       	         <div id="choselinephone">
+                    <div class="lineSelect title18 mTitle26 clearfix">
+                        <p class="lineSelectText line1 lineSelectSelected" ng-click="line1()"><span class="sans">1</span>条线</p>
+                        <p class="lineSelectText line2" ng-click="line2()"><span class="sans">2</span>条线</p>
+                        <p class="lineSelectText line3" ng-click="line3()"><span class="sans">3</span>条线</p>
+                        <p class="lineSelectText line4" ng-click="line4()"><span class="sans">4</span>条线</p>
+                        <p class="lineSelectText line5" ng-click="line5()"><span class="sans">5</span>条线</p>
+                        <p class="lineSelectText line6" ng-click="line6()"><span class="sans">6</span>条线</p>          
+                    </div>
+                </div>
+       	      </div>
        	      <div class="mSwiperBox mNewswiper2">
         	  <div class="planBox mSwiper-wrapper clearfix">
         	  	<div class="planCon plan1 mSwiper-slide" >
-                   <div class="planUpper" id="up3">
+                   <div class="planUpper" id="up1phone">
         	  		  <div class="titleBox clearfix">
-        	  			 <p class="title36 mTitle44">电视+电话</p>
+        	  			 <p class="title36 mTitle44">移动+电视+电话<span class="title24 mTitle32 org" style="display: block">1G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
-        	  			<p class="title30 mTitle38">直拨全球，接听免费</p>
-        	  			<div class="priceBox priceBox1 avenir clearfix">
-        	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">4</p>
-        	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom">.99</span>
-        	  			     <span class="smallSub title36 mTitle44">/月</span>
-        	  			   </p>       	  			 	
+        	  			<div class="priceBox priceBox2 avenir clearfix">
+                     <p class="dollar title60 mTitle68">$</p>
+                     <p class="priceBig title140 mTitle162">{{plan1_int}}</p>
+                     <p class="priceSmall title70 mTitle78">
+                       <span class="smallNom">{{plan1_dec}}</span>
+                       <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
+                     </p>       	  			 	
+        	  			</div>
+        	  			<div class="lineNotes">
+        	  			   <p class="text14 mText18">{{plan1_tex}}</p>
         	  			</div>
         	  			<div class="textBox">
        	  			       <p class="title18 mTitle26">
@@ -351,11 +424,41 @@
                    </div>
         	  	   <div class="planList">
         	  		    <div class="planBtn">
-						   <a href="https://webaccount.italkbb.com/BBSignUp/index_USCN_CHS.html?act=USCN_BB_Online&cid=200004&opc=USCN2017V30ALL+USCN17JV19&cob=1"><p class="button title30 mTitle38">立即订购</p></a>
+						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list1">
         	  			<div class="listCon">
+       	  			       <div class="hook">
+        	  				<p class="title18 mTitle26">蜻蜓移动（1G@4G LTE）</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
+     	  			           <li class="double">
+     	  			           	<div class="chinaSimCard">
+                                  <input type="checkbox" id="chinaSimCardCheckbox3" ng-click="checkChinaSimEx()">
+                                  <label for="chinaSimCardCheckbox3" class=" chinaSimCardCheckboxLabel3" ng-click="checkChinaSimEx()">中国卡<sup class="sans">2</sup><span class="org">&nbsp;&nbsp;$1.00/线/月</span></label>
+                                  <p class="checkboxText">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
+        	  			        </div>
+     	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无限流量<sup class="sans">3</sup>, 短信和通话</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">送免费100分钟国际通话</span>
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">高速流量：<span class="bl">1G@4G LTE</span></span>
+								  </p>
+      	  			           </li>      	  			           
+       	  			        </ul>  
+        	  			   </div>
         	  			   <div class="hook">
         	  				<p class="title18 mTitle26">蜻蜓电视</p>
        	  			        <ul class="bundlesCon text14 mText18 clearfix">
@@ -438,34 +541,66 @@
         	  	</div>
         	  	<div class="planCon plan2 mSwiper-slide">
                    <div class="planUpper">
-        	  		  <div class="titleBox titleBox2 clearfix">
-        	  			 <p class="title36 mTitle44">电视+电话</p>
+        	  		  <div class="titleBox titleBox4 clearfix">
+        	  			 <p class="title36 mTitle44">移动+电视+电话<span class="title24 mTitle32 org" style="display: block">5G @ 4G LTE</span></p>
         	  		  </div>
         	  		  <div class="planText">
-        	  			<p class="title30 mTitle38">无限拨打全球</p>
         	  			<div class="priceBox priceBox2 avenir clearfix">
-        	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">24</p>
-        	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom">.99</span>
-        	  			     <span class="smallSub title36 mTitle44">/月</span>
-        	  			   </p>       	  			 	
+                           <p class="dollar title60 mTitle68">$</p>
+                           <p class="priceBig title140 mTitle162">{{plan2_int}}</p>
+                           <p class="priceSmall title70 mTitle78">
+                              <span class="smallNom">{{plan2_dec}}</span>
+                              <span class="smallSub title36 mTitle44">/月<sup><sup class="sans">1</sup></sup></span>
+                           </p>       	  			 	
+        	  			</div>
+        	  			<div class="lineNotes">
+        	  			   <p class="text14 mText18">{{plan1_tex}}</p>
         	  			</div>
         	  			<div class="textBox">
        	  			       <p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/phone/chs_bbPlanIconSale.png" alt="iTalkBB蜻蜓-当月优惠" ></span>
-        	  			    <span class="textHot">前三个月免费，免开通费</span>
+        	  			    <span class="textHot">首月免费，返月费</span>
         	  			   </p>
         	  			</div>
         	  		  </div>
                    </div>
         	  	   <div class="planList planList2">
         	  		    <div class="planBtn">
-						   <a href="https://webaccount.italkbb.com/BBSignUp/index_USCN_CHS.html?act=USCN_BB_Online&cid=202103&opc=USCNMRRV29+USCN2017V10&cob=1"><p class="button title30 mTitle38">立即订购</p></a>
+						   <a href=""><p class="button title30 mTitle38">立即订购</p></a>
        	  			    </div>
        	  			    <div class="clear clearfix"></div>
        	  			    <div class="list2">
         	  			<div class="listCon">
+       	  			       <div class="hook">
+        	  				<p class="title18 mTitle26">蜻蜓移动（5G@4G LTE）</p>
+       	  			        <ul class="bundlesCon text14 mText18 clearfix">
+     	  			           <li class="double">
+     	  			           	<div class="chinaSimCard">
+                                  <input type="checkbox" id="chinaSimCardCheckbox4" ng-click="checkChinaSimEx()">
+                                  <label for="chinaSimCardCheckbox4" class=" chinaSimCardCheckboxLabel4" ng-click="checkChinaSimEx()">中国卡<sup class="sans">2</sup><span class="org">&nbsp;&nbsp;$1.00/线/月</span></label>
+                                  <p class="checkboxText">落地中国可直接使用、无需注册。让您在中国享受一样的无限通话和流量。</p>
+        	  			        </div>
+     	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">无限流量<sup class="sans">3</sup>, 短信和通话</span>
+								  </p>
+      	  			           </li>
+      	  			           <li>
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">送免费100分钟国际通话</span>									 
+								  </p>
+      	  			           </li>
+      	  			           <li class="double">
+      	  			           	  <p class="clearfix">
+      	  			           	     <span class="Sharp">&gt;</span>
+									 <span class="textCon">高速流量：<span class="bl">5G@4G LTE</span></span>
+								  </p>
+      	  			           </li>      	  			           
+       	  			        </ul>  
+        	  			   </div>
         	  			   <div class="hook">
         	  				<p class="title18 mTitle26">蜻蜓电视</p>
        	  			        <ul class="bundlesCon text14 mText18 clearfix">
@@ -537,13 +672,13 @@
       	  			           <li class="double">
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">座机：无限拨打美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29个国家和地区</a></span>
+									 <span class="textCon">座机：<span class="bl">免费无限拨打</span>美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29个国家和地区</a></span>
 								  </p>
       	  			           </li>
       	  			           <li class="double">
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">手机：无限拨打国际长途</span>
+									 <span class="textCon">手机：<span class="bl">免费无限拨打</span>国际长途</span>
 								  </p>
       	  			           </li>
        	  			        </ul>  
@@ -551,270 +686,78 @@
         	  			</div>
 						</div>
         	  	   </div>
-        	  	</div>
-        	  	<div class="planCon plan3 mSwiper-slide">
-                   <div class="planUpper">
-        	  		  <div class="titleBox titleBox2 clearfix">
-        	  			 <p class="title36 mTitle44 fwb">无合约套餐</p>
-        	  		  </div>
-        	  		  <div class="planText">
-        	  			<p class="title30 mTitle38">无限拨打及接听</p>
-        	  			<div class="priceBox priceBox3 avenir clearfix">
-        	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">299</p>
-        	  			   <p class="priceSmall title70 mTitle78">
-        	  			     <span class="smallNom">&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        	  			     <span class="smallSub title36 mTitle44">/年</span>
-        	  			   </p>       	  			 	
-        	  			</div>
-        	  			<div class="textBox">
-       	  			       <p class="textSpecial title18 mTitle26">
-        	  			    <span class="textHot black">美国/加拿大/中国等<br><a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29个国家和地区</a>无合约限制</span>
-        	  			   </p>
-        	  			</div>
-        	  		  </div>
-                   </div>
-        	  	   <div class="planList planList3">
-        	  		    <div class="planBtn">
-						   <a href="https://webaccount.italkbb.com/BBSignUp/index_USCN_CHS.html?act=USCN_BB_Online&cid=200151&opc=WEB10US&cob=1"><p class="button title30 mTitle38">立即订购</p></a>
-       	  			    </div>
-       	  			    <div class="clear clearfix"></div>
-       	  			    <div class="list2">
-        	  			<div class="listCon">
-        	  			   <div class="hook">
-        	  				<p class="title18 mTitle26">蜻蜓电视</p>
-       	  			        <ul class="bundlesCon text14 mText18 clearfix">
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">2017年独家正版院线大片</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">最新综艺，电视剧</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">高清中港台直播频道</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">支持72小时回放</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">海量影视剧点播</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">无合约，无设备费</span>
-								  </p>
-      	  			           </li>
-       	  			        </ul>  
-        	  			   </div>
-       	  			    <div class="hook">
-        	  				<p class="title18 mTitle26">蜻蜓电话</p>
-       	  			        <ul class="bundlesCon text14 mText18  clearfix">
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">无合约</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">接听免费</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">免费保留原号码</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">赠送手机App</span>
-								  </p>
-      	  			           </li>
-      	  			           <li class="double">
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">赠送<span class="bl">12个月</span>中美双号</span>
-								  </p>
-      	  			           </li>
-      	  			           <li class="double">
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">座机：无限拨打美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29个国家和地区</a></span>
-								  </p>
-      	  			           </li>
-      	  			           <li class="double">
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">每月500分钟免费拨打国际长途拨打<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">29个国家和地区</a></span>
-								  </p>
-      	  			           </li>
-       	  			        </ul>   
-        	  			   </div>
-        	  			</div>
-						</div>
-        	  	   </div>
-        	  	</div>
+        	  	</div>        	  	
         	  </div>
               <!-- Add Arrows -->
               <div class="mSwiper-button-next mSwiper-button-next2"></div>
               <div class="mSwiper-button-prev mSwiper-button-prev2"></div>
              </div>
         	</div>
-        	<!--  bundlesBox Phone End-->  
-        	 
-        	<!--  bundlesBox Others Begin-->  
-        	<div class="bundlesBoxOther" style="">
-       	      <div class="planOtherBox">
-        	     <div class="planRefund">
-        	        <p class="titleMgnBtm title36 mTitle44 pin fwb">30天试用承诺，无理由全额退款！ <a href="support-home-phone.html#refund" class="linkOrange" target="_blank">如何申请退款？</a></p>
-        	        <div class="hideM">
-        	           <div class="btnImgN title24 mTitle32" onclick="show('fold01','img01')">不想要合约？iTalkBB蜻蜓还有<strong>无合约计划</strong><img id="img01" src="../shared/images/icons/doubleArrowOrangeDown.png"/></div>
-                       
-		            </div>
-			     </div>
-       	         <div id="fold01" class="planYear hideM" style="display: none;">      	       	    
-       	       	    <div class="planYearUp clearfix">
-       	       	       <div class="titleBox titleBox3 clearfix">
-        	  			 <p class="title36 mTitle44 pin fwb">无合约套餐</p>
-        	  		   </div>
-       	       	    	<div class="yearTextCenter">
-       	       	    		<div class="priceBox priceBox3 avenir clearfix">
-        	  			       <p class="dollar title60 mTitle68">$</p>
-        	  			       <p class="priceBig title140 mTitle162">299</p>
-        	  			       <p class="priceSmall title70 mTitle78">
-        	  			         <span class="smallNom">&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        	  			         <span class="smallSub title36 mTitle44">/年</span>
-        	  			       </p>       	  			 	
-        	  			    </div>
-       	       	    	</div>
-       	       	    </div>
-       	       	    <div class="planYearDown planList">
-        	  		    <div class="planBtn">
-						   <a href="https://webaccount.italkbb.com/BBSignUp/index_USCN_CHS.html?act=USCN_BB_Online&cid=200151&opc=WEB10US&cob=1"><p class="button title30 mTitle38">立即订购</p></a>
-       	  			    </div>
-       	  			    <div class="clear clearfix"></div>
-        	  			<div class="listCon clearfix">
-        	  			   <div class="hook">
-        	  				<p class="title18 mTitle26">蜻蜓电视</p>
-       	  			        <ul class="bundlesCon text14 mText18 clearfix">
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">2017年独家正版院线大片</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">最新综艺，电视剧</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">高清中港台直播频道</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">支持72小时回放</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">海量影视剧点播</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">无合约，无设备费</span>
-								  </p>
-      	  			           </li>
-       	  			        </ul>  
-        	  			   </div>
-       	  			    <div class="hook conRight">
-        	  				<p class="title18 mTitle26">蜻蜓电话</p>
-       	  			        <ul class="bundlesCon text14 mText18 clearfix">
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">无合约</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">接听免费</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">免费保留原号码</span>
-								  </p>
-      	  			           </li>
-      	  			           <li>
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">赠送手机App</span>
-								  </p>
-      	  			           </li>
-      	  			           <li class="double">
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">赠送<span class="bl">12个月</span>中美双号</span>
-								  </p>
-      	  			           </li>
-      	  			           <li class="double">
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">座机：无限拨打美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29个国家和地区</a></span>
-								  </p>
-      	  			           </li>
-      	  			           <li class="double">
-      	  			           	  <p class="clearfix">
-      	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">每月500分钟免费拨打国际长途拨打<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">29个国家和地区</a></span>
-								  </p>
-      	  			           </li>
-       	  			        </ul>  
-        	  			   </div>
-        	  			</div>
-        	  	   </div>
-       	         </div>       	         
-       	      </div>
-       	      
-        	</div> 
-        	<!-- bundlesBox Others End-->    	
+        	<!--  bundlesBBTVM Phone End--> 	
 		  </div>           	      	
        </section> 
        
-       <!-- bundlesTV & bundlesBB Begin-->  
+       <!-- bundlesTV & bundlesBB & bundlesMobile Begin-->  
+       <section>
+       	  <div class="bundlesMobile clearfix">
+     	     <div class="bundlesText">
+     	     	<p class="titleMgnBtm title36 mTitle44 pin fwb">蜻蜓移动</p>
+     	     	<p class="title30 mTitle38">一个手机计划，美国中国都能用</p> 
+     	     </div>
+      	     <div class="mobileBanner">
+     	     	<div class="mBannerPic">
+                   <img class="hideM" src="../shared/images/bundles/chs_mobileBannerPC.png" alt="iTalkBB蜻蜓移动">
+                   <img class="showM" src="../shared/images/bundles/chs_mobileBannerM.png" alt="iTalkBB蜻蜓移动">
+                </div>                
+                <div class="clear clearfix"></div>   	     	
+	   	     	<p class="dataSources text14 mText20">数据来源：新华社</p>
+	   	     </div>
+	   	     <div class="iconsCon iconsCon2 mainMgn200 clearfix">
+	   	        <div class="iconsBox text18 mText26">
+	   	        	<p class="titleMgnBtm iconsTitle iconsTitle7 title30 mTitle38 pin fwb">美国卡</p>
+	   	        	<p class="titleMgnBtm">蜻蜓移动为您提供美国卡和中国卡<sup class="sans">4</sup>。美国卡供您在美国境内使用，中国卡供您在中国境内使用，两张SIM卡共用一个手机计划。</p>
+	   	        	<p class="titleMgnBtm title20 mTitle28 fwb">在美国</p>
+	   	        	<div class="iconsList">
+	   	        		<p>享受美国本地无限通话、无限短信、高速流量。</p>
+	   	        		<p>接收来自中国卡的电话：中国亲友拨打您中国的手机号，将自动转接到您美国的手机上，而您中国的亲友只需支付中国本地话费。</p>
+	   	        		<p><span class="fwb bl">独家功能：</span>接收来自中国的短信和验证码！注册银行账号、 网上账户、淘宝购物轻松搞定！</p>
+	   	        	</div>
+	   	        </div>
+	   	        <div class="iconsBox iconsSpace hideM">&nbsp;</div>
+	   	        <div class="iconsBox text18 mText26">
+	   	        	<p class="titleMgnBtm iconsTitle iconsTitle8 title30 mTitle38 pin fwb">中国卡</p>
+	   	        	<p class="titleMgnBtm">蜻蜓移动为您提供美国卡和中国卡<sup class="sans">4</sup>。中国卡供您在中国境内使用。</p>
+	   	        	<p class="titleMgnBtm title20 mTitle28 fwb">在中国</p>
+	   	        	<div class="iconsList">
+	   	        		<p>享受中国本地无限通话、无限短信、高速流量。</p>
+	   	        		<p>当您在中国使用中国卡，可以接收来自美国卡的电话。美国的亲友拨打您美国的手机号将自动转接到您中国的手机上，双方不会产生额外费用。</p>
+	   	        	</div>
+	   	        </div>
+	   	     </div>
+	   	     <div class="iconsCon iconsCon2 iconTop mainMgn200 clearfix">
+	   	        <div class="iconsBox text18 mText26">
+	   	        	<p class="titleMgnBtm iconsTitle iconsTitle9 title30 mTitle38 pin fwb">无限流量<sup class="sans">3</sup>/通话/短信</p>
+	   	        	<div class="iconsList">
+	   	        		<p>蜻蜓移动为您提供高速流量，最多高达5G高速流量！</p>
+	   	        		<p>不论您在美国还是中国，都可以享受无限流量、本地通话和短信！</p>
+	   	        	</div>
+	   	        </div>
+	   	        <div class="iconsBox iconsSpace hideM">&nbsp;</div>
+	   	        <div class="iconsBox text18 mText26">
+	   	        	<p class="titleMgnBtm iconsTitle iconsTitle10 title30 mTitle38 pin fwb">国际通话</p>
+	   	        	<p class="titleMgnBtm">iTalkBB蜻蜓移动提供国际通话服务，让您可以免费拨打<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29个国家和地区</a>！</p>
+	   	        	<div class="iconsList">
+	   	        		<p>蜻蜓电话用户将免费享受国际通话功能<sup class="sans">5</sup>。</p>
+	   	        		<p>新用户只需购买或升级到带有国际通话功能的套餐，也可以轻松畅打全球！</p>
+	   	        		<p style="background: none;">想要国际通话服务？请立即拨打1-855-482-5566，立即升级！</p>
+	   	        	</div>
+	   	        </div>
+	   	     </div>
+	   	  </div>
+       </section>
 	   <section class="mainMgn100">
 	   	  <div class="bundlesTV clearfix">
-	   	     <div class="bundlesText">
+   	         <div class="bundlesText">
      	     	<p class="titleMgnBtm title36 mTitle44 pin fwb">蜻蜓电视</p>
      	     	<p class="title30 mTitle38">海外华人首选中文电视</p> 
      	     </div>
@@ -824,26 +767,27 @@
                    <img class="showM" src="../shared/images/bundles/mBundlesTVpic.jpg" alt="iTalkBB蜻蜓电视">
                 </div>
 	   	     </div>
+	   	     	
 	   	     <div class="iconsCon clearfix">
-	   	        <div class="iconsBox">
+	   	        <div class="iconsBox text18 mText26">
 	   	        	<p class="titleMgnBtm iconsTitle iconsTitle1 title30 mTitle38 pin fwb">2017独家院线新片</p>
-	   	        	<div class="iconsList text18 mText26">
+	   	        	<div class="iconsList">
 	   	        		<p>iTalkBB蜻蜓电视购买了多部2017最新正版院线大片，让您在家就可以看到时下最火华语电影，免费点播，高清画质。</p>
 	   	        		<p>iTalkBB蜻蜓电视采用最尖端图像处理技术，以呈现高清画质，让您体验完美视听享受。</p>
 	   	        	</div>
 	   	        </div>
 	   	        <div class="iconsBox iconsSpace hideM">&nbsp;</div>
-	   	        <div class="iconsBox">
+	   	        <div class="iconsBox text18 mText26">
 	   	        	<p class="titleMgnBtm iconsTitle iconsTitle2 title30 mTitle38 pin fwb">海量影视剧同步更新，随时点播</p>
-	   	        	<div class="iconsList text18 mText26">
+	   	        	<div class="iconsList">
 	   	        		<p>与国内同步更新最受欢迎的电视剧、人气综艺和票房大片。</p>
 	   	        		<p>点播功能让您随时随地想怎么看就怎么看。</p>
 	   	        	</div>
 	   	        </div>
 	   	        <div class="iconsBox iconsSpace hideM">&nbsp;</div>
-	   	        <div class="iconsBox">
+	   	        <div class="iconsBox text18 mText26">
 	   	        	<p class="titleMgnBtm iconsTitle iconsTitle3 title30 mTitle38 pin fwb">高清中/港/台直播</p>
-	   	        	<div class="iconsList text18 mText26">
+	   	        	<div class="iconsList">
 	   	        		<p>iTalkBB蜻蜓电视提供中/港/台六十多个热门频道实时直播，让您和家人观看内地、香港、台湾和海外频道的即时节目。</p>
 	   	        		<p>在iTalkBB蜻蜓电视上，新闻、综艺、访谈、电视剧应用尽有，让您第一时间获得最新资讯。</p>
 	   	        	</div>
@@ -851,8 +795,8 @@
 	   	     </div>
 	   	  </div>
 	   	  
-	   	  <div class="bundlesBB bundlesBBMgnBtm">
-	   	     <div class="bundlesText">
+	   	  <div class="bundlesBB">
+   	         <div class="bundlesText">
      	     	<p class="titleMgnBtm title36 mTitle44 pin fwb">蜻蜓电话</p>
      	     	<p class="title30 mTitle38">海外华人市场NO.1家庭电话品牌</p> 
      	     </div>
@@ -883,8 +827,8 @@
                        </a>
       	  	   	    </div>
       	  	   	    
-      	  	   	 <!-- reservation number from begin -->
-       	  	     <div class="planForm">
+      	  	   	<!-- reservation number from begin -->
+      	  	   	<div class="planForm">
                     <div id="reservationNom" class="reveal-modal reveal-modal2">
                        <div class="nomberCon">
                        <!--CheckPhoneNumberA--> 
@@ -895,7 +839,7 @@
                        <!--可以转显示下面的 CheckPhoneNumberB--> 
                        <div id="CheckPhoneNumberB" class="content_search_box_tel_none">
 					      <p class="text18 mText26">恭喜！您现有的电话号码可以被保留！</p>
-                          <p class="text18 mText26"><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">试试另一个号码</span></a> ; <!--回到检查号码是否可以转的页面--><a href="../chs/bundles-tv-phone.html#planPoint" class="linkOrange"><span class="ccclose">看看有哪些计划</span></a><!--链接是多语言的，要替换enu为chs和chs--></p>
+                          <p class="text18 mText26"><a href="javascript:void(0);" class="linkOrange ccclose"><span onclick="RetCheckPhoneNumber()">试试另一个号码</span></a> ; <!--回到检查号码是否可以转的页面--><a href="../chs/bundles-mobile-tv-phone.html#planPoint" class="linkOrange"><span class="ccclose">看看有哪些计划</span></a><!--链接是多语言的，要替换enu为chs和chs--></p>
                        </div>
                        <!--不能转显示下面的 CheckPhoneNumberC-->
                        <div id="CheckPhoneNumberC" class="content_search_box_tel_none">
@@ -905,8 +849,8 @@
                       <a class="close-reveal-modal ccclose" style="text-decoration:none">&#215;</a>
                       </div>																												
                    </div>                                   
-                 </div>
-                 <!-- reservation number from end -->
+                </div>       	  	     
+                <!-- reservation number from end -->      	  	   	    
 	   	        </div>
 	   	        <div class="iconsBox iconsSpace hideM">&nbsp;</div>
 	   	        <div class="iconsBox clearfix">
@@ -926,12 +870,30 @@
 	   	     </div>
 	   	  </div>
 	   </section>
-       <!-- bundlesTV & bundlesBB End-->  
+       <!-- bundlesTV & bundlesBB & bundlesMobile End--> 
+       <section class="bdDisclaimer mainMgn100 gray">
+          <ul class="listNom text14 mText18">
+		   	<li>
+		   		<p>价格不包括开通费、卡费、税费和运费。</p>
+		   	</li>
+		   	<li>
+		   		<p>中国卡由iTalk Global Communications, Inc.出售，您可在之后的注册过程中额外购买。在中国：享受美国卡上的套餐计划而无需支付任何额外费用；在美国：免费接收来自中国的电话/短信/验证码。中国卡服务费$1.00/线/月，一次性卡费$10/卡。</p>
+		   	</li>
+		   	<li>
+		   		<p>本月高速流量用完后用户将被降速至月账单结束，仅限美国市场。</p>
+		   	</li>
+		   	<li>
+		   		<p>美国卡服务由iTalk Mobile Corporations提供；中国卡服务由iTalk Global Communications, Inc.提供。</p>
+		   	</li>
+		   	<li>
+		   		<p>根据您现有iTalkBB蜻蜓电话服务的不同，我们会赠送您不同的国际通话分钟数：现$4.99套餐用户获得100分钟/线/月国际通话分钟数，现$24.99套餐用户获得无限国际通话分钟数/线/月。</p>
+		   	</li>
+		  </ul>
+       </section>
                    
   </div>
-  <!--main content end-->  
-    
-
+  <!--main content end--> 
+  
   <div class="lineBlue"></div>
   <div id="footer"></div>
     <script>
@@ -959,32 +921,19 @@
 $(window).resize(function(){
 var screenWidth = window.innerWidth;
     if(screenWidth<767){              
-
- var a = $("#up3").height();
-                  var c = $("#titphone").width();
-                  var d = $("#titphone").height();
-
-                  var b = c*0.035;
-                  var e = c*0.025;
-
-                  var p = d+b+e;
-                  var k = p+a;
-
-            $(".bundlesBox").css({"background-size":"100% "+k+'px'});
-
-
+      var u = $("#titphone").height();
+       var f =$('#choselinephone').width()*0.03; 
+        var a = $("#up1phone").height();  
+         var k = u+f+a;
+          $(".bundlesBox").css({"background-size":"100% "+k+'px'});    
+          
         }
     if(screenWidth>=767){
           var a = $("#up1").height();
-                  var c = $("#tit").width();
-                  var d = $("#tit").height();
-
-                  var b = c*0.035;
-                  var e = c*0.025;
-
-                  var p = d+b+e;
-                  var k = p+a;
-
+                  var u = $("#tit").height();                   
+                  // 标题高
+                  var f =$('#choseline').width()*0.03;
+                  var k = u+f+a;
             $(".bundlesBox").css({"background-size":"100% "+k+'px'});
 
       $(".planSpace").css({"height":k});
@@ -999,33 +948,21 @@ var screenWidth = window.innerWidth;
 
 $(function(){
 var screenWidth = window.innerWidth;
-    if(screenWidth<767){              
-
- var a = $("#up3").height();
-                  var c = $("#titphone").width();
-                  var d = $("#titphone").height();
-
-                  var b = c*0.035;
-                  var e = c*0.025;
-
-                  var p = d+b+e;
-                  var k = p+a;
-
-            $(".bundlesBox").css({"background-size":"100% "+k+'px'});
+    if(screenWidth<767){       
+      var u = $("#titphone").height();
+       var f =$('#choselinephone').width()*0.03; 
+        var a = $("#up1phone").height();  
+         var k = u+f+a;
+          $(".bundlesBox").css({"background-size":"100% "+k+'px'});       
 
         }
     if(screenWidth>=767){
           var a = $("#up1").height();
-                  var c = $("#tit").width();
-                  var d = $("#tit").height();
-
-                  var b = c*0.035;
-                  var e = c*0.025;
-
-                  var p = d+b+e;
-                  var k = p+a;
-
-            $(".bundlesBox").css({"background-size":"100% "+k+'px'});
+                  var u = $("#tit").height();                   
+                  // 标题高
+                  var f =$('#choseline').width()*0.03;
+                  var k = u+f+a;
+      $(".bundlesBox").css({"background-size":"100% "+k+'px'});
 			$(".planSpace").css({"height":a});
 			
 		var i = $("#up1").height();
@@ -1036,4 +973,5 @@ var screenWidth = window.innerWidth;
         }
 });
 </script>
+
 </html>
