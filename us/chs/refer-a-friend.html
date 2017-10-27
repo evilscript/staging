@@ -106,14 +106,43 @@
        <section class="referAfriend">
       	  <div class="mainMgn200">      	        	 
         	<div class="menuCon">
-        	   <div class="menuBox menuBox3 clearfix">
-			      <p class="menuBtn title24 mTitle26 use selected changes1">推荐蜻蜓移动服务</p>
-			      <p class="menuBtn title24 mTitle26 fault changes2">推荐蜻蜓电话服务</p>
+        	   <div class="menuBox menuBox2 clearfix">
+			      <!--<p class="menuBtn title24 mTitle26 use selected changes1">推荐蜻蜓移动服务</p>-->
+			      <p class="menuBtn title24 mTitle26 fault selected changes2">推荐蜻蜓电话服务</p>
 			      <p class="menuBtn title24 mTitle26 signal changes3">推荐蜻蜓电视服务</p>
 			  </div>	
 			</div>
-		  </div> 
-          <div class="referCon">
+		  </div>
+         <div class="referCon">
+             <div class="referStepTitle">
+             	<p class="title36 mTitle44">只需<span class="CloOrange title50 mTitle60 fwb">3</span>步，<span class="change1">邀请您的亲友一起体验精彩的海外生活</span></p>
+             </div>
+             <div class="referStepCon">
+                <div class="referStepBox">
+
+             	   <div class="stepBox stepBox1">
+             		  <p class="stepTitle title24 mTitle28 change2">把您的899号码告诉朋友<span class="where">（<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">在哪里找到899号码？</a>)</span></p>
+             	   </div>
+             	   <div class="stepBox stepBox2">
+             		  <p class="stepTitle title24 mTitle28">发送给朋友</p>             		  
+             	   </div>
+             	   <div class="stepBox stepBox2Con">
+             	      <div class="email clearfix">
+             		     <p class="searchText text18 mText22">方法一：电子邮件</p>
+        	             <input class="searchBar text18 mText22" type="search" placeholder="" value="输入您朋友的邮箱" onfocus="if (value =='输入您朋友的邮箱'){value =''}" onblur="if (value ==''){value='输入您朋友的邮箱'}" >        	    
+        	             <p class="searchButton text18 mText22">
+                         发送
+                         </p>  
+             		  </div>             		  
+             	   </div>
+             	   <div class="stepBox stepBox3">
+             		  <p class="stepTitle title24 mTitle28 change3">成功！您的亲友将注册时输入您的899号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的$10</p>
+             	   </div>
+
+             	</div>
+             </div>
+          </div> 
+          <!--<div class="referCon">
              <div class="referStepTitle">
              	<p class="title36 mTitle44">只需<span class="CloOrange title50 mTitle60 fwb">3</span>步，<span class="change1">马上和亲友一起体验“移动生活，处处精彩</span>”</p>
              </div>
@@ -152,7 +181,7 @@
 
              	</div>
              </div>
-          </div>       	      	
+          </div>-->       	      	
        </section>
         
        <section>
@@ -210,38 +239,38 @@
 
 <script>
 
-var h  =$('.referAfriend').height();
-console.log('ccc'+h);
+//var h  =$('.referAfriend').height();
+
 
 $('.changes2').click(function(){
       $('.change1').html('邀请您的亲友一起体验精彩的海外生活');
-      $('.change2').html('把您的899号码告诉朋友<span class="where">（<a href="#" class="linkOrange">在哪里找到899号码？</a>)</span>');
+      $('.change2').html('把您的899号码告诉朋友<span class="where">（<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">在哪里找到899号码？</a>)</span>');
       $('.change3').html('成功！您的亲友将注册时输入您的899号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的$10');
       $(".shortMessage").css('display','none');
-      $('.referAfriend').height(h);
+      //$('.referAfriend').height(h);
      $('.menuBtn').removeClass('selected');
     $('.changes2').addClass('selected');  
 })
 
 $('.changes3').click(function(){
       $('.change1').html('邀请您的亲友一起体验精彩的海外生活');
-      $('.change2').html('把您的699号码告诉朋友<span class="where">（<a href="#" class="linkOrange">在哪里找到699号码？</a>)</span>');
+      $('.change2').html('把您的699号码告诉朋友<span class="where">（<a href="support-chinese-tv.html#number699" class="linkOrange" target="_blank">在哪里找到699号码？</a>)</span>');
       $('.change3').html('成功！您的亲友将注册时输入您的699号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的$10');
       $(".shortMessage").css('display','none');
-       $('.referAfriend').height(h);
+      //$('.referAfriend').height(h);
            $('.menuBtn').removeClass('selected');
     $('.changes3').addClass('selected');  
 })
 
-
-$('.changes1').click(function(){
-      $('.change1').html('马上和亲友一起体验“移动生活，处处精彩”');
-      $('.change2').html('把您的手机号码告诉朋友');
-      $('.change3').html('成功！您的亲友在注册时输入您的手机号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的$10');
-      $(".shortMessage").css('display','block');
-      $('.menuBtn').removeClass('selected');
-    $('.changes1').addClass('selected');  
-})
+//
+//$('.changes1').click(function(){
+//      $('.change1').html('马上和亲友一起体验“移动生活，处处精彩”');
+//      $('.change2').html('把您的手机号码告诉朋友');
+//      $('.change3').html('成功！您的亲友在注册时输入您的手机号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的$10');
+//      $(".shortMessage").css('display','block');
+//      $('.menuBtn').removeClass('selected');
+//    $('.changes1').addClass('selected');  
+//})
 
 </script>
 
