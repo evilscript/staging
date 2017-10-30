@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="../shared/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
 <link rel="stylesheet" type="text/css"  href="../shared/css/zh_about.css">
-<link rel="stylesheet" href="../shared/css/social-share-in-news-template.css">
+
 <script src="../shared/js/jquery-1.12.4.min.js"></script>
 <script src="../shared/js/angular-1.6.4.min.js"></script>
 <script src="../shared/js/imageMapResizer.js"></script>
@@ -26,6 +26,9 @@
 <script src="../shared/js/aboutNews.js"></script>
 <script src="../shared/js/swiper.min2.js"></script>
 <link rel="stylesheet" type="text/css"  href="../shared/css/swiper2.css">
+
+    <script src="../shared/js/jquery.share.min.js"></script>
+    <link rel="stylesheet" type="text/css"  href="share.min.css">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42957008-1"></script>
@@ -59,10 +62,7 @@
                 </div>
                 <div class="templateTextLeft">
                     <div class="shareLeft">
-                        <div id="iTalkBB-social-share"></div>
-                        <script>
-                            $('#iTalkBB-social-share').load('iTalkBB-social-share.html')
-                        </script>
+                        <div class="social-share" data-sites="facebook,twitter,wechat,weibo,linkedin,google"></div>
                     </div>
                     <div class="shareRight">
                         <p class="templateCommentDate title18 mTitle26">08/26/2013</p>

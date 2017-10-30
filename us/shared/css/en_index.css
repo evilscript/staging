@@ -1,3 +1,9 @@
+/* Version:1.0  Author: Amy
+  Create Date:2017-10-30
+  Update Date:2017-10-30
+  Desc : index main CSS EN */  
+.iconBox .iconCon1,.iconBox .iconCon2,.iconBox .iconCon3,.iconBox .iconCon4,.iconBox .iconCon5,.iconBox .iconCon6,.iconBox .iconCon7,.iconBox .iconCon8,.iconBox .iconCon9,.iconBox .iconCon10,.iconBox .iconCon11,.iconBox .iconCon12{background-size: 13%; background-position-y: 0%;}
+.iconBox .iconCon13,.iconBox .iconCon14{background-size: 6.7%; background-position-y: 0%;}
 
 @media (min-width:768px) and (max-width:1000px) {
     
