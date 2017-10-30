@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
 <head>
-    <meta charset="UTF-8">
-    <title>iTalkBB-Support-Account & Billing</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="copyright" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
-
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
-	<meta name="apple-itunes-app" content="app-id=514896649">
-
-	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
-    
-    <script src="../shared/js/jquery-1.12.4.min.js"></script>
-    <script src="../shared/js/angular-1.6.4.min.js"></script>
-    <script src="../shared/js/bootstrap.min.js"></script>
-    <script src="../shared/js/imageMapResizer.js"></script>
-    <script src="../shared/js/common.js"></script>
-    <script src="../shared/js/AmyInterim.js"></script>
-
-    <style>
+<meta charset="UTF-8">
+<title>iTalkBB蜻蜓-常见问题-账户账单</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="copyright" content="iTalkBB">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+<meta name="apple-itunes-app" content="app-id=514896649">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_support-all.css">
+<script src="../shared/js/jquery-1.12.4.min.js"></script>
+<script src="../shared/js/angular-1.6.4.min.js"></script>
+<script src="../shared/js/bootstrap.min.js"></script>
+<script src="../shared/js/imageMapResizer.js"></script>
+<script src="../shared/js/common.js"></script>
+<script src="../shared/js/fold-pictures.js"></script>
+<style>
    .billCon,.paymentCon,.detailsCon{display: none;}
    .conTable{border-bottom: #d8d8d8 1px solid;}
    .fromBox3 .tableUlNom{text-align: left; margin-left: 6%; margin-top: 1.8%;margin-bottom: 2%;}
@@ -67,6 +63,16 @@
 
 }	
 	</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42957008-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-42957008-1');
+</script>
+
 </head>
 
 
@@ -78,7 +84,7 @@
 	<div class="mainLayout">
       
        <section class="sptATbanner">
-      	    <div id="supportBanner"></div>	   
+      	    <div id="support-banner"></div>	   
        </section>
        
        <section class="mainMgnTop">
@@ -86,10 +92,10 @@
         	<div class="lineOrange"></div>       	        	 
         	<div class="menuCon">
         	<div class="menuBox menuBox4 clearfix">
-			<p class="menuBtn title22 mTitle22 account selected">Manage Account</p>
-			<p class="menuBtn title22 mTitle22 bill">Manage Bills</p>
-			<p class="menuBtn title22 mTitle22 payment">Payment</p>
-			<p class="menuBtn title22 mTitle22 details">Fees</p>
+			<p class="menuBtn title24 mTitle32 account selected">账户管理</p>
+			<p class="menuBtn title24 mTitle32 bill">账单管理</p>
+			<p class="menuBtn title24 mTitle32 payment">支付方式</p>
+			<p class="menuBtn title24 mTitle32 details">收费明细</p>
 			</div>	
 			</div>
 		  </div>           	      	
@@ -101,10 +107,11 @@
 		<div class="bgMgn gradient" id="howToLogin">
 		<div class="mainMgn200">
 		<div class="partAll">
-		    <p class="titleMgnBtm title22 mTitle30 fwb">Setup Your Account</p> 
-		    <div class=" text16 mText24">
-				<p>After placing your order, we will send you a message with a temporary account name and password. After logging into your account online, you can reset your account name and password via Account Settings.</p>
-		   		<p>If you do not receive this message, please <a href="../en/contact-us.html#kefu" class="linkOrange">contact us</a>. Our professional customer service staff are ready to help you at any time.</p>
+		    <p class="titleMgnBtm title24 mTitle32 pin fwb">设置您的账户登录名</p> 
+		    <div class=" text18 mText26">
+				<p>当您下订单后，我们就会发送给您一封含有临时登录名和临时密码的邮件，通过这些登录信息，您就可以登陆<a href="log-in.html" class="linkOrange">网上账户</a>。在第一次登录网上账户之后，您可以在"账户设定"页面重新设置登录名或更改密码。</p>
+		   		<p>如果您未收到该邮件，请<a href="contact-us.html?service" class="linkOrange">联系我们</a>
+					，我们专业的客服人员，将竭诚为您服务。</p>
 		   </div>
 		</div>
 		</div>
@@ -113,20 +120,20 @@
 		<div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll">
-		    <p class="titleMgnBtm title22 mTitle30 fwb">Change Your Account Name</p> 
-		    <div class="text16 mText24">
-		   	  <p>After placing your order and logging in with the temporary account name and password given by iTalkBB, you can change your <a href="" class="linkOrange">account name</a> to any of the following:</p>
+		    <p class="titleMgnBtm title24 mTitle32 pin fwb">登录名的种类</p> 
+		    <div class="text18 mText26">
+		   	  <p>在您下单后，使用iTalkBB蜻蜓发给您的临时登录名和密码登入<a href="log-in.html" class="linkOrange">网上账户</a>之后，您可以选择有以下几种方式作为登录名：</p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   	  <span class="textCon">The account name you set when you registered your iTalkBB account</span>
+		   	  <span class="textCon">您注册时设置的登录名</span>
 		   	  </p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   	  <span class="textCon">The phone number you set when you registered your iTalkBB account</span>
+		   	  <span class="textCon">您注册时设定手机号码作为登录名</span>
 		   	  </p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   	  <span class="textCon">Your iTalkBB 10-digit home phone number, for example: 6261234567</span>
+		   	  <span class="textCon">通过您的iTalkBB蜻蜓电话号码, 10位数字, 如: 6261234567</span>
 		   	  </p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   	  <span class="textCon">Your 899 iTalkBB home phone number or 699 Chinese TV number. Your 899 number can be found on your iTalkBB phone box as shown below:</span>
+		   	  <span class="textCon">您iTalkBB蜻蜓电话的899号码或中文电视的699号码。您的899号码或699号码可以在您的iTalkBB蜻蜓电话盒和电视盒上找到，如下图所示：</span>
 		   	  </p>		   	  		
 		    </div>	    
 		</div>
@@ -134,30 +141,30 @@
 		<div class="partAll bothConCenter mainMgn200 titMgnTop clearfix">
       	  	<div class="left clearfix">
      	  	   <div class="titleBox">
-			      <p class="title22 mTitle30">蜻蜓电话899号码示意图</p> 
+			      <p class="title24 mTitle32">蜻蜓电话899号码示意图</p> 
     	  	      <p class="text16 mText24">Locate Your 899 Number</p> 
      	  	   </div>
       	  	   <div class="typeTxt">
       	  	   	  <p class="text16 mText24">您可于iTalkBB蜻蜓电话盒子正面的贴纸上找到899号码</p>
-      	  	   	  <p class="text16 mText24">The 899 number is located on a sticker on your iTalkBB VOIP Box</p>
+      	  	   	  <p class="text16 mText24">The 899 number is located on a sticker on your iTalkBB Home Phone Box</p>
       	  	   </div>
       	  	   <div>
       	  	   	  <p class="text16 mText24">iTalkBB蜻蜓电话盒子 </p>
-      	  	   	  <p class="text16 mText24">iTalkBB VOIP Box</p>
+      	  	   	  <p class="text16 mText24">iTalkBB Home Phone Box</p>
       	  	   </div>
       	  	</div>
       	  	<div class="right clearfix">
      	  	   <div class="titleBox">
-			      <p class="title22 mTitle30">蜻蜓电视699号码示意图</p> 
+			      <p class="title24 mTitle32">蜻蜓电视699号码示意图</p> 
     	  	      <p class="text16 mText24">Locate Your 699 Number</p> 
      	  	   </div>
       	  	   <div class="typeTxt">
       	  	   	  <p class="text16 mText24">您可于iTalkBB蜻蜓电视盒子正面的贴纸上找到699号码 </p>
-      	  	   	  <p class="text16 mText24">The 699 number is located on a sticker on your iTalkBB TV Box</p>
+      	  	   	  <p class="text16 mText24">The 699 number is located on a sticker on your iTalkBB Chinese TV Box</p>
       	  	   </div>
       	  	   <div>
       	  	   	  <p class="text16 mText24">iTalkBB蜻蜓电视盒子 </p>
-      	  	   	  <p class="text16 mText24">iTalkBB TV Box</p>
+      	  	   	  <p class="text16 mText24">iTalkBB Chinese TV Box</p>
       	  	   </div>
       	  	</div>
       	  </div>		
@@ -170,17 +177,17 @@
 		<div class="bgMgn gradient" id="forgottenPassword">
 		<div class="mainMgn200">
 		<div class="partAll">
-		    <p class="titleMgnBtm title22 mTitle30 fwb">Update Your Account Information</p> 
-		    <div class="text16 mText24">
-		   	  <p>You can easily update your account information after logging into your online account. Just follow the steps below:</p>
+		    <p class="titleMgnBtm title24 mTitle32 pin fwb">更新账户信息</p> 
+		    <div class="text18 mText26">
+		   	  <p>通过登陆<a href="log-in.html" class="linkOrange">网上账户</a>，您就可以更新信息。只需按照以下指导步骤 ：</p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
 		   	  <span class="textCon">
-		   	  Log in to <a href="" class="linkOrange">your online account</a>		   	  
-		   	  </span>		   	  
+		   	  请登录您的网上账户<br>
+		   	  <p class="textNote gray">请注意：如果这是您第一次登陆账户，登录信息就在您订单确认邮件内！如果您未收到该邮件，请<a href="contact-us.html?service" class="linkOrange">联系我们</a>。如果这并不是您第一次登陆，请使用您设置的用户名和密码登陆。</p>
+		   	  </span>
 		   	  </p>
-		   	  <p class="textNote">Please note: For first time users, login information is included in your order confirmation email. If you have not received this email, please contact us. If this is not your first time logging into your online account, please use the username and password that was setup after the first login. </p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   	  <span class="textCon">Click "Account & Bill" in the menu at the top of the page, then click "Update Account Info" in the "Account Profile" section to update your account information (address, email, contact number, etc.).</span>
+		   	  <span class="textCon">在最上方的菜单界面内点击"Account & Billing"，然后在“Account Profile”这一栏内点击”Update Your Account Info”，您就可以轻松得更新您的账户信息，包括您的地址、邮箱以及联系电话。 </span>
 		   	  </p>		   	  		
 		    </div>	    
 		</div>
@@ -190,9 +197,9 @@
 		<div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll">
-	       <p class="titleMgnBtm title22 mTitle30 fwb">Forgot Your Password</p>
-	       <div class="text16 mText24">
-		   	  <p>If you forget your password, please <a href="../en/contact-us.html#kefu" class="linkOrange">contact us</a>. Our professional customer service staff will verify your identity and either retrieve your password or help you reset it.</p>
+	       <p class="titleMgnBtm title24 mTitle32 pin fwb">忘记密码</p>
+	       <div class="text18 mText26">
+		   	  <p>如果您忘记密码，请<a href="contact-us.html?service" class="linkOrange">联系我们</a>，我们专业的客服人员会帮您核实用户身份，身份核实成功之后，客服会为您找回密码或者重新设置密码。</p>
 		   </div>			
 		</div>
 		
@@ -202,11 +209,11 @@
 		   <div class="bgMgn gradient">
 			   <div class="mainMgn200">
 				   <div class="partAll">
-					   <p class="titleMgnBtm title22 mTitle30 fwb">Suspend Your Account</p>
-					   <div class="text16 mText24">
-						   <p>Suspend your account for a certain period of time: You can suspend your account by <a href="../en/contact-us.html#kefu" class="linkOrange">contacting us</a>.
+					   <p class="titleMgnBtm title24 mTitle32 pin fwb">账户暂停</p>
+					   <div class="text18 mText26">
+						   <p>阶段性暂停：您可以自行暂停您的账户，请<a href="contact-us.html?service" class="linkOrange">联系我们</a>，我们专业的客服人员，将帮助您暂停您的账户。
 						   </p>
-						   <p>Account suspended due to unpaid bills (iTalkBB Mobile only): If iTalkBB fails to charge your credit card on your billing day, your phone service will be suspended immediately. If you do not pay your bill for more than 45 days, your account will be revoked.
+						   <p>欠费导致账户暂停（限蜻蜓移动业务）：如果在账单日iTalkBB蜻蜓向您的信用卡扣款失败，您的手机服务将会立即被暂停。在账单日如果您需要支付的款项超过45天没有支付，您的账户会被取消。
 						   </p>
 					   </div>
 				   </div>
@@ -217,9 +224,9 @@
 		   <div class="bgMgn gradient">
 			   <div class="mainMgn200">
 				   <div class="partAll">
-					   <p class="titleMgnBtm title22 mTitle30 fwb">Cancel Your Account</p>
-					   <div class="text16 mText24">
-						   <p>There are no contract limitations for iTalkBB Mobile users. We hope to provide you with high-quality service that satisfies your needs! If you wish to cancel your service for any reason, please <a href="../en/contact-us.html#kefu" class="linkOrange">contact us</a>.Our professional customer service staff are ready to help.
+					   <p class="titleMgnBtm title24 mTitle32 pin fwb">取消账户</p>
+					   <div class="text18 mText26">
+						   <p>iTalkBB蜻蜓让您不受到束缚，我们希望持续为您提供优质的服务。但是，如果您需要取消您的服务，请<a href="contact-us.html?service" class="linkOrange">联系我们</a>，我们专业的客服人员会协助完成您的需求。
 						   </p>
 					   </div>
 				   </div>
@@ -231,28 +238,28 @@
 		   <div class="bgMgn gradient">
 			   <div class="mainMgn200">
 				   <div class="partAll">
-					   <p class="titleMgnBtm title30 mTitle38 fwb">推荐亲友，积分奖励</p>
-					   <div class="text16 mText24">
+					   <p class="titleMgnBtm title30 mTitle38 pin fwb">推荐亲友，积分奖励</p>
+					   <div class="text18 mText26">
 						   <p>您介绍亲戚朋友注册iTalkBB蜻蜓服务时，iTalkBB蜻蜓会为您提供相应的积分奖励和丰富的推荐奖品，亲友也能获得额外的优惠。
 						   </p>
 					   </div>
 				   </div>
 				   <div class="partAll titMgnTop">
-					   <p class="titleMgnBtm title22 mTitle30 fwb">如何推荐</p>
-					   <div class="text16 mText24">
-						   <p>点此填入您想推荐亲友的电邮地址，iTalkBB蜻蜓会发送一封介绍iTalkBB蜻蜓电话服务以及特殊优惠的邮件。您推荐的朋友通过这封邮件注册，即可建立推荐关系。或者，请让您的朋友在<a href="../en/home-phone-plans.html" class="linkOrange">网上购买</a>时，在推荐号码一栏填您的899号码；或是<a href="../en/contact-us.html#kefu" class="linkOrange">电话购买</a>时，告诉我们的销售人员您的899号码，即可建立推荐关系，获得相应的奖励。
+					   <p class="titleMgnBtm title24 mTitle32 pin fwb">如何推荐</p>
+					   <div class="text18 mText26">
+						   <p>点此填入您想推荐亲友的电邮地址，iTalkBB蜻蜓会发送一封介绍iTalkBB蜻蜓电话服务以及特殊优惠的邮件。您推荐的朋友通过这封邮件注册，即可建立推荐关系。或者，请让您的朋友在<a href="../chs/home-phone-plans.html" class="linkOrange">网上购买</a>时，在推荐号码一栏填您的899号码；或是<a href="contact-us.html?service" class="linkOrange">电话购买</a>时，告诉我们的销售人员您的899号码，即可建立推荐关系，获得相应的奖励。
 						   </p>
 					   </div>
 				   </div>
 				   <div class="partAll titMgnTop">
-					   <p class="titleMgnBtm title22 mTitle30 fwb">如何将奖励积分兑换为话费</p>
-					   <div class="text16 mText24">
-						   <p>点此登录您的<a href="" class="linkOrange">网上账户</a>，在“积分奖励”菜单下的积分管理页，可将您的积分兑换成话费使用。</p>
+					   <p class="titleMgnBtm title24 mTitle32 pin fwb">如何将奖励积分兑换为话费</p>
+					   <div class="text18 mText26">
+						   <p>点此登录您的<a href="log-in.html" class="linkOrange">网上账户</a>，在“积分奖励”菜单下的积分管理页，可将您的积分兑换成话费使用。</p>
 					   </div>
 				   </div>
 				   <div class="partAll titMgnTop">
-					   <p class="titleMgnBtm title22 mTitle30 fwb">如何计算特殊推荐优惠的人数和收到实物奖品的时间</p>
-					   <div class="text16 mText24">
+					   <p class="titleMgnBtm title24 mTitle32 pin fwb">如何计算特殊推荐优惠的人数和收到实物奖品的时间</p>
+					   <div class="text18 mText26">
 						   <p>特殊推荐优惠活动不定期举办。参与此优惠活动的推荐人，被推荐人数的统计以自然月为单位进行计算，即在一个自然月中推荐人数到达某个数量时，即可获得对应奖励。在您推荐的亲友使用iTalkBB蜻蜓产品过了30天试用期后，我们会开始处理您的奖品寄送，您一般会在开始处理后15个工作日内收到奖品。</p>
 					   </div>
 				   </div>
@@ -263,10 +270,10 @@
 	  	<div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll">
-		    <p class="titleMgnBtm title22 mTitle30 fwb">Check Your Bill</p> 
-		    <div class=" text16 mText24">
-				<p>iTalkBB allows you to easily manage your billing statements by logging into your <a href="" class="linkOrange">account online</a> . After logging in, click "Billing Information" in the menu at the top of the page to view your latest bill.</p>
-		   		<p>If you want to check previous billing statements, click "Billing Information" in the menu at the top of the page, then go into "Billing History" to access your bills for the last 6 months.</p>
+		    <p class="titleMgnBtm title24 mTitle32 pin fwb">查看账单</p> 
+		    <div class=" text18 mText26">
+				<p>您可以通过登陆<a href="log-in.html" class="linkOrange">网上账户</a>轻松管理您的账单。登录之后，在最上方的菜单界面内点击“账单资讯”即可查看最新账单。</p>
+		   		<p>如果查看历史账单，在最上方的菜单界面内点击“账单资讯”，然后在“历史账单”这一栏内，您可最多查看最近6个月的账单。</p>
 		   </div>
 		</div>
 		</div>
@@ -275,10 +282,11 @@
 		<div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll">
-	       <p class="titleMgnBtm title22 mTitle30 fwb">Read Your Bill</p>
-	       <div class="text16 mText24">
-		   	  <p><span class="fwb">Billing period:</span>After account activation, the following 30 days will be regarded as one billing period.</p>
-		   	  <p><span class="fwb">Payment:</span>You will not need to make the payment manually after receiving your bill. We will automatically collect your plan's monthly fee for the next month and the additional service charges incurred for the prior month on your payment date.</p>
+	       <p class="titleMgnBtm title24 mTitle32 pin fwb">账单详解</p>
+	       <div class="text18 mText26">
+		   	  <p><span class="fwb">账期：</span>从您的账户激活这一天作为账期起始日，从账期起始日后30天为一个账期。</p>
+		   	  <p><span class="fwb">缴费：</span>您无需记住日期并在收到帐单后手动付款，我们每月支付日期当天自动收取下一个账期的产品计划月费以及上一个账期可能产生的其他服务费用。
+				  <br><br>iTalkBB蜻蜓给您带来非常便利的一点是，您无需记住日期并在收到帐单后手动付款，我们每月会在支付日期的那一天自动收取当月的服务费。</p>
 		   </div>			
 		</div>
 		</div>
@@ -287,9 +295,9 @@
 		<div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll">
-	       <p class="titleMgnBtm title22 mTitle30 fwb">Using Both iTalkBB Mobile Services and iTalkBB Home Phone Services</p>
-	       <div class="text16 mText24">
-		   	  <p>After activating iTalkBB Mobile services, we will charge your mobile service from the date of activation to the end of your regular home phone billing period. The next month's period will be the same as your regular home phone billing period.</p>
+	       <p class="titleMgnBtm title24 mTitle32 pin fwb">如果您同时使用蜻蜓移动和蜻蜓电话服务</p>
+	       <div class="text18 mText26">
+		   	  <p>在您激活蜻蜓移动手机服务的当天，我们会按比例向您收取从激活当天算起到您下一个蜻蜓电话账单生成日这一期间的手机服务费。之后我们会在每月收取电话服务费的同时，向您收取您整月的电话服务费以及您的手机服务费。您的蜻蜓电话账单日期和您蜻蜓移动的账单日期将被调整成同一天，方便您管理和支付。</p>
 		   </div>			
 		</div>
 		</div>
@@ -301,9 +309,9 @@
 	  	<div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll">
-		    <p class="titleMgnBtm title22 mTitle30 fwb">Payment Methods</p> 
-		    <div class="listTxtCon text16 mText24">
-		   	  <p>We only accept debit and credit card payments, including Visa, Mastercard, American Express and Discover.</p>
+		    <p class="titleMgnBtm title24 mTitle32 pin fwb">支付方式</p> 
+		    <div class="text18 mText26">
+		   	  <p>为了保护您的财产安全，我们暂时只接受借记卡和信用卡的支付方式，包括Visa, MasterCard, American Express以及Discover。</p>
 		    </div>		    
 		</div>
 		</div>
@@ -312,12 +320,12 @@
 	    <div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll">
-           <p class="titleMgnBtm title22 mTitle30 fwb">Payment Date</p>
-           <div class="text16 mText24">
-		   	  <p>The service cycle is every 30 days, with the date on which your account was activated as the starting date of your billing period. The 30 days following the starting date are regarded as one billing period. We will automatically collect your plan's monthly fee for the next month and the additional service charges incurred for the prior month on your payment date.</p>
+           <p class="titleMgnBtm title24 mTitle32 pin fwb">支付日期</p>
+           <div class="text18 mText26">
+		   	  <p>从您的账户激活这一天作为账期起始日，从账期起始日后30天为一个账期。您无需记住日期并在收到帐单后手动付款，我们每月支付日期当天自动收取下一个账期的月费以及上一个账期可能产生的其他服务费用。</p>
 		   </div>
-           <p class="textNote text16 mText24">
-           Please note: For iTalkBB Home Phone users who have applied for iTalkBB Mobile services later, we will collect your first mobile service fees based on your service usage from the date of activation to the end of your regular home phone billing period. Then, the next month's billing period of your mobile service will automatically start at the same date as your regular home phone billing period.
+           <p class="textNote text18 mText26 gray">
+           请注意：如果您同时使用蜻蜓移动和蜻蜓电话服务，在您激活蜻蜓移动手机服务的当天，我们会按比例向您收取从激活当天算起到您下一个蜻蜓电话账单生成日这一期间的手机服务费。之后我们会在每月收取电话服务费的同时，向您收取您整月的电话服务费以及您的手机服务费。您的电话账单日期和您手机服务的账单日期将被调整成同一天，方便您管理和支付。
            </p>	       			
 		</div>
 		
@@ -326,13 +334,13 @@
 		<div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll">
-           <p class="titleMgnBtm title22 mTitle30 fwb">Payment Failed</p>
-           <div class="text16 mText24">
+           <p class="titleMgnBtm title24 mTitle32 pin fwb">支付失败</p>
+           <div class="text18 mText26">
 		   	  <p>
-				  如果iTalkBB蜻蜓向您的借记卡或信用卡扣款失败，您的服务会被暂停。如果您需要支付的款项超过45天没有支付（限蜻蜓移动业务），您的账户会被取消，而您的号码也将无法被保留下来。账户内的任何余额都是不可退还也不可转去其他账户的。为了避免这一情况发生，请及时更新您的信用卡信息。如果您的账户内已经有一笔未支付的款项，请在您更新信用卡信息后进行支付。想要支付您的账单？你可以选择登陆<a href="" class="linkOrange">网上账户</a>，或者<a href="../en/contact-us.html#kefu" class="linkOrange">联系我们</a>来支付您未付的账单。
+				  如果iTalkBB蜻蜓向您的借记卡或信用卡扣款失败，您的服务会被暂停。如果您需要支付的款项超过45天没有支付（限蜻蜓移动业务），您的账户会被取消，而您的号码也将无法被保留下来。账户内的任何余额都是不可退还也不可转去其他账户的。为了避免这一情况发生，请及时更新您的信用卡信息。如果您的账户内已经有一笔未支付的款项，请在您更新信用卡信息后进行支付。想要支付您的账单？你可以选择登陆<a href="log-in.html" class="linkOrange">网上账户</a>，或者<a href="contact-us.html?service" class="linkOrange">联系我们</a>来支付您未付的账单。
 			  </p>
 		   </div>
-           <p class="textNote text16 mText24">
+           <p class="textNote text18 mText26 gray">
            请注意：如果这是您第一次登陆账号，登录信息就在您的手机号码订单发货后的确认邮件内！如果您未收到该邮件，请联系我们，我们专业的客服人员，将竭诚为您服务。如果这并不是您第一次登陆，请使用您设置的用户名和密码登陆。在最上方的菜单界面内点击“账户设定”并选择“账户信息”，然后点击在您现在支付方式信息旁的“update”，即可轻松更新支付方式。
            </p>	       			
 		</div>
@@ -343,13 +351,13 @@
 		  <div class="bgMgn gradient">
 			  <div class="mainMgn200">
 				  <div class="partAll">
-					  <p class="titleMgnBtm title22 mTitle30 fwb">Update Your Payment Method</p>
-					  <div class="text16 mText24">
+					  <p class="titleMgnBtm title24 mTitle32 pin fwb">支付方式更新</p>
+					  <div class="text18 mText26">
 						  <p>
-							  想要更新您的支付方式？没问题！登陆<a href="" class="linkOrange">网上账户</a>，或者<a href="../en/contact-us.html#kefu" class="linkOrange">联系我们</a>，就能轻松更新您的支付方式。
+							  想要更新您的支付方式？没问题！登陆<a href="log-in.html" class="linkOrange">网上账户</a>，或者<a href="contact-us.html?service" class="linkOrange">联系我们</a>，就能轻松更新您的支付方式。
 						  </p>
 					  </div>
-					  <p class="textNote text16 mText24">
+					  <p class="textNote text18 mText26 gray">
 						  请注意：如果这是您第一次登陆账号，登录信息就在您的手机号码订单发货后的确认邮件内！如果您未收到该邮件，请联系我们，我们专业的客服人员，将竭诚为您服务。如果这并不是您第一次登陆，请使用您设置的用户名和密码登陆。在最上方的菜单界面内点击“账户设定”并选择“账户信息”，然后点击在您现在支付方式信息旁的“update”， 即可轻松更新支付方式。
 					  </p>
 				  </div>
@@ -362,13 +370,13 @@
 	  	<div class="bgMgn gradient">
 		<div class="mainMgn200">
 		<div class="partAll"> 
-		    <div class="text16 mText24">
-		   	  <p class="titleMgnBtm listTxtCon fwb">In addition to the product plan's monthly fee for the next billing period and the extra service charges that may arise from the previous account period, iTalkBB will collect the following fees based on your service:</p>
+		    <div class="text18 mText26">
+		   	  <p class="titleMgnBtm fwb">除了下一个账期的产品计划月费以及上一个账期可能产生的其他服务费用之外，iTalkBB蜻蜓会根据您的服务，收取以下相应款项：</p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   	  <span class="textCon">Taxes: Specific fees are based on your local tax rate</span>
+		   	  <span class="textCon">税费 (Taxes)：具体费用视您的所在地税率为准</span>
 		   	  </p>
 		   	  <p class="clearfix"><span class="Sharp">&gt;</span>
-		   	  <span class="textCon">Shipping Fee: The specific fee depends on your product and mailing method</span>
+		   	  <span class="textCon">邮费 (Shipping Fee)：具体费用视您的产品和邮寄方式为准 </span>
 		   	  </p>		   	  		
 		    </div>
 		</div>
@@ -378,15 +386,14 @@
 		  <div class="bgMgn gradient">
 			  <div class="mainMgn200">
 				  <div class="partAll">
-					  <div class="text16 mText24">
-					      <p></p>
-						  <p class="titleMgnBtm"><b>If you are an iTalkBB Mobile user</b>, you may also find the following fees on your billing statement, which are in addition to the product plan's monthly fee:
+					  <div class="text18 mText26">
+						  <p class="titleMgnBtm"><span class="fwb">如果您是iTalkBB蜻蜓电话的用户</span>，除产品计划月费之外，还可能会在账单内见到以下费用：
 						  </p>
 						  <p class="clearfix"><span class="Sharp">&gt;</span>
-							  <span class="textCon"> Applicable Regulatory/Compliance Fees and Charges: iTalkBB assesses this charge to cover government-related fees, including federal, state, and regional regulatory fees, state taxes, local taxes, emergency grants, local and regional fees, international public telephone network use fees, intellectual property fees, number fees and other legal fees. The integrated management fee is $3.95 per month for each phone number.  If you are an annual program user, you will be charged for one year at the time of registration.</span>
+							  <span class="textCon">综合管理费 (Applicable Regulatory/Compliance Fees and Charges)：iTalkBB蜻蜓收取这笔费用来支付政府规定的相关费用，包括联邦、州、地区行业监管费、州税、地方税、紧急拨出费、本地及国际公共电话网络使用费、知识产权费、号码费及其他法律规定的费用。综合管理费为每个电话号码$3.95/月。如果您是包年计划用户，您会在注册时一次缴清一年的综合管理费。</span>
 						  </p>
 						  <p class="clearfix"><span class="Sharp">&gt;</span>
-							  <span class="textCon">Telecom consumption tax: Users in Virginia and Texas are required to pay a telecom consumption tax. iTalkBB charges this fee and surrenders it to the relevant state government.</span>
+							  <span class="textCon">电信消费税：目前Virginia和Texas的用户需支付一定数额的电信消费税。iTalkBB蜻蜓依照规定收取这笔费用并上缴给相关州政府。</span>
 						  </p>
 					  </div>
 
@@ -396,35 +403,36 @@
 		
 		<div class="bgMgn conTable">
 	        <div class="mainMgn200">
-				<div class="text16 mText24">
-				    <p></p>
-					<p class="titleMgnBtm"><b>If you are an iTalkBB Mobile user</b>, you may also see the following charges on your bill:</p>
+	          <div class="partAll">
+				<div class="text18 mText26">
+					<p class="titleMgnBtm"><span class="fwb">如果您是iTalkBB蜻蜓移动的用户</span>，还可能会在账单内见到以下费用：</p>
 				</div>
+              </div>
             </div>
   	        <div class="formCon mainMgn200">             	   
               	   <table class="fromBox fromBox3" cellpadding="0" cellspacing="0">
               	   	  <tbody>
              	   	  	 <tr class="fromHeader">
-              	   	  	 	<td class="list3_1"><p class="title18 mTitle22">Item</p></td>
-              	   	  	 	<td class="list3_2"><p class="title18 mTitle22">Description</p></td>
-              	   	  	 	<td class="list3_3"><p class="title18 mTitle22">Price</p></td>
+              	   	  	 	<td class="list3_1"><p class="title18 mTitle22">收款项目<br>Item</p></td>
+              	   	  	 	<td class="list3_2"><p class="title18 mTitle22">说明<br>Description</p></td>
+              	   	  	 	<td class="list3_3"><p class="title18 mTitle22">金额<br>Price</p></td>
               	   	  	 </tr>
               	   	  	 <tr class="bgWhite">
-              	   	  	 	<td class="list3_1"><p class="title16 mTitle20">Activation</p></td>
-              	   	  	 	<td class="list3_2"><p class="title16 mTitle20">Users will be charged once when activating their account; there is no charge to add additional numbers.</p></td>
+              	   	  	 	<td class="list3_1"><p class="title16 mTitle20">激活费<br>Activation</p></td>
+              	   	  	 	<td class="list3_2"><p class="title16 mTitle20">只在账户开通时收取，增加额外的手机号码时不收取。</p></td>
               	   	  	 	<td class="list3_3"><p class="title16 mTitle20">$25</p></td>
               	   	  	 </tr>
               	   	  	 <tr class="bgGray">
-              	   	  	 	<td class="list3_1"><p class="title16 mTitle20">Reinstatement Fee</p></td>
+              	   	  	 	<td class="list3_1"><p class="title16 mTitle20">账号恢复费<br>Reinstatement Fee</p></td>
               	   	  	 	<td class="list3_2">
 							   <div class="tableUlNom title16 mTitle20">
-							      <p>Applicable in the following situations:</p> 
+							      <p>以下情况适用：</p> 
 		                          <ul class="listNom">
 		                       	     <li>
-		   		                        <p>If the user fails to pay their bill, the account will be suspended immediately; the user needs to apply for account recovery within 45 days and pay arrears and account recovery fees (arrears of more than 45 days will cause the account to be canceled and the phone number to be surrendered; the account can no longer be restored).</p>	   		 
+		   		                        <p>如果用户在账单日缴费失败，账户会被立即暂停；用户需要在45内申请账户恢复，并支付欠费和账户恢复费（欠费超过45天，账户将被取消，手机号码被收回，账户将不会被恢复）。</p>	   		 
 		   	                         </li>
 		   	                         <li>
-		   		                        <p>If the user requests that the account be suspended and then later restored, an account recovery fee/reinstatement fee will be assessed on the account.</p>	   		 
+		   		                        <p>如果用户自行选择暂停账户，稍后选择恢复账户时，需要支付账户恢复费。</p>	   		 
 		   	                         </li>		  
 		   	                      </ul>
 		   	                   </div>
@@ -445,9 +453,9 @@
              	   	  	    </td>
               	   	  	 </tr>-->
               	   	  	 <tr class="bgWhite">
-              	   	  	 	<td class="list3_1"><p class="title16 mTitle20">U.S. SIM Card/China SIM Card Fee</p></td>
+              	   	  	 	<td class="list3_1"><p class="title16 mTitle20">美国卡/中国卡卡费<br>U.S. SIM Card/China SIM Card Fee</p></td>
               	   	  	 	<td class="list3_2"><p class="title16 mTitle20"><!--适用于购买中国SIM卡--></p></td>
-              	   	  	 	<td class="list3_3"><p class="title16 mTitle20">$10/card</p></td>
+              	   	  	 	<td class="list3_3"><p class="title16 mTitle20">$10/卡</p></td>
               	   	  	 </tr>  
               	   	  	 <!--<tr class="bgWhite">
               	   	  	 	<td class="list3_1"><p class="title16 mTitle20">Plan Change Fee 计划变更费</p></td>
@@ -460,9 +468,9 @@
               	   	  	 	<td class="list3_3"><p class="title16 mTitle20">$18</p></td>
               	   	  	 </tr>-->
               	   	  	 <tr class="bgGray">
-              	   	  	 	<td class="list3_1"><p class="title16 mTitle20">International Call Toll</p></td>
+              	   	  	 	<td class="list3_1"><p class="title16 mTitle20">国际通话费<br>International Call Toll</p></td>
               	   	  	 	<td class="list3_2"><p class="title16 mTitle20"></p></td>
-							 <td class="list3_3"><p class="title16 mTitle20">Please refer to <a class="linkOrange" href="../en/home-phone-rates.html#rates">International Call Toll</a></p></td>
+							 <td class="list3_3"><p class="title16 mTitle20">参见相应<a class="linkOrange" href="../chs/home-phone-rates.html#rates">国际通话费用</a></p></td>
               	   	  	 </tr>           	   	  	 
               	   	  </tbody>
               	   </table> 
@@ -480,9 +488,9 @@
 	  
    
       <!--help support search begin--> 
-      <div class="searchMgnBtm">
-        <div id="supportSearch"></div>
-      </div>
+      <section class="searchMgnBtm">
+        <div id="support-search"></div>
+      </section>
       <!--help support search end--> 
       
     </div>
@@ -493,8 +501,8 @@
 	<div id="footer"></div>
 	<script>
 	   $('#header').load('header.html');
-	   $('#supportBanner').load('supportBanner.html');
-	   $('#supportSearch').load('supportSearch.html');
+	   $('#support-banner').load('support-banner.html');
+	   $('#support-search').load('support-search.html');
        $('#footer').load('footer.html');
     </script>
 </body>

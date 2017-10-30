@@ -1,65 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cmn-Hans">
 <head>
-	<meta charset="UTF-8">
-	<title>Login</title>
-	<meta charset="UTF-8">
-    <title>iTalkBB-Log in</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="copyright" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
-    <meta name="apple-itunes-app" content="app-id=514896649">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_login.css">
-
-    <link rel="stylesheet" href="../shared/css/social-share-in-news-template.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/en_common.css">
-
-    <script src="../shared/js/jquery-1.12.4.min.js"></script>
-    <script src="../shared/js/angular-1.6.4.min.js"></script>
-    <script src="../shared/js/bootstrap.min.js"></script>
-    <script src="../shared/js/imageMapResizer.js"></script>
-    <script src="../shared/js/common.js"></script>
-    <style>
-
-
-
-
-		.bannerAll{background: url(../shared/images/lognin/loginbg.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 33.2vw;}
+<meta charset="UTF-8">
+<title>iTalkBB蜻蜓-账户登录</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="copyright" content="iTalkBB">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+<meta name="apple-itunes-app" content="app-id=514896649">
+<link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_log-in.css">
+<link rel="stylesheet" href="../shared/css/social-share-in-news-template.css">
+<script src="../shared/js/jquery-1.12.4.min.js"></script>
+<script src="../shared/js/angular-1.6.4.min.js"></script>
+<script src="../shared/js/bootstrap.min.js"></script>
+<script src="../shared/js/imageMapResizer.js"></script>
+<script src="../shared/js/common.js"></script>
+<style>
+		.bannerAll{background: url(../shared/images/login/loginBg.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 33.2vw;}
 /*		.social-share .social-share-icon {width: 3.33vw;height: 3.33vw;font-size: 1.5vw;line-height: 3.33vw;}
 		.social-share {text-align: center;margin-top: 1.5%;margin-bottom: 4.5%}*/
 		.yuan{letter-spacing:-5px;}
-
-
-/*en star*/
-		 body{ font-family: "open sans", arial, sans-serif;}
-		 @media  (min-width:1900px) and (max-width:1920px){
-		 .title42{font-size: 40px}
-    	.title30{font-size: 25px}
-    	.txtleft {padding-right: 0%;}
-    	.tuijian,.login{font-size: 30px}
-		 }
-
-
-/*en end*/
+		.loginf{width: 60%;}
+        .aa{text-align: center;}
+        .wechatIconSocial {max-width: 200px;width: 20%;margin-left: 35.5%;padding: 10px;border: 1px solid #dddddd;margin-top: -3%;margin-bottom: 3%;}
+        .w100{width: 100%}
 
 
 		@media  (min-width:1001px) and (max-width:1900px){
 				.title42 {font-size: 2.1vw;}
-				.title30{font-size: 1.35vw}
+				.title30{font-size: 1.56vw}
 				.title60{font-size: 3.1vw}
 				.title140{font-size: 7.2vw}
 				.title36{font-size: 1.87vw}
-				.tuijian,.login{font-size: 1.56vw}
-				 .txtleft {padding-right: 0;}
-				 .card{padding: 12%}
 		}
 
 		@media  (min-width:1200px) and (max-width:1300px){
@@ -77,39 +56,36 @@
 		}
 
 		@media  (min-width:768px) and (max-width:1000px){
-			.bannerAll{background: url(../shared/images/lognin/ipadLoginbg.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 46vw;}
+			.bannerAll{background: url(../shared/images/login/ipadLoginBg.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 46vw;}
 			.searchTitle{margin-left: 10%}
             .logos{margin-top:4%;margin-bottom:6%  }
-            .card{padding: 10%}
-            .title42{font-size: 2.8vw}
-            .title30{font-size: 1.8vw}
-            .tuijian,.login{font-size: 2.2vw}
-            .txtleft {padding-right: 0;}
-	
-		
+
+            .loginf{width: 83%;margin-left: 10%}
 
 		}
 
 		@media   (max-width:767px){
-				.bannerAll{background: url(../shared/images/lognin/Mlogin.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 120.6vw;padding-right: 0}
-				
+				.bannerAll{background: url(../shared/images/login/mLoginBg.jpg) no-repeat; background-size: 100%;padding-top:0px;padding-left: 0px;height: 120.6vw;padding-right: 0}
 				 .logos{margin-top: 8%;margin-bottom: 12%}
-				 .bottoms{width: 90%}
-				 .mTitle42 {font-size: 5.2vw;}
-				 .txtleft {padding-right: 0%;}
-				 .mTitle28 {font-size: 3.3vw;}
+				 .loginf{width: 100%;padding-left: 10%;padding-right: 10%;}
+                 .sptSearch .left{padding-top: 5%}
+                 .bottoms{margin-top: 20%}
+                 .sptSearch .right {padding-top: 22%;}
+  
 
-
-		}
-
-
-
-
-
-		
-		
+                }
 
     </style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42957008-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-42957008-1');
+</script>
+
 </head>
 <body ng-app="">
 	   	<div id="header"></div>
@@ -121,87 +97,98 @@
 			<div class="bannerAll">
 									
       	 	 	<div class="sptSearch mainMgn200 clearfix">
-       	    		<div class="left clearfix">
-        	    		<p class="searchTitle title50 mTitle50 fwb">Welcome Back</p>
-        	    		<p class="searchTitle title36 mTitle38 searchTitlex">Log in to Your Account</p>
+					<div class="left clearfix">
+						<p class="searchTitle title60 mTitle60 fwb">欢迎登录</p>
+        	    		<p class="searchTitle title36 mTitle38 searchTitlex">更好的管理您的服务</p>
+
+
+						<div class="loginf">
+								<iframe frameborder="0"  scrolling="no" src="src-login-us-chs.html" width='100%' height='100%'  style="border-radius:5px;"></iframe>
+						</div>
+
+					</div>	
+       	    		<!--<div class="left clearfix">
+        	    		<p class="searchTitle title60 mTitle60 fwb">欢迎登录</p>
+        	    		<p class="searchTitle title36 mTitle38 searchTitlex">更好的管理您的服务</p>
         	    		<form action="">
         	    		<div class="usename">
-        	    			<p class="searchImg text16 mText24">&nbsp;</p>
-        	    			<input class="searchBar text16 mText24" type="search" placeholder="" value="Username" onfocus="if (value =='Username'){value =''}" onblur="if (value ==''){value='Username'}" > 
+        	    			<p class="searchImg text18 mText26">&nbsp;</p>
+        	    			<input class="searchBar text18 mText26" type="search" placeholder="" value="输入用户名" onfocus="if (value =='输入用户名'){value =''}" onblur="if (value ==''){value='输入用户名'}" > 
 
         	    		</div>
 
 						<div class="clearfix"></div>
         	    		<div class="password">
-        	    			<p class="searchImg text16 mText24">&nbsp;</p>
-        	    			<input class="searchBar text16 mText24" type="search" placeholder="" value="Password" onfocus="if (value =='Password'){value =''}" onblur="if (value ==''){value='Password'}" >        	    
+        	    			<p class="searchImg text18 mText26">&nbsp;</p>
+        	    			<input class="searchBar text18 mText26" type="search" placeholder="" value="输入密码" onfocus="if (value =='输入密码'){value =''}" onblur="if (value ==''){value='输入密码'}" >        	    
         	    		</div>
         	    		<div class="clearfix"></div>
 
         	    		 <div class="cookie">
-        	    			<p class="searchImg text16 mText24">&nbsp;</p>
-        	    			<input class="searchBar text16 mText24" type="search" placeholder="" value="Verification code" onfocus="if (value =='Verification code'){value =''}" onblur="if (value ==''){value='Verification code'}" > 
-        	    			  <p class="searchButton text16 mText24">
+        	    			<p class="searchImg text18 mText26">&nbsp;</p>
+        	    			<input class="searchBar text18 mText26" type="search" placeholder="" value="输入验证码" onfocus="if (value =='输入验证码'){value =''}" onblur="if (value ==''){value='输入验证码'}" > 
+        	    			  <p class="searchButton text18 mText26">
                    				<span>1+1=??</span>
                				 </p>       	    
         	    		</div>
         	    		<div class="clearfix"></div>
         	    		</form>
         	 			<div class="bom">
-        	 				<a href=""><div class="login title30 mTitle38">LOG IN</div></a>
-        	    			<div class="www text16 mText28">
-        	    				<a class="text16 mText28" href="">Sign up</a>  |  <a class="text16 mText28" href="">Forgot Username</a>  |  <a class="text16 mText28" href="">Forgot Password</a>  
+        	 				<a href=""><div class="login title30 mTitle38">登录</div></a>
+        	    			<div class="www text18 mText28">
+        	    				<a class="text18 mText28" href="">立即注册</a>  |  <a class="text18 mText28" href="">忘记登录名</a>  |  <a class="text18 mText28" href="">忘记密码</a>  
         	    			</div>
         	 			</div>
-
-
-     		
-        			</div>
+        			</div>-->
         			<div class="right clearfix">
         				<div class="card">
-        					<div class="tit title42 mTitle42">Invite Friends to Join iTalkBB and Earn Benefits</div>
-        					<div class="txt1 txtleft title30 mTitle28 fwb">Once your friend joins iTalkBB, both you and your friend will receive</div>
+                            <img src="../shared/images/login/loginBgSmall.png" alt="">
+                            <div class="txt">
+        					<div class="tit title42 mTitle42">邀请您的朋友，一起体验iTalkBB蜻蜓的精彩服务</div>
+        					<div class="txt1 txtleft title30 mTitle28 fwb">每推荐1名亲友加入，您和朋友将同时获得</div>
         					<div class="txt2 txtright avenir">
         						<div class="title60 mTitle68 dollar">$</div>
         						<div class="title140 mTitle162 yuan">10</div>
         					</div>
         					<div class="clearfix"></div>
-        					<a href="refer-a-friend.html"><div class="tuijian title30 mTitle38">REFER NOW</div></a>
+        					<a href="refer-a-friend.html"><div class="tuijian title30 mTitle38">立即推荐</div></a>
+                            </div>
         				</div>
         			</div>
 		  		</div> 
 			</div>
+           
 			<div class="bottoms">
-		  		<div class="text16 mText28 bottomstit">If you forgot your account or password, please <a class="linkOrange" href="sptQuery.html?kefu">contact us</a>. Our professional customer service staff will verify your identity and either retrieve your account information or help you reset it.</div>
+		  		<div class="text18 mText28 bottomstit">如果您在登录账户遇到任何问题，请<a class="linkOrange" href="contact-us.html?service">联系我们</a>，我们专业的客服人员会帮您为您重新设置登录名和密码。</div>
 
                 <div class="logos">
                     <div class="logo1">
-						<img src="../shared/images/index/iconWechat.png" alt="">
+						<img src="../shared/images/icons/iconWechat.png" alt="">
 					</div>
                     <div class="logo2">
 						<a href="http://weibo.com/p/1006065041497758/home?from=page_100606&mod=TAB&is_all=1#place" target="_blank">
-							<img src="../shared/images/index/iconWeibo.png" alt="">
+							<img src="../shared/images/icons/iconWeibo.png" alt="">
 						</a>
 					</div>
                     <div class="logo3">
 						<a href="https://www.facebook.com/iTalkBBqingting/" target="_blank">
-							<img src="../shared/images/index/iconFacebook.png" alt="">
+							<img src="../shared/images/icons/iconFacebook.png" alt="">
 						</a>
 					</div>
                     <div class="logo4">
 						<a href="https://www.youtube.com/channel/UCGCxNSstqeecxd4unpObkNg" target="_blank">
-							<img src="../shared/images/index/iconGoogle.png" alt="">
+							<img src="../shared/images/icons/iconGoogle.png" alt="">
 						</a>
 					</div>
 					<div class="logo5">
 						<a href="https://www.linkedin.com/company/italk-global-communications" target="_blank">
-							<img src="../shared/images/index/iconLinkedin.png" alt="">
+							<img src="../shared/images/icons/iconLinkedin.png" alt="">
 						</a>
 					</div>
                 </div>
-				<div class="wechatIconSocial" style="display:none;">
-					<p class="wechatIconSocialTitle pin">Code number concern WeChat public</p>
-					<img src="../shared/images/index/wechatSocialIcon.jpg" class="img w100">
+				<div class="wechatIconSocial" style="display:none">
+					<p class="wechatIconSocialTitle pin">扫码关注微信公众号</p>
+					<img src="../shared/images/icons/wechatQRcodeIcon.jpg" class="img w100">
 				</div>
 				<div class="clear clearfix"></div>
 				<script>
@@ -214,7 +201,9 @@
 
 		  	</div>
 		</div>
-  		<div id="footer"></div>
+
+       <div class="lineBlue"></div>
+  	   <div id="footer"></div>
          <script>
             $('#footer').load('footer.html');
         </script>
@@ -222,78 +211,109 @@
 
 <script>
         $('.logo1').mouseover(function(){
-                $('.logo1 img').attr("src","../shared/images/index/iconWechatBlue.png");
+                $('.logo1 img').attr("src","../shared/images/icons/iconWechatBlue.png");
     }).mouseout (function(){
-                $('.logo1 img').attr("src","../shared/images/index/iconWechat.png");
+                $('.logo1 img').attr("src","../shared/images/icons/iconWechat.png");
     });
 
 
     $('.logo2').mouseover(function(){
-                $('.logo2 img').attr("src","../shared/images/index/iconWeiboBlue.png");
+                $('.logo2 img').attr("src","../shared/images/icons/iconWeiboBlue.png");
     }).mouseout (function(){
-                $('.logo2 img').attr("src","../shared/images/index/iconWeibo.png");
+                $('.logo2 img').attr("src","../shared/images/icons/iconWeibo.png");
     });
 
 
     $('.logo3').mouseover(function(){
-                $('.logo3 img').attr("src","../shared/images/index/iconFacebookBlue.png");
+                $('.logo3 img').attr("src","../shared/images/icons/iconFacebookBlue.png");
     }).mouseout (function(){
-                $('.logo3 img').attr("src","../shared/images/index/iconFacebook.png");
+                $('.logo3 img').attr("src","../shared/images/icons/iconFacebook.png");
     });
 
 
 
     $('.logo4').mouseover(function(){
-                $('.logo4 img').attr("src","../shared/images/index/iconGoogleBlue.png");
+                $('.logo4 img').attr("src","../shared/images/icons/iconGoogleBlue.png");
     }).mouseout (function(){
-                $('.logo4 img').attr("src","../shared/images/index/iconGoogle.png");
+                $('.logo4 img').attr("src","../shared/images/icons/iconGoogle.png");
     });
 
         $('.logo5').mouseover(function(){
-            $('.logo5 img').attr("src","../shared/images/index/iconLinkedinBlue.png");
+            $('.logo5 img').attr("src","../shared/images/icons/iconLinkedinBlue.png");
         }).mouseout (function(){
-            $('.logo5 img').attr("src","../shared/images/index/iconLinkedin.png");
+            $('.logo5 img').attr("src","../shared/images/icons/iconLinkedin.png");
         });
 
 
 </script>
-<style>
-	.wechatIconSocial{
-		max-width: 200px;
-		width: 20%;
-		margin-left: 40%;
-		padding: 10px;
-		border: 1px solid #dddddd;
-		margin-top: -3%;
-		margin-bottom: 3%;
-	}
-	.wechatIconSocialTitle{
-		font-size:15px;
-		text-align:center;
-		margin-bottom:0;
-	}
-	@media (max-width: 1000px) and (min-width:879px) {
-		.wechatIconSocial{
-			margin-top: -1%;
-		}
-		.overlayLayerTitle{
-			font-size:1.2vw;
-		}
-	}
-	@media (max-width:767px) {
-		.wechatIconSocial {
-			max-width: 200px;
-			width: 35%;
-			margin-left: 15%;
-			padding: 10px;
-			border: 1px solid #dddddd;
-			margin-top: -6%;
-			margin-bottom: 3%;
-		}
-		.wechatIconSocialTitle {
-			font-size: 3vw;
-		}
-	}
-</style>
+
+
+<script>
+$(window).resize(function(){
+var screenWidth = window.innerWidth;
+var x = $('.loginf').width();
+
+
+var a = $('.bannerAll').width();
+    if(screenWidth<=767){       
+        $('.bannerAll').css('height',a*1.6+'px');
+        $('.loginf').css('height',x*0.65+'px')
+    }
+    else if(screenWidth<=1000&&screenWidth>767){
+        $('.bannerAll').css('height',a*0.49+'px')
+        $('.loginf').css('height',x*0.65+'px')
+    }
+
+
+
+    else if(screenWidth<=1250&&screenWidth>1000){
+        $('.loginf').css('height',x*0.7+'px')
+         $('.bannerAll').css('height',a*0.33+'px')
+    }
+
+    else if(screenWidth>1250){
+        $('.loginf').css('height',x*0.8+'px')
+         $('.bannerAll').css('height',a*0.33+'px')
+    }
+
+
+});
+
+
+$(function(){
+var screenWidth = window.innerWidth;
+var x = $('.loginf').width();
+console.log(x);
+
+var a = $('.bannerAll').width();
+    if(screenWidth<=767){       
+        $('.bannerAll').css('height',a*1.6+'px');
+        $('.loginf').css('height',x*0.65+'px')
+    }
+    else if(screenWidth>767&&screenWidth<=1000){
+        $('.bannerAll').css('height',a*0.49+'px')
+        $('.loginf').css('height',x*0.65+'px')
+    }
+
+
+
+
+    else if(screenWidth<=1250&&screenWidth>1000){
+        $('.loginf').css('height',x*0.7+'px')
+         $('.bannerAll').css('height',a*0.33+'px')
+    }
+
+    else if(screenWidth>1250){
+        $('.loginf').css('height',x*0.8+'px')
+         $('.bannerAll').css('height',a*0.33+'px')
+        
+    
+    }
+
+
+});
+
+
+</script>
 
 </html>

@@ -30,6 +30,18 @@
   gtag('js', new Date());
   gtag('config', 'UA-42957008-1');
 </script>
+<style>
+	.mputong{display: none}
+	.mgaoqing{display: none}
+
+			@media (max-width:767px) {
+					.mputong{display: block;}
+					.mgaoqing{display: block;}
+					.pcputong{display: none;}
+					.pcgaoqing{display: none;}
+			}
+
+</style>
 
 </head>
 <body ng-app="">
@@ -154,8 +166,8 @@
 			<p class="titleMgnBtm bannerAd1tit2 title36 mTitle44 pin fwb">1080p畫質, 打造視覺盛宴</p>
 			<p class="textAd2 text18 mText26">iTalkBB蜻蜓採用最尖端的圖像處理技術，無論是最新影視劇，熱門綜藝節目和精彩賽事都能讓您擁有最極致的視覺享受。</p>
 			<div class="compare">
-				<div class="putong"><img class="pupic" src="../shared/images/tv/ordinaryDefinition.jpg" alt="iTalkBB蜻蜓電視-1080p畫質"></div>
-				<div class="gaoqing"><img class="gaopic" src="../shared/images/tv/highDefinition.jpg" alt="iTalkBB蜻蜓電視-1080p畫質"></div>
+				<div class="putong pcputong"><img class="pupic" src="../shared/images/tv/ordinaryDefinition.jpg" alt="iTalkBB蜻蜓電視-1080p畫質"></div><div class="gaoqing pcgaoqing"><img class="gaopic" src="../shared/images/tv/highDefinition.jpg" alt="iTalkBB蜻蜓電視-1080p畫質"></div>
+				<div class="putong mputong"><img class="pupic" src="../shared/images/tv/mOrdinaryDefinition.jpg" alt="iTalkBB蜻蜓電視-1080p畫質"></div><div class="gaoqing mgaoqing"><img class="gaopic" src="../shared/images/tv/mHighDefinition.jpg" alt="iTalkBB蜻蜓電視-1080p畫質"></div>
 			</div>
 		</div>
 
@@ -197,8 +209,7 @@ $(window).resize(function(){
                $(".cir1").height($(".cir1").width()*1);
                $(".cir2").height($(".cir2").width()*1);
                $(".bannerAd1Pic").height($(".bannerAd1Pic").width()*0.56);
-               $(".pupic").attr("src","../shared/images/tv/mHighDefinition.jpg");
-               $(".gaopic").attr("src","../shared/images/tv/mOrdinaryDefinition.jpg");
+       
 
                 $("#wrap").height($("#wrap").width()*0.56);
                $("#roll img").width($("#wrap").width()*1.7);
@@ -212,8 +223,7 @@ $(window).resize(function(){
                $(".bannerAd1Pic").height($(".bannerAd1Pic").width()*0.318);
                $(".cir1").height($(".cir1").width()*1);
                $(".cir2").height($(".cir2").width()*1);
-               $(".pupic").attr("src","../shared/images/tv/putong.jpg");
-               $(".gaopic").attr("src","../shared/images/tv/highDefinition.jpg");
+          
                
                // $(".md2").height($(".md2").width()*0.8);
         }
@@ -232,8 +242,8 @@ $(window).resize(function(){
 
                $("#wrap").height($("#wrap").width()*0.56);
                $("#roll img").width($("#wrap").width()*1.7);
-               $(".pupic").attr("src","../shared/images/tv/mHighDefinition.jpg");
-               $(".gaopic").attr("src","../shared/images/tv/putongM.jpg");
+               // $(".pupic").attr("src","../shared/images/tv/mHighDefinition.jpg");
+               // $(".gaopic").attr("src","../shared/images/tv/putongM.jpg");
                rollFn(1);
 
         }
@@ -337,10 +347,9 @@ $(window).resize(function(){
 
 		});
 
-		// $('.cir2').click(function(){
-		// 	alert(2);
-		// });
+		
 
+	
 	})
 
 </script>

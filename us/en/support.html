@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
 <head>
-    <meta charset="UTF-8">
-    <title>iTalkBB-Support</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="copyright" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
-
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
-	<meta name="apple-itunes-app" content="app-id=514896649">
-
-	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
-    <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
-
-    <script src="../shared/js/jquery-1.12.4.min.js"></script>
-    <script src="../shared/js/angular-1.6.4.min.js"></script>
-    <script src="../shared/js/bootstrap.min.js"></script>
-    <script src="../shared/js/imageMapResizer.js"></script>
-    <script src="../shared/js/common.js"></script>
-
-    <style>
+<meta charset="UTF-8">
+<title>iTalkBB蜻蜓-常见问题</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="copyright" content="iTalkBB">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+<meta name="apple-itunes-app" content="app-id=514896649">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_support-all.css">
+<script src="../shared/js/jquery-1.12.4.min.js"></script>
+<script src="../shared/js/angular-1.6.4.min.js"></script>
+<script src="../shared/js/bootstrap.min.js"></script>
+<script src="../shared/js/imageMapResizer.js"></script>
+<script src="../shared/js/common.js"></script>
+<style>
 	/**/	
-	.sptHot{background: #f2f2f2;border-top: 1px solid #dedede; padding: 2% 0;}
+	.sptHot{background: #f2f2f2;border-top: 1px solid #dedede; padding: 2% 0; margin-bottom: 9%;}
     .hotCon{margin-left: 9%;}
     .hotCon .hotTitle{line-height: 2; padding-left: 2%;margin-left: -2%; background: url(../shared/images/icons/hotSpotBlue.png) no-repeat; background-size: 1%;background-position-y: 50%;}
 	.hotBox a,.hotBox a:link,.hotBox a:visited{color: #222;}
     .hotBox p{float: left; width: 25%; line-height: 1.5;}
 	.hotBox p:hover{color: #ff7f00; text-decoration: underline;}
 @media  (min-width:768px) and (max-width:1000px){
-    .sptHot{margin-bottom: -6%; padding: 4% 0;}
+    .sptHot{padding: 4% 0;}
 	.hotCon{margin-left: 7%;}
 }
 @media (max-width:767px){
-    .sptHot{margin-bottom: -17%; padding: 9% 5%;}
+    .sptHot{padding: 9% 5%; margin-bottom: 0;}
 	.hotCon{margin-left: 10%;}
 	.hotCon .hotTitle{background-size: 3%;padding-left: 5.5%;margin-left: -5.5%;background-position-y: 55%;}
 	.hotBox{width: 122%;}
 	.hotBox p{width: 50%; line-height: 2;}	
 }
 	</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42957008-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-42957008-1');
+</script>
+
 </head>
 
 <body ng-app="">
@@ -56,42 +62,42 @@
     <div class="container1920">
         <div class="mainLayout">
        <section>
-     	    <div id="supportBanner"></div>	   
+     	    <div id="support-banner"></div>	   
        </section>
        <section class="mainMgnTop">
       	  <div class="mainMgn200">
         	<div class="lineOrange"></div>        	
 		  </div>
           <!--help support search begin--> 
-          <div id="supportSearch" class="supportSearch"></div> 
+          <div id="support-search" class="supportSearch"></div> 
           <!--help support search end-->     	      	
        </section> 
       
        <section class="mainMgn200">
-           <div class="sptHot">
+           <div class="sptHot clearfix">
             <div class="hotCon mNoboder clearfix">
-     	       <p class="hotTitle title20 mTitle28 fwb">FAQs</p>
+     	       <p class="hotTitle title20 mTitle28 fwb">热点问题</p>
       	       <div class="hotBox clearfix">
 
-                   <a href="support-mobile.html#preserveNumber"><p class="text18 mText26">Transfer Your Mobile Number</p></a>
-      	       	  <a href="support-chinese-tv.html#howToInstallTV"><p class="text18 mText26">TV Box Installation</p></a>
-      	       	  <a href="support-home-phone.html#BBInstallation"><p class="text18 mText26">Home Phone Box Installation</p></a>
-      	       	  <a href="support-account-billing.html#howToLogin"><p class="text18 mText26">How to Log in to Your Account?</p></a>
+                   <a href="support-mobile.html#preserveNumber"><p class="text18 mText26">手机号转号</p></a>
+      	       	  <a href="support-chinese-tv.html#TVinstallation"><p class="text18 mText26">蜻蜓电视安装</p></a>
+      	       	  <a href="support-home-phone.html#BBinstallation"><p class="text18 mText26">蜻蜓电话安装</p></a>
+      	       	  <a href="support-account-billing.html#howToLogin"><p class="text18 mText26">如何登录账户</p></a>
 
-                   <a href="support-mobile.html#regardingOrder"><p class="text18 mText26">Check Your Order</p></a>
-      	       	  <a href="support-chinese-tv.html#regardingTVPlan"><p class="text18 mText26">Change Your TV Plan</p></a>
-      	       	  <a href="home-phone-rates.html#rates"><p class="text18 mText26">Rate Checker</p></a>
-      	       	  <a href="support-account-billing.html#forgottenPassword"><p class="text18 mText26">Forget Your Password?</p></a>
+                   <a href="support-mobile.html#regardingOrder"><p class="text18 mText26">订单查询</p></a>
+      	       	  <a href="support-chinese-tv.html#regardingTVPlan"><p class="text18 mText26">电视计划更改</p></a>
+      	       	  <a href="home-phone-rates.html#rates"><p class="text18 mText26">费率查询</p></a>
+      	       	  <a href="support-account-billing.html#forgottenPassword"><p class="text18 mText26">忘记账户密码</p></a>
 
-                   <a href="support-mobile.html#changePlan"><p class="text18 mText26">Change Your Mobile Plan</p></a>
-      	       	  <a href="support-chinese-tv.html?palyError"><p class="text18 mText26">TV Troubleshooting</p></a>
-      	       	  <a href="support-home-phone.html#howToDail"><p class="text18 mText26">Making International Calls with the iTalkBB App</p></a>
-      	       	  <a href="support-home-phone.html#number899"><p class="text18 mText26">What is 899 Number?</p></a>
+                   <a href="support-mobile.html#changePlan"><p class="text18 mText26">更改手机计划</p></a>
+      	       	  <a href="support-chinese-tv.html?palyError"><p class="text18 mText26">电视播放故障</p></a>
+      	       	  <a href="support-home-phone.html#app-dialing"><p class="text18 mText26">使用App拨打电话</p></a>
+      	       	  <a href="support-home-phone.html#899-number"><p class="text18 mText26">什么是899号码</p></a>
 
-                   <a href="support-mobile.html?cellphoneError"><p class="text18 mText26">Mobile Troubleshooting</p></a>
-      	       	  <a href="support-chinese-tv.html#ifDownloadShow"><p class="text18 mText26">Download TV Programs</p></a>
-      	       	  <a href="support-home-phone.html#chinese950"><p class="text18 mText26">What is 950 Number?</p></a>
-      	       	  <a href="support-chinese-tv.html#number699"><p class="text18 mText26">What is 699 Number?</p></a>
+                   <a href="support-mobile.html?cellphoneError"><p class="text18 mText26">手机故障查询</p></a>
+      	       	  <a href="support-chinese-tv.html#ifDownloadShow"><p class="text18 mText26">节目可否下载</p></a>
+      	       	  <a href="support-home-phone.html#950-number"><p class="text18 mText26">什么是950号码</p></a>
+      	       	  <a href="support-chinese-tv.html#number699"><p class="text18 mText26">什么是699号码</p></a>
       	       </div>
         	</div> 
           </div>         	      	
@@ -105,8 +111,8 @@
     <div id="footer"></div>
     <script>
 	   $('#header').load('header.html');
-	   $('#supportBanner').load('supportBanner.html');
-	   $('#supportSearch').load('supportSearch.html');
+	   $('#support-banner').load('support-banner.html');
+	   $('#support-search').load('support-search.html');
        $('#footer').load('footer.html');
     </script>
 </body>

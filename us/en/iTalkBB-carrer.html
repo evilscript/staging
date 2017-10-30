@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>iTalkBB-Carrer</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="copyright" content="iTalkBB">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+<meta name="apple-itunes-app" content="app-id=514896649">
+<link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
+<script src="../shared/js/jquery-1.12.4.min.js"></script>
+<script src="../shared/js/jquery-1.7.2.min.js"></script>
+<script src="../shared/js/angular-1.6.4.min.js"></script>
+<script src="../shared/js/bootstrap.min.js"></script>
+<script src="../shared/js/imageMapResizer.js"></script>
+<script src="../shared/js/common.js"></script>
+<link rel="stylesheet" type="text/css"  href="../shared/css/reveal.css">
+<script src="../shared/js/jquery.reveal.js"></script>
+<style>
+		body{}
+		a{color: #222;}
+        .applyMainTop{margin-top: 4%;background:url(../shared/images/carrer/careerBg.png) no-repeat scroll ;background-size:100%;padding-bottom: 1%;}
+		.boss{width: 79.2%;margin: 0 auto}
+/*		.tit{margin-left: 2.5%}*/
+		.lv1{display: inline-block;width: 25%}
+        .applyMainTop{padding-top: 4%;margin-top: 0}
+     
+		ul,li{padding: 0px}
+		.menu{width: 33%;}
+		.menu li{line-height: 1;margin-top: 1.5%}
+		.menu2x{margin-top: 2%}
+		.lv1{width: 25%;text-align: center;border-right:2px solid black }
+        .lv1:hover{color: #ff7f00}
+        .org{color: #ff7f00}
+        .sg{border-right:none }
+		.lv2{width: 37%; }
+		.subNav{margin:1.5%;padding: 1% 1% 1% 3%;}
+		.lvb,.lvc,.lvd{display: none}
+		.lva{margin-left: -0.5%}
+		.lvb{margin-left: -0.5%}
+		.lvc{margin-left: -0.5%}
+		.lvd{margin-left: -0.5%}
+        .us{margin-left: -7%}
+		.menu3x li:hover{cursor: pointer;}
+		.lv1:hover{cursor: pointer;}
+		.navContent{display: none}
+		.bg{background: transparent;}
+		.bgc{background:#ff7f00;color: white }
+		.bk{color: black}
+		.wt{color: white}
+		.subNav:hover{background:#ff7f00;color: white }
+		.navContent{margin-left: 4.5%}
+		.navContent a:hover{color:#ff7f00  }
+        .mbg{display: none}
+        .titleMgnBtm span{display: inline}
+        
+
+        .icons{width: 8.5%;display: inline-block;vertical-align: top;text-align: center;margin-right: 5%}
+        .icons img{width: 100%}
+        .icontxt{margin-top: 15%}
+        .icon{margin-top: 2%}
+        .titicon{margin-top: 3.5%}
+        .left,.right{width: 50%;display: inline-block;vertical-align: top}
+        .right img{margin-left: 10%;width: 108%;}
+        .bottomstit{text-align: center;margin-top: 2.5%}
+        .tit{line-height: 1.3}
+        .vod{margin-top: 15%}
+        .logos{margin-top: 2%;}
+        .logos div{display: inline-block;width: 4.5%;margin:0 0.5%;cursor: pointer;}
+        .logos div img{width: 100%}
+		
+		.socialMedia{margin-bottom: 7%;}
+        .tyy{margin-top: -10%;padding: 3% 5% 3% 5%}
+        .ula li{list-style-type:circle;margin-left: 1%}
+        .button{width: 20%;background: #327fe8;text-align: center;border-radius: 10px;color: white;margin: 0 auto;margin-top: 5%;}
+        .button a{color: white}
+                .wechatIconSocial {max-width: 200px;width: 20%;padding: 10px;border: 1px solid #dddddd;margin-top: 3%;margin-bottom: 3%;display: none}
+        .w100{width: 100%}
+
+   @media  (min-width:768px) and (max-width:1000px){
+     .applyMainTop{margin-top: 6%;background-position: 0 75%}
+	 .boss{width: 90%}
+     .tit{margin-left: 1.5%}
+     .icons{width: 13%;margin-right: 2%}
+     .right img{margin-left: 5%}
+     .menu{width: 60%}
+     .us{margin-left: -6%}
+     .lva{margin-left: 1%}
+     .lvb{margin-left: 1%}
+     .lvc{margin-left: 1%}
+     .lvd{margin-left: 1%}
+     .lv2{width: 45%}
+     
+     .socialMedia{margin-bottom: 7%;}
+     .button{width:40%;}
+}
+
+   @media  (max-width:767px){
+     .applyMainTop{margin-top: 10%;background: none;}
+	 .boss{width: 100%}
+     .tit{margin-left: 5%;margin-right: 5%}
+     .menu{width: 100%}
+     .lv1{background: #555555;border-right-color:white;color: white }
+     .us{margin-left: 0%}
+     .lv2{width: 95%}
+     .lv1:hover{color:white;background:#ff7f00 }
+     .lva,.lvb,.lvc,.lvd{margin-left: 1.5%}
+     .mbg{display: block}
+     .mbg img{width: 100%}
+     .tit1 span{color: #ff7f00 }
+     .icons{display: block;width: 100%;margin-top: 3%}
+     .icons img{width: 15%;display: inline-block;}
+     .icontxt{width: 80%;display: inline-block;text-align: left;font-weight: 500;vertical-align: middle;margin-top: 0px;margin-left: 3%}
+     .titicon{margin-top:10% }
+     .left,.right{display: block;width: 100%}
+     .right{display: none}
+     .titvod{margin-left: 0;margin-right: 0}
+     .share{margin-top:12% }
+     .logos div{width: 12%;margin:0 3%;}
+     .logos{margin-top: 8%}
+     .org{color: white;background:#ff7f00 }
+     
+	 .socialMedia{margin-bottom: 12%;}
+    .tyy{margin-top: -60%;}
+     .reveal-modal{left: 38.5%;width: 90%}
+     .button{width: 60%}
+
+}
+
+
+
+
+
+
+    </style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42957008-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-42957008-1');
+</script>
+
+</head>
+<body>
+<!-- Author: Honan -->
+		<div id="header"></div>
+        <script>
+            $('#header').load('header.html');
+        </script>
+        <div class="clear clearfix"></div>
+        <section class="mainLayout" style='position: relative;'>
+            <div id="planFormComparea" class="reveal-modal ccclose tyy">
+                 <div class="planFormCon">
+                     <p class="titleMgnBtm title34 mTitle42 fwb titleMgnBtm">Accountant (Chinese Mandarin Bilingual)</p> 
+                     <p class="titleMgnBtm title24 mTitle32 fwb">iTalk Global Communications, Inc Mclean, Virginia</p> 
+                     <p class="titleMgnBtm title16 mTitle24 ">This Accountant position will assist in the day-to-day activities of the Accounting/Finance department. The accountant will assist manager with monthly close activities. The position requires individual who is highly competent in organization and prioritizing tasks while staying committed to delivering quality work and meeting deadlines.</p>
+                     <p class="titleMgnBtm title24 mTitle32 fwb">Major Responsibilities:</p>
+                     <ul class="ula text16 mText24">
+                        <li>Prepare account receivables and account payables journal entries on a monthly basis.</li>
+                        <li>Record customer check deposits and make bank deposits.</li>
+                        <li>Process and prepare customer refund checks.</li>
+                        <li>Maintain credit card chargeback accounts and process chargebacks.</li>
+                        <li>Prepare daily cash reports for all banking activities.</li>
+                        <li>Manage regular cash disbursements process with supervisors.</li>
+                        <li>Perform ad hoc tasks.</li>                
+                     </ul>
+                     <p class="titleMgnBtm title24 mTitle32 fwb">Qualifications:</p>
+                     <ul class="ula text16 mText24">
+                        <li>Bachelor's degree in Accounting required</li>
+                        <li>2-4 years of Accounting experience required in the office setting</li>
+                        <li>Computer skills, with emphasis on Microsoft office</li>
+                        <li>Ability to prioritize multiple projects/requests and operate independently with minimum daily supervision </li>
+                        <li>Fluent in both English and Mandarin. Excellent verbal and written skills in both languages </li>
+                        <li>Must be eligible to work in the United States.</li>              
+                     </ul>
+                     <div class="button title30 mTitle38 titleMgnBtm"><a href="https://secure.entertimeonline.com/ta/IGC01.jobs?ApplyToJob=67133827%27%3EApply%20For%20This%20Job%3C/a%3E" target="_blank">Apply</a></div>   
+                </div>
+                <a class="close-reveal-modal" style="text-decoration:none">&#215;</a>
+            </div>
+
+            <div id="planFormCompareb" class="reveal-modal ccclose tyy">
+                 <div class="planFormCon">
+                     <p class="titleMgnBtm title34 mTitle42 fwb titleMgnBtm">Call Center Manager (Chinese Mandarin Bilingual)</p> 
+                     <p class="titleMgnBtm title24 mTitle32 fwb">iTalk Global Communications, Inc Mclean, Virginia</p> 
+                     <p class="titleMgnBtm title16 mTitle24 ">We are seeking a Mid-level manager or Call Center Manager with strong metrics management skills as well as call center management experience to establish and lead a small team of sales and customer care professional.</p>
+                     <p class="titleMgnBtm title16 mTitle24 ">The Call Center Manager, is responsible for managing all aspects of iTalk's call center with a focus on performance and team development, best practice development and thought leadership as well as delivering against sales goal and budget. The Call Center Manger will be accountable for ensuring that quality service and operational excellence is provided to our customers.</p>
+                     <p class="titleMgnBtm title24 mTitle32 fwb">Job Responsibilities:</p>
+                     <ul class="ula text16 mText24">
+                        <li>Oversee the day-to-day management, coaching, and development of a team of Customer Service Representatives</li>
+                        <li>Carrying out supervisory responsibilities in accordance with iTalk's policies and procedures;additional responsibilities include staffing, training and motivating employees; workforce    planning, assigning and directing work; rewarding and disciplining employees; and effective conflict resolution.</li>
+                        <li>Evaluates the quality of Customer Service Rep's calls from customers; provides feedback, coaching, and mentoring to reps on strengths and areas for improvement.</li>
+                        <li>Collaborate with Marketing Department to continue to improve call center performance.</li>
+                        <li>Responsible for customer experience and customer retention. Facilitate complex issue    troubleshooting and resolution and serve as the point of escalation for customer support issues.</li>
+                        <li>Tracks and reports contact center performance against objectives and goals (i.e. quality, call volume, customer satisfaction, etc.).</li>
+                        <li>Special projects as needed.</li>                
+                     </ul>
+                     <p class="titleMgnBtm title24 mTitle32 fwb">Job Requirements:</p>
+                     <ul class="ula text16 mText24">
+                        <li>At least 5 years of customer service experience</li>
+                        <li>At least 3 years' experience managing others</li>
+                        <li>Excellent verbal and written communication skills</li>
+                        <li>Fluent Mandarin and English speaker</li>
+                        <li>Ability to research detailed, lengthy account information</li>
+                        <li>Ability to navigate and use multiple systems</li>
+                        <li>Quick thinker with the ability to multi-task</li>
+                        <li>Detail oriented with the ability to easily track documentation</li>
+                        <li>Self-motivated, driven and the ability to manage multiple priorities</li>              
+                     </ul>
+                     <p class="titleMgnBtm title26 mTitle34 fwb">呼叫中心主管:</p>
+                     <p class="titleMgnBtm title24 mTitle32 fwb">岗位职责:</p>
+                     <ul class="ula text18 mText26">
+                        <li>负责呼叫中心的日常管理、指导和团队的建设。</li>
+                        <li>根据公司的政策和章程履行监督职责：其中责任包括：人员配备、安排业务培训、销售指导和员工激励；安排人员规划、分配和指导工作；奖励和惩戒员工；以及有效的解决冲突矛盾。</li>
+                        <li>建立客服部门的工作标准和程序，安排部门的战略部署和预算。</li>
+                        <li>评估客服代表的电话质量，提供反馈和指导。</li>
+                        <li>与市场部合作，持续提升呼叫中心的业绩</li>
+                        <li>负责客户管理和客户关系的维护。作为主管来帮助解决复杂的问题。</li>
+                        <li>根据目标和销售指标，汇报呼叫中心的业绩（比如：通话质量、呼叫量、和客户满意度等）</li>
+                        <li>负责上级领导安排的其他工作</li>
+                                   
+                     </ul>
+                     <p class="titleMgnBtm title24 mTitle32 fwb">能力要求：</p>
+                     <ul class="ula text18 mText26">
+                        <li>至少五年的客户服务经验</li>
+                        <li>至少三年的管理岗位任职经验</li>
+                        <li>具备优秀的语言表达和书面沟通能力</li>
+                        <li>熟练掌握中文和英文</li>
+                        <li>具备良好的数据分析能力，能够理解复杂的账户信息</li>
+                        <li>具有能够记录和浏览多个系统的能力</li>
+                        <li>注重细节，能够轻松跟踪文档</li>
+                        <li>良好的自我激励能力，并能够同时处理多项紧迫任务</li>
+                                   
+                     </ul>
+                     <div class="button title30 mTitle38 titleMgnBtm"><a href="https://secure.entertimeonline.com/ta/IGC01.jobs?ApplyToJob=67133827%27%3EApply%20For%20This%20Job%3C/a%3E" target="_blank">Apply</a></div>   
+                </div>
+                <a class="close-reveal-modal" style="text-decoration:none">&#215;</a>
+            </div> 
+
+
+<!-- ca -->
+             <div id="planFormComparec" class="reveal-modal ccclose tyy">
+                 <div class="planFormCon">
+                     <p class="titleMgnBtm title34 mTitle42 fwb titleMgnBtm">Store Manager</p> 
+                     <p class="titleMgnBtm title16 mTitle24 ">As the business continues to grow significantly, iTalkBB Canada Inc. is looking for full-time Store Managers to join our Toronto and Vancouver team.</p>
+                     <p class="titleMgnBtm title24 mTitle32 fwb">Required Responsibilities:</p> 
+                     <ul class="ula text16 mText24">
+                        <li>Responsible for daily operations and managing store staff</li>
+                        <li>Coach, counsel, discipline and train employees</li>
+                        <li>Help, drive, motivate, and encourage retail staff to achieve targets</li>
+                        <li>Evaluate self-on-the-job performance, as well as other staff</li>
+                        <li>Ensure products are clean and ready to be displayed</li>
+                        <li>Maintain inventory and ensure items are in stock</li>
+                        <li>Ensure promotions are accurate and in tune with company's standards</li>
+                        <li>Utilize computers to record management figures, for data analysis and forward planning</li>
+                        <li>Monitor local competitors</li>
+                        <li>Ensure that hours of operation is in compliance with local laws</li>
+                        <li>Maintain health and safety measures and store's cleanliness</li>
+                        <li>Organize and distribute staff schedules</li>
+                        <li>Handle customer complaints, issues and questions.</li>
+
+                     </ul>
+                     <p class="titleMgnBtm title24 mTitle32 fwb">Qualifications and Skills:</p>
+                     <ul class="ula text16 mText24">
+                        <li>Outstanding written, oral, and verbal communication skills</li>
+                        <li>Must have PC skills, including the ability to use Microsoft Office Suite</li>
+                        <li>Must have customer service skills</li>
+                        <li>Fluent in Chinese and English</li>           
+                     </ul>
+                    <p class="titleMgnBtm title16 mTitle24 ">This is a full-time position. We provide competitive compensation package.</p>
+                    <p class="titleMgnBtm title16 mTitle24 ">If you are interested in this position and meet the above criteria, please submit a copy of your resume to <a style="color:#ff7401" href="mailto:resume@italkbb.biz">resume@italkbb.biz</a>. We thank all applicants; however, only those selected for an interview will be contacted.</p>
+                     <div class="button title30 mTitle38 titleMgnBtm"><a href="https://secure.entertimeonline.com/ta/IGC01.jobs?ApplyToJob=67133827%27%3EApply%20For%20This%20Job%3C/a%3E" target="_blank">Apply</a></div>   
+                </div>
+                <a class="close-reveal-modal" style="text-decoration:none">&#215;</a>
+            </div>  
+
+            <div id="planFormCompared" class="reveal-modal ccclose tyy">
+                 <div class="planFormCon">
+                     <p class="titleMgnBtm title34 mTitle42 fwb titleMgnBtm">Store Representative</p> 
+                     <p class="titleMgnBtm title16 mTitle24 ">As the business continues to grow significantly, iTalkBB Canada Inc. is looking for couple of part-time or full-time Store Representatives to join our Toronto and Vancouver team.</p>
+                     <p class="titleMgnBtm title24 mTitle32 fwb">Who we are looking for：</p> 
+                     <ul class="ula text16 mText24">
+                        <li>Fluent in English and Cantonese (or Mandarin)</li>
+                        <li>Experience on the retail store work</li>
+                        <li>Able to work 20-40 hours per week</li>
+                        <li>Good at communication and learning, passionate in store work</li>
+                      
+                     </ul>
+                     <p class="titleMgnBtm title24 mTitle32 fwb">What we provide：</p>
+                     <ul class="ula text16 mText24">
+                        <li>Providing the competitive base salary and commission</li>
+                        <li>Providing the systematic training</li>
+                        <li>Providing the career development coaching and the internal development opportunity</li>
+                        <li>Promoting the friendly and employee-oriented corporate environment</li>
+
+                     </ul>
+                    <p class="titleMgnBtm title16 mTitle24 ">If you are interested in this position, please submit your resume to resume@<a style="color:#ff7401" href="mailto:resume@italkbb.biz">resume@italkbb.biz</a> or call at 647-728-1520. We thank all applicants; however, only those selected for an interview will be contacted.</p>
+                     <div class="button title30 mTitle38 titleMgnBtm"><a href="https://secure.entertimeonline.com/ta/IGC01.jobs?ApplyToJob=67133827%27%3EApply%20For%20This%20Job%3C/a%3E" target="_blank">Apply</a></div>   
+                </div>
+                <a class="close-reveal-modal" style="text-decoration:none">&#215;</a>
+            </div>  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="applyMainTop">
+    	     <div class="boss">
+    	     	<div class="tit title34 mTitle42 fwb titleMgnBtm">Apply Here!</div>
+    	     	<div class="titchose">
+    	     	<ul class="menu title34 mTitle42">
+    	     		<li class="lv1 us org">US</li><li class="lv1 ca">CA</li><li class="lv1 au">AU</li><li class="lv1 sg">SG</li>	
+    	     	</ul>
+    	     	<ul class="menu2x">
+    	     		<li class="lv2 lva ">
+    	     			<ul class="title22 mTitle30 menu3x ">
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Accounting & Finance  &nbsp;&nbsp;&or;</li></a>
+    	     					<div class="navContent title20 mTitle28"><a href="javascript:void(0)" data-reveal-id="planFormComparea"><li><span class="org">&gt;</span> Accountant (Chinese Mandarin Bilingual)</li></a></div>
+    	     					
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Computer & Technology</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Customer Experience & Call Center &nbsp;&nbsp;&or;</li></a>
+    	     					<div class="navContent title20 mTitle28"><a href="javascript:void(0)" data-reveal-id="planFormCompareb"><li><span class="org">&gt;</span> Call Center Manager (Chinese Mandarin Bilingual)</li></a></div>
+    	     					
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Legal</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Logistics & Warehouse</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Marketing & Branding</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Retail & Sales</li></a>
+    	     			</ul>
+    	     		</li>
+    	     		<li class="lv2 lvb">
+    	     			<ul class="title22 mTitle30 menu3x ">
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Accounting & Finance</li></a>
+    	     					
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Computer & Technology</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Customer Experience & Call Center</li></a>
+    	     					
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Legal</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Logistics & Warehouse</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Marketing & Branding</li></a>
+    	     				<a href="javascript:void(0)"><li class="subNav subNavx">Retail & Sales &nbsp;&nbsp;&or;</li></a>
+    	     					<div class="navContent title20 mTitle28">
+    	     						<a href="javascript:void(0)" data-reveal-id="planFormComparec"><li ><span class="org">&gt;</span> Store Manager</li></a>
+    	     						<a href="javascript:void(0)" data-reveal-id="planFormCompared"><li ><span class="org">&gt;</span> Store Representative</li></a>
+    	     					</div>
+
+    	     			</ul>
+    	     		</li>
+    	     		<li class="lv2 lvc">
+                        <ul class="title22 mTitle30 menu3x ">
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Accounting & Finance</li></a>
+                                
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Computer & Technology</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Customer Experience & Call Center</li></a>
+                                
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Legal</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Logistics & Warehouse</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Marketing & Branding</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Retail & Sales &nbsp;&nbsp;&or;</li></a>
+                                <div class="navContent title20 mTitle28">
+                                    <a href="javascript:void(0)"><li ><span class="org">&gt;</span> Store Manager</li></a>
+                                    <a href="javascript:void(0)"><li ><span class="org">&gt;</span> Store Representative</li></a>
+                                </div>
+
+                        </ul>
+    	     		</li>
+    	     		<li class="lv2 lvd">
+                        <ul class="title22 mTitle30 menu3x ">
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Accounting & Finance</li></a>
+                                
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Computer & Technology</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Customer Experience & Call Center</li></a>
+                                
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Legal</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Logistics & Warehouse</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Marketing & Branding</li></a>
+                            <a href="javascript:void(0)"><li class="subNav subNavx">Retail & Sales &nbsp;&nbsp;&or;</li></a>
+                                <div class="navContent title20 mTitle28">
+                                    <a href="javascript:void(0)"><li ><span class="org">&gt;</span> Store Manager</li></a>
+                                    <a href="javascript:void(0)"><li ><span class="org">&gt;</span> Store Representative</li></a>
+                                </div>
+
+                        </ul>
+    	     		</li>
+    	     	</ul>
+
+    	     	</div>
+    	     </div>
+       </section>
+    <section class="mbg">
+           <img src="../shared/images/carrer/mCareerBg.png" alt="iTalkBB蜻蜓-Carrer">
+       </section>
+    <section class="icon">
+
+            <div class="boss">
+				<div class="tit ">
+					<p class="title34 mTitle42 tit1 titleMgnBtm">This is the place where you shine!</p>
+					<p class="text16 mText24">At iTalk Global Communications, Inc., we look for great people who want to create better lives for oversea Chinese, to connect them with the people they love, and to enrich them with entertainments they adore. Join us and we have you covered with generous benefits, supportive culture and performance based rewards! Come make a life with us, the brightest minds and the most meaningful career. </p>
+					<p class="text18 mText26">Together, we make a difference!</p>
+				</div>
+                <div class="tit titicon">
+                   <div class="icons">   
+                        <img src="../shared/images/carrer/carrerIcon1.png" alt="iTalkBB蜻蜓-Carrer">
+                        <div class="text16 mText26 fwb icontxt">15 PTO days & 10 paidholidays</div>
+                    </div>
+                    <div class="icons">   
+                        <img src="../shared/images/carrer/carrerIcon2.png" alt="iTalkBB蜻蜓-Carrer">
+                        <div class="text16 mText26 fwb icontxt">Full coverage for medical, dental, & vision insurance</div>
+                    </div>
+                    <div class="icons">   
+                        <img src="../shared/images/carrer/carrerIcon3.png" alt="iTalkBB蜻蜓-Carrer">
+                        <div class="text16 mText26 fwb icontxt">Competitive salaries</div>
+                    </div>
+                    <div class="icons">   
+                        <img src="../shared/images/carrer/carrerIcon4.png" alt="iTalkBB蜻蜓-Carrer">
+                        <div class="text16 mText26 fwb icontxt">Company sponsored term life insurance</div>
+                    </div>
+                    <div class="icons">   
+                        <img src="../shared/images/carrer/carrerIcon5.png" alt="iTalkBB蜻蜓-Carrer">
+                        <div class="text16 mText26 fwb icontxt">401k & flexible spending accounts</div>
+                    </div>
+                    <div class="icons">   
+                        <img src="../shared/images/carrer/carrerIcon6.png" alt="iTalkBB蜻蜓-Carrer">
+                        <div class="text16 mText26 fwb icontxt">Company cell phone plan</div>
+                    </div>
+                </div>
+            </div>
+
+       	
+
+       </section>
+       <section class="videos">
+
+            <div class="boss">
+                <div class="tit titvod">
+                    <div class="left">
+                        <div class="vod">
+                            <video width="100%"  height="100%" controls>
+                                <source src="http://www.italkbb.com/BB/0_mail/images/ITALK_TVC_FINAL~1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div><div class="right">
+                        <img src="../shared/images/carrer/Careerus.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+       </section>
+       <section class="share socialMedia">
+        <div class="boss">
+            <div class="tit">
+               <div class="sharetit title34 mTitle42 fwb">Follow us on LinkedIn</div>
+               <div class="logos">
+                    <div class="logo1">
+                        <img src="../shared/images/icons/iconWechat.png" alt="iTalkBB蜻蜓-微信">
+                    </div>
+<!--                     <div class="logo2">
+                        <a href="http://weibo.com/p/1006065041497758/home?from=page_100606&mod=TAB&is_all=1#place" target="_blank">
+                            <img src="../shared/images/index/iconWeibo.png" alt="">
+                        </a>
+                    </div> -->
+<!--                     <div class="logo3">
+                        <a href="https://www.facebook.com/iTalkBBqingting/" target="_blank">
+                            <img src="../shared/images/index/iconFacebook.png" alt="">
+                        </a>
+                    </div> -->
+                    <div class="logo4">
+                        <a href="https://www.youtube.com/channel/UCGCxNSstqeecxd4unpObkNg" target="_blank">
+                            <img src="../shared/images/icons/iconGoogle.png" alt="iTalkBB蜻蜓-Google">
+                        </a>
+                    </div>
+                    <div class="logo5">
+                        <a href="https://www.linkedin.com/company/italk-global-communications" target="_blank">
+                            <img src="../shared/images/icons/iconLinkedin.png" alt="iTalkBB蜻蜓-Linkedin">
+                        </a>
+                    </div>
+                </div>
+
+             <div class="wechatIconSocial">
+                <p class="wechatIconSocialTitle">扫码关注微信公众号</p>
+                <img src="../shared/images/icons/wechatQRcodeIcon.jpg" class="img w100">
+            </div>
+
+             <script>
+                    $('.logo1').click(function(){
+                        $('.wechatIconSocial').slideDown(500);
+                    }).mouseleave(function(){
+                        $('.wechatIconSocial').slideUp(500);
+                    });
+            </script>
+
+            </div>
+        </div>
+       </section>
+       </section>
+
+
+
+        <div class="clear clearfix"></div>
+        <div class="lineBlue"></div>
+		<div id="footer"></div>
+         <script>
+            $('#footer').load('footer.html');
+        </script>
+</body>
+<script>
+	// $('.subNavx').mouseover(function(){
+	// 	$(this).addClass('bgc').children().addClass('wt');
+	// })
+
+	// $('.subNavx').mouseout(function(){
+	// 	$(this).removeClass('bgc').children().removeClass('wt');
+	// })
+    // 
+   $('.lv1').click(function(){
+        $('.menu').children().removeClass('org')
+        $(this).addClass('org')
+    }) 
+
+	$('.us').click(function(){
+		$('.menu2x').children().css('display','none')
+		$('.lva').css('display','block')
+	})
+
+	$('.ca').click(function(){
+		$('.menu2x').children().css('display','none')
+		$('.lvb').css('display','block')
+	})
+
+	$('.au').click(function(){
+		$('.menu2x').children().css('display','none')
+		$('.lvc').css('display','block')
+	})
+
+	$('.sg').click(function(){
+		$('.menu2x').children().css('display','none')
+		$('.lvd').css('display','block')
+	})
+
+	$(".subNav").click(function(){
+			$('.subNav').removeClass('bgc');
+			$(this).addClass('bgc');
+			// 修改数字控制速度， slideUp(500)控制卷起速度
+			$(this).parent().next('.navContent').slideToggle(500).siblings(".navContent").slideUp(500);
+
+
+
+		})
+
+
+            $('.logo1').mouseover(function(){
+                $('.logo1 img').attr("src","../shared/images/icons/iconWechatBlue.png");
+    }).mouseout (function(){
+                $('.logo1 img').attr("src","../shared/images/icons/iconWechat.png");
+    });
+
+
+    $('.logo2').mouseover(function(){
+                $('.logo2 img').attr("src","../shared/images/icons/iconWeiboBlue.png");
+    }).mouseout (function(){
+                $('.logo2 img').attr("src","../shared/images/icons/iconWeibo.png");
+    });
+
+
+    $('.logo3').mouseover(function(){
+                $('.logo3 img').attr("src","../shared/images/icons/iconFacebookBlue.png");
+    }).mouseout (function(){
+                $('.logo3 img').attr("src","../shared/images/iconsiconFacebook.png");
+    });
+
+
+
+    $('.logo4').mouseover(function(){
+                $('.logo4 img').attr("src","../shared/images/icons/iconGoogleBlue.png");
+    }).mouseout (function(){
+                $('.logo4 img').attr("src","../shared/images/icons/iconGoogle.png");
+    });
+
+        $('.logo5').mouseover(function(){
+            $('.logo5 img').attr("src","../shared/images/icons/iconLinkedinBlue.png");
+        }).mouseout (function(){
+            $('.logo5 img').attr("src","../shared/images/icons/iconLinkedin.png");
+        });
+
+
+</script>
+
+<script>
+    $(document).ready(function(){
+        if (window.location.href.indexOf("#us") > -1) {
+            $(".us").trigger("click");
+        }
+        else if (window.location.href.indexOf("#ca") > -1) {
+            $(".ca").trigger("click");
+        }
+        else if (window.location.href.indexOf("#au") > -1) {
+            $(".au").trigger("click");
+        }
+        else if (window.location.href.indexOf("#sg") > -1) {
+            $(".sg").trigger("click");
+        }
+    })
+</script>
+<script>
+    $(window).resize(function(){
+var screenWidth = window.innerWidth;
+var a = $('.applyMainTop').width();
+    if(screenWidth<767){       
+        
+      }else if(screenWidth>767&&screenWidth<=1000){
+        $('.applyMainTop').css('height',a*0.53+'px')
+    }  
+
+    else if(screenWidth>=1000){
+        $('.applyMainTop').css('height',a*0.35+'px')
+      }
+
+
+});
+
+
+$(function(){
+
+var screenWidth = window.innerWidth;
+var a = $('.applyMainTop').width();
+console.log(a);
+
+
+    if(screenWidth<767){       
+      
+      }else if(screenWidth>767&&screenWidth<=1000){
+        $('.applyMainTop').css('height',a*0.53+'px')
+    }
+
+   else  if(screenWidth>=1000){
+        $('.applyMainTop').css('height',a*0.35+'px')
+       
+      }
+
+});
+
+
+</script>
+</html>
