@@ -1,10 +1,10 @@
 /* bannerAll begin */
-.bannerAll{background: url(../images/about/companyBannerBg.jpg) no-repeat; background-size: 100%;}
+.bannerAll{background: url(../images/about/company-profile/companyBannerBg.jpg) no-repeat; background-size: 100%;}
 /* bannerAll end */
 
 .titleMgnBtm span{display: inline-block;}
 .newsBox{}
-.newsContentBlock{background: url(../images/about/newsBlockBg.jpg) no-repeat right bottom; background-size: 100%; padding-bottom: 5%;}
+.newsContentBlock{background: url(../images/about/news/newsBlockBg.jpg) no-repeat right bottom; background-size: 100%; padding-bottom: 5%;}
 .yearContainer{ width:28%;  position:relative;}
 .yearSelect{width: 100%; border: 1px solid #808080; border-radius: 10px; padding: 1%; margin-top: 15%; cursor:pointer;}
 .yearSelectLeft{float:left; width:80%;}
@@ -33,16 +33,16 @@
 }
 .aboutTextLeftImg{float: left; width: 13%; cursor: pointer; margin-top: 2.5%;}
 .aboutTextLeftImg img{width: 80%; margin-top: 10%; margin-bottom: 3%; margin-left: 10%;}
-.divA{width: 100%; position: relative;}
-.divB, .divC, .divD{position: absolute; width: 100%;  height: 100%;  background: url(../../shared/images/about/textLeftIconBorder.png) top center no-repeat; background-size: cover;}
-.divB:hover, .divC:hover, .divD:hover{animation:rot 2s infinite; animation-delay:0s; animation-timing-function: linear;}
+/*.divA{width: 100%; position: relative;}
+.divB, .divC, .divD{position: absolute; width: 100%;  height: 100%;  background: url(../images/about/textLeftIconBorder.png) top center no-repeat; background-size: cover;}
+.divB:hover, .divC:hover, .divD:hover{animation:rot 2s infinite; animation-delay:0s; animation-timing-function: linear;}*/
 .aboutTextRightText{float: left; width: 85%; padding-left: 5%; padding-top: 5%;}
 .orangeBandLevel{border-top:5px solid #ff7f00;}
 .aboutSectionTab{float: left; width: 15.3%; margin-right: 0.6%;}
 .aboutSectionTab1 {margin-left: 26%;}
 
 #card img{width:100%;}
-.lastBg {background: url(../../shared/images/about/lastBg.jpg) bottom center no-repeat; background-size: 100%; padding-bottom: 7%;}
+.lastBg {background: url(../images/about/company-profile/lastBg.jpg) bottom center no-repeat; background-size: 100%; padding-bottom: 7%;}
 .aboutNewsBanner1, .aboutNewsBanner2, .aboutNewsBanner3{width:33.3%; float:left;  margin-right:0.05%; position:relative; border-bottom:5px solid #327fe8; overflow:hidden; cursor:pointer;}
 .aboutNewsBanner1 img:hover, .aboutNewsBanner2 img:hover, .aboutNewsBanner3 img:hover{transform: scale(1.2);}
 .aboutNewsBanner1 img, .aboutNewsBanner2 img, .aboutNewsBanner3 img{transition: all 1s;}
@@ -86,7 +86,7 @@
 .templateImgLeft img{width:100%; margin-left:0; margin-top:0;}
 .templateImg{width:80%; margin-left:10%; display:block; margin-top:5%;}
 .mt5{margin-top:5%;}
-.template{padding-bottom:5%; background: url(../images/about/newsBlockBg.jpg) no-repeat right bottom; background-size: 100%;}
+.template{padding-bottom:5%; background: url(../images/about/news/newsBlockBg.jpg) no-repeat right bottom; background-size: 100%;}
 .templateJump{width:40%; margin-left:30%; text-align:center; float:left; padding-top:5%; padding-bottom:5%;}
 .templateBack{width:30%; float:left; text-align:right; padding-top:5%; padding-bottom:5%;}
 a{color:#222222;}
@@ -137,7 +137,7 @@ table.templateText td{border:1px solid #222222;text-align:center;}
 
 @media (max-width: 1000px) and (min-width: 768px){
     /* bannerAll begin */
-    .bannerAll{background: url(../images/about/ipadCompanyBannerBg.jpg) no-repeat; background-size: 100%;}
+    .bannerAll{background: url(../images/about/company-profile/ipadCompanyBannerBg.jpg) no-repeat; background-size: 100%;}
 	/* bannerAll end */
 	
 	.newsBox{padding: 0 5.2%;}
@@ -160,7 +160,7 @@ table.templateText td{border:1px solid #222222;text-align:center;}
 
 @media (max-width:767px) {
     /* bannerAll begin */
-    .bannerAll{background: url(../images/about/mCompanyBannerBg.jpg) no-repeat; background-size: 100%;}
+    .bannerAll{background: url(../images/about/company-profile/mCompanyBannerBg.jpg) no-repeat; background-size: 100%;}
 	/* bannerAll end */
 	
 	.newsBox{padding: 0 5%;}
@@ -218,7 +218,8 @@ table.templateText td{border:1px solid #222222;text-align:center;}
     .fontAdjust {top: -2vw;}
     .newsBlockRightText .hideM{display:none;}
     .newsBlock {margin-top: 10%;}
-    .textBg{background:url("../../shared/images/about/textBg.jpg") no-repeat left top; background-size:100%; padding-top: 5%; padding-left: 27%;}
+    .textBg{background:url("../../shared/images/about/company-profile/chs_textBg.jpg") no-repeat left top; background-size:100%; padding-top: 5%; padding-left: 27%;}
+	.textBgCht{background:url("../../shared/images/about/company-profile/cht_textBg.jpg") no-repeat left top; background-size:100%; padding-top: 5%; padding-left: 27%;}
     .special02{padding-top: 15%;}
     .special03{padding-top: 15%;}
     .special04{padding-top: 15%; padding-bottom:10%;}

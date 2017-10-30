@@ -23,7 +23,7 @@
 <script src="../shared/js/imageMapResizer.js"></script>
 <script src="../shared/js/flip.min.js"></script>
 <script src="../shared/js/common.js"></script>
-<script src="../shared/js/company-profile.js"></script>
+<script src="../shared/js/chs_company-profile.js"></script>
 <script>
         $(document).ready(function(){
             $('map').imageMapResize();
@@ -62,9 +62,6 @@
 <body ng-app="" style="background:white;">
     <!-- Author: Carson -->
     <div id="header"></div>
-    <script>
-        $('#header').load('header.html');
-    </script>
 
     <div class="mainLayout">
            <section class="bannerAll">
@@ -104,7 +101,7 @@
                     <p class="text18 mText26">目前，iTalkBB蜻蜓已成为全球第一大华裔和韩裔电信运营商，在美国、加拿大、澳大利亚、新加坡等国开设超过30家体验店，全球用户超过120万。在美国，iTalkBB蜻蜓品牌知名度超过80%。</p>
 
                     <div class="hideM">
-                        <img src="../shared/images/about/chs_aboutGlobalAll.jpg" class="img w100 globalImg" usemap="#global" alt="iTalkBB蜻蜓-Global">
+                        <img src="../shared/images/about/company-profile/chs_aboutGlobalAll.jpg" class="img w100 globalImg" usemap="#global" alt="iTalkBB蜻蜓-Global">
                         <map name="global">
                             <area shape="rect" coords="420, 552, 600, 800" class="bottomHover1" alt="">
                             <area shape="rect" coords="697, 552, 883, 800" class="bottomHover2" alt="">
@@ -119,7 +116,7 @@
                         </map>
                     </div>
                     <div class="showM">
-                        <img src="../shared/images/about/chs_animationUS.jpg" class="img w100 clickUSA" usemap="#mobileGlobal" alt="">
+                        <img src="../shared/images/about/company-profile/chs_animationUS.jpg" class="img w100 clickUSA" usemap="#mobileGlobal" alt="">
                         <map name="mobileGlobal">
                             <area shape="rect" coords="548, 174, 627, 287" class="hoverUSA" alt="">
                             <area shape="rect" coords="482, 149, 550, 258" class="hoverCAN" alt="">
@@ -136,19 +133,19 @@
                     </div>
 <script>
     $('.hoverUSA').click(function(){
-        $('.clickUSA').attr('src','../shared/images/about/chs_animationUS.jpg');
+        $('.clickUSA').attr('src','../shared/images/about/company-profile/chs_animationUS.jpg');
     });
     $('.hoverAUS').click(function(){
-        $('.clickUSA').attr('src','../shared/images/about/chs_animationAU.jpg');
+        $('.clickUSA').attr('src','../shared/images/about/company-profile/chs_animationAU.jpg');
     });
     $('.hoverCHN').click(function(){
-        $('.clickUSA').attr('src','../shared/images/about/chs_animationCN.jpg');
+        $('.clickUSA').attr('src','../shared/images/about/company-profile/chs_animationCN.jpg');
     });
     $('.hoverSIN').click(function(){
-        $('.clickUSA').attr('src','../shared/images/about/chs_animationSI.jpg');
+        $('.clickUSA').attr('src','../shared/images/about/company-profile/chs_animationSI.jpg');
     });
     $('.hoverCAN').click(function(){
-        $('.clickUSA').attr('src','../shared/images/about/chs_animationCA.jpg');
+        $('.clickUSA').attr('src','../shared/images/about/company-profile/chs_animationCA.jpg');
     });
 </script>
 
@@ -156,34 +153,24 @@
 
                     <div class="showM">
                         <div class="serviceIcon1">
-                            <img src="../shared/images/about/iconMobile.png" class="img serviceIcon1img" alt="iTalkBB蜻蜓移动">
+                            <img src="../shared/images/about/company-profile/iconMobile.png" class="img serviceIcon1img" alt="iTalkBB蜻蜓移动">
                         </div>
                         <div class="serviceIcon2">
-                            <img src="../shared/images/about/iconLogo.png" class="img specialLogoCenter" alt="">
-                            <img src="../shared/images/about/iconTV.png" class="img serviceIcon2img" alt="iTalkBB蜻蜓电视">
+                            <img src="../shared/images/about/company-profile/iconLogo.png" class="img specialLogoCenter" alt="">
+                            <img src="../shared/images/about/company-profile/iconTV.png" class="img serviceIcon2img" alt="iTalkBB蜻蜓电视">
                         </div>
                         <div class="serviceIcon3">
-                            <img src="../shared/images/about/iconPhone.png" class="img serviceIcon3img" alt="iTalkBB蜻蜓电话">
+                            <img src="../shared/images/about/company-profile/iconPhone.png" class="img serviceIcon3img" alt="iTalkBB蜻蜓电话">
                         </div>
                         <div class="clear clearfix"></div>
                     </div>
 
                     <div class="aboutTextLeftImg">
-                        <!--<div class="divA">
-                            <div class="divB"></div>
-                            <img src="../shared/images/about/textLeftIcon1.png" class="img" alt="">
-                        </div>-->
+                        
                         <div class="front">
-                            <a href="mobile-plan.html"><img src="../shared/images/about/iconMobile.png" class="img imageToBeChanged" alt="iTalkBB蜻蜓移动"></a>
+                            <a href="mobile-plan.html"><img src="../shared/images/about/company-profile/iconMobile.png" class="img imageToBeChanged" alt="iTalkBB蜻蜓移动"></a>
                         </div>
-                        <!--<div id="card1">
-                            <div class="front">
-                                <img src="../shared/images/about/aboutCompanyTextIconBlue.png" class="img" alt="">
-                            </div>
-                            <div class="back">
-                                <img src="../shared/images/about/aboutCompanyTextIconTrans2.png" class="img" alt="">
-                            </div>
-                        </div>-->
+                        
                     </div>
                     <div class="aboutTextRightText right1">
                         <p class="titleMgnBtm rightTextTitle title24 mTitle32 pin fwb">iTalkBB蜻蜓移动</p>
@@ -192,7 +179,7 @@
                     <div class="clear clearfix"></div>
                     <div class="aboutTextLeftImg">
                         <div class="front">
-                            <a href="chinese-tv-plans.html"><img src="../shared/images/about/iconTV.png" class="img imageToBeChanged" alt="iTalkBB蜻蜓电视"></a>
+                            <a href="chinese-tv-plans.html"><img src="../shared/images/about/company-profile/iconTV.png" class="img imageToBeChanged" alt="iTalkBB蜻蜓电视"></a>
                         </div>
                     </div>
                     <div class="aboutTextRightText right2">
@@ -202,16 +189,10 @@
                     <div class="clear clearfix"></div>
                     <div class="aboutTextLeftImg left3">
                         <div class="front">
-                            <a href="home-phone-plans.html"><img src="../shared/images/about/iconPhone.png" class="img imageToBeChanged" alt="iTalkBB蜻蜓电话"></a>
+                            <a href="home-phone-plans.html"><img src="../shared/images/about/company-profile/iconPhone.png" class="img imageToBeChanged" alt="iTalkBB蜻蜓电话"></a>
                         </div>
                     </div>
-<!--<script>
-    $('.imageToBeChanged').mouseover(function(){
-        $(this).attr('src','../shared/images/about/aboutCompanyTextIconTrans2.png');
-    }).mouseleave(function(){
-        $(this).attr('src','../shared/images/about/aboutCompanyTextIconBlue.png');
-    })
-</script>-->
+
                     <div class="aboutTextRightText right3">
                         <p class="titleMgnBtm rightTextTitle title24 mTitle32 pin fwb">iTalkBB蜻蜓电话</p>
                         <p class="rightTextSubTitle text18 mText26">为海外华人打造的专属的手机计划。iTalkBB蜻蜓独家推出最适合海外华人的手机计划，让用户可以在美国和中国享受无限通话/无限短信/无限流量和4G LTE高速流量。</p>
@@ -284,67 +265,67 @@
                     <div  class="lastBg">
                         <p class="titleMgnBtm mainMgnTop title30 mTitle38 pin fwb">蜻蜓<span class="org">大事件</span></p>
                             <div class="aboutTextText text18 mText26">
-                                <div class='year'><span class="sans">2003</span> - </div>
+                                <div class="year"><span class="sans">2003</span> - </div>
                                 <div class="yue">
-                                    <span class='yues'>在美国德州，iTalkBB家庭电话开始销售</span>
+                                    <span class="yues">在美国德州，iTalkBB家庭电话开始销售</span>
                                 </div> 
                             </div>
 
 
                             <div class="aboutTextText text18 mText26">
-                                <div class='year'><span class="sans">2005</span> - </div>
+                                <div class="year"><span class="sans">2005</span> - </div>
                                 <div class="yue">
-                                    <span class='yues'>iTalkBB家庭电话业务扩大到全美</span>
+                                    <span class="yues">iTalkBB家庭电话业务扩大到全美</span>
                                 </div> 
                             </div>
 
                             <div class="aboutTextText text18 mText26">
-                                <div class='year'><span class="sans">2006</span> - </div>
+                                <div class="year"><span class="sans">2006</span> - </div>
                                 <div class="yue">
-                                    <span class='yues'>iTalkBB正式进军加拿大市场</span>
+                                    <span class="yues">iTalkBB正式进军加拿大市场</span>
                                 </div> 
                             </div>
 
                             <div class="aboutTextText text18 mText26">
-                                <div class='year'><span class="sans">2008</span> - </div>
+                                <div class="year"><span class="sans">2008</span> - </div>
                                 <div class="yue">
-                                    <span class='yues'>iTalkBB成功打入北美韩桥市场</span>
-                                    <span class='yues'>iTalkBB与姚明基金会展开合作</span>
+                                    <span class="yues">iTalkBB成功打入北美韩桥市场</span>
+                                    <span class="yues">iTalkBB与姚明基金会展开合作</span>
                                 </div> 
                             </div>
 
 
                             <div class="aboutTextText text18 mText26">
-                                <div class='year'><span class="sans">2009</span> - </div>
+                                <div class="year"><span class="sans">2009</span> - </div>
                                 <div class="yue">
-                                    <span class='yues'>iTalkBB正式进军澳大利亚和新加坡市场</span>
+                                    <span class="yues">iTalkBB正式进军澳大利亚和新加坡市场</span>
                                 </div> 
                             </div>
 
                             <div class="aboutTextText text18 mText26">
-                                <div class='year'><span class="sans">2012</span> - </div>
+                                <div class="year"><span class="sans">2012</span> - </div>
                                 <div class="yue">
-                                       <span class='yues'>奥运击剑冠雷声正式成为iTalkBB蜻蜓形象大使</span>
-                                       <span class='yues'>iTalkBB中文电视业务启动</span>
+                                       <span class="yues">奥运击剑冠雷声正式成为iTalkBB蜻蜓形象大使</span>
+                                       <span class="yues">iTalkBB中文电视业务启动</span>
                                 </div> 
                             </div>
 
                             <div class="aboutTextText text18 mText26">
-                                <div class='year'><span class="sans">2016</span> - </div>
+                                <div class="year"><span class="sans">2016</span> - </div>
                                 <div class="yue">
-                                       <span class='yues'>4月，iTalkBB与未来电视有限公司正式签署战略合作协议，携手共建正版海外中文电视播出平台</span>
-                                       <span class='yues'>5月，iTalkBB与海信集团在智能电视技术领域，中文电视内容，电视终端销售战略等多层面达成正式合作</span>
-                                       <span class='yues'>4月，iTalkBB全新中文名称"蜻蜓"和正式揭晓</span>
-                                       <span class='yues'>10月，iTalkBB蜻蜓正式与NBA布鲁克林篮网队 (Brooklyn Nets) 签约，成为其球队第一家为海外华人服务的电信企业官方合作伙伴</span>
+                                       <span class="yues">4月，iTalkBB与未来电视有限公司正式签署战略合作协议，携手共建正版海外中文电视播出平台</span>
+                                       <span class="yues">5月，iTalkBB与海信集团在智能电视技术领域，中文电视内容，电视终端销售战略等多层面达成正式合作</span>
+                                       <span class="yues">4月，iTalkBB全新中文名称"蜻蜓"和正式揭晓</span>
+                                       <span class="yues">10月，iTalkBB蜻蜓正式与NBA布鲁克林篮网队 (Brooklyn Nets) 签约，成为其球队第一家为海外华人服务的电信企业官方合作伙伴</span>
                                 </div> 
                             </div>
 
                             <div class="aboutTextText text18 mText26">
-                                <div class='year'><span class="sans">2017</span> - </div>
+                                <div class="year"><span class="sans">2017</span> - </div>
                                 <div class="yue">
-                                       <span class='yues'>1月，iTalk Global Communication, Inc.成功收购iTalkBB Media, Inc.，完善iTalkBB蜻蜓中文电视产品盈利模式</span>
-                                       <span class='yues'>3月，iTalkBB蜻蜓移动业务在美国启动</span>
-                                       <span class='yues'>6月，iTalkBB蜻蜓获得《逆时营救》、《侠盗联盟》、《闺蜜2》最新华语电影在北美独家版权，iTalkBB蜻蜓电视内容全面升级</span>        
+                                       <span class="yues">1月，iTalk Global Communication, Inc.成功收购iTalkBB Media, Inc.，完善iTalkBB蜻蜓中文电视产品盈利模式</span>
+                                       <span class="yues">3月，iTalkBB蜻蜓移动业务在美国启动</span>
+                                       <span class="yues">6月，iTalkBB蜻蜓获得《逆时营救》、《侠盗联盟》、《闺蜜2》最新华语电影在北美独家版权，iTalkBB蜻蜓电视内容全面升级</span>        
                                 </div> 
                             </div>                 
                     </div>
@@ -355,6 +336,10 @@
     
     <div class="lineBlue"></div>
     
-    <div id="footer"></div>    <script>        $('#footer').load('footer.html');    </script>
+    <div id="footer"></div>    
+    <script> 
+	     $('#header').load('header.html');
+	     $('#footer').load('footer.html');    
+	</script>
 </body>
 </html>

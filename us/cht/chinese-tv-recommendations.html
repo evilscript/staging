@@ -2,7 +2,7 @@
 <html lang="zh-cmn-Hans">
 <head>
 <meta charset="UTF-8">
-<title>iTalkBB蜻蜓电视-节目导视</title>
+<title>iTalkBB蜻蜓電視-節目導視</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="copyright" content="iTalkBB">
@@ -186,21 +186,21 @@
     	<div class="part pic1">
             <section class="bannerAll bannerAll2">
                     <div class="bannerText">
-                        <p class="title60 mTitle60 pin fwb bannerTitle">热播电影 高清正版</p>
+                        <p class="title60 mTitle60 pin fwb bannerTitle">熱播電影 高清正版</p>
                     </div>                     
             </section>
 
         </div>
     	<div class="part look1">
             <div class="wei">
-              <div class="text1 title60 mTitle60 pin fwb">精彩剧集 海量点播</div>
+              <div class="text1 title60 mTitle60 pin fwb">精彩劇集 海量點播</div>
             </div>
 
 
             
             <div class="container">
                 <div id="slide" class="slide" class="index-slide" alt="star">
-        <!-- 轮播图片数量可自行增减 -->
+        <!-- 輪播圖片數量可自行增減 -->
                     <div class="img"><img class="imgc" src="../shared/images/tv/pc1.jpg"/><img class="imgm" src="../shared/images/tv/pm1.jpg"/><div class="black"></div></div>
                     <div class="img"><img class="imgc" src="../shared/images/tv/pc2.jpg"/><img class="imgm" src="../shared/images/tv/pm2.jpg"/><div class="black"></div></div>
                     <div class="img"><img class="imgc" src="../shared/images/tv/pc3.jpg"/><img class="imgm" src="../shared/images/tv/pm3.jpg"/><div class="black"></div></div>
@@ -214,13 +214,13 @@
     	</div>
     	<div class="part look2">
             <div class="wei">
-             <div class="text1 title60 mTitle60 pin fwb">火热综艺 同步更新</div>
+             <div class="text1 title60 mTitle60 pin fwb">火熱綜藝 同步更新</div>
            
                </div>
 
             <div class="container2">
                 <div id="slide2" class="slide2" class="index-slide2" alt="star">
-        <!-- 轮播图片数量可自行增减 -->
+        <!-- 輪播圖片數量可自行增減 -->
                     <div class="img dy30"><img class="imgc" src="../shared/images/tv/pc1.jpg"/><img class="imgm" src="../shared/images/tv/pm1.jpg"/><div class="black"></div></div>
                     <div class="img dy10"><img class="imgc" src="../shared/images/tv/pc2.jpg"/><img class="imgm" src="../shared/images/tv/pm2.jpg"/><div class="black"></div></div>
                     <div class="img"><img class="imgc" src="../shared/images/tv/pc3.jpg"/><img class="imgm" src="../shared/images/tv/pm3.jpg"/><div class="black"></div></div>
@@ -235,14 +235,14 @@
     	<div class="part pic2">
             <section class="bannerAll bannerAll3">
                     <div class="bannerText">
-                        <p class="title60 mTitle60 pin fwb bannerTitle">少儿动画 精彩纷呈</p>
+                        <p class="title60 mTitle60 pin fwb bannerTitle">少兒動畫 精彩紛呈</p>
                     </div>                     
             </section>
     	</div>
     	<div class="part pic3">
             <section class="bannerAll bannerAll4">
                     <div class="bannerText">
-                        <p class="title60 mTitle60 pin fwb bannerTitle">曲艺杂谈 名家名段</p>
+                        <p class="title60 mTitle60 pin fwb bannerTitle">曲藝雜談 名家名段</p>
                     </div>                     
             </section>
     	</div>
@@ -265,8 +265,8 @@ $('.look1').mouseout(function(){
 
 
 
-var touch = true;           //touch=true为开启触摸滑动
-var slideNub;               //轮播图片数量
+var touch = true;           //touch=true為開啟觸摸滑動
+var slideNub;               //輪播圖片數量
 
   
   
@@ -300,14 +300,14 @@ $(function(){
         }
 
 
-    slideNub = $(".slide .img").size();             //获取轮播图片数量
+    slideNub = $(".slide .img").size();             //獲取輪播圖片數量
     for(i=0;i<slideNub;i++){
         $(".slide .img:eq("+i+")").attr("data-slide-imgId",i);
     }
     console.log(slideNub);
 
 
-    //根据轮播图片数量设定图片位置对应的class
+    //根據輪播圖片數量設定圖片位置對應的class
     if(slideNub==1){
         for(i=0;i<slideNub;i++){
             $(".slide .img:eq("+i+")").addClass("img3");
@@ -353,7 +353,7 @@ $('.next').click(function(){
     left();
 })
 
-//右滑动
+//右滑動
 function right(){
     var fy = new Array();
     for(i=0;i<slideNub;i++){
@@ -372,7 +372,7 @@ function right(){
 }
 
 
-//左滑动
+//左滑動
 function left(){
     var fy = new Array();
     for(i=0;i<slideNub;i++){
@@ -440,8 +440,8 @@ $('.look2').mouseout(function(){
     $('.next1').css('display','none')
 })
     
-var touch2 = true;           //touch=true为开启触摸滑动
-var slideNub2;               //轮播图片数量
+var touch2 = true;           //touch=true為開啟觸摸滑動
+var slideNub2;               //輪播圖片數量
 
      
     $(window).resize(function(){
@@ -490,14 +490,14 @@ $(function(){
         }
 
 
-    slideNub2 = $(".slide2 .img").size();             //获取轮播图片数量
+    slideNub2 = $(".slide2 .img").size();             //獲取輪播圖片數量
     for(i=0;i<slideNub2;i++){
         $(".slide2 .img:eq("+i+")").attr("data-slide-imgId",i);
     }
     console.log(slideNub2);
 
 
-    //根据轮播图片数量设定图片位置对应的class
+    //根據輪播圖片數量設定圖片位置對應的class
     if(slideNub2==1){
         for(i=0;i<slideNub2;i++){
             $(".slide2 .img:eq("+i+")").addClass("img3");
@@ -546,7 +546,7 @@ $('.up1').click(function(){
 
 
 
-//右滑动
+//右滑動
 function right2(){
     var fy2 = new Array();
     for(i=0;i<slideNub2;i++){
@@ -564,7 +564,7 @@ function right2(){
 }
 
 
-//左滑动
+//左滑動
 function left2(){
     var fy2 = new Array();
     for(i=0;i<slideNub2;i++){
