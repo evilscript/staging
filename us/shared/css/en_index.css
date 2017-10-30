@@ -16,8 +16,12 @@
 }
 
 @media (max-width:767px) {
+      .planButton {font-weight: bold; border-radius: 5px;}
+	  .textLeftBotton{margin-top: 3.8%; padding-left: 1%; padding-bottom: .5%;}
       .iconBox .iconCon1,.iconBox .iconCon2,.iconBox .iconCon3,.iconBox .iconCon4,.iconBox .iconCon5,.iconBox .iconCon6,.iconBox .iconCon7,.iconBox .iconCon8,.iconBox .iconCon9,.iconBox .iconCon10,.iconBox .iconCon11,.iconBox .iconCon12,.iconBox .iconCon13,.iconBox .iconCon14{background-size: 20%;} 
-
+      .knowMore{padding-left: 5%;}
+	  .s5Left .s6IconText, .s5Middle .s6IconText, .s5Right .s6IconText {margin-bottom: 2%; padding-bottom: 0%; margin-top: 2%; padding-left: 27.5%; background-size: 6%; background-position-y: 45%; background-position-x: 20%;}
+	  .emailBar{margin-left: 7.6%;}
 	  
 
 }
