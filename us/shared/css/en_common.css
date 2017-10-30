@@ -6,7 +6,7 @@ body {font-family: "open sans", arial, sans-serif!important; background-color: #
 .pin,.mic{font-family: "open sans", arial, sans-serif!important;}
 
 
-@media (max-width:1700px) {
+/*@media (max-width:1700px) {
     .bgTitle {
         font-size: 16px;
     }
@@ -100,9 +100,10 @@ body {font-family: "open sans", arial, sans-serif!important; background-color: #
         font-size: 0.7vw;
     }
 }
-
-@media (min-width:768px) and (max-width:992px) {
-    .footerTitle {
+*/
+@media (min-width:768px) and (max-width:1000px) {
+    .footerColumn{width:18.8%;}
+    /*.footerTitle {
         font-size: 1.6vw;
     }
     .footerText, .disclaimer {
@@ -113,16 +114,16 @@ body {font-family: "open sans", arial, sans-serif!important; background-color: #
     }
     .teleText {
         font-size: 1.4vw;
-    }
+    }*/
 }
 
 @media (max-width:767px) {
-    .footerTitle {
+    /*.footerTitle {
         font-size: 4vw;
     }
     .footerText {
         font-size: 3.4vw;
-    }
+    }*/
 }
 
 
