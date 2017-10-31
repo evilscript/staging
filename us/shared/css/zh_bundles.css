@@ -56,7 +56,7 @@ ul.bundlesCon li.double{width: 100%;}
 .Sharp,.textCon{float: left; display: block;}
 .Sharp{vertical-align: top;width: 7%;}
 .textCon{ width: 93%;}
-.listCon{padding: 10% 6.5% 8% 10.5%; text-align: left; font-family: Microsoft Yahei, sans-serif;}
+.listCon{padding: 10% 6.5% 8% 10.5%; text-align: left;/* font-family: Microsoft Yahei, sans-serif;*/}
 .listCon .hook{margin-bottom: 5%; padding-left: 6.5%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 4%; background-position-y: .2vw;}
 .planBtn{float: left; width: 44%; background: #327fe8; margin-left: 28%; margin-top: -5%; padding-bottom: .2%; border-radius: 10px; cursor: pointer;}
 .planBtn p{line-height: 1.8;}

@@ -145,6 +145,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .text18{font-size: 18px;}
 .text16{font-size: 16px;}
 .text14{font-size: 14px;}
+.text12{font-size: 12px;}
 
 /*英文版字号 begin*/
 .title34{font-size: 34px;}
@@ -695,6 +696,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	.text18{font-size: 15px;}
     .text16{font-size: 14px;}
 	.text14{font-size: 13px;}
+	.text12{font-size: 12px;}
 	
 	/*英文版字号 begin*/
 	.title34{font-size: 28px;}
@@ -742,6 +744,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	.text18{font-size: 14px;}
     .text16{font-size: 13px;}
 	.text14{font-size: 12px;}
+	.text12{font-size: 11px;}
 	
 	/*英文版字号 begin*/
 	.title34{font-size: 25px;}
@@ -838,6 +841,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .text18{font-size: 1vw;}
     .text16{font-size: .9vw;}
     .text14{font-size: .85vw;}
+	.text12{font-size: .8vw;}
 
     /*英文版字号 begin*/
     .title34{font-size: 1.77vw;}
@@ -924,6 +928,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	.text18{font-size: 1.6vw;}/* 16px */
     .text16{font-size: 1.4vw;}/* 14px */
 	.text14{font-size: 1.3vw;}/* 13px */
+	.text12{font-size: 1.2vw;}
 	
 	/*英文版字号 begin*/
 	.title34{font-size: 3.0vw;}
@@ -1092,7 +1097,8 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	.mText20{font-size: 2.61vw;}
 	.mText18{font-size: 2.35vw;}
 	.mText16{font-size: 2.09vw;}
-	.mText14{font-size: 1.83vw;}	
+	.mText14{font-size: 1.83vw;}
+	.mText12{font-size: 1.57vw;}
 	
 	
 	

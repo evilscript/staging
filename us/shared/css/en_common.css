@@ -5,6 +5,10 @@
 body {font-family: "open sans", arial, sans-serif!important; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
 .pin,.mic{font-family: "open sans", arial, sans-serif!important;}
 
+.bgTitle{width: 70%;}
+.menuRight {width: 32%;}
+.telephone{width:18%; margin-left: -5%;}
+
 
 /*@media (max-width:1700px) {
     .bgTitle {
@@ -103,6 +107,7 @@ body {font-family: "open sans", arial, sans-serif!important; background-color: #
 */
 @media (min-width:768px) and (max-width:1000px) {
     .footerColumn{width:18.8%;}
+	.telephone{width:26%; margin-left: -13%; padding-top: 5%;}
     /*.footerTitle {
         font-size: 1.6vw;
     }

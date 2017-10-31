@@ -1,0 +1,69 @@
+/* Version:1.0  Author: Amy
+  Create Date:2017-10-31 
+  Update Date:2017-10-31
+  Desc : bundles-tv-phone CSS EN*/ 
+  .listCon .hook{padding-left: 6%; background-size: 3.6%; background-position-y: .2vw;}
+  .iconsList p{padding-left: 5.7%; background-size: 3.4%; background-position-y: .12vw;}
+  .iconsCon2 .iconsList p{padding-left: 4.2%; background-size: 2.5%;}
+  
+  .titleBox{border-bottom:1px solid #222; padding: 0 14%;}
+  .titleBox p{padding:8% 0% 2% 16%; margin-bottom:-13%; background-size: 14%; background-position-x: 5%;background-position-y: 5%;}
+  .titleBox2 p{background: #fcfcfc;padding-left: 0;}
+  .titleBox3{padding: 0 36%;}
+  .titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}
+  .titleBox4 p{background: #fcfcfc;padding-left: 0;}
+
+@media (max-width:1800px){
+  .titleBox p{font-size: 22px; margin-bottom:-14%;}
+}
+
+@media (max-width:1600px){
+  .titleBox p{font-size: 20px; margin-bottom:-13%;}
+}
+
+@media (max-width:1500px){
+  .titleBox p{padding:8% 0% 2% 14%; background-size: 12%; background-position-x: 4%; background-position-y: 20%; font-size: 19px;}
+  .titleBox2 p{background: #fcfcfc;padding-left: 0;}
+  .titleBox3{padding: 0 36%;}
+  .titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}
+  .titleBox4 p{background: #fcfcfc;padding-left: 0;}
+}
+
+@media (max-width:1400px){
+  .titleBox p{font-size: 18px; margin-bottom:-13.5%;}
+}
+
+@media (max-width:1300px){
+  .titleBox p{font-size: 16px; margin-bottom:-13.5%;}
+}
+
+@media(max-width:1200px){
+  .titleBox p{font-size: 14px; margin-bottom:-13.5%;}
+}
+
+@media  (min-width:768px) and (max-width:1000px){
+    /* bundles banner begin*/
+	.listCon .hook{padding-left: 7%; background-position-y: .35vw;background-size: 4.2%;}
+    .iconsList p{padding-left: 9%; background-size: 5.5%; background-position-y: .32vw;}
+    .iconsCon2 .iconsList p{padding-left: 6%; background-size: 3.6%; background-position-y: .26vw;}
+	.titleBox p{font-size: 1.8vw; margin-bottom:-15.5%;}
+	.titleBox2 p{background: #fcfcfc;padding-left: 0;}
+    .titleBox3{padding: 0 36%;}
+    .titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}
+    .titleBox4 p{background: #fcfcfc;padding-left: 0;}
+}
+@media (max-width:767px){
+    /* bundles banner */
+    .listCon .hook{background-position-y: .8vw;background-size: 4.5%;padding-left: 0;}
+    .iconsList p,.iconsCon2 .iconsList p{padding-left: 6.5%;background-size: 3.8%;background-position-y: .7vw;} 
+	
+	.titleBox p{padding:8% 0% 2% 14%; background-size: 13%; font-size: 3.3vw; margin-bottom:-14.5%;}
+	.titleBox2 p{background: #fcfcfc;padding-left: 0;}
+    .titleBox3{padding: 0 36%;}
+    .titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}
+    .titleBox4 p{background: #fcfcfc;padding-left: 0;}
+}
+
+@media (max-width:511px){	
+	
+}

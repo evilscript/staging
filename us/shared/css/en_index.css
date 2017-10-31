@@ -2,12 +2,60 @@
   Create Date:2017-10-30
   Update Date:2017-10-30
   Desc : index main CSS EN */  
-.iconBox .iconCon1,.iconBox .iconCon2,.iconBox .iconCon3,.iconBox .iconCon4,.iconBox .iconCon5,.iconBox .iconCon6,.iconBox .iconCon7,.iconBox .iconCon8,.iconBox .iconCon9,.iconBox .iconCon10,.iconBox .iconCon11,.iconBox .iconCon12{background-size: 13%; background-position-y: 0%;}
-.iconBox .iconCon13,.iconBox .iconCon14{background-size: 6.7%; background-position-y: 0%;}
+.bannerTitle2{margin-top: 1%; margin-bottom: 1%; letter-spacing: 0; padding-top: 1%;}
+.bannerTitle2en{padding-left: 5%;}  
+.bannerButton{width: 17%;}
+  
+.iconBox .iconCon1,.iconBox .iconCon2,.iconBox .iconCon3,.iconBox .iconCon4,.iconBox .iconCon5,.iconBox .iconCon6,.iconBox .iconCon7,.iconBox .iconCon8,.iconBox .iconCon9,.iconBox .iconCon10,.iconBox .iconCon11,.iconBox .iconCon12{background-size: 12%; background-position-y: 0%;}
+.iconBox .iconCon13,.iconBox .iconCon14{background-size: 6.2%; background-position-y: 0%;}
+.bandRight {width: 20%; float: left; padding-right: 5%;}
+.bandRightS4{padding-right: 0; width: 23%;}
+.planButton{margin-top: 25.5%; line-height: 1.8;}
+.planButton2 {width: 100%;margin-top: 15.8%}
+
+@media (min-width:1801px) and (max-width:1900px){
+    .bannerBgSection {background-position-x: 44%;}
+}
+@media (min-width:1701px) and (max-width:1800px){
+    .bannerBgSection {background-position-x: 46%;}
+}
+@media (min-width:1601px) and (max-width:1700px){
+    .bannerBgSection {background-position-x: 48%;}
+}
+@media (min-width:1501px) and (max-width:1600px){
+    .bannerBgSection {background-position-x: 44%;}
+}
+@media (min-width:1401px) and (max-width:1500px){
+    .bannerBgSection {background-position-x: 47%;}
+}
+@media (min-width:1301px) and (max-width:1400px){
+    .bannerBgSection {background-position-x: 43%;}
+}
+@media (min-width:1301px) and (max-width:1400px){
+    .bannerBgSection {background-position-x: 43%;}
+}
+@media (min-width:1001px) and (max-width:1300px){
+    .bannerBgSection {background-position-x: 43%;}
+}
+
+@media (max-width:1000px){
+      .planButton,.bannerButton{border-radius: 5px;}
+	  .emailBar{border-top-left-radius: 5px!important; border-bottom-left-radius: 5px!important;}
+	  .submitButton{border-top-right-radius: 5px; border-bottom-right-radius: 5px;}
+}
+
 
 @media (min-width:768px) and (max-width:1000px) {
+      .bannerTitle1{padding-top: .5%;}
+      .bannerButton{width: 22%; line-height: 1.6;}
+      .bannerBgSection {background-position-x: 51.5%;}
+	  .bannerBgSectionEN .bannerTitle2{font-size: 1.8vw;}
+	  .bannerSecTit{font-size: 3.3vw; line-height: 1.2;}
+	  
       .sectionTitle,.contactTitle {font-size: 3.6vw;}
-	  .planButton {font-size: 2vw; font-weight: bold; border-radius: 5px;}
+	  .bandRightS4{width: 28%; margin-left: -2%;}
+	  .planButton {margin-top: 23.5%; font-size: 2vw; font-weight: bold;}
+	  .planButton2 {width: 100%; margin-top: 11.2%}
       .textLeftBotton{margin-top: 3.5%;}
       .iconBox p{padding: 1.3% 3% 1.5% 9%; font-size: 1.4vw;}
       .iconBox .iconCon1,.iconBox .iconCon2,.iconBox .iconCon3,.iconBox .iconCon4,.iconBox .iconCon5,.iconBox .iconCon6,.iconBox .iconCon7,.iconBox .iconCon8,.iconBox .iconCon9,.iconBox .iconCon10,.iconBox .iconCon11,.iconBox .iconCon12{background-size: 15%; background-position-y: 0%;}
@@ -16,12 +64,22 @@
 }
 
 @media (max-width:767px) {
-      .planButton {font-weight: bold; border-radius: 5px;}
+      .bannerButton{width: 46%; margin-left: 27%;}
+      .bannerBgSectionEN .bannerTitle2{padding-left: 9%; font-size: 3.1vw;}
+	  .bannerSecTit{font-size: 5.7vw; line-height: 1.2;}
+	  
+      .bandRight {width: 42%; padding-right: 0; padding-left: 2%;}
+      .bandRightS4{width: 36%; margin-left: -6%;}
+	  .bandRightS5{width: 40%; margin-left: -2%;}	
+	  .bandRightS5 .planButton{margin-top: 15%;}
+      .planButton {margin-top: 13%; font-weight: bold; border-radius: 5px;}
+	  .planButton2 {width: 100%; margin-top: 14.2%; line-height: 1.2; padding-top: 3%; padding-bottom: 3%;}	  
 	  .textLeftBotton{margin-top: 3.8%; padding-left: 1%; padding-bottom: .5%;}
       .iconBox .iconCon1,.iconBox .iconCon2,.iconBox .iconCon3,.iconBox .iconCon4,.iconBox .iconCon5,.iconBox .iconCon6,.iconBox .iconCon7,.iconBox .iconCon8,.iconBox .iconCon9,.iconBox .iconCon10,.iconBox .iconCon11,.iconBox .iconCon12,.iconBox .iconCon13,.iconBox .iconCon14{background-size: 20%;} 
-      .knowMore{padding-left: 5%;}
+      .knowMore{padding-left: 4%;}
 	  .s5Left .s6IconText, .s5Middle .s6IconText, .s5Right .s6IconText {margin-bottom: 2%; padding-bottom: 0%; margin-top: 2%; padding-left: 27.5%; background-size: 6%; background-position-y: 45%; background-position-x: 20%;}
-	  .emailBar{margin-left: 7.6%;}
+	  .emailBar{margin-left: 7.6%; width: 60%!important;}
+	  .submitButton{width: 25%;}
 	  
 
 }
