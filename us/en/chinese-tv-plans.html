@@ -2,7 +2,7 @@
 <html lang="zh-cmn-Hans">
 <head>
 <meta charset="UTF-8">
-<title>iTalkBB蜻蜓电视-产品计划</title>
+<title>iTalkBB Chinese TV-Plans</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="copyright" content="iTalkBB">
@@ -16,6 +16,7 @@
 <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
 <link rel="stylesheet" type="text/css"  href="../shared/css/zh_chinese-tv-plans.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/en_common.css">
 <script src="../shared/js/jquery-1.12.4.min.js"></script>
 <script src="../shared/js/angular-1.6.4.min.js"></script>
 <script src="../shared/js/bootstrap.min.js"></script>
@@ -33,12 +34,22 @@
 <style>
 	.mputong{display: none}
 	.mgaoqing{display: none}
+	
+	.listBox p{padding-left: 2.4%; padding-right: 2%; background-size: 5.8%; background-position-y: .12vw;}
+	.optxt{line-height: 1.5}
+	
+@media (min-width:768px) and (max-width:1000px){
+     .listBox{padding-left: 3.8%;}
+     .listBox p{padding-left: 2.5%; background-size: 6.2%; background-position-y: .3vw;}
 
-			@media (max-width:767px) {
+}
+
+@media (max-width:767px) {
 					.mputong{display: block;}
 					.mgaoqing{display: block;}
 					.pcputong{display: none;}
 					.pcgaoqing{display: none;}
+					.listBox p{padding-left: 6%; background-size: 3.5%; background-position-y: .4vw;}
 			}
 
 </style>
@@ -50,10 +61,10 @@
 	<div class="mainLayout">
        <section class="bannerAll bannerAll1">
      	    <div class="bannerText">
-     	    	<p class="title60 mTitle60 pin fwb bannerTitle">iTalkBB蜻蜓电视</p>
-     	    	<p class="title30 mTitle30">
-     	    	   <span>海外华人首选中文电视</span>
-     	    	   <span>2017华语新片, 尽在蜻蜓电视</span>
+     	    	<p class="title60 mTitle60 pin fwb bannerTitle">iTalkBB Chinese TV</p>
+     	    	<p class="title24 mTitle24">
+     	    	   <span>#1 Choice to Watch Chinese TV Overseas </span>
+     	    	   <span>2017 Latest TV Content on Demand</span>
      	    	</p>
      	    </div>      	    	   
        </section>
@@ -64,16 +75,16 @@
       	    </div>
 			<div class="planLimitedBig">
 				<div class="bg">
-					<p class="planTitleBig title42 mTitle50 pin fwb" id="tit">蜻蜓电视产品计划</p>
+					<p class="planTitleBig title42 mTitle50 pin fwb" id="tit">Choose Your TV Plan</p>
 					<div class="use">
-						<div class="useBtnBox title30 mTitle38 pin fwb">
-							<a><div class="user useradd"  use="no">非用户</div></a><a><div class="user" use="yes">用户</div></a>
+						<div class="useBtnBox title28 mTitle32 pin fwb">
+							<a><div class="user useradd"  use="no">New Users</div></a><a><div class="user" use="yes">Current Users</div></a>
 						</div>
 						<div class="middle">
 							<div class="md1">
-								<div class="cont1 title30 mTitle38">
-								<div class="md1tit">订购</div>
-								<div class="mid1txt">iTalkBB蜻蜓电视</div>
+								<div class="cont1 title28 mTitle36">
+								<div class="md1tit">Shop</div>
+								<div class="mid1txt">iTalkBB Chinese TV</div>
 								</div>
 							</div><div class="md2">
 							
@@ -81,57 +92,57 @@
 								<div class="md2b title140 mTitle162">4</div>
 								<div class="fen">
 								<div class="md2c title70 mTitle78">.99</div>
-								<div class="md2d title36 mTitle44">/月</div>
+								<div class="md2d title36 mTitle44">/mo</div>
 								</div>
 							</div><div class="md3">
-								<div class="cont2 title18 mTitle26">
+								<div class="cont2 title16 mTitle24">
 								<form >
 								    <div class="opt">
-        									<div class="ciradd cir cir1" buy="cheap"></div><div class="optxt">领取$10/月优惠，原价 $14.99 /月，享受电话+电视两个服务</div>
+        									<div class="ciradd cir cir1" buy="cheap"></div><div class="optxt">Get $10 off every month, starting from $14.99/mo; Enjoy both TV and Home Phone services</div>
     								</div>
     								<div class="opt opt2">
-        									<div class="cir cir2" buy="exp"></div><div class="optxt">不领取优惠，$14.99/月</div>
+        									<div class="cir cir2" buy="exp"></div><div class="optxt">$14.99/mo, no discount</div>
     								</div>
 								</form>
-								<div class="old">原价14.99/月</div>
+								<div class="old"> Price: $14.99/mo </div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<a class="buy" href="https://webaccount.italkbb.com/BBSignUp/index_USCN_CHS.html?act=USCN_BB_Online&cid=200004&opc=USCN2017V30ALL+USCN17JV19&cob=1">
-					   <div class="midButton title30 mTitle38">立即订购</div>
+					   <div class="midButton title28 mTitle36">Select Plan</div>
 					</a>
 				</div>
-					<div class="bottom listBox title18 mTitle26 clearfix">
-					    <p>最新独家正版院线大片</p>
-					    <p>2017最新电视剧</p>
-					    <p>支持72小时回放</p>
-					    <p>全新设备升级</p>
-					    <p>海量影视剧点播</p>
-					    <p>高清中港台直播频道</p>
-					    <p>本地视频播放</p>
-					    <p>5分钟简易安装</p>	
+					<div class="bottom listBox text14 mText18 clearfix">
+					    <p>Exclusive New Movies</p>
+					    <p>2017 Latest TV Dramas</p>
+					    <p>Playback within 72 Hours</p>
+					    <p>Brand New User Interface</p>
+					    <p>Unlimited Videos on Demand</p>
+					    <p>Live Channels from China, Hong Kong and Taiwan</p>
+					    <p>Play Local Videos</p>
+					    <p>Play Local Videos</p>	
 					</div>
 				
 			</div>
 		</div>
 
-		<div class="refund"><p class="title36 mTitle44 pin fwb">30天试用承诺，无理由全额退款！ <a href="support-chinese-tv.html#refund" class="linkOrange" target="_blank">如何申请退款？</a></p></div>
+		<div class="refund"><p class="title34 mTitle42 pin fwb">30-Day Money Back Guarantee with Full Refund!<br> <a href="support-chinese-tv.html#refund" class="linkOrange" target="_blank">How Do I Get a Refund?</a></p></div>
 
 		<div class="bannerAd1">
-			<p class="titleMgnBtm bannerAd1tit title36 mTitle44 pin fwb">独家院线新片</p>
-			<p class="textAd1 text18 mText26">iTalkBB蜻蜓电视提供最新的正版院线大片，让您在家就可以看到一级棒的华语电影，免费点播，高清画质。同时， 我们采用最尖端的图像处理技术，为您呈现高清画质的视听享受，无论是武打片还是都市剧，您都可以享受到完美的画质和音效，在家看大片。</p>
+			<p class="titleMgnBtm bannerAd1tit title34 mTitle42 pin fwb">Exclusive New Movies</p>
+			<p class="textAd1 text16 mText24">iTalkBB Chinese TV offers the latest movies with copyright access granted. Users can watch popular Chinese movies at home on demand at no additional cost and in full HD. The most cutting-edge image processing technology is used to provide you with full HD quality content. From high-speed action movies to suspenseful urban drama, watch it all from the comfort and convenience of your home with perfect image and audio quality playback.</p>
 			<div class="bannerAd1Pic"></div>
 		</div>
 
 		<div class="tvshow">
-			<p class="titleMgnBtm showtit1 title36 mTitle44 pin fwb">海量影视点播</p>
-			<p class="showtit2 text18 mText26">iTalkBB蜻蜓电视提供六十多个热门频道的实时直播，让您和家人观看内地、香港、台湾和海外频道的即时节目，新闻、综艺、访谈、电视剧应用尽有。</p>
+			<p class="titleMgnBtm showtit1 title34 mTitle42 pin fwb">Unlimited Videos on Demand</p>
+			<p class="showtit2 text16 mText24">iTalkBB Chinese TV provides unlimited movies, television series, variety & talk shows, and children's programs all on demand at no additional cost. Access unlimited fun with a single click!</p>
 
 			<div id="wrap">
 				<div id="roll">
-					<img src="../shared/images/tv/tvMassGopic.jpg" alt="iTalkBB蜻蜓电视-海量影视点播">
-					<img src="../shared/images/tv/tvMassGopic.jpg" alt="iTalkBB蜻蜓电视-海量影视点播">
+					<img src="../shared/images/tv/tvMassGopic.jpg" alt="iTalkBB Chinese TV-海量影视点播">
+					<img src="../shared/images/tv/tvMassGopic.jpg" alt="iTalkBB Chinese TV-海量影视点播">
 				</div>
 			</div>
 		</div>
@@ -139,53 +150,53 @@
 
 		<div class="icons">
 			<div class="icons1">
-				<img src="../shared/images/tv/tvIcon1.png" alt="iTalkBB蜻蜓电视-高清中港台直播">
-				<p class="titleMgnBtm icontit title30 mTitle38 pin fwb">高清中港台直播</p>
-				<p class="icontext text18 mText26">iTalkBB蜻蜓电视提供六十多个热门频道的实时直播，让您和家人观看内地、香港、台湾和海外频道的即时节目，新闻、综艺、访谈、电视剧应用尽有。</p>
+				<img src="../shared/images/tv/tvIcon1.png" alt="iTalkBB Chinese TV-高清中港台直播">
+				<p class="titleMgnBtm icontit title28 mTitle36 pin fwb">Live Channels from China, <br>Hong Kong and Taiwan</p>
+				<p class="icontext text16 mText24">iTalkBB Chinese TV offers over 60 of the most popular live channels from China, Hong Kong and Taiwan. Watch Chinese news, the latest television series, current talk shows, variety shows and other television programs covering a broad range of topics as they're being aired on their native channels!</p>
 			</div><div class="icons2">
-				<img src="../shared/images/tv/tvIcon2.png" alt="iTalkBB蜻蜓电视-72小时回放">
-				<p class="titleMgnBtm icontit title30 mTitle38 pin fwb">72小时回放</p>
-				<p class="icontext text18 mText26">支持72小时热门频道回看功能，让您不会错过任何精彩节目，无论是新闻访谈还是春晚跨年，您都可以随时观看。</p>
+				<img src="../shared/images/tv/tvIcon2.png" alt="iTalkBB Chinese TV-72小时回放">
+				<p class="titleMgnBtm icontit title28 mTitle36 pin fwb">Convenient Playback Within 72 Hours</p>
+				<p class="icontext text16 mText24">iTalkBB Chinese TV also includes a 72-hour playback function so you never miss any of your favorite programs. Whether it's the daily news or the Chinese New Year Gala, you can access anything broadcasted within the last 72 hours on iTalkBB Chinese TV.</p>
 			</div>
 
 			<!--<div class="clear clearfix"></div>-->
 			<div class="icons3">
-				<img src="../shared/images/tv/tvIcon4.png" alt="iTalkBB蜻蜓电视-本地播放">
-				<p class="titleMgnBtm icontit title30 mTitle38 pin fwb">本地播放</p>
-				<p class="icontext text18 mText26">任何本地的影片或图片，都可以通过iTalkBB蜻蜓电视在电视荧幕上播放。将您的本地移动设备（如U盘、移动硬盘等）连接在机顶盒的USB插口上，点击首页下方的“本地播放”，即可浏览您移动设备中可播放的影片、音乐及图片文件，方便实用。</p>
+				<img src="../shared/images/tv/tvIcon4.png" alt="iTalkBB Chinese TV-本地播放">
+				<p class="titleMgnBtm icontit title28 mTitle36 pin fwb">Copyrighted TV Contents</p>
+				<p class="icontext text16 mText24">iTalkBB Chinese TV grants access to copyrighted television content. We guarantee the reliability and sustainability of programs that are accessible from our service. Users no longer need to worry about any interruptions or instability of the programs provided by iTalkBB Chinese TV.</p>
 			</div>
 			<div class="icons4">
-				<img src="../shared/images/tv/tvIcon3.png" alt="iTalkBB蜻蜓电视-正版授权">
-				<p class="titleMgnBtm icontit title30 mTitle38 pin fwb">正版授权</p>
-				<p class="icontext text18 mText26">iTalkBB蜻蜓电视拥有播出频道的正版授权，为您带来可靠、稳定的正版中文电视节目，不用担心节目中断、电视黑屏、直播卡顿等故障问题，您的服务由我们保障。</p>
+				<img src="../shared/images/tv/tvIcon3.png" alt="iTalkBB Chinese TV-正版授权">
+				<p class="titleMgnBtm icontit title28 mTitle36 pin fwb">Play Local Videos</p>
+				<p class="icontext text16 mText24">You can play your own local videos or browse your photos using iTalkBB Chinese TV. Just connect your mobile device (ex. USB, mobile hard disk) to the USB interface on the top of the box, then click "Play Local Video" on the bottom of the home page to easily access any videos, music, and photos contained on your mobile device.</p>
 			</div>
 			<div class="clear clearfix"></div>
 		</div>
 		
 		<div class="balance">
-			<p class="titleMgnBtm bannerAd1tit2 title36 mTitle44 pin fwb">1080p画质, 打造视觉盛宴</p>
-			<p class="textAd2 text18 mText26">iTalkBB蜻蜓采用最尖端的图像处理技术，无论是最新影视剧，热门综艺节目和精彩赛事都能让您拥有最极致的视觉享受。</p>
+			<p class="titleMgnBtm bannerAd1tit2 title34 mTitle42 pin fwb">Enjoy the Incredible 1080p HD Picture</p>
+			<p class="textAd2 text16 mText24">iTalkBB Chinese TV uses the cutting-edge digital imaging technology to ensure your TV experience!</p>
 			<div class="compare">
-				<div class="putong pcputong"><img class="pupic" src="../shared/images/tv/ordinaryDefinition.jpg" alt="iTalkBB蜻蜓电视-1080p画质"></div><div class="gaoqing pcgaoqing"><img class="gaopic" src="../shared/images/tv/highDefinition.jpg" alt="iTalkBB蜻蜓电视-1080p画质"></div>
-				<div class="putong mputong"><img class="pupic" src="../shared/images/tv/mOrdinaryDefinition.jpg" alt="iTalkBB蜻蜓电视-1080p画质"></div><div class="gaoqing mgaoqing"><img class="gaopic" src="../shared/images/tv/mHighDefinition.jpg" alt="iTalkBB蜻蜓电视-1080p画质"></div>
+				<div class="putong pcputong"><img class="pupic" src="../shared/images/tv/ordinaryDefinition.jpg" alt="iTalkBB Chinese TV-1080p画质"></div><div class="gaoqing pcgaoqing"><img class="gaopic" src="../shared/images/tv/highDefinition.jpg" alt="iTalkBB Chinese TV-1080p画质"></div>
+				<div class="putong mputong"><img class="pupic" src="../shared/images/tv/mOrdinaryDefinition.jpg" alt="iTalkBB Chinese TV-1080p画质"></div><div class="gaoqing mgaoqing"><img class="gaopic" src="../shared/images/tv/mHighDefinition.jpg" alt="iTalkBB Chinese TV-1080p画质"></div>
 			</div>
 		</div>
 
 
 		<section class="bannerAll bannerAll2">
      	    <div class="bannerText">
-     	    	<p class="titleMgnBtm title36 mTitle44 pin fwb">全新界面</p>
-     	    	<p class="text18 mText28 banner2txt">
-     	    	   <span>全新升级的蜻蜓电视设备，拥有更友好的界面和更智能的操作系统，方便您的使用和观看，老人孩子都能轻松学会使用，是您全家的好伴侣。</span>
+     	    	<p class="titleMgnBtm title34 mTitle42 pin fwb">Brand New User Interface</p>
+     	    	<p class="text16 mText24 banner2txt">
+     	    	   <span>The updated iTalkBB Chinese TV box will bring a whole new experience to your living room! Featuring a more user-friendly interface and streamlined operating system, it's convenience at your fingertips.</span>
      	    	</p>
      	    </div>      	    	   
         </section>
 
 		<section class="bannerAll bannerAll3">
      	    <div class="bannerText">
-     	    	<p class="titleMgnBtm title36 mTitle44 pin fwb">安装便捷</p>
-     	    	<p class="text18 mText28 banner2txt">
-     	    	   <span>安装简单，只需插好电源，使用HDMI线连接到电视即可，5分钟内搞定，轻松无负担。</span>
+     	    	<p class="titleMgnBtm title34 mTitle42 pin fwb">Easy Installation</p>
+     	    	<p class="text16 mText24 banner2txt">
+     	    	   <span>Easy configuration within 5 minutes. Just plug the TV box into a power source and connect it to your TV with an HDMI cable and you're ready to go!</span>
      	    	</p>
      	    </div>      	    	   
         </section>
@@ -320,7 +331,7 @@ $(window).resize(function(){
 			var a = $(this).attr('use');
 			if(a=='no'){
 					$('.md2b').html(4);
-					$('.md2d').html('/月');
+					$('.md2d').html('/mo');
 					$('.old').css('display','none');
 					$('.ng-valid').css('display','block');
 					$('.md2').css('padding-left','5%');
@@ -334,7 +345,7 @@ $(window).resize(function(){
 			}if(a=='yes'){
 			
 					$('.md2b').html(49);
-					$('.md2d').html('/年');
+					$('.md2d').html('/mo');
 
 					$('.md2').css('padding-left','0%');
 					$('.md2a').css('padding-left','0%');

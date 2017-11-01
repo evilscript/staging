@@ -167,7 +167,7 @@ a.alphaButton{text-decoration: none; color: #222;}
 	
 	/* bbRegion begin */
     .bbRegion{padding: 9% 0 12.5% 0;}
-	.regionPart1{margin-bottom: 6%;}    
+	.regionPart1{margin-bottom: 6%; padding: 0 5%;}    
 	.ratesPart1{padding: 12% 0 6% 0;}
 	.countryCon{width: 103%;}	
     .countryBox{width: 33.3%; padding: 3% 0; background-size: 27%;}

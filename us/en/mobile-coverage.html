@@ -2,7 +2,7 @@
 <html lang="zh-cmn-Hans">
 <head>
 <meta charset="UTF-8">
-<title>iTalkBB蜻蜓移动-信号范围</title>
+<title>iTalkBB Mobile-Coverage</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="copyright" content="iTalkBB">
@@ -16,6 +16,7 @@
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">  
+<link rel="stylesheet" type="text/css"  href="../shared/css/en_common.css"> 
 <script src="../shared/js/jquery-1.12.4.min.js"></script>
 <script src="../shared/js/angular-1.6.4.min.js"></script>
 <script src="../shared/js/bootstrap.min.js"></script>
@@ -32,7 +33,8 @@
     .textCon {width: 95%;}
     .bottom{width: 89.5%;margin:0 auto;padding-top: 2%; margin-bottom: 7%;}
     .left,.right{display: inline-block;width: 50%;vertical-align: top;padding: 0% 5%}
-    .txt{line-height: 1.8}
+	.titleMgnBtm{margin-bottom: 2%;}
+    .txt p{line-height: 1.6; margin-bottom: 2%;}
 
  @media (min-width:768px) and (max-width:1000px){
        .bannerAll1{background: url(../shared/images/phone/ipadBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
@@ -40,6 +42,7 @@
        .left,.right{padding: 0%}
        .Sharp{width: 4%}
        .textCon{width: 90%}
+	   .titleMgnBtm{margin-bottom: 3%;}
     }
 
 @media (max-width:767px){
@@ -51,12 +54,12 @@
        .bottom{width: 100%;margin:0 auto;padding-top: 6%} 
        .Sharp{width: 4%} 
        .textCon{width: 95%} 
+	   .titleMgnBtm{margin-bottom: 3%;}
        .txt{line-height: 1.5} 
        .txt p{padding-bottom: 1%} 
        .right{padding-top: 8%} 
        .lineBlue {margin-top: 9%} 
        .maps{height: 110vw;}
- 
 	   
     }
 </style>
@@ -78,17 +81,17 @@
 	<div class="mainLayout">
 	    <section class="bannerAll bannerAll1">
      	    <div class="bannerText">
-     	    	<p class="title60 mTitle60 pin fwb bannerTitle">全美最大的4G <br class="showM">LTE手机网络</p>
-     	    	<p class="title30 mTitle30">iTalkBB蜻蜓移动，让您在哪里都无需担心信号问题</p>
+     	    	<p class="title50 mTitle50 pin fwb bannerTitle">The Largest 4G LTE <br class="showipad">Cell Network in the U.S. </p>
+     	    	<p class="title24 mTitle24">Enjoy a faster and more reliable network on iTalkBB Mobile</p>
      	    </div>      	    	   
         </section>
 
       <section class="mainMgnTop">	
 			<div class="mainMgn200 mapBox">
       	  		<div class="lineOrange"></div>
-      	  		<div class="top title18 mTitle26">
-      	  		   <p class="p1"> 在美国，iTalkBB蜻蜓移动网络覆盖了美国绝大多数地区，您无需担心信号问题。</p>
-      	  		   <p class="p2"> 在中国，iTalkBB蜻蜓移动信号覆盖率高达99%。您无论是探亲访友，还是出差旅行，iTalkBB蜻蜓都是您最佳的选择。</p>
+      	  		<div class="top text16 mText24">
+      	  		   <p class="p1">In the U.S., iTalkBB's mobile network covers the vast majority of the country. You can enjoy iTalkBB Mobile's services without any concern of signal dropping or call interruptions.</p>
+      	  		   <p class="p2">In China, iTalkBB's mobile network covers up to 99% of the populated area, which makes it convenient for your travels as well.</p>
       	  	    </div>
       	  	    <div class="maps">        
                    <iframe runat="server" src="https://maps.t-mobile.com/pcc.html?map=mvno-noroam-34l&search=10001" width="100%" height="100%" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes">
@@ -99,22 +102,22 @@
 
       <div class="bottom">
         <div class="left">
-           <p class="titleMgnBtm title36 mTitle44 pin fwb">如何定位覆盖范围？</p>
-           <div class="title18 mTitle26 txt">
+           <p class="titleMgnBtm title28 mTitle36 pin fwb">How to Search for the Cell Coverage in Your Area?</p>
+           <div class="text16 mText24 txt">
             <p class="clearfix"><span class="Sharp">&gt;</span>
-            <span class="textCon">在搜索栏里输入您的完整地址、邮编，或者双击地图某一点可直接定位</span>
+            <span class="textCon">Type your address and zip code into the search box or double-click any position on the map.</span>
             </p>
             <p class="clearfix"><span class="Sharp">&gt;</span>
-            <span class="textCon">点击地图右上角的My Places，可查看多个地点的信号状况</span>
+            <span class="textCon">Click "My Places" in the upper right corner of the map to see the cell coverage in multiple locations.</span>
             </p>
             <p class="clearfix"><span class="Sharp">&gt;</span>
-            <span class="textCon">绿色阴影越深表示4G连接越好，灰色阴影表示2G覆盖或者是我们的合作伙伴之一</span>
+            <span class="textCon">The locations highlighted in deep green have the best coverage. Locations in grey are covered by our 2G network or partner networks.</span>
             </p>
           </div> 
         </div><div class="right">
-          <p class="titleMgnBtm title36 mTitle44 pin fwb">什么是4G LTE流量？</p>
-           <div class="title18 mTitle26 txt">
-            4G代表第四代移动通信技术，相比于之前的3G网络，拥有更高的数据吞吐量，更低的时延。简言之，就是能为用户提供更快的速度并满足更多需求。在iTalkBB蜻蜓移动的全美4GLTE网络下，您无论是在线看视频，听音乐，使用GPS导航，还是收发微信，处理邮件都能轻松完成。
+          <p class="titleMgnBtm title28 mTitle36 pin fwb">What is 4G LTE Data?</p>
+           <div class="text16 mText24 txt">
+            <p>4G represents the fourth generation of mobile communication technologies. Compared to previous 3G networks, 4G networks have a higher data throughput and lower latency, which provides users with a faster and more reliable speed to better meet their needs. Whether you're streaming videos online, listening to music, using GPS navigation, sending and receiving WeChat messages, or checking your email, iTalkBB's nationwide 4G LTE network provides a faster and smoother experience.</p>
           </div> 
         </div>
       </div>

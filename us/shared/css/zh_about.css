@@ -220,6 +220,7 @@ table.templateText td{border:1px solid #222222;text-align:center;}
     .newsBlock {margin-top: 10%;}
     .textBg{background:url("../../shared/images/about/company-profile/chs_textBg.jpg") no-repeat left top; background-size:100%; padding-top: 5%; padding-left: 27%;}
 	.textBgCht{background:url("../../shared/images/about/company-profile/cht_textBg.jpg") no-repeat left top; background-size:100%; padding-top: 5%; padding-left: 27%;}
+	.textBgEN{background:url("../../shared/images/about/company-profile/en_textBg.jpg") no-repeat left top; background-size:100%; padding-top: 5%; padding-left: 27%;}
     .special02{padding-top: 15%;}
     .special03{padding-top: 15%;}
     .special04{padding-top: 15%; padding-bottom:10%;}

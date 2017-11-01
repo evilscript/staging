@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy & Carson 
   Create Date:2017-07-27 
-  Update Date:2017-10-30
+  Update Date:2017-11-01
   Desc : All Common CSS */  
  
 /*Initialization settings begin*/ 
@@ -41,6 +41,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 /*.titleMgnBtm span{display: block;}*/
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00; -khtml-border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8; -khtml-border-bottom: .4vw solid #327fe8;/* margin-top: 7%;*/}
+.hidePC,.showipad,.showM{display:none;}
 /* mainLayout end */
 
 /* bannerAll begin */
@@ -612,12 +613,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .fademe{
     display:none;
 }
-.showM{
-    display:none;
-}
-.hidePC{
-    display:none;
-}
+
 /*Mobile header*/
 .noscroll {
     /*position: fixed;
@@ -885,9 +881,8 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 @media  (min-width:1001px){
     .mainMgn320{margin: 0 auto;width: 66.7%;}
 	.mainMgn200{margin: 0 auto;width: 79.2%;}
-	.mainMgn100{margin: 0 auto;width: 89.5%;;}
+	.mainMgn100{margin: 0 auto;width: 89.5%;;}	
 }
-
 @media (min-width:768px) and (max-width:1000px) {    
     /* mainLayout start */	
 	.mainLayout{max-width:1000px; padding-top: 14%;/* margin-bottom: 0;*/ }
@@ -895,6 +890,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	.titleMgnBtm{margin-bottom: 1.6vw;}
 	.lineOrange{height:0; border-bottom: .6vw solid #ff7f00;}
 	.lineBlue{height:0; border-bottom: .6vw solid #327fe8;/* margin-top: 6%;*/}
+	.showipad{display: block;}
 	/* mainLayout end*/
 	
 	/* bannerAll begin */
@@ -1042,7 +1038,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .bbbimg p{margin-top: 18%; margin-bottom: 30%;}
 }
 
-@media (max-width:767px) {
+@media (max-width:767px) {    
 	/* mainLayout start */	
 	.mainLayout{max-width:767px; padding-top: 14%; /* margin-bottom: 0;*/}
 	.mainMgnTop{margin-top: 5%;}
@@ -1141,12 +1137,8 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .showM{
         display:block;
     }
-    .hideM{
-        display:none;
-    }
-	.hidePC{
-    display:block;
-    }
+    .hideM{display:none;}
+	.hidePC{display:block;}
     .telephone{
         display:none;
     }
