@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy
   Create Date:2017-10-31 
-  Update Date:2017-10-31
+  Update Date:2017-11-02
   Desc : bundles-tv-phone CSS EN*/ 
   .listCon .hook{padding-left: 6%; background-size: 3.6%; background-position-y: .2vw;}
   .iconsList p{padding-left: 5.7%; background-size: 3.4%; background-position-y: .12vw;}
@@ -8,7 +8,7 @@
   
   .textBox{margin-top: 1%;}
   .titleBox{border-bottom:1px solid #222; padding: 0 14%;}
-  .titleBox p{padding:8% 0% 2% 16%; margin-bottom:-13%; background-size: 14%; background-position-x: 5%;background-position-y: 5%;}
+  .titleBox p{padding:8% 0% 2% 14%; margin-bottom:-13%; background-size: 13%; background-position-x: 5.5%;background-position-y: 10%;}
   .titleBox2 p{background: #fcfcfc;padding-left: 0;}
   .titleBox3{padding: 0 36%;}
   .titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}
@@ -56,14 +56,15 @@
     .iconsList p{padding-left: 9%; background-size: 5.5%; background-position-y: .32vw;}
     .iconsCon2 .iconsList p{padding-left: 6%; background-size: 3.6%; background-position-y: .26vw;}
 	
-	.planText{margin-top: 17%;}
-	.textBox{padding-top: 0%;}
-	.titleBox p{font-size: 1.8vw; margin-bottom:-15.5%;}
+	.planText{margin-top: 17%;}	
+	.titleBox{padding: 0 12%;}
+	.titleBox p{font-size: 1.8vw; margin-bottom:-15%; background-position-x: 5.5%;}
 	.titleBox2 p{background: #fcfcfc;padding-left: 0;}
     .titleBox3{padding: 0 36%;}
     .titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}
     .titleBox4 p{background: #fcfcfc;padding-left: 0;}
 	.titleBox5 p{font-size: 1.8vw; margin-bottom:-16.5%;}
+	.textBox{padding-top: 0%;}
 }
 @media (max-width:767px){
     /* bundles banner */
@@ -72,8 +73,8 @@
 	
 	.planText{margin-top: 17%;}
 	.textBox{padding-top: 0%;}
-	.planCon .titleBox{padding: 0 15%;}
-	.titleBox p{padding:8% 0% 2% 14%; background-size: 13%; font-size: 3.3vw; margin-bottom:-14.5%;}
+	.planCon .titleBox{padding: 0 12%;}
+	.titleBox p{padding:8% 0% 2% 14%; background-size: 13%; font-size: 3.3vw; background-position-x: 6%; margin-bottom:-13.5%;}
 	.titleBox2 p{background: #fcfcfc;padding-left: 0;}
     .titleBox3{padding: 0 36%;}
     .titleBox3 p{background: #f8f8f8; padding-left: 0; padding-top: 6%; margin-bottom:-8%;}

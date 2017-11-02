@@ -288,7 +288,8 @@ ul.bundlesCon li.double{width: 100%;}
 	.planCon .titleBox{padding: 0 15%;}
 	.planBox .planCon{background: none;}
 	.planBox .planUpper{background: #fcfcfc;}	
-	.titleBox p{padding:8% 0% 2% 18%; margin-bottom:-19%; background-size: 16%; background-position-x: 5%;background-position-y: 20%;}
+	.planCon .titleBox{padding: 0 11%;}
+	.titleBox p{padding:8% 0% 2% 18%; margin-bottom:-18%; background-size: 16%; background-position-x: 6.5%;background-position-y: 20%;}
 	.titleBox2 p{background: #fcfcfc;padding-left: 0;}
 	.titleBox4 p{background: #fcfcfc;padding-left: 0;}
 	.planText{margin-top: 20%;}
