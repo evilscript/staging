@@ -44,15 +44,15 @@ select::-ms-expand { display: none; }
 .d3{display: none;}
 .tel24,.weixin,.email{width: 33.3%;display: inline-block;text-align: center;vertical-align: top}
 .weixin{border-left: 3px solid #ffffff;border-right:3px solid #ffffff;padding-bottom: 3.4% }
-.custitle{color: #444444;font-weight: 500;margin-bottom: 6%}
-.telnums{color: #444444;font-weight: 500;margin-bottom:1.7%;}
+.custitle{font-weight: 500;margin-bottom: 6%}
+.telnums{font-weight: 500;margin-bottom:1.7%;}
 .titimg{width: 23%;margin: 0 auto ;padding-top: 11%;padding-bottom: 7.5% }
 .wma{margin: 5% auto;width: 35%;}
 .mwma{display: none;}
 .teladd,.weixinadd,.emailadd,.weixinxadd{width: 80%;margin:0 auto;}
 .emails{margin-top: 1.7%}
 .text12{font-size: 12px}
-
+.callMgnBtm{margin-bottom: 5.5%;}
 /*合作*/
 .collaborate{display: none}
 .d5{display: none;}
@@ -124,6 +124,7 @@ select::-ms-expand { display: none; }
 @media  (min-width:768px) and (max-width:1000px){
 .bigshow{width: 60vw;height: 33.2vw;margin-top: -16.6vw;margin-left: -30vw}
 .customer{width: 100%}
+.callMgnBtm{margin-bottom: 8%;}
 }
 
 
@@ -136,7 +137,6 @@ select::-ms-expand { display: none; }
 .bannerAll3{background: url(../images/contact/mCollaborateBanner.jpg) no-repeat; background-size: 100%;}
 
 .mainMgnTop{margin-bottom: 4.5%;}
-
 
 .d1img{display: none}
 .d2img{display: block;}
@@ -184,7 +184,7 @@ select::-ms-expand { display: none; }
 .titimg{width: 15%}
 .titimg{padding-top: 7%;padding-bottom: 7%}
 .emails{padding-bottom: 12%}
-
+.callMgnBtm{margin-bottom: 7%;}
 
 /*合作*/
 .collaborate{width: 100%}
