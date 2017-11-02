@@ -38,12 +38,49 @@
   .titleBox p{padding:8% 0% 2% 24%; margin-bottom:-9.5%; background-size: 19%; background-position-x: 13%;background-position-y: 50%;}
   .titleBox2 p{background: #fcfcfc;padding-left: 0;}
   .planText{margin-top: 9.5%;}
+  .planYearUp{padding-left: 19%;}
+  .planYearUp .yearTextRight{width: 36%; padding-right: 4%;}
+
+/*price position begin*/
+@media  (min-width:1801px) and (max-width:1880px){
+    .planYearUp{padding-left: 19%;}
+    .planYearUp .yearTextRight{width: 34%; padding-right: 2%;}
+}
+@media  (min-width:1701px) and (max-width:1800px){
+    .planYearUp{padding-left: 18%;}
+    .planYearUp .yearTextRight{width: 34%; padding-right: 2%;}
+}
+@media  (min-width:1601px) and (max-width:1700px){
+    .planYearUp{padding-left: 16%;}
+    .planYearUp .yearTextRight{width: 32%; padding-right: 4%;}
+}
+@media  (min-width:1501px) and (max-width:1600px){
+    .planYearUp{padding-left: 19.2%;}
+    .planYearUp .yearTextRight{width: 37%; padding-right: 4%; font-size: 13px;}
+}
+@media  (min-width:1401px) and (max-width:1500px){
+    .planYearUp{padding-left: 18%;}
+    .planYearUp .yearTextRight{width: 34%; padding-right: 2%; font-size: 13px;}
+}  
+@media  (min-width:1301px) and (max-width:1400px){
+    .planYearUp{padding-left: 17.5%;}
+    .planYearUp .yearTextRight{width: 38%; padding-right: 2%; font-size: .95vw;}
+}
+@media  (min-width:1001px) and (max-width:1300px){
+    .planYearUp{padding-left: 20%;}
+    .planYearUp .yearTextRight{width: 42%; padding-right: 2%; font-size: .92vw;}
+}
+/*price position end*/
+  
  @media (min-width:768px) and (max-width:1000px){
     .titleBox{padding: 0 15%;}
 	.titleBox p{padding:8% 0% 2% 21%; margin-bottom:-9.5%; background-size: 18%; background-position-x: 13%;background-position-y: 50%;}
 	.titleBox2 p{background: #fcfcfc;padding-left: 0;}
 	.textBox{margin-top: 0;}
 	.planText{margin-top: 10%;}
+	
+	.planYearUp{padding-left: 13%;}
+	.planYearUp .yearTextRight{padding-right: 2%; width: 31%;font-size:1.36vw;}
  
  } 
   @media (max-width:767px){
@@ -335,10 +372,10 @@
                        
 		            </div>
 			     </div>
-       	         <div id="fold01" class="planYear hideM">
+       	         <div id="fold01" class="planYear hideM" style="display: none;">
        	       	    <div class="planYearUp clearfix">
        	       	    	<div class="yearText">
-       	       	    		<p class="title24 mTitle32">Make and Receive <br>Calls for Free</p>
+       	       	    		<p class="title22 mTitle30">Make and Receive <br>Calls for Free</p>
        	       	    	</div>
        	       	    	<div class="yearText yearTextCenter">
        	       	    		<div class="priceBox priceBox3 avenir clearfix">
