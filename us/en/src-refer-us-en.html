@@ -84,45 +84,43 @@
 <body>
 
     <div>
-    <input id="lang_msg_uid" type="hidden" value="请输入帐号" />
-    <input id="lang_msg_pwd" type="hidden" value="请输入密码" />
+    <input id="lang_msg_uid" type="hidden" value="Username" />
+    <input id="lang_msg_pwd" type="hidden" value="Password" />
     <input id="lang_msg_loginfail" type="hidden" value="您输入的用户名密码有误，请重新输入" />
     <input id="lang_msg_captcha" type="hidden" value="验证码错，请重新输入" />
         <form id="loginform" name="loginform" action="" method="post" onsubmit="return CheckLogin();">
             <input id="sid" name="sid" value="2011" type="hidden" />
             <div class="usename">
                 <p class="searchImg if18">&nbsp;</p>
-                <input class="searchBar if18" type="text" placeholder="输入用户名" id="username" /> 
+                <input class="searchBar if18" type="text" placeholder="Username" id="username" /> 
             </div>
             <div class="clearfix"></div>
             <div class="password">
                 <p class="searchImg if18">&nbsp;</p>
-                <input class="searchBar if18" type="password" placeholder="输入密码" id="userpwd" />             
+                <input class="searchBar if18" type="password" placeholder="Password" id="userpwd" />             
             </div>
             <div class="clearfix"></div>
 
-           <div class="cookie">
+             <div class="cookie">
                 <p class="searchImg if18">&nbsp;</p>
-                <input class="searchBar if18" type="text" placeholder="输入验证码" id="Captcha" /> 
+                <input class="searchBar if18" type="text" placeholder="Verification code" id="Captcha" /> 
                   <!-- <p class="searchButton text18 mText26">
                     <span>1+1=??</span>
                  </p> -->      
                  <img id="Captcha_img" src="login/Code?sid=2011" alt="" />
                  <!--<label><a id="Captcha_Change">看不清，换一张</a></label>-->         
             </div>
-            
             <div class="clearfix"></div>
             <div class="bom">
               
-                <input id="login_button" type="submit" class="login if30" style="color:white;border:none;" value="登录" />
+                <input id="login_button" type="submit" class="login if30" style="color:white;border:none;" value="LOG IN" />
                 <div class="www text18 mText28" >
-                    <a class="if18 linkOrange" href="">立即注册</a>  |  <a class="if18 linkOrange" href="" >忘记登录名</a>  |  <a class="if18 linkOrange" href="">忘记密码</a>  
+                    <a class="if18" href="" >Sign Up</a>  |  <a class="if18" href="" >Forgot Username</a>  |  <a class="if18" href="">Forgot Password?</a>  
                 </div>
             </div>
         </form>
         
     </div>
-
 
 
 <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
