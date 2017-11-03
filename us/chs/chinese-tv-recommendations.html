@@ -32,6 +32,27 @@
     .videoWrapper {position: relative;padding-bottom: 56.25%;padding-top: 25px;height: 0;}
     .videoWrapper iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
 
+
+    .container3{ width: 100%;margin: 0 auto;background: url(../shared/images/tv/bg.jpg);}
+    .slide3{width: 90%;margin: 0 auto; overflow: hidden;position: relative; }
+    .slide3 .img{ overflow: hidden;position: absolute;transition: width 0.8s,height 0.8s,bottom 0.8s,left 0.8s,z-index 0.4s; cursor:pointer}
+    .slide3 .img img{ width: 100%;height:95%;  -webkit-box-reflect: below 0 -webkit-linear-gradient(top,rgba(250,250,250,0),rgba(250,250,250,.0) 30%,rgba(250,250,250,0.4));}
+    .slide3 .img1{width: 45%;height: 58%;bottom: 8%;left: 0%;z-index: 2;}
+    .slide3 .img2{ width: 46%;height: 65%;bottom: 4%; left: 10%;z-index: 3;}
+    .slide3 .img3{ width: 51%; height: 71%; bottom: 0; left: 25%;z-index: 4;}
+    .slide3 .img4{width: 46%; height: 65%;bottom: 4%;left: 45%;z-index: 3;}
+    .slide3 .img5{width: 45%; height: 58%;bottom: 8%;left: 70%; z-index: 2;}
+    .op5{opacity: 0.4;background-color:black;transition:all 0.8s }
+    .op6{opacity: 0.6;background-color:black;transition:all 0.8s }
+
+
+
+
+
+
+
+
+
     .container{ width: 100%;margin: 0 auto;background: url(../shared/images/tv/bg.jpg);}
     .slide{width: 90%;margin: 0 auto; overflow: hidden;position: relative; }
     .slide .img{ overflow: hidden;position: absolute;transition: width 0.8s,height 0.8s,bottom 0.8s,left 0.8s,z-index 0.4s; cursor:pointer}
@@ -45,8 +66,7 @@
     .black{width: 101%;height: 95%;position: absolute;top: 0;left: 0}
     .op{opacity: 0.4;background-color:black;transition:all 0.8s }
     .op2{opacity: 0.6;background-color:black;transition:all 0.8s }
-/*    .dy10{    transform: rotateY(-10deg);}
-    .dy30{    transform: rotateY(-30deg);}*/
+
     .imgm{display: none}
 
 
@@ -68,8 +88,11 @@
     .wei{color: white;position: absolute;left: 10.41%;top: 10%;z-index: 99}
     .videom{display: none}
     .next, .up {position: absolute;line-height: 1;top: 43%;cursor: pointer;width: 3%;z-index: 999;display: none}
+    .next3, .up3 {position: absolute;line-height: 1;top: 43%;cursor: pointer;width: 3%;z-index: 999;display: none}
     .up{left: 92%}
     .next{left: 5%}
+    .up3{left: 92%}
+    .next3{left: 5%}
     .next1{  position: absolute;line-height: 1;top: 43%;cursor: pointer;width: 3%;z-index: 999;display: none}
     .up1{  position: absolute;line-height: 1;top: 43%;cursor: pointer;width: 3%;z-index: 999;display: none}
     .up1{left: 92%}
@@ -78,9 +101,9 @@
 
     .bannerAll1{background: url(../shared/images/tv/video.jpg) no-repeat; background-size: 100%;height: 36.4vw}
     .bannerAll2{background: url(../shared/images/tv/pic1.jpg) no-repeat; background-size: 100%;height: 36.4vw}
-    .bannerAll3{background: url(../shared/images/tv/pic2.jpg) no-repeat; background-size: 100%;height: 36.4vw}
+    .bannerAll3{background: url(../shared/images/tv/pic2.jpg) no-repeat; background-size: 100%;height: 36.4vw;}
     .bannerAll4{background: url(../shared/images/tv/pic3.jpg) no-repeat; background-size: 100%;height: 36.4vw}
-    .bannerAll{padding-top: 4.5%}
+    .bannerAll{padding-top: 3%}
 
     @media (max-width: 1000px) and (min-width: 768px){
           .wei{top: 6%;left: 6%}
@@ -117,15 +140,23 @@
         .videos{display: none;}
         #video0{width: 90%;margin-left: 5%;margin-top: 40%;}
         
-        .slide .img3{ width: 82%; height: 69%; bottom: 10%; left: 8%;z-index: 4;}
+        .slide .img3{ width: 82%; height: 69%; bottom: 10%; left: 9%;z-index: 4;}
         .slide .img2{ width: 72.5%;height: 61%;bottom: 10%; left: 0%;z-index: 3;}
         .slide .img4{ width: 72.5%;height: 61%;bottom: 10%; left: 28%;z-index: 3;}
         .slide .img5{width: 72.5%;height: 61%;bottom: 10%; left: 28%;z-index: 2;}
         .slide .img1{width: 45%; height: 58%;bottom: 10%;left: 0%; z-index: 2;}
+            
+        .slide3{width: 100%}
+        .slide3 .img img{-webkit-box-reflect:none}
+        .slide3 .img3{ width: 82%; height: 69%; bottom: 10%; left: 9%;z-index: 4;}
+        .slide3 .img2{ width: 72.5%;height: 61%;bottom: 10%; left: 0%;z-index: 3;}
+        .slide3 .img4{ width: 72.5%;height: 61%;bottom: 10%; left: 28%;z-index: 3;}
+        .slide3 .img5{width: 72.5%;height: 61%;bottom: 10%; left: 28%;z-index: 2;}
+        .slide3 .img1{width: 45%; height: 58%;bottom: 10%;left: 0%; z-index: 2;}
 
         .slide2{width: 100%}
         .slide2 .img img{-webkit-box-reflect:none}
-        .slide2 .img3{ width: 82%; height: 69%; bottom: 10%; left: 8%;z-index: 4;transform: none;}
+        .slide2 .img3{ width: 82%; height: 69%; bottom: 10%; left: 9%;z-index: 4;transform: none;}
         .slide2 .img2{ width: 72.5%;height: 61%;bottom: 10%; left: 0%;z-index: 3;transform: none;}
         .slide2 .img4{ width: 72.5%;height: 61%;bottom: 10%; left: 28%;z-index: 3;transform: none;}
         .slide2 .img5{ width: 72.5%;height: 61%;bottom: 10%; left: 28%;z-index: 2;transform: none;}
@@ -135,9 +166,12 @@
         .text1{top: 3%;width: 100%;text-align: center;left: 0}
         .text2{text-align: center;width: 100%;top: 12%;left: 0}
         .next,.up{width: 8%;display: none}
+        .next3,.up3{width: 8%;display: none}
         .next1,.up1{width: 8%;display: none}
         .up{left: 90%}
         .next{left: 2%}
+        .up3{left: 90%}
+        .next3{left: 2%}
         .up1{left: 92%}
 
 	  }
@@ -180,14 +214,28 @@
         
 
 
-    	<div class="part pic1">
-            <section class="bannerAll bannerAll2">
-                    <div class="bannerText">
-                        <p class="title60 mTitle60 pin fwb bannerTitle">热播电影 高清正版</p>
-                    </div>                     
-            </section>
 
+        <div class="part look3">
+            <div class="wei">
+              <div class="text1 title60 mTitle60 pin fwb">热播电影 高清正版</div>
+            </div>
+            <div class="container3">
+                <div id="slide3" class="slide3 index-slide3" alt="star">
+       
+                    <div class="img"><img class="imgc" src="../shared/images/tv/movie4.jpg"/><img class="imgm" src="../shared/images/tv/moviem4.jpg"/><div class="black"></div></div>
+                    <div class="img"><img class="imgc" src="../shared/images/tv/movie3.jpg"/><img class="imgm" src="../shared/images/tv/moviem3.jpg"/><div class="black"></div></div>
+                    <div class="img"><img class="imgc" src="../shared/images/tv/movie2.jpg"/><img class="imgm" src="../shared/images/tv/moviem2.jpg"/><div class="black"></div></div>
+                    <div class="img"><img class="imgc" src="../shared/images/tv/movie1.jpg"/><img class="imgm" src="../shared/images/tv/moviem1.jpg"/><div class="black"></div></div>
+                    <div class="img"><img class="imgc" src="../shared/images/tv/movie5.jpg"/><img class="imgm" src="../shared/images/tv/moviem5.jpg"/><div class="black"></div></div>
+
+                </div>
+                <div class="up3"><img style="width:100%" src="../shared/images/icons/mSwiperNext.png" alt=""></div>
+                <div class="next3"><img style="width:100%" src="../shared/images/icons/mSwiperPrev.png" alt=""></div>
+            </div>
         </div>
+
+
+
     	<div class="part look1">
             <div class="wei">
               <div class="text1 title60 mTitle60 pin fwb">精彩剧集 海量点播</div>
@@ -198,44 +246,54 @@
             <div class="container">
                 <div id="slide" class="slide index-slide" alt="star">
         <!-- 轮播图片数量可自行增减 -->
-                    <div class="img"><img class="imgc" src="../shared/images/tv/pc1.jpg"/><img class="imgm" src="../shared/images/tv/pm1.jpg"/><div class="black"></div></div>
-                    <div class="img"><img class="imgc" src="../shared/images/tv/pc2.jpg"/><img class="imgm" src="../shared/images/tv/pm2.jpg"/><div class="black"></div></div>
-                    <div class="img"><img class="imgc" src="../shared/images/tv/pc3.jpg"/><img class="imgm" src="../shared/images/tv/pm3.jpg"/><div class="black"></div></div>
-                    <div class="img"><img class="imgc" src="../shared/images/tv/pc4.jpg"/><img class="imgm" src="../shared/images/tv/pm4.jpg"/><div class="black"></div></div>
-                    <div class="img"><img class="imgc" src="../shared/images/tv/pc5.jpg"/><img class="imgm" src="../shared/images/tv/pm5.jpg"/><div class="black"></div></div>
+                    <div class="img"><img class="imgc" src="../shared/images/tv/drama3.jpg"/><img class="imgm" src="../shared/images/tv/dramam3.jpg"/><div class="black"></div></div>
+                    <div class="img"><img class="imgc" src="../shared/images/tv/drama2.jpg"/><img class="imgm" src="../shared/images/tv/dramam2.jpg"/><div class="black"></div></div>
+                    <div class="img"><img class="imgc" src="../shared/images/tv/drama1.jpg"/><img class="imgm" src="../shared/images/tv/dramam1.jpg"/><div class="black"></div></div>
+                    <div class="img"><img class="imgc" src="../shared/images/tv/drama4.jpg"/><img class="imgm" src="../shared/images/tv/dramam4.jpg"/><div class="black"></div></div>
+                    <div class="img"><img class="imgc" src="../shared/images/tv/drama5.jpg"/><img class="imgm" src="../shared/images/tv/dramam5.jpg"/><div class="black"></div></div>
 
                 </div>
                 <div class="up"><img style="width:100%" src="../shared/images/icons/mSwiperNext.png" alt=""></div>
                 <div class="next"><img style="width:100%" src="../shared/images/icons/mSwiperPrev.png" alt=""></div>
             </div>
     	</div>
+
+        
+        <div class="part pic2">
+            <section class="bannerAll bannerAll3">
+                    <div class="bannerText">
+                        <p class="title60 mTitle60 pin fwb bannerTitle">火热综艺 同步更新</p>
+                    </div>                     
+            </section>
+        </div>
+
+
     	<div class="part look2">
             <div class="wei">
-             <div class="text1 title60 mTitle60 pin fwb">火热综艺 同步更新</div>
+             <div class="text1 title60 mTitle60 pin fwb">少儿动画 精彩纷呈</div>
            
                </div>
 
             <div class="container2">
                 <div id="slide2" class="slide2 index-slide2" alt="star">
         <!-- 轮播图片数量可自行增减 -->
-                    <div class="img dy30"><img class="imgc" src="../shared/images/tv/pc1.jpg"/><img class="imgm" src="../shared/images/tv/pm1.jpg"/><div class="black"></div></div>
-                    <div class="img dy10"><img class="imgc" src="../shared/images/tv/pc2.jpg"/><img class="imgm" src="../shared/images/tv/pm2.jpg"/><div class="black"></div></div>
-                    <div class="img"><img class="imgc" src="../shared/images/tv/pc3.jpg"/><img class="imgm" src="../shared/images/tv/pm3.jpg"/><div class="black"></div></div>
-                    <div class="img"><img class="imgc" src="../shared/images/tv/pc4.jpg"/><img class="imgm" src="../shared/images/tv/pm4.jpg"/><div class="black"></div></div>
-                    <div class="img dy30"><img class="imgc" src="../shared/images/tv/pc5.jpg"/><img class="imgm" src="../shared/images/tv/pm5.jpg"/><div class="black"></div></div>
+                    <div class="img dy30"><img class="imgc" src="../shared/images/tv/cartoon3.jpg"/><img class="imgm" src="../shared/images/tv/cartoonm3.jpg"/><div class="black"></div></div>
+                    <div class="img dy10"><img class="imgc" src="../shared/images/tv/cartoon2.jpg"/><img class="imgm" src="../shared/images/tv/cartoonm2.jpg"/><div class="black"></div></div>
+                    <div class="img"><img class="imgc" src="../shared/images/tv/cartoon1.jpg"/><img class="imgm" src="../shared/images/tv/cartoonm1.jpg"/><div class="black"></div></div>
+                    <div class="img"><img class="imgc" src="../shared/images/tv/cartoon3.jpg"/><img class="imgm" src="../shared/images/tv/cartoonm3.jpg"/><div class="black"></div></div>
+                    <div class="img dy30"><img class="imgc" src="../shared/images/tv/cartoon2.jpg"/><img class="imgm" src="../shared/images/tv/cartoonm2.jpg"/><div class="black"></div></div>
                     <div class="next1"><img style="width:100%" src="../shared/images/icons/mSwiperPrev.png" alt=""></div>
                     <div class="up1"><img style="width:100%" src="../shared/images/icons/mSwiperNext.png" alt=""></div>
 
                 </div>
             </div>
     	</div>
-    	<div class="part pic2">
-            <section class="bannerAll bannerAll3">
-                    <div class="bannerText">
-                        <p class="title60 mTitle60 pin fwb bannerTitle">少儿动画 精彩纷呈</p>
-                    </div>                     
-            </section>
-    	</div>
+
+
+
+
+
+
     	<div class="part pic3">
             <section class="bannerAll bannerAll4">
                     <div class="bannerText">
@@ -251,24 +309,15 @@
         </script>
 </body>
 <script>
-
 $('.look1').mouseover(function(){
     $('.next,.up').css('display','block')
 })
-
 $('.look1').mouseout(function(){
     $('.next,.up').css('display','none')
 })
-
-
-
 var touch = true;           //touch=true为开启触摸滑动
 var slideNub;               //轮播图片数量
-
-  
-  
-    
-    $(window).resize(function(){
+$(window).resize(function(){
    var wi = window.innerWidth;
      if(wi<767){
             $(".slide").height($(".slide").width()*1);
@@ -621,6 +670,205 @@ function k_touch2() {
 
 
 </script>
+
+
+
+<script>
+
+$('.look3').mouseover(function(){
+    $('.next3,.up3').css('display','block')
+})
+
+$('.look3').mouseout(function(){
+    $('.next3,.up3').css('display','none')
+})
+
+
+
+var touch = true;           //touch=true为开启触摸滑动
+var slideNub;               //轮播图片数量
+
+  
+  
+    
+    $(window).resize(function(){
+   var wi = window.innerWidth;
+     if(wi<767){
+            $(".slide3").height($(".slide3").width()*1);
+            // document.getElementById('myVideo').pause();
+        }
+        if(wi>=767){
+             $(".slide3").height($(".slide3").width()*0.415);
+             // document.getElementById('myVideo').play();
+        }
+});
+
+$(function(){
+
+    var wb = window.innerWidth;
+    console.log(wb);
+
+    if(wb<767){
+                 $(".slide3").height($(".slide3").width()*1);
+                 // document.getElementById('myVideo').pause();
+
+        }
+    if(wb>=767){
+
+               $(".slide3").height($(".slide3").width()*0.415);
+                // document.getElementById('myVideo').play(); 
+        }
+
+
+    slideNub = $(".slide3 .img").size();             //获取轮播图片数量
+    for(i=0;i<slideNub;i++){
+        $(".slide3 .img:eq("+i+")").attr("data-slide-imgId",i);
+    }
+    console.log(slideNub);
+
+
+    //根据轮播图片数量设定图片位置对应的class
+    if(slideNub==1){
+        for(i=0;i<slideNub;i++){
+            $(".slide3 .img:eq("+i+")").addClass("img3");
+        }
+    }
+    if(slideNub==2){
+        for(i=0;i<slideNub;i++){
+            $(".slide3 .img:eq("+i+")").addClass("img"+(i+3));
+        }
+    }
+    if(slideNub==3){
+        for(i=0;i<slideNub;i++){
+            $(".slide3 .img:eq("+i+")").addClass("img"+(i+2));
+        }
+    }
+    if(slideNub>3&&slideNub<6){
+        for(i=0;i<slideNub;i++){
+            $(".slide3 .img:eq("+i+")").addClass("img"+(i+1));
+        }
+    }
+    if(slideNub>=6){
+        for(i=0;i<slideNub;i++){
+            if(i<7){
+               $(".slide3 .img:eq("+i+")").addClass("img"+(i+1)); 
+            }else{
+                $(".slide3 .img:eq("+i+")").addClass("img5"); 
+            }
+        }
+    }
+
+    if(touch){
+        k_touch3();
+    }
+
+    imgClickFy3();
+})
+
+$('.up3').click(function(){
+    right3();
+})
+
+$('.next3').click(function(){
+    left3();
+})
+
+//右滑动
+function right3(){
+    var fy = new Array();
+    for(i=0;i<slideNub;i++){
+        fy[i]=$(".slide3 .img[data-slide-imgId="+i+"]").attr("class");
+        
+    }
+    for(i=0;i<slideNub;i++){
+        if(i==0){
+            $(".slide3 .img[data-slide-imgId="+i+"]").attr("class",fy[slideNub-1]);
+        }else{
+           $(".slide3 .img[data-slide-imgId="+i+"]").attr("class",fy[i-1]); 
+        }
+    }
+    imgClickFy3();
+
+}
+
+
+//左滑动
+function left3(){
+    var fy = new Array();
+    for(i=0;i<slideNub;i++){
+        fy[i]=$(".slide3 .img[data-slide-imgId="+i+"]").attr("class");
+    }
+    for(i=0;i<slideNub;i++){
+        if(i==(slideNub-1)){
+            $(".slide3 .img[data-slide-imgId="+i+"]").attr("class",fy[0]);
+        }else{
+           $(".slide3 .img[data-slide-imgId="+i+"]").attr("class",fy[i+1]); 
+        }
+    }
+    imgClickFy3();
+
+}
+
+function imgClickFy3(){
+    $(".slide3 .img").removeAttr("onclick");
+    $(".slide3 .img .black").removeClass('op5');
+    $(".slide3 .img .black").removeClass('op6');
+    $(".slide3 .img2").attr("onclick","left3()");
+    $(".slide3 .img4").attr("onclick","right3()");
+    $(".slide3 .img4 .black").addClass('op5');
+    $(".slide3 .img2 .black").addClass('op5');
+    $(".slide3 .img1 .black").addClass('op6');
+    $(".slide3 .img5 .black").addClass('op6');
+}
+
+function k_touch3() {
+    var _start = 0, _end = 0, _content = document.getElementById("slide");
+    _content.addEventListener("touchstart", touchStart, false);
+    _content.addEventListener("touchmove", touchMove, false);
+    _content.addEventListener("touchend", touchEnd, false);
+    console.log(_content);
+    function touchStart(event) {
+        var touch = event.targetTouches[0];
+
+        _start = touch.pageX;
+    }
+    function touchMove(event) {
+        var touch = event.targetTouches[0];
+        _end = (_start - touch.pageX);
+    }
+
+    function touchEnd(event) {
+        if (_end < -100) {
+            left3();
+            _end=0;
+        }else if(_end > 100){
+            right3();
+            _end=0;
+        }
+    }
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
     $('.video0').click(function(){
         $('.maskVideo').fadeIn(500);
@@ -641,4 +889,5 @@ function k_touch2() {
         });
 
 </script>
+
 </html>
