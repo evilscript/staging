@@ -9,11 +9,11 @@
       	  <div class="sptSearch mainMgn200 clearfix">
        	    <div class="left clearfix">
         	    <p class="searchTitle title30 mTitle38">有问题？我们将为您竭诚解答。</p>
-        	    <p class="searchImg text18 mText26">&nbsp;</p>
+        	    <p class="searchImg text18 mText26" >&nbsp;</p>
               
 
 
-              <div style="display:none;">
+              <div >
                     <div style="height: 0; visibility: hidden;">
                       <gcse:search></gcse:search>
                     </div>
@@ -23,9 +23,9 @@
         <!--Google搜索代码结束-->
         <!--镜像输入框和按键以达到自由修改样式-->
 
-        	    <input id="sousuo" class="headerMirrorSearchText searchBar text18 mText26"  placeholder="请输入要搜索的内容" type="text" >        	    
-        	    <p class="img headerMirrorSearch2 searchButton text18 mText26" id="ssbtn">
-                    <span>&gt;</span>
+        	    <input id="sousuo" class=" searchBar text18 mText26"  placeholder="请输入要搜索的内容" type="text" >        	    
+        	    <p class="img searchButton text18 mText26" id="anniu" >
+                    <span>&gt;ccc</span>
                 </p>      		
         	</div>
 
@@ -62,16 +62,16 @@
       <script>
 
    /*Google 镜像*/
-    $('.headerMirrorSearchText').keyup(function(){
+    $('#sousuo').keyup(function(){
         $('#gsc-i-id1').val($(this).val());
     });
-    $('.headerMirrorSearch').click(function(){
+    $('#anniu').click(function(){
         $(".gsc-search-button").trigger("click");
+      $('.searchFunction').css('display','block')
+
     });
 
-       $('.headerMirrorSearch2').click(function(){
-        $(".gsc-search-button").trigger("click");
-    });
+  
     /*结束*/
 
       </script>
