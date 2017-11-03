@@ -24,7 +24,7 @@
         <!--镜像输入框和按键以达到自由修改样式-->
 
         	    <input id="sousuo" class="headerMirrorSearchText searchBar text18 mText26"  placeholder="请输入要搜索的内容" type="text" >        	    
-        	    <p class="img headerMirrorSearch searchButton text18 mText26" id="ssbtn">
+        	    <p class="img headerMirrorSearch2 searchButton text18 mText26" id="ssbtn">
                     <span>&gt;</span>
                 </p>      		
         	</div>
@@ -66,6 +66,10 @@
         $('#gsc-i-id1').val($(this).val());
     });
     $('.headerMirrorSearch').click(function(){
+        $(".gsc-search-button").trigger("click");
+    });
+
+       $('.headerMirrorSearch2').click(function(){
         $(".gsc-search-button").trigger("click");
     });
     /*结束*/
