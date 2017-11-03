@@ -6,12 +6,12 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
 	<style>
+.parent{line-height: 1.5;}
 	.bg{width: 100%}
-	.child{width: 52%;border-radius: 10px;background: white;padding: 2.5%;position: absolute;  transform: translateY(-50%);}
-	
-	.child { position: absolute; left: 50%; transform: translate(-50%); top: 5%}
-	.tit{font-size: 32px;font-weight: bold;margin-bottom: 1.5%}
-	.txt1{;line-height: 1.5}
+	.child{width: 52%;border-radius: 10px;background: white;padding: 2.6% 3% 4% 3.3%; position: absolute; left: 50%; transform: translate(-50%); top: 5%;}	
+	.tit{margin-bottom: 2%}
+	.titBtm{margin-bottom: 1.5%;}
+	.txt1{line-height: 1.5}
 
 	.tel img,.wecat img,.ma img{width: 100%}
 	.tel{width: 35%;display: inline-block;vertical-align: top}
@@ -24,11 +24,11 @@
 	.icon{margin-top: 4%}
 	p{margin:0px;padding: 0px}
 	.tel .right2{padding-top: 4%;padding-left: 4%}
-	.teltit{line-height: 1.5}
+	.teltit{margin-bottom: 3%;}
 	.wecat .right2{padding-top: 2.5%;padding-left: 3%}
 	.bg1{display: none}
 	body{background: url(../shared/images/login/bgBig.jpg);}
-	.boom{margin-top: 2%}
+	.boom{margin-top: 4%}
 	ul,li{margin: 0px;padding: 0px;list-style-type: circle;}
 	li{margin-left: 3%}
 
@@ -43,38 +43,33 @@
 	.left .typeTxt {background: url(../shared/images/support/chs_bbSptBox.png) no-repeat scroll bottom;background-size: 66%;}
 	.right .typeTxt {background: url(../shared/images/support/chs_tvSptBox.png) no-repeat scroll bottom;background-size: 66%;}
 
-
-
-
-	@media (min-width:768px) and (max-width:1000px) {		
-			.child{width: 75%}
+@media (min-width:768px) and (max-width:1000px) {		
+			.child{width: 85%; padding: 5% 6% 5.5% 6.2%;}
 	 }
 
-	 @media (max-width:767px) {
+@media (max-width:767px) {
+            .tit{margin-bottom: 4%}
+			.titBtm{margin-bottom: 3%;}
 	 		.bg{display: none}
 	 		.bg1{display: block}
-	 		.child{width: 70%;top:10%;}
-	 		.tel{display: block;width: 100%}
-	 		.telimg{width: 25%}
-	 		.wecat{width: 100%;display: block;margin-top: 5%}
+	 		.child{width: 85%; top:6%; padding: 4.8% 4.5% 10% 5.5%; border-bottom-left-radius: 0; border-bottom-right-radius: 0;}
+	 		.tel{display: block;width: 100%; margin-top: 8%;}
+	 		.telimg,.wecatimg {width: 18%}
+	 		.wecat{width: 100%;display: block;margin-top: 6%}
 			.ma{width: 20%;vertical-align: top}
-			.wecatimg {width: 25%}
 			
 			.right2{padding-left: 7%}
-			.tel .right2{padding-top: 3%;padding-left: 3%}
-			.wecat .right2 {padding-top: 0.5%;}
+			.tel .right2{padding-top: 0%;padding-left: 3%}
+			.wecat .right2 {padding-top: 0%; margin-bottom: 3%;}
 			.maing{width: 100%}
 			.ma{margin-top: 5%;display: block;margin: 0 auto;width: 40%}
-
+            .boom{margin-top: 6%}
 			body{background: url(../shared/images/login/bgBigM.jpg)}
 				.left {display: block;width: 100%}
 				.right {display: block;padding-left: 0%;width: 100%;margin-top: 5%}
 				.bothConCenter > .left {border-right: 0px #c1c1c1 solid;}
 				li{margin-left: 6%}
 	 }
-
-
-
 
 	</style>
 </head>
@@ -83,14 +78,14 @@
 
 	
 	<div class="child">
-		<div class="tit">忘记登录名</div>
-		<div class="txt1 title16 mTitle28">在您下单后，iTalkBB蜻蜓会发给您临时登录名和密码，通过这些登录信息，您就可以登陆网上账户，并重置您的登录名和密码！</div>
-		<div class="txt1 title16 mTitle28">您可以尝试使用以下登录名的种类来登录您的账户：</div>
-		<ul>
-			<li class="txt1 title16 mTitle28">您注册时设置的登录名</li>
-			<li class="txt1 title16 mTitle28">您注册时设定手机号码作为登录名</li>
-			<li class="txt1 title16 mTitle28">通过您的iTalkBB蜻蜓电话号码，10位数字，如： 6261234567</li>
-			<li class="txt1 title16 mTitle28">您iTalkBB蜻蜓电话的899号码或中文电视的699号码。您的899号码或699号码可以在您的iTalkBB蜻蜓电话盒和电视盒上找到，如下图所示：</li>
+		<div class="tit title36 mTitle44 fwb">忘记登录名</div>
+		<p class="titBtm text16 mText24">在您下单后，iTalkBB蜻蜓会发给您临时登录名和密码，通过这些登录信息，您就可以登陆网上账户，并重置您的登录名和密码！</p>
+		<p class="titBtm text16 mText24">您可以尝试使用以下登录名的种类来登录您的账户：</p>
+		<ul class="text16 mText24">
+			<li>您注册时设置的登录名</li>
+			<li>您注册时设定手机号码作为登录名</li>
+			<li>通过您的iTalkBB蜻蜓电话号码，10位数字，如： 6261234567</li>
+			<li>您iTalkBB蜻蜓电话的899号码或中文电视的699号码。您的899号码或699号码可以在您的iTalkBB蜻蜓电话盒和电视盒上找到，如下图所示：</li>
 		</ul>
 
 
@@ -126,23 +121,23 @@
       	  	</div>
       	  </div>
 
-		<div class="txt1 title16 mTitle28 boom">如果您仍不能登录成功，或者需要重新设置您的登录名，可通过以下方式联系我们：</div>
+		<div class="text16 mText24 boom">如果您仍不能登录成功，或者需要重新设置您的登录名，可通过以下方式联系我们：</div>
 
 		<div class="icon">
 		<div class="tel">
 			<div class="telimg left2"><img src="../shared/images/icons/callCenterIcon.png" alt=""></div>
-			<div class="right2"><p class="teltit title18 mTitle28">电话客服</p>
+			<div class="right2"><p class="teltit title20 mTitle28 fwb">电话客服</p>
 			<p class="teltxt title18 mTitle28">1-877-482-5503 </p></div>
 		</div><div class="wecat">
-			<div class="wecatimg left2"><img src="../shared/images/icons/iconWechat.png" alt=""></div>
-			<div class=" right2 title20 mTitle28"><p class="teltit title20 mTitle28">微信客服</p>
-			<p class="teltxt1 title18 mTitle16">打开微信扫一扫，或者</p>
-			<p class="teltxt1 title18 mTitle16">在微信中搜索“iTalkBB”</p>
-			<p class="teltxt1 title18 mTitle16">即可关注iTalkBB蜻蜓微信号。</p></div>
+			<div class="wecatimg left2"><img src="../shared/images/icons/weChatIcon.png" alt=""></div>
+			<div class=" right2 title20 mTitle28"><p class="teltit title20 mTitle28 fwb">微信客服</p>
+			<p class="teltxt1 text16 mText24">打开微信扫一扫，或者</p>
+			<p class="teltxt1 text16 mText24">在微信中搜索“iTalkBB”</p>
+			<p class="teltxt1 text16 mText24">即可关注iTalkBB蜻蜓微信号。</p></div>
 		</div><div class="ma">
 			<div class="maimg"><img src="../shared/images/icons/wechatQRcodeIcon.jpg" alt=""></div>
 		</div>
-		<div class="txt1 title16 mTitle28 boom">如果您仅是蜻蜓移动用户（未使用蜻蜓电视或蜻蜓电话服务），请拨打1-855-482-5566，工作时间：8 am - 12 pm EST。</div>
+		<div class="text16 mText24 boom">如果您仅是蜻蜓移动用户（未使用蜻蜓电视或蜻蜓电话服务），请拨打1-855-482-5566，工作时间：8 am - 12 pm EST。</div>
 		</div>
 	</div>
 </div>

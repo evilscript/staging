@@ -6,12 +6,12 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
 	<style>
+.parent{line-height: 1.5;}
 	.bg{width: 100%}
-	.child{width: 52%;border-radius: 10px;background: white;padding: 2.5%;position: absolute;  transform: translateY(-50%);}
-	
-	.child { position: absolute; left: 50%; transform: translate(-50%); top: 5%}
-	.tit{font-size: 32px;font-weight: bold;margin-bottom: 1.5%}
-	.txt1{;line-height: 1.5}
+	.child{width: 52%;border-radius: 10px;background: white;padding: 2.6% 3% 4% 3.3%; position: absolute; left: 50%; transform: translate(-50%); top: 5%;}	
+	.tit{margin-bottom: 2%}
+	.titBtm{margin-bottom: 1.5%;}
+	.txt1{line-height: 1.5}
 
 	.tel img,.wecat img,.ma img{width: 100%}
 	.tel{width: 35%;display: inline-block;vertical-align: top}
@@ -24,11 +24,11 @@
 	.icon{margin-top: 4%}
 	p{margin:0px;padding: 0px}
 	.tel .right2{padding-top: 4%;padding-left: 4%}
-	.teltit{line-height: 1.5}
+	.teltit{margin-bottom: 3%;}
 	.wecat .right2{padding-top: 2.5%;padding-left: 3%}
 	.bg1{display: none}
 	body{background: url(../shared/images/login/bgBig.jpg);}
-	.boom{margin-top: 2%}
+	.boom{margin-top: 4%}
 	ul,li{margin: 0px;padding: 0px;list-style-type: circle;}
 	li{margin-left: 3%}
 
@@ -40,32 +40,30 @@
 	.right {float: right;padding-left: 3%}
 	.bothConCenter .titleBox {width: 100%;margin: 0 auto;margin-bottom: 0px;margin-bottom: 6%;padding: 1.5%;padding-bottom: 1.5%;padding-bottom: .2%;border: 1px solid #ff7f00;color: #ff7f00;box-shadow: 10px 10px #d9d9d9;}
 	.left .typeTxt, .right .typeTxt {text-align: center;padding-bottom: 64%;}
-	.left .typeTxt {background: url(../shared/images/support/cht_bbSptBox.png) no-repeat scroll bottom;background-size: 66%;}
-	.right .typeTxt {background: url(../shared/images/support/cht_tvSptBox.png) no-repeat scroll bottom;background-size: 66%;}
+	.left .typeTxt {background: url(../shared/images/support/chs_bbSptBox.png) no-repeat scroll bottom;background-size: 66%;}
+	.right .typeTxt {background: url(../shared/images/support/chs_tvSptBox.png) no-repeat scroll bottom;background-size: 66%;}
 
-
-
-
-	@media (min-width:768px) and (max-width:1000px) {		
-			.child{width: 75%}
+@media (min-width:768px) and (max-width:1000px) {		
+			.child{width: 85%; padding: 5% 6% 5.5% 6.2%;}
 	 }
 
-	 @media (max-width:767px) {
+@media (max-width:767px) {
+            .tit{margin-bottom: 4%}
+			.titBtm{margin-bottom: 3%;}
 	 		.bg{display: none}
 	 		.bg1{display: block}
-	 		.child{width: 70%;top:10%;}
-	 		.tel{display: block;width: 100%}
-	 		.telimg{width: 25%}
-	 		.wecat{width: 100%;display: block;margin-top: 5%}
+	 		.child{width: 85%; top:6%; padding: 4.8% 4.5% 10% 5.5%; border-bottom-left-radius: 0; border-bottom-right-radius: 0;}
+	 		.tel{display: block;width: 100%; margin-top: 8%;}
+	 		.telimg,.wecatimg {width: 18%}
+	 		.wecat{width: 100%;display: block;margin-top: 6%}
 			.ma{width: 20%;vertical-align: top}
-			.wecatimg {width: 25%}
 			
 			.right2{padding-left: 7%}
-			.tel .right2{padding-top: 3%;padding-left: 3%}
-			.wecat .right2 {padding-top: 0.5%;}
+			.tel .right2{padding-top: 0%;padding-left: 3%}
+			.wecat .right2 {padding-top: 0%; margin-bottom: 3%;}
 			.maing{width: 100%}
 			.ma{margin-top: 5%;display: block;margin: 0 auto;width: 40%}
-
+            .boom{margin-top: 6%}
 			body{background: url(../shared/images/login/bgBigM.jpg)}
 				.left {display: block;width: 100%}
 				.right {display: block;padding-left: 0%;width: 100%;margin-top: 5%}
@@ -73,34 +71,21 @@
 				li{margin-left: 6%}
 	 }
 
-
-
-
 	</style>
-	
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42957008-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-42957008-1');
-</script>
-
 </head>
 <body>
 <div class="parent">
 
 	
 	<div class="child">
-		<div class="tit">忘記登入名</div>
-		<div class="txt1 title16 mTitle28">在您下單後，iTalkBB蜻蜓會發給您臨時登入名和密碼，通過這些登入信息，您就可以登入網上帳戶，並重置您的登入名和密碼！</div>
-		<div class="txt1 title16 mTitle28">您可以嘗試使用以下登入名的種類來登入您的帳戶：</div>
-		<ul>
-			<li class="txt1 title16 mTitle28">您註冊時設置的登入名</li>
-			<li class="txt1 title16 mTitle28">您註冊時設定手機號碼作為登入名</li>
-			<li class="txt1 title16 mTitle28">通過您的iTalkBB蜻蜓電話號碼，10位數字，如： 6261234567</li>
-			<li class="txt1 title16 mTitle28">您iTalkBB蜻蜓電話的899號碼或中文電視的699號碼。您的899號碼或699號碼可以在您的iTalkBB蜻蜓電話盒和電視盒上找到，如下圖所示：</li>
+		<div class="tit title36 mTitle44 fwb">忘記登入名</div>
+		<p class="titBtm text16 mText24">在您下單後，iTalkBB蜻蜓會發給您臨時登入名和密碼，通過這些登入信息，您就可以登入網上帳戶，並重置您的登入名和密碼！</p>
+		<p class="titBtm text16 mText24">您可以嘗試使用以下登入名的種類來登入您的帳戶：</p>
+		<ul class="text16 mText24">
+			<li>您註冊時設置的登入名</li>
+			<li>您註冊時設定手機號碼作為登入名</li>
+			<li>通過您的iTalkBB蜻蜓電話號碼，10位數字，如： 6261234567</li>
+			<li>您iTalkBB蜻蜓電話的899號碼或中文電視的699號碼。您的899號碼或699號碼可以在您的iTalkBB蜻蜓電話盒和電視盒上找到，如下圖所示：</li>
 		</ul>
 
 
@@ -136,23 +121,23 @@
       	  	</div>
       	  </div>
 
-		<div class="txt1 title16 mTitle28 boom">如果您仍不能登入成功，或者需要重新設置您的登入名，可通過以下方式聯繫我們：</div>
+		<div class="text16 mText24 boom">如果您仍不能登入成功，或者需要重新設置您的登入名，可通過以下方式聯繫我們：</div>
 
 		<div class="icon">
 		<div class="tel">
 			<div class="telimg left2"><img src="../shared/images/icons/callCenterIcon.png" alt=""></div>
-			<div class="right2"><p class="teltit title18 mTitle28">電話客服</p>
+			<div class="right2"><p class="teltit title20 mTitle28 fwb">電話客服</p>
 			<p class="teltxt title18 mTitle28">1-877-482-5503 </p></div>
 		</div><div class="wecat">
-			<div class="wecatimg left2"><img src="../shared/images/icons/iconWechat.png" alt=""></div>
-			<div class=" right2 title20 mTitle28"><p class="teltit title20 mTitle28">微信客服</p>
-			<p class="teltxt1 title18 mTitle16">打開微信掃一掃，或者</p>
-			<p class="teltxt1 title18 mTitle16">在微信中搜索“iTalkBB”</p>
-			<p class="teltxt1 title18 mTitle16">即可關注iTalkBB蜻蜓微信號。</p></div>
+			<div class="wecatimg left2"><img src="../shared/images/icons/weChatIcon.png" alt=""></div>
+			<div class=" right2 title20 mTitle28"><p class="teltit title20 mTitle28 fwb">微信客服</p>
+			<p class="teltxt1 text16 mText24">打開微信掃一掃，或者</p>
+			<p class="teltxt1 text16 mText24">在微信中搜索“iTalkBB”</p>
+			<p class="teltxt1 text16 mText24">即可關注iTalkBB蜻蜓微信號。</p></div>
 		</div><div class="ma">
 			<div class="maimg"><img src="../shared/images/icons/wechatQRcodeIcon.jpg" alt=""></div>
 		</div>
-		<div class="txt1 title16 mTitle28 boom">如果您僅是蜻蜓移動用戶（未使用蜻蜓電視或蜻蜓電話服務），請撥打1-855-482-5566，工作時間：8 am - 12 pm EST。</div>
+		<div class="text16 mText24 boom">如果您僅是蜻蜓移動用戶（未使用蜻蜓電視或蜻蜓電話服務），請撥打1-855-482-5566，工作時間：8 am - 12 pm EST。</div>
 		</div>
 	</div>
 </div>
