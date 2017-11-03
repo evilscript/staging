@@ -183,7 +183,7 @@ $(".button3").click(function(){
 	"Texas":[
 
 				{"shopName":"Dallas",
-			   "shopaddress":"Address: <span class='pin'>百佳超市内</span> <br> 240 Legacy Dr #200, Plano, TX 75023",
+			   "shopaddress":"Address: Jusgo Supermarket 240 Legacy Dr #200, Plano, TX 75023",
 			   "shoptime":"Hours: Mon - Sun, 10:30am - 7:30pm",
 			   "shopnum":"Tel: (972) 830-98886",
 			     "mapd":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.587302029888!2d-96.69748084909513!3d33.0673303763389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19c55ac35e63%3A0x34983b0fe24a7a47!2s240+Legacy+Dr+%23200%2C+Plano%2C+TX+75023!5e0!3m2!1sen!2sus!4v1506441498154",
@@ -238,7 +238,7 @@ $(".button3").click(function(){
 	"North Carolina":[
 
 			 	{"shopName":"Raleigh",
-			   "shopaddress":"Address: <span class='pin'>大亚洲超市内</span><br>  Grand Asia Market, 1253 Buck Jones Rd, Raleigh, NC 27606",
+			   "shopaddress":"Address: Grand Asia Market, 1253 Buck Jones Rd, Raleigh, NC 27606",
 			   "shoptime":"Hours: Sat, 10:30am - 7:30pm; Sun, 10:30am - 6:00pm",
 			   "shopnum":"Tel: (919) 522-0547",
 			     "mapd":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.392942166183!2d-78.74240534871409!3d35.76572288007737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acf484c5d375fb%3A0xd7621cb7abb13be7!2s1253+Buck+Jones+Rd%2C+Raleigh%2C+NC+27606!5e0!3m2!1sen!2sus!4v1504655511623",
