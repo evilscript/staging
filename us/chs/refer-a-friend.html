@@ -24,11 +24,23 @@
 <script src="../shared/js/common.js"></script>
 <style>
         .loginf{height: 19vw}
+        .searchBar2{border:1px solid #b1b1b1;border-radius: 10px;width:95%;}
+        .youemail,.younum{display: inline-block;width: 45%;}
+        .youemail{margin-left: 6%}
+        .younum{margin-left: 1%}
+        .pricepic{width: 45%;margin: 0 auto;margin-top: -5%}
+        .pricepic img{width: 100%}
+        
+        .youemail input,.younum input{line-height: 2}
+
             @media  (min-width:768px) and (max-width:1000px){
               .loginf{height: 30vw}
     }
     @media (max-width:767px){
               .loginf{height: 60vw}
+              .youemail{margin-left: -4%}
+                .youemail,.younum{display: inline-block;width: 50%;}
+                .pricepic{width: 85%;margin-top: -10%}
     }
      
     </style>
@@ -56,7 +68,7 @@
      	    	   <span>他无聊的美国生活</span>
      	    	   <span>将因你而改变</span>
      	    	</p>
-     	    	<p class="title30 mTitle30">iTalkBB蜻蜓将赠送你和你的朋友各$10礼金</p>
+     	    	<p class="title30 mTitle30">iTalkBB蜻蜓将赠送你和你的朋友精美奖品（价值最高$120）</p>
      	    </div>      	    	   
        </section>
        
@@ -69,7 +81,7 @@
         	<div class="referBannerBox"> 
       	      <div class="referTitleBig">
        	         <p class="titleBig1 title36 mTitle44 pin fwb">邀请您的朋友，一起体验iTalkBB蜻蜓的精彩服务</p>
-       	         <p class="titleBig2 title30 mTitle38">每推荐<span>1名</span>亲友加入</p>
+       	         <p class="titleBig2 title30 mTitle38">每推荐<span>2名</span>亲友加入</p>
        	      </div>      	      
         	  <div class="rewardCon gradient clearfix">               
                    <div class="rewardBox rewardBox1">
@@ -77,9 +89,10 @@
         	  		     <p class="title36 mTitle28">您可以得到</p>
         	  		  </div>
         	  		  <div class="rewardText">
-        	  			<div class="priceBox priceBox1 avenir clearfix">
-        	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">10</p>       	  			 	
+        	  			<div class="avenir clearfix">
+                      <div class="pricepic">
+        	  			        <img src="../shared/images/refer/price.png" alt="">
+                      </div>    	  			 	
         	  			</div>
         	  			<div class="textBox">
        	  			       <p></p>
@@ -94,7 +107,7 @@
         	  		  <div class="rewardText">
         	  			 <div class="priceBox priceBox1 avenir clearfix">
         	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">10</p>      	  			 	
+        	  			   <p class="priceBig title140 mTitle162">5</p>      	  			 	
         	  			 </div>
         	  			 <div class="textBox">
        	  			       <p class="title18 mTitle26">
@@ -125,6 +138,18 @@
              	<p class="title36 mTitle44">只需<span class="CloOrange title50 mTitle60 fwb">3</span>步，<span class="change1">邀请您的亲友一起体验精彩的海外生活</span></p>
              </div>
              <div class="referStepCon">
+
+                
+                    <div class="youemail clearfix">
+                       <input class="searchBar searchBar2 text18 mText22" type="search" placeholder="" value="输入您的Email" onfocus="if (value =='输入您的Email'){value =''}" onblur="if (value ==''){value='输入您的Email'}">              
+ 
+                  </div><div class="younum clearfix">
+                       <input class="searchBar searchBar2 text18 mText22" type="search" placeholder="" value="输入您的899号码" onfocus="if (value =='输入您的899号码'){value =''}" onblur="if (value ==''){value='输入您的899号码'}" >              
+
+                  </div>                  
+                
+
+
                 <div class="referStepBox">
 
              	   <div class="stepBox stepBox1">
