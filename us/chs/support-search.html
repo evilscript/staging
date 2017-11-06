@@ -1,59 +1,75 @@
 <!-- 
   Version:1.0   
-  Author: Amy 
+  Author: Amy & hounan
   Create Date:2017-08-22 
-  Update Date:2017-10-17
+  Update Date:2017-11-06
   Desc : Support Common Search  
 -->
 <section class="container1920">
-      	  <div class="sptSearch mainMgn200 clearfix">
-       	    <div class="left clearfix">
-        	    <p class="searchTitle title30 mTitle38">有问题？我们将为您竭诚解答。</p>
-        	    <p class="searchImg text18 mText26">&nbsp;</p>
+          <div class="sptSearch mainMgn200 clearfix">
+            <div class="left clearfix">
+              <p class="searchTitle title30 mTitle38">有问题？我们将为您竭诚解答。</p>
+              <p class="searchImg text18 mText26" >&nbsp;</p>
               
-          <script>
-            (function() {
-                var cx = '002779763613872999730:zbqcpv-o-la';
-                var gcse = document.createElement('script');
-                gcse.type = 'text/javascript';
-                gcse.async = true;
-                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(gcse, s);
-            })();
-        </script>
-        <div style="height: 0; visibility: hidden;">
-            <gcse:search></gcse:search>
-        </div>
 
 
-        	    <input id="sousuo" class="searchBar text18 mText26" type="search" placeholder="" value="输入需要帮助的关键字" onfocus="if (value =='输入需要帮助的关键字'){value =''}" onblur="if (value ==''){value='输入需要帮助的关键字'}" >        	    
-        	    <p class="searchButton text18 mText26" id="ssbtn">
+              <div >
+                    <div style="height: 0; visibility: hidden;">
+                      <gcse:search></gcse:search>
+                    </div>
+              </div>
+
+
+        <!--Google搜索代码结束-->
+        <!--镜像输入框和按键以达到自由修改样式-->
+
+              <input id="sousuo" class=" searchBar text18 mText26" type="search" placeholder="" value="请输入要搜索的内容" onfocus="if (value =='请输入要搜索的内容'){value =''}" onblur="if (value ==''){value='请输入要搜索的内容'}" >             
+              <p class="img searchButton text18 mText26" id="anniu" >
                     <span>&gt;</span>
-                </p>      		
-        	</div>
-        	<div class="right clearfix">
-        		<p class="title30 mTitle38">24小时人工客服</p>
-        		<p class="title24 mTitle32">专人为您服务</p>
-        		<div class="serviceBox clearfix">
-                   <a href="contact-us.html?kefu"><p class="text18 mText26 service1">致电我们</p></a>
-                   <a href="contact-us.html?kefu"><p class="text18 mText26 service2">微信我们</p></a>
-                   <a href="contact-us.html?chaxun"><p class="text18 mText26 service3 noBoder">到体验店</p></a>       		
-        		</div>
-        	</div>
-		  </div>           	      	
+                </p>          
+          </div>
+
+
+          <div class="right clearfix">
+            <p class="title30 mTitle38">24小时人工客服</p>
+            <p class="title24 mTitle32">专人为您服务</p>
+            <div class="serviceBox clearfix">
+                   <a href="contact-us.html?service"><p class="text18 mText26 service1">致电我们</p></a>
+                   <a href="contact-us.html?service"><p class="text18 mText26 service2">微信我们</p></a>
+                   <a href="contact-us.html?stores"><p class="text18 mText26 service3 noBoder">到体验店</p></a>           
+            </div>
+          </div>
+      </div>                    
       </section>
 
-      <script>
 
+
+<script>
+                  (function() {
+                    var cx = '002779763613872999730:zbqcpv-o-la';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                  })();
+</script>
+
+
+
+
+<script>
    /*Google 镜像*/
     $('#sousuo').keyup(function(){
         $('#gsc-i-id1').val($(this).val());
     });
-    $('#ssbtn').click(function(){
+    $('#anniu').click(function(){
         $(".gsc-search-button").trigger("click");
-  
-    });
-    /*结束*/
+      $('.searchFunction').css('display','block')
 
-      </script>
+    });
+
+  
+    /*结束*/
+</script>
