@@ -1,7 +1,5 @@
-.bannerAll {
-    background: url(../images/mobile/mobile_product_banner.jpg) no-repeat;
-    background-size: 100%;
-}
+
+.bannerAll {background: url(../images/mobile/productBanner.jpg) no-repeat; background-size: 100%;}
 .iconsBox .iconCon1,.iconsBox .iconCon2,.iconsBox .iconCon7,.iconsBox .iconCon8 {background:none;}
 .iconsBox .iconCon3{ background:url(../images/mobile/mobilePlanIcon1.png)  no-repeat top; background-size: 60%;}
 .iconsBox .iconCon4{ background:url(../images/mobile/mobilePlanIcon2.png)  no-repeat top; background-size: 60%;}
@@ -302,11 +300,7 @@ ul.listNom li{list-style-type:decimal;}
 .mobileDisclaimer{margin-top: 4%; margin-bottom: 4%;}
 
 @media (max-width:1000px) and (min-width:768px){
-    .bannerAll{
-        padding-top:5%;
-        height:auto;
-        background-size: cover;
-    }
+    .bannerAll{padding-top:10.3%; background: url(../images/mobile/ipadProductBanner.jpg) no-repeat; background-size: 100%;}
     .bannerSubTitle{
         margin-bottom: 0;
         padding-bottom: 11%;
@@ -368,11 +362,7 @@ ul.listNom li{list-style-type:decimal;}
 }
 
 @media (max-width:767px) {
-    .bannerAll {
-        background: url(../images/mobile/mobile_product_banner_mobile.jpg) no-repeat top center;
-        background-size: cover;
-        padding-top:7%;
-    }
+    .bannerAll {padding-top: 5.5%; background: url(../images/mobile/mProductBanner.jpg) no-repeat; background-size: 100%;}
     .bbPlan {
         background: url(../images/mobile/mobile_data_plan_select_background_mobile.jpg) no-repeat top center;
         background-size: 100%;
