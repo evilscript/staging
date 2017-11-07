@@ -51,7 +51,7 @@
         <!--Google搜索代碼結束-->
         <!--鏡像輸入框和按鍵以達到自由修改樣式-->
         <div class="headerMirrorSearchPart">
-            <input type="text" class="headerMirrorSearchText" placeholder="請輸入要搜索的內容" />
+            <input class="headerMirrorSearchText" type="search" placeholder="" value="請輸入要搜索的內容" onfocus="if (value =='請輸入要搜索的內容'){value =''}" onblur="if (value ==''){value='請輸入要搜索的內容'}"  />
             <img src="../shared/images/header/headerMirrorSearch.png" class="img headerMirrorSearch" alt="">
             <div class="clear clearfix"></div>
         </div>
