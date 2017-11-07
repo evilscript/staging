@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Amy
   Create Date:2017-10-30
-  Update Date:2017-10-30
+  Update Date:2017-11-07
   Desc : All Common CSS EN */  
 body {font-family: "open sans", arial, sans-serif!important; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
 .pin,.mic{font-family: "open sans", arial, sans-serif!important;}
@@ -9,126 +9,30 @@ body {font-family: "open sans", arial, sans-serif!important; background-color: #
 .menuRight {width: 32%;}
 .telephone{width:18%; margin-left: -5%;}
 
+.menu1Block, .menu2Block, .menu3Block, .menu4Block, .menu5Block {width: 16%;}
+.menu1Block img, .menu2Block img, .menu3Block img, .menu4Block img, .menu5Block img{width: 22%; margin-left: 39%; padding-bottom: 4%;}
 
-/*@media (max-width:1700px) {
-    .bgTitle {
-        font-size: 16px;
-    }
-    .bgText {
-        font-size: 15px;
-    }
-    .footerSitemap .footerTitle{
-        font-size: 16px;
-    }
-    .footerSitemap .footerText{
-        font-size:14px;
-    }
-    .teleText {
-        font-size: 16px;
-    }
-    .menu2Block, .menu1Block, .menu3Block, .menu4Block, .menu5Block{
-        font-size: 12px;
-    }
+@media (max-width:1600px){
+   .menu1Block, .menu2Block, .menu3Block, .menu4Block, .menu5Block {width: 17%;}
 }
 
-@media (max-width:1600px) {
-    .menuText {
-        font-size: 16px;
-    }
-    .bgTitle {
-        font-size: 15px;
-    }
-    .bgText {
-        font-size: 14px;
-    }
-    .footerSitemap .footerTitle {
-        font-size: 15px;
-    }
-    .footerSitemap .footerText {
-        font-size: 12px;
-
-    }
-    .teleText {
-        font-size: 14px;
-    }
-}
-
-@media (max-width:1400px) {
-    .footerText {
-        font-size: 12px;
-    }
-    .teleText {
-        font-size: 13px;
-    }
-    .bgTitle {
-        font-size: 13px;
-    }
-    .bgText {
-        font-size: 12px;
-    }
-    .footerSitemap .footerTitle {
-        font-size: 14px;
-    }
-    .menu2Block, .menu1Block, .menu3Block, .menu4Block, .menu5Block {
-        font-size: 11px;
-    }
+@media (max-width:1400px){
+   .menu1Block, .menu2Block, .menu3Block, .menu4Block, .menu5Block {width: 18%;}
 }
 
 @media (max-width:1300px){
-    .footerText {
-        color: #d4d4d4;
-        font-size: 0.9vw;
-    }
-    .footerTitle {
-        font-size: 1.2vw;
-    }
-    .menuText {
-        font-size: 1.1vw;
-    }
-    .teleText {
-        font-size: 1.1vw;
-    }
-    .bgTitle {
-        font-size: 1vw;
-    }
-    .bgText {
-        font-size: 1vw;
-    }
-    .footerSitemap .footerTitle {
-        font-size: 1.1vw;
-    }
-    .footerSitemap .footerText {
-        font-size: 0.95vw;
-    }
-    .menu2Block, .menu1Block, .menu3Block, .menu4Block, .menu5Block {
-        font-size: 0.7vw;
-    }
+   .menu1Block, .menu2Block, .menu3Block, .menu4Block, .menu5Block {width: 19%;}
+   .menu1Block img, .menu2Block img, .menu3Block img, .menu4Block img, .menu5Block img{width: 26%; margin-left: 37%;}
 }
-*/
+
 @media (min-width:768px) and (max-width:1000px) {
     .footerColumn{width:18.8%;}
-	.telephone{width:26%; margin-left: -13%; padding-top: 5%;}
-    /*.footerTitle {
-        font-size: 1.6vw;
-    }
-    .footerText, .disclaimer {
-        font-size: 1.5vw;
-    }
-    .header1Icon:nth-child(1) {
-        width: 7.1%;
-    }
-    .teleText {
-        font-size: 1.4vw;
-    }*/
+	.telephone{width:26%; margin-left: -13%; padding-top: 5%;}   
 }
 
 @media (max-width:767px) {
-    /*.footerTitle {
-        font-size: 4vw;
-    }
-    .footerText {
-        font-size: 3.4vw;
-    }*/
+    
+
 }
 
 
