@@ -35,10 +35,10 @@
 
 .menuBox{margin-top: -5.2%;}
 .menuBtn{background: #fff;}
-.referAfriend{background:#f2f2f2 url(../images/refer/referPeopleBg.png) no-repeat bottom; background-size: 25%; background-position-x: 18%;background-position-y: 100%;}
+.referAfriend{background:#f2f2f2 url(../images/refer/referPeopleBg.png) no-repeat bottom; background-size: 28%; background-position-x: 18%;background-position-y: 100%;}
 .referCon{margin-top: 2%;}
 .referStepTitle{text-align: center; padding-left: 1.2%;margin-bottom: 2.5%;}
-.referStepCon{ padding-left: 47%;margin-right: 10%; padding-bottom: 2%;}
+.referStepCon{ padding-left: 47%;margin-right: 10%; padding-bottom: 3.5%;}
 .referStepBox{border-left: .2vw solid #ff7f00;}
 .stepBox{padding: 2.3% 0; margin: 3% 0;margin-left: -5.25%;}
 .stepBox1{background: url(../images/refer/referStep1.png) no-repeat; background-size: 9.5%;background-position-y: 50%;}
@@ -64,6 +64,7 @@
 .foldText{padding: 8% 8%; border-radius: 3px; border: #c2c2c2 1px solid;}
 .bubbleAngle{float: left; transform:rotate(45deg);width:.8vw; height:.8vw; border-color:#c2c2c2; margin-left: -1.8%; margin-top: 18%; background: #f2f2f2;}
 .foldText,.searchBar,.searchButton{background: none;}
+
 /* refer main end */
 
 /* login begin */
@@ -142,9 +143,9 @@
 	/* refer main begin */
 	.menuCon{padding-top: 0;}
 	.menuBox{margin-top: 0%;}
-	.referAfriend{background-size: 32%; background-position-x: 12%;}
+	.referAfriend{background-size: 39%; background-position-x: 9%;}
 	.referStepTitle{margin-top: 3%; margin-bottom: 3%;}
-	.referStepCon{padding-left: 50%; margin-right: 5%; padding-bottom: 1%;}
+	.referStepCon{padding-left: 50%; margin-right: 5%; padding-bottom: 5%;}
 	.searchBar{width: 41%;}
 	.searchButton{width: 12%;}
 	.stepQRcode{margin-left: 3%; width: 19%;}
@@ -186,7 +187,7 @@
 	.menuBox{margin-top: 0%;}
 	.referAfriend{background: #f2f2f2;}
 	.referStepTitle{padding: 0 5.2%; margin-top: 8%; margin-bottom: 4%;}
-    .referStepCon{padding-left:11.5%; margin-right: 5%; padding-bottom: 5%;}
+    .referStepCon{padding-left:11.5%; margin-right: 5%; padding-bottom: 12%;}
 	.searchBar{width: 40%;}
 	.searchButton{width: 12%;}
 	.stepQRcode{margin-left: 3%; width: 19%;}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cmn-Hans">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>iTalkBB-Refer a Friend</title>
@@ -25,11 +25,41 @@
 <script src="../shared/js/common.js"></script>
 <style>
         .loginf{height: 19vw}
-            @media  (min-width:768px) and (max-width:1000px){
-              .loginf{height: 30vw}
+        .searchBar2{border:1px solid #b1b1b1;border-radius: 10px;width:95%;}
+        .youemail,.younum{display: inline-block;width: 45%;}
+        .youemail{margin-left: 6%}      
+        .pricepic{width: 45%;margin: 0 auto;margin-top: -5%}
+        .pricepic img{width: 100%}
+        .time{margin-left: 6%}
+        .friendemail{margin-left: 12%;border: 1px solid #b1b1b1;border-radius: 10px;width: 41%}
+        .sendButton{border-radius: 10px;width: 40%;margin: 0 auto;text-align: center;line-height: 1.5;background-color: #ff7f00;color: white;cursor:pointer;padding-top: 1%;padding-bottom: 1%}        
+        .youemail input,.younum input{line-height: 2.5;padding-left: 5.5%}
+		
+		.titleBox p{margin-bottom: -6%;}
+		.rewardCon{padding-bottom: 1.5%;}
+
+@media  (min-width:768px) and (max-width:1000px){
+               .loginf{height: 30vw}
+               .friendemail{margin-left: 16%}
+               .youemail{margin-left: 9%}
+			   
+			   .bannerAll{padding-top: 12%;}
+			   .bannerTitle{font-size: 4vw;}
+			   .titleBox p{font-size: 2vw; margin-bottom: -5%;}
+			   .rewardCon{padding-bottom: 3.5%;}
     }
-    @media (max-width:767px){
+	
+@media (max-width:767px){
               .loginf{height: 60vw}
+             
+                .youemail,.younum{display: inline-block;width: 50%;}
+                .younum{margin-top:5% }
+                .pricepic{width: 85%;margin-top: -10%}
+                .friendemail{margin-left: 17%;width: 60%}
+                .youemail,.younum{display: block;width: 85%;margin-left: 8%}
+                .sendButton{width: 50%}
+				
+				.stepBox{padding: 3.2% 0; margin-left: -6.9%; background-size: 12%;background-position-y: 50%;}
     }
      
     </style>
@@ -53,11 +83,14 @@
    <div class="mainLayout">
        <section class="bannerAll">
      	    <div class="bannerText">
-     	    	<p class="title60 mTitle60 pin fwb bannerTitle">
-     	    	   <span>他无聊的美国生活</span>
-     	    	   <span>将因你而改变</span>
+     	    	<p class="title50 mTitle50 pin fwb bannerTitle">
+     	    	   <span>Enrich the Lives of </span>
+     	    	   <span>Your Family and Friends!</span>
      	    	</p>
-     	    	<p class="title30 mTitle30">iTalkBB蜻蜓将赠送你和你的朋友各$10礼金</p>
+     	    	<p class="title24 mTitle24">
+				   <span>You Can Earn Rewards by Referring Friends</span>
+     	    	   <span>(Value up to $120)</span>				
+				</p>
      	    </div>      	    	   
        </section>
        
@@ -69,18 +102,19 @@
       	    <!-- refer banner begin-->       	         	      	        	 
         	<div class="referBannerBox"> 
       	      <div class="referTitleBig">
-       	         <p class="titleBig1 title36 mTitle44 pin fwb">邀请您的朋友，一起体验iTalkBB蜻蜓的精彩服务</p>
-       	         <p class="titleBig2 title30 mTitle38">每推荐<span>1名</span>亲友加入</p>
+       	         <p class="titleBig1 title34 mTitle42 fwb">Invite Your Family and Friends to Join iTalkBB</p>
+       	         <p class="titleBig2 title28 mTitle36">For every individual you refer who successfully signs up with iTalkBB</p>
        	      </div>      	      
         	  <div class="rewardCon gradient clearfix">               
                    <div class="rewardBox rewardBox1">
         	  		  <div class="titleBox titleBox1 clearfix">
-        	  		     <p class="title36 mTitle28">您可以得到</p>
+        	  		     <p class="title28 mTitle22">You will receive rewards</p>
         	  		  </div>
         	  		  <div class="rewardText">
-        	  			<div class="priceBox priceBox1 avenir clearfix">
-        	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">10</p>       	  			 	
+        	  			<div class="avenir clearfix">
+                      <div class="pricepic">
+        	  			        <img src="../shared/images/refer/price.png" alt="">
+                      </div>    	  			 	
         	  			</div>
         	  			<div class="textBox">
        	  			       <p></p>
@@ -90,16 +124,16 @@
                   
                    <div class="rewardBox rewardBox2">
 					  <div class="titleBox titleBox2 clearfix">
-        	  			<p class="title36 mTitle28">您的朋友可以得到</p>
+        	  			<p class="title28 mTitle22">Your friend will receive</p>
         	  		  </div>
         	  		  <div class="rewardText">
         	  			 <div class="priceBox priceBox1 avenir clearfix">
         	  			   <p class="dollar title60 mTitle68">$</p>
-        	  			   <p class="priceBig title140 mTitle162">10</p>      	  			 	
+        	  			   <p class="priceBig title140 mTitle162">5</p>      	  			 	
         	  			 </div>
         	  			 <div class="textBox">
-       	  			       <p class="title18 mTitle26">
-        	  			    <span class="textHot">注册时立刻减免</span>
+       	  			       <p class="text16 mText22">
+        	  			    <span class="textHot">It will apply to your friend's order directly</span>
         	  			   </p>
         	  			 </div>
         	  		  </div>
@@ -115,39 +149,47 @@
       	  <div class="mainMgn200">      	        	 
         	<div class="menuCon">
         	   <div class="menuBox menuBox2 clearfix">
-			      <!--<p class="menuBtn title24 mTitle26 use selected changes1">推荐蜻蜓移动服务</p>-->
-			      <p class="menuBtn title24 mTitle26 fault selected changes2">推荐蜻蜓电话服务</p>
-			      <p class="menuBtn title24 mTitle26 signal changes3">推荐蜻蜓电视服务</p>
+			      <!--<p class="menuBtn title22 mTitle24 use selected changes1">推荐蜻蜓移动服务</p>-->
+			      <p class="menuBtn title22 mTitle24 fault selected changes2">Refer iTalkBB Home Phone</p>
+			      <p class="menuBtn title22 mTitle24 signal changes3">Refer iTalkBB Chinese TV</p>
 			  </div>	
 			</div>
 		  </div>
          <div class="referCon">
              <div class="referStepTitle">
-             	<p class="title36 mTitle44">只需<span class="CloOrange title50 mTitle60 fwb">3</span>步，<span class="change1">邀请您的亲友一起体验精彩的海外生活</span></p>
+             	<p class="title36 mTitle44"><span class="CloOrange title50 mTitle60 fwb">3</span> <span class="change1">Simple Steps to Get Rewarded</span>!</p>
              </div>
              <div class="referStepCon">
+
                 <div class="referStepBox">
 
              	   <div class="stepBox stepBox1">
-             		  <p class="stepTitle title24 mTitle28 change2">把您的899号码告诉朋友<span class="where">（<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">在哪里找到899号码？</a>)</span></p>
+             		  <p class="stepTitle title24 mTitle22 change2">Share your iTalkBB 899 Number with Your Friend <br class="showPC"><span class="where">(<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">What is  your iTalkBB 899 Number?</a>)</span></p>
              	   </div>
+
+                  <div class="youemail clearfix">
+                       <input class="searchBar searchBar2 text18 mText22" type="text" placeholder="Enter Your Email">              
+ 
+                  </div><div class="younum clearfix">
+                       <input class="searchBar searchBar2 text18 mText22" type="text" placeholder="Enter Your 899 Number">              
+
+                  </div>                  
+                
              	   <div class="stepBox stepBox2">
-             		  <p class="stepTitle title24 mTitle28">发送给朋友</p>             		  
+             		  <p class="stepTitle title24 mTitle22">Share the referral rewards program through Email</p>             		  
              	   </div>
              	   <div class="stepBox stepBox2Con">
              	      <div class="email clearfix">
-             		     <p class="searchText text18 mText22">方法一：电子邮件</p>
-        	             <input class="searchBar text18 mText22" type="search" placeholder="" value="输入您朋友的邮箱" onfocus="if (value =='输入您朋友的邮箱'){value =''}" onblur="if (value ==''){value='输入您朋友的邮箱'}" >        	    
-        	             <p class="searchButton text18 mText22">
-                         发送
-                         </p>  
+                         <!--  <p class="searchText text18 mText22"></p> -->
+        	             <input class="searchBar text18 mText22 friendemail" type="text" placeholder="Enter Your Friend's Email">        	    
+
              		  </div>             		  
              	   </div>
              	   <div class="stepBox stepBox3">
-             		  <p class="stepTitle title24 mTitle28 change3">成功！您的亲友将注册时输入您的899号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的$10</p>
+             		  <p class="stepTitle title24 mTitle22 change3">And then you're done! Your friend will receive $5 off when they enter your 899 number during sign up. You will receive rewards from iTalkBB after your friend has 30 days of active service.</p>                  
              	   </div>
-
              	</div>
+                  <p class="sendButton title24 mTitle28 ">SEND</p>
              </div>
           </div> 
           <!--<div class="referCon">
@@ -166,7 +208,7 @@
              	   <div class="stepBox stepBox2Con">
              	      <div class="email clearfix">
              		     <p class="searchText text18 mText22">方法一：电子邮件</p>
-        	             <input class="searchBar text18 mText22" type="search" placeholder="" value="输入您朋友的邮箱" onfocus="if (value =='输入您朋友的邮箱'){value =''}" onblur="if (value ==''){value='输入您朋友的邮箱'}" >        	    
+        	             <input class="searchBar text18 mText22" type="search" placeholder="" value="Enter Your Friend&#39;s Email" onfocus="if (value =='Enter Your Friend&#39;s Email'){value =''}" onblur="if (value ==''){value='Enter Your Friend&#39;s Email'}" >        	    
         	             <p class="searchButton text18 mText22">
                          发送
                          </p>  
@@ -195,7 +237,7 @@
        <section>
       	  <div class="referLower mainMgn320 clearfix">
       	  	<div class="left clearfix">
-      	  	   <p class="title36 mTitle44 pin fwb">登录查看推荐记录</p>
+      	  	   <p class="title34 mTitle42 fwb">Check Your Reward Points</p>
      	  	   <div class="loginBox">
 
                     <div class="loginf">
@@ -211,7 +253,7 @@
       	  	         <input class="loginInput text18 mText22" type="search" placeholder="" value="密码" onfocus="if (value =='密码'){value =''}" onblur="if (value ==''){value='密码'}" > 	
       	  	      </div>
       	  	      <div class="loginSubmit">
-      	  	      	 <a href="#"><p class="title30 mTitle38">登 录</p></a>
+      	  	      	 <a href="#"><p class="title28 mTitle36">登 录</p></a>
       	  	      </div>
       	  	      <div class="loginText">
       	  	      	 <a href="#" class="linkOrange"><p class="text18 mText22">立即注册</p></a>
@@ -220,14 +262,14 @@
       	  	   </div>
       	  	</div>
       	  	<div class="right clearfix">
-      	  	   <p class="title36 mTitle44 pin fwb">往期精彩奖品</p>
+      	  	   <p class="title34 mTitle42 fwb">Previous Rewards</p>
      	  	   <div class="vipBox">
-      	  	   	  <img src="../shared/images/refer/vipProduct_20170919.jpg" style="width: 100%;" alt="iTalkBB蜻蜓-推荐亲友"> 
+      	  	   	  <img src="../shared/images/refer/vipProduct_20170919.jpg" style="width: 100%;" alt="iTalkBB-Refer a Friend"> 
       	  	   	  <div class="vipText">
       	  	   	  	 <p class="text18 mText26">Vitamix 維他美仕 食品調理機Pro 200（黑色）</p>
       	  	   	  	 <p class="text18 mText26 org">iTalkBB VIP價格: $349</p>
       	  	   	  	 <p class="text16 mText24 priceCrossed">&nbsp;原價:$450.00&nbsp;</p>
-      	  	   	  	 <a class="linkOrange" href="referral-disclaimer.html" target="_blank"><p class="text16 mText24">* 活动细则</p></a>
+      	  	   	  	 <a class="linkOrange" href="referral-disclaimer.html" target="_blank"><p class="text16 mText24">*Disclaimer</p></a>
       	  	   	  </div>         
       	  	   </div>
       	  	</div>
@@ -251,9 +293,9 @@
 
 
 $('.changes2').click(function(){
-      $('.change1').html('邀请您的亲友一起体验精彩的海外生活');
-      $('.change2').html('把您的899号码告诉朋友<span class="where">（<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">在哪里找到899号码？</a>)</span>');
-      $('.change3').html('成功！您的亲友将注册时输入您的899号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的$10');
+      $('.change1').html('Simple Steps to Get Rewarded');
+      $('.change2').html('Share your iTalkBB 899 Number with Your Friend <br class="showPC"><span class="where">(<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">What is  your iTalkBB 899 Number?</a>)</span>');
+      $('.change3').html("And then you're done! Your friend will receive $5 off when they enter your 899 number during sign up. You will receive rewards from iTalkBB after your friend has 30 days of active service.");
       $(".shortMessage").css('display','none');
       //$('.referAfriend').height(h);
      $('.menuBtn').removeClass('selected');
@@ -261,9 +303,9 @@ $('.changes2').click(function(){
 })
 
 $('.changes3').click(function(){
-      $('.change1').html('邀请您的亲友一起体验精彩的海外生活');
-      $('.change2').html('把您的699号码告诉朋友<span class="where">（<a href="support-chinese-tv.html#number699" class="linkOrange" target="_blank">在哪里找到699号码？</a>)</span>');
-      $('.change3').html('成功！您的亲友将注册时输入您的699号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的$10');
+      $('.change1').html('Simple Steps to Get Rewarded');
+      $('.change2').html('Share your iTalkBB 699 Number with Your Friend <br class="showPC"><span class="where">(<a href="support-chinese-tv.html#number699" class="linkOrange" target="_blank">What is  your iTalkBB 699 Number?</a>)</span>');
+      $('.change3').html("And then you're done! Your friend will receive $5 off when they enter your 699 number during sign up. You will receive rewards from iTalkBB after your friend has 30 days of active service.");
       $(".shortMessage").css('display','none');
       //$('.referAfriend').height(h);
            $('.menuBtn').removeClass('selected');

@@ -429,8 +429,13 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 @media  (min-width:1001px){
     .mainMgn320{margin: 0 auto;width: 66.7%;}
 	.mainMgn200{margin: 0 auto;width: 79.2%;}
-	.mainMgn100{margin: 0 auto;width: 89.5%;;}	
+	.mainMgn100{margin: 0 auto;width: 89.5%;}	
 }
+
+@media  (max-width:1000px){
+    .showPC{display: none;}	
+}
+
 @media (min-width:768px) and (max-width:1000px) {    
     /* mainLayout start */	
 	.mainLayout{max-width:1000px; padding-top: 14%;/* margin-bottom: 0;*/ }
