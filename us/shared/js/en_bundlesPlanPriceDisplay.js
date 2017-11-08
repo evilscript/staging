@@ -6,7 +6,7 @@ app.controller('mobilePlanController', function($scope) {
     $scope.plan1_dec = '.99';
     $scope.plan2_int = '39';
     $scope.plan2_dec = '.99';
-    $scope.plan1_tex = '1 Mobile Line+ 1 TV + Home Phone';
+    $scope.plan1_tex = '1 Mobile Line + 1 TV + 1 Home Phone';
     $scope.isUser = function(){
         $scope.user = true;
         $('.ifCustomerLeftText').removeClass('ifCustomerSelected');
@@ -63,42 +63,42 @@ app.controller('mobilePlanController', function($scope) {
             if ( lineNumber == 1) {
                 $scope.plan1_int = '24';
                 $scope.plan2_int = '39';
-                $scope.plan1_tex = '1 Mobile Line+ 1 TV + Home Phone';
+                $scope.plan1_tex = '1 Mobile Line + 1 TV + 1 Home Phone';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=1");
     
             }
             else if ( lineNumber == 2) {
                 $scope.plan1_int = '44';
                 $scope.plan2_int = '74';
-                $scope.plan1_tex = '2 Mobile Line+ 1 TV + Home Phone';
+                $scope.plan1_tex = '2 Mobile Lines！！ + 1 TV + 1 Home Phone';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=2");
 
             }
             else if ( lineNumber == 3) {
                 $scope.plan1_int = '59';
                 $scope.plan2_int = '109';
-                $scope.plan1_tex = '3 Mobile Line+ 1 TV + Home Phone';
+                $scope.plan1_tex = '3 Mobile Lines！！ + 1 TV + 1 Home Phone';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=3");
   
             }
             else if ( lineNumber == 4) {
                 $scope.plan1_int = '74';
                 $scope.plan2_int = '144';
-                $scope.plan1_tex = '4 Mobile Line+ 1 TV + Home Phone';
+                $scope.plan1_tex = '4 Mobile Lines！！ + 1 TV + 1 Home Phone';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=4");
 
             }
             else if ( lineNumber == 5) {
                 $scope.plan1_int = '89';
                 $scope.plan2_int = '179';
-                $scope.plan1_tex = '5 Mobile Line+ 1 TV + Home Phone';
+                $scope.plan1_tex = '5 Mobile Lines！！ + 1 TV + 1 Home Phone';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=5");
  
             }
             else if ( lineNumber == 6) {
                 $scope.plan1_int = '104';
                 $scope.plan2_int = '214';
-                $scope.plan1_tex = '6 Mobile Line+ 1 TV + Home Phone';
+                $scope.plan1_tex = '6 Mobile Lines！！ + 1 TV + 1 Home Phone';
                 // checkChinaSim(parent.location.hash = "?isUser=false?line=6");
 
             }

@@ -67,6 +67,9 @@
                             <div class="otherYearAll" ng-click="yearWhole()">
                                 <p class="otherYearText sans title24 mTitle32 fwb">All News</p>
                             </div>
+                            <div class="otherYear2017" ng-click="year2017()">
+                                <p class="otherYearText sans title24 mTitle32 fwb">2017</p>
+                            </div>
                             <div class="otherYear2016" ng-click="year2016()">
                                 <p class="otherYearText sans title24 mTitle32 fwb">2016</p>
                             </div>
@@ -93,7 +96,82 @@
                             </div>
                         </div>
                     </div>
-
+                    
+                    <a href="zNews20171004-2.html">
+                        <div class="newsAll news2017 20171004-2" ng-show="newsAll||news2017">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft sans">
+                                    <p class="newsBlockLeftYear title28 mTitle36">2017</p>
+                                    <p class="newsBlockLeftDate"><sup class="fontAdjust title28 mTitle36">10 / </sup>04</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="titleMgnBtm newsBlockRightTitle title28 mTitle36 pin fwb">
+                                     Brooklyn Nets Star Players Meet and Greet Fans in the iTalkBB Flagship Store
+                                    </p>
+                                    <p class="newsBlockRightText text16 mText24">Guess who were invited by us on the Moon Festival? Everyone was here waiting for something big……<span class="hideM"> Because Three top players of Brooklyn nets Jeremy Lin, Jarrett Allen and Caris LeVert were invited by iTalkBB to meet and greet its fans at the iTalkBB Flagship Store in Flushing, New York!</span>.
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="zNews20171004-1.html">
+                        <div class="newsAll news2017 20171004-1" ng-show="newsAll||news2017">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft sans">
+                                    <p class="newsBlockLeftYear title28 mTitle36">2017</p>
+                                    <p class="newsBlockLeftDate"><sup class="fontAdjust title28 mTitle36">10 / </sup>04</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="titleMgnBtm newsBlockRightTitle title28 mTitle36 pin fwb">
+                                     Brooklyn Nets Players-Jeremy Lin, Jarret Allen and Caris LeVert visited iTalkBB New York Flagship store on Mid-autumn festival
+                                    </p>
+                                    <p class="newsBlockRightText text16 mText24">iTalkBB has been partnered with Brooklyn Nets for two years. On October 4th, also a Chinese traditional holiday-mid autumn festival <span class="hideM">, Nets top players- Jeremy Lin, Jarrett Allen and Caris LeVert visited iTalkBB’s NY Flagship store, met and greeted its customers and audience</span>.
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="zNews20170923.html">
+                        <div class="newsAll news2017 20170923" ng-show="newsAll||news2017">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft sans">
+                                    <p class="newsBlockLeftYear title28 mTitle36">2017</p>
+                                    <p class="newsBlockLeftDate"><sup class="fontAdjust title28 mTitle36">09 / </sup>23</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="titleMgnBtm newsBlockRightTitle title28 mTitle36 pin fwb">
+                                     A Good Cause Worth Celebrating
+                                    </p>
+                                    <p class="newsBlockRightText text16 mText24">At iTalkBB, we’re dedicated to providing a better life for foreign-born individuals living in the United States, Canada, Australia, and Singapore.<span class="hideM"> Which is why we’re proud to be united with St. Jude in realizing a goal that inspires us all: curing childhood cancer.</span>
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="zNews20161201.html">
+                        <div class="newsAll news2016 20161201" ng-show="newsAll||news2016">
+                            <div class="newsBlock">
+                                <div class="newsBlockLeft sans">
+                                    <p class="newsBlockLeftYear title28 mTitle36">2016</p>
+                                    <p class="newsBlockLeftDate"><sup class="fontAdjust title28 mTitle36">12 / </sup>01</p>
+                                </div>
+                                <div class="newsBlockRight">
+                                    <p class="titleMgnBtm newsBlockRightTitle title28 mTitle36 pin fwb">
+                                     iTalkBB Named Corporate Sponsor of the Brooklyn Nets
+                                    </p>
+                                    <p class="newsBlockRightText text16 mText24">iiTalkBB, the premier Internet and telecom service provider for Chinese and Korean consumers internationally, is an official sponsor of the Brooklyn Nets.<span class="hideM"> The Nets signed Jeremy Lin this year, catching the attention of Asian basketball fans all over the world. Jeremy is an inspiration to Chinese Americans. </span>
+                                    </p>
+                                </div>
+                                <div class="clear clearfix"></div>
+                            </div>
+                        </div>
+                    </a>
 
                     <a href="zNews20160719.html">
                         <div class="newsAll news2016 20160719" ng-show="newsAll||news2016">
@@ -363,6 +441,20 @@
             $scope.yearWhole = function(){
                 $scope.year='All News';
                 $scope.newsAll=true;
+				$scope.news2017=false;
+                $scope.news2016=false;
+                $scope.news2014=false;
+                $scope.news2010=false;
+                $scope.news2008=false;
+                $scope.news2007=false;
+                $scope.news2006=false;
+                $scope.news2005=false;
+                $scope.news2004=false;
+            };
+			$scope.year2017 = function(){
+                $scope.year='2016';
+                $scope.newsAll=false;
+				$scope.news2017=true;
                 $scope.news2016=false;
                 $scope.news2014=false;
                 $scope.news2010=false;
@@ -375,6 +467,7 @@
             $scope.year2016 = function(){
                 $scope.year='2016';
                 $scope.newsAll=false;
+				$scope.news2017=false;
                 $scope.news2016=true;
                 $scope.news2014=false;
                 $scope.news2010=false;
@@ -387,6 +480,7 @@
             $scope.year2014 = function(){
                 $scope.year='2014';
                 $scope.newsAll=false;
+				$scope.news2017=false;
                 $scope.news2016=false;
                 $scope.news2014=true;
                 $scope.news2010=false;
@@ -399,6 +493,7 @@
             $scope.year2010 = function(){
                 $scope.year='2010';
                 $scope.newsAll=false;
+				$scope.news2017=false;
                 $scope.news2016=false;
                 $scope.news2014=false;
                 $scope.news2010=true;
@@ -411,6 +506,7 @@
             $scope.year2008 = function(){
                 $scope.year='2008';
                 $scope.newsAll=false;
+				$scope.news2017=false;
                 $scope.news2016=false;
                 $scope.news2014=false;
                 $scope.news2010=false;
@@ -423,6 +519,7 @@
             $scope.year2007 = function(){
                 $scope.year='2007';
                 $scope.newsAll=false;
+				$scope.news2017=false;
                 $scope.news2016=false;
                 $scope.news2014=false;
                 $scope.news2010=false;
@@ -435,6 +532,7 @@
             $scope.year2006 = function(){
                 $scope.year='2006';
                 $scope.newsAll=false;
+				$scope.news2017=false;
                 $scope.news2016=false;
                 $scope.news2014=false;
                 $scope.news2010=false;
@@ -447,6 +545,7 @@
             $scope.year2005 = function(){
                 $scope.year='2005';
                 $scope.newsAll=false;
+				$scope.news2017=false;
                 $scope.news2016=false;
                 $scope.news2014=false;
                 $scope.news2010=false;
@@ -459,6 +558,7 @@
             $scope.year2004 = function(){
                 $scope.year='2004';
                 $scope.newsAll=false;
+				$scope.news2017=false;
                 $scope.news2016=false;
                 $scope.news2014=false;
                 $scope.news2010=false;

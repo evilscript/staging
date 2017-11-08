@@ -27,20 +27,30 @@
         .searchBar2{border:1px solid #b1b1b1;border-radius: 10px;width:95%;}
         .youemail,.younum{display: inline-block;width: 45%;}
         .youemail{margin-left: 6%}
-        .younum{margin-left: 1%}
+      
         .pricepic{width: 45%;margin: 0 auto;margin-top: -5%}
         .pricepic img{width: 100%}
+        .time{margin-left: 6%}
+        .friendemail{margin-left: 12%;border: 1px solid #b1b1b1;border-radius: 10px;width: 41%}
+        .searchButtonx{border-radius: 10px;width: 40%;margin: 0 auto;text-align: center;line-height: 1.5;background-color: #ff7f00;color: white;cursor:pointer;padding-top: 1%;padding-bottom: 1%}
+
         
-        .youemail input,.younum input{line-height: 2}
+        .youemail input,.younum input{line-height: 2.5;padding-left: 5.5%}
 
             @media  (min-width:768px) and (max-width:1000px){
               .loginf{height: 30vw}
+               .friendemail{margin-left: 16%}
+               .youemail{margin-left: 9%}
     }
     @media (max-width:767px){
               .loginf{height: 60vw}
-              .youemail{margin-left: -4%}
+             
                 .youemail,.younum{display: inline-block;width: 50%;}
+                .younum{margin-top:5% }
                 .pricepic{width: 85%;margin-top: -10%}
+                .friendemail{margin-left: 17%;width: 60%}
+                .youemail,.younum{display: block;width: 85%;margin-left: 8%}
+                .searchButtonx{width: 50%}
     }
      
     </style>
@@ -68,10 +78,7 @@
      	    	   <span>他无聊的美国生活</span>
      	    	   <span>将因你而改变</span>
      	    	</p>
-     	    	<p class="title30 mTitle30">
-     	    	   <span>iTalkBB蜻蜓将赠送你和你的朋友精美奖品</span>
-     	    	   <span>（价值最高$120）</span>
-     	    	</p>
+     	    	<p class="title30 mTitle30">iTalkBB蜻蜓将赠送你和你的朋友精美奖品（价值最高$120）</p>
      	    </div>      	    	   
        </section>
        
@@ -142,8 +149,13 @@
              </div>
              <div class="referStepCon">
 
-                
-                    <div class="youemail clearfix">
+                <div class="referStepBox">
+
+             	   <div class="stepBox stepBox1">
+             		  <p class="stepTitle title24 mTitle28 change2">把您的899号码告诉朋友<span class="where">（<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">在哪里找到899号码？</a>)</span></p>
+             	   </div>
+
+                  <div class="youemail clearfix">
                        <input class="searchBar searchBar2 text18 mText22" type="search" placeholder="" value="输入您的Email" onfocus="if (value =='输入您的Email'){value =''}" onblur="if (value ==''){value='输入您的Email'}">              
  
                   </div><div class="younum clearfix">
@@ -151,30 +163,22 @@
 
                   </div>                  
                 
-
-
-                <div class="referStepBox">
-
-             	   <div class="stepBox stepBox1">
-             		  <p class="stepTitle title24 mTitle28 change2">把您的899号码告诉朋友<span class="where">（<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">在哪里找到899号码？</a>)</span></p>
-             	   </div>
              	   <div class="stepBox stepBox2">
              		  <p class="stepTitle title24 mTitle28">发送给朋友</p>             		  
              	   </div>
              	   <div class="stepBox stepBox2Con">
              	      <div class="email clearfix">
-             		     <p class="searchText text18 mText22">方法一：电子邮件</p>
-        	             <input class="searchBar text18 mText22" type="search" placeholder="" value="输入您朋友的邮箱" onfocus="if (value =='输入您朋友的邮箱'){value =''}" onblur="if (value ==''){value='输入您朋友的邮箱'}" >        	    
-        	             <p class="searchButton text18 mText22">
-                         发送
-                         </p>  
+<!--              		     <p class="searchText text18 mText22"></p> -->
+        	             <input class="searchBar text18 mText22 friendemail" type="search" placeholder="" value="输入您朋友的邮箱" onfocus="if (value =='输入您朋友的邮箱'){value =''}" onblur="if (value ==''){value='输入您朋友的邮箱'}" >        	    
+
              		  </div>             		  
              	   </div>
              	   <div class="stepBox stepBox3">
-             		  <p class="stepTitle title24 mTitle28 change3">成功！您的亲友将注册时输入您的899号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的$10</p>
+             		  <p class="stepTitle title24 mTitle28 change3">成功！您的亲友将注册时输入您的899号码，立刻获得$5优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的超值礼品</p>
+                  
              	   </div>
-
              	</div>
+                  <p class="searchButtonx title24 mTitle28 ">发送</p>
              </div>
           </div> 
           <!--<div class="referCon">
