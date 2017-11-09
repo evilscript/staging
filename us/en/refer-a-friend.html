@@ -23,43 +23,42 @@
 <script src="../shared/js/bootstrap.min.js"></script>
 <script src="../shared/js/imageMapResizer.js"></script>
 <script src="../shared/js/common.js"></script>
+<script type="text/javascript" src="../shared/js/lan.js"></script>
 <style>
-        .loginf{height: 19vw}
+         .loginf{height: 19vw}
         .searchBar2{border:1px solid #b1b1b1;border-radius: 10px;width:95%;}
         .youemail,.younum{display: inline-block;width: 45%;}
-        .youemail{margin-left: 6%}      
+        .younum{margin-left: 6%}
+      
         .pricepic{width: 45%;margin: 0 auto;margin-top: -5%}
         .pricepic img{width: 100%}
         .time{margin-left: 6%}
-        .friendemail{margin-left: 12%;border: 1px solid #b1b1b1;border-radius: 10px;width: 41%}
-        .sendButton{border-radius: 10px;width: 40%;margin: 0 auto;text-align: center;line-height: 1.5;background-color: #ff7f00;color: white;cursor:pointer;padding-top: 1%;padding-bottom: 1%}        
-        .youemail input,.younum input{line-height: 2.5;padding-left: 5.5%}
-		
-		.titleBox p{margin-bottom: -6%;}
-		.rewardCon{padding-bottom: 1.5%;}
+        .friendemail{margin-left: 12%;border: 1px solid #b1b1b1;border-radius: 10px;width: 40.6%}
+        .sendButton{border-radius: 10px;width: 40.6%;text-align: center;line-height: 1.5;background-color: #ff7f00;color: white;cursor:pointer;padding-top: 1%;padding-bottom: 1%;margin-left: 12%;margin-top: 5%}
 
-@media  (min-width:768px) and (max-width:1000px){
-               .loginf{height: 30vw}
-               .friendemail{margin-left: 16%}
-               .youemail{margin-left: 9%}
-			   
-			   .bannerAll{padding-top: 12%;}
-			   .bannerTitle{font-size: 4vw;}
-			   .titleBox p{font-size: 2vw; margin-bottom: -5%;}
-			   .rewardCon{padding-bottom: 3.5%;}
+        #notUser{margin-left: 8%}
+        .youemail input,.younum input{line-height: 2.5;padding-left: 5.5%}
+        .stepBox{margin-top:1%;margin-bottom: 1%}
+        .stepBox2Con{margin-top: 0;padding-top: 0}
+
+         textarea{ resize:none;}
+
+
+            @media  (min-width:768px) and (max-width:1000px){
+              .loginf{height: 30vw}
+               .friendemail{margin-left: 16.4%;line-height: 2}
+               .younum{margin-left: 9%}
+               .sendButton{margin-left:16.5% }
     }
-	
-@media (max-width:767px){
+    @media (max-width:767px){
               .loginf{height: 60vw}
              
                 .youemail,.younum{display: inline-block;width: 50%;}
-                .younum{margin-top:5% }
+                .youemail{margin-top:5% }
                 .pricepic{width: 85%;margin-top: -10%}
-                .friendemail{margin-left: 17%;width: 60%}
+                .friendemail{margin-left: 16.9%;width: 75%;padding-top: 3%;padding-bottom: 3%;padding-left: 4.5%}
                 .youemail,.younum{display: block;width: 85%;margin-left: 8%}
-                .sendButton{width: 50%}
-				
-				.stepBox{padding: 3.2% 0; margin-left: -6.9%; background-size: 12%;background-position-y: 50%;}
+                .sendButton{width: 75%;line-height: 2;margin-left: 17%}
     }
      
     </style>
@@ -161,35 +160,46 @@
              </div>
              <div class="referStepCon">
 
-                <div class="referStepBox">
 
-             	   <div class="stepBox stepBox1">
-             		  <p class="stepTitle title24 mTitle22 change2">Share your iTalkBB 899 Number with Your Friend <br class="showPC"><span class="where">(<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">What is  your iTalkBB 899 Number?</a>)</span></p>
-             	   </div>
 
-                  <div class="youemail clearfix">
-                       <input class="searchBar searchBar2 text18 mText22" type="text" placeholder="Enter Your Email">              
- 
-                  </div><div class="younum clearfix">
-                       <input class="searchBar searchBar2 text18 mText22" type="text" placeholder="Enter Your 899 Number">              
+             <div class="referStepBox refferralInfo">
+
+                 <div class="stepBox stepBox1">
+                  <p class="stepTitle title24 mTitle28 change2">Share your iTalkBB 899 Number with Your Friend <br class="showPC"><span class="where">(<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">What is  your iTalkBB 899 Number?</a>)</span></p>
+                 </div>
+
+                  <div class="younum clearfix refferCodeInfo refferSpace">
+                        <div class="refferalT"><span class="commColor"></span><span id="bbnTitle"></span><span id="notFind" style='display:none'></span></div>
+                       <input class="searchBar searchBar2 text18 mText22 younumbar inputWidth" type="text" placeholder="Enter Your 899 Number" name="refferCode" id="refferCode" >
+                  </div><div class="youemail clearfix emailInfo refferSpace">
+                       <input class="searchBar searchBar2 text18 mText22 " type="text" placeholder="Enter Your Email"  name="email" id="email">              
 
                   </div>                  
-                
-             	   <div class="stepBox stepBox2">
-             		  <p class="stepTitle title24 mTitle22">Share the referral rewards program through Email</p>             		  
-             	   </div>
-             	   <div class="stepBox stepBox2Con">
-             	      <div class="email clearfix">
-                         <!--  <p class="searchText text18 mText22"></p> -->
-        	             <input class="searchBar text18 mText22 friendemail" type="text" placeholder="Enter Your Friend's Email">        	    
+                  
+                 <div id="notUser" style='display:none'></div>  
+                 <div class="stepBox stepBox2">
+                  <p class="stepTitle title24 mTitle28">Enter email addresses of your friends and family you wish to refer (one email address per line)</p>                   
+                 </div>
+                 <div class="stepBox stepBox2Con">
+                    <div class="email clearfix">
+                       <div class="refferalT"><span class="commColor"></span><span id="inputEmail"></span></div>
+                   
+                       <textarea name="txtEmailList" rows="4" cols="45" id="emailList"  class="searchBar text18 mText22 friendemail"></textarea>              
+                    </div>
+                    <p class="sendButton title24 mTitle28 send refferSpace " id="sendBtn">SEND</p>                  
+                 </div>
+                 <div class="stepBox stepBox3">
+                  <p class="stepTitle title24 mTitle28 change3">And then you're done! Your friend will receive $5 off when they enter your 899 number during sign up. You will receive rewards from iTalkBB after your friend has 30 days of active service.</p>
+                  
+                 </div>
+                  <div class="commission refferSpace" style="display:none">
+                    <p id="commissionDesc"></p>
+                    <p class="commColor" id="commissionLink"></p>
+                   </div>
+              </div>
 
-             		  </div>             		  
-             	   </div>
-             	   <div class="stepBox stepBox3">
-             		  <p class="stepTitle title24 mTitle22 change3">And then you're done! Your friend will receive $5 off when they enter your 899 number during sign up. You will receive rewards from iTalkBB after your friend has 30 days of active service.</p>                  
-             	   </div>
-             	</div>
-                  <p class="sendButton title24 mTitle28 ">SEND</p>
+
+
              </div>
           </div> 
           <!--<div class="referCon">
@@ -315,6 +325,7 @@ $('.changes2').click(function(){
       $('.change2').html('Share your iTalkBB 899 Number with Your Friend <br class="showPC"><span class="where">(<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">What is  your iTalkBB 899 Number?</a>)</span>');
       $('.change3').html("And then you're done! Your friend will receive $5 off when they enter your 899 number during sign up. You will receive rewards from iTalkBB after your friend has 30 days of active service.");
       $(".shortMessage").css('display','none');
+            $('.younumbar').attr('placeholder','输入您的899号码');
       //$('.referAfriend').height(h);
      $('.menuBtn').removeClass('selected');
     $('.changes2').addClass('selected');  
@@ -325,6 +336,7 @@ $('.changes3').click(function(){
       $('.change2').html('Share your iTalkBB 699 Number with Your Friend <br class="showPC"><span class="where">(<a href="support-chinese-tv.html#number699" class="linkOrange" target="_blank">What is  your iTalkBB 699 Number?</a>)</span>');
       $('.change3').html("And then you're done! Your friend will receive $5 off when they enter your 699 number during sign up. You will receive rewards from iTalkBB after your friend has 30 days of active service.");
       $(".shortMessage").css('display','none');
+            $('.younumbar').attr('placeholder','输入您的699号码');
       //$('.referAfriend').height(h);
            $('.menuBtn').removeClass('selected');
     $('.changes3').addClass('selected');  
@@ -370,6 +382,10 @@ var a = $('.bannerAll').width();
 
     }
 
+var hh = $('.younum').height();
+
+$('.friendemail').css('height',2*hh+'px')
+
 
 });
 
@@ -390,7 +406,12 @@ var a = $('.bannerAll').width();
     else if(screenWidth>1250){
         $('.loginf').css('height',x*0.8+'px')    
     }
+
+var hh = $('.younum').height();
+
+$('.friendemail').css('height',2*hh+'px')
+
 });
 </script>
-
+<script type="text/javascript" src="../shared/js/en_refferal.js"></script>
 </html>
