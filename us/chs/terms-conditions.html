@@ -23,6 +23,7 @@
 <script src="../shared/js/common.js"></script>
 <style>
 	.mainLayout{font-family: 'open sans', Arial, sans-serif;}
+	.termsBox{padding-top: 5%; padding-bottom: 7%;}
     .imgCnt{width: 80%;margin: 0 auto}
     .imgCnt .imgTitle {text-align: center;margin-top: 3%;}
     .imgTitle a:hover {color: #ff972f;}
@@ -48,15 +49,23 @@
 	.left{text-align: left}
 
     @media  (min-width:768px) and (max-width:1000px){
+	    .termsBox{padding-top: 6%; padding-bottom: 6%;}
     	.boss{padding: 0 5.2%}
     	.menuCon1{width: 100%;padding-top: 2%}
+		.imgCnt .imgTitle {margin-top: 5%;}
+		.menuCon{margin-top: 0;}
+		.menuNo1{padding: 0 5%;}
     }   
 	@media (max-width:767px){
+	    .termsBox{padding-top: 12%; padding-bottom: 12%;}
     	.boss{padding: 0 5.2%}
     	.lineOrange {height: 27vw;}
+		.menuCon{margin-top: 0;}
     	.menuCon1{width: 100%}
-    	.menuBox4 .menuBtnx{width: 46%;margin: 1%}
+		.menuNo1{padding: 0 5%;}
+    	.menuBox4 .menuBtnx{width: 47.5%;margin: 1%}
     	.fromBox p {padding: 6% 4%;}
+		.imgCnt .imgTitle {margin-top: 10%;}
     }  
      </style>
 
@@ -79,9 +88,9 @@
 
     <div class="mainLayout">
     	<section>
-       		<div class="lineOrange" style="margin-top: .18%;">
+       		<div class="lineOrange">
        			
-      	  					<div id="home-phone-fromCom" class="mainMgn100">
+      	  					<div id="home-phone-fromCom" class="mainMgn100 menuNo1">
       	  	      	 
               					<div class="menuCon menuCon1">
                 					<div class="menuBox menuBox4 clearfix">
@@ -98,15 +107,15 @@
        		</div>	   
        </section>
 			
-<div class="bboss">
+<div class="termsBox">
 	<div id="term">
-       <section class="mainMgnTop">
+       <section>
       	  <div id="home-phone-fromCom" class="mainMgn200">      	  	      	 
               <div class="menuCon">
                 <div class="menuBox menuBox3 clearfix">
-                  <p class="menuBtn title22 mTitle30 use selected">Mobile</p>
-                  <p class="menuBtn title22 mTitle30 fault">Chinese TV</p>
-                  <p class="menuBtn title22 mTitle30 signal">Home Phone</p>
+                  <p class="menuBtn title20 mTitle28 use selected">Mobile</p>
+                  <p class="menuBtn title20 mTitle28 fault">Chinese TV</p>
+                  <p class="menuBtn title20 mTitle28 signal">Home Phone</p>
                 </div>  
               </div> 
          
@@ -1356,7 +1365,7 @@
               	   	  	 	<td class="list3_2"><p class="title16 mTitle16 left">Office: 877-510-4357<br>Fax: 703-953-3643<br>E-mail: rp@subsentio.com<br>Please call after sending an emergency fax or e-mail</p></td>
               	   	  	 </tr>
               	   	  	 <tr class="bgGray">
-              	   	  	 	<td class="list3_1 "><p class="title16 mTitle16 left"><span class='fwb'>Court Orders for Electronic Surveillance:</span> <br>·Trap & Trace<br>- Pen Register<br>·Wiretap<br>·E911 Calls<br></p></td>
+              	   	  	 	<td class="list3_1 "><p class="title16 mTitle16 left"><span class='fwb'>Court Orders for Electronic Surveillance:</span> <br>·Trap & Trace<br>·Pen Register<br>·Wiretap<br>·E911 Calls<br></p></td>
               	   	  	 	<td class="list3_3"><p class="title16 mTitle16 left">Law Enforcement Liaison Division (LELD): for all LAES matters 24 x 7 x 365</p></td>
               	   	  	 	<td class="list3_2"><p class="title16 mTitle16 left">Office: 303-794-6936<br>Fax: 866-217-4097<br>E-mail: CourtOrders@Subsentio.com</p></td>
               	   	  	 </tr>
@@ -1391,6 +1400,7 @@
 
    
     <div class="clear clearfix"></div>
+    <div class="lineBlue"></div>
 	<div id="footer"></div>
          <script>
             $('#footer').load('footer.html');
@@ -1437,28 +1447,28 @@ $(".signal").click(function(){
 
 
 $(".ax").click(function(){
-    $(".bboss").children().css("display", "none");
+    $(".termsBox").children().css("display", "none");
     $("#term").css('display','block');
     $('.menuBox').children().removeClass('blue');
     $(this).addClass('blue');
 })
 
 $(".bx").click(function(){
-    $(".bboss").children().css("display", "none");
+    $(".termsBox").children().css("display", "none");
     $("#policy").css('display','block');
     $('.menuBox').children().removeClass('blue');
     $(this).addClass('blue');  
 })
 
 $(".cx").click(function(){
-   $(".bboss").children().css("display", "none");
+   $(".termsBox").children().css("display", "none");
    $("#Legal").css('display','block');
    $('.menuBox').children().removeClass('blue');
    $(this).addClass('blue');  
 })
 
 $(".dx").click(function(){
-   $(".bboss").children().css("display", "none");
+   $(".termsBox").children().css("display", "none");
    $("#law").css('display','block');
    $('.menuBox').children().removeClass('blue');
    $(this).addClass('blue');  
