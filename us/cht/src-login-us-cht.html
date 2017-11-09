@@ -10,23 +10,23 @@
 
 <link href="css/src.login.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="../shared/images/header/logo_bookmark.jpg"/>
+
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
-<meta name="apple-itunes-app" content="app-id=514896649">
-<link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
+
 <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
 <link rel="stylesheet" type="text/css"  href="../shared/css/zh_log-in.css">
-<link rel="stylesheet" href="../shared/css/social-share-in-news-template.css">
+
 <script src="../shared/js/jquery-1.12.4.min.js"></script>
-<!-- <script src="../shared/js/angular-1.6.4.min.js"></script> -->
-<script src="../shared/js/bootstrap.min.js"></script>
-<script src="../shared/js/imageMapResizer.js"></script>
-<script src="../shared/js/common.js"></script>
+
 <style>
         body{background: #ff7f00}
         form p{padding: 0px;margin: 0px}
+        .cookie img{padding-left:2%;width: 20% }
+        input,button {appearance: none;-moz-appearance: none;-webkit-appearance: none;}
+        input{border: 0px}
+                .searchImg{border-top-right-radius:0px;border-bottom-right-radius:0px; }
 </style>
 <script type="text/javascript">
     function opennew() {
@@ -87,18 +87,18 @@
         <form id="loginform" name="loginform" action="" method="post" onsubmit="return CheckLogin();">
             <input id="sid" name="sid" value="2011" type="hidden" />
             <div class="usename">
-                <p class="searchImg if18">&nbsp;</p>
+                <input class="searchImg if18" readonly="value">
                 <input class="searchBar if18" type="text" placeholder="輸入用戶名" id="username" /> 
             </div>
             <div class="clearfix"></div>
             <div class="password">
-                <p class="searchImg if18">&nbsp;</p>
+                <input class="searchImg if18" readonly="value">
                 <input class="searchBar if18" type="password" placeholder="輸入密碼" id="userpwd" />             
             </div>
             <div class="clearfix"></div>
 
              <div class="cookie">
-                <p class="searchImg if18">&nbsp;</p>
+                <input class="searchImg if18" readonly="value">
                 <input class="searchBar if18" type="text" placeholder="輸入驗證碼" id="Captcha" /> 
                   <!-- <p class="searchButton text18 mText26">
                     <span>1+1=??</span>

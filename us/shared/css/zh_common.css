@@ -27,7 +27,7 @@ a, a:hover, a:focus{ text-decoration:none;}
 a.linkOrange, a.linkOrange:hover, a.linkOrange:focus{color: #ff7f00;} 
 a.linkOrange:hover, a.linkOrange:focus{text-decoration: underline;} 
 a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;} 
-.org{color:#ff972f;}
+.org{color:#ff7f00;}
 .bl{color:#327fe8;}
 .black {color: #222;}
 .black2 {color: #555;}

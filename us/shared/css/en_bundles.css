@@ -7,6 +7,7 @@
   .iconsCon2 .iconsList p{padding-left: 4.2%; background-size: 2.5%;}
   
   .textBox{margin-top: 1%;}
+  .textSpecialBox{line-height: 1.6; text-align: left; padding-top: 3.5%; padding-bottom: 13%; padding-left: 24.5%; padding-right: 0%; background: url(../images/phone/en_bbPlanIconSale.png) no-repeat; background-size: 12%;background-position-x: 13%; background-position-y: .2vw;}
   .titleBox{border-bottom:1px solid #222; padding: 0 14%;}
   .titleBox p{padding:8% 0% 2% 14%; margin-bottom:-13%; background-size: 13%; background-position-x: 5.5%;background-position-y: 10%;}
   .titleBox2 p{background: #fcfcfc;padding-left: 0;}
@@ -65,6 +66,8 @@
     .titleBox4 p{background: #fcfcfc;padding-left: 0;}
 	.titleBox5 p{font-size: 1.8vw; margin-bottom:-16.5%;}
 	.textBox{padding-top: 0%;}
+	.textSpecialBox{line-height: 1.5; padding-left: 27.5%; padding-top: 4%; padding-bottom: 15%; background-size: 15%;background-position-x: 13%; background-position-y: 1vw;}
+	.textSpecialBox p{font-size: 1.3vw; padding-right: 10%;}
 }
 @media (max-width:767px){
     /* bundles banner */
@@ -73,6 +76,7 @@
 	
 	.planText{margin-top: 17%;}
 	.textBox{padding-top: 0%;}
+	.textSpecialBox{line-height: 1.5; padding-left: 23%; padding-top: 4%; padding-bottom: 14%; background-size: 14%;background-position-x: 9%; background-position-y: .6vw;}
 	.planCon .titleBox{padding: 0 12%;}
 	.titleBox p{padding:8% 0% 2% 14%; background-size: 13%; font-size: 3.3vw; background-position-x: 6%; margin-bottom:-13.5%;}
 	.titleBox2 p{background: #fcfcfc;padding-left: 0;}

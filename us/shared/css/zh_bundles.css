@@ -36,7 +36,7 @@ ul.listNom li{list-style-type:decimal;}
 .planCompare img{display: inline-block; width: 100%;}
 .planFormCon{padding-bottom: 1.8%;}
 .planCon{width: 46.55%; background: #fcfcfc;}
-.titleBox{border-bottom:1px solid #222; padding: 0 15%;}
+.titleBox{border-bottom:1px solid #222; padding: 0 14%;}
 .titleBox p{padding:8% 0% 2% 22%; margin-bottom:-16.5%; background: #fcfcfc url(../images/phone/chs_bbPlanIconHot.png) no-repeat; background-size: 18%; background-position-x: 7%;background-position-y: 5%;}
 .titleBox2 p{background: #fcfcfc;padding-left: 0;}
 .titleBox3{padding: 0 36%;}
@@ -44,9 +44,12 @@ ul.listNom li{list-style-type:decimal;}
 .titleBox4 p{background: #fcfcfc;padding-left: 0;}
 .planText{margin-top: 15%;}
 .lineNotes{color: #888;}
-.textBox{margin-top: 4%; padding-top: 2%; padding-bottom: 7%; padding-right: 1%;}
+.textBox{margin-top: 2%; padding-top: 2%; padding-bottom: 7%; padding-right: 1%;}
 .textBox p{color: #ff7f00;}
-.textBox p img{display: inline-block; width: 12.2%; padding-bottom: 4.5%;}
+.textBox p img{display: inline-block; width: 12.2%; padding-bottom: 4%;}
+
+.textSpecialBox{line-height: 1.8; text-align: left; padding-top: 3%; padding-bottom: 13%; padding-left: 34.5%; background: url(../images/phone/chs_bbPlanIconSale.png) no-repeat; background-size: 13%;background-position-x: 23%; background-position-y: .2vw;}
+
 .planList{background: #f2f2f2;}
 ul{padding-left: 0;}
 ul.bundlesCon li{float: left; width: 50%; padding-right: 3%;}
@@ -228,6 +231,7 @@ ul.bundlesCon li.double{width: 100%;}
 	.priceBox2{margin-left: 20.4%;}
 	.textBox{padding-top: 4%;}
 	.textBox p img{width: 17%;}
+	.textSpecialBox{line-height: 1.5; padding-left: 30.5%; padding-bottom: 16%; background-size: 15%;background-position-x: 17%; background-position-y: .3vw;}
 	.listCon{ padding: 9% 4% 6% 9%;}
 	.listCon p{padding-left: 8%; background-size: 5%;background-position-y: .34vw;}
 	.listCon .hook{background-position-y: .45vw;background-size: 4.5%;}
@@ -296,6 +300,7 @@ ul.bundlesCon li.double{width: 100%;}
 	.textBox{padding-top: 4%;}
 	.textBox p.textSpecial{margin: 8.4% 0;}
 	.textBox p img{width: 17%;}
+	.textSpecialBox{line-height: 1.5; padding-left: 30%; padding-top: 3%; padding-bottom: 16%; background-size: 15%;background-position-x: 16%; background-position-y: .3vw;}
 	.planList .listCon{ padding: 10% 6% 5% 8%;}
 	.planList .listCon p{padding-left: 8%; background-size: 4.6%;background-position-y: 1vw;}
 	.listCon .hook{background-position-y: .45vw;background-size: 5.2%;padding-left: 0;}

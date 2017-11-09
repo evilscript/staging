@@ -35,17 +35,20 @@
   
   .planText{margin-top: 15%;}
   .textBox{padding-top: 0%;}  
+  .textSpecialBox{line-height: 1.8; text-align: left; padding-top: 3%; padding-bottom: 13%; padding-left: 34.5%; background-size: 13%;background-position-x: 23%; background-position-y: .2vw;}
   .titleBox{padding: 0 24%;}
   .titleBox p{padding:8% 0% 2% 26%; margin-bottom:-21%;background-size: 22%; background-position-x: 11%;background-position-y: 5%;}
   .titleBox2 p{background: #fcfcfc;padding-left: 0;}
 @media (min-width:768px) and (max-width:1000px){
   .planText{margin-top: 16%;}
+  .textSpecialBox{line-height: 1.5; padding-left: 30.5%; padding-bottom: 16%; background-size: 15%;background-position-x: 17%; background-position-y: .3vw;}
   .titleBox{padding: 0 19%;}
   .titleBox p{padding:8% 0% 2% 26%; margin-bottom:-22%;background-size: 22%; background-position-x: 11%;background-position-y: 10%;}
   .titleBox2 p{background: #fcfcfc;padding-left: 0;}
 	}
 @media (max-width:767px){ 
   .planText{margin-top: 18%;}
+  .textSpecialBox{line-height: 1.5; padding-left: 30%; padding-top: 3%; padding-bottom: 16%; background-size: 15%;background-position-x: 16%; background-position-y: .3vw;}
   .planCon .titleBox{padding: 0 19%;}
   .titleBox p{padding:8% 0% 2% 24%; margin-bottom:-22%;background-size: 19%; background-position-x: 12%;background-position-y: 10%;}  
   .titleBox2 p{background: #fcfcfc;padding-left: 0;} 
@@ -113,11 +116,15 @@
         	  			<div class="lineNotes">
         	  			   <p class="text14 mText18">{{plan1_tex}}</p>
         	  			</div>
-        	  			<div class="textBox">      	  			       
-       	  			       <p class="title18 mTitle26">
+        	  			<div class="textBox textSpecialBox"> 
+      	  			       <div class="title18 mTitle26 fwb">
+      	  			       	  <p>移動：免激活費，卡費</p>
+      	  			       	  <p>電話：前3個月免月費，返運費</p>
+      	  			       </div>      	  			       
+       	  			       <!--<p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/phone/cht_bbPlanIconSale.png" alt="iTalkBB蜻蜓-當月優惠" ></span>
-        	  			    <span class="textHot">首月免費，返月費</span>
-        	  			   </p>
+        	  			    <span>首月免費，返月費</span>
+        	  			   </p>-->
         	  			</div>
         	  		  </div>
                    </div>
@@ -182,13 +189,13 @@
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">贈送<span class="bl">6個月</span>中美雙號</span>
+									 <span class="textCon">贈送6個月中美雙號</span>
 								  </p>
       	  			           </li>
       	  			           <li class="double">
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">撥打<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29個國家和地區</a>美/加/中/港/台僅需<span class="bl">$0.02</span>/分鐘，其他地區<a class="linkOrange" href="home-phone-rates.html#rates" target="_blank">超低費率</a> </span>
+									 <span class="textCon">撥打<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29個國家和地區</a>美/加/中/港/台僅需$0.02/分鐘，其他地區<a class="linkOrange" href="home-phone-rates.html#rates" target="_blank">超低費率</a> </span>
 								  </p>
       	  			           </li>
        	  			        </ul>  
@@ -217,11 +224,15 @@
         	  			 <div class="lineNotes">
         	  			    <p class="text14 mText18">{{plan1_tex}}</p>
         	  			 </div>
-        	  			 <div class="textBox">
-       	  			       <p class="title18 mTitle26">
+        	  			 <div class="textBox textSpecialBox"> 
+      	  			       <div class="title18 mTitle26 fwb">
+      	  			       	  <p>移動：免激活費，卡費</p>
+      	  			       	  <p>電話：前3個月免月費，返運費</p>
+      	  			       </div> 
+       	  			       <!--<p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/phone/cht_bbPlanIconSale.png" alt="iTalkBB蜻蜓-當月優惠" ></span>
-        	  			    <span class="textHot">首月免費，返月費</span>
-        	  			   </p>
+        	  			    <span>首月免費，返月費</span>
+        	  			   </p>-->
         	  			 </div>
         	  		  </div>
                    </div>
@@ -286,19 +297,19 @@
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">贈送<span class="bl">12個月</span>中美雙號</span>
+									 <span class="textCon">贈送6個月中美雙號</span>
 								  </p>
       	  			           </li>
       	  			           <li class="double">
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">座機：<span class="bl">免費無限撥打</span>美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29個國家和地區</a></span>
+									 <span class="textCon">座機：免費無限撥打美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29個國家和地區</a></span>
 								  </p>
       	  			           </li>
       	  			           <li class="double">
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">手機：<span class="bl">免費無限撥打</span>國際長途</span>
+									 <span class="textCon">手機：免費無限撥打國際長途</span>
 								  </p>
       	  			           </li>
        	  			        </ul>  
@@ -346,11 +357,15 @@
         	  			<div class="lineNotes">
         	  			   <p class="text14 mText18">{{plan1_tex}}</p>
         	  			</div>
-        	  			<div class="textBox">
-       	  			       <p class="title18 mTitle26">
+        	  			<div class="textBox textSpecialBox"> 
+      	  			       <div class="title18 mTitle26 fwb">
+      	  			       	  <p>移動：免激活費，卡費</p>
+      	  			       	  <p>電話：前3個月免月費，返運費</p>
+      	  			       </div> 
+       	  			       <!--<p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/phone/cht_bbPlanIconSale.png" alt="iTalkBB蜻蜓-當月優惠" ></span>
-        	  			    <span class="textHot">首月免費，返月費</span>
-        	  			   </p>
+        	  			    <span>首月免費，返月費</span>
+        	  			   </p>-->
         	  			</div>
         	  		  </div>
                    </div>
@@ -415,13 +430,13 @@
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">贈送<span class="bl">6個月</span>中美雙號</span>
+									 <span class="textCon">贈送6個月中美雙號</span>
 								  </p>
       	  			           </li>
       	  			           <li class="double">
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">撥打<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29個國家和地區</a>美/加/中/港/台僅需<span class="bl">$0.02</span>/分鐘，其他地區<a class="linkOrange" href="home-phone-rates.html#rates" target="_blank">超低費率</a></span>
+									 <span class="textCon">撥打<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29個國家和地區</a>美/加/中/港/台僅需$0.02/分鐘，其他地區<a class="linkOrange" href="home-phone-rates.html#rates" target="_blank">超低費率</a></span>
 								  </p>
       	  			           </li>
        	  			        </ul>  
@@ -447,11 +462,15 @@
         	  			<div class="lineNotes">
         	  			   <p class="text14 mText18">{{plan1_tex}}</p>
         	  			</div>
-        	  			<div class="textBox">
-       	  			       <p class="title18 mTitle26">
+        	  			<div class="textBox textSpecialBox"> 
+      	  			       <div class="title18 mTitle26 fwb">
+      	  			       	  <p>移動：免激活費，卡費</p>
+      	  			       	  <p>電話：前3個月免月費，返運費</p>
+      	  			       </div> 
+       	  			       <!--<p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/phone/cht_bbPlanIconSale.png" alt="iTalkBB蜻蜓-當月優惠" ></span>
-        	  			    <span class="textHot">首月免費，返月費</span>
-        	  			   </p>
+        	  			    <span>首月免費，返月費</span>
+        	  			   </p>-->
         	  			</div>
         	  		  </div>
                    </div>
@@ -516,19 +535,19 @@
       	  			           <li>
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">贈送<span class="bl">12個月</span>中美雙號</span>
+									 <span class="textCon">贈送6個月中美雙號</span>
 								  </p>
       	  			           </li>
       	  			           <li class="double">
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">座機：<span class="bl">免費無限撥打</span>美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29個國家和地區</a></span>
+									 <span class="textCon">座機：免費無限撥打美/加/中/港/台等<a class="linkOrange" href="home-phone-rates.html#countries" target="_blank">全球29個國家和地區</a></span>
 								  </p>
       	  			           </li>
       	  			           <li class="double">
       	  			           	  <p class="clearfix">
       	  			           	     <span class="Sharp">&gt;</span>
-									 <span class="textCon">手機：<span class="bl">免費無限撥打</span>國際長途</span>
+									 <span class="textCon">手機：免費無限撥打國際長途</span>
 								  </p>
       	  			           </li>
        	  			        </ul>  
