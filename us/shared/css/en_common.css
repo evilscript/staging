@@ -2,9 +2,9 @@
   Create Date:2017-10-30
   Update Date:2017-11-09
   Desc : All Common CSS EN */  
-body {font-family: "open sans", arial, sans-serif!important; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
+body {font-family: "open sans", arial, sans-serif; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
 .pin,.mic{font-family: "open sans", arial, sans-serif!important;}
-.headerTextLan{font-family: Microsoft Yahei, sans-serif!important;}
+.linkWhite{font-family: Microsoft Yahei, sans-serif!important;}
 
 .bgTitle{width: 70%;}
 .menuRight {width: 32%;}
