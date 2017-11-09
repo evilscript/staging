@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Carson & Amy
   Create Date:2017-07-06
-  Update Date:2017-10-30
+  Update Date:2017-11-09
   Desc : index main CSS */  
 a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;} 
 /*button begin*/
@@ -89,7 +89,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
 .contactTitle2 {margin-left: 5%; margin-right: 5%; margin-top: 4.5%; border-top: 1px solid #cfcfcf;}
 .subscribeSubTitle{padding-bottom:2%;}
 .emailBar,.submitButton{float:left; line-height: 1.8;}
-.emailBar{padding-left: 1%!important; padding-top: 0.5%!important; padding-bottom: 0.5%!important; margin-bottom: 2%; margin-left: 37%; width: 23%!important; border-top-left-radius: 10px!important; border-bottom-left-radius: 10px!important; border: 1px solid #cfcfcf!important;}
+.emailBar{padding-left: 1%!important; padding-top: 0.5%!important; padding-bottom: 0.5%!important; margin-bottom: 2%; margin-left: 37%; width: 23%!important; border-top-left-radius: 10px!important; border-bottom-left-radius: 10px!important; border-top-right-radius: 0px!important; border-bottom-right-radius: 0px!important; border: 1px solid #cfcfcf!important;}
 .submitButton {color: #ff7f00; width: 7.5%; border: 1px solid #cfcfcf; text-align: center; padding-top: 0.5%; padding-bottom: 0.5%; cursor: pointer; border-top-right-radius: 10px; border-bottom-right-radius: 10px; box-shadow: inset 0 0 0 0 #327fe8; -webkit-transition: all ease 0.8s; -moz-transition: all ease 0.8s; transition: all ease 0.8s;}
 .submitButton:hover{color: white; box-shadow: inset 200px 0 0 0 #327fe8;}
 .socialIcon{text-align:center; padding-top: 5%; margin-bottom:8%;}
@@ -365,7 +365,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     .s5Middle, .s5Right {float: left; width: 30%;}
     .s5Left img, .s5Middle img, .s5Right img {width: 40%; margin-left: 30%; margin-bottom: 5%;}
     .s6IconText {padding-left: 37%; background-size: 5%; background-position-x: 31.5%;}
-    .emailBar{width: 45%!important; margin-left: 22.5%;}
+    .emailBar{width: 45%!important; margin-left: 22.5%; border-top-right-radius: 0px!important; border-bottom-right-radius: 0px!important;}
     .submitButton{width:16%;}
     .social1 {margin-left: 0;margin-left: 38%;}
 	.socialIcon {padding-top: 7%;}

@@ -28,7 +28,7 @@ body {font-family: "open sans", arial, sans-serif!important; background-color: #
 
 @media (min-width:768px) and (max-width:1000px) {
     .footerColumn{width:18.8%;}
-	.telephone{width:26%; margin-left: -13%; padding-top: 5%;}   
+	.telephone{width:26%; font-size: 1.6vw; margin-left: -6%; padding-top: 5%;}   
 }
 
 @media (max-width:767px) {
