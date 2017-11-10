@@ -96,8 +96,8 @@ a:hover{color:#222222;}
 .otherYear div{float: none; width: 100%;}
 .freeGiftGivenCallout{display:inline-block;}
 .freeGiftGivenCallout {display: inline-block; position: absolute; margin-top: -5%; width: 5%;}
-.shareLeft{width:70%;float:left;text-align:right;}
-.shareRight{width:30%;float:left;text-align:left;}
+.shareLeft{width:65%;float:left;text-align:right;}
+.shareRight{width:35%;float:left;text-align:left;}
 .newsBlockRightText .hideM{display:inline;}
 .tabletOnly{display:none;}
 .templateImgSpecial{width:20%; margin-left:40%; cursor:pointer; transition: all, 1.5s;}
