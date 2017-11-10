@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Carson & Amy
   Create Date:2017-07-06
-  Update Date:2017-11-09
+  Update Date:2017-11-10
   Desc : index main CSS */  
 a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;} 
 /*button begin*/
@@ -52,10 +52,10 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
 .iconBoxBtm{margin-bottom: 2.5%;}
 .iconBox2 p{float: none; width: 90%; margin-bottom: 2.5%;}
 
-.bg2{background:url("../images/index/bg2.jpg") no-repeat top center; background-size:cover;}
-.bg3{background:url("../images/index/bg3.jpg") no-repeat top center; background-size:cover;}
-.bg4{background:url("../images/index/bg4.jpg") no-repeat top center; background-size:cover;}
-.bg5{background:url("../images/index/bg5.jpg") no-repeat top center; background-size:cover;}
+.bg2{background:url("../images/index/bg2.jpg") no-repeat bottom center; background-size:100%;}
+.bg3{background:url("../images/index/bg3.jpg") no-repeat bottom center; background-size:100%;}
+.bg4{background:url("../images/index/bg4.jpg") no-repeat bottom center; background-size:100%;}
+.bg5{background:url("../images/index/bg5.jpg") no-repeat bottom center; background-size:100%;}
 .knowMore{background: url(../images/icons/arrowIconOrange.png) top left no-repeat; background-size: 2%; background-position-y: 60%;}
 .knowMore img{float:left; width:2%;}
 .knowMoreText p{padding-left: 3%; margin-top: 4%; margin-bottom: 24%;}
@@ -371,6 +371,8 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
 	.socialIcon {padding-top: 7%;}
     .socialIcon img {float: left; width: 4%; margin-right: 1%;}
     .wechatIconSocial{margin-top: -1%;}
+	
+	.bg2,.bg4,.bg3,.bg5{background-size: cover;}
     /*
 	#myCarousel {padding-top: 14%;}
 	.knowMoreText {
