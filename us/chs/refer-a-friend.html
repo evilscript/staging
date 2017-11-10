@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cmn-Hans">
-<head>
+<html lang="zh-cmn-Hans"><head>
 <meta charset="UTF-8">
 <title>iTalkBB蜻蜓-推荐亲友</title>
 <meta name="description" content="">
@@ -22,7 +21,6 @@
 <script src="../shared/js/bootstrap.min.js"></script>
 <script src="../shared/js/imageMapResizer.js"></script>
 <script src="../shared/js/common.js"></script>
-
 <script type="text/javascript" src="../shared/js/lan.js"></script>
 <style>
         .loginf{height: 19vw}
@@ -172,26 +170,27 @@
                 <div class="referStepBox refferralInfo">
 
              	   <div class="stepBox stepBox1">
-             		  <p class="stepTitle title24 mTitle28 change2">把您的899号码告诉朋友<span class="where">（<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">在哪里找到899号码？</a>)</span></p>
+             		  <p class="stepTitle title24 mTitle28 change2">把您的899号码告诉朋友<span class="where"><br><a href="support-home-phone.html#899-number" class="linkOrange" target="_blank"><span class="text16 mText18">在哪里找到899号码？</span></a></span></p>
              	   </div>
 
                   <div class="younum clearfix refferCodeInfo refferSpace">
-                        <div class="refferalT"><span class="commColor"></span><span id="bbnTitle"></span><span id="notFind" style='display:none'></span></div>
-                       <input class="searchBar searchBar2 text18 mText22 younumbar inputWidth" type="text" placeholder="输入您的899号码" name="refferCode" id="refferCode" >
+                        <div class="refferalT"><span class="commColor"></span><span id="bbnTitle"></span><span id="notFind" style="display:none"></span></div>
+                       <input class="searchBar searchBar2 text18 mText22 younumbar inputWidth gray" name="refferCode" id="refferCode" type="text" placeholder="输入您的899号码">
                   </div><div class="youemail clearfix emailInfo refferSpace">
-                       <input class="searchBar searchBar2 text18 mText22 " type="text" placeholder="输入您的email"  name="email" id="email">              
+                       <input class="searchBar searchBar2 text18 mText22 gray" name="email" id="email" type="text" placeholder="输入您的email">              
 
                   </div>                  
                   
-                 <div id="notUser" style='display:none'></div>  
+                 <div id="notUser" style="display:none"></div>  
              	   <div class="stepBox stepBox2">
-             		  <p class="stepTitle title24 mTitle28">请在下面填入您朋友的Email（每行一个，不要加逗号）</p>             		  
+             		  <p class="stepTitle title24 mTitle28">请在下面输入您朋友的Email<br><span class="text16 mText18">可输入多个Email，每行只限一个Email地址，无需逗号隔开</span></p>             		  
              	   </div>
              	   <div class="stepBox stepBox2Con">
              	      <div class="email clearfix">
                        <div class="refferalT"><span class="commColor"></span><span id="inputEmail"></span></div>
         	         
-                       <textarea name="txtEmailList" rows="4" cols="45" id="emailList"  class="searchBar text18 mText22 friendemail"></textarea>        	    
+                       <textarea name="txtEmailList" rows="4" cols="45" id="emailList"  class="searchBar text18 mText22 friendemail gray" onfocus="if(value=='输入您朋友的Email'){value=''}" onblur="if (value ==''){value='输入您朋友的Email'}"></textarea> 
+                       <script>document.getElementById("emailList").value="输入您朋友的Email"</script>       	    
              		    </div>
                     <p class="sendButton title24 mTitle28 send refferSpace " id="sendBtn">发送</p>             		  
              	   </div>
@@ -328,7 +327,7 @@ var google_remarketing_only = true;
 
 $('.changes2').click(function(){
       $('.change1').html('邀请您的亲友一起体验精彩的海外生活');
-      $('.change2').html('把您的899号码告诉朋友<span class="where">（<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">在哪里找到899号码？</a>)</span>');
+      $('.change2').html('把您的899号码告诉朋友<span class="where"><br><a href="support-home-phone.html#899-number" class="linkOrange" target="_blank"><span class="text16 mText18">在哪里找到899号码？</span></a></span>');
       $('.change3').html('成功！您的亲友将注册时输入您的899号码，立刻获得$5优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的超值礼品');
       $(".shortMessage").css('display','none');
       $('.younumbar').attr('placeholder','输入您的899号码');
@@ -339,7 +338,7 @@ $('.changes2').click(function(){
 
 $('.changes3').click(function(){
       $('.change1').html('邀请您的亲友一起体验精彩的海外生活');
-      $('.change2').html('把您的699号码告诉朋友<span class="where">（<a href="support-chinese-tv.html#number699" class="linkOrange" target="_blank">在哪里找到699号码？</a>)</span>');
+      $('.change2').html('把您的699號碼告訴朋友<span class="where"><br><a href="support-home-phone.html#number699" class="linkOrange" target="_blank"><span class="text16 mText18">在哪裡找到699號碼？</span></a></span>');
       $('.change3').html('成功！您的亲友将注册时输入您的699号码，立刻获得$5优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的超值礼品');
       $('.younumbar').attr('placeholder','输入您的699号码');
       $(".shortMessage").css('display','none');

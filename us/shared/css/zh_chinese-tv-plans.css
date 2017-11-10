@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Hounan，Amy
   Create Date:2017-09-13 
-  Update Date:2017-10-23 
+  Update Date:2017-11-10
   Desc : chinese-tv-plans common CSS */ 
 
 label{font-weight: 500}
@@ -21,7 +21,7 @@ label{font-weight: 500}
 		.use{width: 74.1%;margin: 0 auto;background-color: white;}
 		.useBtnBox a{cursor: pointer;}
 		.user{display: inline-block;width: 50%;text-align: center;color:#222222;border-bottom: 1px solid #b4b4b4;}
-		.useradd{color:white;border-bottom: 1px solid #ff7f00;font-weight: 800;background: #ff7f00}
+		.useradd{color:white;border-bottom: 1px solid #ff7f00;background: #ff7f00}
 		.picmb{display: none;}
 		.picpaid{display: none}
 		.md1,.md3{display: inline-block;width: 37%;vertical-align: top}
@@ -43,9 +43,9 @@ label{font-weight: 500}
 		.midButton{position: absolute;width: 12.5%;background-color: #327fe8;color: white;left: 44%;margin-top: -1.3%;text-align: center;line-height: 2;border-radius: 10px;}
 		.bannerAd1{margin-bottom: 3.8%;}
 		.tvshow{background-color: black; padding-bottom: 1%;}
-		.showtit1{color: white;text-align: center;padding-top:3.2%;font-weight: 800}
+		.showtit1{color: white;text-align: center;padding-top:3.2%;}
 		.showtit2{color: white;text-align: center;margin-bottom:3.5%;}
-		.bannerAd1tit{text-align: center;font-weight: 800;    padding-top: 4%; }
+		.bannerAd1tit{text-align: center;    padding-top: 4%; }
 		.textAd1{text-align: center;margin: 0 auto;width: 63%;}
 
 		.icons{width: 78.5%;margin: 0 auto}
@@ -79,7 +79,7 @@ label{font-weight: 500}
 		.putong,.gaoqing{width: 49.5%;display: inline-block;}
 		.putong img,.gaoqing img{width: 100%;-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, transparent) , to(rgba(250, 250, 250, 0.2)));}
 		.putong{margin-right: 0.5%}
-		.bannerAd1tit2{text-align: center;font-weight: 800; }
+		.bannerAd1tit2{text-align: center; }
 	
 		.textAd2{text-align: center;margin: 0 auto;width: 63%;margin-bottom: 1.5%;}
 		.textLink{color:#ff7f00}
@@ -148,7 +148,7 @@ label{font-weight: 500}
 	a.right{border:2px;}
 	.md1,.md2,.md3{display: block;width: 100%}
 	.md1{text-align: center;}
-	.cont1{width: 100%;font-weight: 800;margin-left: 0}
+	.cont1{width: 100%;margin-left: 0}
 	.cont2{width:80%;margin: 0 auto}
 	.md1tit,.mid1txt{display: inline-block;}
 	.text{padding-top: 6%}
@@ -184,7 +184,7 @@ label{font-weight: 500}
 	.bannerAd1{margin-top: 8%}
 	.bannerAd2,.bannerAd1Pic,.bannerAd3{background-size:cover;}
 	.bannerAd3{background-size: 170%;    background-position: 85% 90%;}
-	.showtit1{padding-top: 7%;font-weight: 800}
+	.showtit1{padding-top: 7%;}
 	.showtit2{margin-bottom: 6%; text-align: left;}
 	.icons1,.icons2,.icons3,.icons4{float: none;width: 89.4%;border-bottom:1px solid #aaaaaa;margin:0 auto;padding: 10% 0}
 	.icons4{border-bottom:none;padding-bottom: 0}

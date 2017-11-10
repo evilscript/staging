@@ -165,7 +165,7 @@
                <div class="referStepBox refferralInfo">
 
                  <div class="stepBox stepBox1">
-                  <p class="stepTitle title24 mTitle28 change2">把您的899號碼告訴朋友<span class="where">（<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">在哪裡找到899號碼？</a>)</span></p>
+                  <p class="stepTitle title24 mTitle28 change2">把您的899號碼告訴朋友<span class="where"><br><a href="support-home-phone.html#899-number" class="linkOrange" target="_blank"><span class="text16 mText18">在哪裡找到899號碼？</span></a></span></p>
                  </div>
 
                   <div class="younum clearfix refferCodeInfo refferSpace">
@@ -176,15 +176,16 @@
 
                   </div>                  
                   
-                 <div id="notUser" style='display:none'></div>  
+                 <div id="notUser" style="display:none"></div>  
                  <div class="stepBox stepBox2">
-                  <p class="stepTitle title24 mTitle28">請在下面填入您朋友的Email（每行壹個，不要加逗號）</p>                   
+                  <p class="stepTitle title24 mTitle28">請在下面輸入您朋友的Email<br><span class="text16 mText18">可輸入多個Email，每行只限一個Email地址，無需逗號隔開</span></p>
                  </div>
                  <div class="stepBox stepBox2Con">
                     <div class="email clearfix">
                        <div class="refferalT"><span class="commColor"></span><span id="inputEmail"></span></div>
                    
-                       <textarea name="txtEmailList" rows="4" cols="45" id="emailList"  class="searchBar text18 mText22 friendemail"></textarea>              
+                       <textarea name="txtEmailList" rows="4" cols="45" id="emailList"  class="searchBar text18 mText22 friendemail gray" onfocus="if(value=='輸入您朋友的Email'){value=''}" onblur="if (value ==''){value='輸入您朋友的Email'}"></textarea> 
+                       <script>document.getElementById("emailList").value="輸入您朋友的Email"</script>              
                     </div>
                     <p class="sendButton title24 mTitle28 send refferSpace " id="sendBtn">發送</p>                  
                  </div>
@@ -324,7 +325,7 @@ var google_remarketing_only = true;
 
 $('.changes2').click(function(){
       $('.change1').html('邀請您的親友一起體驗精彩的海外生活');
-      $('.change2').html('把您的899號碼告訴朋友<span class="where">（<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">在哪裡找到899號碼？</a>)</span>');
+      $('.change2').html('把您的899號碼告訴朋友<span class="where"><br><a href="support-home-phone.html#899-number" class="linkOrange" target="_blank"><span class="text16 mText18">在哪裡找到899號碼？</span></a></span>');
       $('.change3').html('成功！您的親友將註冊時輸入您的899號碼，立刻獲得$10優惠；您將在親友註冊後30天獲得iTalkBB蜻蜓送出的$10');
       $(".shortMessage").css('display','none');
      $('.younumbar').attr('placeholder','输入您的899號碼');
@@ -335,7 +336,7 @@ $('.changes2').click(function(){
 
 $('.changes3').click(function(){
       $('.change1').html('邀請您的親友一起體驗精彩的海外生活');
-      $('.change2').html('把您的699號碼告訴朋友<span class="where">（<a href="support-chinese-tv.html#number699" class="linkOrange" target="_blank">在哪裡找到699號碼？</a>)</span>');
+      $('.change2').html('把您的699號碼告訴朋友<span class="where"><br><a href="support-home-phone.html#number699" class="linkOrange" target="_blank"><span class="text16 mText18">在哪裡找到699號碼？</span></a></span>');
       $('.change3').html('成功！您的親友將註冊時輸入您的699號碼，立刻獲得$10優惠；您將在親友註冊後30天獲得iTalkBB蜻蜓送出的$10');
       $(".shortMessage").css('display','none');
       $('.younumbar').attr('placeholder','输入您的699號碼');

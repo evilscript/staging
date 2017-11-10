@@ -102,7 +102,7 @@
         	<div class="referBannerBox"> 
       	      <div class="referTitleBig">
        	         <p class="titleBig1 title34 mTitle42 fwb">Invite Your Family and Friends to Join iTalkBB</p>
-       	         <p class="titleBig2 title28 mTitle36">For every individual you refer who successfully signs up with iTalkBB</p>
+       	         <p class="titleBig2 title28 mTitle36">For every 2 individuals you refer who successfully sign up with iTalkBB</p>
        	      </div>      	      
         	  <div class="rewardCon gradient clearfix">               
                    <div class="rewardBox rewardBox1">
@@ -165,7 +165,7 @@
              <div class="referStepBox refferralInfo">
 
                  <div class="stepBox stepBox1">
-                  <p class="stepTitle title24 mTitle28 change2">Share your iTalkBB 899 Number with Your Friend <br class="showPC"><span class="where">(<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">What is  your iTalkBB 899 Number?</a>)</span></p>
+                  <p class="stepTitle title24 mTitle28 change2">Share your iTalkBB 899 Number with Your Friend <br><span class="where"><a href="support-home-phone.html#899-number" class="linkOrange" target="_blank"><span class="text16 mText20">What is  your iTalkBB 899 Number?</span></a></span></p>
                  </div>
 
                   <div class="younum clearfix refferCodeInfo refferSpace">
@@ -178,13 +178,14 @@
                   
                  <div id="notUser" style='display:none'></div>  
                  <div class="stepBox stepBox2">
-                  <p class="stepTitle title24 mTitle28">Enter email addresses of your friends and family you wish to refer (one email address per line)</p>                   
+                  <p class="stepTitle title24 mTitle28">Enter email addresses of your friends and family you wish to refer <br><span class="text16 mText20">You can enter multiple emails, and one per line</span></p>                   
                  </div>
                  <div class="stepBox stepBox2Con">
                     <div class="email clearfix">
                        <div class="refferalT"><span class="commColor"></span><span id="inputEmail"></span></div>
                    
-                       <textarea name="txtEmailList" rows="4" cols="45" id="emailList"  class="searchBar text18 mText22 friendemail"></textarea>              
+                       <textarea name="txtEmailList" rows="4" cols="45" id="emailList"  class="searchBar text18 mText22 friendemail gray" onfocus="if(value=='Enter Emails of Your Friends'){value=''}" onblur="if (value ==''){value='Enter Emails of Your Friends'}"></textarea> 
+                       <script>document.getElementById("emailList").value="Enter Emails of Your Friends"</script>             
                     </div>
                     <p class="sendButton title24 mTitle28 send refferSpace " id="sendBtn">SEND</p>                  
                  </div>
@@ -322,10 +323,10 @@ var google_remarketing_only = true;
 
 $('.changes2').click(function(){
       $('.change1').html('Simple Steps to Get Rewarded');
-      $('.change2').html('Share your iTalkBB 899 Number with Your Friend <br class="showPC"><span class="where">(<a href="support-home-phone.html#899-number" class="linkOrange" target="_blank">What is  your iTalkBB 899 Number?</a>)</span>');
+      $('.change2').html('Share your iTalkBB 899 Number with Your Friend <br><span class="where"><a href="support-home-phone.html#899-number" class="linkOrange" target="_blank"><span class="text16 mText20">What is  your iTalkBB 899 Number?</span></a></span>');
       $('.change3').html("And then you're done! Your friend will receive $5 off when they enter your 899 number during sign up. You will receive rewards from iTalkBB after your friend has 30 days of active service.");
       $(".shortMessage").css('display','none');
-            $('.younumbar').attr('placeholder','输入您的899号码');
+            $('.younumbar').attr('placeholder','Enter Your 899 Number');
       //$('.referAfriend').height(h);
      $('.menuBtn').removeClass('selected');
     $('.changes2').addClass('selected');  
@@ -333,10 +334,10 @@ $('.changes2').click(function(){
 
 $('.changes3').click(function(){
       $('.change1').html('Simple Steps to Get Rewarded');
-      $('.change2').html('Share your iTalkBB 699 Number with Your Friend <br class="showPC"><span class="where">(<a href="support-chinese-tv.html#number699" class="linkOrange" target="_blank">What is  your iTalkBB 699 Number?</a>)</span>');
+      $('.change2').html('Share your iTalkBB 699 Number with Your Friend <br><span class="where"><a href="support-home-phone.html#number699" class="linkOrange" target="_blank"><span class="text16 mText20">What is  your iTalkBB 699 Number?</span></a></span>');
       $('.change3').html("And then you're done! Your friend will receive $5 off when they enter your 699 number during sign up. You will receive rewards from iTalkBB after your friend has 30 days of active service.");
       $(".shortMessage").css('display','none');
-            $('.younumbar').attr('placeholder','输入您的699号码');
+            $('.younumbar').attr('placeholder','Enter Your 699 Number');
       //$('.referAfriend').height(h);
            $('.menuBtn').removeClass('selected');
     $('.changes3').addClass('selected');  
