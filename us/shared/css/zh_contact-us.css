@@ -1,15 +1,17 @@
+/* Version:1.0  Author: Honan
+  Create Date:2017-10-21
+  Update Date:2017-11-11 Amy
+  Desc : Contact Us Common CSS */ 
+
 .bodyy{max-width: 1920px;position: relative;margin:0 auto;}
 .f18{font-size: 18px}
 .d1,.d3,.d5{position: relative;}
 .d1 img,.d3 img,.d5 img{width: 100%;}
 .textBanner{position: absolute;top: 25%;color:#ffffff;left:10.4% }
-
 .bannerAll1{background: url(../images/contact/serviceBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll2{background: url(../images/contact/customerBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll3{background: url(../images/contact/collaborateBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll3 .bannerText .bannerTitle,.bannerAll2 .bannerText .bannerTitle{margin-bottom: 0px}
-
-
 .mk{margin-top: 4%}
 .mk2{margin-top: 2%}
 .where{width: 89.2%;margin: 0 auto;margin-bottom: 4.5%;margin-top: 3% }
@@ -29,15 +31,12 @@
 .address,.num,.time{margin-top: 1.1%}
 .white{background: #ffffff}
 .d2img{display: none}
-select::-ms-expand { display: none; }
-
+select::-ms-expand { display: none;}
 .pics img{width: 100%; cursor:pointer;}          
 .shop{display: none}
 .d1{display: block;}
 .shopname{font-weight: 700}
 .zhou{padding-left: 5.3%;background: #f8f9f9;padding-top: 1%;padding-bottom: 1%;}
-
-
 
 /*客服*/
 .customer{display: block;}
@@ -53,6 +52,7 @@ select::-ms-expand { display: none; }
 .emails{margin-top: 1.7%}
 .text12{font-size: 12px}
 .callMgnBtm{margin-bottom: 5.5%;}
+
 /*合作*/
 .collaborate{display: none}
 .d5{display: none;}
@@ -65,19 +65,13 @@ select::-ms-expand { display: none; }
 .collaborate3 img{width: 100%}
 .collaborate1 img:hover{ transform: scale(1.4);}
 .collaborate2 img:hover{ transform: scale(1.4);}
-
 .opt{width: 100%;height: 45%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
 .opt2{width: 100%;height: 45%;position: absolute;bottom: 0;background:rgba(0,0,0,0.5);}
 .optext{color: white;padding: 5% 6% 0% 6%;line-height: 1.5}
-
-
-
-
 .boptext{color: white;}
 .boptextL,.boptextR{display: inline-block;vertical-align: top}
 .boptextL{width: 50%; padding-left: 3%}
 .boptextR{width: 50%;padding-left: 3%;padding-top: 8%}
-
 .quarters{padding-top: 5%}
 .quartersNum{padding-bottom: 1%;}
 .mcollaboratePic{display: none;}
@@ -92,11 +86,9 @@ select::-ms-expand { display: none; }
 .next,.up{position: absolute;color: white;top: 50%;line-height: 1;top: 33%;cursor: pointer;width: 8.5%}
 .next{left: -20%}
 .up{right: -20%}
-.allshow{display: none; -webkit-user-select: none; -moz-user-select: none;    -khtml-user-select: none;  -ms-user-select: none;    -o-user-select: none; user-select: none;  }
+.allshow{display: none; -webkit-user-select: none; -moz-user-select: none;    -khtml-user-select: none;  -ms-user-select: none;    -o-user-select: none; user-select: none;}
 .bigshow{width: 46vw;height: 26vw;margin-top: -13vw;margin-left: -23vw}
 .bigshows{width: 100%;}
-
-
 
 @media  (min-width:1600px) and (max-width:1800px){
 		.text18 {font-size: 15px;}
@@ -110,11 +102,9 @@ select::-ms-expand { display: none; }
 .collaborate1{width: 49.8%;overflow: hidden; position: relative; }
 .collaborate2{width: 49.8%;margin-left:0.2%;overflow: hidden;position: relative;}
 .collaborate3{width: 100%;overflow: hidden;  position: relative;}
-
 .opt2{height: 35%}
 .opt{height: 35%}
 .map{height: 21vw}
-
 .pic{text-align: left;}
 .bannerAll1{background: url(../images/contact/ipadServiceBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll2{background: url(../images/contact/ipadCustomerBanner.jpg) no-repeat; background-size: 100%;}
@@ -127,17 +117,11 @@ select::-ms-expand { display: none; }
 .callMgnBtm{margin-bottom: 8%;}
 }
 
-
-
-
 @media (max-width:767px){
-
 .bannerAll1{background: url(../images/contact/mServiceBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll2{background: url(../images/contact/mCustomerBanner.jpg) no-repeat; background-size: 100%;}
 .bannerAll3{background: url(../images/contact/mCollaborateBanner.jpg) no-repeat; background-size: 100%;}
-
 .mainMgnTop{margin-bottom: 4.5%;}
-
 .d1img{display: none}
 .d2img{display: block;}
 .where{width: 100%}
@@ -148,12 +132,10 @@ select::-ms-expand { display: none; }
 .shops{padding-top: 0%}
 .pic{margin-bottom: 2%;text-align: left;}
 .title140{font-size: 20vw}
-
 .up{right: -20%}
 .next{left: -20%}
 .textBanner{top: 8%;width: 100%;left: 0%;text-align: center;line-height: 1.3}
 .map{height: 46vw}
-
 .changes{line-height: 250%;}
 .shop .title{padding-top: 5%;font-size:4.5vw}
 .changeShop{margin-top: 3.9%;width: 61%;margin-bottom:0 }
@@ -164,15 +146,12 @@ select::-ms-expand { display: none; }
 .shopname{font-size: 4.1vw;text-align: left;margin-bottom:4.5% }
 .address,.num,.time{text-align: left;font-size: 2.9vw;color: #808080;margin-top: 2%}
 .num{margin-bottom: 6%}
-
-
 .add{padding: 5% 0}
 .zhou{padding-left: 0;text-align: center;}
 
 
 /*人工客服*/
 .customer{width: 100%}
-
 .tel24,.weixin,.email{width: 100%;display:block;text-align: center;vertical-align: top}
 .tel24 img,.weixin img,.email img{padding-bottom: 3.5%  }
 .custitle,.titEng30{margin-bottom:2.5%}
@@ -180,7 +159,6 @@ select::-ms-expand { display: none; }
 .weixin{background-color: #ffffff}
 .aline{padding-bottom:9% }
 .wma{display: block}
-
 .titimg{width: 15%}
 .titimg{padding-top: 7%;padding-bottom: 7%}
 .emails{padding-bottom: 12%}
@@ -197,7 +175,6 @@ select::-ms-expand { display: none; }
 .collaborate2{margin-left:0;margin-right: 0;margin-top:2%;margin-bottom: 2%;}
 .optexts2{line-height: 1.5}
 .boptextL,.boptextR{width: 100%;text-align: left;padding: 0;margin: 0;display: black}
-
 .quartersimg{display: none;}
 .collaborate1 img,.collaborate2 img,.collaborate3 img{height: 100%}
 .boptext{line-height: 1.5}

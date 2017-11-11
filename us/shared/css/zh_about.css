@@ -1,3 +1,8 @@
+/* Version:1.0  Author: Carson, Amy 
+  Create Date:2017-09-27 
+  Update Date:2017-11-11 Amy
+  Desc : About Us Common CSS */  
+
 /* bannerAll begin */
 .bannerAll{background: url(../images/about/company-profile/companyBannerBg.jpg) no-repeat; background-size: 100%;}
 /* bannerAll end */
@@ -14,8 +19,6 @@
 .otherYear {position: absolute; width: 100%; display: none; z-index: 1000; max-height: 450%; overflow-y: auto; border-bottom: 1px solid #000000;}
 .otherYearText{text-align:center; margin-bottom:0; border: 1px solid #aaaaaa; cursor:pointer; padding-top:1%; padding-bottom:1%; background: rgba(255,255,255,0.9);}
 .otherYearText:hover{background:rgba(255,127,0,0.9); border:1px solid #ff7f00; color:white; transition:all, 0.5s;}
-
-
 .aboutCompanyContent{margin-top: 2%;}
 .aboutTitle{color: white; font-weight: 600; padding-top: 9.5%; margin-bottom:0;}
 .aboutSubtitle { padding-top: 1%; color: white; line-height: 1.3; margin-bottom: 0; padding-bottom: 20%;}
@@ -33,22 +36,15 @@
 }
 .aboutTextLeftImg{float: left; width: 13%; cursor: pointer; margin-top: 2.5%;}
 .aboutTextLeftImg img{width: 80%; margin-top: 10%; margin-bottom: 3%; margin-left: 10%;}
-/*.divA{width: 100%; position: relative;}
-.divB, .divC, .divD{position: absolute; width: 100%;  height: 100%;  background: url(../images/about/textLeftIconBorder.png) top center no-repeat; background-size: cover;}
-.divB:hover, .divC:hover, .divD:hover{animation:rot 2s infinite; animation-delay:0s; animation-timing-function: linear;}*/
 .aboutTextRightText{float: left; width: 85%; padding-left: 5%; padding-top: 5%;}
 .orangeBandLevel{border-top:5px solid #ff7f00;}
 .aboutSectionTab{float: left; width: 15.3%; margin-right: 0.6%;}
 .aboutSectionTab1 {margin-left: 26%;}
-
 #card img{width:100%;}
 .lastBg {background: url(../images/about/company-profile/lastBg.jpg) bottom center no-repeat; background-size: 100%; padding-bottom: 7%;}
 .aboutNewsBanner1, .aboutNewsBanner2, .aboutNewsBanner3{width:33.3%; float:left;  margin-right:0.05%; position:relative; border-bottom:5px solid #327fe8; overflow:hidden; cursor:pointer;}
 .aboutNewsBanner1 img:hover, .aboutNewsBanner2 img:hover, .aboutNewsBanner3 img:hover{transform: scale(1.2);}
 .aboutNewsBanner1 img, .aboutNewsBanner2 img, .aboutNewsBanner3 img{transition: all 1s;}
-/*.aboutNewsBanner2{
-    border-bottom:5px solid #ff7f00;
-}*/
 .aboutNewsBanner3{margin-right:0;}
 .aboutNewsBannerText, .aboutNewsBannerTextMobile{background: black; opacity: 0.8; color: white; position: absolute; bottom: 0; width: 100%; padding-top: 2%; padding-bottom: 2%;margin-bottom: 0; text-align: center;}
 .year2017, .year2016, .year2015{transition: all, 0.5s;}
@@ -111,29 +107,24 @@ table.templateText td{border:1px solid #222222;text-align:center;}
 .column3 td{width:33%;}
 .column2 td{width:50%;}
 .column6 td{width: 16.67%;}
-
-
 .picList{text-align: center; padding-top: 3%;}
 .picList img{width: 98%; display: block;}
 .picList p{padding: 0 5%; margin-bottom: 0;}
 .newsLeft,.newsRight{float: left; width: 50%;}
 
-
 @media (max-width:1600px) {
     .lastBg {background-size: 80%;
     }
-    /*.newsBlockLeftDate{
-        font-size:66px;
-    }*/
 }
+
 @media (max-width:1500px) {
     .templateCommentDate {padding-top: 8%;}
     .templateTextLeft .templateComment {padding-top: 1.5%;    }
 }
+
 @media (max-width:1300px) {
     .aboutTextRightText {padding-top: 4%;}
     .aboutSubtitle{padding-bottom:16%;}
-    /*.newsBlockLeftDate {font-size: 4vw;}*/
     .fontAdjust {top: -1.2vw;    }
     .container1280{padding-left:5%; padding-right:5%;}
     .social-share .social-share-icon {width: 3vw!important; height: 3vw!important; font-size: 2vw!important;}
@@ -145,8 +136,7 @@ table.templateText td{border:1px solid #222222;text-align:center;}
     .bannerAll{background: url(../images/about/company-profile/ipadCompanyBannerBg.jpg) no-repeat; background-size: 100%;}
 	/* bannerAll end */
 	
-	.social-share .social-share-icon {width: 3.6vw!important; height: 3.6vw!important; font-size: 2vw!important;}
-	
+	.social-share .social-share-icon {width: 3.6vw!important; height: 3.6vw!important; font-size: 2vw!important;}	
 	.newsBox{padding: 0 5.2%;}
 	.aboutCompanyContent{padding: 0 5%; margin-top: 2%;}
 	.yearSelect{margin-top: 20%}
@@ -174,10 +164,8 @@ table.templateText td{border:1px solid #222222;text-align:center;}
 	.newsContentBlock{padding-bottom:12%;}
 	.yearContainer {width: 50%; position: relative;}
     .yearText{text-align:center;}
-	.yearSelect{margin-top: 20%}
-	
-	.aboutCompanyContent{padding: 0 5%; margin-top: 7%;}
-	
+	.yearSelect{margin-top: 20%}	
+	.aboutCompanyContent{padding: 0 5%; margin-top: 7%;}	
     .aboutSectionTab1 {margin-left: 5%;}
     .aboutSectionTab {width: 29.5%; margin-right: 0;}
    .aboutTextText {padding-bottom: 2%; padding-top: 2%;}
@@ -190,8 +178,7 @@ table.templateText td{border:1px solid #222222;text-align:center;}
     .aboutNewsBanner1, .aboutNewsBanner2, .aboutNewsBanner3 {width: 49.5%; margin-right: 0.5%;}
     .formalVideoSection .clear, .formalVideoSection .clearfix{display:none;}
     #video0, #video1, #video2, #video3, #video4, #video5, #video6, #video7, #video8, #video9, #video10 {width: 90%; margin-left: 5%; margin-top: 40%;}
-    .videoWrapper1 {width:100%; margin-left:0; padding-bottom: 56.25%; /* 16:9 */}
-    
+    .videoWrapper1 {width:100%; margin-left:0; padding-bottom: 56.25%; /* 16:9 */}    
     .newsBlockLeft {padding-left: 2%; width: 25%;}
     .newsBlockRight {float: left; width: 75%; padding-right: 2%; padding-left: 3%;}
     .newsBlockLeftDate {font-size: 8vw;}
@@ -241,8 +228,7 @@ table.templateText td{border:1px solid #222222;text-align:center;}
     .right3{display:none;}
     .templateTitle{text-align:left;padding-bottom:8%;}
     .mobileCenter{text-align:center!important;}
-    table.templateText{width:100%;}
-	
+    table.templateText{width:100%;}	
 	.picList{padding-top: 6%;}
 	.newsLeft,.newsRight{float: none; width: 100%;}
 	.newsLeft{padding-bottom: 6%;}

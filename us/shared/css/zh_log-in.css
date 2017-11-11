@@ -1,14 +1,17 @@
-
+/* Version:1.0  
+  Author: Hounan 
+  Create Date:2017-10-27 
+  Update Date:2017-11-11 Amy
+  Desc : Login Common CSS */  
+  
 /* support search begin */
 .searchTitle{line-height: 1;margin-bottom: 2%}
 .sptSearch .left,.sptSearch .right{margin: 0 auto; text-align: left; width: 50%}
 .sptSearch .left{float: left;padding-top: 5.5%;}
-.sptSearch .right{float: right;padding-top: 3%; }
-
+.sptSearch .right{float: right;padding-top: 3%;}
 .searchImg,.searchBar,.searchButton{float: left; line-height: 1.5; padding-top: 3%; padding-bottom: 3%; border: 0px solid #ffffff;}
 .searchImg{width: 6.5%;   border-right: none; border-top-left-radius: 10px;border-bottom-left-radius: 10px;}
-.searchBar{width: 52%; padding-left: 1%; color: #999;border-radius:0;border-left: none;border-right: none;border-top-right-radius: 10px;border-bottom-right-radius: 10px; }
-
+.searchBar{width: 52%; padding-left: 1%; color: #999;border-radius:0;border-left: none;border-right: none;border-top-right-radius: 10px;border-bottom-right-radius: 10px;}
 .usename .searchImg{background: #fff url(../images/icons/iconLoginName.png) no-repeat scroll center center;background-size: 50%;background-position-x: 60%;}
 .password{margin-top: 2.5%}
 .password .searchImg{background: #fff url(../images/icons/iconPassword.png) no-repeat scroll center center;background-size: 40%;background-position-x: 60%;}
@@ -16,7 +19,6 @@
 .cookie .searchImg{background: #fff url(../images/icons/cookie.png) no-repeat scroll center center;background-size: 50%;background-position-x: 60%;}
 .cookie .searchBar{width: 26%}
 .searchButton {width: 25%; text-align: center; background-color: #ffffff; cursor: pointer;font-weight: bold; border-radius: 10px;margin-left: 1%;color: black}
-
 .bom a{color: #fff}
 .bom{width: 58.8%}
 .login{width: 65%;margin: 0 auto;background: #327fe8;border-radius: 10px;text-align: center;line-height: 1.5;margin-top: 6%;cursor: pointer;}
@@ -26,22 +28,16 @@
 .card img{width: 100%}
 .txt{position: absolute;top: 21%;left: 16%;width: 80%}
 .txtleft,.txtright{width: 50%;float: left;margin-top: 4%}
-/*.txtleft{padding-right: 5%}*/
 .dollar,.yuan{float: left;}
 .dollar{line-height: 1}
 .yuan{line-height: 0.8}
 .txtright{padding-left: 6%}
 .tuijian{color: #fff;background:#ff7f00;text-align: center; line-height: 2; border-radius:10px;width: 46%;margin: 0 auto; padding: 0; margin-top: 7%; cursor:pointer; margin-left: 20%;}
-
 .bottomstit{text-align: center;margin-top: 2.5%}
 .tit{line-height: 1.3}
 .logos{text-align: center;margin-top: 1.5%;margin-bottom: 4.5%}
 .logos div{display: inline-block;width: 3.4%;margin:0 0.5%;cursor: pointer;}
 .logos div img{width: 100%}
-
-	
-
-
 
 @media  (min-width:768px) and (max-width:1000px){
 	.searchBar{width: 70%;}
@@ -58,19 +54,15 @@
     .bottomstit{font-size: 2vw; padding: 0 5%;}
 	.sptSearch .right{padding-top: 3.9%; padding-bottom: .4%;}
 	.searchImg{width: 10%; margin-left: 10%;}
- 	/*.txtleft {padding-right: 5%;}*/
 	.logos div{width: 8.4%;margin:0 1%;}
 	.card{width: 100%}	
 	.txt{top: 20%}
-
 }
 
 @media (max-width:767px){
-
  .sptSearch .left,.sptSearch .right{float: none;width: 100%}
  .sptSearch .left { padding-top: 9%;text-align: center;}
  .sptSearch .right{padding-top: 17%}
-
  .searchImg{width: 12%}
  .searchBar{width: 88%}
  .cookie .searchBar {width: 50%;}
@@ -83,12 +75,9 @@
  .bottoms{width: 88%;margin:0 auto ;margin-top: 51%}
  .txtright {padding-left: 4%;}
  .tuijian{padding: 1.6% 0;line-height: 1.5; margin-top: 4%;}
-
  .logos div{width: 15%;margin:0 2%;}
  .txt{top: 18%}
-
-
-    }	
+}	
 	
 
 

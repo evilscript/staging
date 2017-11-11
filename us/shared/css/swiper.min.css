@@ -1,9 +1,16 @@
-/* Version:1.0  Author: Amy
+/* Version:1.0  
+  Author: Amy
   Create Date:2017-09-05 
-  Update Date:2017-10-23
-  Desc : bbPlan Swiper CSS */ 
+  Update Date:2017-11-11 Amy
+  Desc : Mobile Terminal Swiper CSS */ 
   
-.mSwiperBox{margin:0 auto;position:relative;overflow:hidden;z-index:1}
+.mSwiperBox{
+    margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	z-index:1;
+	}
+	
 .mSwiper-wrapper{
     position:relative;
 	width:100%;
@@ -21,16 +28,18 @@
 	transition-property:transform;
 	-webkit-box-sizing:content-box;
 	-moz-box-sizing:content-box;
-	box-sizing:content-box
+	box-sizing:content-box;
 	}
+	
 .mSwiper-slide{
     -webkit-flex-shrink:0;
 	-ms-flex:0 0 auto;
 	flex-shrink:0;
 	width:100%;
 	height:100%;
-	position:relative
+	position:relative;
 	}
+	
 .mSwiper-button-next,.mSwiper-button-prev{
     position:absolute;
 	top:21.5%;
@@ -42,21 +51,25 @@
 	-webkit-background-size:6% 10%;
 	background-size:6% 10%;
 	background-position:center;
-	background-repeat:no-repeat
+	background-repeat:no-repeat;
 	}
+	
 .mSwiper-button-next.mSwiper-button-disabled,.mSwiper-button-prev.mSwiper-button-disabled{
      opacity:.35;
 	 cursor:auto;
-	 pointer-events:none
+	 pointer-events:none;
 	 }
+	 
 .mSwiper-button-prev,.mSwiperBox-rtl .mSwiper-button-next{
      background: url(../images/icons/mSwiperPrev.png) no-repeat; background-size: 100%; background-position-x: 0%;background-position-y: 50%;
 	 left:2%;
-	 right:auto}
+	 right:auto;
+	 }
+	 
 .mSwiper-button-next,.mSwiperBox-rtl .mSwiper-button-prev{
 	 background: url(../images/icons/mSwiperNext.png) no-repeat; background-size: 100%; background-position-x: 0%;background-position-y: 50%;
 	 right:1.5%;
-	 left:auto
+	 left:auto;
 	 }
 	 
 	 

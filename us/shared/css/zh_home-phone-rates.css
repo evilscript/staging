@@ -1,13 +1,13 @@
 /* Version:1.0  Author: Amy
   Create Date:2017-09-01 
-  Update Date:2017-10-25 
-  Desc : bbRates CSS */ 
+  Update Date:2017-11-11 Amy
+  Desc : Home Phone Rates CSS */ 
 
-/* bbRates banner begin */
+/* BannerAll Begin */
 .bannerAll{background: url(../images/phone/bbRateBannerBg.jpg) no-repeat; background-size: 100%;}
-/* bbRates banner end */
+/* BannerAll End */
 
-/* bbRegion begin */
+/* bbRegion Begin */
 .bbRegion{padding: 4.5% 0 4.5% 0; text-align: center;}
 .regionPart1{margin-bottom: 5%;}
 .regionPart2{padding: 0 10%; text-align: left;}
@@ -46,9 +46,9 @@
 .Country27{background: url(../images/phone/bbRateIconUK.png) no-repeat; background-size: 23%;background-position-y: 50%;}
 .Country28{background: url(../images/phone/bbRateIconVatican.png) no-repeat; background-size: 23%;background-position-y: 50%;}
 .Country29{background: url(../images/phone/bbRateIconChile.png) no-repeat; background-size: 23%;background-position-y: 50%;}
-/* bbRegion end */
+/* bbRegion End */
 
-/* bbRates begin */
+/* Home Phone Rates Begin */
 .bbRates{text-align: center; margin-bottom: 7%;}		   
 .ratesPart1{padding: 3.6% 0 3% 0;}
 a.alphaButton{text-decoration: none; color: #222;}
@@ -125,20 +125,20 @@ a.alphaButton{text-decoration: none; color: #222;}
 .listRight{width: 16%;}
 .bgWhite{background: #fff;}
 .bgGray{background: #ececec;} 
-/* bbRates end */   
+/* Home Phone Rates End */   
    
 @media  (min-width:768px) and (max-width:1000px){
     .regionPart2,.regionNameSearch,.alphaCon,.ratesNote{padding: 0 5.2%;}	
-    /* bannerAll begin */
+    /* bannerAll Begin */
     .bannerAll{padding-top: 10.3%;  background: url(../images/phone/ipadBBRateBannerBg.jpg) no-repeat; background-size: 100%;}
-	/* bannerAll end */
+	/* bannerAll End */
 	
-    /* bbRegion begin */
+    /* bbRegion Begin */
     .bbRegion{padding: 6% 0 5.5% 0;}
 	.regionPart1{margin-bottom: 3%;}    
-	/* bbRegion end */
+	/* bbRegion End */
 	
-	/* bbRates begin */
+	/* Home Phone Rates Begin */
 	.ratesPart1{padding: 6% 0 3% 0;}
 	.bbRates{margin-bottom: 6.5%;}
 	.searchImg,.searchBar,.searchButton{line-height: 1.5}
@@ -155,7 +155,7 @@ a.alphaButton{text-decoration: none; color: #222;}
 	.listLeft{width: 36%;}
     .listCenter{width: 50%;}
     .listRight{width: 14%;}
-	/* bbRates end */
+	/* Home Phone Rates End */
 }
 @media (max-width:767px){
     .regionPart2,.regionNameSearch,.alphaCon,.ratesNote{padding: 0 5%;}	
@@ -165,16 +165,16 @@ a.alphaButton{text-decoration: none; color: #222;}
 	.bannerTitle{line-height: 1.5; margin-bottom: 3.5%;}
 	/* bannerAll end */
 	
-	/* bbRegion begin */
+	/* bbRegion Begin */
     .bbRegion{padding: 9% 0 12.5% 0;}
 	.regionPart1{margin-bottom: 6%; padding: 0 5%;}    
 	.ratesPart1{padding: 12% 0 6% 0;}
 	.countryCon{width: 103%;}	
     .countryBox{width: 33.3%; padding: 3% 0; background-size: 27%;}
 	.countryText{margin-left: 32%;}
-	/* bbRegion end */
+	/* bbRegion End */
 	
-	/* bbRates begin */
+	/* Home Phone Rates Begin */
 	.alphaCon{width: 100%;}
 	.alphabetBox{width: 105.2%;margin-left: 1%;}
 	.regionNameSearch{width: 100%;margin-bottom: 7.2%;}
@@ -191,13 +191,13 @@ a.alphaButton{text-decoration: none; color: #222;}
 	.listLeft{width: 34%;}
     .listCenter{width: 48%;}
     .listRight{width: 18%;}
-	/* bbRates end */
+	/* Home Phone Rates End */
 
 }
 
 @media (max-width:511px){
-    /* bbRegion begin */	
+    /* bbRegion Begin */	
 	.countryBox{padding: 3.2% 0;background-size: 29%;}
 	.countryText{line-height: 1;margin-left: 33%;}
-	/* bbRegion end */
+	/* bbRegion End */
 }

@@ -1,10 +1,10 @@
-/* Version:1.0  Author: Amy & Carson 
+/* Version:1.0  Author: Amy, Carson 
   Create Date:2017-07-27 
-  Update Date:2017-11-07
+  Update Date:2017-11-11 Amy
   Desc : All Common CSS */  
  
 /*Initialization settings begin*/ 
-*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;/*盒模型定义高度和宽度*/}
+*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 html{overflow-y:scroll; -webkit-text-size-adjust: none;}
 body {font-family: Microsoft Yahei, sans-serif; background-color: #fff; color: #222; height:100%; margin: 0; padding:0; overflow: hidden; transition: margin-left .5s, margin-right .5s;}
 ul,ol,li{list-style-type:none;}
@@ -21,12 +21,14 @@ input:focus{ outline:none;}
 .clearfix::before,.clearfix::after { display: table;line-height: 0; content:"";}
 .clearfix::after{clear:both;}
 .clearfix{zoom:1;}
-/* end of clearfix */ 
 
+/* Hyperlink */  
 a, a:hover, a:focus{ text-decoration:none;}
 a.linkOrange, a.linkOrange:hover, a.linkOrange:focus{color: #ff7f00;} 
 a.linkOrange:hover, a.linkOrange:focus{text-decoration: underline;} 
 a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;} 
+
+/* Colour */  
 .org{color:#ff7f00;}
 .bl{color:#327fe8;}
 .black {color: #222;}
@@ -38,7 +40,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .mainLayout{max-width:1920px; width:100%; margin:0 auto; /*padding-top: 9%;*/}
 .mainMgnTop{margin-top: 3%;}
 .titleMgnBtm{margin-bottom: 1%;}
-/*.titleMgnBtm span{display: block;}*/
 .lineOrange{height:0; border-bottom: .4vw solid #ff7f00; -khtml-border-bottom: .4vw solid #ff7f00;}
 .lineBlue{height:0; border-bottom: .4vw solid #327fe8; -khtml-border-bottom: .4vw solid #327fe8;/* margin-top: 7%;*/}
 .hidePC,.showipad,.showM{display:none;}
@@ -94,6 +95,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'pingfang';
     src: url('../fonts/pingfang/PingFang-Bold.woff') format('woff'),
@@ -101,6 +103,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     font-weight: 700;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'pingfang';
     src: url('../fonts/pingfang/PingFang-Light.woff') format('woff'),
@@ -142,31 +145,19 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .title20{font-size: 20px;}
 .title18{font-size: 18px;}
 .title16{font-size: 16px;}
+/*English Edition*/
+.title34{font-size: 34px;}
+.title28{font-size: 28px;}
+.title22{font-size: 22px;}
 
 .text18{font-size: 18px;}
 .text16{font-size: 16px;}
 .text14{font-size: 14px;}
 .text12{font-size: 12px;}
-
-/*英文版字号 begin*/
-.title34{font-size: 34px;}
-.title28{font-size: 28px;}
-.title22{font-size: 22px;}
-/*英文版字号 end*/
-
-/*.title80{font-size: 80px;}
-.title48{font-size: 48px;}
-.title32{font-size: 32px;}
-
-.title26{font-size: 26px;}
-.title22{font-size: 22px;}
-.text20{font-size: 20px;}
-*/
-
 /* fontSize end */
 
-/*Header和Footer*/
-.headerTotal{position:fixed; width:100%;/*max-width:1920px;*/ z-index:1000;}
+/*Header and Footer*/
+.headerTotal{position:fixed; width:100%; z-index:1000;}
 .headerTextLogin{width: 100%; text-align: center; color: white; margin-bottom: 8%; margin-top: 8%;}
 .headerTextLan{width: 100%; text-align: center; color: white; margin-bottom: 6%; margin-top: 6%;}
 .header1{background: #ff7f00;}
@@ -213,12 +204,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .specialService a:hover{color: #ff7f00;}
 .hide{display:none;}
 .show{display:block;}
-.bigLogo{
-    -webkit-transition: opacity 3s ease-in-out;
-    -moz-transition: opacity 3s ease-in-out;
-    -o-transition: opacity 3s ease-in-out;
-    transition: opacity 3s ease-in-out;
-}
+.bigLogo{-webkit-transition: opacity 3s ease-in-out; -moz-transition: opacity 3s ease-in-out; -o-transition: opacity 3s ease-in-out; transition: opacity 3s ease-in-out;}
 .revisedHeader{padding-top:1%;}
 .revisedHeader2{padding-top:1.7%;}
 .revisedHeader3{padding-top:1.3%;}
@@ -227,7 +213,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .headerBackToTop{position: fixed; text-align: center; color: white; width: 60px; height: 60px; bottom: 5%; right: 5%; z-index: 50; background: #327fe8; padding: 0.5%; opacity: 0.8; border: 1px solid white; cursor: pointer; transition: all, 0.5s; border-radius: 15%;}
 .headerBackToTop:hover{background: white; border: 1px solid #327fe8; color: #327fe8;}
 .menu1,.menu2,.menu3,.menu4,.menu5 {display: none; background: white; opacity: 0.85; z-index: 200; width: 100%; text-align: center; position: absolute; border-bottom: 1px solid #aaaaaa; padding-top: 1%; padding-bottom: 0.5%;}
-.menu1Block, .menu2Block, .menu3Block, .menu4Block, .menu5Block {display: inline-block; color: #2a2a2a; text-align: center; /* font-size:16px;padding-right: 2%; padding-left: 2%;*/ width: 13%; margin-left: 1%; margin-right: 1%; text-decoration: none; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out;}
+.menu1Block, .menu2Block, .menu3Block, .menu4Block, .menu5Block {display: inline-block; color: #2a2a2a; text-align: center; width: 13%; margin-left: 1%; margin-right: 1%; text-decoration: none; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out;}
 .menu1Block img, .menu2Block img, .menu3Block img, .menu4Block img, .menu5Block img{width: 26%; margin-left: 37%; padding-bottom: 4%;}
 .menu1Block:hover, .menu2Block:hover, .menu3Block:hover, .menu4Block:hover, .menu5Block:hover{color:#327fe8; text-decoration:none; transform: scale(1.1);}
 .headerActive{color:#ff7f00;}
@@ -236,7 +222,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .hugeLogo img{width:84%; margin-left:5%;}
 .sitemapText{float:left; width:62%; padding-top:2%;}
 .sitemapTextColumn{width:30%; float:left; padding-left: 10%;}
-
 .contentBg1{background:url("../images/header/sitemapIcon1.png") no-repeat left top; background-position-y:50%; background-size:25%; padding-top: 2%;}
 .contentBg1Blue{background:url("../images/header/sitemapIcon1Blue.png") no-repeat left top; background-position-y:50%; background-size:25%;}
 .contentBg2{background:url("../images/header/sitemapIcon2.png") no-repeat left top; background-position-y:50%; background-size:25%; padding-top: 2%;}
@@ -249,8 +234,7 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 .contentBg5Blue{background:url("../images/header/sitemapIcon5Blue.png") no-repeat left top; background-position-y:50%; background-size:25%;}
 .contentBg6{background:url("../images/header/sitemapIcon6.png") no-repeat left top; background-position-y:70%; background-size:25%; padding-top: 2%;}
 .contentBg6Blue{background:url("../images/header/sitemapIcon6Blue.png") no-repeat left top; background-position-y:70%; background-size:25%;}
-/*.footerSitemap {padding-left: 15%; padding-right: 15%; padding-top: 3%; padding-bottom: 2%; border-bottom: 1px solid #6a6a6a;}*/
-.footerSitemap {/*padding-left: 0%;*/ padding-right: 6%; padding-top: 3%; padding-bottom: 2%; /*border-bottom:none;*/}
+.footerSitemap {padding-right: 6%; padding-top: 3%; padding-bottom: 2%;}
 .footerSitemap .footerTitle, .footerSitemap .footerText{color: #222;}
 .footerSitemap .footerText:hover {color: #ff7f00;}
 .footerSitemap .footerColumn{padding-left:0;}
@@ -287,32 +271,19 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	.title20{font-size: 17px;}
 	.title18{font-size: 15px;}
     .title16{font-size: 14px;}
+	/*English Edition*/
+	.title34{font-size: 28px;}
+    .title28{font-size: 23px;}
+    .title22{font-size: 18px;}
 	
 	.text18{font-size: 15px;}
     .text16{font-size: 14px;}
 	.text14{font-size: 13px;}
 	.text12{font-size: 12px;}
-	
-	/*英文版字号 begin*/
-	.title34{font-size: 28px;}
-    .title28{font-size: 23px;}
-    .title22{font-size: 18px;}
-    /*英文版字号 end*/
-	
-    /*.title80{font-size: 67px;}    
-    .title48{font-size: 40px;} 	
-    .title32{font-size: 27px;}    
-    .title28{font-size: 23px;}
-    .title26{font-size: 22px;}    
-    .title22{font-size: 18px;} 	
-	.text20{font-size: 17px;}    
-    */
-	
 	/* fontSize end */    
     
     .hotText{font-size:14px;}
-    .headerMirrorSearchText{font-size:20px;}
-	
+    .headerMirrorSearchText{font-size:20px;}	
 }
 
 @media (max-width:1400px){
@@ -328,27 +299,15 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	.title20{font-size: 16px;}
     .title18{font-size: 14px;}
     .title16{font-size: 13px;}
+	/*English Edition*/
+	.title34{font-size: 25px;}
+    .title28{font-size: 20px;}
+    .title22{font-size: 17px;}
 	
 	.text18{font-size: 14px;}
     .text16{font-size: 13px;}
 	.text14{font-size: 12px;}
-	.text12{font-size: 11px;}
-	
-	/*英文版字号 begin*/
-	.title34{font-size: 25px;}
-    .title28{font-size: 20px;}
-    .title22{font-size: 17px;}
-    /*英文版字号 end*/
-	
-    /*.title80{font-size: 58px;}    
-    .title48{font-size: 35px;}	   
-    .title32{font-size: 23px;}    
-    .title28{font-size: 20px;}
-    .title26{font-size: 19px;}    
-    .title22{font-size: 17px;}
-    .text20{font-size: 16px;}    
-    */
-	
+	.text12{font-size: 11px;}	
 	/* fontSize end */
 	
     .headerMirrorSearchPart{padding-top: 1.5%;}
@@ -368,27 +327,15 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .title20{font-size: 1.1vw;}
     .title18{font-size: 1vw;}
     .title16{font-size: .9vw;}
+	/*English Edition*/
+    .title34{font-size: 1.77vw;}
+    .title28{font-size: 1.46vw;}
+    .title22{font-size: 1.15vw;}
 
     .text18{font-size: 1vw;}
     .text16{font-size: .9vw;}
     .text14{font-size: .85vw;}
 	.text12{font-size: .8vw;}
-
-    /*英文版字号 begin*/
-    .title34{font-size: 1.77vw;}
-    .title28{font-size: 1.46vw;}
-    .title22{font-size: 1.15vw;}
-    /*英文版字号 end*/
-
-    /* .title80{font-size: 4.2vw;}
-     .title48{font-size: 2.5vw;}
-     .title32{font-size: 1.7vw;}
-     .title28{font-size: 1.46vw;}
-     .title26{font-size: 1.38vw;}
-     .title22{font-size: 1.15vw;}
-     .text20{font-size: 1.1vw;}
-     */
-
     /* fontSize end */
 	
     .headerBackToTop {height:50px; width:50px;}
@@ -438,11 +385,11 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 
 @media (min-width:768px) and (max-width:1000px) {    
     /* mainLayout start */	
-	.mainLayout{max-width:1000px; padding-top: 14%;/* margin-bottom: 0;*/ }
+	.mainLayout{max-width:1000px; padding-top: 14%;}
 	.mainMgnTop{margin-top: 3.5%;}
 	.titleMgnBtm{margin-bottom: 1.6vw;}
 	.lineOrange{height:0; border-bottom: .6vw solid #ff7f00;}
-	.lineBlue{height:0; border-bottom: .6vw solid #327fe8;/* margin-top: 6%;*/}
+	.lineBlue{height:0; border-bottom: .6vw solid #327fe8;}
 	.showipad{display: block;}
 	/* mainLayout end*/
 	
@@ -468,26 +415,16 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	.title24{font-size: 2.2vw;}/* 22px */
 	.title20{font-size: 1.8vw;}/* 18px */
     .title18{font-size: 1.6vw;}/* 16px */
-    .title16{font-size: 1.4vw;}/* 14px */	
+    .title16{font-size: 1.4vw;}/* 14px */
+	/*English Edition*/
+	.title34{font-size: 3.0vw;}
+    .title28{font-size: 2.6vw;}
+    .title22{font-size: 2.0vw;}
 	
 	.text18{font-size: 1.6vw;}/* 16px */
     .text16{font-size: 1.4vw;}/* 14px */
 	.text14{font-size: 1.3vw;}/* 13px */
-	.text12{font-size: 1.2vw;}
-	
-	/*英文版字号 begin*/
-	.title34{font-size: 3.0vw;}
-    .title28{font-size: 2.6vw;}
-    .title22{font-size: 2.0vw;}
-    /*英文版字号 end*/
-	
-    /*.title80{font-size: 6.7vw;}*/  /*以767px在1000px分辨率的比例取值，下同*/    
-    /*.title48{font-size: 4.2vw;}*/  /* 42px */	    
-    /*.title32{font-size: 3.0vw;}*/  /* 30px */    
-    /*.title28{font-size: 2.6vw;}*/  /* 26px */
-    /*.title26{font-size: 2.4vw;} */ /* 24px */    
-    /*.title22{font-size: 2.0vw;} */ /* 20px */
-    /*.text20{font-size: 1.8vw;}*/  /* 18px */ 
+	.text12{font-size: 1.2vw;}	   
 	/* fontSize end */	
 	
     .toggle{padding-left:0;}
@@ -517,11 +454,11 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 
 @media (max-width:767px) {    
 	/* mainLayout start */	
-	.mainLayout{max-width:767px; padding-top: 14%; /* margin-bottom: 0;*/}
+	.mainLayout{max-width:767px; padding-top: 14%;}
 	.mainMgnTop{margin-top: 5%;}
 	.titleMgnBtm{margin-bottom: 3vw;}
 	.lineOrange{height:0; border-bottom: .9vw solid #ff7f00;}
-	.lineBlue{height:0; border-bottom: .9vw solid #327fe8;/* margin-top: 12%;*/}
+	.lineBlue{height:0; border-bottom: .9vw solid #327fe8;}
 	/* mainLayout end*/
 	
 	/* bannerAll begin */
@@ -572,10 +509,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	.mText16{font-size: 2.09vw;}
 	.mText14{font-size: 1.83vw;}
 	.mText12{font-size: 1.57vw;}	
-	
-	/*.mTitle54{font-size: 7.04vw;}	
-	.mTitle48{font-size: 6.26vw;}*/
-	
 	/* fontSize end */    
   
 	.headerBackToTop {display:none!important;}
@@ -583,15 +516,13 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
     .blueBand {background: #327fe8; height: 1vw;}
     .mobileHeaderText:hover, .mobileHeaderText2:hover{color:white; background: #ff7f00; border-bottom:1px solid #ff7f00;}
     .header1Icon{display:none;}
-    .header1, .mobileHeader1{height:auto; background-color:#ff7f00;}
-	
+    .header1, .mobileHeader1{height:auto; background-color:#ff7f00;}	
     .menuLeft{display:none;}
     .menuRight{display:none;}
     .showM{display:block;}
     .hideM{display:none;}
 	.hidePC{display:block;}
-    .telephone{display:none;}
-	
+    .telephone{display:none;}	
     .logo{width:30%;}
     .toggleM {float: left; width: 8%; padding-right: 0; margin-left: 3%; padding-top: 10%; padding-left: 0.5%; cursor: pointer; margin-right: 24.5%;}
     .toggleM img{width:100%;}
@@ -636,10 +567,6 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 	/* mainLayout end */
 	
 }
-
-
-
-
 
 
 /* Supplemental public style begin */
@@ -687,27 +614,23 @@ a.linkWhite, a.linkWhite:hover, a.linkWhite:focus{color: #fff;}
 }
  
 @media  (max-width:767px){   
-    /* Sharp text box begin */	
+    /* Sharp Text Box */	
 	.foldBox{margin-top: .8%;}
 	.foldText{padding:5% 4% 2.2% 5%; border-radius: 8px;}	
 	.foldText > ul.listNom{margin: 0;padding-left: 5%;}
 	.bubbleAngle{margin-bottom: -10px; margin-left: 8.5%;}
-	/* Sharp text box end */
      
-    /* menu styles begin */
+    /* Menu Styles */
 	.menuCon{width: 100%; margin-top: 2%;}	
 	.menuBox p{margin-bottom: 0;}
-	/* menu styles end */
 	
-    /* Indicator arrow begin */ 
+    /* Indicator Arrow */ 
    .btnImgN img{margin-left: 1.8%; width: 3%; margin-bottom: 1%;} 
    .btnImgPer30 img{margin-left: 5%; width: 6.5%; margin-bottom: 1.6%;} 
-   /* Indicator arrow end */
  
 }
- 
- 
-/* Supplemental public style begin */
+
+/* Supplemental public style end */
  
 
 

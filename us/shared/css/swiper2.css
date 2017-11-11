@@ -1,17 +1,8 @@
-/**
- * Swiper 3.4.2
- * Most modern mobile touch slider and framework with hardware accelerated transitions
- * 
- * http://www.idangero.us/swiper/
- * 
- * Copyright 2017, Vladimir Kharlampidi
- * The iDangero.us
- * http://www.idangero.us/
- * 
- * Licensed under MIT
- * 
- * Released on: March 10, 2017
- */
+/* Version:1.0  Author: Honan
+  Create Date:2017-10-10
+  Update Date:2017-11-11 Amy
+  Desc : Mobile Terminal Swiper CSS */ 
+  
 .swiper-container {
   margin-left: auto;
   margin-right: auto;

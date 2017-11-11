@@ -26,40 +26,36 @@
         .loginf{height: 19vw}
         .searchBar2{border:1px solid #b1b1b1;border-radius: 10px;width:95%;}
         .youemail,.younum{display: inline-block;width: 45%;}
-        .younum{margin-left: 6%}
-      
+        .younum{margin-left: 6%}      
         .pricepic{width: 45%;margin: 0 auto;margin-top: -5%}
         .pricepic img{width: 100%}
         .time{margin-left: 6%}
         .friendemail{margin-left: 12%;border: 1px solid #b1b1b1;border-radius: 10px;width: 40.6%}
         .sendButton{border-radius: 10px;width: 40.6%;text-align: center;line-height: 1.5;background-color: #ff7f00;color: white;cursor:pointer;padding-top: 1%;padding-bottom: 1%;margin-left: 12%;margin-top: 5%}
-
         #notUser{margin-left: 8%}
         .youemail input,.younum input{line-height: 2.5;padding-left: 5.5%}
         .stepBox{margin-top:1%;margin-bottom: 1%}
         .stepBox2Con{margin-top: 0;padding-top: 0}
-
          textarea{ resize:none;}
 
-
-            @media  (min-width:768px) and (max-width:1000px){
-              .loginf{height: 30vw}
-               .friendemail{margin-left: 16.4%;line-height: 2}
-               .younum{margin-left: 9%}
-               .sendButton{margin-left:16.5% }
+@media  (min-width:768px) and (max-width:1000px){
+        .loginf{height: 30vw}
+        .friendemail{margin-left: 16.4%;line-height: 2}
+        .younum{margin-left: 9%}
+        .sendButton{margin-left:16.5% }
     }
-    @media (max-width:767px){
-              .loginf{height: 60vw}
-             
-                .youemail,.younum{display: inline-block;width: 50%;}
-                .youemail{margin-top:5% }
-                .pricepic{width: 85%;margin-top: -10%}
-                .friendemail{margin-left: 16.9%;width: 75%;padding-top: 3%;padding-bottom: 3%;padding-left: 4.5%}
-                .youemail,.younum{display: block;width: 85%;margin-left: 8%}
-                .sendButton{width: 75%;line-height: 2;margin-left: 17%}
+	
+@media (max-width:767px){
+        .loginf{height: 60vw}             
+        .youemail,.younum{display: inline-block;width: 50%;}
+        .youemail{margin-top:5% }
+        .pricepic{width: 85%;margin-top: -10%}
+        .friendemail{margin-left: 16.9%;width: 75%;padding-top: 3%;padding-bottom: 3%;padding-left: 4.5%}
+        .youemail,.younum{display: block;width: 85%;margin-left: 8%}
+        .sendButton{width: 75%;line-height: 2;margin-left: 17%}
     }
-     
-    </style>
+	
+</style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42957008-1"></script>
@@ -73,7 +69,7 @@
 </head>
 
 <body ng-app="">
-   <!-- Author: Amy --> 
+   <!-- Author: Amy, Hounan --> 
    <div id="header"></div>
    
    <!--main content begin-->
@@ -157,16 +153,6 @@
              	<p class="title36 mTitle44">只需<span class="CloOrange title50 mTitle60 fwb">3</span>步，<span class="change1">邀请您的亲友一起体验精彩的海外生活</span></p><div id="pageTitle" style="display:none"></div>
              </div>
              <div class="referStepCon">
-
-
-
-
-
-
-
-
-
-
                 <div class="referStepBox refferralInfo">
 
              	   <div class="stepBox stepBox1">
@@ -203,50 +189,10 @@
                     <p class="commColor" id="commissionLink"></p>
                    </div>
              	</div>
-
-   
+             	   
              </div>
           </div> 
-          <!--<div class="referCon">
-             <div class="referStepTitle">
-             	<p class="title36 mTitle44">只需<span class="CloOrange title50 mTitle60 fwb">3</span>步，<span class="change1">马上和亲友一起体验“移动生活，处处精彩</span>”</p>
-             </div>
-             <div class="referStepCon">
-                <div class="referStepBox">
-
-             	   <div class="stepBox stepBox1">
-             		  <p class="stepTitle title24 mTitle28 change2">把您的手机号码告诉朋友</p>
-             	   </div>
-             	   <div class="stepBox stepBox2">
-             		  <p class="stepTitle title24 mTitle28">发送给朋友</p>             		  
-             	   </div>
-             	   <div class="stepBox stepBox2Con">
-             	      <div class="email clearfix">
-             		     <p class="searchText text18 mText22">方法一：电子邮件</p>
-        	             <input class="searchBar text18 mText22" type="search" placeholder="" value="输入您朋友的邮箱" onfocus="if (value =='输入您朋友的邮箱'){value =''}" onblur="if (value ==''){value='输入您朋友的邮箱'}" >        	    
-        	             <p class="searchButton text18 mText22">
-                         发送
-                         </p>  
-             		  </div>
-             		  <div class="shortMessage clearfix">
-             			 <p class="searchText text18 mText22">方法二：发送短信</p>
-             			 <img class="stepQRcode" src="../shared/images/refer/referStepQRcode.png"/>
-             			 <div class="foldBox clearfix">
-             			    <div class="bubbleAngle"></div>
-             			 	<div class="foldText text18 mText22">
-				               <p>内容预览：</p>
-		   	                   <p>注册时，我的电话号码是优惠码，立刻可以减免$10！</p>
-				            </div>
-             			 </div>
-             		  </div>
-             	   </div>
-             	   <div class="stepBox stepBox3">
-             		  <p class="stepTitle title24 mTitle28 change3">成功！您的亲友在注册时输入您的手机号码，立刻获得$10优惠；您将在亲友注册后30天获得iTalkBB蜻蜓送出的$10</p>
-             	   </div>
-
-             	</div>
-             </div>
-          </div>-->       	      	
+                	
        </section>
         
        <section>
@@ -258,21 +204,6 @@
                     <div class="loginf">
                       <iframe frameborder="0"  scrolling="no" src="https://webaccount.italkbb.com/CSS/Login.Responsive.loader.html?business=BB&culture=zh-CHS&LoginHTML=src-refer-us-chs.html" width="100%" height="100%"  style="border-radius:5px;"></iframe>
                     </div>
-
-<!--       	  	      <div class="loginName clearfix">
-      	  	         <p class="loginImg loginImg1 text18 mText22">&nbsp;</p>
-      	  	         <input class="loginInput text18 mText22" type="search" placeholder="" value="用户名" onfocus="if (value =='用户名'){value =''}" onblur="if (value ==''){value='用户名'}" > 	
-      	  	      </div>
-      	  	      <div class="loginPassword clearfix">
-      	  	         <p class="loginImg loginImg2 text18 mText22">&nbsp;</p>
-      	  	         <input class="loginInput text18 mText22" type="search" placeholder="" value="密码" onfocus="if (value =='密码'){value =''}" onblur="if (value ==''){value='密码'}" > 	
-      	  	      </div>
-      	  	      <div class="loginSubmit">
-      	  	      	 <a href="#"><p class="title30 mTitle38">登 录</p></a>
-      	  	      </div>
-      	  	      <div class="loginText">
-      	  	      	 <a href="#" class="linkOrange"><p class="text18 mText22">立即注册</p></a>
-      	  	      </div> -->
 
       	  	   </div>
       	  	</div>

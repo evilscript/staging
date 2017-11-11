@@ -24,9 +24,8 @@
 <script src="../shared/js/common.js"></script>
 <script src="../shared/js/fold-pictures.js"></script>
 <style>
-	/**/
 	.faultCon,.signalCon{display: none;}
-	</style>
+</style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42957008-1"></script>
@@ -38,7 +37,6 @@
 </script>
 
 </head>
-
 
 <body ng-app="">
     <!-- Author: Amy --> 
@@ -452,75 +450,8 @@
 		</div>
 		</div>
 		</div>
-	  </div>
-	  
-	  <!--<div class="signalCon">
-	  	<div class="bgMgn gradient">
-		<div class="mainMgn200">
-		<div class="partAll">
-		    <p class="titleMgnBtm title24 mTitle32 pin fwb">信号覆盖范围查询</p> 
-		    <div class="listTxtCon text18 mText26">
-		   	  <p>请点击查看<a class="linkOrange" href="#">信号覆盖</a>。</p>		
-		    </div>		    
-		</div>
-		</div>
-		</div>
-		
-	    <div class="bgMgn gradient">
-		<div class="mainMgn200">
-		<div class="partAll">
-		    <p class="titleMgnBtm title24 mTitle32 pin fwb">什么是4G LTE？</p> 
-		    <div class="listTxtCon text18 mText26">
-		   	  <p>iTalkBB蜻蜓的全国4G LTE网络让您享受非凡的网络速度！如此快的网络速度让您上网体验不受限制。4G LTE网络拥有比普通3G网络高50%的速度。如果您所在的区域在我们4G LTE覆盖的区域内，您就可以享受到前所未有的高速网络啦。现在就点击信号覆盖查询所有4G LTE的区域吧! *频率表: Band 2 (1900 MHz), Band 4 (1700/2100 MHz), Band 12 (700 MHz)</p>		
-		    </div>		    
-		</div>
-		</div>
-		</div>
-		
-		<div class="bgMgn gradient">
-		<div class="mainMgn200">
-		<div class="partAll">
-		    <p class="titleMgnBtm title24 mTitle32 pin fwb">什么是4G (HSPA+)？</p> 
-		    <div class="listTxtCon text18 mText26">
-		   	  <p>4G网络最高下载速度可达21 Mbps 至42 Mbps。 在如此高速下，您的移动生活将无比精彩，可以同时拨打电话、浏览网页、下载音乐等等。Frequencies: Band 2 (1900 MHz), Band 4 (1700/2100 MHz)</p>		
-		    </div>		    
-		</div>
-		</div>
-		</div>
-		
-		<div class="bgMgn gradient">
-		<div class="mainMgn200">
-		<div class="partAll">
-		    <p class="titleMgnBtm title24 mTitle32 pin fwb">什么是3G (HSPA)？</p> 
-		    <div class="listTxtCon text18 mText26">
-		   	  <p>3G网络的最高下载速度可达14 Mbps。在此速度下，您也可以同时拨打电话和使用流量服务。Frequencies: Band 4 (1700/2100 MHz)</p>		
-		    </div>		    
-		</div>
-		</div>
-		</div>
-		
-		<div class="bgMgn gradient">
-		<div class="mainMgn200">
-		<div class="partAll">
-		    <p class="ttitleMgnBtm itle24 mTitle32 pin fwb">什么是2G (GSM, GPRS, and EDGE)</p> 
-		    <div class="listTxtCon text18 mText26">
-		   	  <p>iTalkBB蜻蜓的2G网络最高下载速度可达263 kbps。而传统的2G网路速度在35 kbps 和45kbps之间。在此速度下，您仍旧能够轻松地浏览网页、处理邮件、收发微信等。Frequencies: Band 2 (1900 MHz)</p>		
-		    </div>		    
-		</div>
-		</div>
-		</div>
-		
-		<div class="bgMgn gradient">
-		<div class="mainMgn200">
-		<div class="partAll">
-		    <p class="titleMgnBtm title24 mTitle32 pin fwb">设备要求</p> 
-		    <div class="listTxtCon text18 mText26">
-		   	  <p>您使用的设备须与您使用的网络类型匹配，例如，只有支持4G LTE网络的手机设备才能达到4G LTE的网络速度。另外，您所在的位置需要有移动信号覆盖，请点击查看信号覆盖。</p>		
-		    </div>		    
-		</div>
-		</div>
-		</div>		
-	  </div>-->		
+	  </div>	  
+	  	
 	  </section>
    
       <!--help support search begin--> 
@@ -558,12 +489,6 @@ $(".fault").click(function(){
     $(this).addClass('selected');  
 })
 
-//$(".signal").click(function(){
-//    $(".mobile").children().css("display", "none");
-//    $(".signalCon").css('display','block');
-//    $('.menuBox').children().removeClass('selected');
-//    $(this).addClass('selected');  
-//})
 
 $(document).ready(function(){
     if (window.location.href.indexOf("?cellphoneError") > -1) {

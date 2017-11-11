@@ -1,10 +1,10 @@
 /* Version:1.0  Author: Amy
   Create Date:2017-10-09 
-  Update Date:2017-10-25
-  Desc : bundles-tv-phone CSS */ 
+  Update Date:2017-11-11 Amy
+  Desc : Bundles zh CSS */ 
   
 /* bundles banner begin */
-.bdBanBox{/*font-family: Microsoft Yahei, sans-serif;*/}
+.bdBanBox{}
 .bdBanBox a,.bdBanBox a:link,.bdBanBox a:hover,.bdBanBox a:visited{color: #fff;}
 .bdBannerCon{max-width: 1920px; text-align: center;padding-top: 4.5%;color: #fff; background: url(../images/support/sptBannerBg.jpg) no-repeat; background-size: 100%;}
 .bdBanTitle{margin-bottom: .75%;}
@@ -47,9 +47,8 @@ ul.listNom li{list-style-type:decimal;}
 .textBox{margin-top: 2%; padding-top: 2%; padding-bottom: 7%; padding-right: 1%;}
 .textBox p{color: #ff7f00;}
 .textBox p img{display: inline-block; width: 12.2%; padding-bottom: 4%;}
-
 .textSpecialBox{line-height: 1.8; text-align: left; padding-top: 3%; padding-bottom: 13%; padding-left: 34.5%; background: url(../images/phone/chs_bbPlanIconSale.png) no-repeat; background-size: 13%;background-position-x: 23%; background-position-y: .2vw;}
-
+.textSpecialBoxCHT{line-height: 1.8; text-align: left; padding-top: 3%; padding-bottom: 13%; padding-left: 34.5%; background: url(../images/phone/cht_bbPlanIconSale.png) no-repeat; background-size: 13%;background-position-x: 23%; background-position-y: .2vw;}
 .planList{background: #f2f2f2;}
 ul{padding-left: 0;}
 ul.bundlesCon li{float: left; width: 50%; padding-right: 3%;}
@@ -59,7 +58,7 @@ ul.bundlesCon li.double{width: 100%;}
 .Sharp,.textCon{float: left; display: block;}
 .Sharp{vertical-align: top;width: 7%;}
 .textCon{ width: 93%;}
-.listCon{padding: 10% 6.5% 8% 10.5%; text-align: left;/* font-family: Microsoft Yahei, sans-serif;*/}
+.listCon{padding: 10% 6.5% 8% 10.5%; text-align: left;}
 .listCon .hook{margin-bottom: 5%; padding-left: 6.5%; background: url(../images/icons/hookIconOrange.png) no-repeat; background-size: 4%; background-position-y: .2vw;}
 .planBtn{float: left; width: 44%; background: #327fe8; margin-left: 28%; margin-top: -5%; padding-bottom: .2%; border-radius: 10px; cursor: pointer;}
 .planBtn p{line-height: 1.8;}
@@ -72,8 +71,6 @@ ul.bundlesCon li.double{width: 100%;}
 .planYearDown .listCon{padding: 5% 2% 0 5.1%;}
 .planYearDown .listCon .hook{float: left; width: 46%; margin-bottom: 3%; margin-right: 4%; padding-left: 2.9%; background-size: 3.5%;}
 .planYearDown .listCon .conRight{margin-right: 0;}
-
-/*.lineSelectTitle{color:white; padding-top:1%; padding-bottom:2%; margin-bottom:0;}*/
 .lineSelectText{
     text-align: center;
     color: white;
@@ -106,26 +103,10 @@ ul.bundlesCon li.double{width: 100%;}
 }
 .line6 {margin-right: 0;}
 .lineSelect{position: relative; text-align: center; margin-bottom: 3%; z-index: 0; width: 75%; margin-left: 12.5%;}
-/*.crossBorder{border-top: 4px solid #00afff; width: 75%; margin-left: 12.5%; position: absolute; top: 50%;}*/
-.lineSelectText:hover{color: white;
-    box-shadow: inset 200px 0 10px #00afff;
-    transition: box-shadow ease 0.8s, padding-top 0s, padding-bottom 0s, margin-top 0s;
-}
+.lineSelectText:hover{color: white; box-shadow: inset 200px 0 10px #00afff; transition: box-shadow ease 0.8s, padding-top 0s, padding-bottom 0s, margin-top 0s;}
 .lineSelectSelected{background:#ff7f00; color:white; padding-top:2%; padding-bottom:2%; margin-top:-1%;}
-.lineSelectSelected:hover{color: white;
-    box-shadow: inset 200px 0 10px #ff7f00;
-    transition: box-shadow ease 0.8s, padding-top 0s, padding-bottom 0s, margin-top 0s;
-}
-.chinaSimCard {
-    background: url(../images/bundles/chinaCardIcon.png) no-repeat;
-    background-size: 15%;
-    padding-left: 23%;
-    padding-top: 3%;
-	padding-bottom: 3%;
-    text-align: left;
-    background-position-x: 5%;
-	background-position-y: 50%;
-}
+.lineSelectSelected:hover{color: white; box-shadow: inset 200px 0 10px #ff7f00; transition: box-shadow ease 0.8s, padding-top 0s, padding-bottom 0s, margin-top 0s;}
+.chinaSimCard {background: url(../images/bundles/chinaCardIcon.png) no-repeat; background-size: 15%; padding-left: 23%; padding-top: 3%; padding-bottom: 3%; text-align: left; background-position-x: 5%; background-position-y: 50%;}
 .chinaSimCard p{margin-bottom: 0;}
 #chinaSimCardCheckbox, #chinaSimCardCheckbox2, #chinaSimCardCheckbox3, #chinaSimCardCheckbox4{margin-top: 0;margin-left: 0%;}
 .chinaSimCardCheckboxLabel, .chinaSimCardCheckboxLabel2, .chinaSimCardCheckboxLabel3, .chinaSimCardCheckboxLabel4{padding-left:2%;cursor:pointer;}
@@ -142,7 +123,6 @@ ul.bundlesCon li.double{width: 100%;}
 .tvBannerPic{margin-bottom: 2%;}
 .bbBannerPic{margin-bottom: 4%;}
 .dataSources{color: #fff; margin-bottom: 2.5%; padding-bottom: 3%; padding-right: 10%; text-align: right;}
-
 .iconsBox{float: left; width: 30%; text-align: left;}
 .iconsSpace{width: 5%;}
 .iconsTitle{padding: 0 5.2%; padding-top: 39%; margin-bottom: 4%;text-align: center;}
@@ -165,7 +145,6 @@ ul.bundlesCon li.double{width: 100%;}
 .iconsCon2 .iconsTitle10{background:url(../images/bundles/bundlesIcons10.png)  no-repeat top; background-size: 23%;}
 .iconsCon2 .iconsList p{padding-left: 4.6%; background-size: 2.8%;}
 .iconTop{margin-top: 3%;}
-
 .numberSearch{margin-top: 4%;}
 .numsearchImg,.numsearchBar,.numsearchBarLine,.numsearchButton{float: left; padding-top: 1.8%; padding-bottom: 1.8%; border: 1px solid #b1b1b1; line-height: 1.5; text-align: center;}
 .numsearchImg{
@@ -179,15 +158,7 @@ ul.bundlesCon li.double{width: 100%;}
 	background-size: 48%;
     background-position-x: 60%;
 }
-.numsearchBar,.numsearchBarLine{
-    padding-left: 1%;    
-    margin-bottom: 0.5%;
-    width: 20%;
-	color: #aaa;
-	border-radius:0;
-	border-left: none;
-	border-right: none;    
-}
+.numsearchBar,.numsearchBarLine{padding-left: 1%; margin-bottom: 0.5%; width: 20%; color: #aaa; border-radius:0; border-left: none;	border-right: none;}
 .numsearchBarLine{width: 3%; padding-left: 0%; color: #b1b1b1;	background: #fff;}
 .numsearchButton {   
     width: 24%;	
@@ -242,11 +213,11 @@ ul.bundlesCon li.double{width: 100%;}
 	.planYearUp .yearTextCenter{margin: 7% 0 2% 35%;}
 	.planYearDown .planBtn{width: 24%; margin-left: 38%;}
 	.planYearDown .listCon{padding: 5% 1% 3.5% 4.1%;}
-	.planYearDown .listCon .hook{width: 46.2%; padding-left: 3.5%; background-size: 4.1%; background-position-y: .4vw;}
-	
+	.planYearDown .listCon .hook{width: 46.2%; padding-left: 3.5%; background-size: 4.1%; background-position-y: .4vw;}	
 	.lineSelectText:before{border-top: .35vw solid #00afff;}
 	.chinaSimCard{background-size: 17%;padding-left: 25.5%; margin: 2% 0;}
 	/*plan End*/ 	
+	
 	.bundlesBBMgnBtm{padding-bottom: 6%;}
 	.bundlesMobile{margin-top: 7.2%;}
 	.bundlesTV{margin-top: 10%; margin-bottom: 10%;}
@@ -254,19 +225,17 @@ ul.bundlesCon li.double{width: 100%;}
 	.mobileBanner{background: url(../images/bundles/ipadBundlesMobilepic.png) no-repeat; background-size: 100%;}
     .mBannerPic{max-width:1000px; margin: 0 auto; width: 92%; padding-top: 5.2%; padding-bottom: 1%;}
     .mBannerPic img,.tvBannerPic img,.bbBannerPic img{width: 100%;}
-    .dataSources{margin-bottom: 2.5%; padding-bottom: 6%; padding-right: 10%;}
-	
+    .dataSources{margin-bottom: 2.5%; padding-bottom: 6%; padding-right: 10%;}	
 	.iconsCon{padding: 0 5%;}
 	.iconsList p{padding-left: 9%; background-size: 6%; background-position-y: .32vw;}
 	.iconsCon2 .iconsList p{padding-left: 6%; background-size: 4%; background-position-y: .26vw;}
-	.iconTop{margin-top: 5%;}
-	
+	.iconTop{margin-top: 5%;}	
 	.numsearchImg{width: 12%;}
 	.numsearchBar{width: 18%;}
 	.numsearchBarLine{width: 2%;}
-	.numsearchButton{width: 30%;}	
-	
+	.numsearchButton{width: 30%;}		
 }
+
 @media (max-width:767px){
     /* bundles banner */
     .bdBannerCon{max-width: 767px;padding-top: 6.6%; background: url(../images/support/mSptBannerBg.jpg) no-repeat; background-size: 100%;}
@@ -310,8 +279,7 @@ ul.bundlesCon li.double{width: 100%;}
 	.planBtn p{margin-bottom: 1.2%;line-height: 1.5;}	
 	.planOtherBox{margin-bottom: 6%;padding: 0 6%;}	
     .mSwiper-slide {padding: 0 10%;}
-    .mSwiper-button-disabled {display:none;}
-	
+    .mSwiper-button-disabled {display:none;}	
 	.lineSelectTitle {padding-top: 3%; padding-bottom: 3%;}
     .lineSelectSelected {padding-top: 1%; padding-bottom: 1%; margin-toP: 0;}
     .lineSelectText:before{border-top: none;}
@@ -319,7 +287,8 @@ ul.bundlesCon li.double{width: 100%;}
     .line3,.line6{margin-right:0;}
 	.chinaSimCard{margin:2% 0; background-position-y: 50%;}
 	.checkboxText{margin-left: -3.5%;}
-	/*plan End*/	
+	/*plan End*/
+	
 	.bundlesBBMgnBtm{padding-bottom: 12%;}
 	.bundlesMobile {margin-top: 12%;}
 	.bundlesTV{margin-top: 18%; margin-bottom: 20%;}
@@ -329,8 +298,7 @@ ul.bundlesCon li.double{width: 100%;}
     .mBannerPic img,.tvBannerPic img,.bbBannerPic img{width: 100%;}
 	.bbBannerPic{margin-bottom: 0%;}
     .dataSources{margin-bottom: 2%; padding-bottom: 6%; padding-right: 10%;}	
-	.bundlesTV .iconsCon{margin-top: -5%;}
-	
+	.bundlesTV .iconsCon{margin-top: -5%;}	
 	.iconsCon{padding: 0 10%;}
 	.iconsBox{float: none; width: 100%; padding-top: 11%;}
 	.iconsTitle{ margin-bottom: 4%;}
@@ -344,8 +312,7 @@ ul.bundlesCon li.double{width: 100%;}
 	.numsearchImg{width: 10%;}
 	.numsearchBar{width: 18%;}
 	.numsearchBarLine{width: 3%;}
-	.numsearchButton{width: 30%;}
-   		
+	.numsearchButton{width: 30%;}   		
 }
 
 @media (max-width:511px){	
