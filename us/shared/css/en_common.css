@@ -6,6 +6,7 @@ body {font-family: "open sans", arial, sans-serif!important; background-color: #
 .pin,.mic{font-family: "open sans", arial, sans-serif!important;}
 .linkWhite, .downArrow{font-family: Microsoft Yahei, sans-serif!important;}
 
+
 .bgTitle{width: 70%;}
 .menuRight {width: 32%;}
 .telephone{width:18%; margin-left: -5%;}
@@ -28,7 +29,9 @@ body {font-family: "open sans", arial, sans-serif!important; background-color: #
 
 @media (min-width:768px) and (max-width:1000px) {
     .footerColumn{width:18.8%;}
-	.telephone{width:26%; font-size: 1.6vw; margin-left: -6%; padding-top: 5%;}   
+	.toggleM {width: 4.5%;}
+	.logo {margin-left: 36%; margin-right: 18%; float: left; width: 18%;}
+    .telephone {width: 27%; font-size: 1.62vw;}
 }
 
 @media (max-width:767px) {
