@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
     //var domain = "http://webaccount-dev.italkbb.com/WebSite_Controller";
-    var domain = "http://iof-test.italkcs.com/WebSite_Controller";
+    var domain = "http://webaccount.italkbb.com/WebSite_Controller";
     $.extend({
         Request: function (m) {
             var sValue = location.search.match(new RegExp("[\?\&]" + m + "=([^\&]*)(\&?)", "i"));
