@@ -535,7 +535,7 @@ a.contactA, a.contactA:hover, a.contactA:focus{color: #222;text-decoration:none;
     .emailBar,.submitButton {line-height: 1.5;}
 	.emailBar {padding-left: 3%!important; padding-top: 2%!important; padding-bottom: 2%!important; margin-bottom: 2%; margin-left: 10%; margin-top: 3%; width: 65%!important; border-top-left-radius: 10px!important; border-bottom-left-radius: 10px!important; border-top-right-radius: 0px!important; border-bottom-right-radius: 0px!important; border: 1px solid #cfcfcf!important;}
     .submitButton {color: #ff7f00; width: 20%; border: 1px solid #cfcfcf; padding-top: 2%; padding-bottom: 2%; margin-top: 3%; border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
-	.socialIcon {padding-top: 17%;}
+	.socialIcon {padding-top: 1%;}
     .socialIcon img {width: 10%; margin-right: 3%; margin-bottom: 6%; margin-top: 2%;}
     .social1 {margin-left: 18%;}
     #myCarouseM{padding-top:18%;}
