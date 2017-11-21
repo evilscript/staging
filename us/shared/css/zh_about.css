@@ -1,6 +1,6 @@
 /* Version:1.0  Author: Carson, Amy 
   Create Date:2017-09-27 
-  Update Date:2017-11-11 Amy
+  Update Date:2017-11-21 Amy
   Desc : About Us Common CSS */  
 
 /* bannerAll begin */
@@ -74,7 +74,7 @@
 .videoWrapper2 {position: relative; width:100%; margin-left:0; padding-bottom: 56.25%; /* 16:9 */  margin-top: 2%; margin-bottom:2%; height: 0;}
 .videoWrapper2 iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 .templateTitle{padding-top: 6%; margin-bottom: 0; text-align:center;}
-.templateText{padding-top:2%; margin-bottom:0;}
+.templateText{padding-top:3%; margin-bottom:0;}
 .templateSubTitle{padding-top:2%; margin-bottom:0;}
 .templateComment{padding-top:1%; margin-bottom:0;}
 .templateCommentDate{margin-top: .5vw; margin-bottom:0; padding-left: .5vw;}
@@ -108,7 +108,7 @@ table.templateText td{border:1px solid #222222;text-align:center;}
 .column2 td{width:50%;}
 .column6 td{width: 16.67%;}
 .picList{text-align: center; padding-top: 3%;}
-.picList img{width: 98%; display: block;}
+.picList img{width: 98%; display: block;margin-bottom: 2%;}
 .picList p{padding: 0 5%; margin-bottom: 0;}
 .newsLeft,.newsRight{float: left; width: 50%;}
 
