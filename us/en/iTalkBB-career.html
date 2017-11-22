@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>iTalkBB-Carrer</title>
+<title>iTalkBB-Career</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="copyright" content="iTalkBB">
@@ -16,6 +16,7 @@
 <link rel="stylesheet" type="text/css"  href="../shared/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css"  href="../shared/css/zh_common.css">
 <link rel="stylesheet" type="text/css"  href="../shared/css/zh_sptAll.css">
+<link rel="stylesheet" type="text/css"  href="../shared/css/en_common.css">
 <script src="../shared/js/jquery-1.12.4.min.js"></script>
 <script src="../shared/js/jquery-1.7.2.min.js"></script>
 <script src="../shared/js/angular-1.6.4.min.js"></script>
@@ -25,10 +26,11 @@
 <link rel="stylesheet" type="text/css"  href="../shared/css/reveal.css">
 <script src="../shared/js/jquery.reveal.js"></script>
 <style>
-
-a{color: #222;}
-        .applyMainTop{margin-top: 4%;background:url(../shared/images/carrer/careerBg.png) no-repeat scroll ;background-size:100%;padding-bottom: 1%;}
+		body{}
+		a{color: #222;}
+        .applyMainTop{margin-top: 4%;background:url(../shared/images/career/careerBg.png) no-repeat scroll ;background-size:100%;padding-bottom: 1%;}
 		.boss{width: 79.2%;margin: 0 auto}
+/*		.tit{margin-left: 2.5%}*/
 		.lv1{display: inline-block;width: 25%}
         .applyMainTop{padding-top: 4%;margin-top: 0}
      
@@ -59,7 +61,8 @@ a{color: #222;}
 		.navContent{margin-left: 4.5%}
 		.navContent a:hover{color:#ff7f00  }
         .mbg{display: none}
-        .titleMgnBtm span{display: inline}        
+        .titleMgnBtm span{display: inline}
+        
 
         .icons{width: 8.5%;display: inline-block;vertical-align: top;text-align: center;margin-right: 5%}
         .icons img{width: 100%}
@@ -73,16 +76,17 @@ a{color: #222;}
         .vod{margin-top: 15%}
         .logos{margin-top: 2%;}
         .logos div{display: inline-block;width: 4.5%;margin:0 0.5%;cursor: pointer;}
-        .logos div img{width: 100%}		
+        .logos div img{width: 100%}
+		
 		.socialMedia{margin-bottom: 7%;}
         .tyy{margin-top: -10%;padding: 3% 5% 3% 5%}
         .ula li{list-style-type:circle;margin-left: 1%}
         .button{width: 20%;background: #327fe8;text-align: center;border-radius: 10px;color: white;margin: 0 auto;margin-top: 5%;}
         .button a{color: white}
-        .wechatIconSocial {max-width: 200px;width: 20%;padding: 10px;border: 1px solid #dddddd;margin-top: 3%;margin-bottom: 3%;display: none}
+                .wechatIconSocial {max-width: 200px;width: 20%;padding: 10px;border: 1px solid #dddddd;margin-top: 3%;margin-bottom: 3%;display: none}
         .w100{width: 100%}
 
-@media  (min-width:768px) and (max-width:1000px){
+   @media  (min-width:768px) and (max-width:1000px){
      .applyMainTop{margin-top: 6%;background-position: 0 75%}
 	 .boss{width: 90%}
      .tit{margin-left: 1.5%}
@@ -100,34 +104,35 @@ a{color: #222;}
      .button{width:40%;}
 }
 
-@media  (max-width:767px){
+   @media  (max-width:767px){
      .applyMainTop{margin-top: 10%;background: none;}
 	 .boss{width: 100%}
-     .tit{margin-left: 5%;margin-right: 5%;}
-     .menu{width: 100%;}
-     .lv1{background: #555555;border-right-color:white;color: white;}
+     .tit{margin-left: 5%;margin-right: 5%}
+     .menu{width: 100%}
+     .lv1{background: #555555;border-right-color:white;color: white }
      .us{margin-left: 0%}
      .lv2{width: 95%}
-     .lv1:hover{color:white;background:#ff7f00;}
-     .lva,.lvb,.lvc,.lvd{margin-left: 1.5%;}
-     .mbg{display: block;}
-     .mbg img{width: 100%;}
+     .lv1:hover{color:white;background:#ff7f00 }
+     .lva,.lvb,.lvc,.lvd{margin-left: 1.5%}
+     .mbg{display: block}
+     .mbg img{width: 100%}
      .tit1 span{color: #ff7f00 }
      .icons{display: block;width: 100%;margin-top: 3%}
      .icons img{width: 15%;display: inline-block;}
-     .icontxt{width: 80%;display: inline-block;text-align: left;font-weight: 500;vertical-align: middle;margin-top: 0px;margin-left: 3%;}
+     .icontxt{width: 80%;display: inline-block;text-align: left;font-weight: 500;vertical-align: middle;margin-top: 0px;margin-left: 3%}
      .titicon{margin-top:10% }
-     .left,.right{display: block;width: 100%;}
+     .left,.right{display: block;width: 100%}
      .right{display: none}
-     .titvod{margin-left: 0;margin-right: 0;}
-     .share{margin-top:12%;}
+     .titvod{margin-left: 0;margin-right: 0}
+     .share{margin-top:12% }
      .logos div{width: 12%;margin:0 3%;}
      .logos{margin-top: 8%}
-     .org{color: white;background:#ff7f00;}     
+     .org{color: white;background:#ff7f00 }
+     
 	 .socialMedia{margin-bottom: 12%;}
     .tyy{margin-top: -60%;}
      .reveal-modal{left: 38.5%;width: 90%}
-     .button{width: 60%;}
+     .button{width: 60%}
 
 }
 
@@ -155,7 +160,7 @@ a{color: #222;}
             $('#header').load('header.html');
         </script>
         <div class="clear clearfix"></div>
-        <section class="mainLayout" style='position: relative;'>
+        <section class="mainLayout" style="position: relative;">
             <div id="planFormComparea" class="reveal-modal ccclose tyy">
                  <div class="planFormCon">
                      <p class="titleMgnBtm title34 mTitle42 fwb titleMgnBtm">Accountant (Chinese Mandarin Bilingual)</p> 
@@ -405,7 +410,7 @@ a{color: #222;}
     	     </div>
        </section>
     <section class="mbg">
-           <img src="../shared/images/carrer/mCareerBg.png" alt="iTalkBB蜻蜓-Carrer">
+           <img src="../shared/images/career/mCareerBg.png" alt="iTalkBB-Career">
        </section>
     <section class="icon">
 
@@ -417,27 +422,27 @@ a{color: #222;}
 				</div>
                 <div class="tit titicon">
                    <div class="icons">   
-                        <img src="../shared/images/carrer/carrerIcon1.png" alt="iTalkBB蜻蜓-Carrer">
+                        <img src="../shared/images/career/careerIcon1.png" alt="iTalkBB-Career">
                         <div class="text16 mText26 fwb icontxt">15 PTO days & 10 paidholidays</div>
                     </div>
                     <div class="icons">   
-                        <img src="../shared/images/carrer/carrerIcon2.png" alt="iTalkBB蜻蜓-Carrer">
+                        <img src="../shared/images/career/careerIcon2.png" alt="iTalkBB-Career">
                         <div class="text16 mText26 fwb icontxt">Full coverage for medical, dental, & vision insurance</div>
                     </div>
                     <div class="icons">   
-                        <img src="../shared/images/carrer/carrerIcon3.png" alt="iTalkBB蜻蜓-Carrer">
+                        <img src="../shared/images/career/careerIcon3.png" alt="iTalkBB-Career">
                         <div class="text16 mText26 fwb icontxt">Competitive salaries</div>
                     </div>
                     <div class="icons">   
-                        <img src="../shared/images/carrer/carrerIcon4.png" alt="iTalkBB蜻蜓-Carrer">
+                        <img src="../shared/images/career/careerIcon4.png" alt="iTalkBB-Career">
                         <div class="text16 mText26 fwb icontxt">Company sponsored term life insurance</div>
                     </div>
                     <div class="icons">   
-                        <img src="../shared/images/carrer/carrerIcon5.png" alt="iTalkBB蜻蜓-Carrer">
+                        <img src="../shared/images/career/careerIcon5.png" alt="iTalkBB-Career">
                         <div class="text16 mText26 fwb icontxt">401k & flexible spending accounts</div>
                     </div>
                     <div class="icons">   
-                        <img src="../shared/images/carrer/carrerIcon6.png" alt="iTalkBB蜻蜓-Carrer">
+                        <img src="../shared/images/career/careerIcon6.png" alt="iTalkBB-Career">
                         <div class="text16 mText26 fwb icontxt">Company cell phone plan</div>
                     </div>
                 </div>
@@ -457,7 +462,7 @@ a{color: #222;}
                             </video>
                         </div>
                     </div><div class="right">
-                        <img src="../shared/images/carrer/Careerus.png" alt="">
+                        <img src="../shared/images/career/Careerus.png" alt="">
                     </div>
                 </div>
             </div>
@@ -469,7 +474,7 @@ a{color: #222;}
                <div class="sharetit title34 mTitle42 fwb">Follow us on LinkedIn</div>
                <div class="logos">
                     <div class="logo1">
-                        <img src="../shared/images/icons/iconWechat.png" alt="iTalkBB蜻蜓-微信">
+                        <img src="../shared/images/icons/iconWechat.png" alt="iTalkBB-微信">
                     </div>
 <!--                     <div class="logo2">
                         <a href="http://weibo.com/p/1006065041497758/home?from=page_100606&mod=TAB&is_all=1#place" target="_blank">
@@ -483,18 +488,18 @@ a{color: #222;}
                     </div> -->
                     <div class="logo4">
                         <a href="https://www.youtube.com/channel/UCGCxNSstqeecxd4unpObkNg" target="_blank">
-                            <img src="../shared/images/icons/iconGoogle.png" alt="iTalkBB蜻蜓-Google">
+                            <img src="../shared/images/icons/iconGoogle.png" alt="iTalkBB-Google">
                         </a>
                     </div>
                     <div class="logo5">
                         <a href="https://www.linkedin.com/company/italk-global-communications" target="_blank">
-                            <img src="../shared/images/icons/iconLinkedin.png" alt="iTalkBB蜻蜓-Linkedin">
+                            <img src="../shared/images/icons/iconLinkedin.png" alt="iTalkBB-Linkedin">
                         </a>
                     </div>
                 </div>
 
              <div class="wechatIconSocial">
-                <p class="wechatIconSocialTitle">扫码关注微信公众号</p>
+                <p class="wechatIconSocialTitle">Open your WeChat and scan the QR code to follow us</p>
                 <img src="../shared/images/icons/wechatQRcodeIcon.jpg" class="img w100">
             </div>
 
