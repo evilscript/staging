@@ -140,6 +140,11 @@
 .otherIconBox .foldText{text-align: left; padding-left: 6%; padding-right: 4%;}
 .otherIconBox p{margin-top: 2%;}
 
+.textBox { margin-top: 2%; padding-right: 1%;}
+.textSpecialBox {line-height: 1.8;text-align: left;padding-top: 3%;padding-bottom: 13%;padding-left: 34.5%;background: url(../images/phone/chs_bbPlanIconSale.png) no-repeat; background-size: 13%;background-position-x: 23%;background-position-y: .2vw;}
+
+
+
 /*Price Position Begin*/
 @media  (min-width:1801px) and (max-width:1880px){
     .planYearUp{padding-left: 21.3%;}
@@ -262,6 +267,8 @@
 	.otherFuncBox{margin-bottom: -4%;}	
 	.otherFuncBox .Func{width: 25%; padding: 0 2%;padding-top: 18%; margin-bottom: 6%;background-size: 60%;}
 	.planIcons,.otherFuncBox{padding: 0 .6%;}	
+
+	.textSpecialBox { padding-left: 30%;background-position-x: 15%;background-position-y: 2vw;}
 }
 
 @media (max-width:511px){	

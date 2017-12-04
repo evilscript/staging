@@ -28,6 +28,7 @@
 <script src="../shared/js/chs_bundlesPlanPriceDisplay.js"></script>
 <script src="../shared/js/italkbb.tools.js"></script>
 <script src="../shared/js/colorbox.js"></script>
+
     <style>
 #CheckPhoneNumberA{display: block;}
   .content_search_box_tel_none{display: none}
@@ -37,6 +38,8 @@
 	}
 @media (max-width:767px){ 
    .mSwiper-button-next,.mSwiper-button-prev{top:15%;}
+   .textSpecialBox{padding-left: 22%;background-position-x:6%;}
+
 	}
     </style>
 
@@ -101,7 +104,7 @@
         	  			<div class="textBox textSpecialBox"> 
       	  			       <div class="title18 mTitle26 fwb">
       	  			       	  <p>移动：免激活费，卡费</p>
-      	  			       	  <p>电话：前3个月免月费，返运费</p>
+      	  			       	  <p id="mtpplan1g"></p>
       	  			       </div>  	  			       
        	  			       <!--<p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/phone/chs_bbPlanIconSale.png" alt="iTalkBB蜻蜓-当月优惠" ></span>
@@ -251,7 +254,7 @@
         	  			 <div class="textBox textSpecialBox"> 
       	  			       <div class="title18 mTitle26 fwb">
       	  			       	  <p>移动：免激活费，卡费</p>
-      	  			       	  <p>电话：前3个月免月费，返运费</p>
+      	  			       	   <p id="mtpplan5g"></p>
       	  			       </div> 
        	  			       <!--<p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/phone/chs_bbPlanIconSale.png" alt="iTalkBB蜻蜓-当月优惠" ></span>
@@ -419,7 +422,7 @@
         	  			<div class="textBox textSpecialBox"> 
       	  			       <div class="title18 mTitle26 fwb">
       	  			       	  <p>移动：免激活费，卡费</p>
-      	  			       	  <p>电话：前3个月免月费，返运费</p>
+      	  			       	  <p id="mmtpplan1g"></p>
       	  			       </div>
        	  			       <!--<p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/phone/chs_bbPlanIconSale.png" alt="iTalkBB蜻蜓-当月优惠" ></span>
@@ -565,7 +568,7 @@
         	  			<div class="textBox textSpecialBox"> 
       	  			       <div class="title18 mTitle26 fwb">
       	  			       	  <p>移动：免激活费，卡费</p>
-      	  			       	  <p>电话：前3个月免月费，返运费</p>
+      	  			       	  <p id="mmtpplan5g"></p>
       	  			       </div>
        	  			       <!--<p class="title18 mTitle26">
        	  			        <span><img src="../shared/images/phone/chs_bbPlanIconSale.png" alt="iTalkBB蜻蜓-当月优惠" ></span>
@@ -908,6 +911,7 @@
   
 <!-- Swiper JS begin-->
   <script src="../shared/js/swiper.min.js"></script>
+  <script src="../shared/js/service.js"></script>
   <!-- Initialize Swiper -->
   <script>
         var swiper = new Swiper('.mNewswiper2', {
