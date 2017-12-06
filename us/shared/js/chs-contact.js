@@ -164,7 +164,7 @@ $(".button3").click(function(){
 			 	"pic":[{'str':"../shared/images/contact/NYFlagshipStore1.jpg"},{'str':"../shared/images/contact/NYFlagshipStore2.jpg"},{'str':"../shared/images/contact/NYFlagshipStore3.jpg"}]},
 			   
 			   	{"shopName":"Sky View",
-			   "shopaddress":"Address: <span class='pin'>Sky View 地下一层昌发超市内</span> <br> 40-24 College Point Blvd, level B, Flushing NY 11354",
+			   "shopaddress":"Address: <span class='pin'>Sky View 地下一层昌发超市内</span> <br> 40-24 College Point Blvd, level B, Flushing, NY 11354",
 			   "shoptime":"Hours: Mon - Sun, 10:30am - 7:30pm",
 			   "shopnum":"Tel: (718) 888-2515",
 			     "mapd":"http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=4024+College+Point+Boulevard+Flushing,+NY+11354&aq=&sll=34.07862,-118.101893&sspn=0.007011,0.013937&ie=UTF8&hq=&hnear=40-24+College+Point+Blvd,+Queens,+New+York+11354&t=m&ll=40.764031,-73.830957&spn=0.022753,0.057507&z=14&iwloc=A&output=embed",

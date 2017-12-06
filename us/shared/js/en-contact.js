@@ -157,14 +157,14 @@ $(".button3").click(function(){
 
 
 				{"shopName":"NY Flagship Store",
-			   "shopaddress":"Address: 42–35 Main Street, Unit 1E, Flushing 11355",
+			   "shopaddress":"Address: 42–35 Main Street, Unit 1E, Flushing, NY 11355",
 			   "shoptime":"Hours: Mon - Sun, 9:30am - 8:30pm",
 			   "shopnum":"Tel: (718) 888-0068",
 			     "mapd":"http://ditu.google.cn/maps?f=q&source=s_q&hl=en&geocode=&q=42%E2%80%9335+Main+Street,+Unit+1E,+Flushing,+NY+11355&aq=&sll=40.695215,-73.912102&sspn=1.734618,3.56781&brcurrent=3,0x0:0x0,0%3B5,0,0&ie=UTF8&hq=&hnear=42-35+Main+St,+Flushing,+New+York+11355%E7%BE%8E%E5%9B%BD&t=m&ll=40.754409,-73.827868&spn=0.022756,0.057507&z=14&iwloc=A&output=embed",
 			 	"pic":[{'str':"../shared/images/contact/NYFlagshipStore1.jpg"},{'str':"../shared/images/contact/NYFlagshipStore2.jpg"},{'str':"../shared/images/contact/NYFlagshipStore3.jpg"}]},
 			   
 			   	{"shopName":"Sky View",
-			   "shopaddress":"Address: 40-24 College Point Blvd, level B, Flushing NY 11354",
+			   "shopaddress":"Address: 40-24 College Point Blvd, level B, Flushing, NY 11354",
 			   "shoptime":"Hours: Mon - Sun, 10:30am - 7:30pm",
 			   "shopnum":"Tel: (718) 888-2515",
 			     "mapd":"http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=4024+College+Point+Boulevard+Flushing,+NY+11354&aq=&sll=34.07862,-118.101893&sspn=0.007011,0.013937&ie=UTF8&hq=&hnear=40-24+College+Point+Blvd,+Queens,+New+York+11354&t=m&ll=40.764031,-73.830957&spn=0.022753,0.057507&z=14&iwloc=A&output=embed",
