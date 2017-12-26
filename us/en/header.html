@@ -31,12 +31,62 @@
                     <img src="../shared/images/header/headerTelephone.png" class="img" alt="">
                 </a>
             </div>
+
+            <!-- 语言切换按钮 -->
+            <div class="lancho">
+                    <div class="headimgx"><img src="../shared/images/header/US_1lanpicb.png" class="img" alt="" class="aaa"></div>
+                    <div class="headerTextLan headerTextLanx title18 mTitle26">Language-EN</div>
+            </div>
+
             <div class="clear clearfix"></div>
             <div class="orangeBandHeader showM"></div>
             <div class="clear clearfix"></div>
         </div>
     </div>
     <!--桌面端搜索功能在header上的扩展-->
+
+
+    <!--pc 语言切换-->
+
+    <div class="searchFunction2 " style="display:none;">
+        <div class="backenter title22 title22x"><a class="orgx" href="http://www.italkbb.com/bb/enter.html">Go back to the iTalkBB Global page</a></div><div class="choicelang">
+            <div class="choiceup">
+                <div class="txthead title16 mTitle22">Please select your country</div><div class="flags">
+                    <div class="flag ct" id="us"  contry='us'>
+                        <img src="../shared/images/header/US_1lanpic.png" alt="">
+                    </div><div class="flag ct" id="ca"  contry='ca'>
+                        <img src="../shared/images/header/CA_1lanpic.png" alt="">
+                    </div><div class="flag ct" id="au"  contry='au'>
+                        <img src="../shared/images/header/AU_1lanpic.png" alt="">
+                    </div><div class="flag ct" id="sg"  contry='sg'>
+                        <img src="../shared/images/header/SG_1lanpic.png" alt="">
+                    </div>
+                </div> 
+
+             </div>
+            <div class="choicedown">
+                <div class="txthead title16 mTitle22">Please select your language</div><div class="txts">
+                    <div class="txt title30 mTitle30 title30x la" id='chs' langue='chs'>简</div>
+                    <div class="txt title30 mTitle30 title30x la" id='cht' langue='cht'>繁</div>
+                    <div class="txt title30 mTitle30 title30x la" id='en' langue='en'>EN</div>
+                    <div class="txt title30 mTitle30 title30x la" id='kr' langue='kr'>한국어</div>
+                </div>
+
+            </div>
+        </div><div class="yes title22">
+            <div class="headbutton" id='headbutton'>SELECT</div>
+        </div>
+
+        <div class="myes title22 mTitle18">
+            <div class="mheadbuttona" ><a href="http://www.italkbb.com/bb/enter.html" class="orgx">Go back to the iTalkBB Global page</a></div>
+            <div class="mheadbuttonb" id='mheadbutton'>SELECT</div>
+        </div>
+    </div>
+
+
+<!-- pc 语言切换结束 -->
+
+
     <div class="searchFunction" style="display:none;">
         <!--Google搜索代码-->
         <script>
@@ -120,6 +170,7 @@
                 <a href="log-in.html">
                     <img src="../shared/images/header/loginM.png" class="img" alt="">
                 </a>
+                <img src="../shared/images/header/US_1lanpicb.png" class="mlanc" alt="" style="width:22%">
             </div>
             <!--结束-->
             <div class="menuRight title18 mTitle26 black2 fwb">
@@ -527,6 +578,23 @@
     });
     /*结束*/
 
+    /*切换语言展开搜索*/
+    $('.lancho,.mlanc').click(function(){
+
+        $('.searchFunction2').slideToggle(500);
+           colo =  window.location.href;
+            opupadd = colo.split("/")[3];
+
+            opdomadd = colo.split("/")[4];
+         
+            id1 = '#'+opupadd;
+            id2 = '#'+opdomadd;
+
+            $(id1).trigger('click');
+            $(id2).trigger('click');
+    }); 
+    /*结束*/
+
     /*返回顶端*/
     $('.headerBackToTop').click(function () {
         $('html,body').animate({
@@ -566,6 +634,15 @@
         if (!container3.is(e.target) && container3.has(e.target).length === 0)
         {
             target3.fadeOut();
+        }
+        /*结束*/
+
+       /*切换语言 点击其他区域 自动收起*/
+        var containerc = $(".lancho,.mlanc,.backenter,.choicelang,.yes,.headbutton,.choiceup,.choicedown,.txthea,.flags,.flag,.flag img,.txts,.txt,.searchFunction2");
+        var target2 = $(".searchFunction2");
+        if (!containerc.is(e.target)&& containerc.has(e.target).length === 0 )
+        {
+            target2.slideUp();
         }
         /*结束*/
     });
@@ -707,4 +784,136 @@ var screenWidth = window.innerWidth;
 $('#header').css('height',a+'px')
       }else{$('#header').css('height','0px')}
 });
+
+
+
+// pc语言切换逻辑
+
+doora=false;
+doorb=false;
+doorc=false;
+doorf=false;
+doord=false;
+doore=false;
+
+$('.ct').click(function(){
+    newpicsrc = $(this).children()[0].src;
+    newpicsrc = newpicsrc.replace('_1lanpic','_1lanpicb');
+    console.log(newpicsrc);
+    $(this).children().attr('src',newpicsrc); 
+    a = $(this).attr('contry');
+    if(a=='us'){
+        doora=true;
+        doorb=false;
+        doorc=false;
+        doorf=false;
+        // $('#kr').removeAttr("disabled")
+        $('#kr').css("display",'inline-block')
+        $('#cht').css("display",'inline-block')
+        $('#us img').attr('src','../shared/images/header/US_1lanpicb.png'); 
+        $('#ca img').attr('src','../shared/images/header/CA_1lanpic.png'); 
+        $('#sg img').attr('src','../shared/images/header/SG_1lanpic.png'); 
+        $('#au img').attr('src','../shared/images/header/AU_1lanpic.png'); 
+
+    }else if(a=='au'){
+        doorb = true;
+        doora=false;
+        doorc=false;
+        doorf=false;
+        // $('#kr').attr('disabled',"true");
+        $('#kr').css("display",'none')
+        $('#cht').css("display",'inline-block')
+        $('#us img').attr('src','../shared/images/header/US_1lanpic.png'); 
+        $('#ca img').attr('src','../shared/images/header/CA_1lanpic.png'); 
+        $('#sg img').attr('src','../shared/images/header/SG_1lanpic.png');
+        $('#au img').attr('src','../shared/images/header/AU_1lanpicb.png');  
+    }else if(a=='ca'){
+        doorc = true;
+        doora=false;
+        doorb=false;
+        doorf=false;
+        // $('#kr').removeAttr("disabled")
+        $('#kr').css("display",'inline-block')
+        $('#cht').css("display",'inline-block')
+        $('#us img').attr('src','../shared/images/header/US_1lanpic.png'); 
+        $('#ca img').attr('src','../shared/images/header/CA_1lanpicb.png'); 
+        $('#sg img').attr('src','../shared/images/header/SG_1lanpic.png');
+        $('#au img').attr('src','../shared/images/header/AU_1lanpic.png');  
+    }else if(a=='sg'){
+        doorf = true;
+        doora=false;
+        doorb=false;
+        doorc=false;
+        // $('#kr').attr('disabled',"true");
+        $('#kr').css("display",'none')
+        $('#cht').css("display",'none')
+        $('#us img').attr('src','../shared/images/header/US_1lanpic.png'); 
+        $('#ca img').attr('src','../shared/images/header/CA_1lanpic.png'); 
+        $('#sg img').attr('src','../shared/images/header/SG_1lanpicb.png'); 
+        $('#au img').attr('src','../shared/images/header/AU_1lanpic.png'); 
+    }
+})
+
+$('.la').click(function(){
+    $('.la').removeClass('org');
+    $(this).addClass("org");
+    l = $(this).attr('langue');
+    if(l=='cht'){
+        doord=true;
+        doore=false;
+    }else if(l=='chs'){
+        doord=true;
+        doore=false;
+    }else if(l=='en'){
+        doord=true;
+        doore=false;
+    }else if(l=='kr'){
+        doore=true;
+        doord=false;
+    }
+
+})
+
+$('#headbutton,#mheadbutton').click(function(){
+    if(doora&&doord){
+        str = window.location.href;
+        ss = str.split("/")[3];
+        kk = str.split("/")[4];
+        str = str.replace(ss,a).replace(kk,l);
+    
+        window.location.href=str; 
+    }else if(doora&&doore){
+        str = "http://www.korea.italkbb.com/koru/main.asp";
+        window.location.href=str; 
+
+    }else if(doorb&&doord){
+        str = "https://www.italkbb.com/au/chs/index.html";
+        kk = str.split("/")[4];
+        str = str.replace(kk,l);
+        window.location.href=str; 
+    }else if(doorc&&doore){
+        str = "http://www.korea.italkbb.ca/korc/main.asp";
+        window.location.href=str; 
+    }else if(doorc&&doord){
+        str = "https://www.italkbb.com/ca/chs/index.html";
+        kk = str.split("/")[4];
+        str = str.replace(kk,l);
+        window.location.href=str; 
+    }else if(doorf&&doord){
+        str = "https://www.italkbb.com/sg/chs/index.html";
+        kk = str.split("/")[4];
+        str = str.replace(kk,l);
+        window.location.href=str; 
+    }
+
+})
+
+
+
+
+
+
+
+
+
 </script>
